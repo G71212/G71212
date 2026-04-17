@@ -1036,20 +1036,20 @@ void CTradeManager::AddTrackedPosition(ulong ticket, double openPrice, double sl
    m_trackedCount++;
    ArrayResize(m_trackedPositions, m_trackedCount);
 
-   SPositionTrack &t = m_trackedPositions[m_trackedCount - 1];
-   t.ticket = ticket;
-   t.openPrice = openPrice;
-   t.initialSL = sl;
-   t.initialTP = tp;
-   t.initialLots = lots;
-   t.openTime = TimeCurrent();
-   t.beApplied = false;
-   t.tp1Hit = false;
-   t.tp2Hit = false;
-   t.tp3Hit = false;
-   t.pyramidLevel = 0;
-   t.averageLevel = 0;
-   t.gridLevel = 0;
+   int idx = m_trackedCount - 1;
+   m_trackedPositions[idx].ticket = ticket;
+   m_trackedPositions[idx].openPrice = openPrice;
+   m_trackedPositions[idx].initialSL = sl;
+   m_trackedPositions[idx].initialTP = tp;
+   m_trackedPositions[idx].initialLots = lots;
+   m_trackedPositions[idx].openTime = TimeCurrent();
+   m_trackedPositions[idx].beApplied = false;
+   m_trackedPositions[idx].tp1Hit = false;
+   m_trackedPositions[idx].tp2Hit = false;
+   m_trackedPositions[idx].tp3Hit = false;
+   m_trackedPositions[idx].pyramidLevel = 0;
+   m_trackedPositions[idx].averageLevel = 0;
+   m_trackedPositions[idx].gridLevel = 0;
 }
 
 //+------------------------------------------------------------------+
