@@ -205,14 +205,14 @@ input int      Slow_MA_Period         = 20;                   // Slow MA Period
 input ENUM_MA_METHOD MA_Method        = MODE_EMA;             // MA Method
 input ENUM_APPLIED_PRICE MA_Price     = PRICE_CLOSE;          // MA Applied Price
 input int      Signal_MA_Period       = 3;                    // Signal Line Period
-input bool     MA_Cross_Only          = false;                // Enter Only on Cross
+input bool     MA_Cross_Only          = true;                 // Enter Only on Cross
 input double   MA_Gap_Min_Points      = 5;                    // Min MA Gap (points)
 
 //+------------------------------------------------------------------+
 //| 7. ENTRY SIGNAL - RSI                                             |
 //+------------------------------------------------------------------+
 input group "=== 7. RSI Filter ==="
-input bool     Use_RSI_Filter         = true;                 // Enable RSI Filter
+input bool     Use_RSI_Filter         = false;                // Enable RSI Filter
 input int      RSI_Period             = 7;                    // RSI Period
 input ENUM_APPLIED_PRICE RSI_Price    = PRICE_CLOSE;          // RSI Applied Price
 input double   RSI_Overbought         = 70;                   // RSI Overbought
@@ -264,7 +264,7 @@ input double   BB_Squeeze_Threshold   = 0.0010;               // Squeeze Thresho
 //| 11. ENTRY SIGNAL - ATR VOLATILITY FILTER                          |
 //+------------------------------------------------------------------+
 input group "=== 11. ATR Volatility Filter ==="
-input bool     Use_ATR_Filter         = true;                 // Enable ATR Filter
+input bool     Use_ATR_Filter         = false;                // Enable ATR Filter
 input int      ATR_Filter_Period      = 14;                   // ATR Period
 input double   ATR_Min_Value          = 0.0003;               // Min ATR to Trade
 input double   ATR_Max_Value          = 0.0050;               // Max ATR to Trade
@@ -319,7 +319,7 @@ input int      PA_Lookback_Bars       = 3;                    // Lookback Bars
 //| 16. ENTRY SIGNAL - TICK / VOLUME                                  |
 //+------------------------------------------------------------------+
 input group "=== 16. Tick & Volume ==="
-input bool     Use_Tick_Volume        = true;                 // Enable Volume Filter
+input bool     Use_Tick_Volume        = false;                // Enable Volume Filter
 input int      Volume_MA_Period       = 20;                   // Volume MA Period
 input double   Volume_Multiplier      = 1.5;                  // Volume Multiplier
 input bool     Use_Delta_Volume       = false;                // Delta Volume
@@ -355,7 +355,7 @@ input group "=== 19. Timeframe & Signal Settings ==="
 input ENUM_TIMEFRAMES Signal_TF       = PERIOD_M1;            // Signal Timeframe
 input ENUM_TIMEFRAMES Higher_TF       = PERIOD_M5;            // Higher TF Filter
 input ENUM_TIMEFRAMES Confirm_TF      = PERIOD_M1;            // Confirmation TF
-input bool     Use_Higher_TF_Filter   = true;                 // Enable Higher TF Filter
+input bool     Use_Higher_TF_Filter   = false;                // Enable Higher TF Filter
 input bool     Wait_For_Bar_Close     = false;                // Wait for Bar Close
 input int      Bars_To_Analyze        = 500;                  // Bars to Analyze
 input int      Signal_Confirmation_Ticks = 3;                 // Confirmation Ticks
@@ -364,7 +364,7 @@ input int      Signal_Confirmation_Ticks = 3;                 // Confirmation Ti
 //| 20. SESSION TIME FILTERS                                          |
 //+------------------------------------------------------------------+
 input group "=== 20. Session Time Filters ==="
-input bool     Use_Time_Filter        = true;                 // Enable Time Filter
+input bool     Use_Time_Filter        = false;                // Enable Time Filter
 input string   Session1_Start         = "07:00";              // Session 1 Start (London)
 input string   Session1_End           = "12:00";              // Session 1 End
 input bool     Session1_Active        = true;                 // Session 1 Active
@@ -394,13 +394,13 @@ input bool     Trade_Sunday           = false;                // Trade Sunday
 input string   Monday_Start           = "00:00";              // Monday Start Time
 input string   Monday_End             = "23:59";              // Monday End Time
 input string   Friday_Close_Time      = "20:00";              // Friday Close Time
-input bool     Close_All_Friday       = true;                 // Close All on Friday
+input bool     Close_All_Friday       = false;                // Close All on Friday
 
 //+------------------------------------------------------------------+
 //| 22. NEWS FILTER                                                   |
 //+------------------------------------------------------------------+
 input group "=== 22. News Filter ==="
-input bool     Use_News_Filter        = true;                 // Enable News Filter
+input bool     Use_News_Filter        = false;                // Enable News Filter
 input int      News_Before_Minutes    = 30;                   // No Trade Before News (min)
 input int      News_After_Minutes     = 30;                   // No Trade After News (min)
 input bool     Filter_High_Impact     = true;                 // Filter High Impact
@@ -414,7 +414,7 @@ input bool     Close_On_News          = false;                // Close Positions
 //| 23. SPREAD CONTROL                                                |
 //+------------------------------------------------------------------+
 input group "=== 23. Spread Control ==="
-input double   Max_Spread_Points      = 20;                   // Max Spread to Open
+input double   Max_Spread_Points      = 50;                   // Max Spread to Open
 input double   Max_Spread_Close       = 30;                   // Max Spread to Close
 input bool     Pause_On_High_Spread   = true;                 // Pause on High Spread
 input double   Spread_Alert_Level     = 15;                   // Spread Alert Level
@@ -639,7 +639,7 @@ input int      Sleep_Between_Ticks_MS = 0;                    // Sleep Between T
 //| 39. ADX - TREND STRENGTH FILTER                                   |
 //+------------------------------------------------------------------+
 input group "=== 39. ADX Trend Strength ==="
-input bool     Use_ADX_Filter         = true;                 // Enable ADX Filter
+input bool     Use_ADX_Filter         = false;                // Enable ADX Filter
 input int      ADX_Period             = 14;                   // ADX Period
 input double   ADX_Min_Level          = 20.0;                 // ADX Min Level
 input double   ADX_Max_Level          = 60.0;                 // ADX Max Level
@@ -752,7 +752,7 @@ input ENUM_TIMEFRAMES VWAP_Reset_TF  = PERIOD_D1;             // VWAP Reset TF
 //| 50. CANDLE SIZE FILTER                                            |
 //+------------------------------------------------------------------+
 input group "=== 50. Candle Size Filter ==="
-input bool     Use_Candle_Filter     = true;                  // Enable Candle Filter
+input bool     Use_Candle_Filter     = false;                 // Enable Candle Filter
 input double   Min_Candle_Body_Pts   = 3;                     // Min Body (points)
 input double   Max_Candle_Body_Pts   = 100;                   // Max Body (points)
 input double   Min_Candle_Range_Pts  = 5;                     // Min Range (points)
@@ -765,7 +765,7 @@ input bool     Ignore_Doji_Candles   = true;                  // Ignore Doji
 //| 51. PRICE GAP FILTER                                              |
 //+------------------------------------------------------------------+
 input group "=== 51. Price Gap Filter ==="
-input bool     Use_Gap_Filter        = true;                  // Enable Gap Filter
+input bool     Use_Gap_Filter        = false;                 // Enable Gap Filter
 input double   Max_Gap_Points        = 50;                    // Max Gap (points)
 input bool     Skip_After_Gap        = true;                  // Skip After Gap
 input int      Skip_Bars_After_Gap   = 3;                     // Skip Bars After Gap
@@ -775,7 +775,7 @@ input bool     Close_Into_Gap        = false;                 // Close Into Gap
 //| 52. PRICE SPIKE FILTER                                            |
 //+------------------------------------------------------------------+
 input group "=== 52. Price Spike Filter ==="
-input bool     Use_Spike_Filter      = true;                  // Enable Spike Filter
+input bool     Use_Spike_Filter      = false;                 // Enable Spike Filter
 input double   Spike_Points          = 100;                   // Spike Threshold (points)
 input int      Spike_Cooldown_Bars   = 5;                     // Spike Cooldown Bars
 input bool     Close_On_Spike        = false;                 // Close on Spike
@@ -808,7 +808,7 @@ input bool     Allow_Sell_Friday     = false;                 // Allow Sell on F
 //| 55. MULTI-TIMEFRAME CONFIRMATION                                  |
 //+------------------------------------------------------------------+
 input group "=== 55. Multi-Timeframe ==="
-input bool     Require_MTF_Confirm   = true;                  // Require MTF Confirm
+input bool     Require_MTF_Confirm   = false;                 // Require MTF Confirm
 input ENUM_TIMEFRAMES MTF_TF1        = PERIOD_M5;             // MTF Timeframe 1
 input ENUM_TIMEFRAMES MTF_TF2        = PERIOD_M15;            // MTF Timeframe 2
 input ENUM_TIMEFRAMES MTF_TF3        = PERIOD_H1;             // MTF Timeframe 3
@@ -886,7 +886,7 @@ input bool     Compound_Monthly      = false;                 // Compound Monthl
 //| 62. WEEKEND / OVERNIGHT PROTECTION                                |
 //+------------------------------------------------------------------+
 input group "=== 62. Weekend/Overnight ==="
-input bool     Close_Before_Weekend  = true;                  // Close Before Weekend
+input bool     Close_Before_Weekend  = false;                 // Close Before Weekend
 input string   Weekend_Close_Time    = "23:00";               // Weekend Close Time
 input bool     Close_Before_Holidays = false;                 // Close Before Holidays
 input bool     No_New_Trades_EOD     = true;                  // No New Trades EOD
@@ -1085,7 +1085,7 @@ input double   Overlap_Lot_Multiplier= 1.5;                   // Overlap Lot Mul
 //+------------------------------------------------------------------+
 input group "=== 79. Spread Cost Awareness ==="
 input bool     Include_Spread_In_RR  = true;                  // Include Spread in R:R
-input bool     Skip_If_Spread_Kills_RR = true;                // Skip if Spread Kills R:R
+input bool     Skip_If_Spread_Kills_RR = false;               // Skip if Spread Kills R:R
 input double   Min_Net_RR_After_Spread = 1.0;                 // Min Net R:R
 input bool     Show_Effective_RR     = true;                  // Show Effective R:R
 input bool     Factor_Commission     = true;                  // Factor Commission
@@ -1148,7 +1148,7 @@ input long     Manual_Magic_Number   = 0;                     // Manual Trade Ma
 //| 84. ACCOUNT PROTECTION - FINAL LAYER                              |
 //+------------------------------------------------------------------+
 input group "=== 84. Account Protection ==="
-input double   Absolute_Min_Equity   = 1000.0;                // Absolute Min Equity (USD)
+input double   Absolute_Min_Equity   = 0;                     // Absolute Min Equity (USD)
 input double   Max_Margin_Level_Pct  = 500.0;                 // Max Margin Level (%)
 input double   Min_Free_Margin_USD   = 200.0;                 // Min Free Margin (USD)
 input bool     Check_Margin_Before_Order = true;              // Check Margin Before Order
