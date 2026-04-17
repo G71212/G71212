@@ -889,9 +889,9 @@ input group "=== 62. Weekend/Overnight ==="
 input bool     Close_Before_Weekend  = false;                 // Close Before Weekend
 input string   Weekend_Close_Time    = "23:00";               // Weekend Close Time
 input bool     Close_Before_Holidays = false;                 // Close Before Holidays
-input bool     No_New_Trades_EOD     = true;                  // No New Trades EOD
+input bool     No_New_Trades_EOD     = false;                 // No New Trades EOD
 input int      No_New_Trades_Min_EOD = 30;                    // No Trades Min Before EOD
-input bool     Avoid_Swap_Time       = true;                  // Avoid Swap Time
+input bool     Avoid_Swap_Time       = false;                 // Avoid Swap Time
 input string   Swap_Time             = "23:55";               // Swap Time
 input int      Swap_Avoid_Minutes    = 15;                    // Swap Avoid (minutes)
 
@@ -1150,7 +1150,7 @@ input long     Manual_Magic_Number   = 0;                     // Manual Trade Ma
 input group "=== 84. Account Protection ==="
 input double   Absolute_Min_Equity   = 0;                     // Absolute Min Equity (USD)
 input double   Max_Margin_Level_Pct  = 500.0;                 // Max Margin Level (%)
-input double   Min_Free_Margin_USD   = 200.0;                 // Min Free Margin (USD)
+input double   Min_Free_Margin_USD   = 0;                     // Min Free Margin (USD)
 input bool     Check_Margin_Before_Order = true;              // Check Margin Before Order
 input double   Required_Margin_Buffer= 1.5;                   // Margin Buffer Multiplier
 
@@ -4789,18 +4789,17 @@ bool CTradeManager::Init(CUtils *utils, CRiskManager *riskMgr)
 //+------------------------------------------------------------------+
 void CTradeManager::SetFillPolicy()
 {
-   switch(Order_Fill_Policy)
-   {
-      case FILL_FOK:
-         m_trade.SetTypeFilling(ORDER_FILLING_FOK);
-         break;
-      case FILL_IOC:
-         m_trade.SetTypeFilling(ORDER_FILLING_IOC);
-         break;
-      case FILL_RETURN:
-         m_trade.SetTypeFilling(ORDER_FILLING_RETURN);
-         break;
-   }
+   // Auto-detect supported fill mode from symbol properties
+   long fillMode = SymbolInfoInteger(m_symbol, SYMBOL_FILLING_MODE);
+
+   if((fillMode & SYMBOL_FILLING_FOK) != 0)
+      m_trade.SetTypeFilling(ORDER_FILLING_FOK);
+   else if((fillMode & SYMBOL_FILLING_IOC) != 0)
+      m_trade.SetTypeFilling(ORDER_FILLING_IOC);
+   else
+      m_trade.SetTypeFilling(ORDER_FILLING_RETURN);
+
+   m_utils.Log("Fill policy auto-detected. Mode flags=" + IntegerToString(fillMode), LOG_DETAIL);
 }
 
 //+------------------------------------------------------------------+
@@ -7042,23 +7041,35 @@ void OnTick()
       return;
 
    // --- Pre-trade platform checks ---
-   if(!TerminalInfoInteger(TERMINAL_TRADE_ALLOWED)) return;
-   if(!MQLInfoInteger(MQL_TRADE_ALLOWED)) return;
-   if(!AccountInfoInteger(ACCOUNT_TRADE_ALLOWED)) return;
+   if(!TerminalInfoInteger(TERMINAL_TRADE_ALLOWED)) { Print("[HFT] BLOCKED: Terminal trade not allowed"); return; }
+   if(!MQLInfoInteger(MQL_TRADE_ALLOWED)) { Print("[HFT] BLOCKED: MQL trade not allowed"); return; }
+   if(!AccountInfoInteger(ACCOUNT_TRADE_ALLOWED)) { Print("[HFT] BLOCKED: Account trade not allowed"); return; }
 
    // --- Spread check ---
-   if(!g_tradeMgr.IsSpreadOK()) return;
+   if(!g_tradeMgr.IsSpreadOK()) { Print("[HFT] BLOCKED: Spread too high: ", DoubleToString(g_utils.GetSpreadPoints(),1)); return; }
 
    // --- Session/Time filter ---
-   if(!g_sessionFilter.CanTrade()) return;
+   if(!g_sessionFilter.CanTrade()) return; // Already logs inside
 
    // --- Risk management pre-trade checks ---
-   if(!g_riskMgr.CanOpenTrade()) return;
+   if(!g_riskMgr.CanOpenTrade()) return; // Already logs inside
 
    // --- Generate trade signal ---
    int signal = g_signals.GetSignal();
 
-   if(signal == 0) return;
+   if(signal == 0)
+   {
+      static datetime lastNoSignalLog = 0;
+      if(TimeCurrent() - lastNoSignalLog >= 60) // Log once per minute
+      {
+         Print("[HFT] No signal. BuyScore=", g_signals.GetBuyScore(),
+               " SellScore=", g_signals.GetSellScore(),
+               " Spread=", DoubleToString(g_utils.GetSpreadPoints(), 1),
+               " Bars=", g_barsSinceLastTrade);
+         lastNoSignalLog = TimeCurrent();
+      }
+      return;
+   }
 
    // --- Handle opposite signal (close existing) ---
    if(Close_On_Opposite_Signal)

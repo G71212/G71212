@@ -283,23 +283,35 @@ void OnTick()
       return;
 
    // --- Pre-trade platform checks ---
-   if(!TerminalInfoInteger(TERMINAL_TRADE_ALLOWED)) return;
-   if(!MQLInfoInteger(MQL_TRADE_ALLOWED)) return;
-   if(!AccountInfoInteger(ACCOUNT_TRADE_ALLOWED)) return;
+   if(!TerminalInfoInteger(TERMINAL_TRADE_ALLOWED)) { Print("[HFT] BLOCKED: Terminal trade not allowed"); return; }
+   if(!MQLInfoInteger(MQL_TRADE_ALLOWED)) { Print("[HFT] BLOCKED: MQL trade not allowed"); return; }
+   if(!AccountInfoInteger(ACCOUNT_TRADE_ALLOWED)) { Print("[HFT] BLOCKED: Account trade not allowed"); return; }
 
    // --- Spread check ---
-   if(!g_tradeMgr.IsSpreadOK()) return;
+   if(!g_tradeMgr.IsSpreadOK()) { Print("[HFT] BLOCKED: Spread too high: ", DoubleToString(g_utils.GetSpreadPoints(),1)); return; }
 
    // --- Session/Time filter ---
-   if(!g_sessionFilter.CanTrade()) return;
+   if(!g_sessionFilter.CanTrade()) return; // Already logs inside
 
    // --- Risk management pre-trade checks ---
-   if(!g_riskMgr.CanOpenTrade()) return;
+   if(!g_riskMgr.CanOpenTrade()) return; // Already logs inside
 
    // --- Generate trade signal ---
    int signal = g_signals.GetSignal();
 
-   if(signal == 0) return;
+   if(signal == 0)
+   {
+      static datetime lastNoSignalLog = 0;
+      if(TimeCurrent() - lastNoSignalLog >= 60) // Log once per minute
+      {
+         Print("[HFT] No signal. BuyScore=", g_signals.GetBuyScore(),
+               " SellScore=", g_signals.GetSellScore(),
+               " Spread=", DoubleToString(g_utils.GetSpreadPoints(), 1),
+               " Bars=", g_barsSinceLastTrade);
+         lastNoSignalLog = TimeCurrent();
+      }
+      return;
+   }
 
    // --- Handle opposite signal (close existing) ---
    if(Close_On_Opposite_Signal)

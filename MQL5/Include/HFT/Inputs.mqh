@@ -777,9 +777,9 @@ input group "=== 62. Weekend/Overnight ==="
 input bool     Close_Before_Weekend  = false;                 // Close Before Weekend
 input string   Weekend_Close_Time    = "23:00";               // Weekend Close Time
 input bool     Close_Before_Holidays = false;                 // Close Before Holidays
-input bool     No_New_Trades_EOD     = true;                  // No New Trades EOD
+input bool     No_New_Trades_EOD     = false;                 // No New Trades EOD
 input int      No_New_Trades_Min_EOD = 30;                    // No Trades Min Before EOD
-input bool     Avoid_Swap_Time       = true;                  // Avoid Swap Time
+input bool     Avoid_Swap_Time       = false;                 // Avoid Swap Time
 input string   Swap_Time             = "23:55";               // Swap Time
 input int      Swap_Avoid_Minutes    = 15;                    // Swap Avoid (minutes)
 
@@ -1038,7 +1038,7 @@ input long     Manual_Magic_Number   = 0;                     // Manual Trade Ma
 input group "=== 84. Account Protection ==="
 input double   Absolute_Min_Equity   = 0;                     // Absolute Min Equity (USD)
 input double   Max_Margin_Level_Pct  = 500.0;                 // Max Margin Level (%)
-input double   Min_Free_Margin_USD   = 200.0;                 // Min Free Margin (USD)
+input double   Min_Free_Margin_USD   = 0;                     // Min Free Margin (USD)
 input bool     Check_Margin_Before_Order = true;              // Check Margin Before Order
 input double   Required_Margin_Buffer= 1.5;                   // Margin Buffer Multiplier
 

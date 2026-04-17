@@ -174,18 +174,17 @@ bool CTradeManager::Init(CUtils *utils, CRiskManager *riskMgr)
 //+------------------------------------------------------------------+
 void CTradeManager::SetFillPolicy()
 {
-   switch(Order_Fill_Policy)
-   {
-      case FILL_FOK:
-         m_trade.SetTypeFilling(ORDER_FILLING_FOK);
-         break;
-      case FILL_IOC:
-         m_trade.SetTypeFilling(ORDER_FILLING_IOC);
-         break;
-      case FILL_RETURN:
-         m_trade.SetTypeFilling(ORDER_FILLING_RETURN);
-         break;
-   }
+   // Auto-detect supported fill mode from symbol properties
+   long fillMode = SymbolInfoInteger(m_symbol, SYMBOL_FILLING_MODE);
+
+   if((fillMode & SYMBOL_FILLING_FOK) != 0)
+      m_trade.SetTypeFilling(ORDER_FILLING_FOK);
+   else if((fillMode & SYMBOL_FILLING_IOC) != 0)
+      m_trade.SetTypeFilling(ORDER_FILLING_IOC);
+   else
+      m_trade.SetTypeFilling(ORDER_FILLING_RETURN);
+
+   m_utils.Log("Fill policy auto-detected. Mode flags=" + IntegerToString(fillMode), LOG_DETAIL);
 }
 
 //+------------------------------------------------------------------+
