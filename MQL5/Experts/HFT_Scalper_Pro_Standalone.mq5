@@ -4673,7 +4673,6 @@ private:
    // Internal methods
    void              AddTrackedPosition(ulong ticket, double openPrice, double sl, double tp, double lots);
    void              RemoveTrackedPosition(ulong ticket);
-   SPositionTrack*   FindTrackedPosition(ulong ticket);
    int               FindTrackedIndex(ulong ticket);
 
    bool              ExecuteMarketBuy(double lots, double sl, double tp);
@@ -4695,7 +4694,7 @@ private:
    // Position management
    void              ManageTrailingStop(ulong ticket, double openPrice, double currentSL, double currentTP, bool isBuy);
    void              ManageBreakEven(ulong ticket, double openPrice, double currentSL, double currentTP, bool isBuy);
-   void              ManagePartialClose(ulong ticket, SPositionTrack &track, bool isBuy);
+   void              ManagePartialClose(ulong ticket, int trackIdx, bool isBuy);
    void              ManageTimeExpiry(ulong ticket, datetime openTime);
    void              ManageHiddenSLTP(ulong ticket, double openPrice, bool isBuy);
 
@@ -5128,8 +5127,8 @@ void CTradeManager::ManageOpenPositions()
       datetime openTime = m_posInfo.Time();
       bool isBuy = (m_posInfo.PositionType() == POSITION_TYPE_BUY);
 
-      // Find tracked position
-      SPositionTrack *track = FindTrackedPosition(ticket);
+      // Find tracked position index
+      int trackIdx = FindTrackedIndex(ticket);
 
       // Hidden SL/TP management
       if(Use_Hidden_SL || Use_Hidden_TP)
@@ -5144,8 +5143,8 @@ void CTradeManager::ManageOpenPositions()
          ManageTrailingStop(ticket, openPrice, currentSL, currentTP, isBuy);
 
       // Partial close (multi-TP)
-      if(track != NULL && (TP1_Points > 0 || TP2_Points > 0 || TP3_Points > 0))
-         ManagePartialClose(ticket, track, isBuy);
+      if(trackIdx >= 0 && (TP1_Points > 0 || TP2_Points > 0 || TP3_Points > 0))
+         ManagePartialClose(ticket, trackIdx, isBuy);
 
       // Time expiry
       if(Close_On_Time_Expiry)
@@ -5245,8 +5244,8 @@ void CTradeManager::ManageTrailingStop(ulong ticket, double openPrice, double cu
 //+------------------------------------------------------------------+
 void CTradeManager::ManageBreakEven(ulong ticket, double openPrice, double currentSL, double currentTP, bool isBuy)
 {
-   SPositionTrack *track = FindTrackedPosition(ticket);
-   if(track != NULL && track.beApplied) return; // Already applied
+   int trackIdx = FindTrackedIndex(ticket);
+   if(trackIdx >= 0 && m_trackedPositions[trackIdx].beApplied) return; // Already applied
 
    double beActivation = BE_Activation_Points * m_utils.Point();
    double beOffset = BE_Offset_Points * m_utils.Point();
@@ -5260,7 +5259,7 @@ void CTradeManager::ManageBreakEven(ulong ticket, double openPrice, double curre
          newSL = m_utils.ValidateSL(bid, newSL, true);
          if(m_trade.PositionModify(ticket, newSL, currentTP))
          {
-            if(track != NULL) track.beApplied = true;
+            if(trackIdx >= 0) m_trackedPositions[trackIdx].beApplied = true;
             m_utils.Log("BUY #" + IntegerToString(ticket) + " moved to break-even", LOG_DETAIL);
          }
       }
@@ -5274,7 +5273,7 @@ void CTradeManager::ManageBreakEven(ulong ticket, double openPrice, double curre
          newSL = m_utils.ValidateSL(ask, newSL, false);
          if(m_trade.PositionModify(ticket, newSL, currentTP))
          {
-            if(track != NULL) track.beApplied = true;
+            if(trackIdx >= 0) m_trackedPositions[trackIdx].beApplied = true;
             m_utils.Log("SELL #" + IntegerToString(ticket) + " moved to break-even", LOG_DETAIL);
          }
       }
@@ -5284,13 +5283,15 @@ void CTradeManager::ManageBreakEven(ulong ticket, double openPrice, double curre
 //+------------------------------------------------------------------+
 //| Manage partial close at TP levels                                 |
 //+------------------------------------------------------------------+
-void CTradeManager::ManagePartialClose(ulong ticket, SPositionTrack &track, bool isBuy)
+void CTradeManager::ManagePartialClose(ulong ticket, int trackIdx, bool isBuy)
 {
+   if(trackIdx < 0 || trackIdx >= m_trackedCount) return;
+
    double currentPrice = isBuy ? m_utils.GetBid() : m_utils.GetAsk();
-   double openPrice = track.openPrice;
+   double openPrice = m_trackedPositions[trackIdx].openPrice;
 
    // TP1
-   if(!track.tp1Hit && TP1_Points > 0 && TP1_Close_Percent > 0)
+   if(!m_trackedPositions[trackIdx].tp1Hit && TP1_Points > 0 && TP1_Close_Percent > 0)
    {
       double tp1Price = CalculateTP1(isBuy, openPrice);
       bool tp1Reached = isBuy ? (currentPrice >= tp1Price) : (currentPrice <= tp1Price);
@@ -5299,23 +5300,23 @@ void CTradeManager::ManagePartialClose(ulong ticket, SPositionTrack &track, bool
       {
          if(PartialClose(ticket, TP1_Close_Percent))
          {
-            track.tp1Hit = true;
+            m_trackedPositions[trackIdx].tp1Hit = true;
             m_utils.Log("#" + IntegerToString(ticket) + " TP1 hit, closed " + DoubleToString(TP1_Close_Percent, 0) + "%", LOG_BASIC);
 
             // Move to BE after TP1 if configured
-            if(BE_After_TP1 && !track.beApplied)
+            if(BE_After_TP1 && !m_trackedPositions[trackIdx].beApplied)
             {
                m_posInfo.SelectByTicket(ticket);
                double newSL = m_utils.NormalizePrice(openPrice + BE_Offset_Points * m_utils.Point() * (isBuy ? 1 : -1));
                m_trade.PositionModify(ticket, newSL, m_posInfo.TakeProfit());
-               track.beApplied = true;
+               m_trackedPositions[trackIdx].beApplied = true;
             }
          }
       }
    }
 
    // TP2
-   if(track.tp1Hit && !track.tp2Hit && TP2_Points > 0 && TP2_Close_Percent > 0)
+   if(m_trackedPositions[trackIdx].tp1Hit && !m_trackedPositions[trackIdx].tp2Hit && TP2_Points > 0 && TP2_Close_Percent > 0)
    {
       double tp2Price = CalculateTP2(isBuy, openPrice);
       bool tp2Reached = isBuy ? (currentPrice >= tp2Price) : (currentPrice <= tp2Price);
@@ -5324,14 +5325,14 @@ void CTradeManager::ManagePartialClose(ulong ticket, SPositionTrack &track, bool
       {
          if(PartialClose(ticket, TP2_Close_Percent))
          {
-            track.tp2Hit = true;
+            m_trackedPositions[trackIdx].tp2Hit = true;
             m_utils.Log("#" + IntegerToString(ticket) + " TP2 hit, closed " + DoubleToString(TP2_Close_Percent, 0) + "%", LOG_BASIC);
          }
       }
    }
 
    // TP3
-   if(track.tp2Hit && !track.tp3Hit && TP3_Points > 0 && TP3_Close_Percent > 0)
+   if(m_trackedPositions[trackIdx].tp2Hit && !m_trackedPositions[trackIdx].tp3Hit && TP3_Points > 0 && TP3_Close_Percent > 0)
    {
       double tp3Price = CalculateTP3(isBuy, openPrice);
       bool tp3Reached = isBuy ? (currentPrice >= tp3Price) : (currentPrice <= tp3Price);
@@ -5339,7 +5340,7 @@ void CTradeManager::ManagePartialClose(ulong ticket, SPositionTrack &track, bool
       if(tp3Reached)
       {
          ClosePosition(ticket); // Close remaining
-         track.tp3Hit = true;
+         m_trackedPositions[trackIdx].tp3Hit = true;
          m_utils.Log("#" + IntegerToString(ticket) + " TP3 hit, fully closed", LOG_BASIC);
       }
    }
@@ -5365,21 +5366,21 @@ void CTradeManager::ManageTimeExpiry(ulong ticket, datetime openTime)
 //+------------------------------------------------------------------+
 void CTradeManager::ManageHiddenSLTP(ulong ticket, double openPrice, bool isBuy)
 {
-   SPositionTrack *track = FindTrackedPosition(ticket);
-   if(track == NULL) return;
+   int trackIdx = FindTrackedIndex(ticket);
+   if(trackIdx < 0) return;
 
    double currentPrice = isBuy ? m_utils.GetBid() : m_utils.GetAsk();
 
    // Hidden SL
    if(Use_Hidden_SL)
    {
-      if(isBuy && currentPrice <= track.initialSL)
+      if(isBuy && currentPrice <= m_trackedPositions[trackIdx].initialSL)
       {
          m_utils.Log("#" + IntegerToString(ticket) + " hidden SL hit", LOG_BASIC);
          ClosePosition(ticket);
          return;
       }
-      if(!isBuy && currentPrice >= track.initialSL)
+      if(!isBuy && currentPrice >= m_trackedPositions[trackIdx].initialSL)
       {
          m_utils.Log("#" + IntegerToString(ticket) + " hidden SL hit", LOG_BASIC);
          ClosePosition(ticket);
@@ -5390,13 +5391,13 @@ void CTradeManager::ManageHiddenSLTP(ulong ticket, double openPrice, bool isBuy)
    // Hidden TP
    if(Use_Hidden_TP)
    {
-      if(isBuy && currentPrice >= track.initialTP)
+      if(isBuy && currentPrice >= m_trackedPositions[trackIdx].initialTP)
       {
          m_utils.Log("#" + IntegerToString(ticket) + " hidden TP hit", LOG_BASIC);
          ClosePosition(ticket);
          return;
       }
-      if(!isBuy && currentPrice <= track.initialTP)
+      if(!isBuy && currentPrice <= m_trackedPositions[trackIdx].initialTP)
       {
          m_utils.Log("#" + IntegerToString(ticket) + " hidden TP hit", LOG_BASIC);
          ClosePosition(ticket);
@@ -5541,11 +5542,11 @@ bool CTradeManager::OpenPyramidOrder(int direction, ulong parentTicket)
 {
    if(!Use_Pyramid) return false;
 
-   SPositionTrack *parent = FindTrackedPosition(parentTicket);
-   if(parent == NULL) return false;
-   if(parent.pyramidLevel >= Max_Pyramid_Levels) return false;
+   int parentIdx = FindTrackedIndex(parentTicket);
+   if(parentIdx < 0) return false;
+   if(m_trackedPositions[parentIdx].pyramidLevel >= Max_Pyramid_Levels) return false;
 
-   double lots = m_utils.NormalizeLots(parent.initialLots * MathPow(Pyramid_Lot_Ratio, parent.pyramidLevel + 1));
+   double lots = m_utils.NormalizeLots(m_trackedPositions[parentIdx].initialLots * MathPow(Pyramid_Lot_Ratio, m_trackedPositions[parentIdx].pyramidLevel + 1));
 
    bool success;
    if(direction > 0)
@@ -5554,7 +5555,7 @@ bool CTradeManager::OpenPyramidOrder(int direction, ulong parentTicket)
       success = OpenSell(lots);
 
    if(success)
-      parent.pyramidLevel++;
+      m_trackedPositions[parentIdx].pyramidLevel++;
 
    return success;
 }
@@ -5566,11 +5567,11 @@ bool CTradeManager::OpenAverageOrder(int direction, ulong parentTicket)
 {
    if(!Use_Average_Down) return false;
 
-   SPositionTrack *parent = FindTrackedPosition(parentTicket);
-   if(parent == NULL) return false;
-   if(parent.averageLevel >= Max_Average_Levels) return false;
+   int parentIdx = FindTrackedIndex(parentTicket);
+   if(parentIdx < 0) return false;
+   if(m_trackedPositions[parentIdx].averageLevel >= Max_Average_Levels) return false;
 
-   double lots = m_utils.NormalizeLots(parent.initialLots * MathPow(Average_Lot_Multiplier, parent.averageLevel + 1));
+   double lots = m_utils.NormalizeLots(m_trackedPositions[parentIdx].initialLots * MathPow(Average_Lot_Multiplier, m_trackedPositions[parentIdx].averageLevel + 1));
 
    bool success;
    if(direction > 0)
@@ -5579,7 +5580,7 @@ bool CTradeManager::OpenAverageOrder(int direction, ulong parentTicket)
       success = OpenSell(lots);
 
    if(success)
-      parent.averageLevel++;
+      m_trackedPositions[parentIdx].averageLevel++;
 
    return success;
 }
@@ -5679,19 +5680,6 @@ void CTradeManager::RemoveTrackedPosition(ulong ticket)
 
    m_trackedCount--;
    ArrayResize(m_trackedPositions, m_trackedCount);
-}
-
-//+------------------------------------------------------------------+
-//| Find tracked position pointer                                     |
-//+------------------------------------------------------------------+
-SPositionTrack* CTradeManager::FindTrackedPosition(ulong ticket)
-{
-   for(int i = 0; i < m_trackedCount; i++)
-   {
-      if(m_trackedPositions[i].ticket == ticket)
-         return GetPointer(m_trackedPositions[i]);
-   }
-   return NULL;
 }
 
 //+------------------------------------------------------------------+
