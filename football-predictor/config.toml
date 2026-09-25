@@ -8,8 +8,10 @@ timezone = "UTC"
 # and/or league codes such as "E0" or "USA". Run `footy leagues` for the list.
 leagues = ["all"]
 
-# How many days the daily report covers: 1 = today only, 2 = today + tomorrow.
-days = 2
+# How many upcoming days the daily report covers: 3 = today and the next two days.
+# The dashboard always shows Yesterday, Today and Tomorrow on the viewer's own calendar,
+# which can run a day ahead of `timezone`, so keep this at 3 or more.
+days = 3
 # Earlier days kept on the dashboard with their results (1 = yesterday, 0 = none).
 past_days = 1
 

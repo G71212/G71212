@@ -16,7 +16,7 @@ Every day it downloads the latest results, fixtures and bookmaker odds for 38 le
 - **Markdown, CSV and JSON** files, and
 - the `footy` **command-line tool**.
 
-Every published pick is graded automatically once the score is known: **✓ and the final score** when it won, **✕ and the score** when it lost, **Pending** until the match is played and **Awaiting result** after the final whistle until the score is published. Yesterday's picks stay on the dashboard (the **Yesterday** tab) with their results, the morning Telegram message starts with a recap of them, and the **track record** builds itself. Picks are never edited after they are published.
+Every published pick is graded automatically once the score is known: **✓ and the final score** when it won, **✕ and the score** when it lost, **Pending** until the match is played and **Awaiting result** after the final whistle until the score is published. The dashboard always has three day buttons, **Yesterday**, **Today** and **Tomorrow**, on your own calendar; yesterday's picks stay there with their results, the morning Telegram message starts with a recap of them, and the **track record** builds itself. Picks are never edited after they are published.
 
 No API key or paid data is needed. Everything comes from the free CSV files at [football-data.co.uk](https://www.football-data.co.uk).
 
@@ -122,7 +122,7 @@ Settings live in [`config.toml`](config.toml); every value is optional. The most
 ```toml
 timezone = "Africa/Nairobi"     # defines "today" and kick-off times
 leagues = ["top5", "E1", "USA"] # presets and/or league codes
-days = 2                        # daily report covers today + tomorrow
+days = 3                        # upcoming days in the report: today + the next two
 past_days = 1                   # also show yesterday's picks with their results (0 = off)
 
 [selection.over25]
