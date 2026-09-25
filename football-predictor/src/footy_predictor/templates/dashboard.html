@@ -234,25 +234,32 @@ footer h2 { font: 400 19px/1.2 var(--display); text-transform: uppercase; letter
 footer p { margin: 0 0 8px; max-width: 68ch; }
 .disclaimer { font-weight: 600; color: var(--ink); }
 
-/* ---- opening animation: the ball rolls in, bounces, the sign lights up ---- */
+/* ---- opening animation: the golden G ball rolls in and bounces, the sign lights up, the welcome glows ---- */
 #splash {
   position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; cursor: pointer;
   background: radial-gradient(55vmax 55vmax at 50% 42%, oklch(0.45 0.2 var(--hue) / 0.45), transparent 70%), #05050b;
-  animation: splash-out 0.5s ease 2.2s forwards;
+  animation: splash-out 0.5s ease 3.5s forwards;
 }
 .no-splash #splash { display: none; }
 .splash-stage { display: grid; justify-items: center; gap: 18px; padding-inline: 16px; }
 .ball-track { display: grid; justify-items: center; animation: roll-in 1.3s cubic-bezier(0.22, 0.8, 0.3, 1) both; }
 .ball-hop { transform-origin: 50% 100%; animation: hop 1.3s linear both; }
-.ball-svg { display: block; width: min(34vw, 150px); height: auto; animation: spin 1.3s cubic-bezier(0.22, 0.8, 0.3, 1) both; filter: drop-shadow(0 0 18px var(--neon)) drop-shadow(0 0 42px oklch(0.7 0.24 var(--hue) / 0.55)); }
-.ball-shadow { width: min(24vw, 108px); height: 14px; margin-top: 6px; border-radius: 50%; background: radial-gradient(closest-side, oklch(0.7 0.24 var(--hue) / 0.75), transparent); animation: shadow 1.3s linear both; }
+.ball-svg { display: block; width: min(34vw, 150px); height: auto; animation: spin 1.3s cubic-bezier(0.22, 0.8, 0.3, 1) both; filter: drop-shadow(0 0 16px rgba(255, 196, 64, 0.8)) drop-shadow(0 0 44px rgba(255, 160, 0, 0.4)); }
+.ball-shadow { width: min(24vw, 108px); height: 14px; margin-top: 6px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255, 190, 50, 0.7), transparent); animation: shadow 1.3s linear both; }
 .splash-title {
   font: 400 clamp(28px, 8.6vw, 60px)/1.05 var(--display); letter-spacing: 0.035em; text-align: center; text-wrap: balance;
   color: var(--neon-core); opacity: 0;
   text-shadow: 0 0 3px var(--neon-core), 0 0 14px var(--neon), 0 0 34px var(--neon), 0 0 70px oklch(0.7 0.24 var(--hue) / 0.7);
   animation: neon-on 0.9s linear 1.05s forwards;
 }
-.splash-sub { font: 600 12px/1 var(--body); letter-spacing: 0.32em; text-transform: uppercase; color: var(--ink-2); opacity: 0; animation: fade-in 0.5s ease 1.6s forwards; }
+.splash-welcome {
+  max-width: 22em; font: 600 clamp(16px, 4.6vw, 24px)/1.35 var(--body); letter-spacing: 0.04em; text-align: center; text-wrap: balance;
+  color: transparent; -webkit-background-clip: text; background-clip: text;
+  background-image: linear-gradient(100deg, #c8870f 0%, #ffd24a 30%, #fff6cf 50%, #ffd24a 70%, #c8870f 100%);
+  background-size: 200% 100%; opacity: 0;
+  animation: welcome-in 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 1.8s forwards, shimmer 2.4s linear 1.8s infinite;
+}
+.splash-welcome:empty { display: none; }
 @keyframes roll-in { from { transform: translateX(-72vw); } 72% { transform: translateX(3vw); } 88% { transform: translateX(-1vw); } to { transform: translateX(0); } }
 @keyframes spin { from { transform: rotate(-900deg); } to { transform: rotate(0deg); } }
 @keyframes hop {
@@ -265,7 +272,11 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
 }
 @keyframes shadow { 0% { transform: scale(0.25); opacity: 0.2; } 30% { transform: scale(1.1); opacity: 1; } 48% { transform: scale(0.6); opacity: 0.55; } 65% { transform: scale(1.05); opacity: 1; } 77% { transform: scale(0.85); opacity: 0.8; } 88%, 100% { transform: scale(1); opacity: 1; } }
 @keyframes neon-on { 0% { opacity: 0; } 12% { opacity: 1; } 18% { opacity: 0.15; } 30% { opacity: 1; } 36% { opacity: 0.4; } 48%, 100% { opacity: 1; } }
-@keyframes fade-in { to { opacity: 1; } }
+@keyframes welcome-in {
+  from { opacity: 0; transform: translateY(10px) scale(0.96); filter: blur(6px) drop-shadow(0 0 10px rgba(255, 190, 40, 0)); }
+  to { opacity: 1; transform: none; filter: blur(0) drop-shadow(0 0 10px rgba(255, 190, 40, 0.5)); }
+}
+@keyframes shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }
 @keyframes splash-out { to { opacity: 0; visibility: hidden; } }
 
 @media (max-width: 760px) {
@@ -294,21 +305,25 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     <div class="ball-track">
       <div class="ball-hop"><svg class="ball-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
 <defs>
-<radialGradient id="sb-shade" cx="36%" cy="30%" r="75%"><stop offset="0" stop-color="#ffffff"/><stop offset=".62" stop-color="#e6e8f4"/><stop offset="1" stop-color="#9da2c2"/></radialGradient>
-<radialGradient id="sb-panel" cx="36%" cy="30%" r="80%"><stop offset="0" stop-color="#2a2b4a"/><stop offset="1" stop-color="#0b0b18"/></radialGradient>
-<clipPath id="sb-clip"><circle cx="50" cy="50" r="47.0"/></clipPath>
+<radialGradient id="gb-gold" cx="34%" cy="28%" r="82%"><stop offset="0" stop-color="#fff8d6"/><stop offset=".28" stop-color="#ffdf6e"/><stop offset=".62" stop-color="#f0b429"/><stop offset=".86" stop-color="#b87910"/><stop offset="1" stop-color="#7a4b06"/></radialGradient>
+<radialGradient id="gb-panel" cx="34%" cy="28%" r="85%"><stop offset="0" stop-color="#c98d1c"/><stop offset=".6" stop-color="#8e5a0b"/><stop offset="1" stop-color="#4f3004"/></radialGradient>
+<linearGradient id="gb-rim" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3c0"/><stop offset=".5" stop-color="#e3a52a"/><stop offset="1" stop-color="#7a4b06"/></linearGradient>
+<radialGradient id="gb-shine"><stop offset="0" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<clipPath id="gb-clip"><circle cx="50" cy="50" r="47"/></clipPath>
 </defs>
-<circle cx="50" cy="50" r="47.0" fill="url(#sb-shade)"/>
-<g clip-path="url(#sb-clip)">
-<path d="M50.00 37.00 L62.36 45.98 L57.64 60.52 L42.36 60.52 L37.64 45.98 Z M50.00 23.00 L38.11 14.36 L42.65 0.39 L57.35 0.39 L61.89 14.36 Z M75.68 41.66 L80.22 27.68 L94.91 27.68 L99.45 41.66 L87.57 50.29 Z M65.87 71.84 L80.56 71.84 L85.11 85.82 L73.22 94.46 L61.33 85.82 Z M34.13 71.84 L38.67 85.82 L26.78 94.46 L14.89 85.82 L19.44 71.84 Z M24.32 41.66 L12.43 50.29 L0.55 41.66 L5.09 27.68 L19.78 27.68 Z" fill="url(#sb-panel)"/>
-<path d="M50.00 37.00 L50.00 23.00 M61.89 14.36 L80.22 27.68 M62.36 45.98 L75.68 41.66 M87.57 50.29 L80.56 71.84 M57.64 60.52 L65.87 71.84 M61.33 85.82 L38.67 85.82 M42.36 60.52 L34.13 71.84 M19.44 71.84 L12.43 50.29 M37.64 45.98 L24.32 41.66 M19.78 27.68 L38.11 14.36" fill="none" stroke="#3a3c5c" stroke-width="1.3" stroke-linecap="round"/>
+<circle cx="50" cy="50" r="47" fill="url(#gb-gold)"/>
+<g clip-path="url(#gb-clip)">
+<path d="M50.00 37.00 L62.36 45.98 L57.64 60.52 L42.36 60.52 L37.64 45.98 Z M50.00 23.00 L38.11 14.36 L42.65 0.39 L57.35 0.39 L61.89 14.36 Z M75.68 41.66 L80.22 27.68 L94.91 27.68 L99.45 41.66 L87.57 50.29 Z M65.87 71.84 L80.56 71.84 L85.11 85.82 L73.22 94.46 L61.33 85.82 Z M34.13 71.84 L38.67 85.82 L26.78 94.46 L14.89 85.82 L19.44 71.84 Z M24.32 41.66 L12.43 50.29 L0.55 41.66 L5.09 27.68 L19.78 27.68 Z" fill="url(#gb-panel)" opacity=".55"/>
+<path d="M50.00 37.00 L50.00 23.00 M61.89 14.36 L80.22 27.68 M62.36 45.98 L75.68 41.66 M87.57 50.29 L80.56 71.84 M57.64 60.52 L65.87 71.84 M61.33 85.82 L38.67 85.82 M42.36 60.52 L34.13 71.84 M19.44 71.84 L12.43 50.29 M37.64 45.98 L24.32 41.66 M19.78 27.68 L38.11 14.36" fill="none" stroke="#8a5a0e" stroke-width="1.3" stroke-linecap="round" opacity=".8"/>
+<ellipse cx="34" cy="24" rx="22" ry="12" transform="rotate(-24 34 24)" fill="url(#gb-shine)"/>
 </g>
-<circle cx="50" cy="50" r="47.0" fill="none" stroke="rgba(10,10,24,.35)" stroke-width="1.2"/>
+<circle cx="50" cy="50" r="46.4" fill="none" stroke="url(#gb-rim)" stroke-width="1.6" opacity=".9"/>
+<path d="M51.78 25.37Q55.64 25.37 58.54 25.58Q61.45 25.79 63.93 26.21Q66.42 26.63 68.94 27.4L67.81 38.32Q65.16 38.25 62.74 38.25Q60.33 38.25 57.73 38.22Q55.14 38.18 51.86 38.18Q49.83 38.18 48.5 38.7Q47.16 39.23 46.39 40.59Q45.62 41.96 45.31 44.38Q45 46.79 45 50.5Q45 55.4 45.55 58.03Q46.11 60.65 47.44 61.67Q48.77 62.68 51.16 62.68Q52.7 62.68 53.99 62.58Q55.28 62.47 56.34 62.26Q57.39 62.05 58.02 61.91L59.48 68.28Q58.64 69.68 56.72 71.43Q54.8 73.18 51.86 74.41Q48.91 75.63 45.06 75.63Q39.53 75.63 35.96 73.15Q32.39 70.66 30.71 65.13Q29.03 59.6 29.03 50.5Q29.03 41.19 31.24 35.7Q33.45 30.2 38.45 27.79Q43.45 25.37 51.78 25.37ZM70.97 46.86V74.65H59.77L57.8 67.16L56.41 64.57V46.86Z" fill="#150d2b" stroke="#fff4c7" stroke-width="3" stroke-linejoin="round" paint-order="stroke"/>
 </svg></div>
       <div class="ball-shadow"></div>
     </div>
     <div class="splash-title">__TITLE__</div>
-    <div class="splash-sub">Daily football predictions</div>
+    <div class="splash-welcome">__WELCOME__</div>
   </div>
 </div>
 <header class="hero">
@@ -833,7 +848,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     splash.addEventListener("click", done);
     splash.addEventListener("animationend", function (event) { if (event.target === splash) done(); });
     document.addEventListener("keydown", function (event) { if (event.key === "Escape") done(); });
-    setTimeout(done, 3200); // animations off or interrupted
+    setTimeout(done, 4500); // animations off or interrupted
   }
 })();
 </script>

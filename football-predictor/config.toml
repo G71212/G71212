@@ -87,5 +87,7 @@ send_when_empty = false
 
 [site]
 title = "GOLDING'S PREDICTION"
+# Message that glows under the title when the app opens (set to "" for none).
+welcome = "Welcome to Golding's Intelligence"
 # Public dashboard URL, linked at the bottom of Telegram messages.
 url = ""

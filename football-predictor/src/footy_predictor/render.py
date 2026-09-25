@@ -28,6 +28,7 @@ def build_report(days: list[dict], track: dict, settings, generated_at: datetime
         "app": APP_NAME,
         "version": __version__,
         "title": settings.site.title,
+        "welcome": settings.site.welcome,
         "url": settings.site.url,
         "generated_at": generated_at.astimezone(timezone.utc).replace(microsecond=0).isoformat(),
         "timezone": settings.timezone,
@@ -495,6 +496,7 @@ def render_html(report: dict, standalone: bool = True, app: bool = False) -> str
     # Escaping "<" keeps "</script>" or "<!--" inside team names from ending the block.
     payload = json.dumps(report, ensure_ascii=False).replace("<", "\\u003c")
     page = (template.replace("__TITLE__", html.escape(report["title"]))
+            .replace("__WELCOME__", html.escape(report.get("welcome") or ""))
             .replace("__REPORT_JSON__", payload))
     head, _, body = page.partition("<!--BODY-->")
     if not standalone:
