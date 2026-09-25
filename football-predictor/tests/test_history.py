@@ -96,3 +96,26 @@ def test_history_store_round_trip(tmp_path):
     store.save(record)
     assert store.load(DAY) == record
     assert store.all() == [record]
+
+
+def test_tiers_are_stored_and_bankers_have_their_own_track_record():
+    safe = prediction("Fav", "Dog", 3.4, 1.6)  # Over 2.5 ~ 90% -> banker
+    record = day_record([safe, prediction("C", "D", 1.9, 1.3)])
+    over = {p["home"]: p for p in record["picks"]["over25"]}
+    assert over["Fav"]["tier"] == "banker"
+    grade_day(record, {over["Fav"]["match_id"]: (3, 1)}, DAY + timedelta(days=1))
+    bankers = track_record([record], DAY + timedelta(days=1))["bankers"]["7d"]
+    assert bankers["settled"] >= 1 and bankers["won"] == bankers["settled"]
+
+
+def test_backfill_tiers_labels_old_picks_without_changing_them():
+    from footy_predictor.history import backfill_tiers
+    record = day_record([prediction("Fav", "Dog", 3.4, 1.6), prediction("C", "D", 1.9, 1.3)])
+    for picks in record["picks"].values():
+        for p in picks:
+            p.pop("tier")  # as published before tiers existed
+    before = {k: [dict(p) for p in v] for k, v in record["picks"].items()}
+    backfill_tiers(record, SelectionSettings())
+    assert {p["home"]: p["tier"] for p in record["picks"]["over25"]}["Fav"] == "banker"
+    for market, picks in record["picks"].items():
+        assert [{k: v for k, v in p.items() if k != "tier"} for p in picks] == before[market]

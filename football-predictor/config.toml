@@ -38,24 +38,42 @@ market_weight = 0.85
 # Both teams need at least this many recent league matches to be picked.
 min_team_matches = 4
 
-# For each market: minimum model probability, maximum picks per day, and an
-# optional minimum edge (probability x odds - 1) applied where odds exist.
+# For each market:
+#   min_probability     picks at or above this are "strong" picks (★ to ★★★)
+#   min_picks           always try to publish at least this many picks a day: if too few
+#                       matches are strong, the list is topped up with "extra" picks (☆)...
+#   floor               ...but never with a pick below this probability
+#   max_picks           most strong picks per day
+#   banker_probability  picks at or above this are "bankers" (🔒), the day's safest tips.
+#                       In backtests Double Chance at 88%+ won 94.5% and Over 2.5 at 75%+
+#                       won 87%. BTTS markets never get that certain, so they have none.
+#   min_edge            (optional) also require probability x odds - 1 >= this, where odds exist
 [selection.btts_over25]
 min_probability = 0.50
-max_picks = 10
+min_picks = 15
+floor = 0.40
+max_picks = 20
 
 [selection.over25]
 min_probability = 0.62
-max_picks = 10
+min_picks = 15
+floor = 0.50
+max_picks = 20
+banker_probability = 0.75
 # min_edge = 0.0
 
 [selection.btts]
 min_probability = 0.60
-max_picks = 10
+min_picks = 15
+floor = 0.50
+max_picks = 20
 
 [selection.double_chance]
 min_probability = 0.80
-max_picks = 10
+min_picks = 15
+floor = 0.70
+max_picks = 20
+banker_probability = 0.88
 
 [telegram]
 # Also needs the TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID environment variables.

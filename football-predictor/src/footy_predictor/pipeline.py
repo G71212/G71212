@@ -12,8 +12,8 @@ from zoneinfo import ZoneInfo
 from .config import Settings
 from .data import DataSource, Match
 from .engine import Predictor
-from .history import (HistoryStore, fixture_record, grade_day, has_started, merge_day, new_day,
-                      pending_leagues, pick_key, pick_record, track_record)
+from .history import (HistoryStore, backfill_tiers, fixture_record, grade_day, has_started,
+                      merge_day, new_day, pending_leagues, pick_key, pick_record, track_record)
 from .leagues import LEAGUES, TIER_ABOVE, League
 from .notify import NotifyError, send_telegram, telegram_credentials
 from .render import (build_report, render_csv, render_html, render_json, render_markdown,
@@ -132,6 +132,7 @@ def run_daily(settings: Settings, source: DataSource, start: date, now: datetime
         predictions = predictor.predict([m for m in fixtures if m.local_date(tz) == day], as_of=day)
         picks = select_picks(predictions, settings.selection)
         record = merge_day(store.load(day), day, predictions, picks, now)
+        backfill_tiers(record, settings.selection)
         store.save(record)
         log.info("%s: %d matches, %d picks recorded", day, len(record["fixtures"]),
                  sum(len(v) for v in record["picks"].values()))

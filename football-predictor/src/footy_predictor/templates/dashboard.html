@@ -184,6 +184,11 @@ main { padding-block: 20px 40px; }
 .bar u { position: absolute; top: -2px; bottom: -2px; left: var(--t); width: 2px; background: var(--ink); opacity: 0.45; }
 .stars { color: var(--gold); font-size: 12px; letter-spacing: 1px; line-height: 1; }
 .stars .off { color: var(--line); }
+.tier { font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; line-height: 1.2; white-space: nowrap; }
+.tier.banker { color: var(--gold); }
+.tier.extra { color: var(--ink-3); }
+.pick.is-extra { border-style: dashed; }
+.market-tag { font-size: 12px; color: var(--ink-3); }
 .price { display: grid; font-size: 13px; color: var(--ink-2); line-height: 1.25; min-width: 78px; }
 .price b { color: var(--ink); font-weight: 600; font-variant-numeric: tabular-nums; }
 .value { display: inline-block; background: var(--gold-soft); color: var(--gold); font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase; padding: 1px 6px; border-radius: 4px; margin-top: 2px; }
@@ -282,6 +287,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   <p class="dayline" id="dayline"></p>
   <div class="tiles" id="tiles" role="tablist" aria-label="Markets"></div>
   <div class="subtabs" role="tablist" aria-label="More views">
+    <button class="subtab" role="tab" id="tab-bankers" data-tab="bankers" aria-selected="false">🔒 Bankers</button>
     <button class="subtab" role="tab" id="tab-matches" data-tab="matches" aria-selected="false">All matches</button>
     <button class="subtab" role="tab" id="tab-record" data-tab="record" aria-selected="false">Track record</button>
   </div>
@@ -340,10 +346,26 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     if (sameDay(d, tomorrow)) return "Tomorrow";
     return fmtWeekday.format(d);
   }
-  function stars(p, threshold) {
-    var margin = p - threshold, n = margin >= 0.10 ? 3 : margin >= 0.05 ? 2 : 1;
+  function tierOf(pick, market) {
+    if (pick.tier === "banker" || pick.tier === "strong" || pick.tier === "extra") return pick.tier;
+    return pick.probability >= market.min_probability ? "strong" : "extra";
+  }
+  function stars(pick, market) {
+    var tier = tierOf(pick, market);
+    if (tier === "banker") return '<span class="tier banker" title="Banker: one of the day\'s safest tips">🔒 Banker</span>';
+    if (tier === "extra") return '<span class="tier extra" title="Extra pick below the usual confidence bar, added to reach ' + market.min_picks + ' picks">☆ Extra</span>';
+    var margin = pick.probability - market.min_probability, n = margin >= 0.10 ? 3 : margin >= 0.05 ? 2 : 1;
     return '<span class="stars" title="' + n + ' of 3 confidence stars" aria-label="' + n + ' of 3 stars">' +
       "★".repeat(n) + '<span class="off">' + "★".repeat(3 - n) + "</span></span>";
+  }
+  function dayBankers(day) {
+    var out = [];
+    markets.forEach(function (m) {
+      ((day && day.picks[m.key]) || []).forEach(function (p) {
+        if (tierOf(p, m) === "banker") out.push({ market: m, pick: p });
+      });
+    });
+    return out.sort(function (a, b) { return b.pick.probability - a.pick.probability; });
   }
   function statusPill(pick) {
     var s = pick.status || "pending";
@@ -436,11 +458,12 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
         '<span class="tile-count">' + picks.length + "<small>" + (picks.length === 1 ? "pick" : "picks") + "</small></span>" +
         '<span class="tile-top">' + top + "</span></button>";
     }).join("");
-    ["matches", "record"].forEach(function (key) {
+    ["bankers", "matches", "record"].forEach(function (key) {
       document.getElementById("tab-" + key).setAttribute("aria-selected", String(state.tab === key));
     });
     var matchesTab = document.getElementById("tab-matches");
     matchesTab.textContent = "All matches" + (day ? " (" + day.fixtures.length + ")" : "");
+    document.getElementById("tab-bankers").textContent = "🔒 Bankers (" + dayBankers(day).length + ")";
   }
   function renderDayline() {
     var day = currentDay(), el = document.getElementById("dayline");
@@ -463,33 +486,49 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
       btts: "Both teams score at least once.",
       double_chance: "Two of the three results covered: 1X (home or draw), X2 (away or draw) or 12 (no draw)."
     }[key] || "";
-    var head = '<div class="panel-head"><h2>' + esc(m.title) + "</h2><p>" + intro + " Picks need at least " +
-      pct(m.min_probability) + " model probability; most confident first.</p></div>";
+    var topUp = m.min_picks ? " If fewer than " + m.min_picks + " matches reach that, the list is topped up with ☆ extra picks down to " +
+      pct(m.floor) + "." : "";
+    var head = '<div class="panel-head"><h2>' + esc(m.title) + "</h2><p>" + intro + " Strong picks need at least " +
+      pct(m.min_probability) + " model probability." + topUp + " Most likely first.</p></div>";
     if (!day || !day.fixtures.length) {
       return head + '<div class="empty"><strong>No upcoming matches for this day.</strong>' +
         "Fixtures come from football-data.co.uk, which publishes weekend games on Friday afternoon and midweek games on Tuesday afternoon (UK time). This page updates twice a day.</div>";
     }
     if (!picks.length) {
       return head + '<div class="empty"><strong>No picks for this market.</strong>None of the ' + day.fixtures.length +
-        " matches reached the " + pct(m.min_probability) + " threshold. Check the All matches tab for every probability.</div>";
+        " matches reached " + pct(m.floor || m.min_probability) + ". Check the All matches tab for every probability.</div>";
     }
-    return head + '<ol class="picks">' + picks.map(function (p) {
-      var f = fx[p.match_id];
-      var isDc = key === "double_chance";
-      var edge = p.edge != null && p.edge >= 0.01 ? '<span class="value" title="Model probability × odds − 1">Edge +' + Math.round(p.edge * 100) + "%</span>" : "";
-      var priceLines = "<span>Fair <b>" + odds(p.fair_odds) + "</b></span>" +
-        (p.market_odds ? "<span>Odds <b>" + odds(p.market_odds) + "</b></span>" : "") + edge;
-      return '<li><details class="pick"><summary>' +
-        '<span class="ko"><b>' + kickoff(p.kickoff) + "</b><small>" + (p.kickoff ? esc(fmtWeekday.format(new Date(p.kickoff))) : "") + "</small></span>" +
-        '<span class="teams"><span class="league">' + esc(f ? f.league_name : p.league) + '</span><span class="match">' +
-        esc(p.home) + " <i>v</i> " + esc(p.away) + "</span></span>" +
-        '<span class="meta"><span class="tip' + (isDc ? " dc" : "") + '">' + esc(p.selection) + "</span>" +
-        '<span class="prob"><b>' + pct(p.probability) + '</b><span class="bar" aria-hidden="true"><i style="--p:' +
-        (p.probability * 100).toFixed(1) + '%"></i><u style="--t:' + (m.min_probability * 100).toFixed(1) + '%"></u></span>' +
-        stars(p.probability, m.min_probability) + "</span>" +
-        '<span class="price">' + priceLines + "</span>" + statusPill(p) + "</span>" +
-        "</summary>" + detail(f) + "</details></li>";
-    }).join("") + "</ol>";
+    return head + '<ol class="picks">' + picks.map(function (p) { return pickRow(p, m, fx[p.match_id], false); }).join("") + "</ol>";
+  }
+
+  function pickRow(p, m, f, showMarket) {
+    var isDc = m.key === "double_chance";
+    var edge = p.edge != null && p.edge >= 0.01 ? '<span class="value" title="Model probability × odds − 1">Edge +' + Math.round(p.edge * 100) + "%</span>" : "";
+    var priceLines = "<span>Fair <b>" + odds(p.fair_odds) + "</b></span>" +
+      (p.market_odds ? "<span>Odds <b>" + odds(p.market_odds) + "</b></span>" : "") + edge;
+    var where = esc(f ? f.league_name : p.league) + (showMarket ? ' · <span class="market-tag">' + esc(m.title) + "</span>" : "");
+    return '<li><details class="pick' + (tierOf(p, m) === "extra" ? " is-extra" : "") + '"><summary>' +
+      '<span class="ko"><b>' + kickoff(p.kickoff) + "</b><small>" + (p.kickoff ? esc(fmtWeekday.format(new Date(p.kickoff))) : "") + "</small></span>" +
+      '<span class="teams"><span class="league">' + where + '</span><span class="match">' +
+      esc(p.home) + " <i>v</i> " + esc(p.away) + "</span></span>" +
+      '<span class="meta"><span class="tip' + (isDc ? " dc" : "") + '">' + esc(p.selection) + "</span>" +
+      '<span class="prob"><b>' + pct(p.probability) + '</b><span class="bar" aria-hidden="true"><i style="--p:' +
+      (p.probability * 100).toFixed(1) + '%"></i><u style="--t:' + (m.min_probability * 100).toFixed(1) + '%"></u></span>' +
+      stars(p, m) + "</span>" +
+      '<span class="price">' + priceLines + "</span>" + statusPill(p) + "</span>" +
+      "</summary>" + detail(f) + "</details></li>";
+  }
+
+  function renderBankers() {
+    var day = currentDay(), fx = fixtureMap(day), list = dayBankers(day);
+    var rules = markets.filter(function (m) { return m.banker_probability != null; })
+      .map(function (m) { return esc(m.title) + " at " + pct(m.banker_probability) + "+"; }).join(" and ");
+    var head = '<div class="panel-head"><h2>🔒 Bankers</h2><p>The day\'s safest tips: ' + (rules || "none configured") +
+      ". In backtests these won about 9 times in 10 (Double Chance 88%+: 94.5%, Over 2.5 75%+: 87%). They still lose sometimes.</p></div>";
+    if (!list.length) {
+      return head + '<div class="empty"><strong>No bankers for this day.</strong>No match reached the banker level. That is normal on quieter days; the other tabs still have the best picks available.</div>';
+    }
+    return head + '<ol class="picks">' + list.map(function (b) { return pickRow(b.pick, b.market, fx[b.pick.match_id], true); }).join("") + "</ol>";
   }
 
   var sorters = {
@@ -579,7 +618,8 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   function renderRecord() {
     var rec = report.track_record || {};
     var head = '<div class="panel-head"><h2>Track record</h2><p>Every published pick is graded automatically once the final score is in. Picks are never edited after publication. Expected is the average probability the model gave those picks.</p></div>';
-    var cards = markets.map(function (m) {
+    var groups = [{ key: "bankers", title: "🔒 Bankers" }].concat(markets);
+    var cards = groups.map(function (m) {
       var r = rec[m.key];
       if (!r) return "";
       function col(label, s) {
@@ -602,11 +642,14 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     var panel = document.getElementById("panel");
     if (state.tab === "matches") panel.innerHTML = renderMatches();
     else if (state.tab === "record") panel.innerHTML = renderRecord();
+    else if (state.tab === "bankers") panel.innerHTML = renderBankers();
     else panel.innerHTML = renderMarket(state.tab);
   }
 
+  function isView(tab) { return !!marketByKey[tab] || tab === "matches" || tab === "record" || tab === "bankers"; }
+
   function setTab(tab) {
-    if (!marketByKey[tab] && tab !== "matches" && tab !== "record") return;
+    if (!isView(tab)) return;
     state.tab = tab;
     try { history.replaceState(null, "", "#" + tab); } catch (e) { /* ignore */ }
     try { localStorage.setItem("footy-tab", tab); } catch (e) { /* ignore */ }
@@ -641,7 +684,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
 
   var initial = (location.hash || "").replace("#", "");
   if (!initial) { try { initial = localStorage.getItem("footy-tab") || ""; } catch (e) { initial = ""; } }
-  if (initial && (marketByKey[initial] || initial === "matches" || initial === "record")) state.tab = initial;
+  if (initial && isView(initial)) state.tab = initial;
   // Open on the first day that still has matches to come (late-evening runs have none for today).
   var firstWithMatches = (report.days || []).findIndex(function (d) { return d.fixtures && d.fixtures.length; });
   if (firstWithMatches > 0) state.day = firstWithMatches;

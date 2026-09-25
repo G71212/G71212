@@ -15,7 +15,7 @@ from typing import Iterable
 
 from .engine import Prediction
 from .leagues import LEAGUES
-from .selection import MARKETS, Pick, is_winner
+from .selection import MARKETS, Pick, SelectionSettings, is_winner
 
 VOID_AFTER_DAYS = 10  # no result this long after the match date -> void (postponed)
 
@@ -74,6 +74,7 @@ def pick_record(pick: Pick, now: datetime) -> dict:
         "home": m.home,
         "away": m.away,
         "selection": pick.selection,
+        "tier": pick.tier,
         "probability": round(pick.probability, 4),
         "fair_odds": round(pick.fair_odds, 2),
         "market_odds": _round(pick.market_odds, 2),
@@ -140,6 +141,16 @@ def merge_day(existing: dict | None, day: date, predictions: Iterable[Prediction
     return record
 
 
+def backfill_tiers(record: dict, selection: SelectionSettings) -> None:
+    """Label picks published before tiers existed. The tier only restates the
+    published probability against the thresholds; the pick itself is unchanged."""
+    for market, picks in record["picks"].items():
+        if market not in MARKETS:
+            continue
+        for pick in picks:
+            pick.setdefault("tier", selection.rule(market).tier(pick["probability"]))
+
+
 def grade_day(record: dict, results: dict[str, tuple[int, int]], today: date) -> bool:
     """Attach final scores and settle picks. Returns True if anything changed."""
     changed = False
@@ -193,18 +204,20 @@ def _summary(picks: list[dict]) -> dict:
 
 
 def track_record(records: Iterable[dict], today: date) -> dict:
-    """Hit rates per market over the last 7 days, 30 days and all time."""
+    """Hit rates per market (plus all bankers together) over 7 days, 30 days and all time."""
     records = list(records)
+    groups = {market: (lambda p, m=market: p["market"] == m) for market in MARKETS}
+    groups["bankers"] = lambda p: p.get("tier") == "banker"
     out = {}
-    for market in MARKETS:
+    for group, wanted in groups.items():
         windows = {}
         for label, days in (("7d", 7), ("30d", 30), ("all", None)):
             start = None if days is None else today - timedelta(days=days)
             picks = [p for r in records
                      if start is None or date.fromisoformat(r["date"]) > start
-                     for p in r["picks"].get(market, [])]
+                     for market_picks in r["picks"].values() for p in market_picks if wanted(p)]
             windows[label] = _summary(picks)
-        out[market] = windows
+        out[group] = windows
     return out
 
 
