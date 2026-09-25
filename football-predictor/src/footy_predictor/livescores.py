@@ -164,7 +164,7 @@ def _get(token: str, path: str, params: dict, timeout: float) -> dict:
 def _error_message(exc: urllib.error.HTTPError) -> str:
     try:
         data = json.loads(exc.read().decode("utf-8"))
-        return str(data.get("message", ""))[:200] if isinstance(data, dict) else ""
+        return str(data.get("message", ""))[:200].rstrip(".") if isinstance(data, dict) else ""
     except Exception:  # noqa: BLE001 - best effort only
         return ""
 

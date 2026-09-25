@@ -211,10 +211,11 @@ def cmd_livecheck(args: argparse.Namespace) -> int:
     settings = _settings(args)
     today = _now().astimezone(settings.tz).date()
     end = today - timedelta(days=1)
-    start = end - timedelta(days=max(args.days, 1) - 1)
+    start = end - timedelta(days=max(args.check_days, 1) - 1)
     source = _source(settings, args, today)
     leagues = [LEAGUES[code] for code in COMPETITIONS]
-    source.prefetch(leagues, start, end)
+    if hasattr(source, "prefetch"):
+        source.prefetch(leagues, start, end)
     ours = [m for league in leagues for m in source.results(league, start, end)]
     try:
         scores = fetch_scores(token, start, end, COMPETITIONS.values())
@@ -309,7 +310,9 @@ def build_parser() -> argparse.ArgumentParser:
 
     lc = sub.add_parser("livecheck", parents=[common],
                         help=f"compare football-data.org scores with football-data.co.uk ({TOKEN_ENV})")
-    lc.add_argument("--days", type=int, default=10, help="how many past days to compare (default 10)")
+    # Its own dest: "days" would override the report's `days` setting in _settings().
+    lc.add_argument("--days", dest="check_days", type=int, default=10,
+                    help="how many past days to compare (default 10)")
     lc.set_defaults(func=cmd_livecheck)
 
     lg = sub.add_parser("leagues", help="list supported leagues")
