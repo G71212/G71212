@@ -22,6 +22,18 @@ No API key or paid data is needed. Everything comes from the free CSV files at [
 
 ---
 
+## Install it as an app (desktop or phone)
+
+Once the dashboard is online (see [Daily delivery](#daily-delivery-with-github-actions); it needs GitHub Pages switched on), open it at `https://<your-user>.github.io/<repo>/` and install it:
+
+- **Windows / Mac / Linux, Chrome or Edge:** click the install icon at the right end of the address bar (a monitor with a down arrow), or ⋮ menu → **Cast, save and share → Install page as app**, then **Install**. It gets its own window, a desktop or Start-menu icon, and a taskbar or dock entry.
+- **Android, Chrome:** ⋮ menu → **Install app** (or **Add to Home screen**).
+- **iPhone / iPad, Safari:** Share → **Add to Home Screen**.
+
+The installed app refreshes itself from the site every time you open it, and still opens with the last predictions when you're offline. To remove it, right-click its icon and choose uninstall, as with any app.
+
+---
+
 ## Quick start
 
 Requires Python 3.11+.

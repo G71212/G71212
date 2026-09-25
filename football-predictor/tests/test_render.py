@@ -107,3 +107,8 @@ def test_bankers_and_extra_picks_are_labelled():
     assert "Bankers: the day's safest tips" in tg and "☆" in tg
     assert "extra pick below the usual confidence bar" in tg
     assert "(extra)" in render_csv(rep)
+
+
+def test_single_file_html_has_no_app_links():
+    page = render_html(report(n=1))
+    assert "manifest.webmanifest" not in page and "serviceWorker" not in page

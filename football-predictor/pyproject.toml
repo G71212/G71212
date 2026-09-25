@@ -23,7 +23,7 @@ footy = "footy_predictor.cli:main"
 where = ["src"]
 
 [tool.setuptools.package-data]
-footy_predictor = ["templates/*.html"]
+footy_predictor = ["templates/*.html", "templates/static/*"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
