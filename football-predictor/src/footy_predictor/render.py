@@ -404,6 +404,9 @@ def render_json(report: dict) -> str:
 APP_FILES = ("icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png",
              "favicon-32.png", "sw.js")
 THEME_COLOR = "#05050b"
+# Bump when the icon artwork changes: the new URLs make browsers and installed apps
+# fetch the new pictures instead of reusing cached ones.
+ICON_VERSION = "2"
 
 
 def short_app_name(title: str) -> str:
@@ -426,9 +429,10 @@ def render_manifest(report: dict) -> str:
         "background_color": THEME_COLOR,
         "theme_color": THEME_COLOR,
         "icons": [
-            {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
-            {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
-            {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+            {"src": f"icon-192.png?v={ICON_VERSION}", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+            {"src": f"icon-512.png?v={ICON_VERSION}", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+            {"src": f"icon-maskable-512.png?v={ICON_VERSION}", "sizes": "512x512", "type": "image/png",
+             "purpose": "maskable"},
         ],
     }
     return json.dumps(manifest, indent=1, ensure_ascii=False) + "\n"
@@ -441,8 +445,8 @@ def app_file(name: str) -> bytes:
 _APP_HEAD = (
     '<link rel="manifest" href="manifest.webmanifest">\n'
     f'<meta name="theme-color" content="{THEME_COLOR}">\n'
-    '<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">\n'
-    '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n'
+    f'<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png?v={ICON_VERSION}">\n'
+    f'<link rel="apple-touch-icon" href="apple-touch-icon.png?v={ICON_VERSION}">\n'
     '<meta name="mobile-web-app-capable" content="yes">\n'
 )
 # Keeps an installed app current. The page is always fetched fresh when the app opens, but
