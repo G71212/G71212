@@ -5,6 +5,8 @@ import pytest
 
 import footy_predictor.cli as cli
 from footy_predictor.config import ConfigError, load_settings
+from footy_predictor.data import Match
+from footy_predictor.livescores import Score
 from helpers import FakeSource, fixture, synthetic_league
 
 
@@ -80,3 +82,26 @@ def test_cli_leagues(capsys):
     assert cli.main(["leagues"]) == 0
     out = capsys.readouterr().out
     assert "E0" in out and "USA" in out
+
+
+def test_cli_livecheck_compares_the_two_sources(monkeypatch, capsys, tmp_path):
+    day = date(2026, 9, 19)
+    kickoff = datetime(2026, 9, 19, 14, 0, tzinfo=timezone.utc)
+    ours = [Match("E0", "2627", day, "Man United", "Chelsea", kickoff, 2, 1),
+            Match("E0", "2627", day, "Wolves", "Everton", kickoff, 0, 0),
+            Match("E0", "2627", day, "Brentford", "Fulham", kickoff, 1, 1)]
+    scores = [Score("PL", kickoff, ("Manchester United FC",), ("Chelsea FC",), 2, 1),
+              Score("PL", kickoff, ("Wolverhampton Wanderers FC",), ("Everton FC",), 1, 0),
+              Score("PL", kickoff, ("Sunderland AFC",), ("Leeds United FC",), 3, 3)]
+    monkeypatch.setenv("FOOTBALL_DATA_API_KEY", "key")
+    monkeypatch.setattr(cli, "_source", lambda settings, args, today: FakeSource({"E0": ours}))
+    monkeypatch.setattr(cli, "_now", lambda: datetime(2026, 9, 25, 22, 0, tzinfo=timezone.utc))
+    monkeypatch.setattr(cli, "fetch_scores", lambda token, start, end, codes: scores)
+    monkeypatch.chdir(tmp_path)
+    assert cli.main(["livecheck", "--days", "10"]) == 0
+    out = capsys.readouterr().out
+    row = next(line for line in out.splitlines() if line.startswith("England · Premier League"))
+    assert row.split()[-3:] == ["3", "2", "1"]  # results, matched, same score
+    assert "Wolves v Everton: 0-0 vs 1-0" in out
+    assert "E0 2026-09-19 Brentford v Fulham" in out
+    assert "Sunderland AFC v Leeds United FC" in out
