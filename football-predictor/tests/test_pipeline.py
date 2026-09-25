@@ -9,6 +9,7 @@ import footy_predictor.pipeline as pipeline
 from footy_predictor.config import Settings
 from footy_predictor.data import Match
 from footy_predictor.history import HistoryStore
+from footy_predictor.livescores import LiveScoreError, Score
 from helpers import FakeSource, fixture, synthetic_league
 
 DAY = date(2026, 5, 30)  # the synthetic 2025/26 season ends before this
@@ -157,6 +158,64 @@ def test_report_covers_yesterday_and_three_upcoming_days_by_default(world, tmp_p
     # Viewers a day ahead of the site's time zone still get a "tomorrow".
     assert [d["date"] for d in result.report["days"]] == [str(DAY + timedelta(days=i)) for i in range(4)]
     assert (tmp_path / "site" / "data" / f"{DAY + timedelta(days=3)}.json").exists()
+
+
+def test_faster_scores_grade_picks_until_the_main_source_confirms(tmp_path, monkeypatch):
+    names = ["Arsenal", "Chelsea", "Everton", "Fulham", "Liverpool", "Brentford",
+             "Burnley", "Wolves", "Man United", "Man City", "Newcastle", "Tottenham"]
+    results, _ = synthetic_league("E0", teams=names, seasons=(2023, 2024, 2025), seed=9)
+    fixtures = [fixture("E0", DAY, names[i], names[i + 6], hour=14 + i % 3, odds_1x2=(2.2, 3.4, 3.3),
+                        odds_ou25=(1.85, 2.0)) for i in range(6)]
+    source = FakeSource({"E0": results}, list(fixtures))
+    settings = Settings(leagues=["E0"], days=2)
+    settings.selection.min_team_matches = 1
+    for market in ("btts_over25", "over25", "btts", "double_chance"):
+        settings.selection.rule(market).min_probability = 0.3
+    pipeline.run_daily(settings, source, DAY, MORNING, tmp_path / "h", None, notify=False)
+
+    official = {"Wolves": "Wolverhampton Wanderers FC", "Man United": "Manchester United FC",
+                "Man City": "Manchester City FC", "Newcastle": "Newcastle United FC",
+                "Tottenham": "Tottenham Hotspur FC"}
+    requested = []
+
+    def fake_fetch(token, start, end, competitions):
+        requested.append((token, start, end, set(competitions)))
+        return [Score("PL", f.kickoff, (official.get(f.home, f"{f.home} FC"),),
+                      (official.get(f.away, f"{f.away} FC"),), 0, 0) for f in fixtures]
+
+    monkeypatch.setenv("FOOTBALL_DATA_API_KEY", "key")
+    monkeypatch.setattr(pipeline, "fetch_scores", fake_fetch)
+    source._fixtures = []
+    evening = datetime(2026, 5, 30, 21, 45, tzinfo=timezone.utc)
+    result = pipeline.run_daily(settings, source, DAY, evening, tmp_path / "h", None, notify=False)
+    assert requested == [("key", DAY - timedelta(days=1), DAY, {"PL"})]
+    record = HistoryStore(tmp_path / "h").load(DAY)
+    assert all(f["result"] == [0, 0] for f in record["fixtures"])
+    over25 = record["picks"]["over25"]
+    assert over25 and all(p["status"] == "lost" and p["provisional"] for p in over25)  # 0-0
+    assert "Premier League" in result.report["fast_results"]
+    # Days later football-data.co.uk publishes its scores (2-1): the grades are corrected.
+    source._results["E0"] = results + [Match(f.league, f.season, f.date, f.home, f.away, f.kickoff, 2, 1)
+                                       for f in fixtures]
+    pipeline.run_daily(settings, source, DAY + timedelta(days=2), MORNING + timedelta(days=2),
+                       tmp_path / "h", None, notify=False)
+    over25 = HistoryStore(tmp_path / "h").load(DAY)["picks"]["over25"]
+    assert all(p["status"] == "won" and "provisional" not in p for p in over25)
+
+
+def test_faster_scores_problems_never_stop_the_daily_run(world, tmp_path, monkeypatch):
+    settings, source, _ = world
+    pipeline.run_daily(settings, source, DAY, MORNING, tmp_path / "h", None, notify=False)
+    monkeypatch.setenv("FOOTBALL_DATA_API_KEY", "bad-key")
+
+    def refuse(*args, **kwargs):
+        raise LiveScoreError("football-data.org refused the request (HTTP 403)")
+
+    monkeypatch.setattr(pipeline, "fetch_scores", refuse)
+    evening = datetime(2026, 5, 30, 21, 45, tzinfo=timezone.utc)
+    result = pipeline.run_daily(settings, source, DAY, evening, tmp_path / "h", tmp_path / "site", notify=False)
+    assert (tmp_path / "site" / "index.html").exists()
+    assert all(p["status"] == "pending" for p in result.report["days"][0]["picks"]["over25"])
 
 
 def test_past_days_can_be_turned_off(world, tmp_path):

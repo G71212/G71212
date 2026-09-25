@@ -17,6 +17,7 @@ from .data import DataError, FootballDataSource, HttpCache
 from .engine import Predictor
 from .history import HistoryStore, track_record
 from .leagues import LEAGUES, MAIN_LEAGUES, EXTRA_LEAGUES, PRESETS, TIER_ABOVE
+from .livescores import COMPETITIONS, TOKEN_ENV, LiveScoreError, Wanted, api_token, fetch_scores, pair_scores
 from .pipeline import predict_days, run_daily
 from .render import (build_report, render_csv, render_html, render_json, render_markdown,
                      render_text, today_index)
@@ -201,6 +202,57 @@ def cmd_ratings(args: argparse.Namespace) -> int:
     return 0
 
 
+def cmd_livecheck(args: argparse.Namespace) -> int:
+    """Compare football-data.org scores with football-data.co.uk results on recent days."""
+    token = api_token()
+    if token is None:
+        print(f"Set {TOKEN_ENV} to your football-data.org API key first.", file=sys.stderr)
+        return 1
+    settings = _settings(args)
+    today = _now().astimezone(settings.tz).date()
+    end = today - timedelta(days=1)
+    start = end - timedelta(days=max(args.days, 1) - 1)
+    source = _source(settings, args, today)
+    leagues = [LEAGUES[code] for code in COMPETITIONS]
+    source.prefetch(leagues, start, end)
+    ours = [m for league in leagues for m in source.results(league, start, end)]
+    try:
+        scores = fetch_scores(token, start, end, COMPETITIONS.values())
+    except LiveScoreError as exc:
+        print(f"football-data.org check failed: {exc}", file=sys.stderr)
+        return 1
+    pairs = pair_scores([Wanted(m.id, m.league, m.kickoff, m.date, m.home, m.away) for m in ours], scores)
+    print(f"football-data.org vs football-data.co.uk, {start} to {end}")
+    print(f"football-data.org: {len(scores)} finished matches · football-data.co.uk: {len(ours)} results\n")
+    print(f"{'League':34s} {'results':>8s} {'matched':>8s} {'same score':>11s}")
+    different = []
+    for league in leagues:
+        played = [m for m in ours if m.league == league.code]
+        matched = [m for m in played if m.id in pairs]
+        same = [m for m in matched
+                if (pairs[m.id].home_goals, pairs[m.id].away_goals) == (m.home_goals, m.away_goals)]
+        different += [m for m in matched if m not in same]
+        print(f"{league.label:34s} {len(played):8d} {len(matched):8d} {len(same):11d}")
+    unmatched = [m for m in ours if m.id not in pairs]
+    used = {id(s) for s in pairs.values()}
+    spare = [s for s in scores if id(s) not in used]
+    if different:
+        print("\nDifferent scores (football-data.co.uk vs football-data.org):")
+        for m in different:
+            s = pairs[m.id]
+            print(f"  {m.league} {m.date} {m.home} v {m.away}: {m.home_goals}-{m.away_goals} vs "
+                  f"{s.home_goals}-{s.away_goals} ({s.home[0]} v {s.away[0]})")
+    if unmatched:
+        print("\nNo football-data.org match found for:")
+        for m in unmatched:
+            print(f"  {m.league} {m.date} {m.home} v {m.away}")
+    if spare:
+        print("\nfootball-data.org matches not paired with a football-data.co.uk result:")
+        for s in spare:
+            print(f"  {s.competition} {s.kickoff:%Y-%m-%d %H:%M} {' / '.join(s.home)} v {' / '.join(s.away)}")
+    return 0
+
+
 # --------------------------------------------------------------------------- parser
 
 
@@ -254,6 +306,11 @@ def build_parser() -> argparse.ArgumentParser:
     t.add_argument("--date", help="ratings as of this date (default: today)")
     t.add_argument("--all", action="store_true", help="include teams no longer in the league")
     t.set_defaults(func=cmd_ratings)
+
+    lc = sub.add_parser("livecheck", parents=[common],
+                        help=f"compare football-data.org scores with football-data.co.uk ({TOKEN_ENV})")
+    lc.add_argument("--days", type=int, default=10, help="how many past days to compare (default 10)")
+    lc.set_defaults(func=cmd_livecheck)
 
     lg = sub.add_parser("leagues", help="list supported leagues")
     lg.set_defaults(func=cmd_leagues, verbose=False)

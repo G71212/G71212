@@ -151,33 +151,55 @@ def backfill_tiers(record: dict, selection: SelectionSettings) -> None:
             pick.setdefault("tier", selection.rule(market).tier(pick["probability"]))
 
 
-def grade_day(record: dict, results: dict[str, tuple[int, int]], today: date) -> bool:
-    """Attach final scores and settle picks. Returns True if anything changed."""
+def grade_day(record: dict, results: dict[str, tuple[int, int]], today: date,
+              provisional: bool = False) -> bool:
+    """Attach final scores and settle picks. Returns True if anything changed.
+
+    ``provisional`` scores (from football-data.org, which is faster) settle picks
+    straight away but stay flagged until football-data.co.uk, the main source,
+    has the same match: its score then confirms the grade, or corrects it.
+    """
     changed = False
     for fixture in record["fixtures"]:
         score = results.get(fixture["id"])
-        if score is not None and fixture.get("result") != list(score):
+        if score is None or (provisional and fixture.get("result") is not None):
+            continue
+        if fixture.get("result") != list(score) or bool(fixture.get("provisional")) != provisional:
             fixture["result"] = list(score)
+            _mark(fixture, provisional)
             changed = True
     stale = (today - date.fromisoformat(record["date"])).days > VOID_AFTER_DAYS
     for market, picks in record["picks"].items():
         for pick in picks:
-            if pick["status"] not in ("pending", "void"):
+            settled = pick["status"] in ("won", "lost")
+            if settled and (provisional or not pick.get("provisional")):
                 continue
             score = results.get(pick["match_id"])
             if score is not None:
-                pick["result"] = list(score)
-                pick["status"] = "won" if is_winner(market, pick["selection"], *score) else "lost"
-                changed = True
-            elif pick["status"] == "pending" and stale:
+                status = "won" if is_winner(market, pick["selection"], *score) else "lost"
+                if (pick["status"], pick.get("result")) != (status, list(score)) or \
+                        bool(pick.get("provisional")) != provisional:
+                    pick["result"] = list(score)
+                    pick["status"] = status
+                    _mark(pick, provisional)
+                    changed = True
+            elif pick["status"] == "pending" and stale and not provisional:
                 pick["status"] = "void"
                 changed = True
     return changed
 
 
+def _mark(item: dict, provisional: bool) -> None:
+    if provisional:
+        item["provisional"] = True
+    else:
+        item.pop("provisional", None)
+
+
 def pending_leagues(records: Iterable[dict]) -> set[str]:
+    """Leagues whose results are still needed: open picks, and provisional grades to confirm."""
     return {pick["league"] for record in records for picks in record["picks"].values()
-            for pick in picks if pick["status"] in ("pending", "void")}
+            for pick in picks if pick["status"] in ("pending", "void") or pick.get("provisional")}
 
 
 def _summary(picks: list[dict]) -> dict:

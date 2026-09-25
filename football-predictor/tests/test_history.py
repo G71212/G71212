@@ -119,3 +119,37 @@ def test_backfill_tiers_labels_old_picks_without_changing_them():
     assert {p["home"]: p["tier"] for p in record["picks"]["over25"]}["Fav"] == "banker"
     for market, picks in record["picks"].items():
         assert [{k: v for k, v in p.items() if k != "tier"} for p in picks] == before[market]
+
+
+def test_provisional_scores_are_confirmed_or_corrected_by_the_main_source():
+    record = day_record([prediction("A", "B", 2.8, 1.9)])
+    pick = record["picks"]["over25"][0]
+    match_id = pick["match_id"]
+    # A faster source says 2-1: graded at once, flagged as provisional.
+    assert grade_day(record, {match_id: (2, 1)}, DAY, provisional=True)
+    assert (pick["status"], pick["result"], pick["provisional"]) == ("won", [2, 1], True)
+    assert record["fixtures"][0]["result"] == [2, 1] and record["fixtures"][0]["provisional"]
+    assert pending_leagues([record]) == {"E0"}  # still waiting for confirmation
+    # Another provisional score never overrides the first one.
+    assert not grade_day(record, {match_id: (0, 0)}, DAY, provisional=True)
+    # football-data.co.uk has 1-1 (the fast source was wrong): the grade is corrected.
+    assert grade_day(record, {match_id: (1, 1)}, DAY)
+    assert (pick["status"], pick["result"]) == ("lost", [1, 1]) and "provisional" not in pick
+    assert record["fixtures"][0]["result"] == [1, 1] and "provisional" not in record["fixtures"][0]
+    assert pending_leagues([record]) == set()
+    assert not grade_day(record, {match_id: (1, 1)}, DAY)
+
+
+def test_confirming_a_provisional_score_only_clears_the_flag():
+    record = day_record([prediction("A", "B", 2.8, 1.9)])
+    pick = record["picks"]["over25"][0]
+    grade_day(record, {pick["match_id"]: (3, 0)}, DAY, provisional=True)
+    assert grade_day(record, {pick["match_id"]: (3, 0)}, DAY)
+    assert (pick["status"], pick["result"]) == ("won", [3, 0]) and "provisional" not in pick
+
+
+def test_provisional_scores_never_void_picks():
+    record = day_record([prediction("A", "B", 2.8, 1.9)])
+    late = DAY + timedelta(days=30)
+    assert not grade_day(record, {}, late, provisional=True)
+    assert record["picks"]["over25"][0]["status"] == "pending"

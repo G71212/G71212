@@ -15,6 +15,8 @@ from .engine import Predictor
 from .history import (HistoryStore, backfill_tiers, fixture_record, grade_day, has_started,
                       merge_day, new_day, pending_leagues, pick_key, pick_record, track_record)
 from .leagues import LEAGUES, TIER_ABOVE, League
+from .livescores import (COMPETITIONS, LiveScoreError, api_token, fast_result_leagues, fetch_scores,
+                         match_scores, wanted_fixtures)
 from .notify import NotifyError, send_telegram, telegram_credentials
 from .render import (APP_FILES, app_file, build_report, render_csv, render_html, render_json,
                      render_manifest, render_markdown, render_telegram, today_index)
@@ -145,12 +147,14 @@ def run_daily(settings: Settings, source: DataSource, start: date, now: datetime
         log.info("%s: %d matches, %d picks recorded", day, len(record["fixtures"]),
                  sum(len(v) for v in record["picks"].values()))
 
-    _grade_history(store, source, today)
+    _grade_history(store, source, today, now)
     records = store.all()
     day_records = [store.load(day) or new_day(day, now) for day in dates]
     earlier = [store.load(start - timedelta(days=n)) for n in range(settings.past_days, 0, -1)]
     shown = [r for r in earlier if r and r["fixtures"]] + day_records
     report = build_report(shown, track_record(records, today), settings, now, today=start)
+    if api_token():
+        report["fast_results"] = fast_result_leagues()
     result = DailyResult(report)
     if out_dir is not None:
         result.files = write_outputs(report, out_dir)
@@ -163,14 +167,18 @@ def run_daily(settings: Settings, source: DataSource, start: date, now: datetime
 REGRADE_VOID_DAYS = 60  # keep looking for late results of void picks this long
 
 
-def _grade_history(store: HistoryStore, source: DataSource, today: date) -> None:
+def _grade_history(store: HistoryStore, source: DataSource, today: date, now: datetime) -> None:
+    """Grade open picks with football-data.co.uk results, then (if a football-data.org
+    key is set) with faster provisional scores for matches it has not published yet."""
     def needs_grading(record: dict) -> bool:
         day = date.fromisoformat(record["date"])
         if day > today:
             return False
-        statuses = {p["status"] for picks in record["picks"].values() for p in picks}
-        return "pending" in statuses or (
-            "void" in statuses and (today - day).days <= REGRADE_VOID_DAYS)
+        picks = [p for chosen in record["picks"].values() for p in chosen]
+        statuses = {p["status"] for p in picks}
+        recent = (today - day).days <= REGRADE_VOID_DAYS
+        return "pending" in statuses or (recent and ("void" in statuses or any(
+            p.get("provisional") for p in picks)))
 
     open_records = [r for r in store.all() if needs_grading(r)]
     leagues = pending_leagues(open_records)
@@ -185,6 +193,28 @@ def _grade_history(store: HistoryStore, source: DataSource, today: date) -> None
             results[match.id] = (match.home_goals, match.away_goals)  # type: ignore[assignment]
     for record in open_records:
         if grade_day(record, results, today):
+            store.save(record)
+    _grade_live(store, open_records, today, now)
+
+
+def _grade_live(store: HistoryStore, records: list[dict], today: date, now: datetime) -> None:
+    token = api_token()
+    if token is None:
+        return
+    wanted = wanted_fixtures(records, now)
+    if not wanted:
+        return
+    try:
+        scores = fetch_scores(token, min(w.day for w in wanted) - timedelta(days=1), today,
+                              {COMPETITIONS[w.league] for w in wanted})
+    except LiveScoreError as exc:
+        log.warning("Faster results unavailable, waiting for football-data.co.uk: %s", exc)
+        return
+    found = match_scores(wanted, scores)
+    log.info("football-data.org: %d finished matches, scores for %d of our %d unfinished fixtures",
+             len(scores), len(found), len(wanted))
+    for record in records:
+        if grade_day(record, found, today, provisional=True):
             store.save(record)
 
 

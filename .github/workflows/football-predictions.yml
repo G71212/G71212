@@ -8,6 +8,9 @@ on:
     # afternoons and weekend fixtures on Friday afternoons (UK time), so this run
     # catches that evening's games before kick-off and records tomorrow's picks.
     - cron: "15 17 * * *"
+    # Night run: ticks or crosses the day's finished matches (with a football-data.org
+    # key, the big leagues are graded the same evening instead of days later).
+    - cron: "45 21 * * *"
   workflow_dispatch:
     inputs:
       date:
@@ -86,6 +89,8 @@ jobs:
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          # Optional: faster final scores for the big leagues (free key from football-data.org).
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
           FOOTY_SITE_URL: ${{ steps.pages.outputs.url }}
           PREDICT_DATE: ${{ inputs.date }}
         run: footy daily --date "${PREDICT_DATE:-today}" --out site --history "$RUNNER_TEMP/predictions-data/history" -v
