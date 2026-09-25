@@ -106,8 +106,11 @@ def render_markdown(report: dict) -> str:
     for day in report["days"]:
         leagues = {f["league"] for f in day["fixtures"]}
         names = _league_names(day)
-        lines += ["", f"## {long_date(day['date'])}", "",
-                  f"{len(day['fixtures'])} matches analysed across {len(leagues)} leagues.", ""]
+        lines += ["", f"## {long_date(day['date'])}", ""]
+        if not day["fixtures"]:
+            lines += ["_No upcoming matches in the published fixtures for this day._", ""]
+            continue
+        lines += [f"{len(day['fixtures'])} matches analysed across {len(leagues)} leagues.", ""]
         for market in report["markets"]:
             picks = day["picks"].get(market["key"], [])
             lines.append(f"### {market['icon']} {market['title']}")
@@ -145,6 +148,9 @@ def render_text(report: dict) -> str:
         out.append(f"\n{long_date(day['date'])}  ({len(day['fixtures'])} matches analysed, "
                    f"times in {report['timezone']})")
         out.append("=" * 78)
+        if not day["fixtures"]:
+            out.append("   no upcoming matches in the published fixtures")
+            continue
         for market in report["markets"]:
             picks = day["picks"].get(market["key"], [])
             out.append(f"\n{market['icon']}  {market['title'].upper()}  "

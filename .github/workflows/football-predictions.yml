@@ -70,8 +70,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
-          url=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq 'select(.build_type == "workflow") | .html_url' 2>/dev/null || true)
-          if [ -n "$url" ]; then
+          # gh prints the error body on stdout when Pages is off (HTTP 404), so rely on
+          # its exit status and check that a real URL came back.
+          if url=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq 'select(.build_type == "workflow") | .html_url' 2>/dev/null) \
+             && [[ "$url" == https://* ]]; then
             echo "enabled=true" >> "$GITHUB_OUTPUT"
             echo "url=$url" >> "$GITHUB_OUTPUT"
             echo "Dashboard: $url"

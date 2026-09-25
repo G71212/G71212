@@ -96,6 +96,12 @@ def has_started(pick: dict, now: datetime) -> bool:
     return date.fromisoformat(match_date) < now.date()
 
 
+def _recorded_after_kickoff(fixture: dict) -> bool:
+    if not fixture.get("kickoff") or not fixture.get("predicted_at"):
+        return False
+    return datetime.fromisoformat(fixture["predicted_at"]) >= datetime.fromisoformat(fixture["kickoff"])
+
+
 def new_day(day: date, now: datetime) -> dict:
     return {"date": day.isoformat(), "created_at": _iso(now), "updated_at": _iso(now),
             "fixtures": [], "picks": {m: [] for m in MARKETS}, "notified": []}
@@ -103,13 +109,22 @@ def new_day(day: date, now: datetime) -> dict:
 
 def merge_day(existing: dict | None, day: date, predictions: Iterable[Prediction],
               picks: dict[str, list[Pick]], now: datetime) -> dict:
-    """Add fresh predictions/picks to a day's record without touching published ones."""
+    """Add fresh predictions/picks to a day's record without touching published ones.
+
+    Matches first seen after kick-off are left out: a prediction made once a
+    game is under way is of no use and would read like hindsight.
+    """
     record = existing or new_day(day, now)
+    # Older versions recorded such matches; they never carry picks, so drop them.
+    record["fixtures"] = [f for f in record["fixtures"] if not _recorded_after_kickoff(f)]
     known_fixtures = {f["id"] for f in record["fixtures"]}
     for prediction in predictions:
-        if prediction.match.id not in known_fixtures:
-            record["fixtures"].append(fixture_record(prediction, now))
-            known_fixtures.add(prediction.match.id)
+        match = prediction.match
+        started = match.kickoff <= now if match.kickoff else match.date < now.date()
+        if match.id in known_fixtures or started:
+            continue
+        record["fixtures"].append(fixture_record(prediction, now))
+        known_fixtures.add(match.id)
     record["fixtures"].sort(key=lambda f: (f["kickoff"] or f["date"] + "T23:59", f["league"], f["home"]))
     for market in MARKETS:
         published = record["picks"].setdefault(market, [])
