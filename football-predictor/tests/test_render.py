@@ -43,6 +43,17 @@ def test_markdown_and_text_list_every_market():
     assert "[Open the live dashboard](https://example.github.io/footy/)" in render_markdown(rep)
 
 
+def test_day_without_upcoming_matches():
+    rep = report()
+    rep["days"].insert(0, {"date": "2026-09-25", "fixtures": [],
+                           "picks": {m["key"]: [] for m in rep["markets"]}, "notified": []})
+    md = render_markdown(rep)
+    friday = md.split("## Friday 25 September 2026")[1].split("## Saturday")[0]
+    assert "No upcoming matches" in friday
+    assert "confidence threshold" not in friday
+    assert "no upcoming matches" in render_text(rep)
+
+
 def test_telegram_escapes_html_and_respects_length_limit():
     rep = report(n=60, home_name="Brighton & <Hove>")
     messages = render_telegram(rep)

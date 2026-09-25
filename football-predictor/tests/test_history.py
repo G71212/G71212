@@ -48,6 +48,17 @@ def test_no_new_picks_after_kick_off():
     record = day_record(late, now=afternoon, existing=record)
     homes = {p["home"] for p in record["picks"]["over25"]}
     assert homes == {"A", "G"}  # E v F kicked off at 14:00, before this run
+    # A match first seen after kick-off is not recorded at all; A v B (seen earlier) stays.
+    assert {f["home"] for f in record["fixtures"]} == {"A", "G"}
+
+
+def test_fixtures_recorded_after_kick_off_are_dropped_from_old_records():
+    record = day_record([prediction("A", "B", 2.8, 1.9), prediction("C", "D", 1.0, 0.7)])
+    stale = next(f for f in record["fixtures"] if f["home"] == "C")
+    stale["predicted_at"] = "2026-09-26T16:00:00+00:00"  # written after its 15:00 kick-off
+    record = day_record([], now=MORNING + timedelta(hours=12), existing=record)
+    assert [f["home"] for f in record["fixtures"]] == ["A"]
+    assert [p["home"] for p in record["picks"]["over25"]] == ["A"]
 
 
 def test_grading_and_void():

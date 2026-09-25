@@ -466,8 +466,8 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     var head = '<div class="panel-head"><h2>' + esc(m.title) + "</h2><p>" + intro + " Picks need at least " +
       pct(m.min_probability) + " model probability; most confident first.</p></div>";
     if (!day || !day.fixtures.length) {
-      return head + '<div class="empty"><strong>No fixtures published for this day yet.</strong>' +
-        "football-data.co.uk publishes weekend fixtures on Friday afternoon and midweek fixtures on Tuesday afternoon (UK time). This page updates automatically.</div>";
+      return head + '<div class="empty"><strong>No upcoming matches for this day.</strong>' +
+        "Fixtures come from football-data.co.uk, which publishes weekend games on Friday afternoon and midweek games on Tuesday afternoon (UK time). This page updates twice a day.</div>";
     }
     if (!picks.length) {
       return head + '<div class="empty"><strong>No picks for this market.</strong>None of the ' + day.fixtures.length +
@@ -548,7 +548,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     var day = currentDay();
     var head = '<div class="panel-head"><h2>All matches</h2><p>Every fixture the model rated for this day. Highlighted numbers passed a pick threshold. Tap a column to sort.</p></div>';
     if (!day || !day.fixtures.length) {
-      return head + '<div class="empty"><strong>No fixtures published for this day yet.</strong>Check back after the next update.</div>';
+      return head + '<div class="empty"><strong>No upcoming matches for this day.</strong>Pick another day above, or check back after the next update.</div>';
     }
     var leagues = {};
     day.fixtures.forEach(function (f) { leagues[f.league] = f.league_name; });
@@ -642,6 +642,9 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   var initial = (location.hash || "").replace("#", "");
   if (!initial) { try { initial = localStorage.getItem("footy-tab") || ""; } catch (e) { initial = ""; } }
   if (initial && (marketByKey[initial] || initial === "matches" || initial === "record")) state.tab = initial;
+  // Open on the first day that still has matches to come (late-evening runs have none for today).
+  var firstWithMatches = (report.days || []).findIndex(function (d) { return d.fixtures && d.fixtures.length; });
+  if (firstWithMatches > 0) state.day = firstWithMatches;
   render();
 })();
 </script>
