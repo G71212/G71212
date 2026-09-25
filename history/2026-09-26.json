@@ -1,7 +1,7 @@
 {
  "date": "2026-09-26",
  "created_at": "2026-09-25T20:55:49+00:00",
- "updated_at": "2026-09-25T21:00:08+00:00",
+ "updated_at": "2026-09-25T21:17:32+00:00",
  "fixtures": [
   {
    "id": "MEX|2026-09-26|Atlante|Monterrey",
@@ -3011,5 +3011,36 @@
    }
   ]
  },
- "notified": []
+ "notified": [
+  "btts_over25|E2|2026-09-26|Stockport|Peterboro",
+  "btts_over25|EC|2026-09-26|Aldershot|Tamworth",
+  "btts_over25|EC|2026-09-26|Boston Utd|Fylde",
+  "btts_over25|EC|2026-09-26|Solihull|Boreham Wood",
+  "btts_over25|EC|2026-09-26|Worthing|Halifax",
+  "btts_over25|USA|2026-09-27|CF Montreal|FC Cincinnati",
+  "btts_over25|USA|2026-09-27|Charlotte|Chicago Fire",
+  "btts_over25|USA|2026-09-27|Philadelphia Union|Orlando City",
+  "btts|EC|2026-09-26|Aldershot|Tamworth",
+  "btts|EC|2026-09-26|Boston Utd|Fylde",
+  "btts|EC|2026-09-26|Solihull|Boreham Wood",
+  "btts|EC|2026-09-26|Worthing|Halifax",
+  "btts|USA|2026-09-27|CF Montreal|FC Cincinnati",
+  "btts|USA|2026-09-27|Charlotte|Chicago Fire",
+  "btts|USA|2026-09-27|New York Red Bulls|St. Louis City",
+  "btts|USA|2026-09-27|Philadelphia Union|Orlando City",
+  "double_chance|E2|2026-09-26|Plymouth|Burton",
+  "double_chance|E2|2026-09-26|Stockport|Peterboro",
+  "double_chance|E3|2026-09-26|York|Gillingham",
+  "double_chance|EC|2026-09-26|Harrogate|Eastleigh",
+  "double_chance|EC|2026-09-26|Solihull|Boreham Wood",
+  "double_chance|MEX|2026-09-27|Guadalajara Chivas|Queretaro",
+  "double_chance|USA|2026-09-27|Philadelphia Union|Orlando City",
+  "over25|E2|2026-09-26|Stockport|Peterboro",
+  "over25|EC|2026-09-26|Aldershot|Tamworth",
+  "over25|EC|2026-09-26|Boston Utd|Fylde",
+  "over25|EC|2026-09-26|Solihull|Boreham Wood",
+  "over25|USA|2026-09-27|CF Montreal|FC Cincinnati",
+  "over25|USA|2026-09-27|Charlotte|Chicago Fire",
+  "over25|USA|2026-09-27|Philadelphia Union|Orlando City"
+ ]
 }

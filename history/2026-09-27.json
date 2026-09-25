@@ -1,0 +1,1380 @@
+{
+ "date": "2026-09-27",
+ "created_at": "2026-09-25T21:17:32+00:00",
+ "updated_at": "2026-09-25T21:17:32+00:00",
+ "fixtures": [
+  {
+   "id": "USA|2026-09-27|Austin FC|San Diego FC",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T00:30:00+00:00",
+   "home": "Austin FC",
+   "away": "San Diego FC",
+   "expected_goals": [
+    1.49,
+    1.4
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.46
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.3921,
+    "draw": 0.2578,
+    "away": 0.3501,
+    "over25": 0.5524,
+    "under25": 0.4476,
+    "btts": 0.589,
+    "btts_over25": 0.4682,
+    "dc_1x": 0.6499,
+    "dc_x2": 0.6079,
+    "dc_12": 0.7422
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1208
+    ],
+    [
+     "2-1",
+     0.0865
+    ],
+    [
+     "1-2",
+     0.081
+    ]
+   ],
+   "market": {
+    "home": 0.3998,
+    "draw": 0.252,
+    "away": 0.3482,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.34,
+    "draw": 3.59,
+    "away": 2.66,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    100,
+    65
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "USA|2026-09-27|FC Dallas|Los Angeles FC",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T00:30:00+00:00",
+   "home": "FC Dallas",
+   "away": "Los Angeles FC",
+   "expected_goals": [
+    1.61,
+    1.45
+   ],
+   "model_expected_goals": [
+    1.53,
+    1.53
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.4109,
+    "draw": 0.2486,
+    "away": 0.3406,
+    "over25": 0.5914,
+    "under25": 0.4086,
+    "btts": 0.6181,
+    "btts_over25": 0.5042,
+    "dc_1x": 0.6594,
+    "dc_x2": 0.5891,
+    "dc_12": 0.7514
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1139
+    ],
+    [
+     "2-1",
+     0.0881
+    ],
+    [
+     "1-2",
+     0.0793
+    ]
+   ],
+   "market": {
+    "home": 0.4163,
+    "draw": 0.2498,
+    "away": 0.3339,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.25,
+    "draw": 3.61,
+    "away": 2.76,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    104,
+    111
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "USA|2026-09-27|Houston Dynamo|Sporting Kansas City",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T00:30:00+00:00",
+   "home": "Houston Dynamo",
+   "away": "Sporting Kansas City",
+   "expected_goals": [
+    2.14,
+    0.96
+   ],
+   "model_expected_goals": [
+    2.01,
+    1.1
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.6393,
+    "draw": 0.2055,
+    "away": 0.1552,
+    "over25": 0.5997,
+    "under25": 0.4003,
+    "btts": 0.5496,
+    "btts_over25": 0.4531,
+    "dc_1x": 0.8448,
+    "dc_x2": 0.3607,
+    "dc_12": 0.7945
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1028
+    ],
+    [
+     "2-1",
+     0.099
+    ],
+    [
+     "1-1",
+     0.0965
+    ]
+   ],
+   "market": {
+    "home": 0.6511,
+    "draw": 0.199,
+    "away": 0.1499,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.48,
+    "draw": 4.37,
+    "away": 5.66,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    105,
+    100
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "USA|2026-09-27|Nashville SC|Toronto FC",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T00:30:00+00:00",
+   "home": "Nashville SC",
+   "away": "Toronto FC",
+   "expected_goals": [
+    2.07,
+    0.85
+   ],
+   "model_expected_goals": [
+    1.9,
+    1.02
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.6532,
+    "draw": 0.2075,
+    "away": 0.1392,
+    "over25": 0.5586,
+    "under25": 0.4414,
+    "btts": 0.5037,
+    "btts_over25": 0.4049,
+    "dc_1x": 0.8608,
+    "dc_x2": 0.3468,
+    "dc_12": 0.7925
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1158
+    ],
+    [
+     "1-0",
+     0.1077
+    ],
+    [
+     "1-1",
+     0.0988
+    ]
+   ],
+   "market": {
+    "home": 0.6747,
+    "draw": 0.1862,
+    "away": 0.1391,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.43,
+    "draw": 4.61,
+    "away": 6.01,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    104,
+    98
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "USA|2026-09-27|Seattle Sounders|Minnesota United",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T00:30:00+00:00",
+   "home": "Seattle Sounders",
+   "away": "Minnesota United",
+   "expected_goals": [
+    1.59,
+    1.32
+   ],
+   "model_expected_goals": [
+    1.66,
+    1.25
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.4312,
+    "draw": 0.2547,
+    "away": 0.3141,
+    "over25": 0.5565,
+    "under25": 0.4435,
+    "btts": 0.5887,
+    "btts_over25": 0.4694,
+    "dc_1x": 0.6859,
+    "dc_x2": 0.5688,
+    "dc_12": 0.7453
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1193
+    ],
+    [
+     "2-1",
+     0.0907
+    ],
+    [
+     "1-0",
+     0.0815
+    ]
+   ],
+   "market": {
+    "home": 0.4292,
+    "draw": 0.2466,
+    "away": 0.3242,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.19,
+    "draw": 3.66,
+    "away": 2.84,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    108,
+    105
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "USA|2026-09-27|Real Salt Lake|New England Revolution",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T01:30:00+00:00",
+   "home": "Real Salt Lake",
+   "away": "New England Revolution",
+   "expected_goals": [
+    1.56,
+    1.38
+   ],
+   "model_expected_goals": [
+    1.59,
+    1.35
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.4136,
+    "draw": 0.2546,
+    "away": 0.3318,
+    "over25": 0.5624,
+    "under25": 0.4376,
+    "btts": 0.5953,
+    "btts_over25": 0.4765,
+    "dc_1x": 0.6682,
+    "dc_x2": 0.5864,
+    "dc_12": 0.7454
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1188
+    ],
+    [
+     "2-1",
+     0.0889
+    ],
+    [
+     "1-2",
+     0.0784
+    ]
+   ],
+   "market": {
+    "home": 0.4146,
+    "draw": 0.2486,
+    "away": 0.3368,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.26,
+    "draw": 3.63,
+    "away": 2.74,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    104,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "USA|2026-09-27|Los Angeles Galaxy|Colorado Rapids",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T02:30:00+00:00",
+   "home": "Los Angeles Galaxy",
+   "away": "Colorado Rapids",
+   "expected_goals": [
+    1.66,
+    1.38
+   ],
+   "model_expected_goals": [
+    1.71,
+    1.34
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.4376,
+    "draw": 0.2478,
+    "away": 0.3146,
+    "over25": 0.5868,
+    "under25": 0.4132,
+    "btts": 0.6116,
+    "btts_over25": 0.4975,
+    "dc_1x": 0.6854,
+    "dc_x2": 0.5624,
+    "dc_12": 0.7522
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1141
+    ],
+    [
+     "2-1",
+     0.091
+    ],
+    [
+     "1-2",
+     0.0755
+    ]
+   ],
+   "market": {
+    "home": 0.4372,
+    "draw": 0.2417,
+    "away": 0.3211,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.15,
+    "draw": 3.72,
+    "away": 2.86,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    105,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "USA|2026-09-27|San Jose Earthquakes|Portland Timbers",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T02:30:00+00:00",
+   "home": "San Jose Earthquakes",
+   "away": "Portland Timbers",
+   "expected_goals": [
+    1.92,
+    1.51
+   ],
+   "model_expected_goals": [
+    1.91,
+    1.53
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.4697,
+    "draw": 0.2287,
+    "away": 0.3017,
+    "over25": 0.6668,
+    "under25": 0.3332,
+    "btts": 0.6696,
+    "btts_over25": 0.5718,
+    "dc_1x": 0.6983,
+    "dc_x2": 0.5303,
+    "dc_12": 0.7713
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0978
+    ],
+    [
+     "2-1",
+     0.0901
+    ],
+    [
+     "1-2",
+     0.0709
+    ]
+   ],
+   "market": {
+    "home": 0.4681,
+    "draw": 0.234,
+    "away": 0.2979,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.02,
+    "draw": 3.84,
+    "away": 3.07,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    98,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "USA|2026-09-27|Vancouver Whitecaps|DC United",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T02:30:00+00:00",
+   "home": "Vancouver Whitecaps",
+   "away": "DC United",
+   "expected_goals": [
+    2.48,
+    0.71
+   ],
+   "model_expected_goals": [
+    2.24,
+    0.96
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.7594,
+    "draw": 0.1583,
+    "away": 0.0823,
+    "over25": 0.6177,
+    "under25": 0.3823,
+    "btts": 0.4672,
+    "btts_over25": 0.3919,
+    "dc_1x": 0.9177,
+    "dc_x2": 0.2406,
+    "dc_12": 0.8417
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.127
+    ],
+    [
+     "3-0",
+     0.1051
+    ],
+    [
+     "1-0",
+     0.0992
+    ]
+   ],
+   "market": {
+    "home": 0.7847,
+    "draw": 0.131,
+    "away": 0.0843,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.24,
+    "draw": 6.07,
+    "away": 8.97,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    109,
+    96
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "MEX|2026-09-27|Santos Laguna|Pachuca",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T03:05:00+00:00",
+   "home": "Santos Laguna",
+   "away": "Pachuca",
+   "expected_goals": [
+    1.22,
+    1.5
+   ],
+   "model_expected_goals": [
+    1.25,
+    1.48
+   ],
+   "rho": -0.0641,
+   "probabilities": {
+    "home": 0.3012,
+    "draw": 0.2694,
+    "away": 0.4294,
+    "over25": 0.5121,
+    "under25": 0.4879,
+    "btts": 0.5559,
+    "btts_over25": 0.4277,
+    "dc_1x": 0.5706,
+    "dc_x2": 0.6988,
+    "dc_12": 0.7306
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1282
+    ],
+    [
+     "0-1",
+     0.0909
+    ],
+    [
+     "1-2",
+     0.0904
+    ]
+   ],
+   "market": {
+    "home": 0.3086,
+    "draw": 0.2505,
+    "away": 0.4408,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.94,
+    "draw": 3.56,
+    "away": 2.12,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    104,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "MEX|2026-09-27|Tigres UANL|Puebla",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T03:10:00+00:00",
+   "home": "Tigres UANL",
+   "away": "Puebla",
+   "expected_goals": [
+    1.93,
+    0.85
+   ],
+   "model_expected_goals": [
+    1.93,
+    0.85
+   ],
+   "rho": -0.0641,
+   "probabilities": {
+    "home": 0.6214,
+    "draw": 0.2267,
+    "away": 0.1518,
+    "over25": 0.5263,
+    "under25": 0.4737,
+    "btts": 0.4961,
+    "btts_over25": 0.388,
+    "dc_1x": 0.8482,
+    "dc_x2": 0.3786,
+    "dc_12": 0.7733
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1156
+    ],
+    [
+     "1-0",
+     0.1131
+    ],
+    [
+     "1-1",
+     0.1082
+    ]
+   ],
+   "market": {
+    "home": 0.6302,
+    "draw": 0.2099,
+    "away": 0.16,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.52,
+    "draw": 4.12,
+    "away": 5.27,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    124,
+    104
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "SP2|2026-09-27|Valladolid|Cordoba",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T12:00:00+00:00",
+   "home": "Valladolid",
+   "away": "Cordoba",
+   "expected_goals": [
+    1.49,
+    1.22
+   ],
+   "model_expected_goals": [
+    1.44,
+    1.17
+   ],
+   "rho": -0.0037,
+   "probabilities": {
+    "home": 0.4344,
+    "draw": 0.2554,
+    "away": 0.3102,
+    "over25": 0.5104,
+    "under25": 0.4896,
+    "btts": 0.5476,
+    "btts_over25": 0.4264,
+    "dc_1x": 0.6898,
+    "dc_x2": 0.5656,
+    "dc_12": 0.7446
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1212
+    ],
+    [
+     "1-0",
+     0.0983
+    ],
+    [
+     "2-1",
+     0.0902
+    ]
+   ],
+   "market": {
+    "home": 0.4282,
+    "draw": 0.2682,
+    "away": 0.3036,
+    "over25": 0.515
+   },
+   "odds": {
+    "home": 2.18,
+    "draw": 3.35,
+    "away": 2.99,
+    "over25": 1.81,
+    "under25": 1.91
+   },
+   "team_matches": [
+    83,
+    90
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "SP2|2026-09-27|Mallorca|Almeria",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T14:15:00+00:00",
+   "home": "Mallorca",
+   "away": "Almeria",
+   "expected_goals": [
+    1.55,
+    1.13
+   ],
+   "model_expected_goals": [
+    1.65,
+    1.13
+   ],
+   "rho": -0.0037,
+   "probabilities": {
+    "home": 0.4698,
+    "draw": 0.253,
+    "away": 0.2772,
+    "over25": 0.5038,
+    "under25": 0.4962,
+    "btts": 0.5356,
+    "btts_over25": 0.4153,
+    "dc_1x": 0.7228,
+    "dc_x2": 0.5302,
+    "dc_12": 0.747
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1203
+    ],
+    [
+     "1-0",
+     0.1052
+    ],
+    [
+     "2-1",
+     0.0932
+    ]
+   ],
+   "market": {
+    "home": 0.4548,
+    "draw": 0.2757,
+    "away": 0.2694,
+    "over25": 0.5
+   },
+   "odds": {
+    "home": 2.06,
+    "draw": 3.26,
+    "away": 3.33,
+    "over25": 1.85,
+    "under25": 1.85
+   },
+   "team_matches": [
+    6,
+    90
+   ],
+   "flags": [
+    "Mallorca relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "SP2|2026-09-27|Burgos|Eldense",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T16:30:00+00:00",
+   "home": "Burgos",
+   "away": "Eldense",
+   "expected_goals": [
+    1.47,
+    0.91
+   ],
+   "model_expected_goals": [
+    1.38,
+    0.83
+   ],
+   "rho": -0.0037,
+   "probabilities": {
+    "home": 0.5006,
+    "draw": 0.2654,
+    "away": 0.234,
+    "over25": 0.4257,
+    "under25": 0.5743,
+    "btts": 0.4615,
+    "btts_over25": 0.3371,
+    "dc_1x": 0.766,
+    "dc_x2": 0.4994,
+    "dc_12": 0.7346
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1352
+    ],
+    [
+     "1-1",
+     0.1243
+    ],
+    [
+     "2-0",
+     0.0996
+    ]
+   ],
+   "market": {
+    "home": 0.4951,
+    "draw": 0.2751,
+    "away": 0.2298,
+    "over25": 0.4343
+   },
+   "odds": {
+    "home": 1.9,
+    "draw": 3.25,
+    "away": 3.83,
+    "over25": 2.1,
+    "under25": 1.66
+   },
+   "team_matches": [
+    125,
+    83
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "SP2|2026-09-27|Eibar|Las Palmas",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T16:30:00+00:00",
+   "home": "Eibar",
+   "away": "Las Palmas",
+   "expected_goals": [
+    1.53,
+    1.01
+   ],
+   "model_expected_goals": [
+    1.3,
+    0.94
+   ],
+   "rho": -0.0037,
+   "probabilities": {
+    "home": 0.4928,
+    "draw": 0.2572,
+    "away": 0.25,
+    "over25": 0.4683,
+    "under25": 0.5317,
+    "btts": 0.5001,
+    "btts_over25": 0.378,
+    "dc_1x": 0.75,
+    "dc_x2": 0.5072,
+    "dc_12": 0.7428
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1222
+    ],
+    [
+     "1-0",
+     0.1196
+    ],
+    [
+     "2-1",
+     0.0933
+    ]
+   ],
+   "market": {
+    "home": 0.4907,
+    "draw": 0.2736,
+    "away": 0.2357,
+    "over25": 0.4833
+   },
+   "odds": {
+    "home": 1.92,
+    "draw": 3.28,
+    "away": 3.76,
+    "over25": 1.91,
+    "under25": 1.8
+   },
+   "team_matches": [
+    125,
+    48
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "MEX|2026-09-27|UNAM Pumas|Atl. San Luis",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T18:00:00+00:00",
+   "home": "UNAM Pumas",
+   "away": "Atl. San Luis",
+   "expected_goals": [
+    1.77,
+    1.23
+   ],
+   "model_expected_goals": [
+    1.88,
+    1.12
+   ],
+   "rho": -0.0641,
+   "probabilities": {
+    "home": 0.4943,
+    "draw": 0.2475,
+    "away": 0.2581,
+    "over25": 0.576,
+    "under25": 0.424,
+    "btts": 0.5933,
+    "btts_over25": 0.4778,
+    "dc_1x": 0.7419,
+    "dc_x2": 0.5057,
+    "dc_12": 0.7525
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1154
+    ],
+    [
+     "2-1",
+     0.096
+    ],
+    [
+     "1-0",
+     0.0815
+    ]
+   ],
+   "market": {
+    "home": 0.4832,
+    "draw": 0.2531,
+    "away": 0.2637,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.95,
+    "draw": 3.53,
+    "away": 3.4,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    120,
+    111
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "SP2|2026-09-27|Oviedo|Sp Gijon",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-09-27",
+   "kickoff": "2026-09-27T19:00:00+00:00",
+   "home": "Oviedo",
+   "away": "Sp Gijon",
+   "expected_goals": [
+    1.37,
+    0.91
+   ],
+   "model_expected_goals": [
+    1.39,
+    1.01
+   ],
+   "rho": -0.0037,
+   "probabilities": {
+    "home": 0.4767,
+    "draw": 0.2761,
+    "away": 0.2472,
+    "over25": 0.3987,
+    "under25": 0.6013,
+    "btts": 0.4456,
+    "btts_over25": 0.3178,
+    "dc_1x": 0.7528,
+    "dc_x2": 0.5233,
+    "dc_12": 0.7239
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.14
+    ],
+    [
+     "1-1",
+     0.1278
+    ],
+    [
+     "0-0",
+     0.1027
+    ]
+   ],
+   "market": {
+    "home": 0.4747,
+    "draw": 0.2881,
+    "away": 0.2372,
+    "over25": 0.3937
+   },
+   "odds": {
+    "home": 1.98,
+    "draw": 3.13,
+    "away": 3.74,
+    "over25": 2.29,
+    "under25": 1.56
+   },
+   "team_matches": [
+    83,
+    125
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  },
+  {
+   "id": "USA|2026-09-28|Columbus Crew|Inter Miami",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-09-28",
+   "kickoff": "2026-09-27T23:00:00+00:00",
+   "home": "Columbus Crew",
+   "away": "Inter Miami",
+   "expected_goals": [
+    1.78,
+    1.95
+   ],
+   "model_expected_goals": [
+    1.86,
+    1.87
+   ],
+   "rho": -0.043,
+   "probabilities": {
+    "home": 0.3541,
+    "draw": 0.2215,
+    "away": 0.4244,
+    "over25": 0.7196,
+    "under25": 0.2804,
+    "btts": 0.7165,
+    "btts_over25": 0.6297,
+    "dc_1x": 0.5756,
+    "dc_x2": 0.6459,
+    "dc_12": 0.7785
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0869
+    ],
+    [
+     "1-2",
+     0.0813
+    ],
+    [
+     "2-1",
+     0.074
+    ]
+   ],
+   "market": {
+    "home": 0.3456,
+    "draw": 0.2275,
+    "away": 0.4269,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.66,
+    "draw": 3.91,
+    "away": 2.19,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    109,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T21:17:32+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-09-28|Columbus Crew|Inter Miami",
+    "league": "USA",
+    "kickoff": "2026-09-27T23:00:00+00:00",
+    "home": "Columbus Crew",
+    "away": "Inter Miami",
+    "selection": "BTTS & Over 2.5",
+    "probability": 0.6297,
+    "fair_odds": 1.59,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-09-27|San Jose Earthquakes|Portland Timbers",
+    "league": "USA",
+    "kickoff": "2026-09-27T02:30:00+00:00",
+    "home": "San Jose Earthquakes",
+    "away": "Portland Timbers",
+    "selection": "BTTS & Over 2.5",
+    "probability": 0.5718,
+    "fair_odds": 1.75,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-09-27|FC Dallas|Los Angeles FC",
+    "league": "USA",
+    "kickoff": "2026-09-27T00:30:00+00:00",
+    "home": "FC Dallas",
+    "away": "Los Angeles FC",
+    "selection": "BTTS & Over 2.5",
+    "probability": 0.5042,
+    "fair_odds": 1.98,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "USA|2026-09-28|Columbus Crew|Inter Miami",
+    "league": "USA",
+    "kickoff": "2026-09-27T23:00:00+00:00",
+    "home": "Columbus Crew",
+    "away": "Inter Miami",
+    "selection": "Over 2.5",
+    "probability": 0.7196,
+    "fair_odds": 1.39,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-09-27|San Jose Earthquakes|Portland Timbers",
+    "league": "USA",
+    "kickoff": "2026-09-27T02:30:00+00:00",
+    "home": "San Jose Earthquakes",
+    "away": "Portland Timbers",
+    "selection": "Over 2.5",
+    "probability": 0.6668,
+    "fair_odds": 1.5,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "USA|2026-09-28|Columbus Crew|Inter Miami",
+    "league": "USA",
+    "kickoff": "2026-09-27T23:00:00+00:00",
+    "home": "Columbus Crew",
+    "away": "Inter Miami",
+    "selection": "BTTS Yes",
+    "probability": 0.7165,
+    "fair_odds": 1.4,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-09-27|San Jose Earthquakes|Portland Timbers",
+    "league": "USA",
+    "kickoff": "2026-09-27T02:30:00+00:00",
+    "home": "San Jose Earthquakes",
+    "away": "Portland Timbers",
+    "selection": "BTTS Yes",
+    "probability": 0.6696,
+    "fair_odds": 1.49,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-09-27|FC Dallas|Los Angeles FC",
+    "league": "USA",
+    "kickoff": "2026-09-27T00:30:00+00:00",
+    "home": "FC Dallas",
+    "away": "Los Angeles FC",
+    "selection": "BTTS Yes",
+    "probability": 0.6181,
+    "fair_odds": 1.62,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-09-27|Los Angeles Galaxy|Colorado Rapids",
+    "league": "USA",
+    "kickoff": "2026-09-27T02:30:00+00:00",
+    "home": "Los Angeles Galaxy",
+    "away": "Colorado Rapids",
+    "selection": "BTTS Yes",
+    "probability": 0.6116,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-09-27|Vancouver Whitecaps|DC United",
+    "league": "USA",
+    "kickoff": "2026-09-27T02:30:00+00:00",
+    "home": "Vancouver Whitecaps",
+    "away": "DC United",
+    "selection": "1X",
+    "probability": 0.9177,
+    "fair_odds": 1.09,
+    "market_odds": 1.03,
+    "edge": -0.0551,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-09-27|Nashville SC|Toronto FC",
+    "league": "USA",
+    "kickoff": "2026-09-27T00:30:00+00:00",
+    "home": "Nashville SC",
+    "away": "Toronto FC",
+    "selection": "1X",
+    "probability": 0.8608,
+    "fair_odds": 1.16,
+    "market_odds": 1.09,
+    "edge": -0.0605,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "MEX|2026-09-27|Tigres UANL|Puebla",
+    "league": "MEX",
+    "kickoff": "2026-09-27T03:10:00+00:00",
+    "home": "Tigres UANL",
+    "away": "Puebla",
+    "selection": "1X",
+    "probability": 0.8482,
+    "fair_odds": 1.18,
+    "market_odds": 1.11,
+    "edge": -0.0582,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-09-27|Houston Dynamo|Sporting Kansas City",
+    "league": "USA",
+    "kickoff": "2026-09-27T00:30:00+00:00",
+    "home": "Houston Dynamo",
+    "away": "Sporting Kansas City",
+    "selection": "1X",
+    "probability": 0.8448,
+    "fair_odds": 1.18,
+    "market_odds": 1.11,
+    "edge": -0.066,
+    "published_at": "2026-09-25T21:17:32+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}

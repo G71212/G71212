@@ -1,11 +1,6 @@
 # ⚽ Footy Predictor
 
-_Generated 2026-09-25 21:00 UTC · kick-off times in UTC_
-
-## Friday 25 September 2026
-
-_No upcoming matches in the published fixtures for this day._
-
+_Generated 2026-09-25 21:17 UTC · kick-off times in UTC_
 
 ## Saturday 26 September 2026
 
@@ -60,6 +55,44 @@ _No upcoming matches in the published fixtures for this day._
 | 14:00 | England · National League | Harrogate vs Eastleigh | 1X | 82% ★ | 1.22 | 1.12 |  |
 | 14:00 | England · League One | Plymouth vs Burton | 1X | 81% ★ | 1.23 | 1.15 |  |
 | 14:00 | England · National League | Solihull vs Boreham Wood | 12 | 81% ★ | 1.24 | 1.15 |  |
+
+
+## Sunday 27 September 2026
+
+18 matches analysed across 3 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 23:00 | USA · MLS | Columbus Crew vs Inter Miami | BTTS & Over 2.5 | 63% ★★★ | 1.59 | - |  |
+| 02:30 | USA · MLS | San Jose Earthquakes vs Portland Timbers | BTTS & Over 2.5 | 57% ★★ | 1.75 | - |  |
+| 00:30 | USA · MLS | FC Dallas vs Los Angeles FC | BTTS & Over 2.5 | 50% ★ | 1.98 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 23:00 | USA · MLS | Columbus Crew vs Inter Miami | Over 2.5 | 72% ★★ | 1.39 | - |  |
+| 02:30 | USA · MLS | San Jose Earthquakes vs Portland Timbers | Over 2.5 | 67% ★ | 1.50 | - |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 23:00 | USA · MLS | Columbus Crew vs Inter Miami | BTTS Yes | 72% ★★★ | 1.40 | - |  |
+| 02:30 | USA · MLS | San Jose Earthquakes vs Portland Timbers | BTTS Yes | 67% ★★ | 1.49 | - |  |
+| 00:30 | USA · MLS | FC Dallas vs Los Angeles FC | BTTS Yes | 62% ★ | 1.62 | - |  |
+| 02:30 | USA · MLS | Los Angeles Galaxy vs Colorado Rapids | BTTS Yes | 61% ★ | 1.64 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 02:30 | USA · MLS | Vancouver Whitecaps vs DC United | 1X | 92% ★★★ | 1.09 | 1.03 |  |
+| 00:30 | USA · MLS | Nashville SC vs Toronto FC | 1X | 86% ★★ | 1.16 | 1.09 |  |
+| 03:10 | Mexico · Liga MX | Tigres UANL vs Puebla | 1X | 85% ★ | 1.18 | 1.11 |  |
+| 00:30 | USA · MLS | Houston Dynamo vs Sporting Kansas City | 1X | 84% ★ | 1.18 | 1.11 |  |
 
 ## 📊 Track record
 
