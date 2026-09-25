@@ -127,6 +127,8 @@ def test_site_is_installable_as_an_app(world, tmp_path):
     site = tmp_path / "site"
     manifest = json.loads((site / "manifest.webmanifest").read_text())
     assert manifest["display"] == "standalone" and manifest["start_url"] == "./"
+    assert manifest["name"] == "Footy Predictor" and manifest["short_name"] == "Footy"
+    assert len(manifest["short_name"]) <= 12  # fits under an Android home-screen icon
     sizes = {icon["sizes"] for icon in manifest["icons"]}
     assert {"192x192", "512x512"} <= sizes
     for icon in manifest["icons"]:
