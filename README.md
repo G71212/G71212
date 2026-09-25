@@ -1,28 +1,10 @@
 # ⚽ Footy Predictor
 
-_Generated 2026-09-25 20:55 UTC · kick-off times in UTC_
-
-**[Open the live dashboard]({"message":"Not Found","documentation_url":"https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site","status":"404"})**
+_Generated 2026-09-25 21:00 UTC · kick-off times in UTC_
 
 ## Friday 25 September 2026
 
-6 matches analysed across 3 leagues.
-
-### 🔥 BTTS & Over 2.5
-
-_No selections met the confidence threshold._
-
-### ⚽ Over 2.5 Goals
-
-_No selections met the confidence threshold._
-
-### 🎯 Both Teams To Score
-
-_No selections met the confidence threshold._
-
-### 🛡️ Double Chance
-
-_No selections met the confidence threshold._
+_No upcoming matches in the published fixtures for this day._
 
 
 ## Saturday 26 September 2026
