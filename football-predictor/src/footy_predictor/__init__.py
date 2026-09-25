@@ -1,4 +1,4 @@
-"""Footy Predictor - daily football predictions for goal and double-chance markets.
+"""GOLDING'S PREDICTION - daily football predictions for goal and double-chance markets.
 
 Markets covered:
   * BTTS & Over 2.5 (combined)
@@ -10,5 +10,5 @@ All four are derived from one scoreline probability matrix produced by a
 time-weighted Dixon-Coles model, so the probabilities are mutually consistent.
 """
 
-__version__ = "1.0.0"
-APP_NAME = "Footy Predictor"
+__version__ = "1.1.0"
+APP_NAME = "GOLDING'S PREDICTION"

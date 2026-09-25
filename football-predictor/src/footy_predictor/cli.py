@@ -19,7 +19,7 @@ from .history import HistoryStore, track_record
 from .leagues import LEAGUES, MAIN_LEAGUES, EXTRA_LEAGUES, PRESETS, TIER_ABOVE
 from .pipeline import predict_days, run_daily
 from .render import (build_report, render_csv, render_html, render_json, render_markdown,
-                     render_text)
+                     render_text, today_index)
 
 log = logging.getLogger("footy_predictor")
 
@@ -118,7 +118,7 @@ def cmd_daily(args: argparse.Namespace) -> int:
         print("\n\n---- next message ----\n\n".join(result.messages))
     elif result.sent:
         print(f"Sent {len(result.messages)} Telegram message(s).", file=sys.stderr)
-    first = result.report["days"][0]
+    first = result.report["days"][today_index(result.report)]
     counts = ", ".join(f"{m['title']}: {len(first['picks'].get(m['key'], []))}"
                        for m in result.report["markets"])
     print(f"{first['date']}: {len(first['fixtures'])} matches analysed. {counts}", file=sys.stderr)

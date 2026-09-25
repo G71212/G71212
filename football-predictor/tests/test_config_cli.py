@@ -35,6 +35,7 @@ def test_load_settings_from_toml(tmp_path):
     ("[model]\nmarket_weight = 2\n", "market_weight"),
     ("[selection.btts]\nmax_picks = 'lots'\n", "must be a number"),
     ("leagues = ['E0', 'ZZ1']\n", "Unknown league"),
+    ("past_days = 9\n", "past_days"),
 ])
 def test_invalid_settings_are_reported(tmp_path, content, message):
     path = tmp_path / "bad.toml"
