@@ -1,0 +1,116 @@
+name: Daily football predictions
+
+on:
+  schedule:
+    # Morning run: today's picks + Telegram message (05:15 UTC).
+    - cron: "15 5 * * *"
+    # Evening refresh: football-data.co.uk publishes midweek fixtures on Tuesday
+    # afternoons and weekend fixtures on Friday afternoons (UK time), so this run
+    # catches that evening's games before kick-off and records tomorrow's picks.
+    - cron: "15 17 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "First day to predict (YYYY-MM-DD). Leave empty for today."
+        required: false
+        default: ""
+
+permissions:
+  contents: write # store prediction history on the predictions-data branch
+  pages: write # publish the dashboard (only when the ENABLE_PAGES variable is "true")
+  id-token: write
+
+concurrency:
+  group: football-predictions
+  cancel-in-progress: false
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    defaults:
+      run:
+        working-directory: football-predictor
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: football-predictor/pyproject.toml
+
+      - name: Install
+        run: pip install .
+
+      - name: Restore downloaded data
+        uses: actions/cache@v4
+        with:
+          path: football-predictor/.cache
+          key: football-data-${{ github.run_id }}
+          restore-keys: football-data-
+
+      - name: Load prediction history
+        run: |
+          set -euo pipefail
+          dir="$RUNNER_TEMP/predictions-data"
+          if git ls-remote --exit-code --heads origin predictions-data >/dev/null 2>&1; then
+            git fetch --depth=1 origin predictions-data
+            git worktree add --detach "$dir" FETCH_HEAD
+          else
+            git worktree add --detach "$dir"
+            git -C "$dir" checkout --orphan predictions-data
+            git -C "$dir" rm -rf --quiet .
+          fi
+
+      - name: Predict, grade and build the dashboard
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FOOTY_SITE_URL: ${{ vars.ENABLE_PAGES == 'true' && format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) || '' }}
+          PREDICT_DATE: ${{ inputs.date }}
+        run: footy daily --date "${PREDICT_DATE:-today}" --out site --history "$RUNNER_TEMP/predictions-data/history" -v
+
+      - name: Save prediction history
+        if: always()
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP/predictions-data"
+          [ -d history ] || { echo "No history yet"; exit 0; }
+          git add -A history
+          if git diff --cached --quiet; then
+            echo "History unchanged"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit --quiet -m "Predictions $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push origin HEAD:predictions-data
+
+      # The dashboard is published even when only the Telegram delivery failed;
+      # the run is still marked as failed so the problem gets noticed.
+      - name: Keep the dashboard as a run artifact
+        if: ${{ !cancelled() && hashFiles('football-predictor/site/index.html') != '' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: football-predictions
+          path: football-predictor/site
+          include-hidden-files: true
+          retention-days: 14
+
+      - name: Upload dashboard for GitHub Pages
+        if: ${{ !cancelled() && vars.ENABLE_PAGES == 'true' && hashFiles('football-predictor/site/index.html') != '' }}
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: football-predictor/site
+
+  deploy:
+    if: ${{ !cancelled() && vars.ENABLE_PAGES == 'true' }}
+    needs: predict
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

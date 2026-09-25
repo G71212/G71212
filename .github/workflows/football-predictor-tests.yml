@@ -1,0 +1,36 @@
+name: Football predictor tests
+
+on:
+  push:
+    paths:
+      - "football-predictor/**"
+      - ".github/workflows/football-predict*.yml"
+  pull_request:
+    paths:
+      - "football-predictor/**"
+      - ".github/workflows/football-predict*.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    defaults:
+      run:
+        working-directory: football-predictor
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: football-predictor/pyproject.toml
+      - run: pip install -e ".[dev]"
+      - run: pytest
+      - name: Smoke test the CLI
+        run: footy leagues && footy --version
