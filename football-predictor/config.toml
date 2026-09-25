@@ -1,0 +1,69 @@
+# Footy Predictor settings. Every value is optional - delete a line to use the default.
+
+# Time zone that defines "today" and the kick-off times in Telegram/Markdown.
+# Use an IANA name, e.g. "Africa/Nairobi", "Africa/Lagos", "Europe/London".
+timezone = "UTC"
+
+# Leagues to cover: preset names ("all", "main", "extra", "top5", "europe-top")
+# and/or league codes such as "E0" or "USA". Run `footy leagues` for the list.
+leagues = ["all"]
+
+# How many days the daily report covers: 1 = today only, 2 = today + tomorrow.
+days = 2
+
+# Downloaded CSV files are cached here; the current season is re-downloaded
+# after `refresh_hours`.
+cache_dir = ".cache"
+refresh_hours = 6
+
+[model]
+# Recent matches count more: a match this many days old has half the weight.
+half_life_days = 365
+# Matches older than this are ignored.
+history_days = 1095
+# Shrinks team ratings towards the league average (in pseudo-matches).
+prior_strength = 24
+# Starting ratings for teams new to a league (1.0 = league average).
+newcomer_attack = 0.85
+newcomer_defence = 1.15
+relegated_attack = 1.15
+relegated_defence = 0.87
+# Weight of expected goals (xG) versus real goals when rating teams.
+xg_weight = 0.5
+# Weight of the betting market's implied goals in the final forecast
+# (0 = pure model, 1 = pure market). 0.85 scored best in backtests.
+market_weight = 0.85
+
+[selection]
+# Both teams need at least this many recent league matches to be picked.
+min_team_matches = 4
+
+# For each market: minimum model probability, maximum picks per day, and an
+# optional minimum edge (probability x odds - 1) applied where odds exist.
+[selection.btts_over25]
+min_probability = 0.50
+max_picks = 10
+
+[selection.over25]
+min_probability = 0.62
+max_picks = 10
+# min_edge = 0.0
+
+[selection.btts]
+min_probability = 0.60
+max_picks = 10
+
+[selection.double_chance]
+min_probability = 0.80
+max_picks = 10
+
+[telegram]
+# Also needs the TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID environment variables.
+enabled = true
+# Send a short "no picks today" message when nothing qualifies.
+send_when_empty = false
+
+[site]
+title = "Footy Predictor"
+# Public dashboard URL, linked at the bottom of Telegram messages.
+url = ""
