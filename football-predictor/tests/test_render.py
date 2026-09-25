@@ -150,6 +150,8 @@ def test_opening_shows_the_golden_g_ball_and_the_welcome():
     splash = page.split('<div id="splash"')[1].split("</header>")[0]
     assert "Welcome to Golding&#x27;s Intelligence" in splash
     assert "gb-gold" in splash and "<text" not in splash  # the G is drawn, not typed: no font needed
+    assert 'class="player"' in splash and "Tap to skip" in splash  # the kick, and a way out of it
+    assert "function digitRain" in page  # the green digits that follow the kick
     rep["welcome"] = ""
     assert '<div class="splash-welcome"></div>' in render_html(rep)
 
