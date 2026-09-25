@@ -18,7 +18,7 @@ Every day it downloads the latest results, fixtures and bookmaker odds for 38 le
 
 Every published pick is graded automatically once the score is known: **✓ and the final score** when it won, **✕ and the score** when it lost, **Pending** until the match is played and **Awaiting result** after the final whistle until the score is published. The dashboard always has three day buttons, **Yesterday**, **Today** and **Tomorrow**, on your own calendar; yesterday's picks stay there with their results, the morning Telegram message starts with a recap of them, and the **track record** builds itself. Picks are never edited after they are published.
 
-No API key or paid data is needed. Everything comes from the free CSV files at [football-data.co.uk](https://www.football-data.co.uk).
+No API key or paid data is needed. Everything comes from the free CSV files at [football-data.co.uk](https://www.football-data.co.uk). Optionally, a free [football-data.org](https://www.football-data.org) key gets final scores for the big leagues within hours instead of days (see [Faster results](#faster-results-optional)).
 
 ---
 
@@ -79,6 +79,7 @@ footy record               # track record from the prediction history
 footy backtest --leagues main --start 2024-08-01 --end 2026-06-30   # walk-forward evaluation
 footy ratings E0           # attack/defence ratings for a league
 footy leagues              # supported leagues and presets
+footy livecheck            # compare football-data.org scores with football-data.co.uk (needs FOOTBALL_DATA_API_KEY)
 ```
 
 Common options: `--leagues top5,E1`, `--timezone Africa/Nairobi`, `--offline` (cached data only), `-v` (progress logs).
@@ -87,10 +88,11 @@ Common options: `--leagues top5,E1`, `--timezone Africa/Nairobi`, `--offline` (c
 
 ## Daily delivery with GitHub Actions
 
-`.github/workflows/football-predictions.yml` runs the daily job twice a day:
+`.github/workflows/football-predictions.yml` runs the daily job three times a day:
 
 - **05:15 UTC**: today's picks, dashboard update and Telegram message.
 - **17:15 UTC**: refresh. football-data.co.uk adds midweek fixtures on Tuesday afternoons and weekend fixtures on Friday afternoons. Any new picks for tonight are sent as a Telegram "Update", and tomorrow's picks go on the dashboard.
+- **21:45 UTC**: night run. Grades the day's finished matches (same-evening ticks and crosses for the big leagues when the football-data.org key is set).
 
 Scheduled workflows only run from the default branch (`main`). With no further setup, every run:
 
@@ -106,10 +108,21 @@ Optional extras:
    1. Talk to [@BotFather](https://t.me/BotFather), send `/newbot`, and copy the token.
    2. Add the bot to your channel (as an admin) or group. Get the chat id, e.g. `@yourchannel` for a public channel, or from `https://api.telegram.org/bot<token>/getUpdates` after posting in the group.
    3. Add repository **secrets** `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` (**Settings → Secrets and variables → Actions**).
+3. **Faster results**: see below.
+
+### Faster results (optional)
+
+football-data.co.uk updates most results only on Sunday and Wednesday nights, so a pick can show *Awaiting result* for a few days. With a free [football-data.org](https://www.football-data.org/client/register) key, picks in these leagues are ticked or crossed within hours of the final whistle: Premier League, Championship, Bundesliga, Serie A, La Liga, Ligue 1, Eredivisie, Primeira Liga and Brazil's Série A (the competitions in its free plan). Other leagues still wait for football-data.co.uk.
+
+1. Register at football-data.org; the key arrives by email.
+2. Add it as the repository secret `FOOTBALL_DATA_API_KEY`.
+3. Optional check: **Actions → Check faster results (football-data.org) → Run workflow** compares the two sources over the last 10 days, match by match.
+
+The two sites spell clubs differently ("Man United" vs "Manchester United FC"), so scores are matched by league, kick-off time and team names, and unclear pairings are skipped. A pick graded this way is provisional until football-data.co.uk publishes the same match: its score then confirms the grade, or corrects it. If football-data.org is down or the key stops working, the daily run carries on and logs a warning. The key is never printed.
 
 To run it now instead of waiting for the schedule: **Actions → Daily football predictions → Run workflow**.
 
-To change the schedule, edit the two `cron` lines (they are in UTC). Set `timezone` in `config.toml` so "today" and the kick-off times match where you are.
+To change the schedule, edit the `cron` lines (they are in UTC). Set `timezone` in `config.toml` so "today" and the kick-off times match where you are.
 
 In public repositories, GitHub pauses scheduled workflows after 60 days without repository activity and emails you first; re-enable it on the Actions tab with one click.
 
@@ -195,7 +208,7 @@ Reproduce these numbers with `footy backtest --leagues main --start 2024-08-01 -
 ## Limitations
 
 - Fixtures appear only when football-data.co.uk publishes them (Tuesday and Friday afternoons, UK time). Matches on a Tuesday or Friday evening are usually picked up by the 17:15 UTC run, not the morning run.
-- Results arrive when football-data.co.uk publishes them: for most leagues that is twice a week (Sunday and Wednesday nights, UK time). A Saturday pick is usually ticked or crossed on Monday morning; until then it shows *Awaiting result*.
+- Results arrive when football-data.co.uk publishes them: for most leagues that is twice a week (Sunday and Wednesday nights, UK time). A Saturday pick is usually ticked or crossed on Monday morning; until then it shows *Awaiting result*. With a football-data.org key, the nine leagues in its free plan are graded the same day.
 - Only league matches are covered: no cups, European competitions or internationals.
 - The model knows nothing about injuries, suspensions, rotation or motivation, except through the bookmaker odds.
 - Early in a season, promoted teams have little data; `min_team_matches` keeps them out of the picks until they have played a few games.
@@ -220,6 +233,7 @@ football-predictor/
 │   ├── render.py                # Markdown, Telegram, CSV, text and HTML output
 │   ├── templates/dashboard.html # the web dashboard
 │   ├── notify.py                # Telegram delivery
+│   ├── livescores.py            # faster final scores from football-data.org (optional)
 │   ├── pipeline.py              # predict + daily workflows
 │   ├── backtest.py              # walk-forward evaluation
 │   └── cli.py                   # the `footy` command

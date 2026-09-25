@@ -344,7 +344,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
       <h2>This page</h2>
       <p id="generated"></p>
       <p id="model-info"></p>
-      <p>Data: football-data.co.uk results, fixtures and odds.</p>
+      <p id="data-credit">Data: football-data.co.uk results, fixtures and odds.</p>
     </div>
   </div>
 </footer>
@@ -575,8 +575,15 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
       (day.fixtures.length ? day.fixtures.length + " matches analysed in " + Object.keys(leagues).length + " leagues" : "no matches") +
       "</span>" + results +
       "<span>Kick-off times in your time zone" + (viewerZone ? " (" + esc(viewerZone) + ")" : "") + "</span>" +
-      (waiting ? '<span class="note">Picks get a ✓ or ✕ automatically once the final scores are published. Our results source ' +
-        "(football-data.co.uk) updates most leagues on Sunday and Wednesday nights (UK time), so some scores take a few days.</span>" : "");
+      (waiting ? '<span class="note">' + esc(resultsNote()) + "</span>" : "");
+  }
+
+  function resultsNote() {
+    var fast = report.fast_results || [];
+    var slow = "football-data.co.uk, which updates most leagues on Sunday and Wednesday nights (UK time), so some scores take a few days.";
+    if (!fast.length) return "Picks get a ✓ or ✕ automatically once the final scores are published by our results source, " + slow;
+    return "Picks get a ✓ or ✕ automatically once the final scores are in. " + fast.slice(0, -1).join(", ") + " and " +
+      fast[fast.length - 1] + " are graded within hours of the final whistle; other leagues wait for " + slow;
   }
 
   // ---- panels ----
@@ -781,6 +788,9 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   document.getElementById("app-title").textContent = report.title || "GOLDING'S PREDICTION";
   document.documentElement.setAttribute("data-generated", report.generated_at || "");
   document.getElementById("disclaimer").textContent = report.disclaimer || "";
+  if ((report.fast_results || []).length) {
+    document.getElementById("data-credit").textContent = "Data: football-data.co.uk results, fixtures and odds; faster final scores from football-data.org.";
+  }
   document.getElementById("generated").textContent = "Updated " + fmtStamp.format(new Date(report.generated_at)) + " (your time).";
   var model = report.model || {};
   document.getElementById("model-info").textContent = "Recent form half-life " + Math.round(model.half_life_days || 0) +
