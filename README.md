@@ -1,6 +1,8 @@
 # ⚽ Footy Predictor
 
-_Generated 2026-09-25 21:35 UTC · kick-off times in UTC_
+_Generated 2026-09-25 21:45 UTC · kick-off times in UTC_
+
+**[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
 
