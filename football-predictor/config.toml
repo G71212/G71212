@@ -1,4 +1,4 @@
-# Footy Predictor settings. Every value is optional - delete a line to use the default.
+# GOLDING'S PREDICTION settings. Every value is optional - delete a line to use the default.
 
 # Time zone that defines "today" and the kick-off times in Telegram/Markdown.
 # Use an IANA name, e.g. "Africa/Nairobi", "Africa/Lagos", "Europe/London".
@@ -10,6 +10,8 @@ leagues = ["all"]
 
 # How many days the daily report covers: 1 = today only, 2 = today + tomorrow.
 days = 2
+# Earlier days kept on the dashboard with their results (1 = yesterday, 0 = none).
+past_days = 1
 
 # Downloaded CSV files are cached here; the current season is re-downloaded
 # after `refresh_hours`.
@@ -82,6 +84,6 @@ enabled = true
 send_when_empty = false
 
 [site]
-title = "Footy Predictor"
+title = "GOLDING'S PREDICTION"
 # Public dashboard URL, linked at the bottom of Telegram messages.
 url = ""

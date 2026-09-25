@@ -1,4 +1,4 @@
-# ⚽ Footy Predictor
+# ⚽ GOLDING'S PREDICTION
 
 Daily football predictions for four markets:
 
@@ -11,12 +11,12 @@ Daily football predictions for four markets:
 
 Every day it downloads the latest results, fixtures and bookmaker odds for 38 leagues, rates every team, and publishes at least 15 picks per market (when enough matches are scheduled), each with a probability, a confidence rating and the fair odds. The day's safest tips are highlighted as 🔒 bankers. You get them as:
 
-- a mobile-friendly **web dashboard** (GitHub Pages),
+- a mobile-friendly **web dashboard** (GitHub Pages) that installs as a desktop or phone app, with a neon theme whose colours slowly shift and a football that bounces in when you open it,
 - a **Telegram** message to your channel or group,
 - **Markdown, CSV and JSON** files, and
 - the `footy` **command-line tool**.
 
-Every published pick is graded automatically once the score is known, so the **track record** builds itself. Picks are never edited after they are published.
+Every published pick is graded automatically once the score is known: **✓ and the final score** when it won, **✕ and the score** when it lost, **Pending** until the match is played and **Awaiting result** after the final whistle until the score is published. Yesterday's picks stay on the dashboard (the **Yesterday** tab) with their results, the morning Telegram message starts with a recap of them, and the **track record** builds itself. Picks are never edited after they are published.
 
 No API key or paid data is needed. Everything comes from the free CSV files at [football-data.co.uk](https://www.football-data.co.uk).
 
@@ -30,7 +30,7 @@ Once the dashboard is online (see [Daily delivery](#daily-delivery-with-github-a
 - **Android, Chrome:** ⋮ menu → **Install app** (or **Add to Home screen**). It then appears in the app drawer like any other app. If you opened the link from Telegram, first choose **Open in Chrome**, because Telegram's built-in browser can't install apps.
 - **iPhone / iPad, Safari:** Share → **Add to Home Screen**.
 
-The installed app refreshes itself from the site every time you open it, and still opens with the last predictions when you're offline. To remove it, right-click its icon and choose uninstall, as with any app.
+The installed app keeps itself up to date: it loads the latest predictions every time you open it, checks for a newer edition whenever you switch back to it (and every 15 minutes while it's on screen), and reloads by itself when a new version of the app is published. It still opens with the last predictions when you're offline. A new app name or icon reaches installed apps through the browser, which may ask you to accept the change; to get it immediately, uninstall and install again. To remove it, right-click its icon and choose uninstall, as with any app.
 
 ---
 
@@ -123,6 +123,7 @@ Settings live in [`config.toml`](config.toml); every value is optional. The most
 timezone = "Africa/Nairobi"     # defines "today" and kick-off times
 leagues = ["top5", "E1", "USA"] # presets and/or league codes
 days = 2                        # daily report covers today + tomorrow
+past_days = 1                   # also show yesterday's picks with their results (0 = off)
 
 [selection.over25]
 min_probability = 0.62          # "strong" picks need at least this probability
@@ -155,7 +156,7 @@ Every pick carries a label:
 3. **Market blend.** Bookmaker prices are converted into the expected goals they imply: Over/Under 2.5 gives the total, and 1X2 gives the split between the teams. These are blended 85/15 with the model's expected goals, because in testing the market was the sharper signal.
 4. **One scoreline table, four markets.** Expected goals become a probability for every scoreline (0-0, 1-0, … 12-12), and all four markets are read from that one table. So they always agree with each other. In particular, BTTS & Over 2.5 is computed exactly (P(BTTS) − P(1-1)); multiplying P(BTTS) × P(Over 2.5) would understate it, because the two events are strongly correlated.
 5. **Picks.** Matches above each market's threshold are strong picks (up to `max_picks`). If there are fewer than `min_picks`, the list is topped up with the next most likely matches, labelled ☆ extra, but never below the market's `floor` (for Over 2.5 and BTTS that is 50%, so every tip is more likely to win than lose). Picks are sorted most likely first, and the safest are flagged 🔒 bankers. For Double Chance the tip is the option that leaves out the least likely result. On quiet days (for example an international break, or a Tuesday before the midweek fixtures are published) there may simply not be 15 matches that clear the floor.
-6. **History and grading.** Each day's predictions are saved as JSON. Later runs attach final scores and settle picks as won, lost or void (no result 10 days after the match date, usually a postponement).
+6. **History and grading.** Each day's predictions are saved as JSON. Later runs attach final scores and settle picks as won (✓), lost (✕) or void (no result 10 days after the match date, usually a postponement).
 
 ## Accuracy
 
@@ -194,6 +195,7 @@ Reproduce these numbers with `footy backtest --leagues main --start 2024-08-01 -
 ## Limitations
 
 - Fixtures appear only when football-data.co.uk publishes them (Tuesday and Friday afternoons, UK time). Matches on a Tuesday or Friday evening are usually picked up by the 17:15 UTC run, not the morning run.
+- Results arrive when football-data.co.uk publishes them: for most leagues that is twice a week (Sunday and Wednesday nights, UK time). A Saturday pick is usually ticked or crossed on Monday morning; until then it shows *Awaiting result*.
 - Only league matches are covered: no cups, European competitions or internationals.
 - The model knows nothing about injuries, suspensions, rotation or motivation, except through the bookmaker odds.
 - Early in a season, promoted teams have little data; `min_team_matches` keeps them out of the picks until they have played a few games.

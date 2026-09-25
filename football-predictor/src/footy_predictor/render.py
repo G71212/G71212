@@ -6,7 +6,7 @@ import csv
 import html
 import io
 import json
-from datetime import date, datetime, timezone
+from datetime import date, datetime, timedelta, timezone
 from importlib import resources
 from zoneinfo import ZoneInfo
 
@@ -18,8 +18,12 @@ DISCLAIMER = ("Predictions are model probabilities, not certainties. "
 TELEGRAM_LIMIT = 4096
 
 
-def build_report(days: list[dict], track: dict, settings, generated_at: datetime) -> dict:
-    """The single document every renderer (and the dashboard) works from."""
+def build_report(days: list[dict], track: dict, settings, generated_at: datetime,
+                 today: date | None = None) -> dict:
+    """The single document every renderer (and the dashboard) works from.
+
+    ``today`` is the first upcoming day; days before it are kept for their results.
+    """
     return {
         "app": APP_NAME,
         "version": __version__,
@@ -27,6 +31,7 @@ def build_report(days: list[dict], track: dict, settings, generated_at: datetime
         "url": settings.site.url,
         "generated_at": generated_at.astimezone(timezone.utc).replace(microsecond=0).isoformat(),
         "timezone": settings.timezone,
+        "today": today.isoformat() if today else (days[0]["date"] if days else None),
         "markets": [
             {"key": m, "title": MARKET_TITLES[m], "icon": MARKET_ICONS[m],
              "min_probability": settings.selection.rule(m).min_probability,
@@ -50,6 +55,12 @@ def build_report(days: list[dict], track: dict, settings, generated_at: datetime
 
 def _tz(report: dict) -> ZoneInfo:
     return ZoneInfo(report.get("timezone") or "UTC")
+
+
+def today_index(report: dict) -> int:
+    """Position of the first upcoming day in ``report["days"]`` (earlier days are results)."""
+    dates = [day["date"] for day in report["days"]]
+    return dates.index(report["today"]) if report.get("today") in dates else 0
 
 
 def kickoff_local(iso: str | None, tz: ZoneInfo) -> str:
@@ -111,6 +122,32 @@ def _status_text(pick: dict) -> str:
     return {"void": "void", "pending": ""}.get(status, status)
 
 
+def result_counts(picks: list[dict]) -> dict[str, int]:
+    counts = {"won": 0, "lost": 0, "pending": 0, "void": 0}
+    for pick in picks:
+        status = pick.get("status", "pending")
+        counts[status] = counts.get(status, 0) + 1
+    return counts
+
+
+def _day_picks(day: dict) -> list[dict]:
+    return [p for picks in day["picks"].values() for p in picks]
+
+
+def _results_line(picks: list[dict]) -> str:
+    counts = result_counts(picks)
+    parts = [f"✅ {counts['won']} won", f"❌ {counts['lost']} lost"]
+    if counts["pending"]:
+        parts.append(f"{counts['pending']} pending")
+    if counts["void"]:
+        parts.append(f"{counts['void']} void")
+    return " · ".join(parts)
+
+
+def _has_results(picks: list[dict]) -> bool:
+    return any(p.get("status") in ("won", "lost") for p in picks)
+
+
 def _league_names(day: dict) -> dict[str, str]:
     return {f["id"]: f["league_name"] for f in day["fixtures"]}
 
@@ -143,6 +180,8 @@ def render_markdown(report: dict) -> str:
             lines += ["_No upcoming matches in the published fixtures for this day._", ""]
             continue
         lines += [f"{len(day['fixtures'])} matches analysed across {len(leagues)} leagues.", ""]
+        if _has_results(_day_picks(day)):
+            lines += [f"**Results:** {_results_line(_day_picks(day))}", ""]
         safest = bankers(report, day)
         if safest:
             lines += ["### 🔒 Bankers: the day's safest tips", "",
@@ -244,12 +283,19 @@ def render_telegram(report: dict, day_index: int = 0, only: set[str] | None = No
     tz = _tz(report)
     day = report["days"][day_index]
     names = _league_names(day)
-    esc = html.escape
+
+    def esc(text: str) -> str:
+        return html.escape(text, quote=False)
+
     title = "Update" if update else "Daily tips"
     header = (f"<b>⚽ {esc(report['title'])} · {title}</b>\n"
               f"{date.fromisoformat(day['date']).strftime('%a %d %b %Y')} · "
               f"times in {esc(report['timezone'])}")
     blocks = [header]
+    if not update and day_index > 0:
+        recap = _recap(report, report["days"][day_index - 1], day)
+        if recap:
+            blocks.append(recap)
     safest = bankers(report, day, only)
     if safest:
         lines = ["<b>🔒 Bankers: the day's safest tips</b>"]
@@ -274,7 +320,7 @@ def render_telegram(report: dict, day_index: int = 0, only: set[str] | None = No
                 f" · fair {odds(p['fair_odds'])}{price} · <i>{esc(names.get(p['match_id'], p['league']))}</i>"
             )
         blocks.append("\n".join(lines))
-    if len(blocks) == 1:
+    if not any(day["picks"].get(m["key"]) for m in report["markets"]):
         blocks.append("No selections met the confidence thresholds today.")
     record = report.get("track_record") or {}
     titles = {"bankers": "🔒 Bankers", **MARKET_TITLES}
@@ -284,9 +330,28 @@ def render_telegram(report: dict, day_index: int = 0, only: set[str] | None = No
         blocks.append("<b>📊 Last 30 days</b>\n" + "\n".join(summary))
     footer = f"<i>{esc(LEGEND)}\n{esc(report['disclaimer'])}</i>"
     if report.get("url"):
-        footer = f'<a href="{esc(report["url"], quote=True)}">Full predictions</a>\n' + footer
+        footer = f'<a href="{html.escape(report["url"], quote=True)}">Full predictions</a>\n' + footer
     blocks.append(footer)
     return _chunks(blocks)
+
+
+def _recap(report: dict, previous: dict, day: dict) -> str | None:
+    """The previous day's results by market, once some of its picks are settled."""
+    if date.fromisoformat(day["date"]) - date.fromisoformat(previous["date"]) != timedelta(days=1):
+        return None
+    if not _has_results(_day_picks(previous)):
+        return None
+    lines = [f"<b>📋 Yesterday's results</b> · "
+             f"{date.fromisoformat(previous['date']).strftime('%a %d %b')}"]
+    safest = [p for _, p in bankers(report, previous)]
+    if safest:
+        lines.append(f"🔒 Bankers: {_results_line(safest)}")
+    for market in report["markets"]:
+        picks = previous["picks"].get(market["key"], [])
+        if picks:
+            lines.append(f"{market['icon']} {html.escape(market['title'], quote=False)}: "
+                         f"{_results_line(picks)}")
+    return "\n".join(lines)
 
 
 # --------------------------------------------------------------------------- csv
@@ -336,8 +401,9 @@ def render_json(report: dict) -> str:
     return json.dumps(report, indent=1, ensure_ascii=False) + "\n"
 
 
-APP_FILES = ("icon-192.png", "icon-512.png", "apple-touch-icon.png", "favicon-32.png", "sw.js")
-THEME_COLOR = "#0f5c3b"
+APP_FILES = ("icon-192.png", "icon-512.png", "icon-maskable-512.png", "apple-touch-icon.png",
+             "favicon-32.png", "sw.js")
+THEME_COLOR = "#05050b"
 
 
 def short_app_name(title: str) -> str:
@@ -357,12 +423,12 @@ def render_manifest(report: dict) -> str:
         "start_url": "./",
         "scope": "./",
         "display": "standalone",
-        "background_color": "#f2f5f3",
+        "background_color": THEME_COLOR,
         "theme_color": THEME_COLOR,
         "icons": [
             {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
             {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
-            {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+            {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
         ],
     }
     return json.dumps(manifest, indent=1, ensure_ascii=False) + "\n"
@@ -379,10 +445,37 @@ _APP_HEAD = (
     '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n'
     '<meta name="mobile-web-app-capable" content="yes">\n'
 )
-_APP_SCRIPT = (
-    '<script>if ("serviceWorker" in navigator && location.protocol !== "file:") '
-    '{ navigator.serviceWorker.register("sw.js").catch(function () {}); }</script>\n'
-)
+# Keeps an installed app current. The page is always fetched fresh when the app opens, but
+# phones keep installed apps open for days: so whenever the app comes back into view (or
+# back online, or a new version of the app takes over) it checks data/latest.json and
+# reloads if a newer edition of the predictions has been published since it was loaded.
+_APP_SCRIPT = """<script>
+(function () {
+  "use strict";
+  if (!("serviceWorker" in navigator) || location.protocol === "file:") return;
+  var registration = null, reloading = false, lastCheck = Date.now();
+  var shown = document.documentElement.getAttribute("data-generated") || "";
+  navigator.serviceWorker.register("sw.js").then(function (reg) { registration = reg; }).catch(function () {});
+  function check() {
+    if (!shown || reloading) return;
+    lastCheck = Date.now();
+    if (registration) registration.update().catch(function () {});
+    fetch("data/latest.json", { cache: "no-store" })
+      .then(function (response) { return response.ok ? response.json() : null; })
+      .then(function (latest) {
+        if (latest && latest.generated_at > shown && !reloading) { reloading = true; location.reload(); }
+      })
+      .catch(function () {});
+  }
+  navigator.serviceWorker.addEventListener("controllerchange", check);
+  window.addEventListener("online", check);
+  document.addEventListener("visibilitychange", function () {
+    if (document.visibilityState === "visible" && Date.now() - lastCheck > 60000) check();
+  });
+  setInterval(function () { if (document.visibilityState === "visible") check(); }, 15 * 60 * 1000);
+})();
+</script>
+"""
 
 
 def render_html(report: dict, standalone: bool = True, app: bool = False) -> str:

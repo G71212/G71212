@@ -17,7 +17,7 @@ from .history import (HistoryStore, backfill_tiers, fixture_record, grade_day, h
 from .leagues import LEAGUES, TIER_ABOVE, League
 from .notify import NotifyError, send_telegram, telegram_credentials
 from .render import (APP_FILES, app_file, build_report, render_csv, render_html, render_json,
-                     render_manifest, render_markdown, render_telegram)
+                     render_manifest, render_markdown, render_telegram, today_index)
 from .selection import select_picks
 
 log = logging.getLogger(__name__)
@@ -122,7 +122,11 @@ class DailyResult:
 def run_daily(settings: Settings, source: DataSource, start: date, now: datetime,
               history_dir: Path, out_dir: Path | None = None, notify: bool = True,
               dry_run: bool = False) -> DailyResult:
-    """Predict upcoming days, record picks, grade old picks, publish and notify."""
+    """Predict upcoming days, record picks, grade old picks, publish and notify.
+
+    The report also carries the ``settings.past_days`` days before ``start``
+    straight from history, so yesterday's picks stay visible with their results.
+    """
     tz = settings.tz
     today = now.astimezone(tz).date()
     dates = [start + timedelta(days=i) for i in range(settings.days)]
@@ -144,7 +148,9 @@ def run_daily(settings: Settings, source: DataSource, start: date, now: datetime
     _grade_history(store, source, today)
     records = store.all()
     day_records = [store.load(day) or new_day(day, now) for day in dates]
-    report = build_report(day_records, track_record(records, today), settings, now)
+    earlier = [store.load(start - timedelta(days=n)) for n in range(settings.past_days, 0, -1)]
+    shown = [r for r in earlier if r and r["fixtures"]] + day_records
+    report = build_report(shown, track_record(records, today), settings, now, today=start)
     result = DailyResult(report)
     if out_dir is not None:
         result.files = write_outputs(report, out_dir)
@@ -193,7 +199,7 @@ def _notify(settings: Settings, store: HistoryStore, report: dict, first_day: di
     if not new and not empty_note:
         log.info("Telegram: nothing new to send")
         return
-    result.messages = render_telegram(report, 0, only=new, update=bool(already))
+    result.messages = render_telegram(report, today_index(report), only=new, update=bool(already))
     credentials = telegram_credentials()
     if dry_run or credentials is None:
         if credentials is None and not dry_run:

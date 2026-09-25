@@ -119,6 +119,42 @@ def test_daily_grades_yesterdays_picks(world, tmp_path):
     assert over25 and all(p["status"] == "won" for p in over25)  # 2-1 is over 2.5
     assert all(p["status"] == "won" for p in record["picks"]["btts"])
     assert result.report["track_record"]["over25"]["all"]["won"] == len(over25)
+    # Yesterday stays on the dashboard, graded, ahead of the upcoming days.
+    days = result.report["days"]
+    assert [d["date"] for d in days] == [str(DAY + timedelta(days=i)) for i in range(3)]
+    assert result.report["today"] == str(DAY + timedelta(days=1))
+    assert days[0]["picks"]["over25"][0]["status"] == "won"
+    assert days[0]["picks"]["over25"][0]["result"] == [2, 1]
+
+
+def test_next_mornings_message_recaps_yesterday(world, tmp_path, monkeypatch):
+    settings, source, results = world
+    pipeline.run_daily(settings, source, DAY, MORNING, tmp_path / "h", None, notify=False)
+    played = [Match(f.league, f.season, f.date, f.home, f.away, f.kickoff, 0, 0)
+              for f in source.fixtures() if f.date == DAY]
+    source._results["E0"] = results + played
+    source._fixtures = [f for f in source._fixtures if f.date != DAY]
+    sent: list[list[str]] = []
+    monkeypatch.setenv("TELEGRAM_BOT_TOKEN", "123:abc")
+    monkeypatch.setenv("TELEGRAM_CHAT_ID", "42")
+    monkeypatch.setattr(pipeline, "send_telegram", lambda token, chat, messages: sent.append(messages))
+    result = pipeline.run_daily(settings, source, DAY + timedelta(days=1), MORNING + timedelta(days=1),
+                                tmp_path / "h", None)
+    assert result.sent
+    text = "\n".join(sent[0])
+    assert (DAY + timedelta(days=1)).strftime("%a %d %b %Y") in text  # today's tips, not yesterday's
+    assert "Yesterday's results" in text
+    over25 = len(HistoryStore(tmp_path / "h").load(DAY)["picks"]["over25"])
+    assert f"Over 2.5 Goals: ✅ 0 won · ❌ {over25} lost" in text  # 0-0 loses every over 2.5 pick
+
+
+def test_past_days_can_be_turned_off(world, tmp_path):
+    settings, source, _ = world
+    pipeline.run_daily(settings, source, DAY, MORNING, tmp_path / "h", None, notify=False)
+    settings.past_days = 0
+    result = pipeline.run_daily(settings, source, DAY + timedelta(days=1), MORNING + timedelta(days=1),
+                                tmp_path / "h", None, notify=False)
+    assert result.report["days"][0]["date"] == str(DAY + timedelta(days=1))
 
 
 def test_site_is_installable_as_an_app(world, tmp_path):
@@ -127,13 +163,18 @@ def test_site_is_installable_as_an_app(world, tmp_path):
     site = tmp_path / "site"
     manifest = json.loads((site / "manifest.webmanifest").read_text())
     assert manifest["display"] == "standalone" and manifest["start_url"] == "./"
-    assert manifest["name"] == "Footy Predictor" and manifest["short_name"] == "Footy"
+    assert manifest["name"] == "GOLDING'S PREDICTION" and manifest["short_name"] == "GOLDING'S"
+    assert manifest["theme_color"] == manifest["background_color"] == "#05050b"
+    assert {"any", "maskable"} == {icon["purpose"] for icon in manifest["icons"]}
     assert len(manifest["short_name"]) <= 12  # fits under an Android home-screen icon
     sizes = {icon["sizes"] for icon in manifest["icons"]}
     assert {"192x192", "512x512"} <= sizes
     for icon in manifest["icons"]:
         assert (site / icon["src"]).read_bytes().startswith(b"\x89PNG")
-    assert "fetch" in (site / "sw.js").read_text()
+    worker = (site / "sw.js").read_text()
+    assert "fetch" in worker and 'cache: "no-cache"' in worker
     page = (site / "index.html").read_text()
     assert '<link rel="manifest" href="manifest.webmanifest">' in page
     assert 'serviceWorker.register("sw.js")' in page
+    # Installed apps reload when a new version takes over or newer predictions are published.
+    assert "controllerchange" in page and 'fetch("data/latest.json"' in page

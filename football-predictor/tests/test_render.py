@@ -1,15 +1,17 @@
+import copy
 import csv
 import io
 import json
 import re
 from datetime import date, datetime, timezone
+from importlib import resources
 
 from footy_predictor.config import Settings
 from footy_predictor.engine import Prediction
 from footy_predictor.history import merge_day, track_record
 from footy_predictor.markets import market_probabilities, score_matrix
 from footy_predictor.render import (TELEGRAM_LIMIT, build_report, render_csv, render_html,
-                                    render_markdown, render_telegram, render_text)
+                                    render_markdown, render_telegram, render_text, today_index)
 from footy_predictor.selection import select_picks
 from helpers import fixture
 
@@ -87,7 +89,8 @@ def test_html_embeds_report_safely():
     rep = report(n=2, home_name="</script><script>alert(1)</script>")
     page = render_html(rep)
     assert page.startswith("<!doctype html>")
-    assert page.count("</script>") == 2  # only the page's own two script blocks
+    template = resources.files("footy_predictor").joinpath("templates/dashboard.html").read_text()
+    assert page.count("</script>") == template.count("</script>")  # only the page's own blocks
     payload = re.search(r'<script id="report-data" type="application/json">(.*?)</script>', page, re.S)
     data = json.loads(payload.group(1))
     assert data["days"][0]["fixtures"][0]["home"].startswith("</script>")
@@ -112,3 +115,39 @@ def test_bankers_and_extra_picks_are_labelled():
 def test_single_file_html_has_no_app_links():
     page = render_html(report(n=1))
     assert "manifest.webmanifest" not in page and "serviceWorker" not in page
+
+
+def test_yesterday_is_shown_with_ticks_and_crosses():
+    rep = report(n=3)
+    yesterday = copy.deepcopy(rep["days"][0])
+    yesterday["date"] = "2026-09-25"
+    first, second = yesterday["picks"]["over25"][:2]
+    first.update(status="won", result=[2, 1])
+    second.update(status="lost", result=[0, 0])
+    rep["days"].insert(0, yesterday)
+    assert today_index(rep) == 1
+    md = render_markdown(rep)
+    assert "**Results:** ✅ 1 won · ❌ 1 lost" in md
+    assert "✅ 2-1" in md and "❌ 0-0" in md
+    daily = "\n".join(render_telegram(rep, today_index(rep)))
+    assert "Yesterday's results" in daily and "Over 2.5 Goals: ✅ 1 won · ❌ 1 lost" in daily
+    assert "Sat 26 Sep 2026" in daily  # the tips are still today's
+    update = "\n".join(render_telegram(rep, today_index(rep), update=True))
+    assert "Yesterday's results" not in update
+
+
+def test_no_recap_before_any_result_is_in():
+    rep = report(n=2)
+    yesterday = copy.deepcopy(rep["days"][0])
+    yesterday["date"] = "2026-09-25"
+    rep["days"].insert(0, yesterday)
+    assert "Yesterday's results" not in "\n".join(render_telegram(rep, today_index(rep)))
+
+
+def test_app_name_is_written_plainly():
+    rep = report(n=1)
+    assert rep["title"] == "GOLDING'S PREDICTION"
+    assert "⚽ GOLDING'S PREDICTION · Daily tips" in render_telegram(rep)[0]
+    page = render_html(rep)
+    assert "<title>GOLDING&#x27;S PREDICTION</title>" in page
+    assert "Footy Predictor" not in page

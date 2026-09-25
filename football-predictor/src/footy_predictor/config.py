@@ -27,7 +27,7 @@ class TelegramSettings:
 
 @dataclass
 class SiteSettings:
-    title: str = "Footy Predictor"
+    title: str = "GOLDING'S PREDICTION"
     url: str = ""  # public dashboard URL, linked from Telegram messages
 
 
@@ -36,6 +36,7 @@ class Settings:
     timezone: str = "UTC"
     leagues: list[str] = field(default_factory=lambda: ["all"])
     days: int = 2  # days covered by the daily report: today (+ tomorrow)
+    past_days: int = 1  # earlier days shown with their results: 1 = yesterday
     cache_dir: str = ".cache"
     refresh_hours: float = 6.0
     model: ModelSettings = field(default_factory=ModelSettings)
@@ -61,6 +62,8 @@ class Settings:
             raise ConfigError(str(exc)) from exc
         if not 1 <= self.days <= 7:
             raise ConfigError("days must be between 1 and 7")
+        if not 0 <= self.past_days <= 7:
+            raise ConfigError("past_days must be between 0 and 7")
         if self.refresh_hours <= 0:
             raise ConfigError("refresh_hours must be > 0")
         try:
