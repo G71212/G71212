@@ -240,7 +240,8 @@ def test_site_is_installable_as_an_app(world, tmp_path):
     sizes = {icon["sizes"] for icon in manifest["icons"]}
     assert {"192x192", "512x512"} <= sizes
     for icon in manifest["icons"]:
-        assert (site / icon["src"]).read_bytes().startswith(b"\x89PNG")
+        assert (site / icon["src"].split("?")[0]).read_bytes().startswith(b"\x89PNG")
+    assert all("?v=" in icon["src"] for icon in manifest["icons"])  # new artwork gets new URLs
     worker = (site / "sw.js").read_text()
     assert "fetch" in worker and 'cache: "no-cache"' in worker
     page = (site / "index.html").read_text()
