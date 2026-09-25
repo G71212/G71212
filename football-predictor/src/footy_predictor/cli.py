@@ -229,7 +229,7 @@ def build_parser() -> argparse.ArgumentParser:
 
     d = sub.add_parser("daily", parents=[common], help="run the daily job (history, site, Telegram)")
     d.add_argument("--date", help="first day to predict (default: today)")
-    d.add_argument("--days", type=int, help="days to cover (default from config: 2)")
+    d.add_argument("--days", type=int, help="upcoming days to cover (default from config: 3)")
     d.add_argument("--out", default="site", help="output folder for the dashboard (default: site)")
     d.add_argument("--history", default="history", help="folder with prediction history")
     d.add_argument("--no-notify", action="store_true", help="do not send Telegram messages")

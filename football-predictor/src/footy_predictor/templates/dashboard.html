@@ -357,7 +357,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   var markets = report.markets || [];
   var marketByKey = {};
   markets.forEach(function (m) { marketByKey[m.key] = m; });
-  var state = { day: 0, tab: markets.length ? markets[0].key : "matches", query: "", league: "", sort: { key: "time", dir: 1 } };
+  var state = { date: "", days: [], tab: markets.length ? markets[0].key : "matches", query: "", league: "", sort: { key: "time", dir: 1 } };
 
   var fmtTime = new Intl.DateTimeFormat(undefined, { hour: "2-digit", minute: "2-digit", hourCycle: "h23" });
   var fmtWeekday = new Intl.DateTimeFormat(undefined, { weekday: "short" });
@@ -389,7 +389,31 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     if (sameDay(d, yesterday)) return "Yesterday";
     return fmtWeekday.format(d);
   }
-  function isPast(day) { return !!(day && report.today && day.date < report.today); }
+  function isPast(day) { return !!(day && day.date < isoDay(new Date())); }
+  // The day buttons are always yesterday, today and tomorrow on your own calendar. The report
+  // is built in the site's time zone and covers enough days that all three exist wherever you are.
+  function shownDays() {
+    var byDate = {}, now = new Date(), out = [], found = false;
+    (report.days || []).forEach(function (d) { byDate[d.date] = d; });
+    for (var offset = -1; offset <= 1; offset++) {
+      var iso = isoDay(new Date(now.getFullYear(), now.getMonth(), now.getDate() + offset));
+      if (byDate[iso]) found = true;
+      out.push(byDate[iso] || emptyDay(iso));
+    }
+    return found ? out : (report.days || []); // an old report (the site stopped updating): its own days
+  }
+  function emptyDay(iso) {
+    var picks = {};
+    markets.forEach(function (m) { picks[m.key] = []; });
+    return { date: iso, fixtures: [], picks: picks };
+  }
+  function noMatches(day) {
+    if (isPast(day)) {
+      return '<div class="empty"><strong>No predictions for this day.</strong>No picks were published for this day, so there is nothing to grade.</div>';
+    }
+    return '<div class="empty"><strong>No matches for this day yet.</strong>Fixtures come from football-data.co.uk, which publishes ' +
+      "weekend games on Friday afternoon and midweek games on Tuesday afternoon (UK time). This page updates twice a day.</div>";
+  }
   function counts(picks) {
     var c = { won: 0, lost: 0, pending: 0, void: 0 };
     picks.forEach(function (p) { c[p.status || "pending"] = (c[p.status || "pending"] || 0) + 1; });
@@ -442,7 +466,10 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     }
     return '<span class="status pending" title="Not played yet">Pending</span>';
   }
-  function currentDay() { return (report.days || [])[state.day] || null; }
+  function currentDay() {
+    for (var i = 0; i < state.days.length; i++) if (state.days[i].date === state.date) return state.days[i];
+    return null;
+  }
   function fixtureMap(day) {
     var map = {};
     (day ? day.fixtures : []).forEach(function (f) { map[f.id] = f; });
@@ -511,8 +538,8 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   // ---- header / tiles ----
   function renderDays() {
     var nav = document.getElementById("days");
-    nav.innerHTML = (report.days || []).map(function (d, i) {
-      return '<button class="day-btn" type="button" data-day="' + i + '" aria-pressed="' + (i === state.day) + '">' +
+    nav.innerHTML = state.days.map(function (d) {
+      return '<button class="day-btn" type="button" data-day="' + esc(d.date) + '" aria-pressed="' + (d.date === state.date) + '">' +
         esc(dayLabel(d.date)) + "<small>" + esc(fmtDayShort.format(localDate(d.date))) + "</small></button>";
     }).join("");
   }
@@ -545,7 +572,8 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
       return (p.status || "pending") === "pending" && p.kickoff && Date.now() > Date.parse(p.kickoff) + RESULT_DUE_MS;
     });
     el.innerHTML = "<span><strong>" + esc(fmtDayLong.format(localDate(day.date))) + "</strong> · " +
-      day.fixtures.length + " matches analysed in " + Object.keys(leagues).length + " leagues</span>" + results +
+      (day.fixtures.length ? day.fixtures.length + " matches analysed in " + Object.keys(leagues).length + " leagues" : "no matches") +
+      "</span>" + results +
       "<span>Kick-off times in your time zone" + (viewerZone ? " (" + esc(viewerZone) + ")" : "") + "</span>" +
       (waiting ? '<span class="note">Picks get a ✓ or ✕ automatically once the final scores are published. Our results source ' +
         "(football-data.co.uk) updates most leagues on Sunday and Wednesday nights (UK time), so some scores take a few days.</span>" : "");
@@ -567,10 +595,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     var head = '<div class="panel-head"><h2>' + esc(m.title) + "</h2><p>" + intro + " Strong picks need at least " +
       pct(m.min_probability) + " model probability." + topUp + " Most likely first." +
       (isPast(day) ? " These picks were published before kick-off and are graded as the scores come in." : "") + "</p></div>";
-    if (!day || !day.fixtures.length) {
-      return head + '<div class="empty"><strong>No upcoming matches for this day.</strong>' +
-        "Fixtures come from football-data.co.uk, which publishes weekend games on Friday afternoon and midweek games on Tuesday afternoon (UK time). This page updates twice a day.</div>";
-    }
+    if (!day || !day.fixtures.length) return head + noMatches(day);
     if (!picks.length) {
       return head + '<div class="empty"><strong>No picks for this market.</strong>None of the ' + day.fixtures.length +
         " matches reached " + pct(m.floor || m.min_probability) + ". Check the All matches tab for every probability.</div>";
@@ -603,6 +628,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
       .map(function (m) { return esc(m.title) + " at " + pct(m.banker_probability) + "+"; }).join(" and ");
     var head = '<div class="panel-head"><h2>🔒 Bankers</h2><p>The day\'s safest tips: ' + (rules || "none configured") +
       ". In backtests these won about 9 times in 10 (Double Chance 88%+: 94.5%, Over 2.5 75%+: 87%). They still lose sometimes.</p></div>";
+    if (!day || !day.fixtures.length) return head + noMatches(day);
     if (!list.length) {
       return head + '<div class="empty"><strong>No bankers for this day.</strong>No match reached the banker level. That is normal on quieter days; the other tabs still have the best picks available.</div>';
     }
@@ -664,9 +690,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   function renderMatches() {
     var day = currentDay();
     var head = '<div class="panel-head"><h2>All matches</h2><p>Every fixture the model rated for this day. Highlighted numbers passed a pick threshold. Tap a column to sort.</p></div>';
-    if (!day || !day.fixtures.length) {
-      return head + '<div class="empty"><strong>No upcoming matches for this day.</strong>Pick another day above, or check back after the next update.</div>';
-    }
+    if (!day || !day.fixtures.length) return head + noMatches(day);
     var leagues = {};
     day.fixtures.forEach(function (f) { leagues[f.league] = f.league_name; });
     function th(key, label, cls) {
@@ -714,6 +738,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   }
 
   function render() {
+    state.days = shownDays();
     renderDays();
     renderDayline();
     renderTiles();
@@ -738,7 +763,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     var target = event.target.closest("[data-tab],[data-day],[data-sort]");
     if (!target) return;
     if (target.hasAttribute("data-tab")) setTab(target.getAttribute("data-tab"));
-    else if (target.hasAttribute("data-day")) { state.day = +target.getAttribute("data-day"); render(); }
+    else if (target.hasAttribute("data-day")) { state.date = target.getAttribute("data-day"); render(); }
     else {
       var key = target.getAttribute("data-sort");
       state.sort = { key: key, dir: state.sort.key === key ? -state.sort.dir : 1 };
@@ -764,21 +789,29 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   var initial = (location.hash || "").replace("#", "");
   if (!initial) { try { initial = localStorage.getItem("footy-tab") || ""; } catch (e) { initial = ""; } }
   if (initial && isView(initial)) state.tab = initial;
-  state.day = defaultDay();
+  state.date = defaultDay();
   render();
   intro();
 
-  // Open on today (your date if the report has it, else the report's first upcoming day),
-  // moving on to the next day with matches when today has none. Yesterday is one tap away.
+  // Left open past midnight: move the buttons on to the new day.
+  var openedOn = isoDay(new Date());
+  function rollover() {
+    if (isoDay(new Date()) === openedOn) return;
+    openedOn = isoDay(new Date());
+    state.date = defaultDay();
+    render();
+  }
+  document.addEventListener("visibilitychange", function () { if (document.visibilityState === "visible") rollover(); });
+  setInterval(rollover, 60 * 1000);
+
+  // Open on today, or on the next day with matches when today has none. Yesterday is one tap away.
   function defaultDay() {
-    var days = report.days || [];
-    var dates = days.map(function (d) { return d.date; });
-    var starts = [dates.indexOf(isoDay(new Date())), dates.indexOf(report.today)];
-    for (var s = 0; s < starts.length; s++) {
-      if (starts[s] < 0) continue;
-      for (var i = starts[s]; i < days.length; i++) if (days[i].fixtures && days[i].fixtures.length) return i;
-    }
-    return Math.max(0, dates.indexOf(report.today));
+    var days = shownDays(), today = isoDay(new Date()), start = -1;
+    for (var i = 0; i < days.length; i++) if (days[i].date === today) start = i;
+    for (var j = 0; start < 0 && j < days.length; j++) if (days[j].date === report.today) start = j;
+    start = Math.max(start, 0);
+    for (var k = start; k < days.length; k++) if (days[k].fixtures && days[k].fixtures.length) return days[k].date;
+    return days.length ? days[start].date : "";
   }
 
   // The opening animation plays once per visit; tap to skip it.

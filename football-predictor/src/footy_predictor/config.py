@@ -35,7 +35,10 @@ class SiteSettings:
 class Settings:
     timezone: str = "UTC"
     leagues: list[str] = field(default_factory=lambda: ["all"])
-    days: int = 2  # days covered by the daily report: today (+ tomorrow)
+    # Upcoming days in the daily report: today and the next two. The dashboard shows each
+    # viewer yesterday, today and tomorrow on their own calendar, which can be a day ahead
+    # of the site's time zone, so it needs the day after tomorrow too.
+    days: int = 3
     past_days: int = 1  # earlier days shown with their results: 1 = yesterday
     cache_dir: str = ".cache"
     refresh_hours: float = 6.0

@@ -148,6 +148,17 @@ def test_next_mornings_message_recaps_yesterday(world, tmp_path, monkeypatch):
     assert f"Over 2.5 Goals: ✅ 0 won · ❌ {over25} lost" in text  # 0-0 loses every over 2.5 pick
 
 
+def test_report_covers_yesterday_and_three_upcoming_days_by_default(world, tmp_path):
+    settings, source, _ = world
+    pipeline.run_daily(settings, source, DAY, MORNING, tmp_path / "h", None, notify=False)
+    settings.days = Settings().days
+    result = pipeline.run_daily(settings, source, DAY + timedelta(days=1), MORNING + timedelta(days=1),
+                                tmp_path / "h", tmp_path / "site", notify=False)
+    # Viewers a day ahead of the site's time zone still get a "tomorrow".
+    assert [d["date"] for d in result.report["days"]] == [str(DAY + timedelta(days=i)) for i in range(4)]
+    assert (tmp_path / "site" / "data" / f"{DAY + timedelta(days=3)}.json").exists()
+
+
 def test_past_days_can_be_turned_off(world, tmp_path):
     settings, source, _ = world
     pipeline.run_daily(settings, source, DAY, MORNING, tmp_path / "h", None, notify=False)
