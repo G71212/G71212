@@ -11,7 +11,7 @@ Daily football predictions for four markets:
 
 Every day it downloads the latest results, fixtures and bookmaker odds for 38 leagues, rates every team, and publishes at least 15 picks per market (when enough matches are scheduled), each with a probability, a confidence rating and the fair odds. The day's safest tips are highlighted as 🔒 bankers. You get them as:
 
-- a mobile-friendly **web dashboard** (GitHub Pages) that installs as a desktop or phone app, with a neon theme whose colours slowly shift and a football that bounces in when you open it,
+- a mobile-friendly **web dashboard** (GitHub Pages) that installs as a desktop or phone app, with a neon theme whose colours slowly shift and a golden "G" football that bounces in when you open it, followed by a welcome message (`site.welcome` in `config.toml`),
 - a **Telegram** message to your channel or group,
 - **Markdown, CSV and JSON** files, and
 - the `footy` **command-line tool**.

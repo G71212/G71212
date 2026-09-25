@@ -28,6 +28,7 @@ class TelegramSettings:
 @dataclass
 class SiteSettings:
     title: str = "GOLDING'S PREDICTION"
+    welcome: str = "Welcome to Golding's Intelligence"  # shown when the app opens ("" for none)
     url: str = ""  # public dashboard URL, linked from Telegram messages
 
 
