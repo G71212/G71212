@@ -340,12 +340,19 @@ APP_FILES = ("icon-192.png", "icon-512.png", "apple-touch-icon.png", "favicon-32
 THEME_COLOR = "#0f5c3b"
 
 
+def short_app_name(title: str) -> str:
+    """Home-screen label: Android launchers cut labels longer than about 12 characters."""
+    if len(title) <= 12:
+        return title
+    return title.split()[0][:12]
+
+
 def render_manifest(report: dict) -> str:
     """Web app manifest: lets Chrome, Edge and phones install the dashboard as an app."""
     manifest = {
         "id": "./",
         "name": report["title"],
-        "short_name": report["title"][:15],
+        "short_name": short_app_name(report["title"]),
         "description": "Daily football predictions: BTTS & Over 2.5, Over 2.5, BTTS and Double Chance",
         "start_url": "./",
         "scope": "./",
