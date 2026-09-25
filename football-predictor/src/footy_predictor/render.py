@@ -11,7 +11,7 @@ from importlib import resources
 from zoneinfo import ZoneInfo
 
 from . import APP_NAME, __version__
-from .selection import MARKET_ICONS, MARKET_TITLES, MARKETS
+from .selection import MARKET_ICONS, MARKET_TITLES, MARKETS, TIERS
 
 DISCLAIMER = ("Predictions are model probabilities, not certainties. "
               "Bet only what you can afford to lose. 18+ | Gamble responsibly.")
@@ -30,7 +30,10 @@ def build_report(days: list[dict], track: dict, settings, generated_at: datetime
         "markets": [
             {"key": m, "title": MARKET_TITLES[m], "icon": MARKET_ICONS[m],
              "min_probability": settings.selection.rule(m).min_probability,
-             "max_picks": settings.selection.rule(m).max_picks}
+             "floor": settings.selection.rule(m).floor,
+             "min_picks": settings.selection.rule(m).min_picks,
+             "max_picks": settings.selection.rule(m).max_picks,
+             "banker_probability": settings.selection.rule(m).banker_probability}
             for m in MARKETS
         ],
         "days": days,
@@ -68,6 +71,34 @@ def stars(probability: float, threshold: float) -> str:
     return "★★★" if margin >= 0.10 else "★★" if margin >= 0.05 else "★"
 
 
+LEGEND = "🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar"
+
+
+def pick_tier(pick: dict, market: dict) -> str:
+    """Tier stored with the pick; older records without one are derived from the threshold."""
+    if pick.get("tier") in TIERS:
+        return pick["tier"]
+    return "strong" if pick["probability"] >= market["min_probability"] else "extra"
+
+
+def badge(pick: dict, market: dict) -> str:
+    tier = pick_tier(pick, market)
+    if tier == "banker":
+        return "🔒"
+    if tier == "extra":
+        return "☆"
+    return stars(pick["probability"], market["min_probability"])
+
+
+def bankers(report: dict, day: dict, only: set[str] | None = None) -> list[tuple[dict, dict]]:
+    """(market, pick) pairs flagged as bankers, most likely first."""
+    found = [(market, p) for market in report["markets"]
+             for p in day["picks"].get(market["key"], [])
+             if pick_tier(p, market) == "banker"
+             and (only is None or f"{market['key']}|{p['match_id']}" in only)]
+    return sorted(found, key=lambda item: -item[1]["probability"])
+
+
 def long_date(day: str) -> str:
     return date.fromisoformat(day).strftime("%A %d %B %Y")
 
@@ -103,6 +134,7 @@ def render_markdown(report: dict) -> str:
                  f"kick-off times in {report['timezone']}_")
     if report.get("url"):
         lines += ["", f"**[Open the live dashboard]({report['url']})**"]
+    lines += ["", f"_{LEGEND}_"]
     for day in report["days"]:
         leagues = {f["league"] for f in day["fixtures"]}
         names = _league_names(day)
@@ -111,12 +143,22 @@ def render_markdown(report: dict) -> str:
             lines += ["_No upcoming matches in the published fixtures for this day._", ""]
             continue
         lines += [f"{len(day['fixtures'])} matches analysed across {len(leagues)} leagues.", ""]
+        safest = bankers(report, day)
+        if safest:
+            lines += ["### 🔒 Bankers: the day's safest tips", "",
+                      "| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |",
+                      "|---|---|---|---|---|---|---|"]
+            for market, p in safest:
+                lines.append(f"| {kickoff_local(p['kickoff'], tz)} | {p['home']} vs {p['away']} "
+                             f"| {market['title']} | {p['selection']} | {pct(p['probability'])} "
+                             f"| {odds(p['fair_odds'])} | {_status_text(p)} |")
+            lines.append("")
         for market in report["markets"]:
             picks = day["picks"].get(market["key"], [])
             lines.append(f"### {market['icon']} {market['title']}")
             lines.append("")
             if not picks:
-                lines += ["_No selections met the confidence threshold._", ""]
+                lines += ["_No match was likely enough to pick._", ""]
                 continue
             lines.append("| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |")
             lines.append("|---|---|---|---|---|---|---|---|")
@@ -124,16 +166,17 @@ def render_markdown(report: dict) -> str:
                 lines.append(
                     f"| {kickoff_local(p['kickoff'], tz)} | {names.get(p['match_id'], p['league'])} "
                     f"| {p['home']} vs {p['away']} | {p['selection']} "
-                    f"| {pct(p['probability'])} {stars(p['probability'], market['min_probability'])} "
+                    f"| {pct(p['probability'])} {badge(p, market)} "
                     f"| {odds(p['fair_odds'])} | {odds(p['market_odds'])} | {_status_text(p)} |"
                 )
             lines.append("")
     lines += ["## 📊 Track record", "",
               "| Market | Last 7 days | Last 30 days | All time |", "|---|---|---|---|"]
-    for market in report["markets"]:
-        record = report["track_record"].get(market["key"], {})
+    groups = [("🔒 Bankers", "bankers")] + [(m["title"], m["key"]) for m in report["markets"]]
+    for title, key in groups:
+        record = report["track_record"].get(key, {})
         if record:
-            lines.append(f"| {market['title']} | {_record_line(record['7d'])} | "
+            lines.append(f"| {title} | {_record_line(record['7d'])} | "
                          f"{_record_line(record['30d'])} | {_record_line(record['all'])} |")
     lines += ["", f"> {report['disclaimer']}", ""]
     return "\n".join(lines)
@@ -151,6 +194,13 @@ def render_text(report: dict) -> str:
         if not day["fixtures"]:
             out.append("   no upcoming matches in the published fixtures")
             continue
+        safest = bankers(report, day)
+        if safest:
+            out.append("\n🔒  BANKERS (the day's safest tips)")
+            for market, p in safest:
+                match = f"{p['home']} v {p['away']}"
+                out.append(f"   {kickoff_local(p['kickoff'], tz)}  {match[:38]:38s} "
+                           f"{p['selection']:>15s} {pct(p['probability']):>4s}  {_status_text(p)}".rstrip())
         for market in report["markets"]:
             picks = day["picks"].get(market["key"], [])
             out.append(f"\n{market['icon']}  {market['title'].upper()}  "
@@ -164,10 +214,10 @@ def render_text(report: dict) -> str:
                 extra = f"  mkt {odds(p['market_odds'])}" if p["market_odds"] else ""
                 status = _status_text(p)
                 out.append(f"   {kickoff_local(p['kickoff'], tz)}  {match[:38]:38s} {tip}"
-                           f"{pct(p['probability']):>4s}  fair {odds(p['fair_odds'])}{extra}"
+                           f"{pct(p['probability']):>4s} {badge(p, market):3s} fair {odds(p['fair_odds'])}{extra}"
                            f"  {status}".rstrip())
                 out.append(f"          {names.get(p['match_id'], p['league'])}")
-    return "\n".join(out).lstrip("\n") + "\n\n" + report["disclaimer"] + "\n"
+    return ("\n".join(out).lstrip("\n") + "\n\n" + LEGEND + "\n" + report["disclaimer"] + "\n")
 
 
 # --------------------------------------------------------------------------- telegram
@@ -200,30 +250,39 @@ def render_telegram(report: dict, day_index: int = 0, only: set[str] | None = No
               f"{date.fromisoformat(day['date']).strftime('%a %d %b %Y')} · "
               f"times in {esc(report['timezone'])}")
     blocks = [header]
+    safest = bankers(report, day, only)
+    if safest:
+        lines = ["<b>🔒 Bankers: the day's safest tips</b>"]
+        for market, p in safest:
+            lines.append(f"{kickoff_local(p['kickoff'], tz)} {esc(p['home'])} v {esc(p['away'])}\n"
+                         f"   <b>{esc(p['selection'])}</b> <b>{pct(p['probability'])}</b>"
+                         f" · fair {odds(p['fair_odds'])} · <i>{esc(market['title'])}</i>")
+        blocks.append("\n".join(lines))
     for market in report["markets"]:
         key = market["key"]
         picks = [p for p in day["picks"].get(key, [])
                  if only is None or f"{key}|{p['match_id']}" in only]
         if not picks:
             continue
-        lines = [f"<b>{market['icon']} {esc(market['title'])}</b>"]
+        lines = [f"<b>{market['icon']} {esc(market['title'])}</b> ({len(picks)})"]
         for p in picks:
             tip = f"<b>{esc(p['selection'])}</b> " if key == "double_chance" else ""
             price = f" · odds {odds(p['market_odds'])}" if p["market_odds"] else ""
             lines.append(
                 f"{kickoff_local(p['kickoff'], tz)} {esc(p['home'])} v {esc(p['away'])}\n"
-                f"   {tip}<b>{pct(p['probability'])}</b> {stars(p['probability'], market['min_probability'])}"
+                f"   {tip}<b>{pct(p['probability'])}</b> {badge(p, market)}"
                 f" · fair {odds(p['fair_odds'])}{price} · <i>{esc(names.get(p['match_id'], p['league']))}</i>"
             )
         blocks.append("\n".join(lines))
     if len(blocks) == 1:
         blocks.append("No selections met the confidence thresholds today.")
     record = report.get("track_record") or {}
-    summary = [f"{MARKET_TITLES[m]}: {_record_line(record[m]['30d'])}"
-               for m in MARKETS if m in record and record[m]["30d"]["settled"]]
+    titles = {"bankers": "🔒 Bankers", **MARKET_TITLES}
+    summary = [f"{titles[m]}: {_record_line(record[m]['30d'])}"
+               for m in ("bankers",) + MARKETS if m in record and record[m]["30d"]["settled"]]
     if summary:
         blocks.append("<b>📊 Last 30 days</b>\n" + "\n".join(summary))
-    footer = f"<i>{esc(report['disclaimer'])}</i>"
+    footer = f"<i>{esc(LEGEND)}\n{esc(report['disclaimer'])}</i>"
     if report.get("url"):
         footer = f'<a href="{esc(report["url"], quote=True)}">Full predictions</a>\n' + footer
     blocks.append(footer)
@@ -251,7 +310,9 @@ def render_csv(report: dict) -> str:
         tips: dict[str, list[str]] = {}
         for market, picks in day["picks"].items():
             for p in picks:
-                tips.setdefault(p["match_id"], []).append(p["selection"])
+                tier = p.get("tier", "strong")
+                label = p["selection"] if tier == "strong" else f"{p['selection']} ({tier})"
+                tips.setdefault(p["match_id"], []).append(label)
         for f in day["fixtures"]:
             prob, market, price = f["probabilities"], f["market"] or {}, f["odds"] or {}
             kickoff = (datetime.fromisoformat(f["kickoff"]).astimezone(tz).strftime("%Y-%m-%d %H:%M")

@@ -67,10 +67,13 @@ def test_telegram_escapes_html_and_respects_length_limit():
 def test_telegram_update_only_includes_requested_picks():
     rep = report(n=2)
     pick = rep["days"][0]["picks"]["over25"][0]
+    other = next(p for p in rep["days"][0]["picks"]["over25"] if p["match_id"] != pick["match_id"])
     messages = render_telegram(rep, only={f"over25|{pick['match_id']}"}, update=True)
     text = "\n".join(messages)
     assert "Update" in text
-    assert text.count(" v Away ") == 1
+    assert f"{pick['home']} v {pick['away']}" in text
+    assert f"{other['home']} v {other['away']}" not in text  # not requested
+    assert "Both Teams To Score" not in text  # no requested picks in that market
 
 
 def test_csv_has_one_row_per_fixture():
@@ -91,3 +94,16 @@ def test_html_embeds_report_safely():
     fragment = render_html(rep, standalone=False)
     assert not fragment.lstrip().startswith("<!doctype") and fragment.startswith("<title>")
     assert "<!--BODY-->" not in page and "<!--BODY-->" not in fragment
+
+
+def test_bankers_and_extra_picks_are_labelled():
+    rep = report(n=3)
+    day = rep["days"][0]
+    day["picks"]["btts"][0]["tier"] = "extra"
+    md = render_markdown(rep)
+    assert "Bankers: the day's safest tips" in md
+    assert "🔒" in md and "☆" in md
+    tg = "\n".join(render_telegram(rep))
+    assert "Bankers: the day's safest tips" in tg and "☆" in tg
+    assert "extra pick below the usual confidence bar" in tg
+    assert "(extra)" in render_csv(rep)

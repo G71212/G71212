@@ -9,7 +9,7 @@ Daily football predictions for four markets:
 | 🎯 **Both Teams To Score** | BTTS Yes | both teams score |
 | 🛡️ **Double Chance** | 1X, X2 or 12 | the result is one of the two covered outcomes |
 
-Every day it downloads the latest results, fixtures and bookmaker odds for 38 leagues, rates every team, and publishes the most confident picks per market with a probability, a confidence rating and the fair odds. You get them as:
+Every day it downloads the latest results, fixtures and bookmaker odds for 38 leagues, rates every team, and publishes at least 15 picks per market (when enough matches are scheduled), each with a probability, a confidence rating and the fair odds. The day's safest tips are highlighted as 🔒 bankers. You get them as:
 
 - a mobile-friendly **web dashboard** (GitHub Pages),
 - a **Telegram** message to your channel or group,
@@ -113,14 +113,23 @@ leagues = ["top5", "E1", "USA"] # presets and/or league codes
 days = 2                        # daily report covers today + tomorrow
 
 [selection.over25]
-min_probability = 0.62          # minimum probability for a pick
-max_picks = 10                  # per day
+min_probability = 0.62          # "strong" picks need at least this probability
+min_picks = 15                  # top the list up to this many picks a day...
+floor = 0.50                    # ...but never with a pick below this probability
+max_picks = 20                  # most strong picks per day
+banker_probability = 0.75       # picks this likely are flagged as bankers
 # min_edge = 0.0                # also require probability × odds − 1 ≥ this (where odds exist)
 ```
 
-The same thresholds exist for `btts_over25`, `btts` and `double_chance`, plus `selection.min_team_matches`, which skips teams with too little recent data. Model settings are documented inline in `config.toml`.
+The same settings exist for `btts_over25`, `btts` and `double_chance`, plus `selection.min_team_matches`, which skips teams with too little recent data. Model settings are documented inline in `config.toml`.
 
-The confidence stars show how far a pick clears its market's threshold: ★ just over it, ★★ 5+ points over, ★★★ 10+ points over.
+Every pick carries a label:
+
+| Label | Meaning |
+|---|---|
+| 🔒 Banker | One of the day's safest tips: Double Chance at 88%+ or Over 2.5 at 75%+ |
+| ★ to ★★★ | A strong pick: ★ just over the market's threshold, ★★ 5+ points over, ★★★ 10+ points over |
+| ☆ Extra | Added to reach 15 picks on a day with too few strong ones. Weaker, but still above the floor |
 
 ---
 
@@ -133,7 +142,7 @@ The confidence stars show how far a pick clears its market's threshold: ★ just
    - xG is blended with goals where available.
 3. **Market blend.** Bookmaker prices are converted into the expected goals they imply: Over/Under 2.5 gives the total, and 1X2 gives the split between the teams. These are blended 85/15 with the model's expected goals, because in testing the market was the sharper signal.
 4. **One scoreline table, four markets.** Expected goals become a probability for every scoreline (0-0, 1-0, … 12-12), and all four markets are read from that one table. So they always agree with each other. In particular, BTTS & Over 2.5 is computed exactly (P(BTTS) − P(1-1)); multiplying P(BTTS) × P(Over 2.5) would understate it, because the two events are strongly correlated.
-5. **Picks.** Matches above each market's threshold, most confident first, up to `max_picks` per day. For Double Chance the tip is the option that leaves out the least likely result.
+5. **Picks.** Matches above each market's threshold are strong picks (up to `max_picks`). If there are fewer than `min_picks`, the list is topped up with the next most likely matches, labelled ☆ extra, but never below the market's `floor` (for Over 2.5 and BTTS that is 50%, so every tip is more likely to win than lose). Picks are sorted most likely first, and the safest are flagged 🔒 bankers. For Double Chance the tip is the option that leaves out the least likely result. On quiet days (for example an international break, or a Tuesday before the midweek fixtures are published) there may simply not be 15 matches that clear the floor.
 6. **History and grading.** Each day's predictions are saved as JSON. Later runs attach final scores and settle picks as won, lost or void (no result 10 days after the match date, usually a postponement).
 
 ## Accuracy
@@ -156,6 +165,17 @@ What this shows:
 - **The probabilities are well calibrated.** When the app says 67%, it happens about 67% of the time, which is what makes the tips and fair odds trustworthy.
 - **The picks beat the base rate by a wide margin.** Over 2.5 tips land 67% of the time against 51% for all matches.
 - **This is not a proven money-making system.** Against average bookmaker odds, flat stakes lost about 4–5%, roughly the bookmaker's margin. The model matches the market's accuracy (Over 2.5 Brier 0.2433 vs 0.2431) but does not beat it. Use the fair odds to avoid bets that are priced too short, and treat any "edge" badge with caution.
+
+**Strong picks, extra picks and bankers** (same backtest, 15 picks a day wherever enough matches cleared the floor):
+
+| Market | Strong picks won | ☆ Extra picks won | 🔒 Bankers won |
+|---|---|---|---|
+| BTTS & Over 2.5 | 53.2% | 45.1% | none (never that certain) |
+| Over 2.5 | 67.3% | 56.1% | **87.4%** (87 picks, 75%+) |
+| BTTS | 62.0% | 56.9% | none (never that certain) |
+| Double Chance | 88.3% | 74.1% | **94.5%** (1,159 picks, 88%+) |
+
+No setting gets football tips close to 100%. Bankers are the closest: roughly 9 in 10 win, and they still lose sometimes. Longer lists mean more tips, not better ones; the extra picks are the weakest part of each list, which is why they are labelled. BTTS markets never reach banker-level certainty: even when two attacking teams with leaky defences meet, the chance that both score rarely goes above about 65%.
 
 Reproduce these numbers with `footy backtest --leagues main --start 2024-08-01 --end 2026-06-30`.
 

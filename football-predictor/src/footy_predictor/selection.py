@@ -18,11 +18,23 @@ MARKET_TITLES = {
 MARKET_ICONS = {"btts_over25": "🔥", "over25": "⚽", "btts": "🎯", "double_chance": "🛡️"}
 
 
+TIERS = ("banker", "strong", "extra")
+
+
 @dataclass
 class MarketRule:
     enabled: bool = True
+    # Picks at or above this probability are "strong" picks.
     min_probability: float = 0.6
-    max_picks: int = 10
+    # Always try to publish at least this many picks: when fewer matches are
+    # strong, the list is topped up with the next best ones ("extra" picks)...
+    min_picks: int = 15
+    # ...but never with a pick below this probability.
+    floor: float = 0.5
+    max_picks: int = 20
+    # Picks at or above this probability are flagged as bankers (safest tips).
+    # None = the market never produces bankers.
+    banker_probability: float | None = None
     # Only applied where bookmaker odds exist (Over 2.5 and Double Chance):
     # require probability * odds - 1 >= min_edge.
     min_edge: float | None = None
@@ -30,18 +42,42 @@ class MarketRule:
     def validate(self, name: str) -> None:
         if not 0.0 < self.min_probability < 1.0:
             raise ValueError(f"selection.{name}.min_probability must be between 0 and 1")
-        if self.max_picks < 0:
-            raise ValueError(f"selection.{name}.max_picks must be >= 0")
+        if not 0.0 < self.floor <= self.min_probability:
+            raise ValueError(f"selection.{name}.floor must be above 0 and at most min_probability")
+        if self.max_picks < 0 or self.min_picks < 0:
+            raise ValueError(f"selection.{name}.min_picks and max_picks must be >= 0")
+        if self.banker_probability is not None and not (
+                self.min_probability <= self.banker_probability <= 1.0):
+            raise ValueError(f"selection.{name}.banker_probability must be between "
+                             "min_probability and 1")
+
+    @property
+    def target(self) -> int:
+        """Picks to aim for each day (min_picks, never more than max_picks)."""
+        return min(self.min_picks, self.max_picks)
+
+    def tier(self, probability: float) -> str:
+        if self.banker_probability is not None and probability >= self.banker_probability:
+            return "banker"
+        return "strong" if probability >= self.min_probability else "extra"
 
 
+# Thresholds from walk-forward backtests (Aug 2024 - Jun 2026, 22 leagues):
+# Double Chance picks at 88%+ won 94.5% of the time, Over 2.5 picks at 75%+
+# won 87%. BTTS markets never reach that level of certainty, so no bankers.
 @dataclass
 class SelectionSettings:
     # Both teams need at least this many league matches in the training window.
     min_team_matches: int = 4
-    btts_over25: MarketRule = field(default_factory=lambda: MarketRule(min_probability=0.50))
-    over25: MarketRule = field(default_factory=lambda: MarketRule(min_probability=0.62))
-    btts: MarketRule = field(default_factory=lambda: MarketRule(min_probability=0.60))
-    double_chance: MarketRule = field(default_factory=lambda: MarketRule(min_probability=0.80))
+    btts_over25: MarketRule = field(
+        default_factory=lambda: MarketRule(min_probability=0.50, floor=0.40))
+    over25: MarketRule = field(
+        default_factory=lambda: MarketRule(min_probability=0.62, floor=0.50,
+                                           banker_probability=0.75))
+    btts: MarketRule = field(default_factory=lambda: MarketRule(min_probability=0.60, floor=0.50))
+    double_chance: MarketRule = field(
+        default_factory=lambda: MarketRule(min_probability=0.80, floor=0.70,
+                                           banker_probability=0.88))
 
     def rule(self, market: str) -> MarketRule:
         return getattr(self, market)
@@ -60,6 +96,7 @@ class Pick:
     probability: float
     market_odds: float | None
     prediction: Prediction
+    tier: str = "strong"  # "banker", "strong" or "extra" (top-up pick below the usual bar)
 
     @property
     def match_id(self) -> str:
@@ -106,24 +143,31 @@ def is_winner(market: str, selection: str, home_goals: int, away_goals: int) -> 
 
 def select_picks(predictions: Iterable[Prediction],
                  settings: SelectionSettings) -> dict[str, list[Pick]]:
-    """Best picks per market: above the threshold, most confident first."""
+    """Best picks per market, most confident first.
+
+    Every match at or above ``min_probability`` qualifies (up to ``max_picks``).
+    If that gives fewer than ``min_picks``, the list is topped up with the next
+    most likely matches down to ``floor``; those are marked as "extra" picks.
+    """
     predictions = list(predictions)
     picks: dict[str, list[Pick]] = {}
     for market in MARKETS:
         rule = settings.rule(market)
-        chosen: list[Pick] = []
+        candidates: list[Pick] = []
         if rule.enabled:
             for prediction in predictions:
                 if prediction.min_team_matches < settings.min_team_matches:
                     continue
                 selection, probability, odds = candidate(prediction, market)
-                if probability < rule.min_probability:
+                if probability < rule.floor:
                     continue
-                pick = Pick(market, selection, probability, odds, prediction)
+                pick = Pick(market, selection, probability, odds, prediction,
+                            rule.tier(probability))
                 if rule.min_edge is not None and pick.edge is not None and pick.edge < rule.min_edge:
                     continue
-                chosen.append(pick)
-            chosen.sort(key=lambda p: -p.probability)
-            chosen = chosen[:rule.max_picks]
-        picks[market] = chosen
+                candidates.append(pick)
+            candidates.sort(key=lambda p: -p.probability)
+        strong = [p for p in candidates if p.tier != "extra"][:rule.max_picks]
+        extra = [p for p in candidates if p.tier == "extra"][:max(0, rule.target - len(strong))]
+        picks[market] = strong + extra
     return picks

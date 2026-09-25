@@ -151,11 +151,20 @@ def evaluate(rows: list[BacktestRow], market_weight: float, selection: Selection
         rule = selection.rule(market)
         eligible = seen >= selection.min_team_matches
         above = eligible & (p >= rule.min_probability)
-        # Emulate the daily cap: at most max_picks per day, most confident first.
+        # Emulate the daily lists: up to max_picks strong picks, topped up to
+        # min_picks with the next best matches down to the floor.
         capped = np.zeros(len(rows), dtype=bool)
-        for day in np.unique(days[above]):
-            idx = np.where(above & (days == day))[0]
-            capped[idx[np.argsort(-p[idx])][:rule.max_picks]] = True
+        extra = np.zeros(len(rows), dtype=bool)
+        for day in np.unique(days[eligible]):
+            strong = np.where(above & (days == day))[0]
+            strong = strong[np.argsort(-p[strong])][:rule.max_picks]
+            capped[strong] = True
+            need = rule.target - len(strong)
+            if need > 0:
+                rest = np.where(eligible & (days == day) & (p >= rule.floor) & ~above)[0]
+                extra[rest[np.argsort(-p[rest])][:need]] = True
+        bankers = (eligible & (p >= rule.banker_probability) if rule.banker_probability is not None
+                   else np.zeros(len(rows), dtype=bool))
         base_rate = float(y.mean())
         sweep = []
         for threshold in np.arange(0.40, 0.96, 0.05):
@@ -174,6 +183,12 @@ def evaluate(rows: list[BacktestRow], market_weight: float, selection: Selection
             "picks": {"threshold": rule.min_probability, **_pick_stats(p[above], y[above], odds[above])},
             "daily_picks": {"max_per_day": rule.max_picks,
                             **_pick_stats(p[capped], y[capped], odds[capped])},
+            "extra_picks": {"min_per_day": rule.min_picks, "floor": rule.floor,
+                            **_pick_stats(p[extra], y[extra], odds[extra])},
+            "all_daily_picks": _pick_stats(p[capped | extra], y[capped | extra],
+                                           odds[capped | extra]),
+            "bankers": {"threshold": rule.banker_probability,
+                        **_pick_stats(p[bankers], y[bankers], odds[bankers])},
             "threshold_sweep": sweep,
         }
 
@@ -228,15 +243,18 @@ def format_report(result: dict) -> str:
     lines = [f"Backtest over {result['matches']} matches "
              f"(market weight {result['market_weight']:.2f})", ""]
     lines.append(f"{'Market':22s} {'base':>6s} {'Brier':>7s} {'skill':>6s} "
-                 f"{'picks':>6s} {'hit%':>6s} {'exp%':>6s} {'ROI':>7s}   daily top-N: picks hit%")
+                 f"{'picks':>6s} {'hit%':>6s} {'exp%':>6s} {'ROI':>7s}   daily strong | extra | bankers")
     for market, m in result["markets"].items():
         skill = 1 - m["brier"] / m["brier_base_rate"] if m["brier_base_rate"] else 0.0
         picks, daily = m["picks"], m["daily_picks"]
+        extra, bank = m.get("extra_picks", {}), m.get("bankers", {})
         roi = "   -   " if picks["roi"] is None else f"{100 * picks['roi']:+6.1f}%"
         lines.append(
             f"{m['title']:22s} {pct(m['base_rate'])} {m['brier']:.4f} {100 * skill:5.1f}% "
             f"{picks['n']:6d} {pct(picks['hit_rate'])} {pct(picks['avg_probability'])} {roi}"
-            f"   {daily['n']:6d} {pct(daily['hit_rate'])}"
+            f"   {daily['n']:5d} {pct(daily['hit_rate']).strip()}"
+            f" | {extra.get('n', 0):5d} {pct(extra.get('hit_rate')).strip()}"
+            f" | {bank.get('n', 0):5d} {pct(bank.get('hit_rate')).strip()}"
         )
     lines.append("")
     lines.append("Calibration (predicted -> observed):")
