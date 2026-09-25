@@ -1,7 +1,7 @@
 {
  "date": "2026-09-26",
  "created_at": "2026-09-25T20:55:49+00:00",
- "updated_at": "2026-09-25T21:17:32+00:00",
+ "updated_at": "2026-09-25T21:35:21+00:00",
  "fixtures": [
   {
    "id": "MEX|2026-09-26|Atlante|Monterrey",
@@ -2537,7 +2537,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts_over25",
@@ -2553,7 +2554,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts_over25",
@@ -2569,7 +2571,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts_over25",
@@ -2585,7 +2588,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts_over25",
@@ -2601,7 +2605,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts_over25",
@@ -2617,7 +2622,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts_over25",
@@ -2633,7 +2639,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts_over25",
@@ -2648,6 +2655,126 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
+    "status": "pending",
+    "result": null,
+    "tier": "strong"
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-09-27|New York Red Bulls|St. Louis City",
+    "league": "USA",
+    "kickoff": "2026-09-26T23:30:00+00:00",
+    "home": "New York Red Bulls",
+    "away": "St. Louis City",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4919,
+    "fair_odds": 2.03,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E2|2026-09-26|Wycombe|Reading",
+    "league": "E2",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Wycombe",
+    "away": "Reading",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4811,
+    "fair_odds": 2.08,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E3|2026-09-26|Cheltenham|Chesterfield",
+    "league": "E3",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Cheltenham",
+    "away": "Chesterfield",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4753,
+    "fair_odds": 2.1,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-09-26|Southend|Barrow",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Southend",
+    "away": "Barrow",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4736,
+    "fair_odds": 2.11,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-09-26|Carlisle|Woking",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Carlisle",
+    "away": "Woking",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.473,
+    "fair_odds": 2.11,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-09-26|Cruz Azul|Toluca",
+    "league": "MEX",
+    "kickoff": "2026-09-26T22:50:00+00:00",
+    "home": "Cruz Azul",
+    "away": "Toluca",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4693,
+    "fair_odds": 2.13,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-09-26|Wealdstone|Gateshead",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Wealdstone",
+    "away": "Gateshead",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4657,
+    "fair_odds": 2.15,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
     "status": "pending",
     "result": null
    }
@@ -2667,7 +2794,8 @@
     "edge": -0.0565,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "over25",
@@ -2683,7 +2811,8 @@
     "edge": -0.0628,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "over25",
@@ -2699,7 +2828,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "over25",
@@ -2715,7 +2845,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "over25",
@@ -2731,7 +2862,8 @@
     "edge": -0.066,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "over25",
@@ -2747,7 +2879,8 @@
     "edge": -0.0535,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "over25",
@@ -2762,6 +2895,143 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
+    "status": "pending",
+    "result": null,
+    "tier": "strong"
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-09-26|Worthing|Halifax",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Worthing",
+    "away": "Halifax",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.594,
+    "fair_odds": 1.68,
+    "market_odds": 1.56,
+    "edge": -0.0734,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-09-26|Carlisle|Woking",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Carlisle",
+    "away": "Woking",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5919,
+    "fair_odds": 1.69,
+    "market_odds": 1.56,
+    "edge": -0.0766,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-09-26|Southend|Barrow",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Southend",
+    "away": "Barrow",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5829,
+    "fair_odds": 1.72,
+    "market_odds": 1.59,
+    "edge": -0.0732,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-09-27|New York Red Bulls|St. Louis City",
+    "league": "USA",
+    "kickoff": "2026-09-26T23:30:00+00:00",
+    "home": "New York Red Bulls",
+    "away": "St. Louis City",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5826,
+    "fair_odds": 1.72,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-09-26|Harrogate|Eastleigh",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Harrogate",
+    "away": "Eastleigh",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5806,
+    "fair_odds": 1.72,
+    "market_odds": 1.64,
+    "edge": -0.0479,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E3|2026-09-26|York|Gillingham",
+    "league": "E3",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "York",
+    "away": "Gillingham",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5797,
+    "fair_odds": 1.73,
+    "market_odds": 1.57,
+    "edge": -0.0899,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-09-26|Wealdstone|Gateshead",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Wealdstone",
+    "away": "Gateshead",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5792,
+    "fair_odds": 1.73,
+    "market_odds": 1.63,
+    "edge": -0.0558,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E2|2026-09-26|Plymouth|Burton",
+    "league": "E2",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Plymouth",
+    "away": "Burton",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.57,
+    "fair_odds": 1.75,
+    "market_odds": 1.64,
+    "edge": -0.0653,
+    "published_at": "2026-09-25T21:35:21+00:00",
     "status": "pending",
     "result": null
    }
@@ -2781,7 +3051,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts",
@@ -2797,7 +3068,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts",
@@ -2813,7 +3085,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts",
@@ -2829,7 +3102,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts",
@@ -2845,7 +3119,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts",
@@ -2861,7 +3136,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts",
@@ -2877,7 +3153,8 @@
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "btts",
@@ -2892,6 +3169,126 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-25T20:55:49+00:00",
+    "status": "pending",
+    "result": null,
+    "tier": "strong"
+   },
+   {
+    "market": "btts",
+    "match_id": "E2|2026-09-26|Wycombe|Reading",
+    "league": "E2",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Wycombe",
+    "away": "Reading",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5954,
+    "fair_odds": 1.68,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-09-26|Cruz Azul|Toluca",
+    "league": "MEX",
+    "kickoff": "2026-09-26T22:50:00+00:00",
+    "home": "Cruz Azul",
+    "away": "Toluca",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5925,
+    "fair_odds": 1.69,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E3|2026-09-26|Cheltenham|Chesterfield",
+    "league": "E3",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Cheltenham",
+    "away": "Chesterfield",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5885,
+    "fair_odds": 1.7,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E2|2026-09-26|Stockport|Peterboro",
+    "league": "E2",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Stockport",
+    "away": "Peterboro",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5884,
+    "fair_odds": 1.7,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-09-26|Southend|Barrow",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Southend",
+    "away": "Barrow",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5776,
+    "fair_odds": 1.73,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-09-26|Club Tijuana|Atlas",
+    "league": "MEX",
+    "kickoff": "2026-09-26T03:00:00+00:00",
+    "home": "Club Tijuana",
+    "away": "Atlas",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5761,
+    "fair_odds": 1.74,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-09-26|Scunthorpe|Hartlepool",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Scunthorpe",
+    "away": "Hartlepool",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5738,
+    "fair_odds": 1.74,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-25T21:35:21+00:00",
     "status": "pending",
     "result": null
    }
@@ -2911,7 +3308,8 @@
     "edge": -0.0578,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "banker"
    },
    {
     "market": "double_chance",
@@ -2927,7 +3325,8 @@
     "edge": -0.072,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "double_chance",
@@ -2943,7 +3342,8 @@
     "edge": -0.0698,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "double_chance",
@@ -2959,7 +3359,8 @@
     "edge": -0.0769,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "double_chance",
@@ -2975,7 +3376,8 @@
     "edge": -0.0841,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "double_chance",
@@ -2991,7 +3393,8 @@
     "edge": -0.066,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
-    "result": null
+    "result": null,
+    "tier": "strong"
    },
    {
     "market": "double_chance",
@@ -3007,40 +3410,207 @@
     "edge": -0.07,
     "published_at": "2026-09-25T20:55:49+00:00",
     "status": "pending",
+    "result": null,
+    "tier": "strong"
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-09-26|Carlisle|Woking",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Carlisle",
+    "away": "Woking",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7923,
+    "fair_odds": 1.26,
+    "market_odds": 1.15,
+    "edge": -0.0905,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-09-26|Wealdstone|Gateshead",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Wealdstone",
+    "away": "Gateshead",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7821,
+    "fair_odds": 1.28,
+    "market_odds": 1.16,
+    "edge": -0.0942,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-09-26|Southend|Barrow",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Southend",
+    "away": "Barrow",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7762,
+    "fair_odds": 1.29,
+    "market_odds": 1.2,
+    "edge": -0.0723,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E2|2026-09-26|Cambridge|AFC Wimbledon",
+    "league": "E2",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Cambridge",
+    "away": "AFC Wimbledon",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7722,
+    "fair_odds": 1.3,
+    "market_odds": 1.2,
+    "edge": -0.0754,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E3|2026-09-26|Bristol Rvs|Exeter",
+    "league": "E3",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Bristol Rvs",
+    "away": "Exeter",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7716,
+    "fair_odds": 1.3,
+    "market_odds": 1.18,
+    "edge": -0.0872,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-09-26|Aldershot|Tamworth",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Aldershot",
+    "away": "Tamworth",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7689,
+    "fair_odds": 1.3,
+    "market_odds": 1.21,
+    "edge": -0.0684,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-09-26|Boston Utd|Fylde",
+    "league": "EC",
+    "kickoff": "2026-09-26T14:00:00+00:00",
+    "home": "Boston Utd",
+    "away": "Fylde",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7687,
+    "fair_odds": 1.3,
+    "market_odds": 1.21,
+    "edge": -0.0703,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-09-26|Tenerife|Cadiz",
+    "league": "SP2",
+    "kickoff": "2026-09-26T16:30:00+00:00",
+    "home": "Tenerife",
+    "away": "Cadiz",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7687,
+    "fair_odds": 1.3,
+    "market_odds": 1.18,
+    "edge": -0.0901,
+    "published_at": "2026-09-25T21:35:21+00:00",
+    "status": "pending",
     "result": null
    }
   ]
  },
  "notified": [
   "btts_over25|E2|2026-09-26|Stockport|Peterboro",
+  "btts_over25|E2|2026-09-26|Wycombe|Reading",
+  "btts_over25|E3|2026-09-26|Cheltenham|Chesterfield",
   "btts_over25|EC|2026-09-26|Aldershot|Tamworth",
   "btts_over25|EC|2026-09-26|Boston Utd|Fylde",
+  "btts_over25|EC|2026-09-26|Carlisle|Woking",
   "btts_over25|EC|2026-09-26|Solihull|Boreham Wood",
+  "btts_over25|EC|2026-09-26|Southend|Barrow",
+  "btts_over25|EC|2026-09-26|Wealdstone|Gateshead",
   "btts_over25|EC|2026-09-26|Worthing|Halifax",
+  "btts_over25|MEX|2026-09-26|Cruz Azul|Toluca",
   "btts_over25|USA|2026-09-27|CF Montreal|FC Cincinnati",
   "btts_over25|USA|2026-09-27|Charlotte|Chicago Fire",
+  "btts_over25|USA|2026-09-27|New York Red Bulls|St. Louis City",
   "btts_over25|USA|2026-09-27|Philadelphia Union|Orlando City",
+  "btts|E2|2026-09-26|Stockport|Peterboro",
+  "btts|E2|2026-09-26|Wycombe|Reading",
+  "btts|E3|2026-09-26|Cheltenham|Chesterfield",
   "btts|EC|2026-09-26|Aldershot|Tamworth",
   "btts|EC|2026-09-26|Boston Utd|Fylde",
+  "btts|EC|2026-09-26|Scunthorpe|Hartlepool",
   "btts|EC|2026-09-26|Solihull|Boreham Wood",
+  "btts|EC|2026-09-26|Southend|Barrow",
   "btts|EC|2026-09-26|Worthing|Halifax",
+  "btts|MEX|2026-09-26|Club Tijuana|Atlas",
+  "btts|MEX|2026-09-26|Cruz Azul|Toluca",
   "btts|USA|2026-09-27|CF Montreal|FC Cincinnati",
   "btts|USA|2026-09-27|Charlotte|Chicago Fire",
   "btts|USA|2026-09-27|New York Red Bulls|St. Louis City",
   "btts|USA|2026-09-27|Philadelphia Union|Orlando City",
+  "double_chance|E2|2026-09-26|Cambridge|AFC Wimbledon",
   "double_chance|E2|2026-09-26|Plymouth|Burton",
   "double_chance|E2|2026-09-26|Stockport|Peterboro",
+  "double_chance|E3|2026-09-26|Bristol Rvs|Exeter",
   "double_chance|E3|2026-09-26|York|Gillingham",
+  "double_chance|EC|2026-09-26|Aldershot|Tamworth",
+  "double_chance|EC|2026-09-26|Boston Utd|Fylde",
+  "double_chance|EC|2026-09-26|Carlisle|Woking",
   "double_chance|EC|2026-09-26|Harrogate|Eastleigh",
   "double_chance|EC|2026-09-26|Solihull|Boreham Wood",
+  "double_chance|EC|2026-09-26|Southend|Barrow",
+  "double_chance|EC|2026-09-26|Wealdstone|Gateshead",
   "double_chance|MEX|2026-09-27|Guadalajara Chivas|Queretaro",
+  "double_chance|SP2|2026-09-26|Tenerife|Cadiz",
   "double_chance|USA|2026-09-27|Philadelphia Union|Orlando City",
+  "over25|E2|2026-09-26|Plymouth|Burton",
   "over25|E2|2026-09-26|Stockport|Peterboro",
+  "over25|E3|2026-09-26|York|Gillingham",
   "over25|EC|2026-09-26|Aldershot|Tamworth",
   "over25|EC|2026-09-26|Boston Utd|Fylde",
+  "over25|EC|2026-09-26|Carlisle|Woking",
+  "over25|EC|2026-09-26|Harrogate|Eastleigh",
   "over25|EC|2026-09-26|Solihull|Boreham Wood",
+  "over25|EC|2026-09-26|Southend|Barrow",
+  "over25|EC|2026-09-26|Wealdstone|Gateshead",
+  "over25|EC|2026-09-26|Worthing|Halifax",
   "over25|USA|2026-09-27|CF Montreal|FC Cincinnati",
   "over25|USA|2026-09-27|Charlotte|Chicago Fire",
+  "over25|USA|2026-09-27|New York Red Bulls|St. Louis City",
   "over25|USA|2026-09-27|Philadelphia Union|Orlando City"
  ]
 }
