@@ -119,3 +119,19 @@ def test_daily_grades_yesterdays_picks(world, tmp_path):
     assert over25 and all(p["status"] == "won" for p in over25)  # 2-1 is over 2.5
     assert all(p["status"] == "won" for p in record["picks"]["btts"])
     assert result.report["track_record"]["over25"]["all"]["won"] == len(over25)
+
+
+def test_site_is_installable_as_an_app(world, tmp_path):
+    settings, source, _ = world
+    pipeline.run_daily(settings, source, DAY, MORNING, tmp_path / "h", tmp_path / "site", notify=False)
+    site = tmp_path / "site"
+    manifest = json.loads((site / "manifest.webmanifest").read_text())
+    assert manifest["display"] == "standalone" and manifest["start_url"] == "./"
+    sizes = {icon["sizes"] for icon in manifest["icons"]}
+    assert {"192x192", "512x512"} <= sizes
+    for icon in manifest["icons"]:
+        assert (site / icon["src"]).read_bytes().startswith(b"\x89PNG")
+    assert "fetch" in (site / "sw.js").read_text()
+    page = (site / "index.html").read_text()
+    assert '<link rel="manifest" href="manifest.webmanifest">' in page
+    assert 'serviceWorker.register("sw.js")' in page

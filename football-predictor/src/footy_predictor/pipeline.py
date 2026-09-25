@@ -16,8 +16,8 @@ from .history import (HistoryStore, backfill_tiers, fixture_record, grade_day, h
                       merge_day, new_day, pending_leagues, pick_key, pick_record, track_record)
 from .leagues import LEAGUES, TIER_ABOVE, League
 from .notify import NotifyError, send_telegram, telegram_credentials
-from .render import (build_report, render_csv, render_html, render_json, render_markdown,
-                     render_telegram)
+from .render import (APP_FILES, app_file, build_report, render_csv, render_html, render_json,
+                     render_manifest, render_markdown, render_telegram)
 from .selection import select_picks
 
 log = logging.getLogger(__name__)
@@ -93,7 +93,8 @@ def write_outputs(report: dict, out_dir: Path) -> list[Path]:
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "data").mkdir(exist_ok=True)
     files = {
-        out_dir / "index.html": render_html(report),
+        out_dir / "index.html": render_html(report, app=True),
+        out_dir / "manifest.webmanifest": render_manifest(report),
         out_dir / "predictions.md": render_markdown(report),
         out_dir / "predictions.csv": render_csv(report),
         out_dir / "data" / "latest.json": render_json(report),
@@ -103,6 +104,9 @@ def write_outputs(report: dict, out_dir: Path) -> list[Path]:
         files[out_dir / "data" / f"{day['date']}.json"] = render_json(day)
     for path, content in files.items():
         path.write_text(content, encoding="utf-8")
+    for name in APP_FILES:  # icons and service worker for the installable app
+        (out_dir / name).write_bytes(app_file(name))
+        files[out_dir / name] = ""
     return list(files)
 
 

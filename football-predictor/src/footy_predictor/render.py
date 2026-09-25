@@ -336,11 +336,55 @@ def render_json(report: dict) -> str:
     return json.dumps(report, indent=1, ensure_ascii=False) + "\n"
 
 
-def render_html(report: dict, standalone: bool = True) -> str:
+APP_FILES = ("icon-192.png", "icon-512.png", "apple-touch-icon.png", "favicon-32.png", "sw.js")
+THEME_COLOR = "#0f5c3b"
+
+
+def render_manifest(report: dict) -> str:
+    """Web app manifest: lets Chrome, Edge and phones install the dashboard as an app."""
+    manifest = {
+        "id": "./",
+        "name": report["title"],
+        "short_name": report["title"][:15],
+        "description": "Daily football predictions: BTTS & Over 2.5, Over 2.5, BTTS and Double Chance",
+        "start_url": "./",
+        "scope": "./",
+        "display": "standalone",
+        "background_color": "#f2f5f3",
+        "theme_color": THEME_COLOR,
+        "icons": [
+            {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+            {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+            {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+        ],
+    }
+    return json.dumps(manifest, indent=1, ensure_ascii=False) + "\n"
+
+
+def app_file(name: str) -> bytes:
+    return resources.files("footy_predictor").joinpath(f"templates/static/{name}").read_bytes()
+
+
+_APP_HEAD = (
+    '<link rel="manifest" href="manifest.webmanifest">\n'
+    f'<meta name="theme-color" content="{THEME_COLOR}">\n'
+    '<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">\n'
+    '<link rel="apple-touch-icon" href="apple-touch-icon.png">\n'
+    '<meta name="mobile-web-app-capable" content="yes">\n'
+)
+_APP_SCRIPT = (
+    '<script>if ("serviceWorker" in navigator && location.protocol !== "file:") '
+    '{ navigator.serviceWorker.register("sw.js").catch(function () {}); }</script>\n'
+)
+
+
+def render_html(report: dict, standalone: bool = True, app: bool = False) -> str:
     """Self-contained dashboard page with the report embedded as JSON.
 
     ``standalone=False`` returns just the head/body content, for hosts that
-    supply their own document skeleton.
+    supply their own document skeleton. ``app=True`` links the manifest,
+    icons and service worker written next to it by :func:`write_outputs`,
+    which makes the page installable as a desktop or phone app.
     """
     template = resources.files("footy_predictor").joinpath("templates/dashboard.html").read_text(
         encoding="utf-8")
@@ -355,5 +399,6 @@ def render_html(report: dict, standalone: bool = True) -> str:
         '<!doctype html>\n<html lang="en">\n<head>\n<meta charset="utf-8">\n'
         '<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">\n'
         '<meta name="color-scheme" content="light dark">\n'
-        f"{head}</head>\n<body>\n{body}</body>\n</html>\n"
+        f"{_APP_HEAD if app else ''}{head}</head>\n<body>\n{body}{_APP_SCRIPT if app else ''}"
+        "</body>\n</html>\n"
     )
