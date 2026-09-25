@@ -101,6 +101,8 @@ def render_markdown(report: dict) -> str:
     lines = [f"# ⚽ {report['title']}", ""]
     lines.append(f"_Generated {report['generated_at'].replace('T', ' ')[:16]} UTC · "
                  f"kick-off times in {report['timezone']}_")
+    if report.get("url"):
+        lines += ["", f"**[Open the live dashboard]({report['url']})**"]
     for day in report["days"]:
         leagues = {f["league"] for f in day["fixtures"]}
         names = _league_names(day)

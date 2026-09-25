@@ -38,6 +38,9 @@ def test_markdown_and_text_list_every_market():
     assert "Gamble responsibly" in md
     text = render_text(rep)
     assert "OVER 2.5 GOALS" in text and "Home 0 v Away 0" in text
+    assert "live dashboard" not in md
+    rep["url"] = "https://example.github.io/footy/"
+    assert "[Open the live dashboard](https://example.github.io/footy/)" in render_markdown(rep)
 
 
 def test_telegram_escapes_html_and_respects_length_limit():

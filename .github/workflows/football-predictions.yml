@@ -17,7 +17,7 @@ on:
 
 permissions:
   contents: write # store prediction history on the predictions-data branch
-  pages: write # publish the dashboard (only when the ENABLE_PAGES variable is "true")
+  pages: write # publish the dashboard once GitHub Pages is switched on
   id-token: write
 
 concurrency:
@@ -28,6 +28,8 @@ jobs:
   predict:
     runs-on: ubuntu-latest
     timeout-minutes: 30
+    outputs:
+      pages: ${{ steps.pages.outputs.enabled }}
     defaults:
       run:
         working-directory: football-predictor
@@ -63,13 +65,32 @@ jobs:
             git -C "$dir" rm -rf --quiet .
           fi
 
+      - name: Check whether GitHub Pages is on
+        id: pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          url=$(gh api "repos/$GITHUB_REPOSITORY/pages" --jq 'select(.build_type == "workflow") | .html_url' 2>/dev/null || true)
+          if [ -n "$url" ]; then
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+            echo "url=$url" >> "$GITHUB_OUTPUT"
+            echo "Dashboard: $url"
+          else
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice title=Dashboard not published::To publish the web dashboard, open Settings > Pages and set Source to GitHub Actions. Today's picks are on the predictions-data branch meanwhile."
+          fi
+
       - name: Predict, grade and build the dashboard
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-          FOOTY_SITE_URL: ${{ vars.ENABLE_PAGES == 'true' && format('https://{0}.github.io/{1}/', github.repository_owner, github.event.repository.name) || '' }}
+          FOOTY_SITE_URL: ${{ steps.pages.outputs.url }}
           PREDICT_DATE: ${{ inputs.date }}
         run: footy daily --date "${PREDICT_DATE:-today}" --out site --history "$RUNNER_TEMP/predictions-data/history" -v
+
+      - name: Show the picks on the run page
+        if: ${{ !cancelled() && hashFiles('football-predictor/site/predictions.md') != '' }}
+        run: cat site/predictions.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Save prediction history
         if: always()
@@ -77,7 +98,17 @@ jobs:
           set -euo pipefail
           cd "$RUNNER_TEMP/predictions-data"
           [ -d history ] || { echo "No history yet"; exit 0; }
-          git add -A history
+          site="$GITHUB_WORKSPACE/football-predictor/site"
+          if [ -f "$site/predictions.md" ]; then
+            # The branch README shows the latest picks when browsing the branch on GitHub.
+            {
+              cat "$site/predictions.md"
+              echo
+              echo "Every day's picks and graded results are stored in [history/](history)."
+            } > README.md
+            cp "$site/predictions.csv" predictions.csv
+          fi
+          git add -A .
           if git diff --cached --quiet; then
             echo "History unchanged"
             exit 0
@@ -99,13 +130,13 @@ jobs:
           retention-days: 14
 
       - name: Upload dashboard for GitHub Pages
-        if: ${{ !cancelled() && vars.ENABLE_PAGES == 'true' && hashFiles('football-predictor/site/index.html') != '' }}
+        if: ${{ !cancelled() && steps.pages.outputs.enabled == 'true' && hashFiles('football-predictor/site/index.html') != '' }}
         uses: actions/upload-pages-artifact@v3
         with:
           path: football-predictor/site
 
   deploy:
-    if: ${{ !cancelled() && vars.ENABLE_PAGES == 'true' }}
+    if: ${{ !cancelled() && needs.predict.outputs.pages == 'true' }}
     needs: predict
     runs-on: ubuntu-latest
     environment:

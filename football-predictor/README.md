@@ -80,23 +80,26 @@ Common options: `--leagues top5,E1`, `--timezone Africa/Nairobi`, `--offline` (c
 - **05:15 UTC**: today's picks, dashboard update and Telegram message.
 - **17:15 UTC**: refresh. football-data.co.uk adds midweek fixtures on Tuesday afternoons and weekend fixtures on Friday afternoons. Any new picks for tonight are sent as a Telegram "Update", and tomorrow's picks go on the dashboard.
 
-The prediction history is committed to a separate `predictions-data` branch, so `main` stays clean.
+Scheduled workflows only run from the default branch (`main`). With no further setup, every run:
 
-Scheduled workflows only run from the default branch, so merge this code into `main` first. Then:
+- saves the prediction history to a separate `predictions-data` branch, so `main` stays clean;
+- makes that branch's README show the latest picks and track record (open the branch on GitHub to see it);
+- shows the picks on the run's summary page (**Actions → Daily football predictions → a run**);
+- uploads the dashboard, Markdown and CSV as a downloadable artifact.
 
-1. **Dashboard (optional)**
-   1. In **Settings → Pages**, set *Source* to **GitHub Actions**.
-   2. In **Settings → Secrets and variables → Actions → Variables**, add `ENABLE_PAGES` = `true`.
-   3. The dashboard appears at `https://<your-user>.github.io/<repo>/`.
-2. **Telegram (optional)**
+Optional extras:
+
+1. **Web dashboard**: in **Settings → Pages**, set *Source* to **GitHub Actions**. The workflow detects this by itself; from the next run the dashboard is live at `https://<your-user>.github.io/<repo>/`.
+2. **Telegram**
    1. Talk to [@BotFather](https://t.me/BotFather), send `/newbot`, and copy the token.
    2. Add the bot to your channel (as an admin) or group. Get the chat id, e.g. `@yourchannel` for a public channel, or from `https://api.telegram.org/bot<token>/getUpdates` after posting in the group.
-   3. Add repository **secrets** `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID`.
-3. Run it once by hand: **Actions → Daily football predictions → Run workflow**.
+   3. Add repository **secrets** `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` (**Settings → Secrets and variables → Actions**).
 
-Without Pages or Telegram, every run still uploads the dashboard, Markdown and CSV as a downloadable artifact.
+To run it now instead of waiting for the schedule: **Actions → Daily football predictions → Run workflow**.
 
 To change the schedule, edit the two `cron` lines (they are in UTC). Set `timezone` in `config.toml` so "today" and the kick-off times match where you are.
+
+In public repositories, GitHub pauses scheduled workflows after 60 days without repository activity and emails you first; re-enable it on the Actions tab with one click.
 
 ---
 
