@@ -1,0 +1,402 @@
+{
+ "date": "2026-09-25",
+ "created_at": "2026-09-25T20:55:49+00:00",
+ "updated_at": "2026-09-25T20:55:49+00:00",
+ "fixtures": [
+  {
+   "id": "SP2|2026-09-25|Girona|Albacete",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-09-25",
+   "kickoff": "2026-09-25T18:30:00+00:00",
+   "home": "Girona",
+   "away": "Albacete",
+   "expected_goals": [
+    2.09,
+    0.97
+   ],
+   "model_expected_goals": [
+    1.73,
+    1.0
+   ],
+   "rho": -0.0037,
+   "probabilities": {
+    "home": 0.6316,
+    "draw": 0.2033,
+    "away": 0.1651,
+    "over25": 0.5883,
+    "under25": 0.4117,
+    "btts": 0.5426,
+    "btts_over25": 0.447,
+    "dc_1x": 0.8349,
+    "dc_x2": 0.3684,
+    "dc_12": 0.7967
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1029
+    ],
+    [
+     "2-1",
+     0.0993
+    ],
+    [
+     "1-0",
+     0.0983
+    ]
+   ],
+   "market": {
+    "home": 0.6433,
+    "draw": 0.2044,
+    "away": 0.1523,
+    "over25": 0.6022
+   },
+   "odds": {
+    "home": 1.49,
+    "draw": 4.2,
+    "away": 5.48,
+    "over25": 1.57,
+    "under25": 2.27
+   },
+   "team_matches": [
+    6,
+    125
+   ],
+   "flags": [
+    "Girona relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-09-25T20:55:49+00:00"
+  },
+  {
+   "id": "IRL|2026-09-25|Galway|Shelbourne",
+   "league": "IRL",
+   "league_name": "Ireland · Premier Division",
+   "date": "2026-09-25",
+   "kickoff": "2026-09-25T18:45:00+00:00",
+   "home": "Galway",
+   "away": "Shelbourne",
+   "expected_goals": [
+    1.19,
+    1.22
+   ],
+   "model_expected_goals": [
+    1.24,
+    1.17
+   ],
+   "rho": -0.119,
+   "probabilities": {
+    "home": 0.341,
+    "draw": 0.307,
+    "away": 0.352,
+    "over25": 0.4326,
+    "under25": 0.5674,
+    "btts": 0.5057,
+    "btts_over25": 0.3597,
+    "dc_1x": 0.648,
+    "dc_x2": 0.659,
+    "dc_12": 0.693
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1459
+    ],
+    [
+     "0-0",
+     0.1054
+    ],
+    [
+     "0-1",
+     0.0938
+    ]
+   ],
+   "market": {
+    "home": 0.3593,
+    "draw": 0.2617,
+    "away": 0.3789,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.54,
+    "draw": 3.39,
+    "away": 2.42,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    103,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T20:55:49+00:00"
+  },
+  {
+   "id": "SC1|2026-09-25|Arbroath|Queens Park",
+   "league": "SC1",
+   "league_name": "Scotland · Championship",
+   "date": "2026-09-25",
+   "kickoff": "2026-09-25T18:45:00+00:00",
+   "home": "Arbroath",
+   "away": "Queens Park",
+   "expected_goals": [
+    1.47,
+    0.85
+   ],
+   "model_expected_goals": [
+    1.35,
+    1.0
+   ],
+   "rho": -0.1553,
+   "probabilities": {
+    "home": 0.4979,
+    "draw": 0.3031,
+    "away": 0.199,
+    "over25": 0.4106,
+    "under25": 0.5894,
+    "btts": 0.4613,
+    "btts_over25": 0.3194,
+    "dc_1x": 0.801,
+    "dc_x2": 0.5021,
+    "dc_12": 0.6969
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1419
+    ],
+    [
+     "1-0",
+     0.1248
+    ],
+    [
+     "0-0",
+     0.1168
+    ]
+   ],
+   "market": {
+    "home": 0.526,
+    "draw": 0.2687,
+    "away": 0.2053,
+    "over25": 0.4103
+   },
+   "odds": {
+    "home": 1.79,
+    "draw": 3.29,
+    "away": 4.2,
+    "over25": 2.21,
+    "under25": 1.6
+   },
+   "team_matches": [
+    72,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T20:55:49+00:00"
+  },
+  {
+   "id": "SC1|2026-09-25|Ayr|Stenhousemuir",
+   "league": "SC1",
+   "league_name": "Scotland · Championship",
+   "date": "2026-09-25",
+   "kickoff": "2026-09-25T18:45:00+00:00",
+   "home": "Ayr",
+   "away": "Stenhousemuir",
+   "expected_goals": [
+    1.33,
+    1.06
+   ],
+   "model_expected_goals": [
+    1.25,
+    1.06
+   ],
+   "rho": -0.1553,
+   "probabilities": {
+    "home": 0.4078,
+    "draw": 0.3143,
+    "away": 0.2779,
+    "over25": 0.4277,
+    "under25": 0.5723,
+    "btts": 0.5008,
+    "btts_over25": 0.3516,
+    "dc_1x": 0.7221,
+    "dc_x2": 0.5922,
+    "dc_12": 0.6857
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1493
+    ],
+    [
+     "0-0",
+     0.1117
+    ],
+    [
+     "1-0",
+     0.1017
+    ]
+   ],
+   "market": {
+    "home": 0.4269,
+    "draw": 0.2825,
+    "away": 0.2906,
+    "over25": 0.4312
+   },
+   "odds": {
+    "home": 2.17,
+    "draw": 3.16,
+    "away": 3.08,
+    "over25": 2.11,
+    "under25": 1.65
+   },
+   "team_matches": [
+    109,
+    7
+   ],
+   "flags": [
+    "Stenhousemuir new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-09-25T20:55:49+00:00"
+  },
+  {
+   "id": "SC1|2026-09-25|Inverness C|Morton",
+   "league": "SC1",
+   "league_name": "Scotland · Championship",
+   "date": "2026-09-25",
+   "kickoff": "2026-09-25T18:45:00+00:00",
+   "home": "Inverness C",
+   "away": "Morton",
+   "expected_goals": [
+    2.06,
+    0.7
+   ],
+   "model_expected_goals": [
+    1.53,
+    0.96
+   ],
+   "rho": -0.1553,
+   "probabilities": {
+    "home": 0.6784,
+    "draw": 0.2212,
+    "away": 0.1004,
+    "over25": 0.5201,
+    "under25": 0.4799,
+    "btts": 0.4516,
+    "btts_over25": 0.3464,
+    "dc_1x": 0.8996,
+    "dc_x2": 0.3216,
+    "dc_12": 0.7788
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1349
+    ],
+    [
+     "1-0",
+     0.1167
+    ],
+    [
+     "1-1",
+     0.1052
+    ]
+   ],
+   "market": {
+    "home": 0.7223,
+    "draw": 0.1793,
+    "away": 0.0984,
+    "over25": 0.5375
+   },
+   "odds": {
+    "home": 1.33,
+    "draw": 4.51,
+    "away": 7.63,
+    "over25": 1.74,
+    "under25": 1.99
+   },
+   "team_matches": [
+    37,
+    109
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T20:55:49+00:00"
+  },
+  {
+   "id": "SC1|2026-09-25|Raith Rvs|Livingston",
+   "league": "SC1",
+   "league_name": "Scotland · Championship",
+   "date": "2026-09-25",
+   "kickoff": "2026-09-25T18:45:00+00:00",
+   "home": "Raith Rvs",
+   "away": "Livingston",
+   "expected_goals": [
+    1.38,
+    1.24
+   ],
+   "model_expected_goals": [
+    1.27,
+    1.11
+   ],
+   "rho": -0.1553,
+   "probabilities": {
+    "home": 0.3812,
+    "draw": 0.3009,
+    "away": 0.318,
+    "over25": 0.486,
+    "under25": 0.514,
+    "btts": 0.5508,
+    "btts_over25": 0.4068,
+    "dc_1x": 0.682,
+    "dc_x2": 0.6188,
+    "dc_12": 0.6991
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.144
+    ],
+    [
+     "0-0",
+     0.0923
+    ],
+    [
+     "2-1",
+     0.0858
+    ]
+   ],
+   "market": {
+    "home": 0.3927,
+    "draw": 0.2754,
+    "away": 0.3319,
+    "over25": 0.497
+   },
+   "odds": {
+    "home": 2.35,
+    "draw": 3.25,
+    "away": 2.74,
+    "over25": 1.86,
+    "under25": 1.84
+   },
+   "team_matches": [
+    109,
+    43
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-25T20:55:49+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [],
+  "over25": [],
+  "btts": [],
+  "double_chance": []
+ },
+ "notified": []
+}
