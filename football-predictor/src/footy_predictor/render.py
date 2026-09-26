@@ -42,6 +42,7 @@ def build_report(days: list[dict], track: dict, settings, generated_at: datetime
              "banker_probability": settings.selection.rule(m).banker_probability}
             for m in MARKETS
         ],
+        "min_team_matches": settings.selection.min_team_matches,
         "days": days,
         "track_record": track,
         "model": {"half_life_days": settings.model.half_life_days,

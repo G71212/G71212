@@ -163,3 +163,13 @@ def test_app_name_is_written_plainly():
     page = render_html(rep)
     assert "<title>GOLDING&#x27;S PREDICTION</title>" in page
     assert "Footy Predictor" not in page
+
+
+def test_ai_home_away_tab_is_built_in():
+    rep = report(n=2)
+    assert rep["min_team_matches"] == Settings().selection.min_team_matches  # the AI skips thin data
+    page = render_html(rep)
+    assert 'data-tab="ai"' in page and "function aiPicks" in page
+    # Home and away probabilities for every fixture travel with the page for the AI to rank.
+    fixture = rep["days"][0]["fixtures"][0]
+    assert {"home", "away"} <= set(fixture["probabilities"]) and fixture["team_matches"]
