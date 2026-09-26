@@ -1,15 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-09-25 23:57 UTC · kick-off times in UTC_
+_Generated 2026-09-26 00:08 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Friday 25 September 2026
-
-_No upcoming matches in the published fixtures for this day._
-
 
 ## Saturday 26 September 2026
 
@@ -188,6 +183,42 @@ _No upcoming matches in the published fixtures for this day._
 | 14:15 | Spain · Segunda División | Mallorca vs Almeria | 12 | 75% ☆ | 1.34 | 1.27 |  |
 | 01:30 | USA · MLS | Real Salt Lake vs New England Revolution | 12 | 75% ☆ | 1.34 | 1.24 |  |
 | 00:30 | USA · MLS | Seattle Sounders vs Minnesota United | 12 | 75% ☆ | 1.34 | 1.24 |  |
+
+
+## Monday 28 September 2026
+
+3 matches analysed across 2 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 01:00 | Mexico · Liga MX | Club Leon vs Juarez | BTTS & Over 2.5 | 44% ☆ | 2.26 | - |  |
+| 03:10 | Mexico · Liga MX | Necaxa vs Club America | BTTS & Over 2.5 | 43% ☆ | 2.31 | - |  |
+| 18:30 | Spain · Segunda División | Leganes vs Castellon | BTTS & Over 2.5 | 42% ☆ | 2.39 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 01:00 | Mexico · Liga MX | Club Leon vs Juarez | Over 2.5 | 57% ☆ | 1.75 | - |  |
+| 03:10 | Mexico · Liga MX | Necaxa vs Club America | Over 2.5 | 53% ☆ | 1.89 | - |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 03:10 | Mexico · Liga MX | Necaxa vs Club America | BTTS Yes | 55% ☆ | 1.80 | - |  |
+| 01:00 | Mexico · Liga MX | Club Leon vs Juarez | BTTS Yes | 55% ☆ | 1.82 | - |  |
+| 18:30 | Spain · Segunda División | Leganes vs Castellon | BTTS Yes | 54% ☆ | 1.85 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 01:00 | Mexico · Liga MX | Club Leon vs Juarez | 1X | 82% ★ | 1.21 | 1.12 |  |
+| 03:10 | Mexico · Liga MX | Necaxa vs Club America | X2 | 75% ☆ | 1.33 | 1.22 |  |
+| 18:30 | Spain · Segunda División | Leganes vs Castellon | 12 | 74% ☆ | 1.35 | 1.27 |  |
 
 ## 📊 Track record
 

@@ -1,0 +1,397 @@
+{
+ "date": "2026-09-28",
+ "created_at": "2026-09-26T00:08:48+00:00",
+ "updated_at": "2026-09-26T00:08:48+00:00",
+ "fixtures": [
+  {
+   "id": "MEX|2026-09-28|Club Leon|Juarez",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-09-28",
+   "kickoff": "2026-09-28T01:00:00+00:00",
+   "home": "Club Leon",
+   "away": "Juarez",
+   "expected_goals": [
+    1.98,
+    0.99
+   ],
+   "model_expected_goals": [
+    1.8,
+    1.18
+   ],
+   "rho": -0.0641,
+   "probabilities": {
+    "home": 0.5975,
+    "draw": 0.2259,
+    "away": 0.1766,
+    "over25": 0.5715,
+    "under25": 0.4285,
+    "btts": 0.5493,
+    "btts_over25": 0.4425,
+    "dc_1x": 0.8234,
+    "dc_x2": 0.4025,
+    "dc_12": 0.7741
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1068
+    ],
+    [
+     "2-0",
+     0.1003
+    ],
+    [
+     "2-1",
+     0.0996
+    ]
+   ],
+   "market": {
+    "home": 0.616,
+    "draw": 0.2137,
+    "away": 0.1703,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.55,
+    "draw": 4.04,
+    "away": 4.96,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    108,
+    106
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-26T00:08:48+00:00"
+  },
+  {
+   "id": "MEX|2026-09-28|Necaxa|Club America",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-09-28",
+   "kickoff": "2026-09-28T03:10:00+00:00",
+   "home": "Necaxa",
+   "away": "Club America",
+   "expected_goals": [
+    1.12,
+    1.67
+   ],
+   "model_expected_goals": [
+    1.26,
+    1.53
+   ],
+   "rho": -0.0641,
+   "probabilities": {
+    "home": 0.2489,
+    "draw": 0.2576,
+    "away": 0.4936,
+    "over25": 0.5279,
+    "under25": 0.4721,
+    "btts": 0.5544,
+    "btts_over25": 0.432,
+    "dc_1x": 0.5064,
+    "dc_x2": 0.7511,
+    "dc_12": 0.7424
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1224
+    ],
+    [
+     "1-2",
+     0.0959
+    ],
+    [
+     "0-1",
+     0.0951
+    ]
+   ],
+   "market": {
+    "home": 0.2444,
+    "draw": 0.2451,
+    "away": 0.5105,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.63,
+    "draw": 3.62,
+    "away": 1.85,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    106,
+    130
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-26T00:08:48+00:00"
+  },
+  {
+   "id": "SP2|2026-09-28|Leganes|Castellon",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-09-28",
+   "kickoff": "2026-09-28T18:30:00+00:00",
+   "home": "Leganes",
+   "away": "Castellon",
+   "expected_goals": [
+    1.25,
+    1.42
+   ],
+   "model_expected_goals": [
+    1.25,
+    1.26
+   ],
+   "rho": -0.0037,
+   "probabilities": {
+    "home": 0.3289,
+    "draw": 0.2596,
+    "away": 0.4115,
+    "over25": 0.4988,
+    "under25": 0.5012,
+    "btts": 0.5412,
+    "btts_over25": 0.4178,
+    "dc_1x": 0.5885,
+    "dc_x2": 0.6711,
+    "dc_12": 0.7404
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1233
+    ],
+    [
+     "0-1",
+     0.0982
+    ],
+    [
+     "1-2",
+     0.0875
+    ]
+   ],
+   "market": {
+    "home": 0.3137,
+    "draw": 0.2759,
+    "away": 0.4104,
+    "over25": 0.5061
+   },
+   "odds": {
+    "home": 2.89,
+    "draw": 3.25,
+    "away": 2.26,
+    "over25": 1.83,
+    "under25": 1.87
+   },
+   "team_matches": [
+    83,
+    90
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-26T00:08:48+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-09-28|Club Leon|Juarez",
+    "league": "MEX",
+    "kickoff": "2026-09-28T01:00:00+00:00",
+    "home": "Club Leon",
+    "away": "Juarez",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4425,
+    "fair_odds": 2.26,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-09-28|Necaxa|Club America",
+    "league": "MEX",
+    "kickoff": "2026-09-28T03:10:00+00:00",
+    "home": "Necaxa",
+    "away": "Club America",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.432,
+    "fair_odds": 2.31,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SP2|2026-09-28|Leganes|Castellon",
+    "league": "SP2",
+    "kickoff": "2026-09-28T18:30:00+00:00",
+    "home": "Leganes",
+    "away": "Castellon",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4178,
+    "fair_odds": 2.39,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "MEX|2026-09-28|Club Leon|Juarez",
+    "league": "MEX",
+    "kickoff": "2026-09-28T01:00:00+00:00",
+    "home": "Club Leon",
+    "away": "Juarez",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5715,
+    "fair_odds": 1.75,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "MEX|2026-09-28|Necaxa|Club America",
+    "league": "MEX",
+    "kickoff": "2026-09-28T03:10:00+00:00",
+    "home": "Necaxa",
+    "away": "Club America",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5279,
+    "fair_odds": 1.89,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-09-28|Necaxa|Club America",
+    "league": "MEX",
+    "kickoff": "2026-09-28T03:10:00+00:00",
+    "home": "Necaxa",
+    "away": "Club America",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5544,
+    "fair_odds": 1.8,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-09-28|Club Leon|Juarez",
+    "league": "MEX",
+    "kickoff": "2026-09-28T01:00:00+00:00",
+    "home": "Club Leon",
+    "away": "Juarez",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5493,
+    "fair_odds": 1.82,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-09-28|Leganes|Castellon",
+    "league": "SP2",
+    "kickoff": "2026-09-28T18:30:00+00:00",
+    "home": "Leganes",
+    "away": "Castellon",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5412,
+    "fair_odds": 1.85,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "MEX|2026-09-28|Club Leon|Juarez",
+    "league": "MEX",
+    "kickoff": "2026-09-28T01:00:00+00:00",
+    "home": "Club Leon",
+    "away": "Juarez",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8234,
+    "fair_odds": 1.21,
+    "market_odds": 1.12,
+    "edge": -0.0776,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "MEX|2026-09-28|Necaxa|Club America",
+    "league": "MEX",
+    "kickoff": "2026-09-28T03:10:00+00:00",
+    "home": "Necaxa",
+    "away": "Club America",
+    "selection": "X2",
+    "tier": "extra",
+    "probability": 0.7511,
+    "fair_odds": 1.33,
+    "market_odds": 1.22,
+    "edge": -0.0804,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-09-28|Leganes|Castellon",
+    "league": "SP2",
+    "kickoff": "2026-09-28T18:30:00+00:00",
+    "home": "Leganes",
+    "away": "Castellon",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7404,
+    "fair_odds": 1.35,
+    "market_odds": 1.27,
+    "edge": -0.061,
+    "published_at": "2026-09-26T00:08:48+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}
