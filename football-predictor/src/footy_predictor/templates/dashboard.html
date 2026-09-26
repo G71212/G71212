@@ -234,34 +234,36 @@ footer h2 { font: 400 19px/1.2 var(--display); text-transform: uppercase; letter
 footer p { margin: 0 0 8px; max-width: 68ch; }
 .disclaimer { font-weight: 600; color: var(--ink); }
 
-/* ---- opening animation (about 8.7 s, tap to skip) ----
+/* ---- opening animation (tap to skip) ----
+   Times below are multiplied by --pace (1.5: about 13 s in all; 1 is the brisk original):
    0 s    the golden G ball rolls in and bounces      1 s    the neon sign lights up
    1.8 s  the welcome glows in and stays ~3 s          5 s    a player sprints in
    5.8 s  the kick: flash, shake, the ball rockets off 6 s    everything glitches out
    6.2 s  green digits stream up the screen for 2 s (script), then the predictions */
 #splash {
+  --pace: 1.5;
   position: fixed; inset: 0; z-index: 100; display: grid; place-items: center; cursor: pointer; overflow: hidden;
   background: radial-gradient(55vmax 55vmax at 50% 42%, oklch(0.45 0.2 var(--hue) / 0.45), transparent 70%), #05050b;
-  transition: opacity 0.45s ease;
+  transition: opacity calc(var(--pace) * 0.45s) ease;
 }
 #splash.is-leaving { opacity: 0; pointer-events: none; }
 .no-splash #splash { display: none; }
 .splash-stage {
   --ball: min(34vw, 150px);
   display: grid; justify-items: center; gap: 18px; padding-inline: 16px;
-  animation: shake 0.34s linear 5.8s, stage-out 0.45s cubic-bezier(0.5, 0, 0.9, 0.4) 6.05s forwards;
+  animation: shake calc(var(--pace) * 0.34s) linear calc(var(--pace) * 5.8s), stage-out calc(var(--pace) * 0.45s) cubic-bezier(0.5, 0, 0.9, 0.4) calc(var(--pace) * 6.05s) forwards;
 }
-.ball-track { position: relative; display: grid; justify-items: center; animation: roll-in 1.3s cubic-bezier(0.22, 0.8, 0.3, 1) both; }
-.ball-kick { position: relative; z-index: 1; animation: kick-fly 0.9s cubic-bezier(0.2, 0.62, 0.3, 1) 5.8s forwards; }
-.ball-hop { transform-origin: 50% 100%; animation: hop 1.3s linear both; }
-.ball-svg { display: block; width: var(--ball); height: auto; animation: spin 1.3s cubic-bezier(0.22, 0.8, 0.3, 1) both, impact 0.14s ease-out 5.78s; filter: drop-shadow(0 0 16px rgba(255, 196, 64, 0.8)) drop-shadow(0 0 44px rgba(255, 160, 0, 0.4)); }
-.ball-shadow { width: calc(var(--ball) * 0.72); height: 14px; margin-top: 6px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255, 190, 50, 0.7), transparent); animation: shadow 1.3s linear both, shadow-out 0.3s ease 5.8s forwards; }
+.ball-track { position: relative; display: grid; justify-items: center; animation: roll-in calc(var(--pace) * 1.3s) cubic-bezier(0.22, 0.8, 0.3, 1) both; }
+.ball-kick { position: relative; z-index: 1; animation: kick-fly calc(var(--pace) * 0.9s) cubic-bezier(0.2, 0.62, 0.3, 1) calc(var(--pace) * 5.8s) forwards; }
+.ball-hop { transform-origin: 50% 100%; animation: hop calc(var(--pace) * 1.3s) linear both; }
+.ball-svg { display: block; width: var(--ball); height: auto; animation: spin calc(var(--pace) * 1.3s) cubic-bezier(0.22, 0.8, 0.3, 1) both, impact calc(var(--pace) * 0.14s) ease-out calc(var(--pace) * 5.78s); filter: drop-shadow(0 0 16px rgba(255, 196, 64, 0.8)) drop-shadow(0 0 44px rgba(255, 160, 0, 0.4)); }
+.ball-shadow { width: calc(var(--ball) * 0.72); height: 14px; margin-top: 6px; border-radius: 50%; background: radial-gradient(closest-side, rgba(255, 190, 50, 0.7), transparent); animation: shadow calc(var(--pace) * 1.3s) linear both, shadow-out calc(var(--pace) * 0.3s) ease calc(var(--pace) * 5.8s) forwards; }
 /* comet trail: blurred golden copies that follow the ball's flight a few frames behind */
 .ghost {
   position: absolute; top: 0; left: 50%; width: var(--ball); height: var(--ball); margin-left: calc(var(--ball) / -2);
   border-radius: 50%; opacity: 0; pointer-events: none; filter: blur(4px);
   background: radial-gradient(closest-side, rgba(255, 222, 110, 0.85), rgba(255, 170, 20, 0.3) 60%, transparent);
-  animation: ghost-fly 0.9s cubic-bezier(0.2, 0.62, 0.3, 1) 5.8s forwards;
+  animation: ghost-fly calc(var(--pace) * 0.9s) cubic-bezier(0.2, 0.62, 0.3, 1) calc(var(--pace) * 5.8s) forwards;
 }
 /* the strike: a burst of light and a shockwave where the boot meets the ball */
 .kick-flash, .kick-ring {
@@ -269,15 +271,15 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
   width: calc(var(--ball) * 0.5); height: calc(var(--ball) * 0.5); margin: calc(var(--ball) * -0.25) 0 0 calc(var(--ball) * -0.25);
   border-radius: 50%; opacity: 0; pointer-events: none;
 }
-.kick-flash { background: radial-gradient(closest-side, #fff, rgba(255, 236, 160, 0.95) 30%, rgba(255, 190, 40, 0.4) 62%, transparent); animation: flash 0.5s ease-out 5.8s forwards; }
-.kick-ring { border: 3px solid rgba(255, 226, 140, 0.95); box-shadow: 0 0 18px rgba(255, 200, 60, 0.8), inset 0 0 12px rgba(255, 200, 60, 0.6); animation: ring 0.65s ease-out 5.8s forwards; }
+.kick-flash { background: radial-gradient(closest-side, #fff, rgba(255, 236, 160, 0.95) 30%, rgba(255, 190, 40, 0.4) 62%, transparent); animation: flash calc(var(--pace) * 0.5s) ease-out calc(var(--pace) * 5.8s) forwards; }
+.kick-ring { border: 3px solid rgba(255, 226, 140, 0.95); box-shadow: 0 0 18px rgba(255, 200, 60, 0.8), inset 0 0 12px rgba(255, 200, 60, 0.6); animation: ring calc(var(--pace) * 0.65s) ease-out calc(var(--pace) * 5.8s) forwards; }
 /* the player: a dark silhouette lit by the neon sign; limbs swing around the hip and shoulder */
 .player {
   position: absolute; z-index: 2; pointer-events: none; overflow: visible;
   height: calc(var(--ball) * 2.3); width: calc(var(--ball) * 1.2545);
   left: calc(50% - var(--ball) * 1.338); bottom: calc(20px - var(--ball) * 0.251);
   filter: drop-shadow(0 0 1.5px var(--neon-core)) drop-shadow(0 0 8px var(--neon)) drop-shadow(0 0 22px oklch(0.7 0.24 var(--hue) / 0.6));
-  animation: player-in 0.62s cubic-bezier(0.25, 0.65, 0.35, 1) 4.95s both;
+  animation: player-in calc(var(--pace) * 0.62s) cubic-bezier(0.25, 0.65, 0.35, 1) calc(var(--pace) * 4.95s) both;
 }
 .player path { fill: none; stroke: #0d0a1c; stroke-linecap: round; stroke-linejoin: round; }
 .player .p-head, .player .p-torso { fill: #0d0a1c; }
@@ -293,31 +295,31 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
 .p-body, .p-leg, .p-arm { transform-box: view-box; }
 .p-leg { transform-origin: 54px 104px; }
 .p-arm { transform-origin: 62px 50px; }
-.p-body { animation: bob 0.155s ease-in-out 4.95s 4 alternate; }
-.p-leg-near { animation: stride-a 0.31s ease-in-out 4.95s 2 alternate, kick 0.42s cubic-bezier(0.3, 0.05, 0.25, 1) 5.5s forwards; }
-.p-leg-far { animation: stride-b 0.31s ease-in-out 4.95s 2 alternate, plant 0.25s ease-out 5.55s forwards; }
-.p-arm-near { animation: stride-b 0.31s ease-in-out 4.95s 2 alternate, arm-back 0.4s ease-out 5.5s forwards; }
-.p-arm-far { animation: stride-a 0.31s ease-in-out 4.95s 2 alternate, arm-up 0.4s ease-out 5.5s forwards; }
+.p-body { animation: bob calc(var(--pace) * 0.155s) ease-in-out calc(var(--pace) * 4.95s) 4 alternate; }
+.p-leg-near { animation: stride-a calc(var(--pace) * 0.31s) ease-in-out calc(var(--pace) * 4.95s) 2 alternate, kick calc(var(--pace) * 0.42s) cubic-bezier(0.3, 0.05, 0.25, 1) calc(var(--pace) * 5.5s) forwards; }
+.p-leg-far { animation: stride-b calc(var(--pace) * 0.31s) ease-in-out calc(var(--pace) * 4.95s) 2 alternate, plant calc(var(--pace) * 0.25s) ease-out calc(var(--pace) * 5.55s) forwards; }
+.p-arm-near { animation: stride-b calc(var(--pace) * 0.31s) ease-in-out calc(var(--pace) * 4.95s) 2 alternate, arm-back calc(var(--pace) * 0.4s) ease-out calc(var(--pace) * 5.5s) forwards; }
+.p-arm-far { animation: stride-a calc(var(--pace) * 0.31s) ease-in-out calc(var(--pace) * 4.95s) 2 alternate, arm-up calc(var(--pace) * 0.4s) ease-out calc(var(--pace) * 5.5s) forwards; }
 .splash-title {
   font: 400 clamp(28px, 8.6vw, 60px)/1.05 var(--display); letter-spacing: 0.035em; text-align: center; text-wrap: balance;
   color: var(--neon-core); opacity: 0;
   text-shadow: 0 0 3px var(--neon-core), 0 0 14px var(--neon), 0 0 34px var(--neon), 0 0 70px oklch(0.7 0.24 var(--hue) / 0.7);
-  animation: neon-on 0.9s linear 1.05s forwards;
+  animation: neon-on calc(var(--pace) * 0.9s) linear calc(var(--pace) * 1.05s) forwards;
 }
 .splash-welcome {
   max-width: 22em; font: 600 clamp(16px, 4.6vw, 24px)/1.35 var(--body); letter-spacing: 0.04em; text-align: center; text-wrap: balance;
   color: transparent; -webkit-background-clip: text; background-clip: text;
   background-image: linear-gradient(100deg, #c8870f 0%, #ffd24a 30%, #fff6cf 50%, #ffd24a 70%, #c8870f 100%);
   background-size: 200% 100%; opacity: 0;
-  animation: welcome-in 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) 1.8s forwards, shimmer 2.4s linear 1.8s infinite;
+  animation: welcome-in calc(var(--pace) * 0.9s) cubic-bezier(0.2, 0.7, 0.2, 1) calc(var(--pace) * 1.8s) forwards, shimmer calc(var(--pace) * 2.4s) linear calc(var(--pace) * 1.8s) infinite;
 }
 .splash-welcome:empty { display: none; }
-.splash-dim { position: absolute; inset: 0; z-index: 1; background: #000; opacity: 0; pointer-events: none; animation: show 0.4s ease 6.05s forwards; }
-.splash-rain { position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; opacity: 0; animation: show 0.25s ease forwards; }
+.splash-dim { position: absolute; inset: 0; z-index: 1; background: #000; opacity: 0; pointer-events: none; animation: show calc(var(--pace) * 0.4s) ease calc(var(--pace) * 6.05s) forwards; }
+.splash-rain { position: absolute; inset: 0; z-index: 2; width: 100%; height: 100%; opacity: 0; animation: show calc(var(--pace) * 0.25s) ease forwards; }
 .splash-skip {
   position: absolute; z-index: 3; left: 0; right: 0; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); text-align: center; pointer-events: none;
   font: 600 11px/1 var(--body); letter-spacing: 0.28em; text-transform: uppercase; color: rgba(255, 255, 255, 0.5);
-  opacity: 0; animation: show 0.6s ease 1.5s forwards;
+  opacity: 0; animation: show calc(var(--pace) * 0.6s) ease calc(var(--pace) * 1.5s) forwards;
 }
 @keyframes roll-in { from { transform: translateX(-72vw); } 72% { transform: translateX(3vw); } 88% { transform: translateX(-1vw); } to { transform: translateX(0); } }
 @keyframes spin { from { transform: rotate(-900deg); } to { transform: rotate(0deg); } }
@@ -383,7 +385,7 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
 <div id="splash" aria-hidden="true" title="Tap to skip">
   <div class="splash-stage">
     <div class="ball-track">
-      <span class="ghost" style="--o: 0.8; animation-delay: 5.83s"></span><span class="ghost" style="--o: 0.6; animation-delay: 5.86s"></span><span class="ghost" style="--o: 0.42; animation-delay: 5.89s"></span><span class="ghost" style="--o: 0.26; animation-delay: 5.92s"></span>
+      <span class="ghost" style="--o: 0.8; animation-delay: calc(var(--pace) * 5.83s)"></span><span class="ghost" style="--o: 0.6; animation-delay: calc(var(--pace) * 5.86s)"></span><span class="ghost" style="--o: 0.42; animation-delay: calc(var(--pace) * 5.89s)"></span><span class="ghost" style="--o: 0.26; animation-delay: calc(var(--pace) * 5.92s)"></span>
       <div class="ball-kick"><div class="ball-hop"><svg class="ball-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
 <defs>
 <radialGradient id="gb-gold" cx="34%" cy="28%" r="82%"><stop offset="0" stop-color="#fff8d6"/><stop offset=".28" stop-color="#ffdf6e"/><stop offset=".62" stop-color="#f0b429"/><stop offset=".86" stop-color="#b87910"/><stop offset="1" stop-color="#7a4b06"/></radialGradient>
@@ -944,25 +946,28 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
     try { sessionStorage.setItem("gp-intro", "1"); } catch (e) { /* storage unavailable */ }
     var calm = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (calm || document.documentElement.classList.contains("no-splash")) { splash.parentNode.removeChild(splash); return; }
+    var pace = parseFloat(getComputedStyle(splash).getPropertyValue("--pace")) || 1;
     var finished = false, stopRain = null;
     function done() {
       if (finished) return;
       finished = true;
       if (stopRain) stopRain();
       splash.classList.add("is-leaving");
-      setTimeout(function () { if (splash.parentNode) splash.parentNode.removeChild(splash); }, 450);
+      setTimeout(function () { if (splash.parentNode) splash.parentNode.removeChild(splash); }, 450 * pace);
     }
     splash.addEventListener("click", done);
     document.addEventListener("keydown", function (event) { if (event.key === "Escape") done(); });
     splash.addEventListener("animationstart", function (event) {
       if (event.animationName !== "stage-out") return;
-      setTimeout(function () { if (!finished) stopRain = digitRain(splash, 2000, done); }, 200);
+      setTimeout(function () { if (!finished) stopRain = digitRain(splash, 2000 * pace, done, pace); }, 200 * pace);
     });
-    setTimeout(done, 11000); // animations blocked or interrupted
+    setTimeout(done, 11000 * pace); // animations blocked or interrupted
   }
 
   // Green digits streaming up the screen for `ms` milliseconds, then `then()`. Returns a stop function.
-  function digitRain(host, ms, then) {
+  // `pace` above 1 makes the digits climb (and their trails fade) more slowly.
+  function digitRain(host, ms, then, pace) {
+    pace = pace || 1;
     var canvas = document.createElement("canvas"), ctx = canvas.getContext && canvas.getContext("2d");
     if (!ctx) { then(); return function () {}; }
     canvas.className = "splash-rain";
@@ -982,11 +987,11 @@ footer p { margin: 0 0 8px; max-width: 68ch; }
       var dt = Math.min(now - last, 64);
       last = now;
       ctx.shadowBlur = 0;
-      ctx.fillStyle = "rgba(0, 6, 2, " + (1 - Math.pow(0.88, dt / 16)).toFixed(3) + ")"; // fade the trails
+      ctx.fillStyle = "rgba(0, 6, 2, " + (1 - Math.pow(0.88, dt / (16 * pace))).toFixed(3) + ")"; // fade the trails
       ctx.fillRect(0, 0, w, h);
       for (var c = 0; c < cols; c++) {
         if (now < due[c]) continue;
-        due[c] = now + 18 + Math.random() * 30; // each column climbs one digit every ~20-50 ms
+        due[c] = now + (18 + Math.random() * 30) * pace; // one digit up every ~20-50 ms (times pace)
         var x = c * cell + cell / 2;
         ctx.shadowBlur = 0;
         ctx.fillStyle = Math.random() < 0.15 ? "#7dffb0" : "#00e25b";
