@@ -1,7 +1,7 @@
 {
  "date": "2026-09-27",
  "created_at": "2026-09-25T21:17:32+00:00",
- "updated_at": "2026-09-26T23:53:38+00:00",
+ "updated_at": "2026-09-27T10:35:39+00:00",
  "fixtures": [
   {
    "id": "USA|2026-09-27|Austin FC|San Diego FC",
@@ -2137,5 +2137,25 @@
    }
   ]
  },
- "notified": []
+ "notified": [
+  "btts_over25|MEX|2026-09-27|UNAM Pumas|Atl. San Luis",
+  "btts_over25|SP2|2026-09-27|Mallorca|Almeria",
+  "btts_over25|SP2|2026-09-27|Valladolid|Cordoba",
+  "btts_over25|USA|2026-09-28|Columbus Crew|Inter Miami",
+  "btts|MEX|2026-09-27|UNAM Pumas|Atl. San Luis",
+  "btts|SP2|2026-09-27|Eibar|Las Palmas",
+  "btts|SP2|2026-09-27|Mallorca|Almeria",
+  "btts|SP2|2026-09-27|Valladolid|Cordoba",
+  "btts|USA|2026-09-28|Columbus Crew|Inter Miami",
+  "double_chance|MEX|2026-09-27|UNAM Pumas|Atl. San Luis",
+  "double_chance|SP2|2026-09-27|Burgos|Eldense",
+  "double_chance|SP2|2026-09-27|Eibar|Las Palmas",
+  "double_chance|SP2|2026-09-27|Mallorca|Almeria",
+  "double_chance|SP2|2026-09-27|Oviedo|Sp Gijon",
+  "double_chance|USA|2026-09-28|Columbus Crew|Inter Miami",
+  "over25|MEX|2026-09-27|UNAM Pumas|Atl. San Luis",
+  "over25|SP2|2026-09-27|Mallorca|Almeria",
+  "over25|SP2|2026-09-27|Valladolid|Cordoba",
+  "over25|USA|2026-09-28|Columbus Crew|Inter Miami"
+ ]
 }
