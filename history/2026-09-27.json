@@ -768,7 +768,10 @@
     90
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    3,
+    1
+   ],
    "predicted_at": "2026-09-25T21:17:32+00:00"
   },
   {
@@ -834,7 +837,10 @@
    "flags": [
     "Mallorca relegated"
    ],
-   "result": null,
+   "result": [
+    0,
+    1
+   ],
    "predicted_at": "2026-09-25T21:17:32+00:00"
   },
   {
@@ -898,7 +904,10 @@
     83
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    1,
+    0
+   ],
    "predicted_at": "2026-09-25T21:17:32+00:00"
   },
   {
@@ -962,7 +971,10 @@
     48
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    3,
+    2
+   ],
    "predicted_at": "2026-09-25T21:17:32+00:00"
   },
   {
@@ -1090,7 +1102,10 @@
     125
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    2,
+    0
+   ],
    "predicted_at": "2026-09-25T21:17:32+00:00"
   },
   {
@@ -1344,8 +1359,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ]
    },
    {
     "market": "btts_over25",
@@ -1361,8 +1379,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ]
    },
    {
     "market": "btts_over25",
@@ -1618,8 +1639,11 @@
     "market_odds": 1.81,
     "edge": -0.0762,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ]
    },
    {
     "market": "over25",
@@ -1635,8 +1659,11 @@
     "market_odds": 1.85,
     "edge": -0.068,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ]
    }
   ],
   "btts": [
@@ -1824,8 +1851,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ]
    },
    {
     "market": "btts",
@@ -1841,8 +1871,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ]
    },
    {
     "market": "btts",
@@ -1875,8 +1908,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     2
+    ]
    }
   ],
   "double_chance": [
@@ -1996,8 +2032,11 @@
     "market_odds": 1.2,
     "edge": -0.0815,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     0
+    ]
    },
    {
     "market": "double_chance",
@@ -2013,8 +2052,11 @@
     "market_odds": 1.21,
     "edge": -0.087,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     0
+    ]
    },
    {
     "market": "double_chance",
@@ -2081,8 +2123,11 @@
     "market_odds": 1.21,
     "edge": -0.0916,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     2
+    ]
    },
    {
     "market": "double_chance",
@@ -2098,8 +2143,11 @@
     "market_odds": 1.27,
     "edge": -0.0493,
     "published_at": "2026-09-25T21:35:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     1
+    ]
    },
    {
     "market": "double_chance",
