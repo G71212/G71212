@@ -1,13 +1,282 @@
 {
  "date": "2026-09-30",
  "created_at": "2026-09-28T11:45:10+00:00",
- "updated_at": "2026-09-29T01:15:33+00:00",
- "fixtures": [],
+ "updated_at": "2026-09-29T11:24:07+00:00",
+ "fixtures": [
+  {
+   "id": "EC|2026-09-30|Eastleigh|Southend",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-09-30",
+   "kickoff": "2026-09-30T18:45:00+00:00",
+   "home": "Eastleigh",
+   "away": "Southend",
+   "expected_goals": [
+    1.16,
+    1.86
+   ],
+   "model_expected_goals": [
+    1.24,
+    1.65
+   ],
+   "rho": 0.0135,
+   "probabilities": {
+    "home": 0.2385,
+    "draw": 0.2236,
+    "away": 0.5379,
+    "over25": 0.5825,
+    "under25": 0.4175,
+    "btts": 0.5796,
+    "btts_over25": 0.4758,
+    "dc_1x": 0.4621,
+    "dc_x2": 0.7615,
+    "dc_12": 0.7764
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1038
+    ],
+    [
+     "1-2",
+     0.0979
+    ],
+    [
+     "0-1",
+     0.0917
+    ]
+   ],
+   "market": {
+    "home": 0.2244,
+    "draw": 0.231,
+    "away": 0.5446,
+    "over25": 0.5888
+   },
+   "odds": {
+    "home": 3.85,
+    "draw": 3.75,
+    "away": 1.73,
+    "over25": 1.6,
+    "under25": 2.2
+   },
+   "team_matches": [
+    135,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-29T11:24:07+00:00"
+  },
+  {
+   "id": "EC|2026-09-30|Tamworth|Sutton",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-09-30",
+   "kickoff": "2026-09-30T18:45:00+00:00",
+   "home": "Tamworth",
+   "away": "Sutton",
+   "expected_goals": [
+    1.62,
+    1.41
+   ],
+   "model_expected_goals": [
+    1.69,
+    1.38
+   ],
+   "rho": 0.0135,
+   "probabilities": {
+    "home": 0.4258,
+    "draw": 0.2375,
+    "away": 0.3368,
+    "over25": 0.5828,
+    "under25": 0.4172,
+    "btts": 0.6044,
+    "btts_over25": 0.4954,
+    "dc_1x": 0.6632,
+    "dc_x2": 0.5742,
+    "dc_12": 0.7625
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.109
+    ],
+    [
+     "2-1",
+     0.0892
+    ],
+    [
+     "1-0",
+     0.0798
+    ]
+   ],
+   "market": {
+    "home": 0.4138,
+    "draw": 0.2536,
+    "away": 0.3326,
+    "over25": 0.5814
+   },
+   "odds": {
+    "home": 2.23,
+    "draw": 3.48,
+    "away": 2.72,
+    "over25": 1.62,
+    "under25": 2.17
+   },
+   "team_matches": [
+    102,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-09-29T11:24:07+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-09-30|Tamworth|Sutton",
+    "league": "EC",
+    "kickoff": "2026-09-30T18:45:00+00:00",
+    "home": "Tamworth",
+    "away": "Sutton",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4954,
+    "fair_odds": 2.02,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-29T11:24:07+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-09-30|Eastleigh|Southend",
+    "league": "EC",
+    "kickoff": "2026-09-30T18:45:00+00:00",
+    "home": "Eastleigh",
+    "away": "Southend",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4758,
+    "fair_odds": 2.1,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-29T11:24:07+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "EC|2026-09-30|Tamworth|Sutton",
+    "league": "EC",
+    "kickoff": "2026-09-30T18:45:00+00:00",
+    "home": "Tamworth",
+    "away": "Sutton",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5828,
+    "fair_odds": 1.72,
+    "market_odds": 1.62,
+    "edge": -0.0558,
+    "published_at": "2026-09-29T11:24:07+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-09-30|Eastleigh|Southend",
+    "league": "EC",
+    "kickoff": "2026-09-30T18:45:00+00:00",
+    "home": "Eastleigh",
+    "away": "Southend",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5825,
+    "fair_odds": 1.72,
+    "market_odds": 1.6,
+    "edge": -0.068,
+    "published_at": "2026-09-29T11:24:07+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "EC|2026-09-30|Tamworth|Sutton",
+    "league": "EC",
+    "kickoff": "2026-09-30T18:45:00+00:00",
+    "home": "Tamworth",
+    "away": "Sutton",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6044,
+    "fair_odds": 1.65,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-29T11:24:07+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-09-30|Eastleigh|Southend",
+    "league": "EC",
+    "kickoff": "2026-09-30T18:45:00+00:00",
+    "home": "Eastleigh",
+    "away": "Southend",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5796,
+    "fair_odds": 1.73,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-09-29T11:24:07+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-09-30|Eastleigh|Southend",
+    "league": "EC",
+    "kickoff": "2026-09-30T18:45:00+00:00",
+    "home": "Eastleigh",
+    "away": "Southend",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7764,
+    "fair_odds": 1.29,
+    "market_odds": 1.19,
+    "edge": -0.0733,
+    "published_at": "2026-09-29T11:24:07+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-09-30|Tamworth|Sutton",
+    "league": "EC",
+    "kickoff": "2026-09-30T18:45:00+00:00",
+    "home": "Tamworth",
+    "away": "Sutton",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7625,
+    "fair_odds": 1.31,
+    "market_odds": 1.23,
+    "edge": -0.0656,
+    "published_at": "2026-09-29T11:24:07+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }

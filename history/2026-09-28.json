@@ -198,7 +198,10 @@
     90
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    0,
+    2
+   ],
    "predicted_at": "2026-09-26T00:08:48+00:00"
   }
  ],
@@ -258,8 +261,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-26T00:08:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     2
+    ]
    }
   ],
   "over25": [
@@ -359,8 +365,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-26T00:08:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     2
+    ]
    }
   ],
   "double_chance": [
@@ -418,8 +427,11 @@
     "market_odds": 1.27,
     "edge": -0.061,
     "published_at": "2026-09-26T00:08:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     2
+    ]
    }
   ]
  },
