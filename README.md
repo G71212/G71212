@@ -1,48 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-09-29 21:24 UTC · kick-off times in UTC_
+_Generated 2026-09-30 00:45 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Monday 28 September 2026
-
-3 matches analysed across 2 leagues.
-
-**Results:** ✅ 9 won · ❌ 2 lost
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 01:00 | Mexico · Liga MX | Club Leon vs Juarez | BTTS & Over 2.5 | 44% ☆ | 2.26 | - | ✅ 2-1 |
-| 03:10 | Mexico · Liga MX | Necaxa vs Club America | BTTS & Over 2.5 | 43% ☆ | 2.31 | - | ✅ 2-4 |
-| 18:30 | Spain · Segunda División | Leganes vs Castellon | BTTS & Over 2.5 | 42% ☆ | 2.39 | - | ❌ 0-2 |
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 01:00 | Mexico · Liga MX | Club Leon vs Juarez | Over 2.5 | 57% ☆ | 1.75 | - | ✅ 2-1 |
-| 03:10 | Mexico · Liga MX | Necaxa vs Club America | Over 2.5 | 53% ☆ | 1.89 | - | ✅ 2-4 |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 03:10 | Mexico · Liga MX | Necaxa vs Club America | BTTS Yes | 55% ☆ | 1.80 | - | ✅ 2-4 |
-| 01:00 | Mexico · Liga MX | Club Leon vs Juarez | BTTS Yes | 55% ☆ | 1.82 | - | ✅ 2-1 |
-| 18:30 | Spain · Segunda División | Leganes vs Castellon | BTTS Yes | 54% ☆ | 1.85 | - | ❌ 0-2 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 01:00 | Mexico · Liga MX | Club Leon vs Juarez | 1X | 82% ★ | 1.21 | 1.12 | ✅ 2-1 |
-| 03:10 | Mexico · Liga MX | Necaxa vs Club America | X2 | 75% ☆ | 1.33 | 1.22 | ✅ 2-4 |
-| 18:30 | Spain · Segunda División | Leganes vs Castellon | 12 | 74% ☆ | 1.35 | 1.27 | ✅ 0-2 |
-
 
 ## Tuesday 29 September 2026
 
@@ -143,6 +105,11 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 
 ## Thursday 01 October 2026
+
+_No upcoming matches in the published fixtures for this day._
+
+
+## Friday 02 October 2026
 
 _No upcoming matches in the published fixtures for this day._
 
