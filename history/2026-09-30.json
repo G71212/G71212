@@ -64,7 +64,10 @@
     135
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    1,
+    1
+   ],
    "predicted_at": "2026-09-29T11:24:07+00:00"
   },
   {
@@ -128,7 +131,10 @@
     102
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    2,
+    0
+   ],
    "predicted_at": "2026-09-29T11:24:07+00:00"
   }
  ],
@@ -148,8 +154,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-29T11:24:07+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ]
    },
    {
     "market": "btts_over25",
@@ -165,8 +174,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-29T11:24:07+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ]
    }
   ],
   "over25": [
@@ -184,8 +196,11 @@
     "market_odds": 1.62,
     "edge": -0.0558,
     "published_at": "2026-09-29T11:24:07+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ]
    },
    {
     "market": "over25",
@@ -201,8 +216,11 @@
     "market_odds": 1.6,
     "edge": -0.068,
     "published_at": "2026-09-29T11:24:07+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ]
    }
   ],
   "btts": [
@@ -220,8 +238,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-29T11:24:07+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ]
    },
    {
     "market": "btts",
@@ -237,8 +258,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-09-29T11:24:07+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ]
    }
   ],
   "double_chance": [
@@ -256,8 +280,11 @@
     "market_odds": 1.19,
     "edge": -0.0733,
     "published_at": "2026-09-29T11:24:07+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ]
    },
    {
     "market": "double_chance",
@@ -273,8 +300,11 @@
     "market_odds": 1.23,
     "edge": -0.0656,
     "published_at": "2026-09-29T11:24:07+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     0
+    ]
    }
   ]
  },
