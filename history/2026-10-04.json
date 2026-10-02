@@ -1,13 +1,841 @@
 {
  "date": "2026-10-04",
  "created_at": "2026-10-02T01:04:56+00:00",
- "updated_at": "2026-10-02T01:04:56+00:00",
- "fixtures": [],
+ "updated_at": "2026-10-02T11:08:59+00:00",
+ "fixtures": [
+  {
+   "id": "SP2|2026-10-04|Sociedad B|Granada",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-10-04",
+   "kickoff": "2026-10-04T12:00:00+00:00",
+   "home": "Sociedad B",
+   "away": "Granada",
+   "expected_goals": [
+    1.35,
+    1.27
+   ],
+   "model_expected_goals": [
+    1.41,
+    1.2
+   ],
+   "rho": -0.0027,
+   "probabilities": {
+    "home": 0.3872,
+    "draw": 0.2636,
+    "away": 0.3492,
+    "over25": 0.4846,
+    "under25": 0.5154,
+    "btts": 0.5315,
+    "btts_over25": 0.4061,
+    "dc_1x": 0.6508,
+    "dc_x2": 0.6128,
+    "dc_12": 0.7364
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1254
+    ],
+    [
+     "1-0",
+     0.0985
+    ],
+    [
+     "0-1",
+     0.0925
+    ]
+   ],
+   "market": {
+    "home": 0.3747,
+    "draw": 0.2784,
+    "away": 0.3469,
+    "over25": 0.485
+   },
+   "odds": {
+    "home": 2.46,
+    "draw": 3.23,
+    "away": 2.64,
+    "over25": 1.91,
+    "under25": 1.81
+   },
+   "team_matches": [
+    49,
+    91
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "SP2|2026-10-04|Sp Gijon|Celta B",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-10-04",
+   "kickoff": "2026-10-04T14:15:00+00:00",
+   "home": "Sp Gijon",
+   "away": "Celta B",
+   "expected_goals": [
+    1.94,
+    0.88
+   ],
+   "model_expected_goals": [
+    1.71,
+    0.92
+   ],
+   "rho": -0.0027,
+   "probabilities": {
+    "home": 0.621,
+    "draw": 0.215,
+    "away": 0.164,
+    "over25": 0.5339,
+    "under25": 0.4661,
+    "btts": 0.5005,
+    "btts_over25": 0.3983,
+    "dc_1x": 0.836,
+    "dc_x2": 0.379,
+    "dc_12": 0.785
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1158
+    ],
+    [
+     "2-0",
+     0.1123
+    ],
+    [
+     "1-1",
+     0.1022
+    ]
+   ],
+   "market": {
+    "home": 0.6289,
+    "draw": 0.2166,
+    "away": 0.1545,
+    "over25": 0.5424
+   },
+   "odds": {
+    "home": 1.52,
+    "draw": 3.98,
+    "away": 5.4,
+    "over25": 1.72,
+    "under25": 2.0
+   },
+   "team_matches": [
+    124,
+    7
+   ],
+   "flags": [
+    "Celta B new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "SP2|2026-10-04|Castellon|Ceuta",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-10-04",
+   "kickoff": "2026-10-04T16:30:00+00:00",
+   "home": "Castellon",
+   "away": "Ceuta",
+   "expected_goals": [
+    2.69,
+    0.87
+   ],
+   "model_expected_goals": [
+    2.02,
+    1.02
+   ],
+   "rho": -0.0027,
+   "probabilities": {
+    "home": 0.7587,
+    "draw": 0.1458,
+    "away": 0.0956,
+    "over25": 0.6899,
+    "under25": 0.3101,
+    "btts": 0.5408,
+    "btts_over25": 0.4742,
+    "dc_1x": 0.9044,
+    "dc_x2": 0.2413,
+    "dc_12": 0.8542
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1031
+    ],
+    [
+     "3-0",
+     0.0925
+    ],
+    [
+     "2-1",
+     0.0895
+    ]
+   ],
+   "market": {
+    "home": 0.783,
+    "draw": 0.1334,
+    "away": 0.0835,
+    "over25": 0.7101
+   },
+   "odds": {
+    "home": 1.24,
+    "draw": 5.88,
+    "away": 8.88,
+    "over25": 1.35,
+    "under25": 2.96
+   },
+   "team_matches": [
+    91,
+    49
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "SP2|2026-10-04|Las Palmas|Valladolid",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-10-04",
+   "kickoff": "2026-10-04T16:30:00+00:00",
+   "home": "Las Palmas",
+   "away": "Valladolid",
+   "expected_goals": [
+    1.43,
+    1.07
+   ],
+   "model_expected_goals": [
+    1.46,
+    0.92
+   ],
+   "rho": -0.0027,
+   "probabilities": {
+    "home": 0.4537,
+    "draw": 0.2652,
+    "away": 0.2811,
+    "over25": 0.4565,
+    "under25": 0.5435,
+    "btts": 0.5001,
+    "btts_over25": 0.3743,
+    "dc_1x": 0.7189,
+    "dc_x2": 0.5463,
+    "dc_12": 0.7348
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1258
+    ],
+    [
+     "1-0",
+     0.1171
+    ],
+    [
+     "2-1",
+     0.0899
+    ]
+   ],
+   "market": {
+    "home": 0.4373,
+    "draw": 0.2823,
+    "away": 0.2804,
+    "over25": 0.4625
+   },
+   "odds": {
+    "home": 2.14,
+    "draw": 3.2,
+    "away": 3.22,
+    "over25": 1.99,
+    "under25": 1.74
+   },
+   "team_matches": [
+    49,
+    82
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "ARG|2026-10-04|Huracan|Aldosivi",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-04",
+   "kickoff": "2026-10-04T17:45:00+00:00",
+   "home": "Huracan",
+   "away": "Aldosivi",
+   "expected_goals": [
+    1.39,
+    0.6
+   ],
+   "model_expected_goals": [
+    1.31,
+    0.68
+   ],
+   "rho": -0.091,
+   "probabilities": {
+    "home": 0.5528,
+    "draw": 0.2971,
+    "away": 0.1501,
+    "over25": 0.3216,
+    "under25": 0.6784,
+    "btts": 0.3499,
+    "btts_over25": 0.2255,
+    "dc_1x": 0.8499,
+    "dc_x2": 0.4472,
+    "dc_12": 0.7029
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1793
+    ],
+    [
+     "0-0",
+     0.1466
+    ],
+    [
+     "2-0",
+     0.1321
+    ]
+   ],
+   "market": {
+    "home": 0.5736,
+    "draw": 0.2688,
+    "away": 0.1576,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.67,
+    "draw": 3.36,
+    "away": 5.5,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    113,
+    58
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "SP2|2026-10-04|Girona|Mallorca",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-10-04",
+   "kickoff": "2026-10-04T19:00:00+00:00",
+   "home": "Girona",
+   "away": "Mallorca",
+   "expected_goals": [
+    1.5,
+    1.2
+   ],
+   "model_expected_goals": [
+    1.37,
+    1.1
+   ],
+   "rho": -0.0027,
+   "probabilities": {
+    "home": 0.4398,
+    "draw": 0.2554,
+    "away": 0.3049,
+    "over25": 0.5073,
+    "under25": 0.4927,
+    "btts": 0.5442,
+    "btts_over25": 0.423,
+    "dc_1x": 0.6951,
+    "dc_x2": 0.5602,
+    "dc_12": 0.7446
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1212
+    ],
+    [
+     "1-0",
+     0.1
+    ],
+    [
+     "2-1",
+     0.0906
+    ]
+   ],
+   "market": {
+    "home": 0.4337,
+    "draw": 0.2681,
+    "away": 0.2982,
+    "over25": 0.518
+   },
+   "odds": {
+    "home": 2.15,
+    "draw": 3.34,
+    "away": 3.03,
+    "over25": 1.8,
+    "under25": 1.92
+   },
+   "team_matches": [
+    7,
+    7
+   ],
+   "flags": [
+    "Girona relegated",
+    "Mallorca relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "ARG|2026-10-04|Talleres Cordoba|Belgrano",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-04",
+   "kickoff": "2026-10-04T20:00:00+00:00",
+   "home": "Talleres Cordoba",
+   "away": "Belgrano",
+   "expected_goals": [
+    1.05,
+    0.95
+   ],
+   "model_expected_goals": [
+    1.06,
+    0.94
+   ],
+   "rho": -0.091,
+   "probabilities": {
+    "home": 0.3592,
+    "draw": 0.3333,
+    "away": 0.3075,
+    "over25": 0.3212,
+    "under25": 0.6788,
+    "btts": 0.4092,
+    "btts_over25": 0.2619,
+    "dc_1x": 0.6925,
+    "dc_x2": 0.6408,
+    "dc_12": 0.6667
+   },
+   "top_scores": [
+    [
+     "0-0",
+     0.1487
+    ],
+    [
+     "1-1",
+     0.1473
+    ],
+    [
+     "1-0",
+     0.1303
+    ]
+   ],
+   "market": {
+    "home": 0.3716,
+    "draw": 0.3067,
+    "away": 0.3217,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.51,
+    "draw": 3.0,
+    "away": 2.87,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    108,
+    111
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "ARG|2026-10-04|Argentinos Jrs|Tigre",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-04",
+   "kickoff": "2026-10-04T22:15:00+00:00",
+   "home": "Argentinos Jrs",
+   "away": "Tigre",
+   "expected_goals": [
+    1.27,
+    0.65
+   ],
+   "model_expected_goals": [
+    1.18,
+    0.74
+   ],
+   "rho": -0.091,
+   "probabilities": {
+    "home": 0.5011,
+    "draw": 0.3177,
+    "away": 0.1812,
+    "over25": 0.3015,
+    "under25": 0.6985,
+    "btts": 0.3556,
+    "btts_over25": 0.2231,
+    "dc_1x": 0.8188,
+    "dc_x2": 0.4989,
+    "dc_12": 0.6823
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1746
+    ],
+    [
+     "0-0",
+     0.1577
+    ],
+    [
+     "1-1",
+     0.1324
+    ]
+   ],
+   "market": {
+    "home": 0.526,
+    "draw": 0.2829,
+    "away": 0.1911,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.81,
+    "draw": 3.21,
+    "away": 4.61,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    115,
+    109
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "SP2|2026-10-04|Castellon|Ceuta",
+    "league": "SP2",
+    "kickoff": "2026-10-04T16:30:00+00:00",
+    "home": "Castellon",
+    "away": "Ceuta",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4742,
+    "fair_odds": 2.11,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SP2|2026-10-04|Girona|Mallorca",
+    "league": "SP2",
+    "kickoff": "2026-10-04T19:00:00+00:00",
+    "home": "Girona",
+    "away": "Mallorca",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.423,
+    "fair_odds": 2.36,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SP2|2026-10-04|Sociedad B|Granada",
+    "league": "SP2",
+    "kickoff": "2026-10-04T12:00:00+00:00",
+    "home": "Sociedad B",
+    "away": "Granada",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4061,
+    "fair_odds": 2.46,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "SP2|2026-10-04|Castellon|Ceuta",
+    "league": "SP2",
+    "kickoff": "2026-10-04T16:30:00+00:00",
+    "home": "Castellon",
+    "away": "Ceuta",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6899,
+    "fair_odds": 1.45,
+    "market_odds": 1.35,
+    "edge": -0.0687,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SP2|2026-10-04|Sp Gijon|Celta B",
+    "league": "SP2",
+    "kickoff": "2026-10-04T14:15:00+00:00",
+    "home": "Sp Gijon",
+    "away": "Celta B",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5339,
+    "fair_odds": 1.87,
+    "market_odds": 1.72,
+    "edge": -0.0818,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SP2|2026-10-04|Girona|Mallorca",
+    "league": "SP2",
+    "kickoff": "2026-10-04T19:00:00+00:00",
+    "home": "Girona",
+    "away": "Mallorca",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5073,
+    "fair_odds": 1.97,
+    "market_odds": 1.8,
+    "edge": -0.0868,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-10-04|Girona|Mallorca",
+    "league": "SP2",
+    "kickoff": "2026-10-04T19:00:00+00:00",
+    "home": "Girona",
+    "away": "Mallorca",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5442,
+    "fair_odds": 1.84,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-10-04|Castellon|Ceuta",
+    "league": "SP2",
+    "kickoff": "2026-10-04T16:30:00+00:00",
+    "home": "Castellon",
+    "away": "Ceuta",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5408,
+    "fair_odds": 1.85,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-10-04|Sociedad B|Granada",
+    "league": "SP2",
+    "kickoff": "2026-10-04T12:00:00+00:00",
+    "home": "Sociedad B",
+    "away": "Granada",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5315,
+    "fair_odds": 1.88,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-10-04|Sp Gijon|Celta B",
+    "league": "SP2",
+    "kickoff": "2026-10-04T14:15:00+00:00",
+    "home": "Sp Gijon",
+    "away": "Celta B",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5005,
+    "fair_odds": 2.0,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-10-04|Las Palmas|Valladolid",
+    "league": "SP2",
+    "kickoff": "2026-10-04T16:30:00+00:00",
+    "home": "Las Palmas",
+    "away": "Valladolid",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5001,
+    "fair_odds": 2.0,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-10-04|Castellon|Ceuta",
+    "league": "SP2",
+    "kickoff": "2026-10-04T16:30:00+00:00",
+    "home": "Castellon",
+    "away": "Ceuta",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9044,
+    "fair_odds": 1.11,
+    "market_odds": 1.02,
+    "edge": -0.0738,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-04|Huracan|Aldosivi",
+    "league": "ARG",
+    "kickoff": "2026-10-04T17:45:00+00:00",
+    "home": "Huracan",
+    "away": "Aldosivi",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8499,
+    "fair_odds": 1.18,
+    "market_odds": 1.12,
+    "edge": -0.0519,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-10-04|Sp Gijon|Celta B",
+    "league": "SP2",
+    "kickoff": "2026-10-04T14:15:00+00:00",
+    "home": "Sp Gijon",
+    "away": "Celta B",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.836,
+    "fair_odds": 1.2,
+    "market_odds": 1.1,
+    "edge": -0.0804,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-04|Argentinos Jrs|Tigre",
+    "league": "ARG",
+    "kickoff": "2026-10-04T22:15:00+00:00",
+    "home": "Argentinos Jrs",
+    "away": "Tigre",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8188,
+    "fair_odds": 1.22,
+    "market_odds": 1.16,
+    "edge": -0.0523,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-10-04|Girona|Mallorca",
+    "league": "SP2",
+    "kickoff": "2026-10-04T19:00:00+00:00",
+    "home": "Girona",
+    "away": "Mallorca",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7446,
+    "fair_odds": 1.34,
+    "market_odds": 1.26,
+    "edge": -0.0635,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-10-04|Sociedad B|Granada",
+    "league": "SP2",
+    "kickoff": "2026-10-04T12:00:00+00:00",
+    "home": "Sociedad B",
+    "away": "Granada",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7364,
+    "fair_odds": 1.36,
+    "market_odds": 1.27,
+    "edge": -0.0623,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-10-04|Las Palmas|Valladolid",
+    "league": "SP2",
+    "kickoff": "2026-10-04T16:30:00+00:00",
+    "home": "Las Palmas",
+    "away": "Valladolid",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7348,
+    "fair_odds": 1.36,
+    "market_odds": 1.29,
+    "edge": -0.0553,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }

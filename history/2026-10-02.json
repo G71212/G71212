@@ -1,13 +1,419 @@
 {
  "date": "2026-10-02",
  "created_at": "2026-09-30T00:45:26+00:00",
- "updated_at": "2026-10-02T01:04:56+00:00",
- "fixtures": [],
+ "updated_at": "2026-10-02T11:08:59+00:00",
+ "fixtures": [
+  {
+   "id": "SP2|2026-10-02|Eldense|Oviedo",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-10-02",
+   "kickoff": "2026-10-02T18:30:00+00:00",
+   "home": "Eldense",
+   "away": "Oviedo",
+   "expected_goals": [
+    1.13,
+    1.02
+   ],
+   "model_expected_goals": [
+    1.09,
+    1.15
+   ],
+   "rho": -0.0019,
+   "probabilities": {
+    "home": 0.3819,
+    "draw": 0.295,
+    "away": 0.3231,
+    "over25": 0.3645,
+    "under25": 0.6355,
+    "btts": 0.4335,
+    "btts_over25": 0.2991,
+    "dc_1x": 0.6769,
+    "dc_x2": 0.6181,
+    "dc_12": 0.705
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1345
+    ],
+    [
+     "1-0",
+     0.1315
+    ],
+    [
+     "0-1",
+     0.1181
+    ]
+   ],
+   "market": {
+    "home": 0.3816,
+    "draw": 0.3103,
+    "away": 0.3081,
+    "over25": 0.3608
+   },
+   "odds": {
+    "home": 2.43,
+    "draw": 2.94,
+    "away": 2.96,
+    "over25": 2.48,
+    "under25": 1.49
+   },
+   "team_matches": [
+    83,
+    83
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "IRL|2026-10-02|Dundalk|Bohemians",
+   "league": "IRL",
+   "league_name": "Ireland · Premier Division",
+   "date": "2026-10-02",
+   "kickoff": "2026-10-02T18:45:00+00:00",
+   "home": "Dundalk",
+   "away": "Bohemians",
+   "expected_goals": [
+    1.2,
+    1.71
+   ],
+   "model_expected_goals": [
+    1.39,
+    1.52
+   ],
+   "rho": -0.1266,
+   "probabilities": {
+    "home": 0.2536,
+    "draw": 0.2673,
+    "away": 0.4791,
+    "over25": 0.5542,
+    "under25": 0.4458,
+    "btts": 0.5848,
+    "btts_over25": 0.4585,
+    "dc_1x": 0.5209,
+    "dc_x2": 0.7464,
+    "dc_12": 0.7327
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1263
+    ],
+    [
+     "1-2",
+     0.0956
+    ],
+    [
+     "0-2",
+     0.08
+    ]
+   ],
+   "market": {
+    "home": 0.2543,
+    "draw": 0.2376,
+    "away": 0.5081,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.47,
+    "draw": 3.69,
+    "away": 1.85,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    72,
+    107
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "ARG|2026-10-02|Independiente|Instituto",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-02",
+   "kickoff": "2026-10-02T22:15:00+00:00",
+   "home": "Independiente",
+   "away": "Instituto",
+   "expected_goals": [
+    1.16,
+    0.93
+   ],
+   "model_expected_goals": [
+    1.26,
+    0.83
+   ],
+   "rho": -0.0916,
+   "probabilities": {
+    "home": 0.3989,
+    "draw": 0.3222,
+    "away": 0.2789,
+    "over25": 0.3472,
+    "under25": 0.6528,
+    "btts": 0.4273,
+    "btts_over25": 0.2817,
+    "dc_1x": 0.7211,
+    "dc_x2": 0.6011,
+    "dc_12": 0.6778
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1456
+    ],
+    [
+     "0-0",
+     0.1361
+    ],
+    [
+     "1-0",
+     0.1316
+    ]
+   ],
+   "market": {
+    "home": 0.3947,
+    "draw": 0.3118,
+    "away": 0.2935,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.37,
+    "draw": 2.95,
+    "away": 3.12,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    110,
+    107
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  },
+  {
+   "id": "BRA|2026-10-03|Sao Paulo|Santos",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-03",
+   "kickoff": "2026-10-02T23:00:00+00:00",
+   "home": "Sao Paulo",
+   "away": "Santos",
+   "expected_goals": [
+    1.5,
+    1.03
+   ],
+   "model_expected_goals": [
+    1.49,
+    1.04
+   ],
+   "rho": -0.0331,
+   "probabilities": {
+    "home": 0.4772,
+    "draw": 0.2672,
+    "away": 0.2556,
+    "over25": 0.4646,
+    "under25": 0.5354,
+    "btts": 0.5041,
+    "btts_over25": 0.377,
+    "dc_1x": 0.7444,
+    "dc_x2": 0.5228,
+    "dc_12": 0.7328
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.127
+    ],
+    [
+     "1-0",
+     0.1153
+    ],
+    [
+     "2-1",
+     0.0924
+    ]
+   ],
+   "market": {
+    "home": 0.4732,
+    "draw": 0.2772,
+    "away": 0.2496,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.01,
+    "draw": 3.31,
+    "away": 3.65,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    116,
+    78
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-02T11:08:59+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "IRL|2026-10-02|Dundalk|Bohemians",
+    "league": "IRL",
+    "kickoff": "2026-10-02T18:45:00+00:00",
+    "home": "Dundalk",
+    "away": "Bohemians",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4585,
+    "fair_odds": 2.18,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "IRL|2026-10-02|Dundalk|Bohemians",
+    "league": "IRL",
+    "kickoff": "2026-10-02T18:45:00+00:00",
+    "home": "Dundalk",
+    "away": "Bohemians",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5542,
+    "fair_odds": 1.8,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "IRL|2026-10-02|Dundalk|Bohemians",
+    "league": "IRL",
+    "kickoff": "2026-10-02T18:45:00+00:00",
+    "home": "Dundalk",
+    "away": "Bohemians",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5848,
+    "fair_odds": 1.71,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-10-03|Sao Paulo|Santos",
+    "league": "BRA",
+    "kickoff": "2026-10-02T23:00:00+00:00",
+    "home": "Sao Paulo",
+    "away": "Santos",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5041,
+    "fair_odds": 1.98,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "IRL|2026-10-02|Dundalk|Bohemians",
+    "league": "IRL",
+    "kickoff": "2026-10-02T18:45:00+00:00",
+    "home": "Dundalk",
+    "away": "Bohemians",
+    "selection": "X2",
+    "tier": "extra",
+    "probability": 0.7464,
+    "fair_odds": 1.34,
+    "market_odds": 1.23,
+    "edge": -0.0803,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-03|Sao Paulo|Santos",
+    "league": "BRA",
+    "kickoff": "2026-10-02T23:00:00+00:00",
+    "home": "Sao Paulo",
+    "away": "Santos",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7444,
+    "fair_odds": 1.34,
+    "market_odds": 1.25,
+    "edge": -0.0691,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-02|Independiente|Instituto",
+    "league": "ARG",
+    "kickoff": "2026-10-02T22:15:00+00:00",
+    "home": "Independiente",
+    "away": "Instituto",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7211,
+    "fair_odds": 1.39,
+    "market_odds": 1.31,
+    "edge": -0.0524,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-10-02|Eldense|Oviedo",
+    "league": "SP2",
+    "kickoff": "2026-10-02T18:30:00+00:00",
+    "home": "Eldense",
+    "away": "Oviedo",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.705,
+    "fair_odds": 1.42,
+    "market_odds": 1.33,
+    "edge": -0.0592,
+    "published_at": "2026-10-02T11:08:59+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
- "notified": []
+ "notified": [
+  "btts_over25|IRL|2026-10-02|Dundalk|Bohemians",
+  "btts|BRA|2026-10-03|Sao Paulo|Santos",
+  "btts|IRL|2026-10-02|Dundalk|Bohemians",
+  "double_chance|ARG|2026-10-02|Independiente|Instituto",
+  "double_chance|BRA|2026-10-03|Sao Paulo|Santos",
+  "double_chance|IRL|2026-10-02|Dundalk|Bohemians",
+  "double_chance|SP2|2026-10-02|Eldense|Oviedo",
+  "over25|IRL|2026-10-02|Dundalk|Bohemians"
+ ]
 }
