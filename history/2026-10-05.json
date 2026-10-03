@@ -1,0 +1,478 @@
+{
+ "date": "2026-10-05",
+ "created_at": "2026-10-03T00:43:48+00:00",
+ "updated_at": "2026-10-03T00:43:48+00:00",
+ "fixtures": [
+  {
+   "id": "ARG|2026-10-05|Estudiantes Rio Cuarto|Racing Club",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-05",
+   "kickoff": "2026-10-05T00:30:00+00:00",
+   "home": "Estudiantes Rio Cuarto",
+   "away": "Racing Club",
+   "expected_goals": [
+    0.78,
+    1.29
+   ],
+   "model_expected_goals": [
+    0.78,
+    1.29
+   ],
+   "rho": -0.091,
+   "probabilities": {
+    "home": 0.2133,
+    "draw": 0.3118,
+    "away": 0.4749,
+    "over25": 0.3423,
+    "under25": 0.6577,
+    "btts": 0.4038,
+    "btts_over25": 0.2654,
+    "dc_1x": 0.5251,
+    "dc_x2": 0.7867,
+    "dc_12": 0.6882
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.1514
+    ],
+    [
+     "1-1",
+     0.1384
+    ],
+    [
+     "0-0",
+     0.1377
+    ]
+   ],
+   "market": {
+    "home": 0.2192,
+    "draw": 0.3005,
+    "away": 0.4804,
+    "over25": null
+   },
+   "odds": {
+    "home": 4.07,
+    "draw": 3.04,
+    "away": 1.97,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    26,
+    114
+   ],
+   "flags": [
+    "Estudiantes Rio Cuarto new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-03T00:43:48+00:00"
+  },
+  {
+   "id": "SP2|2026-10-05|Cordoba|Tenerife",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-10-05",
+   "kickoff": "2026-10-05T18:30:00+00:00",
+   "home": "Cordoba",
+   "away": "Tenerife",
+   "expected_goals": [
+    1.61,
+    1.08
+   ],
+   "model_expected_goals": [
+    1.48,
+    1.08
+   ],
+   "rho": -0.0036,
+   "probabilities": {
+    "home": 0.4952,
+    "draw": 0.2492,
+    "away": 0.2556,
+    "over25": 0.5045,
+    "under25": 0.4955,
+    "btts": 0.5296,
+    "btts_over25": 0.4111,
+    "dc_1x": 0.7444,
+    "dc_x2": 0.5048,
+    "dc_12": 0.7508
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1185
+    ],
+    [
+     "1-0",
+     0.1085
+    ],
+    [
+     "2-1",
+     0.095
+    ]
+   ],
+   "market": {
+    "home": 0.4922,
+    "draw": 0.2642,
+    "away": 0.2436,
+    "over25": 0.5106
+   },
+   "odds": {
+    "home": 1.91,
+    "draw": 3.37,
+    "away": 3.63,
+    "over25": 1.82,
+    "under25": 1.89
+   },
+   "team_matches": [
+    91,
+    82
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-03T00:43:48+00:00"
+  },
+  {
+   "id": "ARG|2026-10-05|Dep. Riestra|Central Cordoba",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-05",
+   "kickoff": "2026-10-05T19:45:00+00:00",
+   "home": "Dep. Riestra",
+   "away": "Central Cordoba",
+   "expected_goals": [
+    1.16,
+    0.63
+   ],
+   "model_expected_goals": [
+    1.07,
+    0.73
+   ],
+   "rho": -0.091,
+   "probabilities": {
+    "home": 0.4755,
+    "draw": 0.3351,
+    "away": 0.1894,
+    "over25": 0.2674,
+    "under25": 0.7326,
+    "btts": 0.3326,
+    "btts_over25": 0.1994,
+    "dc_1x": 0.8106,
+    "dc_x2": 0.5245,
+    "dc_12": 0.6649
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1823
+    ],
+    [
+     "0-0",
+     0.1776
+    ],
+    [
+     "1-1",
+     0.1332
+    ]
+   ],
+   "market": {
+    "home": 0.5065,
+    "draw": 0.2904,
+    "away": 0.2031,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.88,
+    "draw": 3.15,
+    "away": 4.39,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    101,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-03T00:43:48+00:00"
+  },
+  {
+   "id": "ARG|2026-10-05|Estudiantes L.P.|Gimnasia Mendoza",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-05",
+   "kickoff": "2026-10-05T22:00:00+00:00",
+   "home": "Estudiantes L.P.",
+   "away": "Gimnasia Mendoza",
+   "expected_goals": [
+    1.48,
+    0.71
+   ],
+   "model_expected_goals": [
+    1.4,
+    0.79
+   ],
+   "rho": -0.091,
+   "probabilities": {
+    "home": 0.5471,
+    "draw": 0.2856,
+    "away": 0.1673,
+    "over25": 0.3737,
+    "under25": 0.6263,
+    "btts": 0.402,
+    "btts_over25": 0.2739,
+    "dc_1x": 0.8327,
+    "dc_x2": 0.4529,
+    "dc_12": 0.7144
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1555
+    ],
+    [
+     "1-1",
+     0.1281
+    ],
+    [
+     "2-0",
+     0.123
+    ]
+   ],
+   "market": {
+    "home": 0.5657,
+    "draw": 0.2615,
+    "away": 0.1728,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.69,
+    "draw": 3.44,
+    "away": 5.04,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    114,
+    26
+   ],
+   "flags": [
+    "Gimnasia Mendoza new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-03T00:43:48+00:00"
+  },
+  {
+   "id": "ARG|2026-10-05|Velez Sarsfield|Platense",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-05",
+   "kickoff": "2026-10-05T22:00:00+00:00",
+   "home": "Velez Sarsfield",
+   "away": "Platense",
+   "expected_goals": [
+    1.26,
+    0.69
+   ],
+   "model_expected_goals": [
+    1.27,
+    0.68
+   ],
+   "rho": -0.091,
+   "probabilities": {
+    "home": 0.4916,
+    "draw": 0.3177,
+    "away": 0.1907,
+    "over25": 0.3095,
+    "under25": 0.6905,
+    "btts": 0.3671,
+    "btts_over25": 0.2325,
+    "dc_1x": 0.8093,
+    "dc_x2": 0.5084,
+    "dc_12": 0.6823
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1687
+    ],
+    [
+     "0-0",
+     0.1537
+    ],
+    [
+     "1-1",
+     0.1346
+    ]
+   ],
+   "market": {
+    "home": 0.4964,
+    "draw": 0.3078,
+    "away": 0.1958,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.91,
+    "draw": 2.97,
+    "away": 4.51,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    111,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-03T00:43:48+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "SP2|2026-10-05|Cordoba|Tenerife",
+    "league": "SP2",
+    "kickoff": "2026-10-05T18:30:00+00:00",
+    "home": "Cordoba",
+    "away": "Tenerife",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4111,
+    "fair_odds": 2.43,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-03T00:43:48+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "SP2|2026-10-05|Cordoba|Tenerife",
+    "league": "SP2",
+    "kickoff": "2026-10-05T18:30:00+00:00",
+    "home": "Cordoba",
+    "away": "Tenerife",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5045,
+    "fair_odds": 1.98,
+    "market_odds": 1.82,
+    "edge": -0.0818,
+    "published_at": "2026-10-03T00:43:48+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-10-05|Cordoba|Tenerife",
+    "league": "SP2",
+    "kickoff": "2026-10-05T18:30:00+00:00",
+    "home": "Cordoba",
+    "away": "Tenerife",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5296,
+    "fair_odds": 1.89,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-03T00:43:48+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-05|Estudiantes L.P.|Gimnasia Mendoza",
+    "league": "ARG",
+    "kickoff": "2026-10-05T22:00:00+00:00",
+    "home": "Estudiantes L.P.",
+    "away": "Gimnasia Mendoza",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8327,
+    "fair_odds": 1.2,
+    "market_odds": 1.13,
+    "edge": -0.0564,
+    "published_at": "2026-10-03T00:43:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-05|Dep. Riestra|Central Cordoba",
+    "league": "ARG",
+    "kickoff": "2026-10-05T19:45:00+00:00",
+    "home": "Dep. Riestra",
+    "away": "Central Cordoba",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8106,
+    "fair_odds": 1.23,
+    "market_odds": 1.18,
+    "edge": -0.0456,
+    "published_at": "2026-10-03T00:43:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-05|Velez Sarsfield|Platense",
+    "league": "ARG",
+    "kickoff": "2026-10-05T22:00:00+00:00",
+    "home": "Velez Sarsfield",
+    "away": "Platense",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8093,
+    "fair_odds": 1.24,
+    "market_odds": 1.16,
+    "edge": -0.0593,
+    "published_at": "2026-10-03T00:43:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-05|Estudiantes Rio Cuarto|Racing Club",
+    "league": "ARG",
+    "kickoff": "2026-10-05T00:30:00+00:00",
+    "home": "Estudiantes Rio Cuarto",
+    "away": "Racing Club",
+    "selection": "X2",
+    "tier": "extra",
+    "probability": 0.7867,
+    "fair_odds": 1.27,
+    "market_odds": 1.2,
+    "edge": -0.0596,
+    "published_at": "2026-10-03T00:43:48+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-10-05|Cordoba|Tenerife",
+    "league": "SP2",
+    "kickoff": "2026-10-05T18:30:00+00:00",
+    "home": "Cordoba",
+    "away": "Tenerife",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7508,
+    "fair_odds": 1.33,
+    "market_odds": 1.25,
+    "edge": -0.0604,
+    "published_at": "2026-10-03T00:43:48+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}

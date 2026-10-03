@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-02 21:19 UTC · kick-off times in UTC_
+_Generated 2026-10-03 00:43 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -180,15 +180,48 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 12:00 | Spain · Segunda División | Sociedad B vs Granada | 12 | 74% ☆ | 1.36 | 1.27 |  |
 | 16:30 | Spain · Segunda División | Las Palmas vs Valladolid | 12 | 73% ☆ | 1.36 | 1.29 |  |
 
+
+## Monday 05 October 2026
+
+5 matches analysed across 2 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | BTTS & Over 2.5 | 41% ☆ | 2.43 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | Over 2.5 | 50% ☆ | 1.98 | 1.82 |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | BTTS Yes | 53% ☆ | 1.89 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 22:00 | Argentina · Liga Profesional | Estudiantes L.P. vs Gimnasia Mendoza | 1X | 83% ★ | 1.20 | 1.13 |  |
+| 19:45 | Argentina · Liga Profesional | Dep. Riestra vs Central Cordoba | 1X | 81% ★ | 1.23 | 1.18 |  |
+| 22:00 | Argentina · Liga Profesional | Velez Sarsfield vs Platense | 1X | 81% ★ | 1.24 | 1.16 |  |
+| 00:30 | Argentina · Liga Profesional | Estudiantes Rio Cuarto vs Racing Club | X2 | 79% ☆ | 1.27 | 1.20 |  |
+| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | 12 | 75% ☆ | 1.33 | 1.25 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 1/2 (50%), ROI -48% | 1/2 (50%), ROI -48% | 1/2 (50%), ROI -48% |
-| BTTS & Over 2.5 | 21/42 (50%) | 21/42 (50%) | 21/42 (50%) |
-| Over 2.5 Goals | 25/43 (58%), ROI -18% | 25/43 (58%), ROI -18% | 25/43 (58%), ROI -18% |
-| Both Teams To Score | 27/43 (63%) | 27/43 (63%) | 27/43 (63%) |
-| Double Chance | 37/45 (82%), ROI -3% | 37/45 (82%), ROI -3% | 37/45 (82%), ROI -3% |
+| 🔒 Bankers | 1/1 (100%), ROI +3% | 1/2 (50%), ROI -48% | 1/2 (50%), ROI -48% |
+| BTTS & Over 2.5 | 12/28 (43%) | 21/42 (50%) | 21/42 (50%) |
+| Over 2.5 Goals | 15/29 (52%), ROI -42% | 25/43 (58%), ROI -18% | 25/43 (58%), ROI -18% |
+| Both Teams To Score | 17/29 (59%) | 27/43 (63%) | 27/43 (63%) |
+| Double Chance | 25/30 (83%), ROI -0% | 37/45 (82%), ROI -3% | 37/45 (82%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
