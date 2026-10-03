@@ -256,8 +256,12 @@
     78
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-02T11:08:59+00:00"
+   "result": [
+    1,
+    2
+   ],
+   "predicted_at": "2026-10-02T11:08:59+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -331,8 +335,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ],
+    "provisional": true
    }
   ],
   "double_chance": [
@@ -367,8 +375,12 @@
     "market_odds": 1.25,
     "edge": -0.0691,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",

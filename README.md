@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-03 00:43 UTC · kick-off times in UTC_
+_Generated 2026-10-03 10:26 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -9,6 +9,8 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 ## Friday 02 October 2026
 
 4 matches analysed across 4 leagues.
+
+**Results:** ✅ 1 won · ❌ 1 lost · 6 pending
 
 ### 🔥 BTTS & Over 2.5
 
@@ -27,14 +29,14 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 18:45 | Ireland · Premier Division | Dundalk vs Bohemians | BTTS Yes | 58% ☆ | 1.71 | - |  |
-| 23:00 | Brazil · Serie A | Sao Paulo vs Santos | BTTS Yes | 50% ☆ | 1.98 | - |  |
+| 23:00 | Brazil · Serie A | Sao Paulo vs Santos | BTTS Yes | 50% ☆ | 1.98 | - | ✅ 1-2 |
 
 ### 🛡️ Double Chance
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 18:45 | Ireland · Premier Division | Dundalk vs Bohemians | X2 | 75% ☆ | 1.34 | 1.23 |  |
-| 23:00 | Brazil · Serie A | Sao Paulo vs Santos | 1X | 74% ☆ | 1.34 | 1.25 |  |
+| 23:00 | Brazil · Serie A | Sao Paulo vs Santos | 1X | 74% ☆ | 1.34 | 1.25 | ❌ 1-2 |
 | 22:15 | Argentina · Liga Profesional | Independiente vs Instituto | 1X | 72% ☆ | 1.39 | 1.31 |  |
 | 18:30 | Spain · Segunda División | Eldense vs Oviedo | 12 | 70% ☆ | 1.42 | 1.33 |  |
 
@@ -220,8 +222,8 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 🔒 Bankers | 1/1 (100%), ROI +3% | 1/2 (50%), ROI -48% | 1/2 (50%), ROI -48% |
 | BTTS & Over 2.5 | 12/28 (43%) | 21/42 (50%) | 21/42 (50%) |
 | Over 2.5 Goals | 15/29 (52%), ROI -42% | 25/43 (58%), ROI -18% | 25/43 (58%), ROI -18% |
-| Both Teams To Score | 17/29 (59%) | 27/43 (63%) | 27/43 (63%) |
-| Double Chance | 25/30 (83%), ROI -0% | 37/45 (82%), ROI -3% | 37/45 (82%), ROI -3% |
+| Both Teams To Score | 18/30 (60%) | 28/44 (64%) | 28/44 (64%) |
+| Double Chance | 25/31 (81%), ROI -4% | 37/46 (80%), ROI -5% | 37/46 (80%), ROI -5% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
