@@ -1,0 +1,96 @@
+{
+ "date": "2026-10-06",
+ "created_at": "2026-10-04T00:02:06+00:00",
+ "updated_at": "2026-10-04T00:02:06+00:00",
+ "fixtures": [
+  {
+   "id": "ARG|2026-10-06|Banfield|Rosario Central",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-06",
+   "kickoff": "2026-10-06T00:15:00+00:00",
+   "home": "Banfield",
+   "away": "Rosario Central",
+   "expected_goals": [
+    0.8,
+    1.29
+   ],
+   "model_expected_goals": [
+    0.98,
+    1.11
+   ],
+   "rho": -0.091,
+   "probabilities": {
+    "home": 0.2206,
+    "draw": 0.3121,
+    "away": 0.4673,
+    "over25": 0.3467,
+    "under25": 0.6533,
+    "btts": 0.4103,
+    "btts_over25": 0.2709,
+    "dc_1x": 0.5327,
+    "dc_x2": 0.7794,
+    "dc_12": 0.6879
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.1479
+    ],
+    [
+     "1-1",
+     0.1394
+    ],
+    [
+     "0-0",
+     0.1357
+    ]
+   ],
+   "market": {
+    "home": 0.2221,
+    "draw": 0.2789,
+    "away": 0.4989,
+    "over25": null
+   },
+   "odds": {
+    "home": 4.01,
+    "draw": 3.25,
+    "away": 1.9,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-04T00:02:06+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [],
+  "over25": [],
+  "btts": [],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-06|Banfield|Rosario Central",
+    "league": "ARG",
+    "kickoff": "2026-10-06T00:15:00+00:00",
+    "home": "Banfield",
+    "away": "Rosario Central",
+    "selection": "X2",
+    "tier": "extra",
+    "probability": 0.7794,
+    "fair_odds": 1.28,
+    "market_odds": 1.2,
+    "edge": -0.0655,
+    "published_at": "2026-10-04T00:02:06+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}

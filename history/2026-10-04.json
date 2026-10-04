@@ -1,7 +1,7 @@
 {
  "date": "2026-10-04",
  "created_at": "2026-10-02T01:04:56+00:00",
- "updated_at": "2026-10-03T19:50:46+00:00",
+ "updated_at": "2026-10-04T00:02:06+00:00",
  "fixtures": [
   {
    "id": "SP2|2026-10-04|Sociedad B|Granada",
@@ -837,5 +837,24 @@
    }
   ]
  },
- "notified": []
+ "notified": [
+  "btts_over25|SP2|2026-10-04|Castellon|Ceuta",
+  "btts_over25|SP2|2026-10-04|Girona|Mallorca",
+  "btts_over25|SP2|2026-10-04|Sociedad B|Granada",
+  "btts|SP2|2026-10-04|Castellon|Ceuta",
+  "btts|SP2|2026-10-04|Girona|Mallorca",
+  "btts|SP2|2026-10-04|Las Palmas|Valladolid",
+  "btts|SP2|2026-10-04|Sociedad B|Granada",
+  "btts|SP2|2026-10-04|Sp Gijon|Celta B",
+  "double_chance|ARG|2026-10-04|Argentinos Jrs|Tigre",
+  "double_chance|ARG|2026-10-04|Huracan|Aldosivi",
+  "double_chance|SP2|2026-10-04|Castellon|Ceuta",
+  "double_chance|SP2|2026-10-04|Girona|Mallorca",
+  "double_chance|SP2|2026-10-04|Las Palmas|Valladolid",
+  "double_chance|SP2|2026-10-04|Sociedad B|Granada",
+  "double_chance|SP2|2026-10-04|Sp Gijon|Celta B",
+  "over25|SP2|2026-10-04|Castellon|Ceuta",
+  "over25|SP2|2026-10-04|Girona|Mallorca",
+  "over25|SP2|2026-10-04|Sp Gijon|Celta B"
+ ]
 }

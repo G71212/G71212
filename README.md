@@ -1,45 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-03 19:50 UTC · kick-off times in UTC_
+_Generated 2026-10-04 00:02 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Friday 02 October 2026
-
-4 matches analysed across 4 leagues.
-
-**Results:** ✅ 1 won · ❌ 1 lost · 6 pending
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 18:45 | Ireland · Premier Division | Dundalk vs Bohemians | BTTS & Over 2.5 | 46% ☆ | 2.18 | - |  |
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 18:45 | Ireland · Premier Division | Dundalk vs Bohemians | Over 2.5 | 55% ☆ | 1.80 | - |  |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 18:45 | Ireland · Premier Division | Dundalk vs Bohemians | BTTS Yes | 58% ☆ | 1.71 | - |  |
-| 23:00 | Brazil · Serie A | Sao Paulo vs Santos | BTTS Yes | 50% ☆ | 1.98 | - | ✅ 1-2 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 18:45 | Ireland · Premier Division | Dundalk vs Bohemians | X2 | 75% ☆ | 1.34 | 1.23 |  |
-| 23:00 | Brazil · Serie A | Sao Paulo vs Santos | 1X | 74% ☆ | 1.34 | 1.25 | ❌ 1-2 |
-| 22:15 | Argentina · Liga Profesional | Independiente vs Instituto | 1X | 72% ☆ | 1.39 | 1.31 |  |
-| 18:30 | Spain · Segunda División | Eldense vs Oviedo | 12 | 70% ☆ | 1.42 | 1.33 |  |
-
 
 ## Saturday 03 October 2026
 
@@ -215,15 +180,38 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 00:30 | Argentina · Liga Profesional | Estudiantes Rio Cuarto vs Racing Club | X2 | 79% ☆ | 1.27 | 1.20 |  |
 | 18:30 | Spain · Segunda División | Cordoba vs Tenerife | 12 | 75% ☆ | 1.33 | 1.25 |  |
 
+
+## Tuesday 06 October 2026
+
+1 matches analysed across 1 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+_No match was likely enough to pick._
+
+### ⚽ Over 2.5 Goals
+
+_No match was likely enough to pick._
+
+### 🎯 Both Teams To Score
+
+_No match was likely enough to pick._
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:15 | Argentina · Liga Profesional | Banfield vs Rosario Central | X2 | 78% ☆ | 1.28 | 1.20 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 1/1 (100%), ROI +3% | 1/2 (50%), ROI -48% | 1/2 (50%), ROI -48% |
-| BTTS & Over 2.5 | 12/28 (43%) | 21/42 (50%) | 21/42 (50%) |
-| Over 2.5 Goals | 15/29 (52%), ROI -42% | 25/43 (58%), ROI -18% | 25/43 (58%), ROI -18% |
-| Both Teams To Score | 18/30 (60%) | 28/44 (64%) | 28/44 (64%) |
-| Double Chance | 25/31 (81%), ROI -4% | 37/46 (80%), ROI -5% | 37/46 (80%), ROI -5% |
+| 🔒 Bankers | - | 1/2 (50%), ROI -48% | 1/2 (50%), ROI -48% |
+| BTTS & Over 2.5 | 5/15 (33%) | 21/42 (50%) | 21/42 (50%) |
+| Over 2.5 Goals | 6/14 (43%), ROI -48% | 25/43 (58%), ROI -18% | 25/43 (58%), ROI -18% |
+| Both Teams To Score | 10/16 (62%) | 28/44 (64%) | 28/44 (64%) |
+| Double Chance | 11/16 (69%), ROI -18% | 37/46 (80%), ROI -5% | 37/46 (80%), ROI -5% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
