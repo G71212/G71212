@@ -1,7 +1,7 @@
 {
  "date": "2026-10-05",
  "created_at": "2026-10-03T00:43:48+00:00",
- "updated_at": "2026-10-05T12:19:52+00:00",
+ "updated_at": "2026-10-05T23:10:09+00:00",
  "fixtures": [
   {
    "id": "ARG|2026-10-05|Estudiantes Rio Cuarto|Racing Club",
@@ -130,7 +130,10 @@
     82
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    3,
+    1
+   ],
    "predicted_at": "2026-10-03T00:43:48+00:00"
   },
   {
@@ -344,8 +347,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-03T00:43:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ]
    }
   ],
   "over25": [
@@ -363,8 +369,11 @@
     "market_odds": 1.82,
     "edge": -0.0818,
     "published_at": "2026-10-03T00:43:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ]
    }
   ],
   "btts": [
@@ -382,8 +391,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-03T00:43:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ]
    }
   ],
   "double_chance": [
@@ -469,8 +481,11 @@
     "market_odds": 1.25,
     "edge": -0.0604,
     "published_at": "2026-10-03T00:43:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ]
    }
   ]
  },

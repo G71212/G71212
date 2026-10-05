@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-05 12:19 UTC · kick-off times in UTC_
+_Generated 2026-10-05 23:10 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -61,23 +61,25 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 5 matches analysed across 2 leagues.
 
+**Results:** ✅ 4 won · ❌ 0 lost · 4 pending
+
 ### 🔥 BTTS & Over 2.5
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | BTTS & Over 2.5 | 41% ☆ | 2.43 | - |  |
+| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | BTTS & Over 2.5 | 41% ☆ | 2.43 | - | ✅ 3-1 |
 
 ### ⚽ Over 2.5 Goals
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | Over 2.5 | 50% ☆ | 1.98 | 1.82 |  |
+| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | Over 2.5 | 50% ☆ | 1.98 | 1.82 | ✅ 3-1 |
 
 ### 🎯 Both Teams To Score
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | BTTS Yes | 53% ☆ | 1.89 | - |  |
+| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | BTTS Yes | 53% ☆ | 1.89 | - | ✅ 3-1 |
 
 ### 🛡️ Double Chance
 
@@ -87,7 +89,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 19:45 | Argentina · Liga Profesional | Dep. Riestra vs Central Cordoba | 1X | 81% ★ | 1.23 | 1.18 |  |
 | 22:00 | Argentina · Liga Profesional | Velez Sarsfield vs Platense | 1X | 81% ★ | 1.24 | 1.16 |  |
 | 00:30 | Argentina · Liga Profesional | Estudiantes Rio Cuarto vs Racing Club | X2 | 79% ☆ | 1.27 | 1.20 |  |
-| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | 12 | 75% ☆ | 1.33 | 1.25 |  |
+| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | 12 | 75% ☆ | 1.33 | 1.25 | ✅ 3-1 |
 
 
 ## Tuesday 06 October 2026
@@ -122,10 +124,10 @@ _No upcoming matches in the published fixtures for this day._
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 4/4 (100%), ROI +3% | 5/6 (83%), ROI -14% | 5/6 (83%), ROI -14% |
-| BTTS & Over 2.5 | 11/30 (37%) | 29/60 (48%) | 29/60 (48%) |
-| Over 2.5 Goals | 15/30 (50%), ROI -22% | 36/61 (59%), ROI -13% | 36/61 (59%), ROI -13% |
-| Both Teams To Score | 20/33 (61%) | 40/64 (62%) | 40/64 (62%) |
-| Double Chance | 23/32 (72%), ROI -18% | 52/65 (80%), ROI -7% | 52/65 (80%), ROI -7% |
+| BTTS & Over 2.5 | 12/31 (39%) | 30/61 (49%) | 30/61 (49%) |
+| Over 2.5 Goals | 16/31 (52%), ROI -19% | 37/62 (60%), ROI -10% | 37/62 (60%), ROI -10% |
+| Both Teams To Score | 21/34 (62%) | 41/65 (63%) | 41/65 (63%) |
+| Double Chance | 24/33 (73%), ROI -16% | 53/66 (80%), ROI -6% | 53/66 (80%), ROI -6% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
