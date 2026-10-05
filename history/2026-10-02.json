@@ -64,7 +64,10 @@
     83
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    4,
+    1
+   ],
    "predicted_at": "2026-10-02T11:08:59+00:00"
   },
   {
@@ -413,8 +416,11 @@
     "market_odds": 1.33,
     "edge": -0.0592,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     4,
+     1
+    ]
    }
   ]
  },
