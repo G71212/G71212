@@ -1,13 +1,759 @@
 {
  "date": "2026-10-07",
  "created_at": "2026-10-05T00:09:30+00:00",
- "updated_at": "2026-10-06T01:53:14+00:00",
- "fixtures": [],
+ "updated_at": "2026-10-06T12:03:55+00:00",
+ "fixtures": [
+  {
+   "id": "USA|2026-10-07|Chicago Fire|Vancouver Whitecaps",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-07",
+   "kickoff": "2026-10-07T00:30:00+00:00",
+   "home": "Chicago Fire",
+   "away": "Vancouver Whitecaps",
+   "expected_goals": [
+    1.51,
+    1.74
+   ],
+   "model_expected_goals": [
+    1.57,
+    1.68
+   ],
+   "rho": -0.0344,
+   "probabilities": {
+    "home": 0.3325,
+    "draw": 0.2378,
+    "away": 0.4296,
+    "over25": 0.6298,
+    "under25": 0.3702,
+    "btts": 0.6453,
+    "btts_over25": 0.5398,
+    "dc_1x": 0.5704,
+    "dc_x2": 0.6675,
+    "dc_12": 0.7622
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1055
+    ],
+    [
+     "1-2",
+     0.0886
+    ],
+    [
+     "2-1",
+     0.077
+    ]
+   ],
+   "market": {
+    "home": 0.3279,
+    "draw": 0.2388,
+    "away": 0.4334,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.81,
+    "draw": 3.77,
+    "away": 2.17,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    99,
+    107
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "FIN|2026-10-07|Gnistan|Inter Turku",
+   "league": "FIN",
+   "league_name": "Finland · Veikkausliiga",
+   "date": "2026-10-07",
+   "kickoff": "2026-10-07T16:00:00+00:00",
+   "home": "Gnistan",
+   "away": "Inter Turku",
+   "expected_goals": [
+    1.05,
+    1.65
+   ],
+   "model_expected_goals": [
+    1.27,
+    1.44
+   ],
+   "rho": -0.0277,
+   "probabilities": {
+    "home": 0.2383,
+    "draw": 0.2513,
+    "away": 0.5103,
+    "over25": 0.5066,
+    "under25": 0.4934,
+    "btts": 0.5287,
+    "btts_over25": 0.4091,
+    "dc_1x": 0.4897,
+    "dc_x2": 0.7617,
+    "dc_12": 0.7487
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1196
+    ],
+    [
+     "0-1",
+     0.1076
+    ],
+    [
+     "1-2",
+     0.0961
+    ]
+   ],
+   "market": {
+    "home": 0.2256,
+    "draw": 0.2442,
+    "away": 0.5302,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.87,
+    "draw": 3.6,
+    "away": 1.78,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    86,
+    87
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "BRA|2026-10-07|Bragantino|Mirassol",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-07",
+   "kickoff": "2026-10-07T22:30:00+00:00",
+   "home": "Bragantino",
+   "away": "Mirassol",
+   "expected_goals": [
+    1.57,
+    0.95
+   ],
+   "model_expected_goals": [
+    1.41,
+    1.13
+   ],
+   "rho": -0.0285,
+   "probabilities": {
+    "home": 0.515,
+    "draw": 0.2597,
+    "away": 0.2253,
+    "over25": 0.4633,
+    "under25": 0.5367,
+    "btts": 0.4907,
+    "btts_over25": 0.3674,
+    "dc_1x": 0.7747,
+    "dc_x2": 0.485,
+    "dc_12": 0.7403
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1233
+    ],
+    [
+     "1-0",
+     0.1223
+    ],
+    [
+     "2-0",
+     0.0989
+    ]
+   ],
+   "market": {
+    "home": 0.5343,
+    "draw": 0.2474,
+    "away": 0.2183,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.79,
+    "draw": 3.66,
+    "away": 4.11,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    117,
+    66
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "BRA|2026-10-07|Internacional|Corinthians",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-07",
+   "kickoff": "2026-10-07T22:30:00+00:00",
+   "home": "Internacional",
+   "away": "Corinthians",
+   "expected_goals": [
+    1.35,
+    1.02
+   ],
+   "model_expected_goals": [
+    1.36,
+    1.01
+   ],
+   "rho": -0.0285,
+   "probabilities": {
+    "home": 0.4399,
+    "draw": 0.281,
+    "away": 0.2791,
+    "over25": 0.4231,
+    "under25": 0.5769,
+    "btts": 0.4778,
+    "btts_over25": 0.3454,
+    "dc_1x": 0.7209,
+    "dc_x2": 0.5601,
+    "dc_12": 0.719
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1323
+    ],
+    [
+     "1-0",
+     0.1224
+    ],
+    [
+     "0-0",
+     0.0969
+    ]
+   ],
+   "market": {
+    "home": 0.4378,
+    "draw": 0.2843,
+    "away": 0.2779,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.16,
+    "draw": 3.23,
+    "away": 3.3,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    117,
+    117
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "BRA|2026-10-07|Remo|Gremio",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-07",
+   "kickoff": "2026-10-07T22:30:00+00:00",
+   "home": "Remo",
+   "away": "Gremio",
+   "expected_goals": [
+    1.39,
+    1.19
+   ],
+   "model_expected_goals": [
+    1.34,
+    1.24
+   ],
+   "rho": -0.0285,
+   "probabilities": {
+    "home": 0.4121,
+    "draw": 0.2707,
+    "away": 0.3172,
+    "over25": 0.4763,
+    "under25": 0.5237,
+    "btts": 0.5258,
+    "btts_over25": 0.3969,
+    "dc_1x": 0.6828,
+    "dc_x2": 0.5879,
+    "dc_12": 0.7293
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1289
+    ],
+    [
+     "1-0",
+     0.1019
+    ],
+    [
+     "2-1",
+     0.0871
+    ]
+   ],
+   "market": {
+    "home": 0.4152,
+    "draw": 0.2736,
+    "away": 0.3112,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.27,
+    "draw": 3.35,
+    "away": 2.97,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    28,
+    117
+   ],
+   "flags": [
+    "Remo new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "BRA|2026-10-08|Vitoria|Chapecoense-SC",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-08",
+   "kickoff": "2026-10-07T23:00:00+00:00",
+   "home": "Vitoria",
+   "away": "Chapecoense-SC",
+   "expected_goals": [
+    1.76,
+    0.91
+   ],
+   "model_expected_goals": [
+    1.71,
+    0.96
+   ],
+   "rho": -0.0285,
+   "probabilities": {
+    "home": 0.5717,
+    "draw": 0.2394,
+    "away": 0.189,
+    "over25": 0.4998,
+    "under25": 0.5002,
+    "btts": 0.4983,
+    "btts_over25": 0.3844,
+    "dc_1x": 0.811,
+    "dc_x2": 0.4283,
+    "dc_12": 0.7606
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1185
+    ],
+    [
+     "1-1",
+     0.1139
+    ],
+    [
+     "2-0",
+     0.1072
+    ]
+   ],
+   "market": {
+    "home": 0.5756,
+    "draw": 0.2394,
+    "away": 0.185,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.67,
+    "draw": 3.77,
+    "away": 4.79,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    104,
+    27
+   ],
+   "flags": [
+    "Chapecoense-SC new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "BRA|2026-10-08|Botafogo RJ|Vasco",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-08",
+   "kickoff": "2026-10-07T23:30:00+00:00",
+   "home": "Botafogo RJ",
+   "away": "Vasco",
+   "expected_goals": [
+    1.48,
+    1.43
+   ],
+   "model_expected_goals": [
+    1.85,
+    1.07
+   ],
+   "rho": -0.0285,
+   "probabilities": {
+    "home": 0.3831,
+    "draw": 0.254,
+    "away": 0.3629,
+    "over25": 0.5553,
+    "under25": 0.4447,
+    "btts": 0.59,
+    "btts_over25": 0.4713,
+    "dc_1x": 0.6371,
+    "dc_x2": 0.6169,
+    "dc_12": 0.746
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1188
+    ],
+    [
+     "2-1",
+     0.0852
+    ],
+    [
+     "1-2",
+     0.0826
+    ]
+   ],
+   "market": {
+    "home": 0.3477,
+    "draw": 0.2661,
+    "away": 0.3862,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.68,
+    "draw": 3.44,
+    "away": 2.43,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    117,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-07|Chicago Fire|Vancouver Whitecaps",
+    "league": "USA",
+    "kickoff": "2026-10-07T00:30:00+00:00",
+    "home": "Chicago Fire",
+    "away": "Vancouver Whitecaps",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5398,
+    "fair_odds": 1.85,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "BRA|2026-10-08|Botafogo RJ|Vasco",
+    "league": "BRA",
+    "kickoff": "2026-10-07T23:30:00+00:00",
+    "home": "Botafogo RJ",
+    "away": "Vasco",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4713,
+    "fair_odds": 2.12,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "FIN|2026-10-07|Gnistan|Inter Turku",
+    "league": "FIN",
+    "kickoff": "2026-10-07T16:00:00+00:00",
+    "home": "Gnistan",
+    "away": "Inter Turku",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4091,
+    "fair_odds": 2.44,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-07|Chicago Fire|Vancouver Whitecaps",
+    "league": "USA",
+    "kickoff": "2026-10-07T00:30:00+00:00",
+    "home": "Chicago Fire",
+    "away": "Vancouver Whitecaps",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6298,
+    "fair_odds": 1.59,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-10-08|Botafogo RJ|Vasco",
+    "league": "BRA",
+    "kickoff": "2026-10-07T23:30:00+00:00",
+    "home": "Botafogo RJ",
+    "away": "Vasco",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5553,
+    "fair_odds": 1.8,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "FIN|2026-10-07|Gnistan|Inter Turku",
+    "league": "FIN",
+    "kickoff": "2026-10-07T16:00:00+00:00",
+    "home": "Gnistan",
+    "away": "Inter Turku",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5066,
+    "fair_odds": 1.97,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-07|Chicago Fire|Vancouver Whitecaps",
+    "league": "USA",
+    "kickoff": "2026-10-07T00:30:00+00:00",
+    "home": "Chicago Fire",
+    "away": "Vancouver Whitecaps",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6453,
+    "fair_odds": 1.55,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-10-08|Botafogo RJ|Vasco",
+    "league": "BRA",
+    "kickoff": "2026-10-07T23:30:00+00:00",
+    "home": "Botafogo RJ",
+    "away": "Vasco",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.59,
+    "fair_odds": 1.69,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "FIN|2026-10-07|Gnistan|Inter Turku",
+    "league": "FIN",
+    "kickoff": "2026-10-07T16:00:00+00:00",
+    "home": "Gnistan",
+    "away": "Inter Turku",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5287,
+    "fair_odds": 1.89,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-10-07|Remo|Gremio",
+    "league": "BRA",
+    "kickoff": "2026-10-07T22:30:00+00:00",
+    "home": "Remo",
+    "away": "Gremio",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5258,
+    "fair_odds": 1.9,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-08|Vitoria|Chapecoense-SC",
+    "league": "BRA",
+    "kickoff": "2026-10-07T23:00:00+00:00",
+    "home": "Vitoria",
+    "away": "Chapecoense-SC",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.811,
+    "fair_odds": 1.23,
+    "market_odds": 1.16,
+    "edge": -0.0613,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-07|Bragantino|Mirassol",
+    "league": "BRA",
+    "kickoff": "2026-10-07T22:30:00+00:00",
+    "home": "Bragantino",
+    "away": "Mirassol",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7747,
+    "fair_odds": 1.29,
+    "market_odds": 1.2,
+    "edge": -0.0688,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-07|Chicago Fire|Vancouver Whitecaps",
+    "league": "USA",
+    "kickoff": "2026-10-07T00:30:00+00:00",
+    "home": "Chicago Fire",
+    "away": "Vancouver Whitecaps",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7622,
+    "fair_odds": 1.31,
+    "market_odds": 1.22,
+    "edge": -0.0668,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "FIN|2026-10-07|Gnistan|Inter Turku",
+    "league": "FIN",
+    "kickoff": "2026-10-07T16:00:00+00:00",
+    "home": "Gnistan",
+    "away": "Inter Turku",
+    "selection": "X2",
+    "tier": "extra",
+    "probability": 0.7617,
+    "fair_odds": 1.31,
+    "market_odds": 1.19,
+    "edge": -0.0928,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-08|Botafogo RJ|Vasco",
+    "league": "BRA",
+    "kickoff": "2026-10-07T23:30:00+00:00",
+    "home": "Botafogo RJ",
+    "away": "Vasco",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.746,
+    "fair_odds": 1.34,
+    "market_odds": 1.27,
+    "edge": -0.0493,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-07|Remo|Gremio",
+    "league": "BRA",
+    "kickoff": "2026-10-07T22:30:00+00:00",
+    "home": "Remo",
+    "away": "Gremio",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7293,
+    "fair_odds": 1.37,
+    "market_odds": 1.29,
+    "edge": -0.0617,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-07|Internacional|Corinthians",
+    "league": "BRA",
+    "kickoff": "2026-10-07T22:30:00+00:00",
+    "home": "Internacional",
+    "away": "Corinthians",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7209,
+    "fair_odds": 1.39,
+    "market_odds": 1.29,
+    "edge": -0.0668,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }

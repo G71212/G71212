@@ -334,7 +334,10 @@
     58
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    1,
+    0
+   ],
    "predicted_at": "2026-10-02T11:08:59+00:00"
   },
   {
@@ -468,7 +471,10 @@
     111
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    0,
+    1
+   ],
    "predicted_at": "2026-10-02T11:08:59+00:00"
   },
   {
@@ -532,7 +538,10 @@
     109
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    2,
+    1
+   ],
    "predicted_at": "2026-10-02T11:08:59+00:00"
   }
  ],
@@ -798,8 +807,11 @@
     "market_odds": 1.12,
     "edge": -0.0519,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     0
+    ]
    },
    {
     "market": "double_chance",
@@ -835,8 +847,11 @@
     "market_odds": 1.16,
     "edge": -0.0523,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ]
    },
    {
     "market": "double_chance",

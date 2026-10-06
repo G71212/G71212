@@ -1,13 +1,738 @@
 {
  "date": "2026-10-08",
  "created_at": "2026-10-06T01:53:14+00:00",
- "updated_at": "2026-10-06T01:53:14+00:00",
- "fixtures": [],
+ "updated_at": "2026-10-06T12:03:55+00:00",
+ "fixtures": [
+  {
+   "id": "BRA|2026-10-08|Cruzeiro|Sao Paulo",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-08",
+   "kickoff": "2026-10-08T00:30:00+00:00",
+   "home": "Cruzeiro",
+   "away": "Sao Paulo",
+   "expected_goals": [
+    1.51,
+    0.91
+   ],
+   "model_expected_goals": [
+    1.5,
+    0.93
+   ],
+   "rho": -0.0277,
+   "probabilities": {
+    "home": 0.5093,
+    "draw": 0.2668,
+    "away": 0.2239,
+    "over25": 0.4357,
+    "under25": 0.5643,
+    "btts": 0.469,
+    "btts_over25": 0.3435,
+    "dc_1x": 0.7761,
+    "dc_x2": 0.4907,
+    "dc_12": 0.7332
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1308
+    ],
+    [
+     "1-1",
+     0.1256
+    ],
+    [
+     "2-0",
+     0.1014
+    ]
+   ],
+   "market": {
+    "home": 0.5131,
+    "draw": 0.2616,
+    "away": 0.2252,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.86,
+    "draw": 3.48,
+    "away": 4.0,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    117,
+    116
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "FIN|2026-10-08|HJK|VPS",
+   "league": "FIN",
+   "league_name": "Finland · Veikkausliiga",
+   "date": "2026-10-08",
+   "kickoff": "2026-10-08T15:00:00+00:00",
+   "home": "HJK",
+   "away": "VPS",
+   "expected_goals": [
+    1.91,
+    0.95
+   ],
+   "model_expected_goals": [
+    1.7,
+    1.16
+   ],
+   "rho": -0.0263,
+   "probabilities": {
+    "home": 0.5966,
+    "draw": 0.2243,
+    "away": 0.1791,
+    "over25": 0.5444,
+    "under25": 0.4556,
+    "btts": 0.5244,
+    "btts_over25": 0.4178,
+    "dc_1x": 0.8209,
+    "dc_x2": 0.4034,
+    "dc_12": 0.7757
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1069
+    ],
+    [
+     "1-1",
+     0.1066
+    ],
+    [
+     "2-0",
+     0.1048
+    ]
+   ],
+   "market": {
+    "home": 0.6146,
+    "draw": 0.2174,
+    "away": 0.1681,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.55,
+    "draw": 3.95,
+    "away": 4.98,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    85,
+    83
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "FIN|2026-10-08|KuPS|AC Oulu",
+   "league": "FIN",
+   "league_name": "Finland · Veikkausliiga",
+   "date": "2026-10-08",
+   "kickoff": "2026-10-08T16:00:00+00:00",
+   "home": "KuPS",
+   "away": "AC Oulu",
+   "expected_goals": [
+    1.85,
+    0.84
+   ],
+   "model_expected_goals": [
+    1.78,
+    0.91
+   ],
+   "rho": -0.0263,
+   "probabilities": {
+    "home": 0.6094,
+    "draw": 0.2279,
+    "away": 0.1627,
+    "over25": 0.5033,
+    "under25": 0.4967,
+    "btts": 0.4813,
+    "btts_over25": 0.3729,
+    "dc_1x": 0.8373,
+    "dc_x2": 0.3906,
+    "dc_12": 0.7721
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.123
+    ],
+    [
+     "2-0",
+     0.1162
+    ],
+    [
+     "1-1",
+     0.1083
+    ]
+   ],
+   "market": {
+    "home": 0.6163,
+    "draw": 0.2239,
+    "away": 0.1599,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.54,
+    "draw": 3.8,
+    "away": 5.13,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    85,
+    82
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "ROU|2026-10-08|CFR Cluj|U. Cluj",
+   "league": "ROU",
+   "league_name": "Romania · Superliga",
+   "date": "2026-10-08",
+   "kickoff": "2026-10-08T17:30:00+00:00",
+   "home": "CFR Cluj",
+   "away": "U. Cluj",
+   "expected_goals": [
+    1.43,
+    1.24
+   ],
+   "model_expected_goals": [
+    1.58,
+    1.1
+   ],
+   "rho": -0.0271,
+   "probabilities": {
+    "home": 0.4094,
+    "draw": 0.2652,
+    "away": 0.3254,
+    "over25": 0.4994,
+    "under25": 0.5006,
+    "btts": 0.5444,
+    "btts_over25": 0.4182,
+    "dc_1x": 0.6746,
+    "dc_x2": 0.5906,
+    "dc_12": 0.7348
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1261
+    ],
+    [
+     "1-0",
+     0.0953
+    ],
+    [
+     "2-1",
+     0.0876
+    ]
+   ],
+   "market": {
+    "home": 0.3965,
+    "draw": 0.2665,
+    "away": 0.337,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.32,
+    "draw": 3.33,
+    "away": 2.69,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    117,
+    119
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "IRL|2026-10-08|Shamrock Rovers|Drogheda",
+   "league": "IRL",
+   "league_name": "Ireland · Premier Division",
+   "date": "2026-10-08",
+   "kickoff": "2026-10-08T19:00:00+00:00",
+   "home": "Shamrock Rovers",
+   "away": "Drogheda",
+   "expected_goals": [
+    1.93,
+    0.67
+   ],
+   "model_expected_goals": [
+    1.69,
+    0.92
+   ],
+   "rho": -0.1263,
+   "probabilities": {
+    "home": 0.6611,
+    "draw": 0.2301,
+    "away": 0.1088,
+    "over25": 0.4831,
+    "under25": 0.5169,
+    "btts": 0.4308,
+    "btts_over25": 0.3227,
+    "dc_1x": 0.8912,
+    "dc_x2": 0.3389,
+    "dc_12": 0.7699
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.138
+    ],
+    [
+     "1-0",
+     0.1306
+    ],
+    [
+     "1-1",
+     0.1081
+    ]
+   ],
+   "market": {
+    "home": 0.6956,
+    "draw": 0.1912,
+    "away": 0.1132,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.38,
+    "draw": 4.34,
+    "away": 6.91,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "BRA|2026-10-08|Santos|Flamengo RJ",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-08",
+   "kickoff": "2026-10-08T22:30:00+00:00",
+   "home": "Santos",
+   "away": "Flamengo RJ",
+   "expected_goals": [
+    1.06,
+    1.68
+   ],
+   "model_expected_goals": [
+    1.23,
+    1.52
+   ],
+   "rho": -0.0277,
+   "probabilities": {
+    "home": 0.2364,
+    "draw": 0.2482,
+    "away": 0.5154,
+    "over25": 0.5174,
+    "under25": 0.4826,
+    "btts": 0.536,
+    "btts_over25": 0.4179,
+    "dc_1x": 0.4846,
+    "dc_x2": 0.7636,
+    "dc_12": 0.7518
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.118
+    ],
+    [
+     "0-1",
+     0.1049
+    ],
+    [
+     "1-2",
+     0.0966
+    ]
+   ],
+   "market": {
+    "home": 0.2239,
+    "draw": 0.2485,
+    "away": 0.5276,
+    "over25": null
+   },
+   "odds": {
+    "home": 4.01,
+    "draw": 3.64,
+    "away": 1.81,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    78,
+    116
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  },
+  {
+   "id": "BRA|2026-10-09|Athletico-PR|Atletico-MG",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-09",
+   "kickoff": "2026-10-08T23:00:00+00:00",
+   "home": "Athletico-PR",
+   "away": "Atletico-MG",
+   "expected_goals": [
+    1.47,
+    1.03
+   ],
+   "model_expected_goals": [
+    1.49,
+    1.01
+   ],
+   "rho": -0.0277,
+   "probabilities": {
+    "home": 0.4681,
+    "draw": 0.2695,
+    "away": 0.2624,
+    "over25": 0.4551,
+    "under25": 0.5449,
+    "btts": 0.498,
+    "btts_over25": 0.3701,
+    "dc_1x": 0.7376,
+    "dc_x2": 0.5319,
+    "dc_12": 0.7305
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1279
+    ],
+    [
+     "1-0",
+     0.1173
+    ],
+    [
+     "2-1",
+     0.0912
+    ]
+   ],
+   "market": {
+    "home": 0.4601,
+    "draw": 0.2819,
+    "away": 0.258,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.06,
+    "draw": 3.25,
+    "away": 3.53,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    78,
+    116
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-06T12:03:55+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "ROU|2026-10-08|CFR Cluj|U. Cluj",
+    "league": "ROU",
+    "kickoff": "2026-10-08T17:30:00+00:00",
+    "home": "CFR Cluj",
+    "away": "U. Cluj",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4182,
+    "fair_odds": 2.39,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "BRA|2026-10-08|Santos|Flamengo RJ",
+    "league": "BRA",
+    "kickoff": "2026-10-08T22:30:00+00:00",
+    "home": "Santos",
+    "away": "Flamengo RJ",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4179,
+    "fair_odds": 2.39,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "FIN|2026-10-08|HJK|VPS",
+    "league": "FIN",
+    "kickoff": "2026-10-08T15:00:00+00:00",
+    "home": "HJK",
+    "away": "VPS",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4178,
+    "fair_odds": 2.39,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "FIN|2026-10-08|HJK|VPS",
+    "league": "FIN",
+    "kickoff": "2026-10-08T15:00:00+00:00",
+    "home": "HJK",
+    "away": "VPS",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5444,
+    "fair_odds": 1.84,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-10-08|Santos|Flamengo RJ",
+    "league": "BRA",
+    "kickoff": "2026-10-08T22:30:00+00:00",
+    "home": "Santos",
+    "away": "Flamengo RJ",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5174,
+    "fair_odds": 1.93,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "FIN|2026-10-08|KuPS|AC Oulu",
+    "league": "FIN",
+    "kickoff": "2026-10-08T16:00:00+00:00",
+    "home": "KuPS",
+    "away": "AC Oulu",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5033,
+    "fair_odds": 1.99,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "ROU|2026-10-08|CFR Cluj|U. Cluj",
+    "league": "ROU",
+    "kickoff": "2026-10-08T17:30:00+00:00",
+    "home": "CFR Cluj",
+    "away": "U. Cluj",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5444,
+    "fair_odds": 1.84,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-10-08|Santos|Flamengo RJ",
+    "league": "BRA",
+    "kickoff": "2026-10-08T22:30:00+00:00",
+    "home": "Santos",
+    "away": "Flamengo RJ",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.536,
+    "fair_odds": 1.87,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "FIN|2026-10-08|HJK|VPS",
+    "league": "FIN",
+    "kickoff": "2026-10-08T15:00:00+00:00",
+    "home": "HJK",
+    "away": "VPS",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5244,
+    "fair_odds": 1.91,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "IRL|2026-10-08|Shamrock Rovers|Drogheda",
+    "league": "IRL",
+    "kickoff": "2026-10-08T19:00:00+00:00",
+    "home": "Shamrock Rovers",
+    "away": "Drogheda",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.8912,
+    "fair_odds": 1.12,
+    "market_odds": 1.05,
+    "edge": -0.0669,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "FIN|2026-10-08|KuPS|AC Oulu",
+    "league": "FIN",
+    "kickoff": "2026-10-08T16:00:00+00:00",
+    "home": "KuPS",
+    "away": "AC Oulu",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8373,
+    "fair_odds": 1.19,
+    "market_odds": 1.1,
+    "edge": -0.0824,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "FIN|2026-10-08|HJK|VPS",
+    "league": "FIN",
+    "kickoff": "2026-10-08T15:00:00+00:00",
+    "home": "HJK",
+    "away": "VPS",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8209,
+    "fair_odds": 1.22,
+    "market_odds": 1.11,
+    "edge": -0.0862,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-08|Cruzeiro|Sao Paulo",
+    "league": "BRA",
+    "kickoff": "2026-10-08T00:30:00+00:00",
+    "home": "Cruzeiro",
+    "away": "Sao Paulo",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7761,
+    "fair_odds": 1.29,
+    "market_odds": 1.21,
+    "edge": -0.0592,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-08|Santos|Flamengo RJ",
+    "league": "BRA",
+    "kickoff": "2026-10-08T22:30:00+00:00",
+    "home": "Santos",
+    "away": "Flamengo RJ",
+    "selection": "X2",
+    "tier": "extra",
+    "probability": 0.7636,
+    "fair_odds": 1.31,
+    "market_odds": 1.21,
+    "edge": -0.0769,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-09|Athletico-PR|Atletico-MG",
+    "league": "BRA",
+    "kickoff": "2026-10-08T23:00:00+00:00",
+    "home": "Athletico-PR",
+    "away": "Atletico-MG",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7376,
+    "fair_odds": 1.36,
+    "market_odds": 1.26,
+    "edge": -0.0701,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ROU|2026-10-08|CFR Cluj|U. Cluj",
+    "league": "ROU",
+    "kickoff": "2026-10-08T17:30:00+00:00",
+    "home": "CFR Cluj",
+    "away": "U. Cluj",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7348,
+    "fair_odds": 1.36,
+    "market_odds": 1.25,
+    "edge": -0.0847,
+    "published_at": "2026-10-06T12:03:55+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }

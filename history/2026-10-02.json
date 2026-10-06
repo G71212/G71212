@@ -131,7 +131,10 @@
     107
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    1,
+    2
+   ],
    "predicted_at": "2026-10-02T11:08:59+00:00"
   },
   {
@@ -195,7 +198,10 @@
     107
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    1,
+    4
+   ],
    "predicted_at": "2026-10-02T11:08:59+00:00"
   },
   {
@@ -263,8 +269,7 @@
     1,
     2
    ],
-   "predicted_at": "2026-10-02T11:08:59+00:00",
-   "provisional": true
+   "predicted_at": "2026-10-02T11:08:59+00:00"
   }
  ],
  "picks": {
@@ -283,8 +288,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ]
    }
   ],
   "over25": [
@@ -302,8 +310,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ]
    }
   ],
   "btts": [
@@ -321,8 +332,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ]
    },
    {
     "market": "btts",
@@ -342,8 +356,7 @@
     "result": [
      1,
      2
-    ],
-    "provisional": true
+    ]
    }
   ],
   "double_chance": [
@@ -361,8 +374,11 @@
     "market_odds": 1.23,
     "edge": -0.0803,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ]
    },
    {
     "market": "double_chance",
@@ -382,8 +398,7 @@
     "result": [
      1,
      2
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",
@@ -399,8 +414,11 @@
     "market_odds": 1.31,
     "edge": -0.0524,
     "published_at": "2026-10-02T11:08:59+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     4
+    ]
    },
    {
     "market": "double_chance",

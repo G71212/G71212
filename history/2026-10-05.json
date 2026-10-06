@@ -66,7 +66,10 @@
    "flags": [
     "Estudiantes Rio Cuarto new to league"
    ],
-   "result": null,
+   "result": [
+    1,
+    2
+   ],
    "predicted_at": "2026-10-03T00:43:48+00:00"
   },
   {
@@ -197,7 +200,10 @@
     108
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    1,
+    1
+   ],
    "predicted_at": "2026-10-03T00:43:48+00:00"
   },
   {
@@ -263,7 +269,10 @@
    "flags": [
     "Gimnasia Mendoza new to league"
    ],
-   "result": null,
+   "result": [
+    3,
+    0
+   ],
    "predicted_at": "2026-10-03T00:43:48+00:00"
   },
   {
@@ -327,7 +336,10 @@
     113
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    2,
+    2
+   ],
    "predicted_at": "2026-10-03T00:43:48+00:00"
   }
  ],
@@ -413,8 +425,11 @@
     "market_odds": 1.13,
     "edge": -0.0564,
     "published_at": "2026-10-03T00:43:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     0
+    ]
    },
    {
     "market": "double_chance",
@@ -430,8 +445,11 @@
     "market_odds": 1.18,
     "edge": -0.0456,
     "published_at": "2026-10-03T00:43:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ]
    },
    {
     "market": "double_chance",
@@ -447,8 +465,11 @@
     "market_odds": 1.16,
     "edge": -0.0593,
     "published_at": "2026-10-03T00:43:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     2
+    ]
    },
    {
     "market": "double_chance",
@@ -464,8 +485,11 @@
     "market_odds": 1.2,
     "edge": -0.0596,
     "published_at": "2026-10-03T00:43:48+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ]
    },
    {
     "market": "double_chance",

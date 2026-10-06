@@ -1,7 +1,7 @@
 {
  "date": "2026-10-06",
  "created_at": "2026-10-04T00:02:06+00:00",
- "updated_at": "2026-10-06T01:53:14+00:00",
+ "updated_at": "2026-10-06T12:03:55+00:00",
  "fixtures": [
   {
    "id": "ARG|2026-10-06|Banfield|Rosario Central",
@@ -64,7 +64,10 @@
     115
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    1,
+    1
+   ],
    "predicted_at": "2026-10-04T00:02:06+00:00"
   }
  ],
@@ -87,8 +90,11 @@
     "market_odds": 1.2,
     "edge": -0.0655,
     "published_at": "2026-10-04T00:02:06+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ]
    }
   ]
  },
