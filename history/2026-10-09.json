@@ -1,0 +1,212 @@
+{
+ "date": "2026-10-09",
+ "created_at": "2026-10-07T01:01:00+00:00",
+ "updated_at": "2026-10-07T01:01:00+00:00",
+ "fixtures": [
+  {
+   "id": "BRA|2026-10-09|Fluminense|Coritiba",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-09",
+   "kickoff": "2026-10-09T00:30:00+00:00",
+   "home": "Fluminense",
+   "away": "Coritiba",
+   "expected_goals": [
+    1.94,
+    0.79
+   ],
+   "model_expected_goals": [
+    1.75,
+    0.99
+   ],
+   "rho": -0.0277,
+   "probabilities": {
+    "home": 0.6431,
+    "draw": 0.2156,
+    "away": 0.1412,
+    "over25": 0.5141,
+    "under25": 0.4859,
+    "btts": 0.4699,
+    "btts_over25": 0.3674,
+    "dc_1x": 0.8588,
+    "dc_x2": 0.3569,
+    "dc_12": 0.7844
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1238
+    ],
+    [
+     "2-0",
+     0.123
+    ],
+    [
+     "1-1",
+     0.1025
+    ]
+   ],
+   "market": {
+    "home": 0.6572,
+    "draw": 0.2127,
+    "away": 0.1301,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.47,
+    "draw": 4.14,
+    "away": 6.5,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    116,
+    40
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-07T01:01:00+00:00"
+  },
+  {
+   "id": "BRA|2026-10-09|Palmeiras|Bahia",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-09",
+   "kickoff": "2026-10-09T00:30:00+00:00",
+   "home": "Palmeiras",
+   "away": "Bahia",
+   "expected_goals": [
+    1.86,
+    0.82
+   ],
+   "model_expected_goals": [
+    1.81,
+    0.88
+   ],
+   "rho": -0.0277,
+   "probabilities": {
+    "home": 0.6159,
+    "draw": 0.2263,
+    "away": 0.1578,
+    "over25": 0.5028,
+    "under25": 0.4972,
+    "btts": 0.4771,
+    "btts_over25": 0.3695,
+    "dc_1x": 0.8422,
+    "dc_x2": 0.3841,
+    "dc_12": 0.7737
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.124
+    ],
+    [
+     "2-0",
+     0.1181
+    ],
+    [
+     "1-1",
+     0.1075
+    ]
+   ],
+   "market": {
+    "home": 0.6262,
+    "draw": 0.2132,
+    "away": 0.1607,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.54,
+    "draw": 4.16,
+    "away": 5.4,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    116,
+    116
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-07T01:01:00+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-10-09|Fluminense|Coritiba",
+    "league": "BRA",
+    "kickoff": "2026-10-09T00:30:00+00:00",
+    "home": "Fluminense",
+    "away": "Coritiba",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5141,
+    "fair_odds": 1.95,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-07T01:01:00+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-10-09|Palmeiras|Bahia",
+    "league": "BRA",
+    "kickoff": "2026-10-09T00:30:00+00:00",
+    "home": "Palmeiras",
+    "away": "Bahia",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5028,
+    "fair_odds": 1.99,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-07T01:01:00+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-09|Fluminense|Coritiba",
+    "league": "BRA",
+    "kickoff": "2026-10-09T00:30:00+00:00",
+    "home": "Fluminense",
+    "away": "Coritiba",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8588,
+    "fair_odds": 1.16,
+    "market_odds": 1.08,
+    "edge": -0.0684,
+    "published_at": "2026-10-07T01:01:00+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-09|Palmeiras|Bahia",
+    "league": "BRA",
+    "kickoff": "2026-10-09T00:30:00+00:00",
+    "home": "Palmeiras",
+    "away": "Bahia",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8422,
+    "fair_odds": 1.19,
+    "market_odds": 1.12,
+    "edge": -0.0535,
+    "published_at": "2026-10-07T01:01:00+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}

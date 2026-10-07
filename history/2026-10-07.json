@@ -1,7 +1,7 @@
 {
  "date": "2026-10-07",
  "created_at": "2026-10-05T00:09:30+00:00",
- "updated_at": "2026-10-06T21:37:51+00:00",
+ "updated_at": "2026-10-07T01:01:00+00:00",
  "fixtures": [
   {
    "id": "USA|2026-10-07|Chicago Fire|Vancouver Whitecaps",
@@ -755,5 +755,19 @@
    }
   ]
  },
- "notified": []
+ "notified": [
+  "btts_over25|BRA|2026-10-08|Botafogo RJ|Vasco",
+  "btts_over25|FIN|2026-10-07|Gnistan|Inter Turku",
+  "btts|BRA|2026-10-07|Remo|Gremio",
+  "btts|BRA|2026-10-08|Botafogo RJ|Vasco",
+  "btts|FIN|2026-10-07|Gnistan|Inter Turku",
+  "double_chance|BRA|2026-10-07|Bragantino|Mirassol",
+  "double_chance|BRA|2026-10-07|Internacional|Corinthians",
+  "double_chance|BRA|2026-10-07|Remo|Gremio",
+  "double_chance|BRA|2026-10-08|Botafogo RJ|Vasco",
+  "double_chance|BRA|2026-10-08|Vitoria|Chapecoense-SC",
+  "double_chance|FIN|2026-10-07|Gnistan|Inter Turku",
+  "over25|BRA|2026-10-08|Botafogo RJ|Vasco",
+  "over25|FIN|2026-10-07|Gnistan|Inter Turku"
+ ]
 }

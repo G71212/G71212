@@ -1,45 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-06 21:37 UTC · kick-off times in UTC_
+_Generated 2026-10-07 01:01 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Monday 05 October 2026
-
-5 matches analysed across 2 leagues.
-
-**Results:** ✅ 8 won · ❌ 0 lost
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | BTTS & Over 2.5 | 41% ☆ | 2.43 | - | ✅ 3-1 |
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | Over 2.5 | 50% ☆ | 1.98 | 1.82 | ✅ 3-1 |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | BTTS Yes | 53% ☆ | 1.89 | - | ✅ 3-1 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 22:00 | Argentina · Liga Profesional | Estudiantes L.P. vs Gimnasia Mendoza | 1X | 83% ★ | 1.20 | 1.13 | ✅ 3-0 |
-| 19:45 | Argentina · Liga Profesional | Dep. Riestra vs Central Cordoba | 1X | 81% ★ | 1.23 | 1.18 | ✅ 1-1 |
-| 22:00 | Argentina · Liga Profesional | Velez Sarsfield vs Platense | 1X | 81% ★ | 1.24 | 1.16 | ✅ 2-2 |
-| 00:30 | Argentina · Liga Profesional | Estudiantes Rio Cuarto vs Racing Club | X2 | 79% ☆ | 1.27 | 1.20 | ✅ 1-2 |
-| 18:30 | Spain · Segunda División | Cordoba vs Tenerife | 12 | 75% ☆ | 1.33 | 1.25 | ✅ 3-1 |
-
 
 ## Tuesday 06 October 2026
 
@@ -154,15 +119,42 @@ _No match was likely enough to pick._
 | 23:00 | Brazil · Serie A | Athletico-PR vs Atletico-MG | 1X | 74% ☆ | 1.36 | 1.26 |  |
 | 17:30 | Romania · Superliga | CFR Cluj vs U. Cluj | 12 | 73% ☆ | 1.36 | 1.25 |  |
 
+
+## Friday 09 October 2026
+
+2 matches analysed across 1 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+_No match was likely enough to pick._
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:30 | Brazil · Serie A | Fluminense vs Coritiba | Over 2.5 | 51% ☆ | 1.95 | - |  |
+| 00:30 | Brazil · Serie A | Palmeiras vs Bahia | Over 2.5 | 50% ☆ | 1.99 | - |  |
+
+### 🎯 Both Teams To Score
+
+_No match was likely enough to pick._
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:30 | Brazil · Serie A | Fluminense vs Coritiba | 1X | 86% ★★ | 1.16 | 1.08 |  |
+| 00:30 | Brazil · Serie A | Palmeiras vs Bahia | 1X | 84% ★ | 1.19 | 1.12 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 4/4 (100%), ROI +3% | 5/6 (83%), ROI -14% | 5/6 (83%), ROI -14% |
-| BTTS & Over 2.5 | 10/22 (45%) | 31/62 (50%) | 31/62 (50%) |
-| Over 2.5 Goals | 13/22 (59%), ROI -10% | 38/63 (60%), ROI -10% | 38/63 (60%), ROI -10% |
-| Both Teams To Score | 16/25 (64%) | 42/66 (64%) | 42/66 (64%) |
-| Double Chance | 26/34 (76%), ROI -12% | 62/77 (81%), ROI -6% | 62/77 (81%), ROI -6% |
+| BTTS & Over 2.5 | 10/20 (50%) | 31/62 (50%) | 31/62 (50%) |
+| Over 2.5 Goals | 13/20 (65%), ROI -1% | 38/63 (60%), ROI -10% | 38/63 (60%), ROI -10% |
+| Both Teams To Score | 15/23 (65%) | 42/66 (64%) | 42/66 (64%) |
+| Double Chance | 25/32 (78%), ROI -11% | 62/77 (81%), ROI -6% | 62/77 (81%), ROI -6% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
