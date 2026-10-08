@@ -1,7 +1,7 @@
 {
  "date": "2026-10-08",
  "created_at": "2026-10-06T01:53:14+00:00",
- "updated_at": "2026-10-08T01:18:28+00:00",
+ "updated_at": "2026-10-08T12:04:35+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-10-08|Cruzeiro|Sao Paulo",
@@ -64,8 +64,12 @@
     116
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-06T12:03:55+00:00"
+   "result": [
+    2,
+    0
+   ],
+   "predicted_at": "2026-10-06T12:03:55+00:00",
+   "provisional": true
   },
   {
    "id": "FIN|2026-10-08|HJK|VPS",
@@ -678,8 +682,12 @@
     "market_odds": 1.21,
     "edge": -0.0592,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
