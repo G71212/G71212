@@ -1,39 +1,16 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-07 21:59 UTC · kick-off times in UTC_
+_Generated 2026-10-08 01:18 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
 
-## Tuesday 06 October 2026
-
-1 matches analysed across 1 leagues.
-
-**Results:** ✅ 1 won · ❌ 0 lost
-
-### 🔥 BTTS & Over 2.5
-
-_No match was likely enough to pick._
-
-### ⚽ Over 2.5 Goals
-
-_No match was likely enough to pick._
-
-### 🎯 Both Teams To Score
-
-_No match was likely enough to pick._
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:15 | Argentina · Liga Profesional | Banfield vs Rosario Central | X2 | 78% ☆ | 1.28 | 1.20 | ✅ 1-1 |
-
-
 ## Wednesday 07 October 2026
 
 7 matches analysed across 3 leagues.
+
+**Results:** ✅ 4 won · ❌ 1 lost · 12 pending
 
 ### 🔥 BTTS & Over 2.5
 
@@ -58,19 +35,19 @@ _No match was likely enough to pick._
 | 00:30 | USA · MLS | Chicago Fire vs Vancouver Whitecaps | BTTS Yes | 65% ★ | 1.55 | - |  |
 | 23:30 | Brazil · Serie A | Botafogo RJ vs Vasco | BTTS Yes | 59% ☆ | 1.69 | - |  |
 | 16:00 | Finland · Veikkausliiga | Gnistan vs Inter Turku | BTTS Yes | 53% ☆ | 1.89 | - |  |
-| 22:30 | Brazil · Serie A | Remo vs Gremio | BTTS Yes | 53% ☆ | 1.90 | - |  |
+| 22:30 | Brazil · Serie A | Remo vs Gremio | BTTS Yes | 53% ☆ | 1.90 | - | ✅ 1-1 |
 
 ### 🛡️ Double Chance
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 23:00 | Brazil · Serie A | Vitoria vs Chapecoense-SC | 1X | 81% ★ | 1.23 | 1.16 |  |
-| 22:30 | Brazil · Serie A | Bragantino vs Mirassol | 1X | 77% ☆ | 1.29 | 1.20 |  |
+| 23:00 | Brazil · Serie A | Vitoria vs Chapecoense-SC | 1X | 81% ★ | 1.23 | 1.16 | ✅ 4-0 |
+| 22:30 | Brazil · Serie A | Bragantino vs Mirassol | 1X | 77% ☆ | 1.29 | 1.20 | ✅ 1-1 |
 | 00:30 | USA · MLS | Chicago Fire vs Vancouver Whitecaps | 12 | 76% ☆ | 1.31 | 1.22 |  |
 | 16:00 | Finland · Veikkausliiga | Gnistan vs Inter Turku | X2 | 76% ☆ | 1.31 | 1.19 |  |
 | 23:30 | Brazil · Serie A | Botafogo RJ vs Vasco | 12 | 75% ☆ | 1.34 | 1.27 |  |
-| 22:30 | Brazil · Serie A | Remo vs Gremio | 12 | 73% ☆ | 1.37 | 1.29 |  |
-| 22:30 | Brazil · Serie A | Internacional vs Corinthians | 1X | 72% ☆ | 1.39 | 1.29 |  |
+| 22:30 | Brazil · Serie A | Remo vs Gremio | 12 | 73% ☆ | 1.37 | 1.29 | ❌ 1-1 |
+| 22:30 | Brazil · Serie A | Internacional vs Corinthians | 1X | 72% ☆ | 1.39 | 1.29 | ✅ 2-1 |
 
 
 ## Thursday 08 October 2026
@@ -146,6 +123,11 @@ _No match was likely enough to pick._
 | 00:30 | Brazil · Serie A | Fluminense vs Coritiba | 1X | 86% ★★ | 1.16 | 1.08 |  |
 | 00:30 | Brazil · Serie A | Palmeiras vs Bahia | 1X | 84% ★ | 1.19 | 1.12 |  |
 
+
+## Saturday 10 October 2026
+
+_No upcoming matches in the published fixtures for this day._
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
@@ -153,8 +135,8 @@ _No match was likely enough to pick._
 | 🔒 Bankers | 4/4 (100%), ROI +3% | 5/6 (83%), ROI -14% | 5/6 (83%), ROI -14% |
 | BTTS & Over 2.5 | 10/20 (50%) | 31/62 (50%) | 31/62 (50%) |
 | Over 2.5 Goals | 13/20 (65%), ROI -1% | 38/63 (60%), ROI -10% | 38/63 (60%), ROI -10% |
-| Both Teams To Score | 15/23 (65%) | 42/66 (64%) | 42/66 (64%) |
-| Double Chance | 25/32 (78%), ROI -11% | 62/77 (81%), ROI -6% | 62/77 (81%), ROI -6% |
+| Both Teams To Score | 16/24 (67%) | 43/67 (64%) | 43/67 (64%) |
+| Double Chance | 28/36 (78%), ROI -10% | 65/81 (80%), ROI -6% | 65/81 (80%), ROI -6% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

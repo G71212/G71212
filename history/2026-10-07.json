@@ -192,8 +192,12 @@
     66
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-06T12:03:55+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-10-06T12:03:55+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-10-07|Internacional|Corinthians",
@@ -256,8 +260,12 @@
     117
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-06T12:03:55+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-10-06T12:03:55+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-10-07|Remo|Gremio",
@@ -322,8 +330,12 @@
    "flags": [
     "Remo new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-06T12:03:55+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-10-06T12:03:55+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-10-08|Vitoria|Chapecoense-SC",
@@ -388,8 +400,12 @@
    "flags": [
     "Chapecoense-SC new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-06T12:03:55+00:00"
+   "result": [
+    4,
+    0
+   ],
+   "predicted_at": "2026-10-06T12:03:55+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-10-08|Botafogo RJ|Vasco",
@@ -629,8 +645,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    }
   ],
   "double_chance": [
@@ -648,8 +668,12 @@
     "market_odds": 1.16,
     "edge": -0.0613,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     4,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -665,8 +689,12 @@
     "market_odds": 1.2,
     "edge": -0.0688,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -733,8 +761,12 @@
     "market_odds": 1.29,
     "edge": -0.0617,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -750,8 +782,12 @@
     "market_odds": 1.29,
     "edge": -0.0668,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    }
   ]
  },

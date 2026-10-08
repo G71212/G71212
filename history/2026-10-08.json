@@ -1,7 +1,7 @@
 {
  "date": "2026-10-08",
  "created_at": "2026-10-06T01:53:14+00:00",
- "updated_at": "2026-10-07T21:59:01+00:00",
+ "updated_at": "2026-10-08T01:18:28+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-10-08|Cruzeiro|Sao Paulo",
@@ -734,5 +734,21 @@
    }
   ]
  },
- "notified": []
+ "notified": [
+  "btts_over25|BRA|2026-10-08|Santos|Flamengo RJ",
+  "btts_over25|FIN|2026-10-08|HJK|VPS",
+  "btts_over25|ROU|2026-10-08|CFR Cluj|U. Cluj",
+  "btts|BRA|2026-10-08|Santos|Flamengo RJ",
+  "btts|FIN|2026-10-08|HJK|VPS",
+  "btts|ROU|2026-10-08|CFR Cluj|U. Cluj",
+  "double_chance|BRA|2026-10-08|Santos|Flamengo RJ",
+  "double_chance|BRA|2026-10-09|Athletico-PR|Atletico-MG",
+  "double_chance|FIN|2026-10-08|HJK|VPS",
+  "double_chance|FIN|2026-10-08|KuPS|AC Oulu",
+  "double_chance|IRL|2026-10-08|Shamrock Rovers|Drogheda",
+  "double_chance|ROU|2026-10-08|CFR Cluj|U. Cluj",
+  "over25|BRA|2026-10-08|Santos|Flamengo RJ",
+  "over25|FIN|2026-10-08|HJK|VPS",
+  "over25|FIN|2026-10-08|KuPS|AC Oulu"
+ ]
 }
