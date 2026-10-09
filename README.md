@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-09 11:56 UTC · kick-off times in UTC_
+_Generated 2026-10-09 21:41 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -59,7 +59,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 33 matches analysed across 22 leagues.
 
-**Results:** ✅ 3 won · ❌ 1 lost · 52 pending
+**Results:** ✅ 13 won · ❌ 6 lost · 37 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -67,23 +67,23 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 |---|---|---|---|---|---|---|
 | 17:00 | Galatasaray vs Kasimpasa | Double Chance | 1X | 92% | 1.08 |  |
 | 18:45 | Shelbourne vs Sligo Rovers | Double Chance | 1X | 92% | 1.09 |  |
-| 18:00 | PSV Eindhoven vs Heerenveen | Double Chance | 1X | 90% | 1.12 |  |
-| 18:30 | Dortmund vs Werder Bremen | Double Chance | 1X | 89% | 1.12 |  |
-| 18:00 | PSV Eindhoven vs Heerenveen | Over 2.5 Goals | Over 2.5 | 83% | 1.21 |  |
+| 18:00 | PSV Eindhoven vs Heerenveen | Double Chance | 1X | 90% | 1.12 | ✅ 2-0 |
+| 18:30 | Dortmund vs Werder Bremen | Double Chance | 1X | 89% | 1.12 | ✅ 2-2 |
+| 18:00 | PSV Eindhoven vs Heerenveen | Over 2.5 Goals | Over 2.5 | 83% | 1.21 | ❌ 2-0 |
 
 ### 🔥 BTTS & Over 2.5
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 18:00 | Netherlands · Eredivisie | PSV Eindhoven vs Heerenveen | BTTS & Over 2.5 | 64% ★★★ | 1.55 | - |  |
+| 18:00 | Netherlands · Eredivisie | PSV Eindhoven vs Heerenveen | BTTS & Over 2.5 | 64% ★★★ | 1.55 | - | ❌ 2-0 |
 | 12:00 | China · Super League | Zhejiang Professional vs Shanghai Port | BTTS & Over 2.5 | 60% ★★ | 1.68 | - |  |
 | 17:00 | Norway · Eliteserien | Brann vs Viking | BTTS & Over 2.5 | 56% ★★ | 1.77 | - |  |
 | 16:30 | Germany · 2. Bundesliga | Braunschweig vs Holstein Kiel | BTTS & Over 2.5 | 55% ★ | 1.83 | - |  |
 | 16:30 | Germany · 2. Bundesliga | Heidenheim vs Kaiserslautern | BTTS & Over 2.5 | 54% ★ | 1.87 | - |  |
-| 18:45 | France · Ligue 1 | Lens vs Lyon | BTTS & Over 2.5 | 53% ★ | 1.88 | - |  |
-| 18:30 | Germany · Bundesliga | Dortmund vs Werder Bremen | BTTS & Over 2.5 | 50% ☆ | 2.00 | - |  |
+| 18:45 | France · Ligue 1 | Lens vs Lyon | BTTS & Over 2.5 | 53% ★ | 1.88 | - | ✅ 2-1 |
+| 18:30 | Germany · Bundesliga | Dortmund vs Werder Bremen | BTTS & Over 2.5 | 50% ☆ | 2.00 | - | ✅ 2-2 |
 | 18:45 | Belgium · Pro League | Beveren vs Lommel SK | BTTS & Over 2.5 | 49% ☆ | 2.06 | - |  |
-| 19:00 | England · Championship | West Ham vs QPR | BTTS & Over 2.5 | 47% ☆ | 2.12 | - |  |
+| 19:00 | England · Championship | West Ham vs QPR | BTTS & Over 2.5 | 47% ☆ | 2.12 | - | ❌ 1-1 |
 | 18:30 | Poland · Ekstraklasa | Rakow vs GKS Katowice | BTTS & Over 2.5 | 46% ☆ | 2.16 | - |  |
 | 17:00 | Denmark · Superliga | Nordsjaelland vs Odense | BTTS & Over 2.5 | 45% ☆ | 2.25 | - |  |
 | 18:00 | France · Ligue 2 | Dunkerque vs Annecy | BTTS & Over 2.5 | 44% ☆ | 2.26 | - |  |
@@ -93,15 +93,15 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 18:00 | Netherlands · Eredivisie | PSV Eindhoven vs Heerenveen | Over 2.5 | 83% 🔒 | 1.21 | 1.16 |  |
-| 18:30 | Germany · Bundesliga | Dortmund vs Werder Bremen | Over 2.5 | 69% ★★ | 1.45 | 1.37 |  |
+| 18:00 | Netherlands · Eredivisie | PSV Eindhoven vs Heerenveen | Over 2.5 | 83% 🔒 | 1.21 | 1.16 | ❌ 2-0 |
+| 18:30 | Germany · Bundesliga | Dortmund vs Werder Bremen | Over 2.5 | 69% ★★ | 1.45 | 1.37 | ✅ 2-2 |
 | 12:00 | China · Super League | Zhejiang Professional vs Shanghai Port | Over 2.5 | 69% ★★ | 1.46 | - |  |
 | 17:00 | Norway · Eliteserien | Brann vs Viking | Over 2.5 | 66% ★ | 1.51 | - |  |
 | 17:00 | Turkey · Süper Lig | Galatasaray vs Kasimpasa | Over 2.5 | 65% ★ | 1.54 | 1.46 |  |
 | 16:30 | Germany · 2. Bundesliga | Heidenheim vs Kaiserslautern | Over 2.5 | 64% ★ | 1.57 | 1.48 |  |
 | 16:30 | Germany · 2. Bundesliga | Braunschweig vs Holstein Kiel | Over 2.5 | 64% ★ | 1.57 | 1.46 |  |
-| 19:00 | England · Championship | West Ham vs QPR | Over 2.5 | 63% ★ | 1.59 | 1.51 |  |
-| 18:45 | France · Ligue 1 | Lens vs Lyon | Over 2.5 | 62% ★ | 1.61 | 1.51 |  |
+| 19:00 | England · Championship | West Ham vs QPR | Over 2.5 | 63% ★ | 1.59 | 1.51 | ❌ 1-1 |
+| 18:45 | France · Ligue 1 | Lens vs Lyon | Over 2.5 | 62% ★ | 1.61 | 1.51 | ✅ 2-1 |
 | 18:45 | Belgium · Pro League | Beveren vs Lommel SK | Over 2.5 | 59% ☆ | 1.70 | 1.55 |  |
 | 17:00 | Denmark · Superliga | Nordsjaelland vs Odense | Over 2.5 | 58% ☆ | 1.71 | - |  |
 | 18:30 | Poland · Ekstraklasa | Rakow vs GKS Katowice | Over 2.5 | 55% ☆ | 1.80 | - |  |
@@ -114,16 +114,16 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 12:00 | China · Super League | Zhejiang Professional vs Shanghai Port | BTTS Yes | 69% ★★ | 1.44 | - |  |
-| 18:00 | Netherlands · Eredivisie | PSV Eindhoven vs Heerenveen | BTTS Yes | 69% ★★ | 1.45 | - |  |
+| 18:00 | Netherlands · Eredivisie | PSV Eindhoven vs Heerenveen | BTTS Yes | 69% ★★ | 1.45 | - | ❌ 2-0 |
 | 17:00 | Norway · Eliteserien | Brann vs Viking | BTTS Yes | 66% ★★ | 1.51 | - |  |
 | 16:30 | Germany · 2. Bundesliga | Braunschweig vs Holstein Kiel | BTTS Yes | 65% ★ | 1.54 | - |  |
-| 18:45 | France · Ligue 1 | Lens vs Lyon | BTTS Yes | 64% ★ | 1.56 | - |  |
+| 18:45 | France · Ligue 1 | Lens vs Lyon | BTTS Yes | 64% ★ | 1.56 | - | ✅ 2-1 |
 | 16:30 | Germany · 2. Bundesliga | Heidenheim vs Kaiserslautern | BTTS Yes | 64% ★ | 1.57 | - |  |
 | 18:45 | Belgium · Pro League | Beveren vs Lommel SK | BTTS Yes | 60% ☆ | 1.68 | - |  |
 | 18:30 | Poland · Ekstraklasa | Rakow vs GKS Katowice | BTTS Yes | 59% ☆ | 1.70 | - |  |
-| 18:30 | Germany · Bundesliga | Dortmund vs Werder Bremen | BTTS Yes | 58% ☆ | 1.74 | - |  |
+| 18:30 | Germany · Bundesliga | Dortmund vs Werder Bremen | BTTS Yes | 58% ☆ | 1.74 | - | ✅ 2-2 |
 | 18:00 | France · Ligue 2 | Dunkerque vs Annecy | BTTS Yes | 56% ☆ | 1.77 | - |  |
-| 19:00 | England · Championship | West Ham vs QPR | BTTS Yes | 56% ☆ | 1.78 | - |  |
+| 19:00 | England · Championship | West Ham vs QPR | BTTS Yes | 56% ☆ | 1.78 | - | ✅ 1-1 |
 | 15:00 | Finland · Veikkausliiga | SJK vs Lahti | BTTS Yes | 55% ☆ | 1.81 | - |  |
 | 17:00 | Denmark · Superliga | Nordsjaelland vs Odense | BTTS Yes | 55% ☆ | 1.82 | - |  |
 
@@ -133,10 +133,10 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 |---|---|---|---|---|---|---|---|
 | 17:00 | Turkey · Süper Lig | Galatasaray vs Kasimpasa | 1X | 92% 🔒 | 1.08 | 1.02 |  |
 | 18:45 | Ireland · Premier Division | Shelbourne vs Sligo Rovers | 1X | 92% 🔒 | 1.09 | 1.03 |  |
-| 18:00 | Netherlands · Eredivisie | PSV Eindhoven vs Heerenveen | 1X | 90% 🔒 | 1.12 | 1.05 |  |
-| 18:30 | Germany · Bundesliga | Dortmund vs Werder Bremen | 1X | 89% 🔒 | 1.12 | 1.07 |  |
+| 18:00 | Netherlands · Eredivisie | PSV Eindhoven vs Heerenveen | 1X | 90% 🔒 | 1.12 | 1.05 | ✅ 2-0 |
+| 18:30 | Germany · Bundesliga | Dortmund vs Werder Bremen | 1X | 89% 🔒 | 1.12 | 1.07 | ✅ 2-2 |
 | 00:30 | Brazil · Serie A | Fluminense vs Coritiba | 1X | 86% ★★ | 1.16 | 1.08 | ✅ 4-0 |
-| 19:00 | England · Championship | West Ham vs QPR | 1X | 86% ★★ | 1.17 | 1.11 |  |
+| 19:00 | England · Championship | West Ham vs QPR | 1X | 86% ★★ | 1.17 | 1.11 | ✅ 1-1 |
 | 00:30 | Brazil · Serie A | Palmeiras vs Bahia | 1X | 84% ★ | 1.19 | 1.12 | ✅ 1-0 |
 | 17:00 | Denmark · Superliga | Nordsjaelland vs Odense | 1X | 84% ★ | 1.19 | 1.11 |  |
 | 18:00 | France · Ligue 2 | Montpellier vs Grenoble | 1X | 83% ★ | 1.21 | 1.11 |  |
@@ -391,11 +391,11 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 5/5 (100%), ROI +3% | 6/7 (86%), ROI -12% | 6/7 (86%), ROI -12% |
-| BTTS & Over 2.5 | 13/25 (52%) | 35/68 (51%) | 35/68 (51%) |
-| Over 2.5 Goals | 17/27 (63%), ROI -1% | 43/71 (61%), ROI -10% | 43/71 (61%), ROI -10% |
-| Both Teams To Score | 18/28 (64%) | 47/73 (64%) | 47/73 (64%) |
-| Double Chance | 37/44 (84%), ROI -3% | 76/93 (82%), ROI -4% | 76/93 (82%), ROI -4% |
+| 🔒 Bankers | 7/8 (88%), ROI -9% | 8/10 (80%), ROI -17% | 8/10 (80%), ROI -17% |
+| BTTS & Over 2.5 | 15/29 (52%) | 37/72 (51%) | 37/72 (51%) |
+| Over 2.5 Goals | 19/31 (61%), ROI -5% | 45/75 (60%), ROI -12% | 45/75 (60%), ROI -12% |
+| Both Teams To Score | 21/32 (66%) | 50/77 (65%) | 50/77 (65%) |
+| Double Chance | 40/47 (85%), ROI -2% | 79/96 (82%), ROI -4% | 79/96 (82%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
