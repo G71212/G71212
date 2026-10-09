@@ -388,8 +388,12 @@
     116
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-06T12:03:55+00:00"
+   "result": [
+    2,
+    2
+   ],
+   "predicted_at": "2026-10-06T12:03:55+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-10-09|Athletico-PR|Atletico-MG",
@@ -452,8 +456,12 @@
     116
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-06T12:03:55+00:00"
+   "result": [
+    2,
+    2
+   ],
+   "predicted_at": "2026-10-06T12:03:55+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -489,8 +497,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -542,8 +554,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -595,8 +611,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -703,8 +723,12 @@
     "market_odds": 1.21,
     "edge": -0.0769,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -720,8 +744,12 @@
     "market_odds": 1.26,
     "edge": -0.0701,
     "published_at": "2026-10-06T12:03:55+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
