@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-10 11:13 UTC · kick-off times in UTC_
+_Generated 2026-10-10 20:34 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -103,32 +103,34 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 163 matches analysed across 35 leagues.
 
+**Results:** ✅ 18 won · ❌ 10 lost · 52 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
 | 14:00 | Bodo/Glimt vs Kristiansund | Double Chance | 1X | 98% | 1.03 |  |
-| 16:30 | Barcelona vs Getafe | Double Chance | 1X | 97% | 1.03 |  |
+| 16:30 | Barcelona vs Getafe | Double Chance | 1X | 97% | 1.03 | ✅ 3-0 |
 | 18:45 | Paris SG vs Le Mans | Double Chance | 1X | 97% | 1.03 |  |
-| 16:00 | Inter vs Parma | Double Chance | 1X | 95% | 1.05 |  |
+| 16:00 | Inter vs Parma | Double Chance | 1X | 95% | 1.05 | ✅ 3-0 |
 | 14:00 | Rangers vs Kilmarnock | Double Chance | 1X | 95% | 1.06 |  |
 | 16:30 | AEK vs OFI Crete | Double Chance | 1X | 93% | 1.07 |  |
-| 13:30 | Augsburg vs Bayern Munich | Double Chance | X2 | 92% | 1.08 |  |
+| 13:30 | Augsburg vs Bayern Munich | Double Chance | X2 | 92% | 1.08 | ✅ 2-2 |
 | 21:00 | Vasco vs Remo | Double Chance | 1X | 90% | 1.11 |  |
-| 17:00 | Maritimo vs Porto | Double Chance | X2 | 90% | 1.11 |  |
-| 11:30 | Arsenal vs Leeds | Double Chance | 1X | 89% | 1.12 |  |
+| 17:00 | Maritimo vs Porto | Double Chance | X2 | 90% | 1.11 | ✅ 1-2 |
+| 11:30 | Arsenal vs Leeds | Double Chance | 1X | 89% | 1.12 | ✅ 2-1 |
 | 19:00 | Ajax vs Nijmegen | Double Chance | 1X | 88% | 1.14 |  |
-| 13:30 | Augsburg vs Bayern Munich | Over 2.5 Goals | Over 2.5 | 85% | 1.18 |  |
+| 13:30 | Augsburg vs Bayern Munich | Over 2.5 Goals | Over 2.5 | 85% | 1.18 | ✅ 2-2 |
 | 18:45 | Paris SG vs Le Mans | Over 2.5 Goals | Over 2.5 | 79% | 1.27 |  |
 | 19:00 | Real Madrid vs Villarreal | Over 2.5 Goals | Over 2.5 | 75% | 1.33 |  |
-| 16:30 | Barcelona vs Getafe | Over 2.5 Goals | Over 2.5 | 75% | 1.33 |  |
+| 16:30 | Barcelona vs Getafe | Over 2.5 Goals | Over 2.5 | 75% | 1.33 | ✅ 3-0 |
 
 ### 🔥 BTTS & Over 2.5
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 13:30 | Germany · Bundesliga | Augsburg vs Bayern Munich | BTTS & Over 2.5 | 63% ★★★ | 1.60 | - |  |
-| 16:30 | Germany · Bundesliga | RB Leipzig vs Ein Frankfurt | BTTS & Over 2.5 | 62% ★★★ | 1.61 | - |  |
+| 13:30 | Germany · Bundesliga | Augsburg vs Bayern Munich | BTTS & Over 2.5 | 63% ★★★ | 1.60 | - | ✅ 2-2 |
+| 16:30 | Germany · Bundesliga | RB Leipzig vs Ein Frankfurt | BTTS & Over 2.5 | 62% ★★★ | 1.61 | - | ❌ 6-0 |
 | 11:35 | China · Super League | Shanghai Shenhua vs Yunnan Yukun | BTTS & Over 2.5 | 62% ★★★ | 1.62 | - |  |
 | 11:00 | Germany · 2. Bundesliga | Magdeburg vs Hannover | BTTS & Over 2.5 | 61% ★★★ | 1.65 | - |  |
 | 14:00 | England · National League | Fylde vs Scunthorpe | BTTS & Over 2.5 | 60% ★★★ | 1.66 | - |  |
@@ -136,10 +138,10 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 18:30 | Germany · 2. Bundesliga | Nurnberg vs Wolfsburg | BTTS & Over 2.5 | 60% ★★ | 1.68 | - |  |
 | 19:00 | Spain · La Liga | Real Madrid vs Villarreal | BTTS & Over 2.5 | 59% ★★ | 1.70 | - |  |
 | 23:30 | USA · MLS | Inter Miami vs DC United | BTTS & Over 2.5 | 57% ★★ | 1.74 | - |  |
-| 16:45 | Netherlands · Eredivisie | Feyenoord vs AZ Alkmaar | BTTS & Over 2.5 | 57% ★★ | 1.74 | - |  |
-| 14:30 | Netherlands · Eredivisie | Go Ahead Eagles vs Sparta Rotterdam | BTTS & Over 2.5 | 57% ★★ | 1.74 | - |  |
-| 13:30 | Germany · Bundesliga | Paderborn vs Stuttgart | BTTS & Over 2.5 | 57% ★★ | 1.75 | - |  |
-| 13:30 | Germany · Bundesliga | Mainz vs Leverkusen | BTTS & Over 2.5 | 57% ★★ | 1.75 | - |  |
+| 16:45 | Netherlands · Eredivisie | Feyenoord vs AZ Alkmaar | BTTS & Over 2.5 | 57% ★★ | 1.74 | - | ❌ 2-0 |
+| 14:30 | Netherlands · Eredivisie | Go Ahead Eagles vs Sparta Rotterdam | BTTS & Over 2.5 | 57% ★★ | 1.74 | - | ✅ 3-3 |
+| 13:30 | Germany · Bundesliga | Paderborn vs Stuttgart | BTTS & Over 2.5 | 57% ★★ | 1.75 | - | ❌ 0-2 |
+| 13:30 | Germany · Bundesliga | Mainz vs Leverkusen | BTTS & Over 2.5 | 57% ★★ | 1.75 | - | ✅ 3-4 |
 | 16:00 | Switzerland · Super League | Zurich vs Thun | BTTS & Over 2.5 | 57% ★★ | 1.75 | - |  |
 | 23:30 | USA · MLS | Orlando City vs Columbus Crew | BTTS & Over 2.5 | 57% ★★ | 1.76 | - |  |
 | 14:00 | England · National League | Worthing vs Solihull | BTTS & Over 2.5 | 56% ★★ | 1.78 | - |  |
@@ -152,48 +154,48 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 13:30 | Germany · Bundesliga | Augsburg vs Bayern Munich | Over 2.5 | 85% 🔒 | 1.18 | 1.13 |  |
+| 13:30 | Germany · Bundesliga | Augsburg vs Bayern Munich | Over 2.5 | 85% 🔒 | 1.18 | 1.13 | ✅ 2-2 |
 | 18:45 | France · Ligue 1 | Paris SG vs Le Mans | Over 2.5 | 79% 🔒 | 1.27 | 1.20 |  |
 | 19:00 | Spain · La Liga | Real Madrid vs Villarreal | Over 2.5 | 75% 🔒 | 1.33 | 1.26 |  |
-| 16:30 | Spain · La Liga | Barcelona vs Getafe | Over 2.5 | 75% 🔒 | 1.33 | 1.24 |  |
+| 16:30 | Spain · La Liga | Barcelona vs Getafe | Over 2.5 | 75% 🔒 | 1.33 | 1.24 | ✅ 3-0 |
 | 23:30 | USA · MLS | Inter Miami vs DC United | Over 2.5 | 75% ★★★ | 1.34 | - |  |
 | 11:35 | China · Super League | Shanghai Shenhua vs Yunnan Yukun | Over 2.5 | 75% ★★★ | 1.34 | - |  |
-| 16:30 | Germany · Bundesliga | RB Leipzig vs Ein Frankfurt | Over 2.5 | 75% ★★★ | 1.34 | 1.28 |  |
+| 16:30 | Germany · Bundesliga | RB Leipzig vs Ein Frankfurt | Over 2.5 | 75% ★★★ | 1.34 | 1.28 | ✅ 6-0 |
 | 19:00 | Netherlands · Eredivisie | Ajax vs Nijmegen | Over 2.5 | 73% ★★★ | 1.36 | 1.29 |  |
 | 14:00 | Norway · Eliteserien | Bodo/Glimt vs Kristiansund | Over 2.5 | 71% ★★ | 1.40 | - |  |
 | 14:00 | Scotland · Premiership | Rangers vs Kilmarnock | Over 2.5 | 71% ★★ | 1.41 | 1.33 |  |
 | 14:00 | England · National League | Fylde vs Scunthorpe | Over 2.5 | 71% ★★ | 1.41 | 1.32 |  |
-| 16:00 | Italy · Serie A | Inter vs Parma | Over 2.5 | 70% ★★ | 1.43 | 1.33 |  |
+| 16:00 | Italy · Serie A | Inter vs Parma | Over 2.5 | 70% ★★ | 1.43 | 1.33 | ✅ 3-0 |
 | 11:00 | Germany · 2. Bundesliga | Magdeburg vs Hannover | Over 2.5 | 70% ★★ | 1.44 | 1.34 |  |
-| 13:30 | Germany · Bundesliga | Paderborn vs Stuttgart | Over 2.5 | 70% ★★ | 1.44 | 1.36 |  |
+| 13:30 | Germany · Bundesliga | Paderborn vs Stuttgart | Over 2.5 | 70% ★★ | 1.44 | 1.36 | ❌ 0-2 |
 | 11:00 | Germany · 2. Bundesliga | Darmstadt vs Cottbus | Over 2.5 | 69% ★★ | 1.45 | 1.37 |  |
-| 18:00 | Netherlands · Eredivisie | For Sittard vs Twente | Over 2.5 | 69% ★★ | 1.45 | 1.35 |  |
-| 14:30 | Netherlands · Eredivisie | Go Ahead Eagles vs Sparta Rotterdam | Over 2.5 | 69% ★★ | 1.46 | 1.37 |  |
-| 13:30 | Germany · Bundesliga | Hoffenheim vs Hamburg | Over 2.5 | 69% ★★ | 1.46 | 1.38 |  |
+| 18:00 | Netherlands · Eredivisie | For Sittard vs Twente | Over 2.5 | 69% ★★ | 1.45 | 1.35 | ❌ 1-1 |
+| 14:30 | Netherlands · Eredivisie | Go Ahead Eagles vs Sparta Rotterdam | Over 2.5 | 69% ★★ | 1.46 | 1.37 | ✅ 3-3 |
+| 13:30 | Germany · Bundesliga | Hoffenheim vs Hamburg | Over 2.5 | 69% ★★ | 1.46 | 1.38 | ✅ 2-3 |
 | 18:30 | Germany · 2. Bundesliga | Nurnberg vs Wolfsburg | Over 2.5 | 68% ★★ | 1.46 | 1.37 |  |
-| 16:45 | Netherlands · Eredivisie | Feyenoord vs AZ Alkmaar | Over 2.5 | 68% ★★ | 1.47 | 1.39 |  |
+| 16:45 | Netherlands · Eredivisie | Feyenoord vs AZ Alkmaar | Over 2.5 | 68% ★★ | 1.47 | 1.39 | ❌ 2-0 |
 
 ### 🎯 Both Teams To Score
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 11:00 | Germany · 2. Bundesliga | Magdeburg vs Hannover | BTTS Yes | 70% ★★ | 1.43 | - |  |
-| 16:30 | Germany · Bundesliga | RB Leipzig vs Ein Frankfurt | BTTS Yes | 70% ★★ | 1.43 | - |  |
+| 16:30 | Germany · Bundesliga | RB Leipzig vs Ein Frankfurt | BTTS Yes | 70% ★★ | 1.43 | - | ❌ 6-0 |
 | 11:35 | China · Super League | Shanghai Shenhua vs Yunnan Yukun | BTTS Yes | 69% ★★ | 1.45 | - |  |
 | 11:00 | Germany · 2. Bundesliga | Darmstadt vs Cottbus | BTTS Yes | 69% ★★ | 1.45 | - |  |
 | 18:30 | Germany · 2. Bundesliga | Nurnberg vs Wolfsburg | BTTS Yes | 69% ★★ | 1.45 | - |  |
 | 14:00 | England · National League | Fylde vs Scunthorpe | BTTS Yes | 69% ★★ | 1.46 | - |  |
-| 13:30 | Germany · Bundesliga | Mainz vs Leverkusen | BTTS Yes | 67% ★★ | 1.48 | - |  |
-| 16:45 | Netherlands · Eredivisie | Feyenoord vs AZ Alkmaar | BTTS Yes | 67% ★★ | 1.49 | - |  |
+| 13:30 | Germany · Bundesliga | Mainz vs Leverkusen | BTTS Yes | 67% ★★ | 1.48 | - | ✅ 3-4 |
+| 16:45 | Netherlands · Eredivisie | Feyenoord vs AZ Alkmaar | BTTS Yes | 67% ★★ | 1.49 | - | ❌ 2-0 |
 | 16:00 | Switzerland · Super League | Zurich vs Thun | BTTS Yes | 67% ★★ | 1.49 | - |  |
-| 14:30 | Netherlands · Eredivisie | Go Ahead Eagles vs Sparta Rotterdam | BTTS Yes | 67% ★★ | 1.50 | - |  |
+| 14:30 | Netherlands · Eredivisie | Go Ahead Eagles vs Sparta Rotterdam | BTTS Yes | 67% ★★ | 1.50 | - | ✅ 3-3 |
 | 23:30 | USA · MLS | Orlando City vs Columbus Crew | BTTS Yes | 67% ★★ | 1.50 | - |  |
-| 13:30 | Germany · Bundesliga | Augsburg vs Bayern Munich | BTTS Yes | 67% ★★ | 1.50 | - |  |
-| 13:30 | Germany · Bundesliga | Paderborn vs Stuttgart | BTTS Yes | 66% ★★ | 1.51 | - |  |
+| 13:30 | Germany · Bundesliga | Augsburg vs Bayern Munich | BTTS Yes | 67% ★★ | 1.50 | - | ✅ 2-2 |
+| 13:30 | Germany · Bundesliga | Paderborn vs Stuttgart | BTTS Yes | 66% ★★ | 1.51 | - | ❌ 0-2 |
 | 14:00 | England · National League | Worthing vs Solihull | BTTS Yes | 65% ★★ | 1.53 | - |  |
 | 19:00 | Spain · La Liga | Real Madrid vs Villarreal | BTTS Yes | 65% ★★ | 1.53 | - |  |
 | 23:30 | USA · MLS | Atlanta Utd vs FC Cincinnati | BTTS Yes | 65% ★ | 1.55 | - |  |
-| 13:30 | Germany · Bundesliga | Union Berlin vs Elversberg | BTTS Yes | 64% ★ | 1.55 | - |  |
+| 13:30 | Germany · Bundesliga | Union Berlin vs Elversberg | BTTS Yes | 64% ★ | 1.55 | - | ❌ 1-0 |
 | 11:00 | Germany · 2. Bundesliga | Osnabruck vs Dresden | BTTS Yes | 64% ★ | 1.56 | - |  |
 | 14:00 | England · National League | Boston Utd vs Southend | BTTS Yes | 64% ★ | 1.56 | - |  |
 | 23:30 | USA · MLS | Inter Miami vs DC United | BTTS Yes | 64% ★ | 1.56 | - |  |
@@ -203,15 +205,15 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 14:00 | Norway · Eliteserien | Bodo/Glimt vs Kristiansund | 1X | 98% 🔒 | 1.03 | 0.97 |  |
-| 16:30 | Spain · La Liga | Barcelona vs Getafe | 1X | 97% 🔒 | 1.03 | 0.99 |  |
+| 16:30 | Spain · La Liga | Barcelona vs Getafe | 1X | 97% 🔒 | 1.03 | 0.99 | ✅ 3-0 |
 | 18:45 | France · Ligue 1 | Paris SG vs Le Mans | 1X | 97% 🔒 | 1.03 | 0.99 |  |
-| 16:00 | Italy · Serie A | Inter vs Parma | 1X | 95% 🔒 | 1.05 | 1.00 |  |
+| 16:00 | Italy · Serie A | Inter vs Parma | 1X | 95% 🔒 | 1.05 | 1.00 | ✅ 3-0 |
 | 14:00 | Scotland · Premiership | Rangers vs Kilmarnock | 1X | 95% 🔒 | 1.06 | 0.99 |  |
 | 16:30 | Greece · Super League | AEK vs OFI Crete | 1X | 93% 🔒 | 1.07 | 1.00 |  |
-| 13:30 | Germany · Bundesliga | Augsburg vs Bayern Munich | X2 | 92% 🔒 | 1.08 | 1.02 |  |
+| 13:30 | Germany · Bundesliga | Augsburg vs Bayern Munich | X2 | 92% 🔒 | 1.08 | 1.02 | ✅ 2-2 |
 | 21:00 | Brazil · Serie A | Vasco vs Remo | 1X | 90% 🔒 | 1.11 | 1.04 |  |
-| 17:00 | Portugal · Primeira Liga | Maritimo vs Porto | X2 | 90% 🔒 | 1.11 | 1.03 |  |
-| 11:30 | England · Premier League | Arsenal vs Leeds | 1X | 89% 🔒 | 1.12 | 1.07 |  |
+| 17:00 | Portugal · Primeira Liga | Maritimo vs Porto | X2 | 90% 🔒 | 1.11 | 1.03 | ✅ 1-2 |
+| 11:30 | England · Premier League | Arsenal vs Leeds | 1X | 89% 🔒 | 1.12 | 1.07 | ✅ 2-1 |
 | 19:00 | Netherlands · Eredivisie | Ajax vs Nijmegen | 1X | 88% 🔒 | 1.14 | 1.06 |  |
 | 18:30 | Romania · Superliga | FCSB vs Otelul | 1X | 88% ★★ | 1.14 | 1.05 |  |
 | 16:00 | Norway · Eliteserien | Rosenborg vs Sandefjord | 1X | 88% ★★ | 1.14 | 1.06 |  |
@@ -220,7 +222,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 14:00 | Scotland · Championship | Raith Rvs vs Queens Park | 1X | 87% ★★ | 1.15 | 1.07 |  |
 | 16:15 | Belgium · Pro League | RAAL La Louviere vs Club Brugge | X2 | 87% ★★ | 1.16 | 1.07 |  |
 | 14:00 | Scotland · League One | Montrose vs Ross County | X2 | 86% ★★ | 1.16 | 1.06 |  |
-| 15:15 | France · Ligue 1 | Lille vs Le Havre | 1X | 86% ★★ | 1.16 | 1.09 |  |
+| 15:15 | France · Ligue 1 | Lille vs Le Havre | 1X | 86% ★★ | 1.16 | 1.09 | ✅ 1-0 |
 | 18:45 | Belgium · Pro League | Genk vs Kortrijk | 1X | 86% ★★ | 1.16 | 1.08 |  |
 
 
@@ -434,11 +436,11 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 4/5 (80%), ROI -16% | 8/10 (80%), ROI -17% | 8/10 (80%), ROI -17% |
-| BTTS & Over 2.5 | 8/14 (57%) | 37/72 (51%) | 37/72 (51%) |
-| Over 2.5 Goals | 9/16 (56%), ROI -20% | 45/75 (60%), ROI -12% | 45/75 (60%), ROI -12% |
-| Both Teams To Score | 13/17 (76%) | 50/77 (65%) | 50/77 (65%) |
-| Double Chance | 28/32 (88%), ROI +2% | 79/96 (82%), ROI -4% | 79/96 (82%), ROI -4% |
+| 🔒 Bankers | 11/12 (92%), ROI -3% | 15/17 (88%), ROI -7% | 15/17 (88%), ROI -7% |
+| BTTS & Over 2.5 | 11/20 (55%) | 40/78 (51%) | 40/78 (51%) |
+| Over 2.5 Goals | 15/25 (60%), ROI -17% | 51/84 (61%), ROI -12% | 51/84 (61%), ROI -12% |
+| Both Teams To Score | 16/24 (67%) | 53/84 (63%) | 53/84 (63%) |
+| Double Chance | 34/38 (89%), ROI +2% | 85/102 (83%), ROI -4% | 85/102 (83%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
