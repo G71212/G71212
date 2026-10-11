@@ -9344,8 +9344,12 @@
     73
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    5,
+    1
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "F1|2026-10-10|Lorient|Paris FC",
@@ -9408,8 +9412,12 @@
     39
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "F1|2026-10-10|Monaco|Toulouse",
@@ -9472,8 +9480,12 @@
     99
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    2,
+    2
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "F1|2026-10-10|Paris SG|Le Mans",
@@ -9538,8 +9550,12 @@
    "flags": [
     "Le Mans new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    3,
+    1
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "I1|2026-10-10|Napoli|Frosinone",
@@ -9602,8 +9618,12 @@
     35
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    3,
+    0
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "N1|2026-10-10|Ajax|Nijmegen",
@@ -9666,8 +9686,12 @@
     101
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "SP1|2026-10-10|Real Madrid|Villarreal",
@@ -9730,8 +9754,12 @@
     112
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "SP2|2026-10-10|Celta B|Sociedad B",
@@ -9862,8 +9890,12 @@
    "flags": [
     "Academico Viseu new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-10-10|Central Cordoba|Estudiantes L.P.",
@@ -9992,8 +10024,12 @@
    "flags": [
     "Remo new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    0,
+    0
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-10-10|Tigre|Banfield",
@@ -10781,8 +10817,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -10950,8 +10990,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -11041,8 +11085,12 @@
     "market_odds": 1.2,
     "edge": -0.0541,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -11058,8 +11106,12 @@
     "market_odds": 1.26,
     "edge": -0.0519,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -11151,8 +11203,12 @@
     "market_odds": 1.29,
     "edge": -0.0526,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -11660,8 +11716,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -11806,8 +11866,12 @@
     "market_odds": 0.99,
     "edge": -0.0455,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -11899,8 +11963,12 @@
     "market_odds": 1.04,
     "edge": -0.0607,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -11958,8 +12026,12 @@
     "market_odds": 1.06,
     "edge": -0.0665,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
