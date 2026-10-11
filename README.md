@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-11 00:28 UTC · kick-off times in UTC_
+_Generated 2026-10-11 11:26 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -137,6 +137,8 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 98 matches analysed across 29 leagues.
 
+**Results:** ✅ 1 won · ❌ 0 lost · 78 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
@@ -242,7 +244,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 16:30 | Spain · La Liga | Betis vs Osasuna | 1X | 83% ★ | 1.20 | 1.12 |  |
 | 13:00 | Italy · Serie A | Lazio vs Monza | 1X | 83% ★ | 1.21 | 1.13 |  |
 | 11:00 | England · Championship | Southampton vs Portsmouth | 1X | 83% ★ | 1.21 | 1.14 |  |
-| 00:00 | Brazil · Serie A | Sao Paulo vs Vitoria | 1X | 83% ★ | 1.21 | 1.14 |  |
+| 00:00 | Brazil · Serie A | Sao Paulo vs Vitoria | 1X | 83% ★ | 1.21 | 1.14 | ✅ 2-1 |
 | 16:30 | Spain · Segunda División | Mallorca vs Las Palmas | 1X | 83% ★ | 1.21 | 1.11 |  |
 | 14:30 | Switzerland · Super League | St. Gallen vs Lausanne | 1X | 82% ★ | 1.21 | 1.12 |  |
 | 14:15 | Spain · La Liga | Sociedad vs La Coruna | 1X | 82% ★ | 1.23 | 1.14 |  |
@@ -370,7 +372,7 @@ _No match was likely enough to pick._
 | BTTS & Over 2.5 | 10/19 (53%) | 40/80 (50%) | 40/80 (50%) |
 | Over 2.5 Goals | 15/25 (60%), ROI -20% | 52/87 (60%), ROI -15% | 52/87 (60%), ROI -15% |
 | Both Teams To Score | 12/20 (60%) | 53/85 (62%) | 53/85 (62%) |
-| Double Chance | 32/34 (94%), ROI +7% | 88/105 (84%), ROI -3% | 88/105 (84%), ROI -3% |
+| Double Chance | 33/35 (94%), ROI +7% | 89/106 (84%), ROI -3% | 89/106 (84%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

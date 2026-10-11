@@ -1,7 +1,7 @@
 {
  "date": "2026-10-11",
  "created_at": "2026-10-09T01:26:40+00:00",
- "updated_at": "2026-10-11T00:28:23+00:00",
+ "updated_at": "2026-10-11T11:26:18+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-10-11|Sao Paulo|Vitoria",
@@ -64,8 +64,12 @@
     105
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-10-11|River Plate|Estudiantes Rio Cuarto",
@@ -7616,8 +7620,12 @@
     "market_odds": 1.14,
     "edge": -0.0598,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
