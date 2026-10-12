@@ -5577,8 +5577,12 @@
     79
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "SP1|2026-10-11|Santander|Valencia",
@@ -5643,8 +5647,12 @@
    "flags": [
     "Santander new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    2,
+    2
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "SP2|2026-10-11|Cadiz|Sp Gijon",
@@ -5771,8 +5779,12 @@
     101
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-10-11|Platense|Argentinos Jrs",
@@ -5963,8 +5975,12 @@
     117
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-10-11|Gremio|Internacional",
@@ -6027,8 +6043,12 @@
     117
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-10-11|Palmeiras|Corinthians",
@@ -6091,8 +6111,12 @@
     117
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    4,
+    1
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-10-11|Racing Club|Belgrano",
@@ -6219,8 +6243,12 @@
     67
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-09T11:56:23+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-09T11:56:23+00:00",
+   "provisional": true
   },
   {
    "id": "MEX|2026-10-12|Atl. San Luis|Santos Laguna",
@@ -7618,8 +7646,12 @@
     "market_odds": 1.08,
     "edge": -0.0583,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -7669,8 +7701,12 @@
     "market_odds": 1.09,
     "edge": -0.0636,
     "published_at": "2026-10-09T11:56:23+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     4,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
