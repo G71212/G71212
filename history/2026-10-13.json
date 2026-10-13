@@ -1,7 +1,7 @@
 {
  "date": "2026-10-13",
  "created_at": "2026-10-11T00:28:23+00:00",
- "updated_at": "2026-10-13T02:43:00+00:00",
+ "updated_at": "2026-10-13T12:45:11+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-10-13|Bragantino|Cruzeiro",
@@ -68,15 +68,1072 @@
     4,
     2
    ],
-   "predicted_at": "2026-10-11T00:28:23+00:00",
-   "provisional": true
+   "predicted_at": "2026-10-11T00:28:23+00:00"
+  },
+  {
+   "id": "E1|2026-10-13|Bristol City|Blackburn",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T18:45:00+00:00",
+   "home": "Bristol City",
+   "away": "Blackburn",
+   "expected_goals": [
+    1.52,
+    1.1
+   ],
+   "model_expected_goals": [
+    1.37,
+    1.0
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.4655,
+    "draw": 0.265,
+    "away": 0.2695,
+    "over25": 0.4881,
+    "under25": 0.5119,
+    "btts": 0.527,
+    "btts_over25": 0.4007,
+    "dc_1x": 0.7305,
+    "dc_x2": 0.5345,
+    "dc_12": 0.735
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1263
+    ],
+    [
+     "1-0",
+     0.1056
+    ],
+    [
+     "2-1",
+     0.0926
+    ]
+   ],
+   "market": {
+    "home": 0.4624,
+    "draw": 0.275,
+    "away": 0.2626,
+    "over25": 0.5
+   },
+   "odds": {
+    "home": 2.07,
+    "draw": 3.38,
+    "away": 3.53,
+    "over25": 1.87,
+    "under25": 1.87
+   },
+   "team_matches": [
+    136,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-13|Burnley|Charlton",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T18:45:00+00:00",
+   "home": "Burnley",
+   "away": "Charlton",
+   "expected_goals": [
+    1.81,
+    0.88
+   ],
+   "model_expected_goals": [
+    1.53,
+    0.82
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.5876,
+    "draw": 0.2362,
+    "away": 0.1762,
+    "over25": 0.5047,
+    "under25": 0.4953,
+    "btts": 0.4951,
+    "btts_over25": 0.3826,
+    "dc_1x": 0.8238,
+    "dc_x2": 0.4124,
+    "dc_12": 0.7638
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1182
+    ],
+    [
+     "1-1",
+     0.1125
+    ],
+    [
+     "2-0",
+     0.1107
+    ]
+   ],
+   "market": {
+    "home": 0.5966,
+    "draw": 0.2316,
+    "away": 0.1718,
+    "over25": 0.5208
+   },
+   "odds": {
+    "home": 1.62,
+    "draw": 3.92,
+    "away": 5.18,
+    "over25": 1.8,
+    "under25": 1.94
+   },
+   "team_matches": [
+    55,
+    55
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-13|Cardiff|Watford",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T18:45:00+00:00",
+   "home": "Cardiff",
+   "away": "Watford",
+   "expected_goals": [
+    2.01,
+    1.19
+   ],
+   "model_expected_goals": [
+    1.47,
+    1.18
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.5606,
+    "draw": 0.2221,
+    "away": 0.2173,
+    "over25": 0.6195,
+    "under25": 0.3805,
+    "btts": 0.6055,
+    "btts_over25": 0.5042,
+    "dc_1x": 0.7827,
+    "dc_x2": 0.4394,
+    "dc_12": 0.7779
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1013
+    ],
+    [
+     "2-1",
+     0.098
+    ],
+    [
+     "2-0",
+     0.0826
+    ]
+   ],
+   "market": {
+    "home": 0.5835,
+    "draw": 0.2148,
+    "away": 0.2017,
+    "over25": 0.6434
+   },
+   "odds": {
+    "home": 1.66,
+    "draw": 4.25,
+    "away": 4.51,
+    "over25": 1.49,
+    "under25": 2.54
+   },
+   "team_matches": [
+    90,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-13|Millwall|Swansea",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T18:45:00+00:00",
+   "home": "Millwall",
+   "away": "Swansea",
+   "expected_goals": [
+    1.42,
+    1.25
+   ],
+   "model_expected_goals": [
+    1.42,
+    1.04
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.4068,
+    "draw": 0.2683,
+    "away": 0.3249,
+    "over25": 0.4988,
+    "under25": 0.5012,
+    "btts": 0.5455,
+    "btts_over25": 0.4178,
+    "dc_1x": 0.6751,
+    "dc_x2": 0.5932,
+    "dc_12": 0.7317
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1277
+    ],
+    [
+     "1-0",
+     0.0938
+    ],
+    [
+     "2-1",
+     0.0875
+    ]
+   ],
+   "market": {
+    "home": 0.3954,
+    "draw": 0.2725,
+    "away": 0.3321,
+    "over25": 0.5089
+   },
+   "odds": {
+    "home": 2.4,
+    "draw": 3.41,
+    "away": 2.83,
+    "over25": 1.84,
+    "under25": 1.9
+   },
+   "team_matches": [
+    136,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-13|Wolves|Bolton",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T18:45:00+00:00",
+   "home": "Wolves",
+   "away": "Bolton",
+   "expected_goals": [
+    2.29,
+    0.86
+   ],
+   "model_expected_goals": [
+    2.15,
+    0.9
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.6906,
+    "draw": 0.1863,
+    "away": 0.1231,
+    "over25": 0.6095,
+    "under25": 0.3905,
+    "btts": 0.523,
+    "btts_over25": 0.435,
+    "dc_1x": 0.8769,
+    "dc_x2": 0.3094,
+    "dc_12": 0.8137
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.112
+    ],
+    [
+     "2-1",
+     0.0967
+    ],
+    [
+     "1-0",
+     0.0947
+    ]
+   ],
+   "market": {
+    "home": 0.696,
+    "draw": 0.1846,
+    "away": 0.1194,
+    "over25": 0.6138
+   },
+   "odds": {
+    "home": 1.4,
+    "draw": 4.8,
+    "away": 7.19,
+    "over25": 1.55,
+    "under25": 2.35
+   },
+   "team_matches": [
+    8,
+    9
+   ],
+   "flags": [
+    "Wolves relegated",
+    "Bolton new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-13|Wrexham|West Brom",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T18:45:00+00:00",
+   "home": "Wrexham",
+   "away": "West Brom",
+   "expected_goals": [
+    1.39,
+    1.13
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.11
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.4223,
+    "draw": 0.2758,
+    "away": 0.3019,
+    "over25": 0.4623,
+    "under25": 0.5377,
+    "btts": 0.5143,
+    "btts_over25": 0.383,
+    "dc_1x": 0.6981,
+    "dc_x2": 0.5777,
+    "dc_12": 0.7242
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1313
+    ],
+    [
+     "1-0",
+     0.1064
+    ],
+    [
+     "2-1",
+     0.0877
+    ]
+   ],
+   "market": {
+    "home": 0.4177,
+    "draw": 0.2796,
+    "away": 0.3027,
+    "over25": 0.4617
+   },
+   "odds": {
+    "home": 2.28,
+    "draw": 3.33,
+    "away": 3.09,
+    "over25": 2.01,
+    "under25": 1.75
+   },
+   "team_matches": [
+    55,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "SC1|2026-10-13|Queens Park|Inverness C",
+   "league": "SC1",
+   "league_name": "Scotland · Championship",
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T18:45:00+00:00",
+   "home": "Queens Park",
+   "away": "Inverness C",
+   "expected_goals": [
+    0.96,
+    1.64
+   ],
+   "model_expected_goals": [
+    1.08,
+    1.24
+   ],
+   "rho": -0.1508,
+   "probabilities": {
+    "home": 0.2044,
+    "draw": 0.2815,
+    "away": 0.5141,
+    "over25": 0.4824,
+    "under25": 0.5176,
+    "btts": 0.5163,
+    "btts_over25": 0.3817,
+    "dc_1x": 0.4859,
+    "dc_x2": 0.7956,
+    "dc_12": 0.7185
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1347
+    ],
+    [
+     "0-1",
+     0.1037
+    ],
+    [
+     "0-2",
+     0.0994
+    ]
+   ],
+   "market": {
+    "home": 0.2046,
+    "draw": 0.2398,
+    "away": 0.5556,
+    "over25": 0.4985
+   },
+   "odds": {
+    "home": 4.19,
+    "draw": 3.63,
+    "away": 1.7,
+    "over25": 1.86,
+    "under25": 1.85
+   },
+   "team_matches": [
+    108,
+    37
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-13|Birmingham|Preston",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T19:00:00+00:00",
+   "home": "Birmingham",
+   "away": "Preston",
+   "expected_goals": [
+    1.92,
+    0.91
+   ],
+   "model_expected_goals": [
+    1.51,
+    1.03
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.6051,
+    "draw": 0.2253,
+    "away": 0.1696,
+    "over25": 0.5378,
+    "under25": 0.4622,
+    "btts": 0.5147,
+    "btts_over25": 0.4074,
+    "dc_1x": 0.8304,
+    "dc_x2": 0.3949,
+    "dc_12": 0.7747
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1091
+    ],
+    [
+     "2-0",
+     0.1084
+    ],
+    [
+     "1-1",
+     0.1073
+    ]
+   ],
+   "market": {
+    "home": 0.6293,
+    "draw": 0.2123,
+    "away": 0.1584,
+    "over25": 0.5526
+   },
+   "odds": {
+    "home": 1.54,
+    "draw": 4.24,
+    "away": 5.57,
+    "over25": 1.71,
+    "under25": 2.07
+   },
+   "team_matches": [
+    90,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-13|Stoke|Middlesbrough",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-13",
+   "kickoff": "2026-10-13T19:00:00+00:00",
+   "home": "Stoke",
+   "away": "Middlesbrough",
+   "expected_goals": [
+    1.23,
+    1.65
+   ],
+   "model_expected_goals": [
+    1.18,
+    1.35
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.2805,
+    "draw": 0.252,
+    "away": 0.4675,
+    "over25": 0.5474,
+    "under25": 0.4526,
+    "btts": 0.5746,
+    "btts_over25": 0.456,
+    "dc_1x": 0.5325,
+    "dc_x2": 0.7195,
+    "dc_12": 0.748
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1187
+    ],
+    [
+     "1-2",
+     0.094
+    ],
+    [
+     "0-1",
+     0.0887
+    ]
+   ],
+   "market": {
+    "home": 0.2701,
+    "draw": 0.2535,
+    "away": 0.4764,
+    "over25": 0.5628
+   },
+   "odds": {
+    "home": 3.43,
+    "draw": 3.64,
+    "away": 2.01,
+    "over25": 1.68,
+    "under25": 2.11
+   },
+   "team_matches": [
+    136,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
   }
  ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-13|Cardiff|Watford",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Cardiff",
+    "away": "Watford",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5042,
+    "fair_odds": 1.98,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-13|Stoke|Middlesbrough",
+    "league": "E1",
+    "kickoff": "2026-10-13T19:00:00+00:00",
+    "home": "Stoke",
+    "away": "Middlesbrough",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.456,
+    "fair_odds": 2.19,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-13|Wolves|Bolton",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Wolves",
+    "away": "Bolton",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.435,
+    "fair_odds": 2.3,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-13|Millwall|Swansea",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Millwall",
+    "away": "Swansea",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4178,
+    "fair_odds": 2.39,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-13|Birmingham|Preston",
+    "league": "E1",
+    "kickoff": "2026-10-13T19:00:00+00:00",
+    "home": "Birmingham",
+    "away": "Preston",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4074,
+    "fair_odds": 2.45,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-13|Bristol City|Blackburn",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Bristol City",
+    "away": "Blackburn",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4007,
+    "fair_odds": 2.5,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "E1|2026-10-13|Cardiff|Watford",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Cardiff",
+    "away": "Watford",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6195,
+    "fair_odds": 1.61,
+    "market_odds": 1.49,
+    "edge": -0.077,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-10-13|Wolves|Bolton",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Wolves",
+    "away": "Bolton",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6095,
+    "fair_odds": 1.64,
+    "market_odds": 1.55,
+    "edge": -0.0552,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-10-13|Stoke|Middlesbrough",
+    "league": "E1",
+    "kickoff": "2026-10-13T19:00:00+00:00",
+    "home": "Stoke",
+    "away": "Middlesbrough",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5474,
+    "fair_odds": 1.83,
+    "market_odds": 1.68,
+    "edge": -0.0804,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-10-13|Birmingham|Preston",
+    "league": "E1",
+    "kickoff": "2026-10-13T19:00:00+00:00",
+    "home": "Birmingham",
+    "away": "Preston",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5378,
+    "fair_odds": 1.86,
+    "market_odds": 1.71,
+    "edge": -0.0804,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-10-13|Burnley|Charlton",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Burnley",
+    "away": "Charlton",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5047,
+    "fair_odds": 1.98,
+    "market_odds": 1.8,
+    "edge": -0.0916,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-13|Cardiff|Watford",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Cardiff",
+    "away": "Watford",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6055,
+    "fair_odds": 1.65,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-13|Stoke|Middlesbrough",
+    "league": "E1",
+    "kickoff": "2026-10-13T19:00:00+00:00",
+    "home": "Stoke",
+    "away": "Middlesbrough",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5746,
+    "fair_odds": 1.74,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-13|Millwall|Swansea",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Millwall",
+    "away": "Swansea",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5455,
+    "fair_odds": 1.83,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-13|Bristol City|Blackburn",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Bristol City",
+    "away": "Blackburn",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.527,
+    "fair_odds": 1.9,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-13|Wolves|Bolton",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Wolves",
+    "away": "Bolton",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.523,
+    "fair_odds": 1.91,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SC1|2026-10-13|Queens Park|Inverness C",
+    "league": "SC1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Queens Park",
+    "away": "Inverness C",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5163,
+    "fair_odds": 1.94,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-13|Birmingham|Preston",
+    "league": "E1",
+    "kickoff": "2026-10-13T19:00:00+00:00",
+    "home": "Birmingham",
+    "away": "Preston",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5147,
+    "fair_odds": 1.94,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-13|Wrexham|West Brom",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Wrexham",
+    "away": "West Brom",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5143,
+    "fair_odds": 1.94,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
   "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-13|Wolves|Bolton",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Wolves",
+    "away": "Bolton",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8769,
+    "fair_odds": 1.14,
+    "market_odds": 1.08,
+    "edge": -0.0496,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-13|Birmingham|Preston",
+    "league": "E1",
+    "kickoff": "2026-10-13T19:00:00+00:00",
+    "home": "Birmingham",
+    "away": "Preston",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8304,
+    "fair_odds": 1.2,
+    "market_odds": 1.13,
+    "edge": -0.0619,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-13|Burnley|Charlton",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Burnley",
+    "away": "Charlton",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8238,
+    "fair_odds": 1.21,
+    "market_odds": 1.15,
+    "edge": -0.0557,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SC1|2026-10-13|Queens Park|Inverness C",
+    "league": "SC1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Queens Park",
+    "away": "Inverness C",
+    "selection": "X2",
+    "tier": "extra",
+    "probability": 0.7956,
+    "fair_odds": 1.26,
+    "market_odds": 1.16,
+    "edge": -0.0789,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-13|Cardiff|Watford",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Cardiff",
+    "away": "Watford",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7827,
+    "fair_odds": 1.28,
+    "market_odds": 1.19,
+    "edge": -0.0656,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-13|Stoke|Middlesbrough",
+    "league": "E1",
+    "kickoff": "2026-10-13T19:00:00+00:00",
+    "home": "Stoke",
+    "away": "Middlesbrough",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.748,
+    "fair_odds": 1.34,
+    "market_odds": 1.27,
+    "edge": -0.0521,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-13|Bristol City|Blackburn",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Bristol City",
+    "away": "Blackburn",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.735,
+    "fair_odds": 1.36,
+    "market_odds": 1.3,
+    "edge": -0.0409,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-13|Millwall|Swansea",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Millwall",
+    "away": "Swansea",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7317,
+    "fair_odds": 1.37,
+    "market_odds": 1.3,
+    "edge": -0.0498,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-13|Wrexham|West Brom",
+    "league": "E1",
+    "kickoff": "2026-10-13T18:45:00+00:00",
+    "home": "Wrexham",
+    "away": "West Brom",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7242,
+    "fair_odds": 1.38,
+    "market_odds": 1.31,
+    "edge": -0.0498,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
    {
     "market": "double_chance",
     "match_id": "BRA|2026-10-13|Bragantino|Cruzeiro",
@@ -95,10 +1152,38 @@
     "result": [
      4,
      2
-    ],
-    "provisional": true
+    ]
    }
   ]
  },
- "notified": []
+ "notified": [
+  "btts_over25|E1|2026-10-13|Birmingham|Preston",
+  "btts_over25|E1|2026-10-13|Bristol City|Blackburn",
+  "btts_over25|E1|2026-10-13|Cardiff|Watford",
+  "btts_over25|E1|2026-10-13|Millwall|Swansea",
+  "btts_over25|E1|2026-10-13|Stoke|Middlesbrough",
+  "btts_over25|E1|2026-10-13|Wolves|Bolton",
+  "btts|E1|2026-10-13|Birmingham|Preston",
+  "btts|E1|2026-10-13|Bristol City|Blackburn",
+  "btts|E1|2026-10-13|Cardiff|Watford",
+  "btts|E1|2026-10-13|Millwall|Swansea",
+  "btts|E1|2026-10-13|Stoke|Middlesbrough",
+  "btts|E1|2026-10-13|Wolves|Bolton",
+  "btts|E1|2026-10-13|Wrexham|West Brom",
+  "btts|SC1|2026-10-13|Queens Park|Inverness C",
+  "double_chance|E1|2026-10-13|Birmingham|Preston",
+  "double_chance|E1|2026-10-13|Bristol City|Blackburn",
+  "double_chance|E1|2026-10-13|Burnley|Charlton",
+  "double_chance|E1|2026-10-13|Cardiff|Watford",
+  "double_chance|E1|2026-10-13|Millwall|Swansea",
+  "double_chance|E1|2026-10-13|Stoke|Middlesbrough",
+  "double_chance|E1|2026-10-13|Wolves|Bolton",
+  "double_chance|E1|2026-10-13|Wrexham|West Brom",
+  "double_chance|SC1|2026-10-13|Queens Park|Inverness C",
+  "over25|E1|2026-10-13|Birmingham|Preston",
+  "over25|E1|2026-10-13|Burnley|Charlton",
+  "over25|E1|2026-10-13|Cardiff|Watford",
+  "over25|E1|2026-10-13|Stoke|Middlesbrough",
+  "over25|E1|2026-10-13|Wolves|Bolton"
+ ]
 }

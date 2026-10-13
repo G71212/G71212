@@ -1,13 +1,1253 @@
 {
  "date": "2026-10-15",
  "created_at": "2026-10-13T02:43:00+00:00",
- "updated_at": "2026-10-13T02:43:00+00:00",
- "fixtures": [],
+ "updated_at": "2026-10-13T12:45:11+00:00",
+ "fixtures": [
+  {
+   "id": "USA|2026-10-15|Chicago Fire|Philadelphia Union",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-15T00:30:00+00:00",
+   "home": "Chicago Fire",
+   "away": "Philadelphia Union",
+   "expected_goals": [
+    1.72,
+    1.64
+   ],
+   "model_expected_goals": [
+    1.76,
+    1.59
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.3985,
+    "draw": 0.2354,
+    "away": 0.366,
+    "over25": 0.6518,
+    "under25": 0.3482,
+    "btts": 0.665,
+    "btts_over25": 0.5631,
+    "dc_1x": 0.634,
+    "dc_x2": 0.6015,
+    "dc_12": 0.7646
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1019
+    ],
+    [
+     "2-1",
+     0.0842
+    ],
+    [
+     "1-2",
+     0.0804
+    ]
+   ],
+   "market": {
+    "home": 0.3948,
+    "draw": 0.2358,
+    "away": 0.3694,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.36,
+    "draw": 3.8,
+    "away": 2.51,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    100,
+    103
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|FC Dallas|Seattle Sounders",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-15T00:30:00+00:00",
+   "home": "FC Dallas",
+   "away": "Seattle Sounders",
+   "expected_goals": [
+    1.71,
+    1.29
+   ],
+   "model_expected_goals": [
+    1.63,
+    1.37
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.4701,
+    "draw": 0.2457,
+    "away": 0.2841,
+    "over25": 0.576,
+    "under25": 0.424,
+    "btts": 0.5969,
+    "btts_over25": 0.4828,
+    "dc_1x": 0.7159,
+    "dc_x2": 0.5299,
+    "dc_12": 0.7543
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1141
+    ],
+    [
+     "2-1",
+     0.094
+    ],
+    [
+     "1-0",
+     0.0813
+    ]
+   ],
+   "market": {
+    "home": 0.4784,
+    "draw": 0.2415,
+    "away": 0.2802,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.98,
+    "draw": 3.73,
+    "away": 3.25,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    102,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|Nashville SC|Sporting Kansas City",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-15T00:30:00+00:00",
+   "home": "Nashville SC",
+   "away": "Sporting Kansas City",
+   "expected_goals": [
+    2.67,
+    0.78
+   ],
+   "model_expected_goals": [
+    2.41,
+    1.05
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.7704,
+    "draw": 0.147,
+    "away": 0.0826,
+    "over25": 0.6695,
+    "under25": 0.3305,
+    "btts": 0.5075,
+    "btts_over25": 0.4386,
+    "dc_1x": 0.9174,
+    "dc_x2": 0.2296,
+    "dc_12": 0.853
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.113
+    ],
+    [
+     "3-0",
+     0.1004
+    ],
+    [
+     "2-1",
+     0.0884
+    ]
+   ],
+   "market": {
+    "home": 0.7935,
+    "draw": 0.124,
+    "away": 0.0825,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.23,
+    "draw": 6.48,
+    "away": 9.33,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    102,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|Colorado Rapids|Minnesota United",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-15T01:30:00+00:00",
+   "home": "Colorado Rapids",
+   "away": "Minnesota United",
+   "expected_goals": [
+    1.69,
+    1.36
+   ],
+   "model_expected_goals": [
+    1.65,
+    1.4
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.4502,
+    "draw": 0.2455,
+    "away": 0.3043,
+    "over25": 0.5879,
+    "under25": 0.4121,
+    "btts": 0.6101,
+    "btts_over25": 0.4971,
+    "dc_1x": 0.6957,
+    "dc_x2": 0.5498,
+    "dc_12": 0.7545
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.113
+    ],
+    [
+     "2-1",
+     0.0921
+    ],
+    [
+     "1-0",
+     0.076
+    ]
+   ],
+   "market": {
+    "home": 0.4509,
+    "draw": 0.2505,
+    "away": 0.2986,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.09,
+    "draw": 3.6,
+    "away": 3.06,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    99,
+    104
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|Real Salt Lake|San Jose Earthquakes",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-15T01:30:00+00:00",
+   "home": "Real Salt Lake",
+   "away": "San Jose Earthquakes",
+   "expected_goals": [
+    1.81,
+    1.34
+   ],
+   "model_expected_goals": [
+    1.74,
+    1.41
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.48,
+    "draw": 0.2378,
+    "away": 0.2822,
+    "over25": 0.6096,
+    "under25": 0.3904,
+    "btts": 0.6217,
+    "btts_over25": 0.5137,
+    "dc_1x": 0.7178,
+    "dc_x2": 0.52,
+    "dc_12": 0.7622
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.108
+    ],
+    [
+     "2-1",
+     0.0939
+    ],
+    [
+     "1-0",
+     0.0734
+    ]
+   ],
+   "market": {
+    "home": 0.487,
+    "draw": 0.234,
+    "away": 0.279,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.95,
+    "draw": 3.85,
+    "away": 3.27,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    103,
+    98
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|Los Angeles FC|Austin FC",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-15T02:30:00+00:00",
+   "home": "Los Angeles FC",
+   "away": "Austin FC",
+   "expected_goals": [
+    2.06,
+    0.81
+   ],
+   "model_expected_goals": [
+    1.89,
+    0.98
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.6607,
+    "draw": 0.2064,
+    "away": 0.1329,
+    "over25": 0.5453,
+    "under25": 0.4547,
+    "btts": 0.4862,
+    "btts_over25": 0.3879,
+    "dc_1x": 0.8671,
+    "dc_x2": 0.3393,
+    "dc_12": 0.7936
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1208
+    ],
+    [
+     "1-0",
+     0.1138
+    ],
+    [
+     "1-1",
+     0.0983
+    ]
+   ],
+   "market": {
+    "home": 0.6807,
+    "draw": 0.1876,
+    "away": 0.1317,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.42,
+    "draw": 4.6,
+    "away": 6.35,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    110,
+    99
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|Los Angeles Galaxy|Portland Timbers",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-15T02:30:00+00:00",
+   "home": "Los Angeles Galaxy",
+   "away": "Portland Timbers",
+   "expected_goals": [
+    1.91,
+    1.48
+   ],
+   "model_expected_goals": [
+    1.87,
+    1.53
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.473,
+    "draw": 0.2291,
+    "away": 0.2979,
+    "over25": 0.6587,
+    "under25": 0.3413,
+    "btts": 0.6622,
+    "btts_over25": 0.5633,
+    "dc_1x": 0.7021,
+    "dc_x2": 0.527,
+    "dc_12": 0.7709
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0989
+    ],
+    [
+     "2-1",
+     0.0909
+    ],
+    [
+     "1-2",
+     0.0707
+    ]
+   ],
+   "market": {
+    "home": 0.4753,
+    "draw": 0.2303,
+    "away": 0.2944,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.99,
+    "draw": 3.89,
+    "away": 3.1,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    103,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|San Diego FC|Houston Dynamo",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-15T02:30:00+00:00",
+   "home": "San Diego FC",
+   "away": "Houston Dynamo",
+   "expected_goals": [
+    1.6,
+    1.29
+   ],
+   "model_expected_goals": [
+    1.68,
+    1.22
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.4429,
+    "draw": 0.2534,
+    "away": 0.3037,
+    "over25": 0.5531,
+    "under25": 0.4469,
+    "btts": 0.5838,
+    "btts_over25": 0.4649,
+    "dc_1x": 0.6963,
+    "dc_x2": 0.5571,
+    "dc_12": 0.7466
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1189
+    ],
+    [
+     "2-1",
+     0.0918
+    ],
+    [
+     "1-0",
+     0.0842
+    ]
+   ],
+   "market": {
+    "home": 0.4382,
+    "draw": 0.2514,
+    "away": 0.3104,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.15,
+    "draw": 3.6,
+    "away": 2.96,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    67,
+    104
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E2|2026-10-15|Mansfield|Oxford",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-15T19:00:00+00:00",
+   "home": "Mansfield",
+   "away": "Oxford",
+   "expected_goals": [
+    1.53,
+    1.31
+   ],
+   "model_expected_goals": [
+    1.47,
+    1.3
+   ],
+   "rho": 0.0011,
+   "probabilities": {
+    "home": 0.4252,
+    "draw": 0.2488,
+    "away": 0.326,
+    "over25": 0.5399,
+    "under25": 0.4601,
+    "btts": 0.5718,
+    "btts_over25": 0.4548,
+    "dc_1x": 0.674,
+    "dc_x2": 0.5748,
+    "dc_12": 0.7512
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.117
+    ],
+    [
+     "2-1",
+     0.0896
+    ],
+    [
+     "1-0",
+     0.0896
+    ]
+   ],
+   "market": {
+    "home": 0.4227,
+    "draw": 0.2573,
+    "away": 0.32,
+    "over25": 0.5431
+   },
+   "odds": {
+    "home": 2.23,
+    "draw": 3.54,
+    "away": 2.89,
+    "over25": 1.73,
+    "under25": 2.02
+   },
+   "team_matches": [
+    100,
+    42
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "ARG|2026-10-16|Huracan|Gimnasia L.P.",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-16",
+   "kickoff": "2026-10-15T23:00:00+00:00",
+   "home": "Huracan",
+   "away": "Gimnasia L.P.",
+   "expected_goals": [
+    1.07,
+    0.86
+   ],
+   "model_expected_goals": [
+    1.16,
+    0.78
+   ],
+   "rho": -0.097,
+   "probabilities": {
+    "home": 0.3862,
+    "draw": 0.3381,
+    "away": 0.2757,
+    "over25": 0.306,
+    "under25": 0.694,
+    "btts": 0.3934,
+    "btts_over25": 0.2469,
+    "dc_1x": 0.7243,
+    "dc_x2": 0.6138,
+    "dc_12": 0.6619
+   },
+   "top_scores": [
+    [
+     "0-0",
+     0.1572
+    ],
+    [
+     "1-1",
+     0.1466
+    ],
+    [
+     "1-0",
+     0.1418
+    ]
+   ],
+   "market": {
+    "home": 0.3901,
+    "draw": 0.3147,
+    "away": 0.2952,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.4,
+    "draw": 2.93,
+    "away": 3.11,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    114,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|Los Angeles Galaxy|Portland Timbers",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "Los Angeles Galaxy",
+    "away": "Portland Timbers",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5633,
+    "fair_odds": 1.78,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|Chicago Fire|Philadelphia Union",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "Chicago Fire",
+    "away": "Philadelphia Union",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5631,
+    "fair_odds": 1.78,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|Real Salt Lake|San Jose Earthquakes",
+    "league": "USA",
+    "kickoff": "2026-10-15T01:30:00+00:00",
+    "home": "Real Salt Lake",
+    "away": "San Jose Earthquakes",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5137,
+    "fair_odds": 1.95,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|Colorado Rapids|Minnesota United",
+    "league": "USA",
+    "kickoff": "2026-10-15T01:30:00+00:00",
+    "home": "Colorado Rapids",
+    "away": "Minnesota United",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4971,
+    "fair_odds": 2.01,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|FC Dallas|Seattle Sounders",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "FC Dallas",
+    "away": "Seattle Sounders",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4828,
+    "fair_odds": 2.07,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|San Diego FC|Houston Dynamo",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "San Diego FC",
+    "away": "Houston Dynamo",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4649,
+    "fair_odds": 2.15,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E2|2026-10-15|Mansfield|Oxford",
+    "league": "E2",
+    "kickoff": "2026-10-15T19:00:00+00:00",
+    "home": "Mansfield",
+    "away": "Oxford",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4548,
+    "fair_odds": 2.2,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|Nashville SC|Sporting Kansas City",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "Nashville SC",
+    "away": "Sporting Kansas City",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4386,
+    "fair_odds": 2.28,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|Nashville SC|Sporting Kansas City",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "Nashville SC",
+    "away": "Sporting Kansas City",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6695,
+    "fair_odds": 1.49,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|Los Angeles Galaxy|Portland Timbers",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "Los Angeles Galaxy",
+    "away": "Portland Timbers",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6587,
+    "fair_odds": 1.52,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|Chicago Fire|Philadelphia Union",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "Chicago Fire",
+    "away": "Philadelphia Union",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6518,
+    "fair_odds": 1.53,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|Real Salt Lake|San Jose Earthquakes",
+    "league": "USA",
+    "kickoff": "2026-10-15T01:30:00+00:00",
+    "home": "Real Salt Lake",
+    "away": "San Jose Earthquakes",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6096,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|Colorado Rapids|Minnesota United",
+    "league": "USA",
+    "kickoff": "2026-10-15T01:30:00+00:00",
+    "home": "Colorado Rapids",
+    "away": "Minnesota United",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5879,
+    "fair_odds": 1.7,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|FC Dallas|Seattle Sounders",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "FC Dallas",
+    "away": "Seattle Sounders",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.576,
+    "fair_odds": 1.74,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|San Diego FC|Houston Dynamo",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "San Diego FC",
+    "away": "Houston Dynamo",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5531,
+    "fair_odds": 1.81,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|Los Angeles FC|Austin FC",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "Los Angeles FC",
+    "away": "Austin FC",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5453,
+    "fair_odds": 1.83,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E2|2026-10-15|Mansfield|Oxford",
+    "league": "E2",
+    "kickoff": "2026-10-15T19:00:00+00:00",
+    "home": "Mansfield",
+    "away": "Oxford",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5399,
+    "fair_odds": 1.85,
+    "market_odds": 1.73,
+    "edge": -0.066,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|Chicago Fire|Philadelphia Union",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "Chicago Fire",
+    "away": "Philadelphia Union",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.665,
+    "fair_odds": 1.5,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|Los Angeles Galaxy|Portland Timbers",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "Los Angeles Galaxy",
+    "away": "Portland Timbers",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6622,
+    "fair_odds": 1.51,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|Real Salt Lake|San Jose Earthquakes",
+    "league": "USA",
+    "kickoff": "2026-10-15T01:30:00+00:00",
+    "home": "Real Salt Lake",
+    "away": "San Jose Earthquakes",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6217,
+    "fair_odds": 1.61,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|Colorado Rapids|Minnesota United",
+    "league": "USA",
+    "kickoff": "2026-10-15T01:30:00+00:00",
+    "home": "Colorado Rapids",
+    "away": "Minnesota United",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6101,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|FC Dallas|Seattle Sounders",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "FC Dallas",
+    "away": "Seattle Sounders",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5969,
+    "fair_odds": 1.68,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|San Diego FC|Houston Dynamo",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "San Diego FC",
+    "away": "Houston Dynamo",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5838,
+    "fair_odds": 1.71,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E2|2026-10-15|Mansfield|Oxford",
+    "league": "E2",
+    "kickoff": "2026-10-15T19:00:00+00:00",
+    "home": "Mansfield",
+    "away": "Oxford",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5718,
+    "fair_odds": 1.75,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|Nashville SC|Sporting Kansas City",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "Nashville SC",
+    "away": "Sporting Kansas City",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5075,
+    "fair_odds": 1.97,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|Nashville SC|Sporting Kansas City",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "Nashville SC",
+    "away": "Sporting Kansas City",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9174,
+    "fair_odds": 1.09,
+    "market_odds": 1.03,
+    "edge": -0.0516,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|Los Angeles FC|Austin FC",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "Los Angeles FC",
+    "away": "Austin FC",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8671,
+    "fair_odds": 1.15,
+    "market_odds": 1.09,
+    "edge": -0.0592,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|Los Angeles Galaxy|Portland Timbers",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "Los Angeles Galaxy",
+    "away": "Portland Timbers",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7709,
+    "fair_odds": 1.3,
+    "market_odds": 1.21,
+    "edge": -0.0657,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|Chicago Fire|Philadelphia Union",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "Chicago Fire",
+    "away": "Philadelphia Union",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7646,
+    "fair_odds": 1.31,
+    "market_odds": 1.22,
+    "edge": -0.07,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|Real Salt Lake|San Jose Earthquakes",
+    "league": "USA",
+    "kickoff": "2026-10-15T01:30:00+00:00",
+    "home": "Real Salt Lake",
+    "away": "San Jose Earthquakes",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7622,
+    "fair_odds": 1.31,
+    "market_odds": 1.22,
+    "edge": -0.0689,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|Colorado Rapids|Minnesota United",
+    "league": "USA",
+    "kickoff": "2026-10-15T01:30:00+00:00",
+    "home": "Colorado Rapids",
+    "away": "Minnesota United",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7545,
+    "fair_odds": 1.33,
+    "market_odds": 1.24,
+    "edge": -0.0631,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|FC Dallas|Seattle Sounders",
+    "league": "USA",
+    "kickoff": "2026-10-15T00:30:00+00:00",
+    "home": "FC Dallas",
+    "away": "Seattle Sounders",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7543,
+    "fair_odds": 1.33,
+    "market_odds": 1.23,
+    "edge": -0.0719,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E2|2026-10-15|Mansfield|Oxford",
+    "league": "E2",
+    "kickoff": "2026-10-15T19:00:00+00:00",
+    "home": "Mansfield",
+    "away": "Oxford",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7512,
+    "fair_odds": 1.33,
+    "market_odds": 1.26,
+    "edge": -0.0545,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|San Diego FC|Houston Dynamo",
+    "league": "USA",
+    "kickoff": "2026-10-15T02:30:00+00:00",
+    "home": "San Diego FC",
+    "away": "Houston Dynamo",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7466,
+    "fair_odds": 1.34,
+    "market_odds": 1.25,
+    "edge": -0.0702,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-16|Huracan|Gimnasia L.P.",
+    "league": "ARG",
+    "kickoff": "2026-10-15T23:00:00+00:00",
+    "home": "Huracan",
+    "away": "Gimnasia L.P.",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7243,
+    "fair_odds": 1.38,
+    "market_odds": 1.32,
+    "edge": -0.0444,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }

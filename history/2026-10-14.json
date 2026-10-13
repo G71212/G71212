@@ -1,13 +1,1141 @@
 {
  "date": "2026-10-14",
  "created_at": "2026-10-12T00:43:33+00:00",
- "updated_at": "2026-10-13T02:43:00+00:00",
- "fixtures": [],
+ "updated_at": "2026-10-13T12:45:11+00:00",
+ "fixtures": [
+  {
+   "id": "E1|2026-10-14|Norwich|Southampton",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-14",
+   "kickoff": "2026-10-14T18:45:00+00:00",
+   "home": "Norwich",
+   "away": "Southampton",
+   "expected_goals": [
+    1.69,
+    1.6
+   ],
+   "model_expected_goals": [
+    1.55,
+    1.56
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.3995,
+    "draw": 0.2381,
+    "away": 0.3624,
+    "over25": 0.6393,
+    "under25": 0.3607,
+    "btts": 0.6554,
+    "btts_over25": 0.5508,
+    "dc_1x": 0.6376,
+    "dc_x2": 0.6005,
+    "dc_12": 0.7619
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1045
+    ],
+    [
+     "2-1",
+     0.085
+    ],
+    [
+     "1-2",
+     0.0806
+    ]
+   ],
+   "market": {
+    "home": 0.4004,
+    "draw": 0.244,
+    "away": 0.3556,
+    "over25": 0.6461
+   },
+   "odds": {
+    "home": 2.37,
+    "draw": 3.78,
+    "away": 2.65,
+    "over25": 1.48,
+    "under25": 2.54
+   },
+   "team_matches": [
+    136,
+    90
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-14|Portsmouth|Sheffield United",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-14",
+   "kickoff": "2026-10-14T18:45:00+00:00",
+   "home": "Portsmouth",
+   "away": "Sheffield United",
+   "expected_goals": [
+    1.44,
+    1.21
+   ],
+   "model_expected_goals": [
+    1.32,
+    1.28
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.4189,
+    "draw": 0.2688,
+    "away": 0.3123,
+    "over25": 0.493,
+    "under25": 0.507,
+    "btts": 0.5395,
+    "btts_over25": 0.4115,
+    "dc_1x": 0.6877,
+    "dc_x2": 0.5811,
+    "dc_12": 0.7312
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.128
+    ],
+    [
+     "1-0",
+     0.0972
+    ],
+    [
+     "2-1",
+     0.0886
+    ]
+   ],
+   "market": {
+    "home": 0.4253,
+    "draw": 0.2724,
+    "away": 0.3024,
+    "over25": 0.4955
+   },
+   "odds": {
+    "home": 2.24,
+    "draw": 3.41,
+    "away": 3.09,
+    "over25": 1.88,
+    "under25": 1.85
+   },
+   "team_matches": [
+    100,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-14|QPR|Derby",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-14",
+   "kickoff": "2026-10-14T18:45:00+00:00",
+   "home": "QPR",
+   "away": "Derby",
+   "expected_goals": [
+    1.76,
+    1.02
+   ],
+   "model_expected_goals": [
+    1.44,
+    1.2
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.543,
+    "draw": 0.2435,
+    "away": 0.2136,
+    "over25": 0.5247,
+    "under25": 0.4753,
+    "btts": 0.5328,
+    "btts_over25": 0.417,
+    "dc_1x": 0.7864,
+    "dc_x2": 0.457,
+    "dc_12": 0.7565
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1158
+    ],
+    [
+     "1-0",
+     0.1052
+    ],
+    [
+     "2-1",
+     0.098
+    ]
+   ],
+   "market": {
+    "home": 0.5636,
+    "draw": 0.2394,
+    "away": 0.1971,
+    "over25": 0.5328
+   },
+   "odds": {
+    "home": 1.71,
+    "draw": 3.81,
+    "away": 4.57,
+    "over25": 1.76,
+    "under25": 1.98
+   },
+   "team_matches": [
+    136,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "E1|2026-10-14|Lincoln|West Ham",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-10-14",
+   "kickoff": "2026-10-14T19:00:00+00:00",
+   "home": "Lincoln",
+   "away": "West Ham",
+   "expected_goals": [
+    1.07,
+    1.9
+   ],
+   "model_expected_goals": [
+    1.1,
+    1.68
+   ],
+   "rho": -0.039,
+   "probabilities": {
+    "home": 0.2046,
+    "draw": 0.2299,
+    "away": 0.5655,
+    "over25": 0.5701,
+    "under25": 0.4299,
+    "btts": 0.5619,
+    "btts_over25": 0.4537,
+    "dc_1x": 0.4345,
+    "dc_x2": 0.7954,
+    "dc_12": 0.7701
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1081
+    ],
+    [
+     "1-2",
+     0.0991
+    ],
+    [
+     "0-1",
+     0.0937
+    ]
+   ],
+   "market": {
+    "home": 0.1962,
+    "draw": 0.229,
+    "away": 0.5748,
+    "over25": 0.5782
+   },
+   "odds": {
+    "home": 4.6,
+    "draw": 3.98,
+    "away": 1.68,
+    "over25": 1.64,
+    "under25": 2.18
+   },
+   "team_matches": [
+    9,
+    9
+   ],
+   "flags": [
+    "Lincoln new to league",
+    "West Ham relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "ARG|2026-10-14|Sarmiento Junin|River Plate",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-14",
+   "kickoff": "2026-10-14T22:00:00+00:00",
+   "home": "Sarmiento Junin",
+   "away": "River Plate",
+   "expected_goals": [
+    0.77,
+    1.51
+   ],
+   "model_expected_goals": [
+    1.04,
+    1.25
+   ],
+   "rho": -0.097,
+   "probabilities": {
+    "home": 0.1782,
+    "draw": 0.2834,
+    "away": 0.5385,
+    "over25": 0.3983,
+    "under25": 0.6017,
+    "btts": 0.4289,
+    "btts_over25": 0.2987,
+    "dc_1x": 0.4615,
+    "dc_x2": 0.8218,
+    "dc_12": 0.7166
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.1433
+    ],
+    [
+     "1-1",
+     0.1302
+    ],
+    [
+     "0-2",
+     0.1171
+    ]
+   ],
+   "market": {
+    "home": 0.1655,
+    "draw": 0.2681,
+    "away": 0.5664,
+    "over25": null
+   },
+   "odds": {
+    "home": 5.26,
+    "draw": 3.37,
+    "away": 1.69,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    106,
+    116
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|Columbus Crew|Charlotte",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-14T23:30:00+00:00",
+   "home": "Columbus Crew",
+   "away": "Charlotte",
+   "expected_goals": [
+    1.71,
+    1.28
+   ],
+   "model_expected_goals": [
+    1.63,
+    1.36
+   ],
+   "rho": -0.0387,
+   "probabilities": {
+    "home": 0.4708,
+    "draw": 0.2463,
+    "away": 0.2829,
+    "over25": 0.5729,
+    "under25": 0.4271,
+    "btts": 0.5944,
+    "btts_over25": 0.4798,
+    "dc_1x": 0.7171,
+    "dc_x2": 0.5292,
+    "dc_12": 0.7537
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1146
+    ],
+    [
+     "2-1",
+     0.0941
+    ],
+    [
+     "1-0",
+     0.0821
+    ]
+   ],
+   "market": {
+    "home": 0.4814,
+    "draw": 0.2371,
+    "away": 0.2815,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.97,
+    "draw": 3.8,
+    "away": 3.24,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    108,
+    105
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|DC United|New York Red Bulls",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-14T23:30:00+00:00",
+   "home": "DC United",
+   "away": "New York Red Bulls",
+   "expected_goals": [
+    1.71,
+    1.2
+   ],
+   "model_expected_goals": [
+    1.5,
+    1.42
+   ],
+   "rho": -0.0387,
+   "probabilities": {
+    "home": 0.4882,
+    "draw": 0.2471,
+    "away": 0.2646,
+    "over25": 0.5571,
+    "under25": 0.4429,
+    "btts": 0.5775,
+    "btts_over25": 0.4614,
+    "dc_1x": 0.7354,
+    "dc_x2": 0.5118,
+    "dc_12": 0.7529
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1161
+    ],
+    [
+     "2-1",
+     0.0955
+    ],
+    [
+     "1-0",
+     0.0885
+    ]
+   ],
+   "market": {
+    "home": 0.5136,
+    "draw": 0.229,
+    "away": 0.2574,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.85,
+    "draw": 3.9,
+    "away": 3.5,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    95,
+    105
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|FC Cincinnati|New England Revolution",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-14T23:30:00+00:00",
+   "home": "FC Cincinnati",
+   "away": "New England Revolution",
+   "expected_goals": [
+    1.93,
+    1.47
+   ],
+   "model_expected_goals": [
+    1.95,
+    1.45
+   ],
+   "rho": -0.0387,
+   "probabilities": {
+    "home": 0.4825,
+    "draw": 0.2278,
+    "away": 0.2897,
+    "over25": 0.6598,
+    "under25": 0.3402,
+    "btts": 0.6613,
+    "btts_over25": 0.5629,
+    "dc_1x": 0.7103,
+    "dc_x2": 0.5175,
+    "dc_12": 0.7722
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0984
+    ],
+    [
+     "2-1",
+     0.0915
+    ],
+    [
+     "1-2",
+     0.0694
+    ]
+   ],
+   "market": {
+    "home": 0.4814,
+    "draw": 0.2274,
+    "away": 0.2912,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.97,
+    "draw": 3.95,
+    "away": 3.14,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    100
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  },
+  {
+   "id": "USA|2026-10-15|Inter Miami|New York City",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-15",
+   "kickoff": "2026-10-14T23:30:00+00:00",
+   "home": "Inter Miami",
+   "away": "New York City",
+   "expected_goals": [
+    2.37,
+    1.17
+   ],
+   "model_expected_goals": [
+    2.18,
+    1.36
+   ],
+   "rho": -0.0387,
+   "probabilities": {
+    "home": 0.6367,
+    "draw": 0.1919,
+    "away": 0.1714,
+    "over25": 0.6875,
+    "under25": 0.3125,
+    "btts": 0.6293,
+    "btts_over25": 0.5459,
+    "dc_1x": 0.8286,
+    "dc_x2": 0.3633,
+    "dc_12": 0.8081
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0953
+    ],
+    [
+     "1-1",
+     0.0834
+    ],
+    [
+     "2-0",
+     0.0812
+    ]
+   ],
+   "market": {
+    "home": 0.6522,
+    "draw": 0.1834,
+    "away": 0.1644,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.48,
+    "draw": 4.74,
+    "away": 5.24,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    106
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-13T12:45:11+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|FC Cincinnati|New England Revolution",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "FC Cincinnati",
+    "away": "New England Revolution",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5629,
+    "fair_odds": 1.78,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-14|Norwich|Southampton",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "Norwich",
+    "away": "Southampton",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5508,
+    "fair_odds": 1.82,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|Inter Miami|New York City",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "Inter Miami",
+    "away": "New York City",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5459,
+    "fair_odds": 1.83,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|Columbus Crew|Charlotte",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "Columbus Crew",
+    "away": "Charlotte",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4798,
+    "fair_odds": 2.08,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-15|DC United|New York Red Bulls",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "DC United",
+    "away": "New York Red Bulls",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4614,
+    "fair_odds": 2.17,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-14|Lincoln|West Ham",
+    "league": "E1",
+    "kickoff": "2026-10-14T19:00:00+00:00",
+    "home": "Lincoln",
+    "away": "West Ham",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4537,
+    "fair_odds": 2.2,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-14|QPR|Derby",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "QPR",
+    "away": "Derby",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.417,
+    "fair_odds": 2.4,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-10-14|Portsmouth|Sheffield United",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "Portsmouth",
+    "away": "Sheffield United",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4115,
+    "fair_odds": 2.43,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|Inter Miami|New York City",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "Inter Miami",
+    "away": "New York City",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6875,
+    "fair_odds": 1.45,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|FC Cincinnati|New England Revolution",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "FC Cincinnati",
+    "away": "New England Revolution",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6598,
+    "fair_odds": 1.52,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-10-14|Norwich|Southampton",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "Norwich",
+    "away": "Southampton",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6393,
+    "fair_odds": 1.56,
+    "market_odds": 1.48,
+    "edge": -0.0538,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|Columbus Crew|Charlotte",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "Columbus Crew",
+    "away": "Charlotte",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5729,
+    "fair_odds": 1.75,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-10-14|Lincoln|West Ham",
+    "league": "E1",
+    "kickoff": "2026-10-14T19:00:00+00:00",
+    "home": "Lincoln",
+    "away": "West Ham",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5701,
+    "fair_odds": 1.75,
+    "market_odds": 1.64,
+    "edge": -0.0651,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-15|DC United|New York Red Bulls",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "DC United",
+    "away": "New York Red Bulls",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5571,
+    "fair_odds": 1.8,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-10-14|QPR|Derby",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "QPR",
+    "away": "Derby",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5247,
+    "fair_odds": 1.91,
+    "market_odds": 1.76,
+    "edge": -0.0765,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|FC Cincinnati|New England Revolution",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "FC Cincinnati",
+    "away": "New England Revolution",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6613,
+    "fair_odds": 1.51,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-14|Norwich|Southampton",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "Norwich",
+    "away": "Southampton",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6554,
+    "fair_odds": 1.53,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|Inter Miami|New York City",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "Inter Miami",
+    "away": "New York City",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6293,
+    "fair_odds": 1.59,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|Columbus Crew|Charlotte",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "Columbus Crew",
+    "away": "Charlotte",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5944,
+    "fair_odds": 1.68,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-15|DC United|New York Red Bulls",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "DC United",
+    "away": "New York Red Bulls",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5775,
+    "fair_odds": 1.73,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-14|Lincoln|West Ham",
+    "league": "E1",
+    "kickoff": "2026-10-14T19:00:00+00:00",
+    "home": "Lincoln",
+    "away": "West Ham",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5619,
+    "fair_odds": 1.78,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-14|Portsmouth|Sheffield United",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "Portsmouth",
+    "away": "Sheffield United",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5395,
+    "fair_odds": 1.85,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-10-14|QPR|Derby",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "QPR",
+    "away": "Derby",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5328,
+    "fair_odds": 1.88,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|Inter Miami|New York City",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "Inter Miami",
+    "away": "New York City",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8286,
+    "fair_odds": 1.21,
+    "market_odds": 1.13,
+    "edge": -0.0655,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-14|Sarmiento Junin|River Plate",
+    "league": "ARG",
+    "kickoff": "2026-10-14T22:00:00+00:00",
+    "home": "Sarmiento Junin",
+    "away": "River Plate",
+    "selection": "X2",
+    "tier": "strong",
+    "probability": 0.8218,
+    "fair_odds": 1.22,
+    "market_odds": 1.13,
+    "edge": -0.075,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-14|Lincoln|West Ham",
+    "league": "E1",
+    "kickoff": "2026-10-14T19:00:00+00:00",
+    "home": "Lincoln",
+    "away": "West Ham",
+    "selection": "X2",
+    "tier": "extra",
+    "probability": 0.7954,
+    "fair_odds": 1.26,
+    "market_odds": 1.18,
+    "edge": -0.0604,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-14|QPR|Derby",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "QPR",
+    "away": "Derby",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7864,
+    "fair_odds": 1.27,
+    "market_odds": 1.18,
+    "edge": -0.0718,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|FC Cincinnati|New England Revolution",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "FC Cincinnati",
+    "away": "New England Revolution",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7722,
+    "fair_odds": 1.3,
+    "market_odds": 1.21,
+    "edge": -0.0653,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-14|Norwich|Southampton",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "Norwich",
+    "away": "Southampton",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7619,
+    "fair_odds": 1.31,
+    "market_odds": 1.25,
+    "edge": -0.0468,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|Columbus Crew|Charlotte",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "Columbus Crew",
+    "away": "Charlotte",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7537,
+    "fair_odds": 1.33,
+    "market_odds": 1.23,
+    "edge": -0.0767,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-15|DC United|New York Red Bulls",
+    "league": "USA",
+    "kickoff": "2026-10-14T23:30:00+00:00",
+    "home": "DC United",
+    "away": "New York Red Bulls",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7529,
+    "fair_odds": 1.33,
+    "market_odds": 1.21,
+    "edge": -0.0888,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-10-14|Portsmouth|Sheffield United",
+    "league": "E1",
+    "kickoff": "2026-10-14T18:45:00+00:00",
+    "home": "Portsmouth",
+    "away": "Sheffield United",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7312,
+    "fair_odds": 1.37,
+    "market_odds": 1.3,
+    "edge": -0.0505,
+    "published_at": "2026-10-13T12:45:11+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }
