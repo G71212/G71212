@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-13 12:45 UTC · kick-off times in UTC_
+_Generated 2026-10-13 21:51 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -104,55 +104,55 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 10 matches analysed across 3 leagues.
 
-**Results:** ✅ 1 won · ❌ 0 lost · 28 pending
+**Results:** ✅ 20 won · ❌ 7 lost · 2 pending
 
 ### 🔥 BTTS & Over 2.5
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 18:45 | England · Championship | Cardiff vs Watford | BTTS & Over 2.5 | 50% ★ | 1.98 | - |  |
-| 19:00 | England · Championship | Stoke vs Middlesbrough | BTTS & Over 2.5 | 46% ☆ | 2.19 | - |  |
-| 18:45 | England · Championship | Wolves vs Bolton | BTTS & Over 2.5 | 44% ☆ | 2.30 | - |  |
-| 18:45 | England · Championship | Millwall vs Swansea | BTTS & Over 2.5 | 42% ☆ | 2.39 | - |  |
-| 19:00 | England · Championship | Birmingham vs Preston | BTTS & Over 2.5 | 41% ☆ | 2.45 | - |  |
-| 18:45 | England · Championship | Bristol City vs Blackburn | BTTS & Over 2.5 | 40% ☆ | 2.50 | - |  |
+| 18:45 | England · Championship | Cardiff vs Watford | BTTS & Over 2.5 | 50% ★ | 1.98 | - | ✅ 5-1 |
+| 19:00 | England · Championship | Stoke vs Middlesbrough | BTTS & Over 2.5 | 46% ☆ | 2.19 | - | ✅ 2-3 |
+| 18:45 | England · Championship | Wolves vs Bolton | BTTS & Over 2.5 | 44% ☆ | 2.30 | - | ✅ 1-3 |
+| 18:45 | England · Championship | Millwall vs Swansea | BTTS & Over 2.5 | 42% ☆ | 2.39 | - | ❌ 0-1 |
+| 19:00 | England · Championship | Birmingham vs Preston | BTTS & Over 2.5 | 41% ☆ | 2.45 | - | ❌ 4-0 |
+| 18:45 | England · Championship | Bristol City vs Blackburn | BTTS & Over 2.5 | 40% ☆ | 2.50 | - | ❌ 0-1 |
 
 ### ⚽ Over 2.5 Goals
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 18:45 | England · Championship | Cardiff vs Watford | Over 2.5 | 62% ☆ | 1.61 | 1.49 |  |
-| 18:45 | England · Championship | Wolves vs Bolton | Over 2.5 | 61% ☆ | 1.64 | 1.55 |  |
-| 19:00 | England · Championship | Stoke vs Middlesbrough | Over 2.5 | 55% ☆ | 1.83 | 1.68 |  |
-| 19:00 | England · Championship | Birmingham vs Preston | Over 2.5 | 54% ☆ | 1.86 | 1.71 |  |
-| 18:45 | England · Championship | Burnley vs Charlton | Over 2.5 | 50% ☆ | 1.98 | 1.80 |  |
+| 18:45 | England · Championship | Cardiff vs Watford | Over 2.5 | 62% ☆ | 1.61 | 1.49 | ✅ 5-1 |
+| 18:45 | England · Championship | Wolves vs Bolton | Over 2.5 | 61% ☆ | 1.64 | 1.55 | ✅ 1-3 |
+| 19:00 | England · Championship | Stoke vs Middlesbrough | Over 2.5 | 55% ☆ | 1.83 | 1.68 | ✅ 2-3 |
+| 19:00 | England · Championship | Birmingham vs Preston | Over 2.5 | 54% ☆ | 1.86 | 1.71 | ✅ 4-0 |
+| 18:45 | England · Championship | Burnley vs Charlton | Over 2.5 | 50% ☆ | 1.98 | 1.80 | ✅ 2-2 |
 
 ### 🎯 Both Teams To Score
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 18:45 | England · Championship | Cardiff vs Watford | BTTS Yes | 61% ★ | 1.65 | - |  |
-| 19:00 | England · Championship | Stoke vs Middlesbrough | BTTS Yes | 57% ☆ | 1.74 | - |  |
-| 18:45 | England · Championship | Millwall vs Swansea | BTTS Yes | 55% ☆ | 1.83 | - |  |
-| 18:45 | England · Championship | Bristol City vs Blackburn | BTTS Yes | 53% ☆ | 1.90 | - |  |
-| 18:45 | England · Championship | Wolves vs Bolton | BTTS Yes | 52% ☆ | 1.91 | - |  |
+| 18:45 | England · Championship | Cardiff vs Watford | BTTS Yes | 61% ★ | 1.65 | - | ✅ 5-1 |
+| 19:00 | England · Championship | Stoke vs Middlesbrough | BTTS Yes | 57% ☆ | 1.74 | - | ✅ 2-3 |
+| 18:45 | England · Championship | Millwall vs Swansea | BTTS Yes | 55% ☆ | 1.83 | - | ❌ 0-1 |
+| 18:45 | England · Championship | Bristol City vs Blackburn | BTTS Yes | 53% ☆ | 1.90 | - | ❌ 0-1 |
+| 18:45 | England · Championship | Wolves vs Bolton | BTTS Yes | 52% ☆ | 1.91 | - | ✅ 1-3 |
 | 18:45 | Scotland · Championship | Queens Park vs Inverness C | BTTS Yes | 52% ☆ | 1.94 | - |  |
-| 19:00 | England · Championship | Birmingham vs Preston | BTTS Yes | 51% ☆ | 1.94 | - |  |
-| 18:45 | England · Championship | Wrexham vs West Brom | BTTS Yes | 51% ☆ | 1.94 | - |  |
+| 19:00 | England · Championship | Birmingham vs Preston | BTTS Yes | 51% ☆ | 1.94 | - | ❌ 4-0 |
+| 18:45 | England · Championship | Wrexham vs West Brom | BTTS Yes | 51% ☆ | 1.94 | - | ✅ 1-2 |
 
 ### 🛡️ Double Chance
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 18:45 | England · Championship | Wolves vs Bolton | 1X | 88% ★★ | 1.14 | 1.08 |  |
-| 19:00 | England · Championship | Birmingham vs Preston | 1X | 83% ★ | 1.20 | 1.13 |  |
-| 18:45 | England · Championship | Burnley vs Charlton | 1X | 82% ★ | 1.21 | 1.15 |  |
+| 18:45 | England · Championship | Wolves vs Bolton | 1X | 88% ★★ | 1.14 | 1.08 | ❌ 1-3 |
+| 19:00 | England · Championship | Birmingham vs Preston | 1X | 83% ★ | 1.20 | 1.13 | ✅ 4-0 |
+| 18:45 | England · Championship | Burnley vs Charlton | 1X | 82% ★ | 1.21 | 1.15 | ✅ 2-2 |
 | 18:45 | Scotland · Championship | Queens Park vs Inverness C | X2 | 80% ☆ | 1.26 | 1.16 |  |
-| 18:45 | England · Championship | Cardiff vs Watford | 1X | 78% ☆ | 1.28 | 1.19 |  |
-| 19:00 | England · Championship | Stoke vs Middlesbrough | 12 | 75% ☆ | 1.34 | 1.27 |  |
-| 18:45 | England · Championship | Bristol City vs Blackburn | 12 | 74% ☆ | 1.36 | 1.30 |  |
-| 18:45 | England · Championship | Millwall vs Swansea | 12 | 73% ☆ | 1.37 | 1.30 |  |
-| 18:45 | England · Championship | Wrexham vs West Brom | 12 | 72% ☆ | 1.38 | 1.31 |  |
+| 18:45 | England · Championship | Cardiff vs Watford | 1X | 78% ☆ | 1.28 | 1.19 | ✅ 5-1 |
+| 19:00 | England · Championship | Stoke vs Middlesbrough | 12 | 75% ☆ | 1.34 | 1.27 | ✅ 2-3 |
+| 18:45 | England · Championship | Bristol City vs Blackburn | 12 | 74% ☆ | 1.36 | 1.30 | ✅ 0-1 |
+| 18:45 | England · Championship | Millwall vs Swansea | 12 | 73% ☆ | 1.37 | 1.30 | ✅ 0-1 |
+| 18:45 | England · Championship | Wrexham vs West Brom | 12 | 72% ☆ | 1.38 | 1.31 | ✅ 1-2 |
 | 00:00 | Brazil · Serie A | Bragantino vs Cruzeiro | 12 | 72% ☆ | 1.39 | 1.26 | ✅ 4-2 |
 
 
@@ -283,10 +283,10 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 26/29 (90%), ROI -7% | 31/35 (89%), ROI -8% | 31/35 (89%), ROI -8% |
-| BTTS & Over 2.5 | 42/74 (57%) | 73/136 (54%) | 73/136 (54%) |
-| Over 2.5 Goals | 49/75 (65%), ROI -12% | 87/138 (63%), ROI -11% | 87/138 (63%), ROI -11% |
-| Both Teams To Score | 45/75 (60%) | 87/141 (62%) | 87/141 (62%) |
-| Double Chance | 79/85 (93%), ROI +4% | 141/162 (87%), ROI -1% | 141/162 (87%), ROI -1% |
+| BTTS & Over 2.5 | 45/80 (56%) | 76/142 (54%) | 76/142 (54%) |
+| Over 2.5 Goals | 54/80 (68%), ROI -4% | 92/143 (64%), ROI -7% | 92/143 (64%), ROI -7% |
+| Both Teams To Score | 49/82 (60%) | 91/148 (61%) | 91/148 (61%) |
+| Double Chance | 86/93 (92%), ROI +4% | 148/170 (87%), ROI -1% | 148/170 (87%), ROI -1% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
