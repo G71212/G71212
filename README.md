@@ -1,104 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-13 21:51 UTC · kick-off times in UTC_
+_Generated 2026-10-14 00:36 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Monday 12 October 2026
-
-29 matches analysed across 18 leagues.
-
-**Results:** ✅ 45 won · ❌ 15 lost
-
-### 🔒 Bankers: the day's safest tips
-
-| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
-|---|---|---|---|---|---|---|
-| 15:00 | PAOK vs Kalamata | Double Chance | 1X | 94% | 1.06 | ❌ 1-3 |
-| 17:00 | Elfsborg vs Halmstad | Double Chance | 1X | 90% | 1.11 | ✅ 4-0 |
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 18:30 | Poland · Ekstraklasa | GKS Katowice vs Wieczysta Krakow | BTTS & Over 2.5 | 53% ★ | 1.90 | - | ✅ 2-1 |
-| 17:00 | Norway · Eliteserien | KFUM Oslo vs Valerenga | BTTS & Over 2.5 | 52% ★ | 1.94 | - | ✅ 2-1 |
-| 16:00 | Poland · Ekstraklasa | Radomiak Radom vs Motor Lublin | BTTS & Over 2.5 | 50% ☆ | 2.01 | - | ✅ 2-3 |
-| 17:00 | Denmark · Superliga | Aarhus vs Sonderjyske | BTTS & Over 2.5 | 49% ☆ | 2.02 | - | ❌ 3-0 |
-| 19:00 | England · Premier League | Coventry vs Newcastle | BTTS & Over 2.5 | 48% ☆ | 2.07 | - | ✅ 4-1 |
-| 16:30 | Italy · Serie A | Atalanta vs Venezia | BTTS & Over 2.5 | 46% ☆ | 2.15 | - | ✅ 3-1 |
-| 18:45 | France · Ligue 2 | Dijon vs Metz | BTTS & Over 2.5 | 46% ☆ | 2.16 | - | ✅ 4-2 |
-| 15:00 | Finland · Veikkausliiga | VPS vs Gnistan | BTTS & Over 2.5 | 45% ☆ | 2.20 | - | ❌ 1-0 |
-| 19:00 | Brazil · Serie A | Coritiba vs Botafogo RJ | BTTS & Over 2.5 | 45% ☆ | 2.20 | - | ❌ 1-1 |
-| 17:00 | Sweden · Allsvenskan | Malmo FF vs Kalmar | BTTS & Over 2.5 | 45% ☆ | 2.22 | - | ❌ 1-0 |
-| 17:00 | Turkey · Süper Lig | Eyupspor vs Goztep | BTTS & Over 2.5 | 45% ☆ | 2.23 | - | ❌ 0-4 |
-| 01:15 | Mexico · Liga MX | UNAM Pumas vs Cruz Azul | BTTS & Over 2.5 | 45% ☆ | 2.24 | - | ✅ 3-3 |
-| 16:00 | Finland · Veikkausliiga | AC Oulu vs HJK | BTTS & Over 2.5 | 43% ☆ | 2.32 | - | ✅ 3-4 |
-| 22:30 | Brazil · Serie A | Chapecoense-SC vs Athletico-PR | BTTS & Over 2.5 | 43% ☆ | 2.32 | - | ✅ 1-4 |
-| 19:00 | Ireland · Premier Division | Shamrock Rovers vs Bohemians | BTTS & Over 2.5 | 41% ☆ | 2.42 | - | ✅ 2-1 |
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 15:00 | Greece · Super League | PAOK vs Kalamata | Over 2.5 | 65% ★ | 1.54 | 1.44 | ✅ 1-3 |
-| 18:30 | Poland · Ekstraklasa | GKS Katowice vs Wieczysta Krakow | Over 2.5 | 62% ★ | 1.61 | - | ✅ 2-1 |
-| 17:00 | Denmark · Superliga | Aarhus vs Sonderjyske | Over 2.5 | 62% ★ | 1.61 | - | ✅ 3-0 |
-| 17:00 | Norway · Eliteserien | KFUM Oslo vs Valerenga | Over 2.5 | 60% ☆ | 1.66 | - | ✅ 2-1 |
-| 16:30 | Italy · Serie A | Atalanta vs Venezia | Over 2.5 | 60% ☆ | 1.66 | 1.54 | ✅ 3-1 |
-| 16:00 | Poland · Ekstraklasa | Radomiak Radom vs Motor Lublin | Over 2.5 | 58% ☆ | 1.71 | - | ✅ 2-3 |
-| 19:00 | England · Premier League | Coventry vs Newcastle | Over 2.5 | 58% ☆ | 1.73 | 1.63 | ✅ 4-1 |
-| 17:00 | Sweden · Allsvenskan | Malmo FF vs Kalmar | Over 2.5 | 56% ☆ | 1.78 | - | ❌ 1-0 |
-| 18:45 | France · Ligue 2 | Dijon vs Metz | Over 2.5 | 55% ☆ | 1.82 | 1.69 | ✅ 4-2 |
-| 16:00 | Finland · Veikkausliiga | AC Oulu vs HJK | Over 2.5 | 54% ☆ | 1.85 | - | ✅ 3-4 |
-| 17:00 | Turkey · Süper Lig | Eyupspor vs Goztep | Over 2.5 | 54% ☆ | 1.85 | 1.70 | ✅ 0-4 |
-| 15:00 | Finland · Veikkausliiga | VPS vs Gnistan | Over 2.5 | 54% ☆ | 1.86 | - | ❌ 1-0 |
-| 19:00 | Brazil · Serie A | Coritiba vs Botafogo RJ | Over 2.5 | 54% ☆ | 1.86 | - | ❌ 1-1 |
-| 01:15 | Mexico · Liga MX | UNAM Pumas vs Cruz Azul | Over 2.5 | 54% ☆ | 1.87 | - | ✅ 3-3 |
-| 22:30 | Brazil · Serie A | Chapecoense-SC vs Athletico-PR | Over 2.5 | 52% ☆ | 1.92 | - | ✅ 1-4 |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 18:30 | Poland · Ekstraklasa | GKS Katowice vs Wieczysta Krakow | BTTS Yes | 64% ★ | 1.56 | - | ✅ 2-1 |
-| 17:00 | Norway · Eliteserien | KFUM Oslo vs Valerenga | BTTS Yes | 62% ★ | 1.60 | - | ✅ 2-1 |
-| 16:00 | Poland · Ekstraklasa | Radomiak Radom vs Motor Lublin | BTTS Yes | 62% ★ | 1.61 | - | ✅ 2-3 |
-| 19:00 | England · Premier League | Coventry vs Newcastle | BTTS Yes | 60% ★ | 1.66 | - | ✅ 4-1 |
-| 17:00 | Denmark · Superliga | Aarhus vs Sonderjyske | BTTS Yes | 60% ☆ | 1.68 | - | ❌ 3-0 |
-| 18:45 | France · Ligue 2 | Dijon vs Metz | BTTS Yes | 58% ☆ | 1.72 | - | ✅ 4-2 |
-| 19:00 | Brazil · Serie A | Coritiba vs Botafogo RJ | BTTS Yes | 58% ☆ | 1.74 | - | ✅ 1-1 |
-| 15:00 | Finland · Veikkausliiga | VPS vs Gnistan | BTTS Yes | 57% ☆ | 1.74 | - | ❌ 1-0 |
-| 17:00 | Turkey · Süper Lig | Eyupspor vs Goztep | BTTS Yes | 57% ☆ | 1.75 | - | ❌ 0-4 |
-| 01:15 | Mexico · Liga MX | UNAM Pumas vs Cruz Azul | BTTS Yes | 57% ☆ | 1.75 | - | ✅ 3-3 |
-| 17:00 | Sweden · Allsvenskan | Malmo FF vs Kalmar | BTTS Yes | 56% ☆ | 1.79 | - | ❌ 1-0 |
-| 16:30 | Italy · Serie A | Atalanta vs Venezia | BTTS Yes | 56% ☆ | 1.79 | - | ✅ 3-1 |
-| 22:30 | Brazil · Serie A | Chapecoense-SC vs Athletico-PR | BTTS Yes | 55% ☆ | 1.81 | - | ✅ 1-4 |
-| 19:00 | Ireland · Premier Division | Shamrock Rovers vs Bohemians | BTTS Yes | 55% ☆ | 1.82 | - | ✅ 2-1 |
-| 16:00 | Finland · Veikkausliiga | AC Oulu vs HJK | BTTS Yes | 54% ☆ | 1.84 | - | ✅ 3-4 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 15:00 | Greece · Super League | PAOK vs Kalamata | 1X | 94% 🔒 | 1.06 | 0.99 | ❌ 1-3 |
-| 17:00 | Sweden · Allsvenskan | Elfsborg vs Halmstad | 1X | 90% 🔒 | 1.11 | 1.04 | ✅ 4-0 |
-| 16:30 | Italy · Serie A | Atalanta vs Venezia | 1X | 83% ★ | 1.21 | 1.13 | ✅ 3-1 |
-| 17:00 | Denmark · Superliga | Aarhus vs Sonderjyske | 1X | 81% ★ | 1.24 | 1.15 | ✅ 3-0 |
-| 16:00 | Finland · Veikkausliiga | AC Oulu vs HJK | X2 | 78% ☆ | 1.27 | 1.16 | ✅ 3-4 |
-| 17:00 | Sweden · Allsvenskan | Malmo FF vs Kalmar | 1X | 78% ☆ | 1.28 | 1.18 | ✅ 1-0 |
-| 19:15 | Portugal · Primeira Liga | Famalicao vs Alverca | 1X | 78% ☆ | 1.29 | 1.18 | ❌ 1-4 |
-| 17:00 | Norway · Eliteserien | KFUM Oslo vs Valerenga | 12 | 76% ☆ | 1.32 | 1.22 | ✅ 2-1 |
-| 18:30 | Poland · Ekstraklasa | GKS Katowice vs Wieczysta Krakow | 12 | 75% ☆ | 1.34 | 1.22 | ✅ 2-1 |
-| 18:45 | France · Ligue 2 | Dijon vs Metz | 12 | 75% ☆ | 1.34 | 1.25 | ✅ 4-2 |
-| 15:00 | Finland · Veikkausliiga | VPS vs Gnistan | 12 | 74% ☆ | 1.34 | 1.24 | ✅ 1-0 |
-| 22:30 | Brazil · Serie A | Chapecoense-SC vs Athletico-PR | 12 | 74% ☆ | 1.34 | 1.27 | ✅ 1-4 |
-| 19:00 | England · Premier League | Coventry vs Newcastle | 12 | 74% ☆ | 1.35 | 1.27 | ✅ 4-1 |
-| 12:00 | Spain · Segunda División | Valladolid vs Albacete | 12 | 74% ☆ | 1.35 | 1.27 | ✅ 5-0 |
-| 19:00 | Brazil · Serie A | Coritiba vs Botafogo RJ | 12 | 74% ☆ | 1.35 | 1.27 | ❌ 1-1 |
-
 
 ## Tuesday 13 October 2026
 
@@ -278,15 +184,20 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 02:30 | USA · MLS | San Diego FC vs Houston Dynamo | 12 | 75% ☆ | 1.34 | 1.25 |  |
 | 23:00 | Argentina · Liga Profesional | Huracan vs Gimnasia L.P. | 1X | 72% ☆ | 1.38 | 1.32 |  |
 
+
+## Friday 16 October 2026
+
+_No upcoming matches in the published fixtures for this day._
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 26/29 (90%), ROI -7% | 31/35 (89%), ROI -8% | 31/35 (89%), ROI -8% |
-| BTTS & Over 2.5 | 45/80 (56%) | 76/142 (54%) | 76/142 (54%) |
-| Over 2.5 Goals | 54/80 (68%), ROI -4% | 92/143 (64%), ROI -7% | 92/143 (64%), ROI -7% |
-| Both Teams To Score | 49/82 (60%) | 91/148 (61%) | 91/148 (61%) |
-| Double Chance | 86/93 (92%), ROI +4% | 148/170 (87%), ROI -1% | 148/170 (87%), ROI -1% |
+| BTTS & Over 2.5 | 43/77 (56%) | 76/142 (54%) | 76/142 (54%) |
+| Over 2.5 Goals | 52/77 (68%), ROI -4% | 92/143 (64%), ROI -7% | 92/143 (64%), ROI -7% |
+| Both Teams To Score | 46/78 (59%) | 91/148 (61%) | 91/148 (61%) |
+| Double Chance | 80/86 (93%), ROI +4% | 148/170 (87%), ROI -1% | 148/170 (87%), ROI -1% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

@@ -1,7 +1,7 @@
 {
  "date": "2026-10-14",
  "created_at": "2026-10-12T00:43:33+00:00",
- "updated_at": "2026-10-13T21:51:13+00:00",
+ "updated_at": "2026-10-14T00:36:38+00:00",
  "fixtures": [
   {
    "id": "E1|2026-10-14|Norwich|Southampton",
@@ -1137,5 +1137,38 @@
    }
   ]
  },
- "notified": []
+ "notified": [
+  "btts_over25|E1|2026-10-14|Lincoln|West Ham",
+  "btts_over25|E1|2026-10-14|Norwich|Southampton",
+  "btts_over25|E1|2026-10-14|Portsmouth|Sheffield United",
+  "btts_over25|E1|2026-10-14|QPR|Derby",
+  "btts_over25|USA|2026-10-15|Columbus Crew|Charlotte",
+  "btts_over25|USA|2026-10-15|DC United|New York Red Bulls",
+  "btts_over25|USA|2026-10-15|FC Cincinnati|New England Revolution",
+  "btts_over25|USA|2026-10-15|Inter Miami|New York City",
+  "btts|E1|2026-10-14|Lincoln|West Ham",
+  "btts|E1|2026-10-14|Norwich|Southampton",
+  "btts|E1|2026-10-14|Portsmouth|Sheffield United",
+  "btts|E1|2026-10-14|QPR|Derby",
+  "btts|USA|2026-10-15|Columbus Crew|Charlotte",
+  "btts|USA|2026-10-15|DC United|New York Red Bulls",
+  "btts|USA|2026-10-15|FC Cincinnati|New England Revolution",
+  "btts|USA|2026-10-15|Inter Miami|New York City",
+  "double_chance|ARG|2026-10-14|Sarmiento Junin|River Plate",
+  "double_chance|E1|2026-10-14|Lincoln|West Ham",
+  "double_chance|E1|2026-10-14|Norwich|Southampton",
+  "double_chance|E1|2026-10-14|Portsmouth|Sheffield United",
+  "double_chance|E1|2026-10-14|QPR|Derby",
+  "double_chance|USA|2026-10-15|Columbus Crew|Charlotte",
+  "double_chance|USA|2026-10-15|DC United|New York Red Bulls",
+  "double_chance|USA|2026-10-15|FC Cincinnati|New England Revolution",
+  "double_chance|USA|2026-10-15|Inter Miami|New York City",
+  "over25|E1|2026-10-14|Lincoln|West Ham",
+  "over25|E1|2026-10-14|Norwich|Southampton",
+  "over25|E1|2026-10-14|QPR|Derby",
+  "over25|USA|2026-10-15|Columbus Crew|Charlotte",
+  "over25|USA|2026-10-15|DC United|New York Red Bulls",
+  "over25|USA|2026-10-15|FC Cincinnati|New England Revolution",
+  "over25|USA|2026-10-15|Inter Miami|New York City"
+ ]
 }
