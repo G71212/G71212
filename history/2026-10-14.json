@@ -68,8 +68,7 @@
     0,
     1
    ],
-   "predicted_at": "2026-10-13T12:45:11+00:00",
-   "provisional": true
+   "predicted_at": "2026-10-13T12:45:11+00:00"
   },
   {
    "id": "E1|2026-10-14|Portsmouth|Sheffield United",
@@ -136,8 +135,7 @@
     3,
     2
    ],
-   "predicted_at": "2026-10-13T12:45:11+00:00",
-   "provisional": true
+   "predicted_at": "2026-10-13T12:45:11+00:00"
   },
   {
    "id": "E1|2026-10-14|QPR|Derby",
@@ -204,8 +202,7 @@
     4,
     1
    ],
-   "predicted_at": "2026-10-13T12:45:11+00:00",
-   "provisional": true
+   "predicted_at": "2026-10-13T12:45:11+00:00"
   },
   {
    "id": "E1|2026-10-14|Lincoln|West Ham",
@@ -275,8 +272,7 @@
     0,
     6
    ],
-   "predicted_at": "2026-10-13T12:45:11+00:00",
-   "provisional": true
+   "predicted_at": "2026-10-13T12:45:11+00:00"
   },
   {
    "id": "ARG|2026-10-14|Sarmiento Junin|River Plate",
@@ -636,8 +632,7 @@
     "result": [
      0,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "btts_over25",
@@ -708,8 +703,7 @@
     "result": [
      0,
      6
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "btts_over25",
@@ -729,8 +723,7 @@
     "result": [
      4,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "btts_over25",
@@ -750,8 +743,7 @@
     "result": [
      3,
      2
-    ],
-    "provisional": true
+    ]
    }
   ],
   "over25": [
@@ -807,8 +799,7 @@
     "result": [
      0,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "over25",
@@ -845,8 +836,7 @@
     "result": [
      0,
      6
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "over25",
@@ -883,8 +873,7 @@
     "result": [
      4,
      1
-    ],
-    "provisional": true
+    ]
    }
   ],
   "btts": [
@@ -923,8 +912,7 @@
     "result": [
      0,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "btts",
@@ -995,8 +983,7 @@
     "result": [
      0,
      6
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "btts",
@@ -1016,8 +1003,7 @@
     "result": [
      3,
      2
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "btts",
@@ -1037,8 +1023,7 @@
     "result": [
      4,
      1
-    ],
-    "provisional": true
+    ]
    }
   ],
   "double_chance": [
@@ -1094,8 +1079,7 @@
     "result": [
      0,
      6
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",
@@ -1115,8 +1099,7 @@
     "result": [
      4,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",
@@ -1153,8 +1136,7 @@
     "result": [
      0,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",
@@ -1208,8 +1190,7 @@
     "result": [
      3,
      2
-    ],
-    "provisional": true
+    ]
    }
   ]
  },

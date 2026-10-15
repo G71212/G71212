@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-15 00:06 UTC · kick-off times in UTC_
+_Generated 2026-10-15 09:59 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -147,8 +147,8 @@ _No upcoming matches in the published fixtures for this day._
 | 🔒 Bankers | 25/28 (89%), ROI -7% | 31/35 (89%), ROI -8% | 31/35 (89%), ROI -8% |
 | BTTS & Over 2.5 | 43/78 (55%) | 78/146 (53%) | 78/146 (53%) |
 | Over 2.5 Goals | 52/77 (68%), ROI -3% | 94/146 (64%), ROI -6% | 94/146 (64%), ROI -6% |
-| Both Teams To Score | 46/79 (58%) | 93/152 (61%) | 93/152 (61%) |
-| Double Chance | 78/83 (94%), ROI +5% | 152/174 (87%), ROI -0% | 152/174 (87%), ROI -0% |
+| Both Teams To Score | 47/80 (59%) | 94/153 (61%) | 94/153 (61%) |
+| Double Chance | 78/84 (93%), ROI +4% | 152/175 (87%), ROI -1% | 152/175 (87%), ROI -1% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
