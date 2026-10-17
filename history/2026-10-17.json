@@ -1,7 +1,7 @@
 {
  "date": "2026-10-17",
  "created_at": "2026-10-15T00:06:15+00:00",
- "updated_at": "2026-10-17T09:26:16+00:00",
+ "updated_at": "2026-10-17T19:24:32+00:00",
  "fixtures": [
   {
    "id": "ARG|2026-10-17|Boca Juniors|Talleres Cordoba",
@@ -1359,8 +1359,12 @@
     112
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    2
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Middlesbrough|Cardiff",
@@ -1423,8 +1427,12 @@
     91
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    2,
+    2
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Millwall|Lincoln",
@@ -1489,8 +1497,12 @@
    "flags": [
     "Lincoln new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    2,
+    2
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Watford|Charlton",
@@ -1553,8 +1565,12 @@
     56
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    2,
+    0
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E2|2026-10-17|Milton Keynes Dons|Luton",
@@ -2269,8 +2285,12 @@
     114
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "SP2|2026-10-17|Sociedad B|Almeria",
@@ -2525,8 +2545,12 @@
     112
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "I2|2026-10-17|Ascoli|Empoli",
@@ -2980,8 +3004,12 @@
    "flags": [
     "Elversberg new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    4,
+    3
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "D1|2026-10-17|Hamburg|Stuttgart",
@@ -3044,8 +3072,12 @@
     100
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "D1|2026-10-17|Schalke 04|Mainz",
@@ -3110,8 +3142,12 @@
    "flags": [
     "Schalke 04 new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "D1|2026-10-17|Union Berlin|Dortmund",
@@ -3174,8 +3210,12 @@
     100
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    0
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "D1|2026-10-17|Werder Bremen|Paderborn",
@@ -3240,8 +3280,12 @@
    "flags": [
     "Paderborn new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    2,
+    2
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E0|2026-10-17|Brentford|Liverpool",
@@ -3304,8 +3348,12 @@
     112
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    1,
+    2
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E0|2026-10-17|Fulham|Hull",
@@ -3370,8 +3418,12 @@
    "flags": [
     "Hull new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E0|2026-10-17|Man City|Ipswich",
@@ -3434,8 +3486,12 @@
     44
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    3,
+    2
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Birmingham|QPR",
@@ -3498,8 +3554,12 @@
     137
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    3,
+    0
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Bristol City|Sheffield United",
@@ -3562,8 +3622,12 @@
     102
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Derby|Stoke",
@@ -3626,8 +3690,12 @@
     137
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Norwich|Portsmouth",
@@ -3690,8 +3758,12 @@
     101
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Southampton|Bolton",
@@ -3756,8 +3828,12 @@
    "flags": [
     "Bolton new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    0
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Swansea|West Ham",
@@ -3822,8 +3898,12 @@
    "flags": [
     "West Ham relegated"
    ],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|West Brom|Blackburn",
@@ -3886,8 +3966,12 @@
     137
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    3,
+    2
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-10-17|Wrexham|Preston",
@@ -3950,8 +4034,12 @@
     137
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    4,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E2|2026-10-17|Barnsley|Cambridge",
@@ -6534,8 +6622,12 @@
     46
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    0
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "SP2|2026-10-17|Eibar|Mallorca",
@@ -6666,8 +6758,12 @@
    "flags": [
     "Den Haag new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "AUT|2026-10-17|A. Lustenau|LASK",
@@ -6858,8 +6954,12 @@
     100
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    1,
+    3
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "I2|2026-10-17|Mantova|Palermo",
@@ -7114,8 +7214,12 @@
     112
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    1,
+    3
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "NOR|2026-10-17|Viking|Fredrikstad",
@@ -7306,8 +7410,12 @@
     100
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    6,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "E0|2026-10-17|Newcastle|Aston Villa",
@@ -7370,8 +7478,12 @@
     112
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "SC2|2026-10-17|Airdrie Utd|Hamilton",
@@ -7500,8 +7612,12 @@
     113
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    2,
+    5
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "SP2|2026-10-17|Sp Gijon|Albacete",
@@ -9640,8 +9756,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     6,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -9657,8 +9777,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     5
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -9708,8 +9832,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -9742,8 +9870,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -9759,8 +9891,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     4,
+     3
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -9793,8 +9929,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     3
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -9810,8 +9950,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -9982,8 +10126,12 @@
     "market_odds": 1.13,
     "edge": -0.0361,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     6,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -9999,8 +10147,12 @@
     "market_odds": 1.22,
     "edge": -0.0346,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -10016,8 +10168,12 @@
     "market_odds": 1.24,
     "edge": -0.0532,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     5
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -10067,8 +10223,12 @@
     "market_odds": 1.32,
     "edge": -0.0605,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     3
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -10118,8 +10278,12 @@
     "market_odds": 1.36,
     "edge": -0.0497,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -10135,8 +10299,12 @@
     "market_odds": 1.37,
     "edge": -0.0562,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -10152,8 +10320,12 @@
     "market_odds": 1.36,
     "edge": -0.0633,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -10203,8 +10375,12 @@
     "market_odds": 1.41,
     "edge": -0.0531,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -10237,8 +10413,12 @@
     "market_odds": 1.44,
     "edge": -0.0475,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -10254,8 +10434,12 @@
     "market_odds": 1.42,
     "edge": -0.0614,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     4,
+     3
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -10324,8 +10508,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     6,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -10358,8 +10546,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     5
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -10392,8 +10584,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -10409,8 +10605,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     4,
+     3
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -10528,8 +10728,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -10545,8 +10749,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -10596,8 +10804,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -10613,8 +10825,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     3
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -10666,8 +10882,12 @@
     "market_odds": 1.04,
     "edge": -0.0433,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -10751,8 +10971,12 @@
     "market_odds": 1.04,
     "edge": -0.0557,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     6,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -10785,8 +11009,12 @@
     "market_odds": 1.05,
     "edge": -0.0516,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -10989,8 +11217,12 @@
     "market_odds": 1.11,
     "edge": -0.0563,
     "published_at": "2026-10-16T09:53:46+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     0
+    ],
+    "provisional": true
    }
   ]
  },
