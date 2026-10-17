@@ -1,0 +1,1935 @@
+{
+ "date": "2026-10-19",
+ "created_at": "2026-10-17T09:26:16+00:00",
+ "updated_at": "2026-10-17T09:26:16+00:00",
+ "fixtures": [
+  {
+   "id": "MEX|2026-10-19|Monterrey|Pachuca",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T01:00:00+00:00",
+   "home": "Monterrey",
+   "away": "Pachuca",
+   "expected_goals": [
+    1.82,
+    1.03
+   ],
+   "model_expected_goals": [
+    1.62,
+    1.23
+   ],
+   "rho": -0.0678,
+   "probabilities": {
+    "home": 0.55,
+    "draw": 0.2442,
+    "away": 0.2058,
+    "over25": 0.5417,
+    "under25": 0.4583,
+    "btts": 0.5462,
+    "btts_over25": 0.4302,
+    "dc_1x": 0.7942,
+    "dc_x2": 0.45,
+    "dc_12": 0.7558
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.116
+    ],
+    [
+     "2-1",
+     0.0986
+    ],
+    [
+     "1-0",
+     0.0979
+    ]
+   ],
+   "market": {
+    "home": 0.5734,
+    "draw": 0.2253,
+    "away": 0.2013,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.66,
+    "draw": 3.89,
+    "away": 4.31,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    122,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "ROU|2026-10-19|U. Cluj|FC Arges",
+   "league": "ROU",
+   "league_name": "Romania · Superliga",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T15:00:00+00:00",
+   "home": "U. Cluj",
+   "away": "FC Arges",
+   "expected_goals": [
+    1.48,
+    0.77
+   ],
+   "model_expected_goals": [
+    1.45,
+    0.8
+   ],
+   "rho": -0.0144,
+   "probabilities": {
+    "home": 0.5373,
+    "draw": 0.2683,
+    "away": 0.1944,
+    "over25": 0.3905,
+    "under25": 0.6095,
+    "btts": 0.4171,
+    "btts_over25": 0.295,
+    "dc_1x": 0.8056,
+    "dc_x2": 0.4627,
+    "dc_12": 0.7317
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.154
+    ],
+    [
+     "1-1",
+     0.1221
+    ],
+    [
+     "2-0",
+     0.1149
+    ]
+   ],
+   "market": {
+    "home": 0.5458,
+    "draw": 0.2562,
+    "away": 0.198,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.73,
+    "draw": 3.43,
+    "away": 4.33,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    120,
+    51
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "I1|2026-10-19|Monza|Cagliari",
+   "league": "I1",
+   "league_name": "Italy · Serie A",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T16:30:00+00:00",
+   "home": "Monza",
+   "away": "Cagliari",
+   "expected_goals": [
+    1.33,
+    1.17
+   ],
+   "model_expected_goals": [
+    1.28,
+    1.29
+   ],
+   "rho": -0.0134,
+   "probabilities": {
+    "home": 0.4037,
+    "draw": 0.2724,
+    "away": 0.3238,
+    "over25": 0.4557,
+    "under25": 0.5443,
+    "btts": 0.5084,
+    "btts_over25": 0.379,
+    "dc_1x": 0.6762,
+    "dc_x2": 0.5963,
+    "dc_12": 0.7276
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1294
+    ],
+    [
+     "1-0",
+     0.1079
+    ],
+    [
+     "0-1",
+     0.0941
+    ]
+   ],
+   "market": {
+    "home": 0.4006,
+    "draw": 0.2935,
+    "away": 0.3059,
+    "over25": 0.4527
+   },
+   "odds": {
+    "home": 2.36,
+    "draw": 3.16,
+    "away": 3.04,
+    "over25": 2.04,
+    "under25": 1.72
+   },
+   "team_matches": [
+    74,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "DNK|2026-10-19|Viborg|Midtjylland",
+   "league": "DNK",
+   "league_name": "Denmark · Superliga",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T17:00:00+00:00",
+   "home": "Viborg",
+   "away": "Midtjylland",
+   "expected_goals": [
+    1.47,
+    1.64
+   ],
+   "model_expected_goals": [
+    1.44,
+    1.67
+   ],
+   "rho": -0.0867,
+   "probabilities": {
+    "home": 0.3351,
+    "draw": 0.2559,
+    "away": 0.409,
+    "over25": 0.6007,
+    "under25": 0.3993,
+    "btts": 0.6298,
+    "btts_over25": 0.5129,
+    "dc_1x": 0.591,
+    "dc_x2": 0.6649,
+    "dc_12": 0.7441
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1169
+    ],
+    [
+     "1-2",
+     0.0882
+    ],
+    [
+     "2-1",
+     0.079
+    ]
+   ],
+   "market": {
+    "home": 0.3417,
+    "draw": 0.247,
+    "away": 0.4114,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.68,
+    "draw": 3.61,
+    "away": 2.26,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    95,
+    95
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "POL|2026-10-19|Wisla Plock|Radomiak Radom",
+   "league": "POL",
+   "league_name": "Poland · Ekstraklasa",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T17:00:00+00:00",
+   "home": "Wisla Plock",
+   "away": "Radomiak Radom",
+   "expected_goals": [
+    1.6,
+    1.1
+   ],
+   "model_expected_goals": [
+    1.55,
+    1.15
+   ],
+   "rho": -0.1165,
+   "probabilities": {
+    "home": 0.4762,
+    "draw": 0.2765,
+    "away": 0.2473,
+    "over25": 0.5058,
+    "under25": 0.4942,
+    "btts": 0.5456,
+    "btts_over25": 0.4135,
+    "dc_1x": 0.7527,
+    "dc_x2": 0.5238,
+    "dc_12": 0.7235
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1321
+    ],
+    [
+     "2-1",
+     0.0946
+    ],
+    [
+     "1-0",
+     0.094
+    ]
+   ],
+   "market": {
+    "home": 0.4958,
+    "draw": 0.2451,
+    "away": 0.2591,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.9,
+    "draw": 3.62,
+    "away": 3.44,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    43,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "SWE|2026-10-19|Degerfors|Kalmar",
+   "league": "SWE",
+   "league_name": "Sweden · Allsvenskan",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T17:00:00+00:00",
+   "home": "Degerfors",
+   "away": "Kalmar",
+   "expected_goals": [
+    1.21,
+    1.32
+   ],
+   "model_expected_goals": [
+    1.38,
+    1.16
+   ],
+   "rho": 0.0039,
+   "probabilities": {
+    "home": 0.3415,
+    "draw": 0.2663,
+    "away": 0.3922,
+    "over25": 0.4655,
+    "under25": 0.5345,
+    "btts": 0.5152,
+    "btts_over25": 0.3886,
+    "dc_1x": 0.6078,
+    "dc_x2": 0.6585,
+    "dc_12": 0.7337
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1266
+    ],
+    [
+     "0-1",
+     0.1051
+    ],
+    [
+     "1-0",
+     0.0966
+    ]
+   ],
+   "market": {
+    "home": 0.3216,
+    "draw": 0.2796,
+    "away": 0.3988,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.84,
+    "draw": 3.23,
+    "away": 2.33,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    57,
+    57
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "T1|2026-10-19|Trabzonspor|Besiktas",
+   "league": "T1",
+   "league_name": "Turkey · Süper Lig",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T17:00:00+00:00",
+   "home": "Trabzonspor",
+   "away": "Besiktas",
+   "expected_goals": [
+    1.5,
+    1.65
+   ],
+   "model_expected_goals": [
+    1.61,
+    1.28
+   ],
+   "rho": -0.0976,
+   "probabilities": {
+    "home": 0.3396,
+    "draw": 0.2566,
+    "away": 0.4038,
+    "over25": 0.6084,
+    "under25": 0.3916,
+    "btts": 0.6372,
+    "btts_over25": 0.5206,
+    "dc_1x": 0.5962,
+    "dc_x2": 0.6604,
+    "dc_12": 0.7434
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1166
+    ],
+    [
+     "1-2",
+     0.0875
+    ],
+    [
+     "2-1",
+     0.0796
+    ]
+   ],
+   "market": {
+    "home": 0.3258,
+    "draw": 0.2441,
+    "away": 0.4301,
+    "over25": 0.6204
+   },
+   "odds": {
+    "home": 2.8,
+    "draw": 3.65,
+    "away": 2.17,
+    "over25": 1.53,
+    "under25": 2.37
+   },
+   "team_matches": [
+    107,
+    107
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "ROU|2026-10-19|FC Voluntari|FCSB",
+   "league": "ROU",
+   "league_name": "Romania · Superliga",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T18:00:00+00:00",
+   "home": "FC Voluntari",
+   "away": "FCSB",
+   "expected_goals": [
+    1.08,
+    1.73
+   ],
+   "model_expected_goals": [
+    1.38,
+    1.44
+   ],
+   "rho": -0.0144,
+   "probabilities": {
+    "home": 0.2348,
+    "draw": 0.2408,
+    "away": 0.5244,
+    "over25": 0.5326,
+    "under25": 0.4674,
+    "btts": 0.5447,
+    "btts_over25": 0.4305,
+    "dc_1x": 0.4756,
+    "dc_x2": 0.7652,
+    "dc_12": 0.7592
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1141
+    ],
+    [
+     "0-1",
+     0.1026
+    ],
+    [
+     "1-2",
+     0.0973
+    ]
+   ],
+   "market": {
+    "home": 0.2193,
+    "draw": 0.229,
+    "away": 0.5517,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.93,
+    "draw": 3.78,
+    "away": 1.71,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    40,
+    120
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "SP2|2026-10-19|Celta B|Tenerife",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T18:30:00+00:00",
+   "home": "Celta B",
+   "away": "Tenerife",
+   "expected_goals": [
+    1.27,
+    1.22
+   ],
+   "model_expected_goals": [
+    1.29,
+    1.11
+   ],
+   "rho": -0.0055,
+   "probabilities": {
+    "home": 0.3777,
+    "draw": 0.2721,
+    "away": 0.3502,
+    "over25": 0.4531,
+    "under25": 0.5469,
+    "btts": 0.5071,
+    "btts_over25": 0.3779,
+    "dc_1x": 0.6498,
+    "dc_x2": 0.6223,
+    "dc_12": 0.7279
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1292
+    ],
+    [
+     "1-0",
+     0.105
+    ],
+    [
+     "0-1",
+     0.1003
+    ]
+   ],
+   "market": {
+    "home": 0.3654,
+    "draw": 0.286,
+    "away": 0.3486,
+    "over25": 0.4576
+   },
+   "odds": {
+    "home": 2.51,
+    "draw": 3.14,
+    "away": 2.62,
+    "over25": 2.0,
+    "under25": 1.72
+   },
+   "team_matches": [
+    9,
+    82
+   ],
+   "flags": [
+    "Celta B new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "F2|2026-10-19|Rodez|Montpellier",
+   "league": "F2",
+   "league_name": "France · Ligue 2",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T18:45:00+00:00",
+   "home": "Rodez",
+   "away": "Montpellier",
+   "expected_goals": [
+    1.42,
+    1.49
+   ],
+   "model_expected_goals": [
+    1.28,
+    1.2
+   ],
+   "rho": -0.022,
+   "probabilities": {
+    "home": 0.3579,
+    "draw": 0.2519,
+    "away": 0.3902,
+    "over25": 0.5577,
+    "under25": 0.4423,
+    "btts": 0.591,
+    "btts_over25": 0.4734,
+    "dc_1x": 0.6098,
+    "dc_x2": 0.6421,
+    "dc_12": 0.7481
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1176
+    ],
+    [
+     "1-2",
+     0.0859
+    ],
+    [
+     "2-1",
+     0.0818
+    ]
+   ],
+   "market": {
+    "home": 0.3401,
+    "draw": 0.2745,
+    "away": 0.3855,
+    "over25": 0.5772
+   },
+   "odds": {
+    "home": 2.68,
+    "draw": 3.26,
+    "away": 2.39,
+    "over25": 1.63,
+    "under25": 2.15
+   },
+   "team_matches": [
+    104,
+    42
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "I1|2026-10-19|Parma|Torino",
+   "league": "I1",
+   "league_name": "Italy · Serie A",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T18:45:00+00:00",
+   "home": "Parma",
+   "away": "Torino",
+   "expected_goals": [
+    1.07,
+    1.19
+   ],
+   "model_expected_goals": [
+    1.15,
+    1.14
+   ],
+   "rho": -0.0134,
+   "probabilities": {
+    "home": 0.3247,
+    "draw": 0.29,
+    "away": 0.3853,
+    "over25": 0.3916,
+    "under25": 0.6084,
+    "btts": 0.4575,
+    "btts_over25": 0.3227,
+    "dc_1x": 0.6147,
+    "dc_x2": 0.6753,
+    "dc_12": 0.71
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1347
+    ],
+    [
+     "0-1",
+     0.1229
+    ],
+    [
+     "1-0",
+     0.1102
+    ]
+   ],
+   "market": {
+    "home": 0.3115,
+    "draw": 0.305,
+    "away": 0.3835,
+    "over25": 0.3902
+   },
+   "odds": {
+    "home": 2.99,
+    "draw": 3.05,
+    "away": 2.46,
+    "over25": 2.33,
+    "under25": 1.56
+   },
+   "team_matches": [
+    82,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "IRL|2026-10-19|Waterford|Galway",
+   "league": "IRL",
+   "league_name": "Ireland · Premier Division",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T18:45:00+00:00",
+   "home": "Waterford",
+   "away": "Galway",
+   "expected_goals": [
+    1.49,
+    1.18
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.25
+   ],
+   "rho": -0.1261,
+   "probabilities": {
+    "home": 0.4289,
+    "draw": 0.2867,
+    "away": 0.2845,
+    "over25": 0.4997,
+    "under25": 0.5003,
+    "btts": 0.5524,
+    "btts_over25": 0.4154,
+    "dc_1x": 0.7155,
+    "dc_x2": 0.5711,
+    "dc_12": 0.7133
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.137
+    ],
+    [
+     "2-1",
+     0.0908
+    ],
+    [
+     "1-0",
+     0.0878
+    ]
+   ],
+   "market": {
+    "home": 0.4588,
+    "draw": 0.2374,
+    "away": 0.3038,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.02,
+    "draw": 3.66,
+    "away": 2.93,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    105,
+    104
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "E0|2026-10-19|Tottenham|Coventry",
+   "league": "E0",
+   "league_name": "England · Premier League",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T19:00:00+00:00",
+   "home": "Tottenham",
+   "away": "Coventry",
+   "expected_goals": [
+    2.15,
+    0.96
+   ],
+   "model_expected_goals": [
+    1.73,
+    1.15
+   ],
+   "rho": -0.0884,
+   "probabilities": {
+    "home": 0.6377,
+    "draw": 0.2128,
+    "away": 0.1495,
+    "over25": 0.6014,
+    "under25": 0.3986,
+    "btts": 0.5536,
+    "btts_over25": 0.4535,
+    "dc_1x": 0.8505,
+    "dc_x2": 0.3623,
+    "dc_12": 0.7872
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.103
+    ],
+    [
+     "1-1",
+     0.1001
+    ],
+    [
+     "2-1",
+     0.099
+    ]
+   ],
+   "market": {
+    "home": 0.6652,
+    "draw": 0.1955,
+    "away": 0.1393,
+    "over25": 0.613
+   },
+   "odds": {
+    "home": 1.46,
+    "draw": 4.55,
+    "away": 6.23,
+    "over25": 1.55,
+    "under25": 2.34
+   },
+   "team_matches": [
+    112,
+    6
+   ],
+   "flags": [
+    "Coventry new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "IRL|2026-10-19|Derry City|St. Patricks",
+   "league": "IRL",
+   "league_name": "Ireland · Premier Division",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T19:00:00+00:00",
+   "home": "Derry City",
+   "away": "St. Patricks",
+   "expected_goals": [
+    1.08,
+    1.25
+   ],
+   "model_expected_goals": [
+    1.18,
+    1.15
+   ],
+   "rho": -0.1261,
+   "probabilities": {
+    "home": 0.3018,
+    "draw": 0.3139,
+    "away": 0.3843,
+    "over25": 0.4101,
+    "under25": 0.5899,
+    "btts": 0.4864,
+    "btts_over25": 0.3383,
+    "dc_1x": 0.6157,
+    "dc_x2": 0.6982,
+    "dc_12": 0.6861
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1481
+    ],
+    [
+     "0-0",
+     0.1145
+    ],
+    [
+     "0-1",
+     0.1054
+    ]
+   ],
+   "market": {
+    "home": 0.3131,
+    "draw": 0.2747,
+    "away": 0.4122,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.86,
+    "draw": 3.22,
+    "away": 2.23,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "SP1|2026-10-19|Getafe|Vallecano",
+   "league": "SP1",
+   "league_name": "Spain · La Liga",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T19:00:00+00:00",
+   "home": "Getafe",
+   "away": "Vallecano",
+   "expected_goals": [
+    1.05,
+    1.06
+   ],
+   "model_expected_goals": [
+    1.1,
+    0.88
+   ],
+   "rho": -0.008,
+   "probabilities": {
+    "home": 0.3454,
+    "draw": 0.3012,
+    "away": 0.3534,
+    "over25": 0.352,
+    "under25": 0.648,
+    "btts": 0.425,
+    "btts_over25": 0.289,
+    "dc_1x": 0.6466,
+    "dc_x2": 0.6546,
+    "dc_12": 0.6988
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.136
+    ],
+    [
+     "0-1",
+     0.128
+    ],
+    [
+     "1-0",
+     0.1261
+    ]
+   ],
+   "market": {
+    "home": 0.3282,
+    "draw": 0.3129,
+    "away": 0.3589,
+    "over25": 0.3587
+   },
+   "odds": {
+    "home": 2.85,
+    "draw": 2.98,
+    "away": 2.62,
+    "over25": 2.51,
+    "under25": 1.49
+   },
+   "team_matches": [
+    113,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "P1|2026-10-19|Sp Braga|Gil Vicente",
+   "league": "P1",
+   "league_name": "Portugal · Primeira Liga",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T19:15:00+00:00",
+   "home": "Sp Braga",
+   "away": "Gil Vicente",
+   "expected_goals": [
+    1.73,
+    0.78
+   ],
+   "model_expected_goals": [
+    1.6,
+    0.96
+   ],
+   "rho": 0.0428,
+   "probabilities": {
+    "home": 0.6057,
+    "draw": 0.2246,
+    "away": 0.1696,
+    "over25": 0.4574,
+    "under25": 0.5426,
+    "btts": 0.4393,
+    "btts_over25": 0.3344,
+    "dc_1x": 0.8304,
+    "dc_x2": 0.3943,
+    "dc_12": 0.7754
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1459
+    ],
+    [
+     "2-0",
+     0.122
+    ],
+    [
+     "1-1",
+     0.1049
+    ]
+   ],
+   "market": {
+    "home": 0.6118,
+    "draw": 0.2349,
+    "away": 0.1534,
+    "over25": 0.4563
+   },
+   "odds": {
+    "home": 1.57,
+    "draw": 3.78,
+    "away": 5.59,
+    "over25": 2.01,
+    "under25": 1.72
+   },
+   "team_matches": [
+    101,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "ARG|2026-10-19|Newells Old Boys|Central Cordoba",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T22:00:00+00:00",
+   "home": "Newells Old Boys",
+   "away": "Central Cordoba",
+   "expected_goals": [
+    1.28,
+    0.81
+   ],
+   "model_expected_goals": [
+    1.17,
+    0.92
+   ],
+   "rho": -0.0991,
+   "probabilities": {
+    "home": 0.4623,
+    "draw": 0.3144,
+    "away": 0.2233,
+    "over25": 0.3485,
+    "under25": 0.6515,
+    "btts": 0.4143,
+    "btts_over25": 0.2733,
+    "dc_1x": 0.7767,
+    "dc_x2": 0.5377,
+    "dc_12": 0.6856
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1453
+    ],
+    [
+     "1-1",
+     0.141
+    ],
+    [
+     "0-0",
+     0.136
+    ]
+   ],
+   "market": {
+    "home": 0.4811,
+    "draw": 0.296,
+    "away": 0.2229,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.97,
+    "draw": 3.09,
+    "away": 4.02,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "ARG|2026-10-19|Sarmiento Junin|Barracas Central",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-19",
+   "kickoff": "2026-10-19T22:00:00+00:00",
+   "home": "Sarmiento Junin",
+   "away": "Barracas Central",
+   "expected_goals": [
+    1.17,
+    0.88
+   ],
+   "model_expected_goals": [
+    1.1,
+    0.95
+   ],
+   "rho": -0.0991,
+   "probabilities": {
+    "home": 0.4111,
+    "draw": 0.3259,
+    "away": 0.2629,
+    "over25": 0.3369,
+    "under25": 0.6631,
+    "btts": 0.4169,
+    "btts_over25": 0.2711,
+    "dc_1x": 0.7371,
+    "dc_x2": 0.5889,
+    "dc_12": 0.6741
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1457
+    ],
+    [
+     "0-0",
+     0.1419
+    ],
+    [
+     "1-0",
+     0.1373
+    ]
+   ],
+   "market": {
+    "home": 0.422,
+    "draw": 0.3161,
+    "away": 0.2619,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.22,
+    "draw": 2.9,
+    "away": 3.45,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    110
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  },
+  {
+   "id": "BRA|2026-10-20|Corinthians|Vitoria",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-20",
+   "kickoff": "2026-10-19T23:00:00+00:00",
+   "home": "Corinthians",
+   "away": "Vitoria",
+   "expected_goals": [
+    1.63,
+    0.77
+   ],
+   "model_expected_goals": [
+    1.47,
+    0.93
+   ],
+   "rho": -0.0388,
+   "probabilities": {
+    "home": 0.5744,
+    "draw": 0.2546,
+    "away": 0.171,
+    "over25": 0.4302,
+    "under25": 0.5698,
+    "btts": 0.4363,
+    "btts_over25": 0.318,
+    "dc_1x": 0.829,
+    "dc_x2": 0.4256,
+    "dc_12": 0.7454
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1434
+    ],
+    [
+     "2-0",
+     0.1205
+    ],
+    [
+     "1-1",
+     0.1183
+    ]
+   ],
+   "market": {
+    "home": 0.5918,
+    "draw": 0.2432,
+    "away": 0.1651,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.62,
+    "draw": 3.67,
+    "away": 5.24,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    118,
+    106
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-17T09:26:16+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "T1|2026-10-19|Trabzonspor|Besiktas",
+    "league": "T1",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Trabzonspor",
+    "away": "Besiktas",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5206,
+    "fair_odds": 1.92,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "DNK|2026-10-19|Viborg|Midtjylland",
+    "league": "DNK",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Viborg",
+    "away": "Midtjylland",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5129,
+    "fair_odds": 1.95,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "F2|2026-10-19|Rodez|Montpellier",
+    "league": "F2",
+    "kickoff": "2026-10-19T18:45:00+00:00",
+    "home": "Rodez",
+    "away": "Montpellier",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4734,
+    "fair_odds": 2.11,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E0|2026-10-19|Tottenham|Coventry",
+    "league": "E0",
+    "kickoff": "2026-10-19T19:00:00+00:00",
+    "home": "Tottenham",
+    "away": "Coventry",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4535,
+    "fair_odds": 2.21,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "ROU|2026-10-19|FC Voluntari|FCSB",
+    "league": "ROU",
+    "kickoff": "2026-10-19T18:00:00+00:00",
+    "home": "FC Voluntari",
+    "away": "FCSB",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4305,
+    "fair_odds": 2.32,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-10-19|Monterrey|Pachuca",
+    "league": "MEX",
+    "kickoff": "2026-10-19T01:00:00+00:00",
+    "home": "Monterrey",
+    "away": "Pachuca",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4302,
+    "fair_odds": 2.32,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "IRL|2026-10-19|Waterford|Galway",
+    "league": "IRL",
+    "kickoff": "2026-10-19T18:45:00+00:00",
+    "home": "Waterford",
+    "away": "Galway",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4154,
+    "fair_odds": 2.41,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "POL|2026-10-19|Wisla Plock|Radomiak Radom",
+    "league": "POL",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Wisla Plock",
+    "away": "Radomiak Radom",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4135,
+    "fair_odds": 2.42,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "T1|2026-10-19|Trabzonspor|Besiktas",
+    "league": "T1",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Trabzonspor",
+    "away": "Besiktas",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6084,
+    "fair_odds": 1.64,
+    "market_odds": 1.53,
+    "edge": -0.0691,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E0|2026-10-19|Tottenham|Coventry",
+    "league": "E0",
+    "kickoff": "2026-10-19T19:00:00+00:00",
+    "home": "Tottenham",
+    "away": "Coventry",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6014,
+    "fair_odds": 1.66,
+    "market_odds": 1.55,
+    "edge": -0.0679,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "DNK|2026-10-19|Viborg|Midtjylland",
+    "league": "DNK",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Viborg",
+    "away": "Midtjylland",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6007,
+    "fair_odds": 1.66,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "F2|2026-10-19|Rodez|Montpellier",
+    "league": "F2",
+    "kickoff": "2026-10-19T18:45:00+00:00",
+    "home": "Rodez",
+    "away": "Montpellier",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5577,
+    "fair_odds": 1.79,
+    "market_odds": 1.63,
+    "edge": -0.0909,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "MEX|2026-10-19|Monterrey|Pachuca",
+    "league": "MEX",
+    "kickoff": "2026-10-19T01:00:00+00:00",
+    "home": "Monterrey",
+    "away": "Pachuca",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5417,
+    "fair_odds": 1.85,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "ROU|2026-10-19|FC Voluntari|FCSB",
+    "league": "ROU",
+    "kickoff": "2026-10-19T18:00:00+00:00",
+    "home": "FC Voluntari",
+    "away": "FCSB",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5326,
+    "fair_odds": 1.88,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "POL|2026-10-19|Wisla Plock|Radomiak Radom",
+    "league": "POL",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Wisla Plock",
+    "away": "Radomiak Radom",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5058,
+    "fair_odds": 1.98,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "T1|2026-10-19|Trabzonspor|Besiktas",
+    "league": "T1",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Trabzonspor",
+    "away": "Besiktas",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6372,
+    "fair_odds": 1.57,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "DNK|2026-10-19|Viborg|Midtjylland",
+    "league": "DNK",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Viborg",
+    "away": "Midtjylland",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6298,
+    "fair_odds": 1.59,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "F2|2026-10-19|Rodez|Montpellier",
+    "league": "F2",
+    "kickoff": "2026-10-19T18:45:00+00:00",
+    "home": "Rodez",
+    "away": "Montpellier",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.591,
+    "fair_odds": 1.69,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E0|2026-10-19|Tottenham|Coventry",
+    "league": "E0",
+    "kickoff": "2026-10-19T19:00:00+00:00",
+    "home": "Tottenham",
+    "away": "Coventry",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5536,
+    "fair_odds": 1.81,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "IRL|2026-10-19|Waterford|Galway",
+    "league": "IRL",
+    "kickoff": "2026-10-19T18:45:00+00:00",
+    "home": "Waterford",
+    "away": "Galway",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5524,
+    "fair_odds": 1.81,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-10-19|Monterrey|Pachuca",
+    "league": "MEX",
+    "kickoff": "2026-10-19T01:00:00+00:00",
+    "home": "Monterrey",
+    "away": "Pachuca",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5462,
+    "fair_odds": 1.83,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "POL|2026-10-19|Wisla Plock|Radomiak Radom",
+    "league": "POL",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Wisla Plock",
+    "away": "Radomiak Radom",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5456,
+    "fair_odds": 1.83,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "ROU|2026-10-19|FC Voluntari|FCSB",
+    "league": "ROU",
+    "kickoff": "2026-10-19T18:00:00+00:00",
+    "home": "FC Voluntari",
+    "away": "FCSB",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5447,
+    "fair_odds": 1.84,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SWE|2026-10-19|Degerfors|Kalmar",
+    "league": "SWE",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Degerfors",
+    "away": "Kalmar",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5152,
+    "fair_odds": 1.94,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "I1|2026-10-19|Monza|Cagliari",
+    "league": "I1",
+    "kickoff": "2026-10-19T16:30:00+00:00",
+    "home": "Monza",
+    "away": "Cagliari",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5084,
+    "fair_odds": 1.97,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-10-19|Celta B|Tenerife",
+    "league": "SP2",
+    "kickoff": "2026-10-19T18:30:00+00:00",
+    "home": "Celta B",
+    "away": "Tenerife",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5071,
+    "fair_odds": 1.97,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "E0|2026-10-19|Tottenham|Coventry",
+    "league": "E0",
+    "kickoff": "2026-10-19T19:00:00+00:00",
+    "home": "Tottenham",
+    "away": "Coventry",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8505,
+    "fair_odds": 1.18,
+    "market_odds": 1.11,
+    "edge": -0.0599,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "P1|2026-10-19|Sp Braga|Gil Vicente",
+    "league": "P1",
+    "kickoff": "2026-10-19T19:15:00+00:00",
+    "home": "Sp Braga",
+    "away": "Gil Vicente",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8304,
+    "fair_odds": 1.2,
+    "market_odds": 1.11,
+    "edge": -0.0789,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-20|Corinthians|Vitoria",
+    "league": "BRA",
+    "kickoff": "2026-10-19T23:00:00+00:00",
+    "home": "Corinthians",
+    "away": "Vitoria",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.829,
+    "fair_odds": 1.21,
+    "market_odds": 1.12,
+    "edge": -0.0683,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ROU|2026-10-19|U. Cluj|FC Arges",
+    "league": "ROU",
+    "kickoff": "2026-10-19T15:00:00+00:00",
+    "home": "U. Cluj",
+    "away": "FC Arges",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8056,
+    "fair_odds": 1.24,
+    "market_odds": 1.15,
+    "edge": -0.0736,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "MEX|2026-10-19|Monterrey|Pachuca",
+    "league": "MEX",
+    "kickoff": "2026-10-19T01:00:00+00:00",
+    "home": "Monterrey",
+    "away": "Pachuca",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7942,
+    "fair_odds": 1.26,
+    "market_odds": 1.16,
+    "edge": -0.0759,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-19|Newells Old Boys|Central Cordoba",
+    "league": "ARG",
+    "kickoff": "2026-10-19T22:00:00+00:00",
+    "home": "Newells Old Boys",
+    "away": "Central Cordoba",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7767,
+    "fair_odds": 1.29,
+    "market_odds": 1.2,
+    "edge": -0.0656,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ROU|2026-10-19|FC Voluntari|FCSB",
+    "league": "ROU",
+    "kickoff": "2026-10-19T18:00:00+00:00",
+    "home": "FC Voluntari",
+    "away": "FCSB",
+    "selection": "X2",
+    "tier": "extra",
+    "probability": 0.7652,
+    "fair_odds": 1.31,
+    "market_odds": 1.18,
+    "edge": -0.0991,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "POL|2026-10-19|Wisla Plock|Radomiak Radom",
+    "league": "POL",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Wisla Plock",
+    "away": "Radomiak Radom",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7527,
+    "fair_odds": 1.33,
+    "market_odds": 1.25,
+    "edge": -0.0621,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "F2|2026-10-19|Rodez|Montpellier",
+    "league": "F2",
+    "kickoff": "2026-10-19T18:45:00+00:00",
+    "home": "Rodez",
+    "away": "Montpellier",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7481,
+    "fair_odds": 1.34,
+    "market_odds": 1.26,
+    "edge": -0.0549,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "DNK|2026-10-19|Viborg|Midtjylland",
+    "league": "DNK",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Viborg",
+    "away": "Midtjylland",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7441,
+    "fair_odds": 1.34,
+    "market_odds": 1.23,
+    "edge": -0.0876,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "T1|2026-10-19|Trabzonspor|Besiktas",
+    "league": "T1",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Trabzonspor",
+    "away": "Besiktas",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7434,
+    "fair_odds": 1.35,
+    "market_odds": 1.22,
+    "edge": -0.0912,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-19|Sarmiento Junin|Barracas Central",
+    "league": "ARG",
+    "kickoff": "2026-10-19T22:00:00+00:00",
+    "home": "Sarmiento Junin",
+    "away": "Barracas Central",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7371,
+    "fair_odds": 1.36,
+    "market_odds": 1.26,
+    "edge": -0.0732,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SWE|2026-10-19|Degerfors|Kalmar",
+    "league": "SWE",
+    "kickoff": "2026-10-19T17:00:00+00:00",
+    "home": "Degerfors",
+    "away": "Kalmar",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7337,
+    "fair_odds": 1.36,
+    "market_odds": 1.28,
+    "edge": -0.0609,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-10-19|Celta B|Tenerife",
+    "league": "SP2",
+    "kickoff": "2026-10-19T18:30:00+00:00",
+    "home": "Celta B",
+    "away": "Tenerife",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7279,
+    "fair_odds": 1.37,
+    "market_odds": 1.28,
+    "edge": -0.0669,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "I1|2026-10-19|Monza|Cagliari",
+    "league": "I1",
+    "kickoff": "2026-10-19T16:30:00+00:00",
+    "home": "Monza",
+    "away": "Cagliari",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7276,
+    "fair_odds": 1.37,
+    "market_odds": 1.33,
+    "edge": -0.0333,
+    "published_at": "2026-10-17T09:26:16+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}
