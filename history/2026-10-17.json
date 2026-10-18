@@ -9122,8 +9122,12 @@
     42
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-10-17|Athletico-PR|Palmeiras",
@@ -9186,8 +9190,12 @@
     118
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    0,
+    2
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-10-18|Atl. Tucuman|Rosario Central",

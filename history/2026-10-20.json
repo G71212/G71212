@@ -1,0 +1,96 @@
+{
+ "date": "2026-10-20",
+ "created_at": "2026-10-18T09:40:25+00:00",
+ "updated_at": "2026-10-18T09:40:25+00:00",
+ "fixtures": [
+  {
+   "id": "ARG|2026-10-20|Dep. Riestra|Union de Santa Fe",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-20",
+   "kickoff": "2026-10-20T00:15:00+00:00",
+   "home": "Dep. Riestra",
+   "away": "Union de Santa Fe",
+   "expected_goals": [
+    1.13,
+    0.85
+   ],
+   "model_expected_goals": [
+    1.09,
+    0.88
+   ],
+   "rho": -0.0982,
+   "probabilities": {
+    "home": 0.4079,
+    "draw": 0.3327,
+    "away": 0.2595,
+    "over25": 0.3161,
+    "under25": 0.6839,
+    "btts": 0.3989,
+    "btts_over25": 0.2534,
+    "dc_1x": 0.7405,
+    "dc_x2": 0.5921,
+    "dc_12": 0.6673
+   },
+   "top_scores": [
+    [
+     "0-0",
+     0.152
+    ],
+    [
+     "1-1",
+     0.1455
+    ],
+    [
+     "1-0",
+     0.1438
+    ]
+   ],
+   "market": {
+    "home": 0.4182,
+    "draw": 0.3187,
+    "away": 0.263,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.24,
+    "draw": 2.88,
+    "away": 3.44,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    103,
+    110
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-18T09:40:25+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [],
+  "over25": [],
+  "btts": [],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-20|Dep. Riestra|Union de Santa Fe",
+    "league": "ARG",
+    "kickoff": "2026-10-20T00:15:00+00:00",
+    "home": "Dep. Riestra",
+    "away": "Union de Santa Fe",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7405,
+    "fair_odds": 1.35,
+    "market_odds": 1.26,
+    "edge": -0.0669,
+    "published_at": "2026-10-18T09:40:25+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}
