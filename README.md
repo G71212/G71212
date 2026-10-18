@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-18 09:40 UTC · kick-off times in UTC_
+_Generated 2026-10-18 19:25 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -136,6 +136,8 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 92 matches analysed across 25 leagues.
 
+**Results:** ✅ 19 won · ❌ 0 lost · 61 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
@@ -154,18 +156,18 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 15:30 | Germany · Bundesliga | M'gladbach vs Hoffenheim | BTTS & Over 2.5 | 60% ★★★ | 1.66 | - |  |
-| 14:45 | Netherlands · Eredivisie | Groningen vs Ajax | BTTS & Over 2.5 | 60% ★★ | 1.67 | - |  |
+| 15:30 | Germany · Bundesliga | M'gladbach vs Hoffenheim | BTTS & Over 2.5 | 60% ★★★ | 1.66 | - | ✅ 1-2 |
+| 14:45 | Netherlands · Eredivisie | Groningen vs Ajax | BTTS & Over 2.5 | 60% ★★ | 1.67 | - | ✅ 2-5 |
 | 21:00 | USA · MLS | FC Cincinnati vs Columbus Crew | BTTS & Over 2.5 | 58% ★★ | 1.72 | - |  |
 | 11:30 | Germany · 2. Bundesliga | Karlsruhe vs Darmstadt | BTTS & Over 2.5 | 57% ★★ | 1.74 | - |  |
 | 15:00 | Norway · Eliteserien | Valerenga vs Brann | BTTS & Over 2.5 | 57% ★★ | 1.74 | - |  |
 | 18:00 | Netherlands · Eredivisie | Nijmegen vs For Sittard | BTTS & Over 2.5 | 57% ★★ | 1.75 | - |  |
 | 10:00 | China · Super League | Wuhan Three Towns vs Shanghai Shenhua | BTTS & Over 2.5 | 57% ★★ | 1.76 | - |  |
-| 10:15 | Netherlands · Eredivisie | Zwolle vs Go Ahead Eagles | BTTS & Over 2.5 | 57% ★★ | 1.77 | - |  |
+| 10:15 | Netherlands · Eredivisie | Zwolle vs Go Ahead Eagles | BTTS & Over 2.5 | 57% ★★ | 1.77 | - | ✅ 4-1 |
 | 02:30 | USA · MLS | Los Angeles Galaxy vs San Diego FC | BTTS & Over 2.5 | 56% ★★ | 1.77 | - |  |
-| 12:30 | Netherlands · Eredivisie | Cambuur vs AZ Alkmaar | BTTS & Over 2.5 | 56% ★★ | 1.80 | - |  |
+| 12:30 | Netherlands · Eredivisie | Cambuur vs AZ Alkmaar | BTTS & Over 2.5 | 56% ★★ | 1.80 | - | ✅ 2-2 |
 | 11:30 | Germany · 2. Bundesliga | Dresden vs Magdeburg | BTTS & Over 2.5 | 55% ★ | 1.83 | - |  |
-| 13:30 | Germany · Bundesliga | Leverkusen vs Freiburg | BTTS & Over 2.5 | 54% ★ | 1.85 | - |  |
+| 13:30 | Germany · Bundesliga | Leverkusen vs Freiburg | BTTS & Over 2.5 | 54% ★ | 1.85 | - | ✅ 2-1 |
 | 12:00 | Denmark · Superliga | Sonderjyske vs Silkeborg | BTTS & Over 2.5 | 54% ★ | 1.86 | - |  |
 | 18:00 | Netherlands · Eredivisie | Twente vs Utrecht | BTTS & Over 2.5 | 54% ★ | 1.86 | - |  |
 | 00:30 | USA · MLS | Sporting Kansas City vs Real Salt Lake | BTTS & Over 2.5 | 54% ★ | 1.86 | - |  |
@@ -180,18 +182,18 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 18:00 | Netherlands · Eredivisie | Twente vs Utrecht | Over 2.5 | 71% ★★ | 1.40 | 1.31 |  |
-| 12:30 | Netherlands · Eredivisie | Cambuur vs AZ Alkmaar | Over 2.5 | 70% ★★ | 1.42 | 1.34 |  |
-| 14:45 | Netherlands · Eredivisie | Groningen vs Ajax | Over 2.5 | 70% ★★ | 1.43 | 1.34 |  |
+| 12:30 | Netherlands · Eredivisie | Cambuur vs AZ Alkmaar | Over 2.5 | 70% ★★ | 1.42 | 1.34 | ✅ 2-2 |
+| 14:45 | Netherlands · Eredivisie | Groningen vs Ajax | Over 2.5 | 70% ★★ | 1.43 | 1.34 | ✅ 2-5 |
 | 18:00 | Netherlands · Eredivisie | Nijmegen vs For Sittard | Over 2.5 | 70% ★★ | 1.43 | 1.36 |  |
-| 15:30 | Germany · Bundesliga | M'gladbach vs Hoffenheim | Over 2.5 | 69% ★★ | 1.44 | 1.37 |  |
+| 15:30 | Germany · Bundesliga | M'gladbach vs Hoffenheim | Over 2.5 | 69% ★★ | 1.44 | 1.37 | ✅ 1-2 |
 | 15:00 | Norway · Eliteserien | Molde vs Start | Over 2.5 | 69% ★★ | 1.45 | - |  |
 | 21:00 | USA · MLS | FC Cincinnati vs Columbus Crew | Over 2.5 | 67% ★★ | 1.48 | - |  |
 | 19:00 | Spain · La Liga | Real Madrid vs Sevilla | Over 2.5 | 67% ★★ | 1.49 | 1.40 |  |
 | 11:30 | Germany · 2. Bundesliga | Karlsruhe vs Darmstadt | Over 2.5 | 67% ★ | 1.50 | 1.42 |  |
-| 10:15 | Netherlands · Eredivisie | Zwolle vs Go Ahead Eagles | Over 2.5 | 66% ★ | 1.51 | 1.42 |  |
+| 10:15 | Netherlands · Eredivisie | Zwolle vs Go Ahead Eagles | Over 2.5 | 66% ★ | 1.51 | 1.42 | ✅ 4-1 |
 | 15:00 | Norway · Eliteserien | Valerenga vs Brann | Over 2.5 | 66% ★ | 1.51 | - |  |
 | 10:00 | China · Super League | Wuhan Three Towns vs Shanghai Shenhua | Over 2.5 | 66% ★ | 1.52 | - |  |
-| 13:30 | Germany · Bundesliga | Leverkusen vs Freiburg | Over 2.5 | 66% ★ | 1.52 | 1.45 |  |
+| 13:30 | Germany · Bundesliga | Leverkusen vs Freiburg | Over 2.5 | 66% ★ | 1.52 | 1.45 | ✅ 2-1 |
 | 02:30 | USA · MLS | Los Angeles Galaxy vs San Diego FC | Over 2.5 | 66% ★ | 1.52 | - |  |
 | 01:00 | Mexico · Liga MX | Toluca vs Atl. San Luis | Over 2.5 | 65% ★ | 1.54 | - |  |
 | 11:30 | Germany · 2. Bundesliga | Dresden vs Magdeburg | Over 2.5 | 63% ★ | 1.58 | 1.49 |  |
@@ -204,26 +206,26 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 15:30 | Germany · Bundesliga | M'gladbach vs Hoffenheim | BTTS Yes | 70% ★★ | 1.44 | - |  |
-| 14:45 | Netherlands · Eredivisie | Groningen vs Ajax | BTTS Yes | 69% ★★ | 1.44 | - |  |
+| 15:30 | Germany · Bundesliga | M'gladbach vs Hoffenheim | BTTS Yes | 70% ★★ | 1.44 | - | ✅ 1-2 |
+| 14:45 | Netherlands · Eredivisie | Groningen vs Ajax | BTTS Yes | 69% ★★ | 1.44 | - | ✅ 2-5 |
 | 21:00 | USA · MLS | FC Cincinnati vs Columbus Crew | BTTS Yes | 68% ★★ | 1.47 | - |  |
 | 15:00 | Norway · Eliteserien | Valerenga vs Brann | BTTS Yes | 67% ★★ | 1.49 | - |  |
 | 11:30 | Germany · 2. Bundesliga | Karlsruhe vs Darmstadt | BTTS Yes | 67% ★★ | 1.49 | - |  |
 | 10:00 | China · Super League | Wuhan Three Towns vs Shanghai Shenhua | BTTS Yes | 67% ★★ | 1.50 | - |  |
-| 10:15 | Netherlands · Eredivisie | Zwolle vs Go Ahead Eagles | BTTS Yes | 67% ★★ | 1.50 | - |  |
+| 10:15 | Netherlands · Eredivisie | Zwolle vs Go Ahead Eagles | BTTS Yes | 67% ★★ | 1.50 | - | ✅ 4-1 |
 | 02:30 | USA · MLS | Los Angeles Galaxy vs San Diego FC | BTTS Yes | 67% ★★ | 1.50 | - |  |
 | 18:00 | Netherlands · Eredivisie | Nijmegen vs For Sittard | BTTS Yes | 66% ★★ | 1.52 | - |  |
 | 12:00 | Denmark · Superliga | Sonderjyske vs Silkeborg | BTTS Yes | 65% ★ | 1.54 | - |  |
 | 11:30 | Germany · 2. Bundesliga | Dresden vs Magdeburg | BTTS Yes | 65% ★ | 1.54 | - |  |
 | 00:30 | USA · MLS | Sporting Kansas City vs Real Salt Lake | BTTS Yes | 64% ★ | 1.55 | - |  |
-| 12:30 | Netherlands · Eredivisie | Cambuur vs AZ Alkmaar | BTTS Yes | 64% ★ | 1.56 | - |  |
-| 13:30 | Germany · Bundesliga | Leverkusen vs Freiburg | BTTS Yes | 64% ★ | 1.57 | - |  |
+| 12:30 | Netherlands · Eredivisie | Cambuur vs AZ Alkmaar | BTTS Yes | 64% ★ | 1.56 | - | ✅ 2-2 |
+| 13:30 | Germany · Bundesliga | Leverkusen vs Freiburg | BTTS Yes | 64% ★ | 1.57 | - | ✅ 2-1 |
 | 02:30 | USA · MLS | Portland Timbers vs Colorado Rapids | BTTS Yes | 63% ★ | 1.59 | - |  |
 | 12:00 | Sweden · Allsvenskan | Sirius vs Elfsborg | BTTS Yes | 63% ★ | 1.59 | - |  |
 | 12:00 | China · Super League | Shanghai Port vs Chengdu Rongcheng | BTTS Yes | 63% ★ | 1.60 | - |  |
 | 12:30 | Norway · Eliteserien | Sarpsborg 08 vs Rosenborg | BTTS Yes | 61% ★ | 1.63 | - |  |
 | 14:30 | Sweden · Allsvenskan | Malmo FF vs Hacken | BTTS Yes | 61% ★ | 1.63 | - |  |
-| 13:00 | England · Premier League | Leeds vs Man United | BTTS Yes | 61% ★ | 1.63 | - |  |
+| 13:00 | England · Premier League | Leeds vs Man United | BTTS Yes | 61% ★ | 1.63 | - | ✅ 1-1 |
 
 ### 🛡️ Double Chance
 
@@ -243,12 +245,12 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 11:00 | China · Super League | Beijing Guoan vs Qingdao West Coast | 1X | 87% ★★ | 1.15 | 1.07 |  |
 | 15:30 | Poland · Ekstraklasa | Lech Poznan vs Korona Kielce | 1X | 87% ★★ | 1.15 | 1.08 |  |
 | 02:30 | USA · MLS | Seattle Sounders vs CF Montreal | 1X | 85% ★ | 1.18 | 1.11 |  |
-| 12:30 | Netherlands · Eredivisie | Cambuur vs AZ Alkmaar | X2 | 84% ★ | 1.19 | 1.11 |  |
+| 12:30 | Netherlands · Eredivisie | Cambuur vs AZ Alkmaar | X2 | 84% ★ | 1.19 | 1.11 | ✅ 2-2 |
 | 17:15 | Norway · Eliteserien | Tromso vs KFUM Oslo | 1X | 84% ★ | 1.19 | 1.10 |  |
 | 12:00 | Finland · Veikkausliiga | KuPS vs VPS | 1X | 84% ★ | 1.20 | 1.10 |  |
 | 10:15 | Poland · Ekstraklasa | Gornik Zabrze vs Piast Gliwice | 1X | 83% ★ | 1.20 | 1.13 |  |
-| 15:30 | England · Premier League | Nott'm Forest vs Arsenal | X2 | 83% ★ | 1.20 | 1.13 |  |
-| 13:00 | England · Premier League | Brighton vs Crystal Palace | 1X | 83% ★ | 1.21 | 1.14 |  |
+| 15:30 | England · Premier League | Nott'm Forest vs Arsenal | X2 | 83% ★ | 1.20 | 1.13 | ✅ 0-1 |
+| 13:00 | England · Premier League | Brighton vs Crystal Palace | 1X | 83% ★ | 1.21 | 1.14 | ✅ 5-0 |
 
 
 ## Monday 19 October 2026
@@ -344,10 +346,10 @@ _No match was likely enough to pick._
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 8/10 (80%), ROI -12% | 38/43 (88%), ROI -7% | 38/43 (88%), ROI -7% |
-| BTTS & Over 2.5 | 31/50 (62%) | 94/171 (55%) | 94/171 (55%) |
-| Over 2.5 Goals | 39/51 (76%), ROI +24% | 114/174 (66%), ROI -5% | 114/174 (66%), ROI -5% |
-| Both Teams To Score | 35/52 (67%) | 111/178 (62%) | 111/178 (62%) |
-| Double Chance | 43/53 (81%), ROI -4% | 171/199 (86%), ROI -2% | 171/199 (86%), ROI -2% |
+| BTTS & Over 2.5 | 36/55 (65%) | 99/176 (56%) | 99/176 (56%) |
+| Over 2.5 Goals | 44/56 (79%), ROI +26% | 119/179 (66%), ROI -3% | 119/179 (66%), ROI -3% |
+| Both Teams To Score | 41/58 (71%) | 117/184 (64%) | 117/184 (64%) |
+| Double Chance | 46/56 (82%), ROI -3% | 174/202 (86%), ROI -2% | 174/202 (86%), ROI -2% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
