@@ -1,7 +1,7 @@
 {
  "date": "2026-10-19",
  "created_at": "2026-10-17T09:26:16+00:00",
- "updated_at": "2026-10-18T23:39:11+00:00",
+ "updated_at": "2026-10-19T10:49:51+00:00",
  "fixtures": [
   {
    "id": "MEX|2026-10-19|Monterrey|Pachuca",
@@ -1931,5 +1931,43 @@
    }
   ]
  },
- "notified": []
+ "notified": [
+  "btts_over25|DNK|2026-10-19|Viborg|Midtjylland",
+  "btts_over25|E0|2026-10-19|Tottenham|Coventry",
+  "btts_over25|F2|2026-10-19|Rodez|Montpellier",
+  "btts_over25|IRL|2026-10-19|Waterford|Galway",
+  "btts_over25|POL|2026-10-19|Wisla Plock|Radomiak Radom",
+  "btts_over25|ROU|2026-10-19|FC Voluntari|FCSB",
+  "btts_over25|T1|2026-10-19|Trabzonspor|Besiktas",
+  "btts|DNK|2026-10-19|Viborg|Midtjylland",
+  "btts|E0|2026-10-19|Tottenham|Coventry",
+  "btts|F2|2026-10-19|Rodez|Montpellier",
+  "btts|I1|2026-10-19|Monza|Cagliari",
+  "btts|IRL|2026-10-19|Waterford|Galway",
+  "btts|POL|2026-10-19|Wisla Plock|Radomiak Radom",
+  "btts|ROU|2026-10-19|FC Voluntari|FCSB",
+  "btts|SP2|2026-10-19|Celta B|Tenerife",
+  "btts|SWE|2026-10-19|Degerfors|Kalmar",
+  "btts|T1|2026-10-19|Trabzonspor|Besiktas",
+  "double_chance|ARG|2026-10-19|Newells Old Boys|Central Cordoba",
+  "double_chance|ARG|2026-10-19|Sarmiento Junin|Barracas Central",
+  "double_chance|BRA|2026-10-20|Corinthians|Vitoria",
+  "double_chance|DNK|2026-10-19|Viborg|Midtjylland",
+  "double_chance|E0|2026-10-19|Tottenham|Coventry",
+  "double_chance|F2|2026-10-19|Rodez|Montpellier",
+  "double_chance|I1|2026-10-19|Monza|Cagliari",
+  "double_chance|P1|2026-10-19|Sp Braga|Gil Vicente",
+  "double_chance|POL|2026-10-19|Wisla Plock|Radomiak Radom",
+  "double_chance|ROU|2026-10-19|FC Voluntari|FCSB",
+  "double_chance|ROU|2026-10-19|U. Cluj|FC Arges",
+  "double_chance|SP2|2026-10-19|Celta B|Tenerife",
+  "double_chance|SWE|2026-10-19|Degerfors|Kalmar",
+  "double_chance|T1|2026-10-19|Trabzonspor|Besiktas",
+  "over25|DNK|2026-10-19|Viborg|Midtjylland",
+  "over25|E0|2026-10-19|Tottenham|Coventry",
+  "over25|F2|2026-10-19|Rodez|Montpellier",
+  "over25|POL|2026-10-19|Wisla Plock|Radomiak Radom",
+  "over25|ROU|2026-10-19|FC Voluntari|FCSB",
+  "over25|T1|2026-10-19|Trabzonspor|Besiktas"
+ ]
 }

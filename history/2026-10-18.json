@@ -5960,8 +5960,12 @@
    "flags": [
     "Remo new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-16T09:53:46+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-10-16T09:53:46+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-10-19|Belgrano|River Plate",
