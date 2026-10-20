@@ -1,13 +1,1915 @@
 {
  "date": "2026-10-21",
  "created_at": "2026-10-19T10:49:51+00:00",
- "updated_at": "2026-10-20T10:07:27+00:00",
- "fixtures": [],
+ "updated_at": "2026-10-20T20:35:36+00:00",
+ "fixtures": [
+  {
+   "id": "MEX|2026-10-21|Guadalajara Chivas|Necaxa",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T00:07:00+00:00",
+   "home": "Guadalajara Chivas",
+   "away": "Necaxa",
+   "expected_goals": [
+    2.19,
+    0.81
+   ],
+   "model_expected_goals": [
+    1.98,
+    1.03
+   ],
+   "rho": -0.0802,
+   "probabilities": {
+    "home": 0.6819,
+    "draw": 0.2003,
+    "away": 0.1178,
+    "over25": 0.5757,
+    "under25": 0.4243,
+    "btts": 0.4992,
+    "btts_over25": 0.4037,
+    "dc_1x": 0.8822,
+    "dc_x2": 0.3181,
+    "dc_12": 0.7997
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1196
+    ],
+    [
+     "1-0",
+     0.1023
+    ],
+    [
+     "2-1",
+     0.0967
+    ]
+   ],
+   "market": {
+    "home": 0.7091,
+    "draw": 0.1704,
+    "away": 0.1205,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.36,
+    "draw": 4.87,
+    "away": 6.64,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    114,
+    106
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "MEX|2026-10-21|Atl. San Luis|Queretaro",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T01:00:00+00:00",
+   "home": "Atl. San Luis",
+   "away": "Queretaro",
+   "expected_goals": [
+    1.49,
+    1.23
+   ],
+   "model_expected_goals": [
+    1.56,
+    1.17
+   ],
+   "rho": -0.0802,
+   "probabilities": {
+    "home": 0.4227,
+    "draw": 0.2735,
+    "away": 0.3039,
+    "over25": 0.5132,
+    "under25": 0.4868,
+    "btts": 0.5594,
+    "btts_over25": 0.4293,
+    "dc_1x": 0.6961,
+    "dc_x2": 0.5773,
+    "dc_12": 0.7265
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1301
+    ],
+    [
+     "2-1",
+     0.09
+    ],
+    [
+     "1-0",
+     0.088
+    ]
+   ],
+   "market": {
+    "home": 0.4237,
+    "draw": 0.2604,
+    "away": 0.316,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.2,
+    "draw": 3.44,
+    "away": 2.88,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    112,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "MEX|2026-10-21|Juarez|Atlante",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T01:00:00+00:00",
+   "home": "Juarez",
+   "away": "Atlante",
+   "expected_goals": [
+    1.39,
+    1.5
+   ],
+   "model_expected_goals": [
+    1.65,
+    1.24
+   ],
+   "rho": -0.0802,
+   "probabilities": {
+    "home": 0.342,
+    "draw": 0.2666,
+    "away": 0.3914,
+    "over25": 0.5507,
+    "under25": 0.4493,
+    "btts": 0.5919,
+    "btts_over25": 0.4665,
+    "dc_1x": 0.6086,
+    "dc_x2": 0.658,
+    "dc_12": 0.7334
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1253
+    ],
+    [
+     "1-2",
+     0.0869
+    ],
+    [
+     "2-1",
+     0.0805
+    ]
+   ],
+   "market": {
+    "home": 0.324,
+    "draw": 0.2619,
+    "away": 0.4141,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.82,
+    "draw": 3.43,
+    "away": 2.25,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    106,
+    12
+   ],
+   "flags": [
+    "Atlante new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "MEX|2026-10-21|Tigres UANL|Club Leon",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T03:00:00+00:00",
+   "home": "Tigres UANL",
+   "away": "Club Leon",
+   "expected_goals": [
+    1.72,
+    1.08
+   ],
+   "model_expected_goals": [
+    1.84,
+    0.97
+   ],
+   "rho": -0.0802,
+   "probabilities": {
+    "home": 0.5156,
+    "draw": 0.2561,
+    "away": 0.2283,
+    "over25": 0.5315,
+    "under25": 0.4685,
+    "btts": 0.5516,
+    "btts_over25": 0.4298,
+    "dc_1x": 0.7717,
+    "dc_x2": 0.4844,
+    "dc_12": 0.7439
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1218
+    ],
+    [
+     "2-1",
+     0.0972
+    ],
+    [
+     "1-0",
+     0.0954
+    ]
+   ],
+   "market": {
+    "home": 0.5105,
+    "draw": 0.2488,
+    "away": 0.2407,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.85,
+    "draw": 3.57,
+    "away": 3.68,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    124,
+    109
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "JPN|2026-10-21|Avispa Fukuoka|Gamba Osaka",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T10:00:00+00:00",
+   "home": "Avispa Fukuoka",
+   "away": "Gamba Osaka",
+   "expected_goals": [
+    1.21,
+    1.15
+   ],
+   "model_expected_goals": [
+    1.26,
+    1.11
+   ],
+   "rho": 0.0289,
+   "probabilities": {
+    "home": 0.3789,
+    "draw": 0.2711,
+    "away": 0.35,
+    "over25": 0.4218,
+    "under25": 0.5782,
+    "btts": 0.4774,
+    "btts_over25": 0.35,
+    "dc_1x": 0.65,
+    "dc_x2": 0.6211,
+    "dc_12": 0.7289
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1274
+    ],
+    [
+     "1-0",
+     0.1175
+    ],
+    [
+     "0-1",
+     0.1119
+    ]
+   ],
+   "market": {
+    "home": 0.3728,
+    "draw": 0.2758,
+    "away": 0.3514,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.49,
+    "draw": 3.29,
+    "away": 2.63,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    90,
+    90
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "JPN|2026-10-21|FC Tokyo|Kashiwa Reysol",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T10:00:00+00:00",
+   "home": "FC Tokyo",
+   "away": "Kashiwa Reysol",
+   "expected_goals": [
+    1.51,
+    1.21
+   ],
+   "model_expected_goals": [
+    1.45,
+    1.28
+   ],
+   "rho": 0.0289,
+   "probabilities": {
+    "home": 0.4463,
+    "draw": 0.2466,
+    "away": 0.3071,
+    "over25": 0.5116,
+    "under25": 0.4884,
+    "btts": 0.5434,
+    "btts_over25": 0.4266,
+    "dc_1x": 0.6929,
+    "dc_x2": 0.5537,
+    "dc_12": 0.7534
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1168
+    ],
+    [
+     "1-0",
+     0.103
+    ],
+    [
+     "2-1",
+     0.091
+    ]
+   ],
+   "market": {
+    "home": 0.4448,
+    "draw": 0.2601,
+    "away": 0.2951,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.11,
+    "draw": 3.46,
+    "away": 3.08,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    90,
+    90
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "JPN|2026-10-21|Kawasaki Frontale|Vissel Kobe",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T10:00:00+00:00",
+   "home": "Kawasaki Frontale",
+   "away": "Vissel Kobe",
+   "expected_goals": [
+    1.53,
+    1.38
+   ],
+   "model_expected_goals": [
+    1.48,
+    1.43
+   ],
+   "rho": 0.0289,
+   "probabilities": {
+    "home": 0.4139,
+    "draw": 0.2399,
+    "away": 0.3462,
+    "over25": 0.5558,
+    "under25": 0.4442,
+    "btts": 0.5826,
+    "btts_over25": 0.4708,
+    "dc_1x": 0.6538,
+    "dc_x2": 0.5861,
+    "dc_12": 0.7601
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1118
+    ],
+    [
+     "2-1",
+     0.088
+    ],
+    [
+     "1-0",
+     0.0868
+    ]
+   ],
+   "market": {
+    "home": 0.4113,
+    "draw": 0.2533,
+    "away": 0.3354,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.27,
+    "draw": 3.55,
+    "away": 2.74,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    90,
+    90
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "JPN|2026-10-21|Kyoto|Kashima Antlers",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T10:00:00+00:00",
+   "home": "Kyoto",
+   "away": "Kashima Antlers",
+   "expected_goals": [
+    1.12,
+    1.61
+   ],
+   "model_expected_goals": [
+    1.32,
+    1.42
+   ],
+   "rho": 0.0289,
+   "probabilities": {
+    "home": 0.2686,
+    "draw": 0.2409,
+    "away": 0.4905,
+    "over25": 0.5142,
+    "under25": 0.4858,
+    "btts": 0.5361,
+    "btts_over25": 0.422,
+    "dc_1x": 0.5095,
+    "dc_x2": 0.7314,
+    "dc_12": 0.7591
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1142
+    ],
+    [
+     "0-1",
+     0.1082
+    ],
+    [
+     "1-2",
+     0.0947
+    ]
+   ],
+   "market": {
+    "home": 0.2465,
+    "draw": 0.2548,
+    "away": 0.4987,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.64,
+    "draw": 3.53,
+    "away": 1.9,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    90,
+    90
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "JPN|2026-10-21|Nagoya Grampus|Cerezo Osaka",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T10:00:00+00:00",
+   "home": "Nagoya Grampus",
+   "away": "Cerezo Osaka",
+   "expected_goals": [
+    1.43,
+    1.24
+   ],
+   "model_expected_goals": [
+    1.44,
+    1.23
+   ],
+   "rho": 0.0289,
+   "probabilities": {
+    "home": 0.4189,
+    "draw": 0.2514,
+    "away": 0.3297,
+    "over25": 0.4987,
+    "under25": 0.5013,
+    "btts": 0.5367,
+    "btts_over25": 0.4174,
+    "dc_1x": 0.6703,
+    "dc_x2": 0.5811,
+    "dc_12": 0.7486
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1193
+    ],
+    [
+     "1-0",
+     0.1028
+    ],
+    [
+     "0-1",
+     0.0894
+    ]
+   ],
+   "market": {
+    "home": 0.4155,
+    "draw": 0.2567,
+    "away": 0.3279,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.25,
+    "draw": 3.51,
+    "away": 2.8,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    90,
+    90
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "JPN|2026-10-21|Okayama|Mito",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T10:00:00+00:00",
+   "home": "Okayama",
+   "away": "Mito",
+   "expected_goals": [
+    1.56,
+    0.87
+   ],
+   "model_expected_goals": [
+    1.4,
+    1.04
+   ],
+   "rho": 0.0289,
+   "probabilities": {
+    "home": 0.5405,
+    "draw": 0.2476,
+    "away": 0.2119,
+    "over25": 0.4377,
+    "under25": 0.5623,
+    "btts": 0.4546,
+    "btts_over25": 0.3387,
+    "dc_1x": 0.7881,
+    "dc_x2": 0.4595,
+    "dc_12": 0.7524
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1412
+    ],
+    [
+     "1-1",
+     0.1159
+    ],
+    [
+     "2-0",
+     0.1076
+    ]
+   ],
+   "market": {
+    "home": 0.5507,
+    "draw": 0.2534,
+    "away": 0.196,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.73,
+    "draw": 3.53,
+    "away": 4.47,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    48,
+    10
+   ],
+   "flags": [
+    "Mito new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "JPN|2026-10-21|V-Varen Nagasaki|Sanfrecce Hiroshima",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T10:00:00+00:00",
+   "home": "V-Varen Nagasaki",
+   "away": "Sanfrecce Hiroshima",
+   "expected_goals": [
+    0.77,
+    1.9
+   ],
+   "model_expected_goals": [
+    0.94,
+    1.74
+   ],
+   "rho": 0.0289,
+   "probabilities": {
+    "home": 0.1466,
+    "draw": 0.2081,
+    "away": 0.6453,
+    "over25": 0.4983,
+    "under25": 0.5017,
+    "btts": 0.4522,
+    "btts_over25": 0.354,
+    "dc_1x": 0.3547,
+    "dc_x2": 0.8534,
+    "dc_12": 0.7919
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.135
+    ],
+    [
+     "0-2",
+     0.1255
+    ],
+    [
+     "1-1",
+     0.0982
+    ]
+   ],
+   "market": {
+    "home": 0.1434,
+    "draw": 0.1926,
+    "away": 0.6641,
+    "over25": null
+   },
+   "odds": {
+    "home": 5.83,
+    "draw": 4.46,
+    "away": 1.45,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    10,
+    90
+   ],
+   "flags": [
+    "V-Varen Nagasaki new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "JPN|2026-10-21|Yokohama F. Marinos|Verdy",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T10:00:00+00:00",
+   "home": "Yokohama F. Marinos",
+   "away": "Verdy",
+   "expected_goals": [
+    1.47,
+    0.86
+   ],
+   "model_expected_goals": [
+    1.47,
+    0.86
+   ],
+   "rho": 0.0289,
+   "probabilities": {
+    "home": 0.5175,
+    "draw": 0.2581,
+    "away": 0.2244,
+    "over25": 0.4121,
+    "under25": 0.5879,
+    "btts": 0.4411,
+    "btts_over25": 0.3216,
+    "dc_1x": 0.7756,
+    "dc_x2": 0.4825,
+    "dc_12": 0.7419
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1464
+    ],
+    [
+     "1-1",
+     0.1195
+    ],
+    [
+     "2-0",
+     0.1049
+    ]
+   ],
+   "market": {
+    "home": 0.5131,
+    "draw": 0.2669,
+    "away": 0.22,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.85,
+    "draw": 3.38,
+    "away": 4.04,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    90,
+    86
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "JPN|2026-10-21|Urawa Reds|Chiba",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T10:30:00+00:00",
+   "home": "Urawa Reds",
+   "away": "Chiba",
+   "expected_goals": [
+    1.81,
+    0.93
+   ],
+   "model_expected_goals": [
+    1.78,
+    0.96
+   ],
+   "rho": 0.0289,
+   "probabilities": {
+    "home": 0.5823,
+    "draw": 0.2227,
+    "away": 0.1949,
+    "over25": 0.5157,
+    "under25": 0.4843,
+    "btts": 0.5037,
+    "btts_over25": 0.3979,
+    "dc_1x": 0.8051,
+    "dc_x2": 0.4177,
+    "dc_12": 0.7773
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1199
+    ],
+    [
+     "1-1",
+     0.1058
+    ],
+    [
+     "2-0",
+     0.1054
+    ]
+   ],
+   "market": {
+    "home": 0.5782,
+    "draw": 0.2348,
+    "away": 0.187,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.65,
+    "draw": 3.76,
+    "away": 4.63,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    90,
+    10
+   ],
+   "flags": [
+    "Chiba new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "FIN|2026-10-21|PK-35|Jaro",
+   "league": "FIN",
+   "league_name": "Finland · Veikkausliiga",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T15:30:00+00:00",
+   "home": "PK-35",
+   "away": "Jaro",
+   "expected_goals": [
+    1.34,
+    1.32
+   ],
+   "model_expected_goals": [
+    1.47,
+    1.2
+   ],
+   "rho": -0.0024,
+   "probabilities": {
+    "home": 0.3734,
+    "draw": 0.2607,
+    "away": 0.3659,
+    "over25": 0.4978,
+    "under25": 0.5022,
+    "btts": 0.5422,
+    "btts_over25": 0.4184,
+    "dc_1x": 0.6341,
+    "dc_x2": 0.6266,
+    "dc_12": 0.7393
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1239
+    ],
+    [
+     "1-0",
+     0.093
+    ],
+    [
+     "0-1",
+     0.0919
+    ]
+   ],
+   "market": {
+    "home": 0.3391,
+    "draw": 0.3089,
+    "away": 0.352,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.69,
+    "draw": 2.93,
+    "away": 2.6,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    0,
+    56
+   ],
+   "flags": [
+    "no data for PK-35"
+   ],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "SP1|2026-10-21|Levante|Ath Bilbao",
+   "league": "SP1",
+   "league_name": "Spain · La Liga",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T18:00:00+00:00",
+   "home": "Levante",
+   "away": "Ath Bilbao",
+   "expected_goals": [
+    1.16,
+    1.46
+   ],
+   "model_expected_goals": [
+    1.39,
+    1.26
+   ],
+   "rho": -0.0233,
+   "probabilities": {
+    "home": 0.2983,
+    "draw": 0.2648,
+    "away": 0.4369,
+    "over25": 0.4876,
+    "under25": 0.5124,
+    "btts": 0.5308,
+    "btts_over25": 0.4048,
+    "dc_1x": 0.5631,
+    "dc_x2": 0.7017,
+    "dc_12": 0.7352
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1261
+    ],
+    [
+     "0-1",
+     0.1031
+    ],
+    [
+     "1-2",
+     0.09
+    ]
+   ],
+   "market": {
+    "home": 0.272,
+    "draw": 0.2834,
+    "away": 0.4446,
+    "over25": 0.4881
+   },
+   "odds": {
+    "home": 3.42,
+    "draw": 3.29,
+    "away": 2.15,
+    "over25": 1.91,
+    "under25": 1.83
+   },
+   "team_matches": [
+    46,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "E2|2026-10-21|Reading|Leyton Orient",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-10-21",
+   "kickoff": "2026-10-21T19:00:00+00:00",
+   "home": "Reading",
+   "away": "Leyton Orient",
+   "expected_goals": [
+    2.05,
+    1.0
+   ],
+   "model_expected_goals": [
+    1.65,
+    1.18
+   ],
+   "rho": 0.0034,
+   "probabilities": {
+    "home": 0.6176,
+    "draw": 0.2063,
+    "away": 0.1761,
+    "over25": 0.5872,
+    "under25": 0.4128,
+    "btts": 0.5492,
+    "btts_over25": 0.4525,
+    "dc_1x": 0.8239,
+    "dc_x2": 0.3824,
+    "dc_12": 0.7937
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.0999
+    ],
+    [
+     "2-1",
+     0.0995
+    ],
+    [
+     "1-0",
+     0.0978
+    ]
+   ],
+   "market": {
+    "home": 0.6354,
+    "draw": 0.2086,
+    "away": 0.156,
+    "over25": 0.598
+   },
+   "odds": {
+    "home": 1.52,
+    "draw": 4.25,
+    "away": 5.56,
+    "over25": 1.58,
+    "under25": 2.25
+   },
+   "team_matches": [
+    136,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  },
+  {
+   "id": "USA|2026-10-22|FC Cincinnati|DC United",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-10-22",
+   "kickoff": "2026-10-21T23:00:00+00:00",
+   "home": "FC Cincinnati",
+   "away": "DC United",
+   "expected_goals": [
+    2.17,
+    1.29
+   ],
+   "model_expected_goals": [
+    2.13,
+    1.33
+   ],
+   "rho": -0.051,
+   "probabilities": {
+    "home": 0.5714,
+    "draw": 0.2126,
+    "away": 0.216,
+    "over25": 0.6715,
+    "under25": 0.3285,
+    "btts": 0.6458,
+    "btts_over25": 0.5534,
+    "dc_1x": 0.784,
+    "dc_x2": 0.4286,
+    "dc_12": 0.7874
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0955
+    ],
+    [
+     "1-1",
+     0.0924
+    ],
+    [
+     "2-0",
+     0.0743
+    ]
+   ],
+   "market": {
+    "home": 0.5771,
+    "draw": 0.2071,
+    "away": 0.2158,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.66,
+    "draw": 4.27,
+    "away": 4.11,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    108,
+    97
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-20T20:35:36+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-10-22|FC Cincinnati|DC United",
+    "league": "USA",
+    "kickoff": "2026-10-21T23:00:00+00:00",
+    "home": "FC Cincinnati",
+    "away": "DC United",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5534,
+    "fair_odds": 1.81,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "JPN|2026-10-21|Kawasaki Frontale|Vissel Kobe",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Kawasaki Frontale",
+    "away": "Vissel Kobe",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4708,
+    "fair_odds": 2.12,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-10-21|Juarez|Atlante",
+    "league": "MEX",
+    "kickoff": "2026-10-21T01:00:00+00:00",
+    "home": "Juarez",
+    "away": "Atlante",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4665,
+    "fair_odds": 2.14,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E2|2026-10-21|Reading|Leyton Orient",
+    "league": "E2",
+    "kickoff": "2026-10-21T19:00:00+00:00",
+    "home": "Reading",
+    "away": "Leyton Orient",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4525,
+    "fair_odds": 2.21,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-10-21|Tigres UANL|Club Leon",
+    "league": "MEX",
+    "kickoff": "2026-10-21T03:00:00+00:00",
+    "home": "Tigres UANL",
+    "away": "Club Leon",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4298,
+    "fair_odds": 2.33,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-10-21|Atl. San Luis|Queretaro",
+    "league": "MEX",
+    "kickoff": "2026-10-21T01:00:00+00:00",
+    "home": "Atl. San Luis",
+    "away": "Queretaro",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4293,
+    "fair_odds": 2.33,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "JPN|2026-10-21|FC Tokyo|Kashiwa Reysol",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "FC Tokyo",
+    "away": "Kashiwa Reysol",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4266,
+    "fair_odds": 2.34,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "JPN|2026-10-21|Kyoto|Kashima Antlers",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Kyoto",
+    "away": "Kashima Antlers",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.422,
+    "fair_odds": 2.37,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "JPN|2026-10-21|Nagoya Grampus|Cerezo Osaka",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Nagoya Grampus",
+    "away": "Cerezo Osaka",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4174,
+    "fair_odds": 2.4,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SP1|2026-10-21|Levante|Ath Bilbao",
+    "league": "SP1",
+    "kickoff": "2026-10-21T18:00:00+00:00",
+    "home": "Levante",
+    "away": "Ath Bilbao",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4048,
+    "fair_odds": 2.47,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-10-21|Guadalajara Chivas|Necaxa",
+    "league": "MEX",
+    "kickoff": "2026-10-21T00:07:00+00:00",
+    "home": "Guadalajara Chivas",
+    "away": "Necaxa",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4037,
+    "fair_odds": 2.48,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "USA|2026-10-22|FC Cincinnati|DC United",
+    "league": "USA",
+    "kickoff": "2026-10-21T23:00:00+00:00",
+    "home": "FC Cincinnati",
+    "away": "DC United",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6715,
+    "fair_odds": 1.49,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E2|2026-10-21|Reading|Leyton Orient",
+    "league": "E2",
+    "kickoff": "2026-10-21T19:00:00+00:00",
+    "home": "Reading",
+    "away": "Leyton Orient",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5872,
+    "fair_odds": 1.7,
+    "market_odds": 1.58,
+    "edge": -0.0722,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "MEX|2026-10-21|Guadalajara Chivas|Necaxa",
+    "league": "MEX",
+    "kickoff": "2026-10-21T00:07:00+00:00",
+    "home": "Guadalajara Chivas",
+    "away": "Necaxa",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5757,
+    "fair_odds": 1.74,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "JPN|2026-10-21|Kawasaki Frontale|Vissel Kobe",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Kawasaki Frontale",
+    "away": "Vissel Kobe",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5558,
+    "fair_odds": 1.8,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "MEX|2026-10-21|Juarez|Atlante",
+    "league": "MEX",
+    "kickoff": "2026-10-21T01:00:00+00:00",
+    "home": "Juarez",
+    "away": "Atlante",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5507,
+    "fair_odds": 1.82,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "MEX|2026-10-21|Tigres UANL|Club Leon",
+    "league": "MEX",
+    "kickoff": "2026-10-21T03:00:00+00:00",
+    "home": "Tigres UANL",
+    "away": "Club Leon",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5315,
+    "fair_odds": 1.88,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "JPN|2026-10-21|Urawa Reds|Chiba",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:30:00+00:00",
+    "home": "Urawa Reds",
+    "away": "Chiba",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5157,
+    "fair_odds": 1.94,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "JPN|2026-10-21|Kyoto|Kashima Antlers",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Kyoto",
+    "away": "Kashima Antlers",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5142,
+    "fair_odds": 1.94,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "MEX|2026-10-21|Atl. San Luis|Queretaro",
+    "league": "MEX",
+    "kickoff": "2026-10-21T01:00:00+00:00",
+    "home": "Atl. San Luis",
+    "away": "Queretaro",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5132,
+    "fair_odds": 1.95,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "JPN|2026-10-21|FC Tokyo|Kashiwa Reysol",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "FC Tokyo",
+    "away": "Kashiwa Reysol",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5116,
+    "fair_odds": 1.95,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "USA|2026-10-22|FC Cincinnati|DC United",
+    "league": "USA",
+    "kickoff": "2026-10-21T23:00:00+00:00",
+    "home": "FC Cincinnati",
+    "away": "DC United",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6458,
+    "fair_odds": 1.55,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-10-21|Juarez|Atlante",
+    "league": "MEX",
+    "kickoff": "2026-10-21T01:00:00+00:00",
+    "home": "Juarez",
+    "away": "Atlante",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5919,
+    "fair_odds": 1.69,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "JPN|2026-10-21|Kawasaki Frontale|Vissel Kobe",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Kawasaki Frontale",
+    "away": "Vissel Kobe",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5826,
+    "fair_odds": 1.72,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-10-21|Atl. San Luis|Queretaro",
+    "league": "MEX",
+    "kickoff": "2026-10-21T01:00:00+00:00",
+    "home": "Atl. San Luis",
+    "away": "Queretaro",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5594,
+    "fair_odds": 1.79,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-10-21|Tigres UANL|Club Leon",
+    "league": "MEX",
+    "kickoff": "2026-10-21T03:00:00+00:00",
+    "home": "Tigres UANL",
+    "away": "Club Leon",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5516,
+    "fair_odds": 1.81,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E2|2026-10-21|Reading|Leyton Orient",
+    "league": "E2",
+    "kickoff": "2026-10-21T19:00:00+00:00",
+    "home": "Reading",
+    "away": "Leyton Orient",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5492,
+    "fair_odds": 1.82,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "JPN|2026-10-21|FC Tokyo|Kashiwa Reysol",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "FC Tokyo",
+    "away": "Kashiwa Reysol",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5434,
+    "fair_odds": 1.84,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "JPN|2026-10-21|Nagoya Grampus|Cerezo Osaka",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Nagoya Grampus",
+    "away": "Cerezo Osaka",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5367,
+    "fair_odds": 1.86,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "JPN|2026-10-21|Kyoto|Kashima Antlers",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Kyoto",
+    "away": "Kashima Antlers",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5361,
+    "fair_odds": 1.87,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP1|2026-10-21|Levante|Ath Bilbao",
+    "league": "SP1",
+    "kickoff": "2026-10-21T18:00:00+00:00",
+    "home": "Levante",
+    "away": "Ath Bilbao",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5308,
+    "fair_odds": 1.88,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "JPN|2026-10-21|Urawa Reds|Chiba",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:30:00+00:00",
+    "home": "Urawa Reds",
+    "away": "Chiba",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5037,
+    "fair_odds": 1.99,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "MEX|2026-10-21|Guadalajara Chivas|Necaxa",
+    "league": "MEX",
+    "kickoff": "2026-10-21T00:07:00+00:00",
+    "home": "Guadalajara Chivas",
+    "away": "Necaxa",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.8822,
+    "fair_odds": 1.13,
+    "market_odds": 1.06,
+    "edge": -0.0622,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "JPN|2026-10-21|V-Varen Nagasaki|Sanfrecce Hiroshima",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "V-Varen Nagasaki",
+    "away": "Sanfrecce Hiroshima",
+    "selection": "X2",
+    "tier": "strong",
+    "probability": 0.8534,
+    "fair_odds": 1.17,
+    "market_odds": 1.09,
+    "edge": -0.0662,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E2|2026-10-21|Reading|Leyton Orient",
+    "league": "E2",
+    "kickoff": "2026-10-21T19:00:00+00:00",
+    "home": "Reading",
+    "away": "Leyton Orient",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8239,
+    "fair_odds": 1.21,
+    "market_odds": 1.12,
+    "edge": -0.0776,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "JPN|2026-10-21|Urawa Reds|Chiba",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:30:00+00:00",
+    "home": "Urawa Reds",
+    "away": "Chiba",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8051,
+    "fair_odds": 1.24,
+    "market_odds": 1.15,
+    "edge": -0.0768,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "JPN|2026-10-21|Okayama|Mito",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Okayama",
+    "away": "Mito",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7881,
+    "fair_odds": 1.27,
+    "market_odds": 1.16,
+    "edge": -0.085,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-10-22|FC Cincinnati|DC United",
+    "league": "USA",
+    "kickoff": "2026-10-21T23:00:00+00:00",
+    "home": "FC Cincinnati",
+    "away": "DC United",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7874,
+    "fair_odds": 1.27,
+    "market_odds": 1.18,
+    "edge": -0.069,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "JPN|2026-10-21|Yokohama F. Marinos|Verdy",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Yokohama F. Marinos",
+    "away": "Verdy",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7756,
+    "fair_odds": 1.29,
+    "market_odds": 1.2,
+    "edge": -0.0727,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "MEX|2026-10-21|Tigres UANL|Club Leon",
+    "league": "MEX",
+    "kickoff": "2026-10-21T03:00:00+00:00",
+    "home": "Tigres UANL",
+    "away": "Club Leon",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7717,
+    "fair_odds": 1.3,
+    "market_odds": 1.22,
+    "edge": -0.0597,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "JPN|2026-10-21|Kawasaki Frontale|Vissel Kobe",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Kawasaki Frontale",
+    "away": "Vissel Kobe",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7601,
+    "fair_odds": 1.32,
+    "market_odds": 1.24,
+    "edge": -0.0564,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "JPN|2026-10-21|Kyoto|Kashima Antlers",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Kyoto",
+    "away": "Kashima Antlers",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7591,
+    "fair_odds": 1.32,
+    "market_odds": 1.25,
+    "edge": -0.0524,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "JPN|2026-10-21|FC Tokyo|Kashiwa Reysol",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "FC Tokyo",
+    "away": "Kashiwa Reysol",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7534,
+    "fair_odds": 1.33,
+    "market_odds": 1.25,
+    "edge": -0.0567,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "JPN|2026-10-21|Nagoya Grampus|Cerezo Osaka",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Nagoya Grampus",
+    "away": "Cerezo Osaka",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7486,
+    "fair_odds": 1.34,
+    "market_odds": 1.25,
+    "edge": -0.0661,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP1|2026-10-21|Levante|Ath Bilbao",
+    "league": "SP1",
+    "kickoff": "2026-10-21T18:00:00+00:00",
+    "home": "Levante",
+    "away": "Ath Bilbao",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7352,
+    "fair_odds": 1.36,
+    "market_odds": 1.32,
+    "edge": -0.0295,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "MEX|2026-10-21|Juarez|Atlante",
+    "league": "MEX",
+    "kickoff": "2026-10-21T01:00:00+00:00",
+    "home": "Juarez",
+    "away": "Atlante",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7334,
+    "fair_odds": 1.36,
+    "market_odds": 1.25,
+    "edge": -0.0822,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "JPN|2026-10-21|Avispa Fukuoka|Gamba Osaka",
+    "league": "JPN",
+    "kickoff": "2026-10-21T10:00:00+00:00",
+    "home": "Avispa Fukuoka",
+    "away": "Gamba Osaka",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7289,
+    "fair_odds": 1.37,
+    "market_odds": 1.28,
+    "edge": -0.0677,
+    "published_at": "2026-10-20T20:35:36+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }
