@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-21 10:15 UTC · kick-off times in UTC_
+_Generated 2026-10-21 20:38 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -35,6 +35,8 @@ _No match was likely enough to pick._
 
 17 matches analysed across 6 leagues.
 
+**Results:** ✅ 3 won · ❌ 0 lost · 44 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
@@ -54,7 +56,7 @@ _No match was likely enough to pick._
 | 10:00 | Japan · J1 League | FC Tokyo vs Kashiwa Reysol | BTTS & Over 2.5 | 43% ☆ | 2.34 | - |  |
 | 10:00 | Japan · J1 League | Kyoto vs Kashima Antlers | BTTS & Over 2.5 | 42% ☆ | 2.37 | - |  |
 | 10:00 | Japan · J1 League | Nagoya Grampus vs Cerezo Osaka | BTTS & Over 2.5 | 42% ☆ | 2.40 | - |  |
-| 18:00 | Spain · La Liga | Levante vs Ath Bilbao | BTTS & Over 2.5 | 40% ☆ | 2.47 | - |  |
+| 18:00 | Spain · La Liga | Levante vs Ath Bilbao | BTTS & Over 2.5 | 40% ☆ | 2.47 | - | ✅ 3-1 |
 | 00:07 | Mexico · Liga MX | Guadalajara Chivas vs Necaxa | BTTS & Over 2.5 | 40% ☆ | 2.48 | - |  |
 
 ### ⚽ Over 2.5 Goals
@@ -85,7 +87,7 @@ _No match was likely enough to pick._
 | 10:00 | Japan · J1 League | FC Tokyo vs Kashiwa Reysol | BTTS Yes | 54% ☆ | 1.84 | - |  |
 | 10:00 | Japan · J1 League | Nagoya Grampus vs Cerezo Osaka | BTTS Yes | 54% ☆ | 1.86 | - |  |
 | 10:00 | Japan · J1 League | Kyoto vs Kashima Antlers | BTTS Yes | 54% ☆ | 1.87 | - |  |
-| 18:00 | Spain · La Liga | Levante vs Ath Bilbao | BTTS Yes | 53% ☆ | 1.88 | - |  |
+| 18:00 | Spain · La Liga | Levante vs Ath Bilbao | BTTS Yes | 53% ☆ | 1.88 | - | ✅ 3-1 |
 | 10:30 | Japan · J1 League | Urawa Reds vs Chiba | BTTS Yes | 50% ☆ | 1.99 | - |  |
 
 ### 🛡️ Double Chance
@@ -104,7 +106,7 @@ _No match was likely enough to pick._
 | 10:00 | Japan · J1 League | Kyoto vs Kashima Antlers | 12 | 76% ☆ | 1.32 | 1.25 |  |
 | 10:00 | Japan · J1 League | FC Tokyo vs Kashiwa Reysol | 12 | 75% ☆ | 1.33 | 1.25 |  |
 | 10:00 | Japan · J1 League | Nagoya Grampus vs Cerezo Osaka | 12 | 75% ☆ | 1.34 | 1.25 |  |
-| 18:00 | Spain · La Liga | Levante vs Ath Bilbao | 12 | 74% ☆ | 1.36 | 1.32 |  |
+| 18:00 | Spain · La Liga | Levante vs Ath Bilbao | 12 | 74% ☆ | 1.36 | 1.32 | ✅ 3-1 |
 | 01:00 | Mexico · Liga MX | Juarez vs Atlante | 12 | 73% ☆ | 1.36 | 1.25 |  |
 | 10:00 | Japan · J1 League | Avispa Fukuoka vs Gamba Osaka | 12 | 73% ☆ | 1.37 | 1.28 |  |
 
@@ -163,10 +165,10 @@ _No upcoming matches in the published fixtures for this day._
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 24/25 (96%), ROI +1% | 55/60 (92%), ROI -4% | 55/60 (92%), ROI -4% |
-| BTTS & Over 2.5 | 41/71 (58%) | 122/221 (55%) | 122/221 (55%) |
+| BTTS & Over 2.5 | 42/72 (58%) | 123/222 (55%) | 123/222 (55%) |
 | Over 2.5 Goals | 51/71 (72%), ROI +4% | 148/221 (67%), ROI -3% | 148/221 (67%), ROI -3% |
-| Both Teams To Score | 47/74 (64%) | 144/231 (62%) | 144/231 (62%) |
-| Double Chance | 67/81 (83%), ROI -8% | 224/261 (86%), ROI -2% | 224/261 (86%), ROI -2% |
+| Both Teams To Score | 48/75 (64%) | 145/232 (62%) | 145/232 (62%) |
+| Double Chance | 68/82 (83%), ROI -7% | 225/262 (86%), ROI -2% | 225/262 (86%), ROI -2% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
