@@ -974,8 +974,7 @@
     3,
     1
    ],
-   "predicted_at": "2026-10-20T20:35:36+00:00",
-   "provisional": true
+   "predicted_at": "2026-10-20T20:35:36+00:00"
   },
   {
    "id": "E2|2026-10-21|Reading|Leyton Orient",
@@ -1038,7 +1037,10 @@
     135
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    1,
+    0
+   ],
    "predicted_at": "2026-10-20T20:35:36+00:00"
   },
   {
@@ -1173,8 +1175,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-20T20:35:36+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     0
+    ]
    },
    {
     "market": "btts_over25",
@@ -1279,8 +1284,7 @@
     "result": [
      3,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "btts_over25",
@@ -1332,8 +1336,11 @@
     "market_odds": 1.58,
     "edge": -0.0722,
     "published_at": "2026-10-20T20:35:36+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     0
+    ]
    },
    {
     "market": "over25",
@@ -1572,8 +1579,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-20T20:35:36+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     0
+    ]
    },
    {
     "market": "btts",
@@ -1644,8 +1654,7 @@
     "result": [
      3,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "btts",
@@ -1714,8 +1723,11 @@
     "market_odds": 1.12,
     "edge": -0.0776,
     "published_at": "2026-10-20T20:35:36+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     0
+    ]
    },
    {
     "market": "double_chance",
@@ -1888,8 +1900,7 @@
     "result": [
      3,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",

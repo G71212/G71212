@@ -1,41 +1,16 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-21 20:38 UTC · kick-off times in UTC_
+_Generated 2026-10-22 00:12 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
 
-## Tuesday 20 October 2026
-
-1 matches analysed across 1 leagues.
-
-**Results:** ✅ 1 won · ❌ 0 lost
-
-### 🔥 BTTS & Over 2.5
-
-_No match was likely enough to pick._
-
-### ⚽ Over 2.5 Goals
-
-_No match was likely enough to pick._
-
-### 🎯 Both Teams To Score
-
-_No match was likely enough to pick._
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:15 | Argentina · Liga Profesional | Dep. Riestra vs Union de Santa Fe | 1X | 74% ☆ | 1.35 | 1.26 | ✅ 1-1 |
-
-
 ## Wednesday 21 October 2026
 
 17 matches analysed across 6 leagues.
 
-**Results:** ✅ 3 won · ❌ 0 lost · 44 pending
+**Results:** ✅ 4 won · ❌ 3 lost · 40 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -50,7 +25,7 @@ _No match was likely enough to pick._
 | 23:00 | USA · MLS | FC Cincinnati vs DC United | BTTS & Over 2.5 | 55% ★★ | 1.81 | - |  |
 | 10:00 | Japan · J1 League | Kawasaki Frontale vs Vissel Kobe | BTTS & Over 2.5 | 47% ☆ | 2.12 | - |  |
 | 01:00 | Mexico · Liga MX | Juarez vs Atlante | BTTS & Over 2.5 | 47% ☆ | 2.14 | - |  |
-| 19:00 | England · League One | Reading vs Leyton Orient | BTTS & Over 2.5 | 45% ☆ | 2.21 | - |  |
+| 19:00 | England · League One | Reading vs Leyton Orient | BTTS & Over 2.5 | 45% ☆ | 2.21 | - | ❌ 1-0 |
 | 03:00 | Mexico · Liga MX | Tigres UANL vs Club Leon | BTTS & Over 2.5 | 43% ☆ | 2.33 | - |  |
 | 01:00 | Mexico · Liga MX | Atl. San Luis vs Queretaro | BTTS & Over 2.5 | 43% ☆ | 2.33 | - |  |
 | 10:00 | Japan · J1 League | FC Tokyo vs Kashiwa Reysol | BTTS & Over 2.5 | 43% ☆ | 2.34 | - |  |
@@ -64,7 +39,7 @@ _No match was likely enough to pick._
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 23:00 | USA · MLS | FC Cincinnati vs DC United | Over 2.5 | 67% ★★ | 1.49 | - |  |
-| 19:00 | England · League One | Reading vs Leyton Orient | Over 2.5 | 59% ☆ | 1.70 | 1.58 |  |
+| 19:00 | England · League One | Reading vs Leyton Orient | Over 2.5 | 59% ☆ | 1.70 | 1.58 | ❌ 1-0 |
 | 00:07 | Mexico · Liga MX | Guadalajara Chivas vs Necaxa | Over 2.5 | 58% ☆ | 1.74 | - |  |
 | 10:00 | Japan · J1 League | Kawasaki Frontale vs Vissel Kobe | Over 2.5 | 56% ☆ | 1.80 | - |  |
 | 01:00 | Mexico · Liga MX | Juarez vs Atlante | Over 2.5 | 55% ☆ | 1.82 | - |  |
@@ -83,7 +58,7 @@ _No match was likely enough to pick._
 | 10:00 | Japan · J1 League | Kawasaki Frontale vs Vissel Kobe | BTTS Yes | 58% ☆ | 1.72 | - |  |
 | 01:00 | Mexico · Liga MX | Atl. San Luis vs Queretaro | BTTS Yes | 56% ☆ | 1.79 | - |  |
 | 03:00 | Mexico · Liga MX | Tigres UANL vs Club Leon | BTTS Yes | 55% ☆ | 1.81 | - |  |
-| 19:00 | England · League One | Reading vs Leyton Orient | BTTS Yes | 55% ☆ | 1.82 | - |  |
+| 19:00 | England · League One | Reading vs Leyton Orient | BTTS Yes | 55% ☆ | 1.82 | - | ❌ 1-0 |
 | 10:00 | Japan · J1 League | FC Tokyo vs Kashiwa Reysol | BTTS Yes | 54% ☆ | 1.84 | - |  |
 | 10:00 | Japan · J1 League | Nagoya Grampus vs Cerezo Osaka | BTTS Yes | 54% ☆ | 1.86 | - |  |
 | 10:00 | Japan · J1 League | Kyoto vs Kashima Antlers | BTTS Yes | 54% ☆ | 1.87 | - |  |
@@ -96,7 +71,7 @@ _No match was likely enough to pick._
 |---|---|---|---|---|---|---|---|
 | 00:07 | Mexico · Liga MX | Guadalajara Chivas vs Necaxa | 1X | 88% 🔒 | 1.13 | 1.06 |  |
 | 10:00 | Japan · J1 League | V-Varen Nagasaki vs Sanfrecce Hiroshima | X2 | 85% ★★ | 1.17 | 1.09 |  |
-| 19:00 | England · League One | Reading vs Leyton Orient | 1X | 82% ★ | 1.21 | 1.12 |  |
+| 19:00 | England · League One | Reading vs Leyton Orient | 1X | 82% ★ | 1.21 | 1.12 | ✅ 1-0 |
 | 10:30 | Japan · J1 League | Urawa Reds vs Chiba | 1X | 81% ★ | 1.24 | 1.15 |  |
 | 10:00 | Japan · J1 League | Okayama vs Mito | 1X | 79% ☆ | 1.27 | 1.16 |  |
 | 23:00 | USA · MLS | FC Cincinnati vs DC United | 12 | 79% ☆ | 1.27 | 1.18 |  |
@@ -160,15 +135,20 @@ _No match was likely enough to pick._
 
 _No upcoming matches in the published fixtures for this day._
 
+
+## Saturday 24 October 2026
+
+_No upcoming matches in the published fixtures for this day._
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 24/25 (96%), ROI +1% | 55/60 (92%), ROI -4% | 55/60 (92%), ROI -4% |
-| BTTS & Over 2.5 | 42/72 (58%) | 123/222 (55%) | 123/222 (55%) |
-| Over 2.5 Goals | 51/71 (72%), ROI +4% | 148/221 (67%), ROI -3% | 148/221 (67%), ROI -3% |
-| Both Teams To Score | 48/75 (64%) | 145/232 (62%) | 145/232 (62%) |
-| Double Chance | 68/82 (83%), ROI -7% | 225/262 (86%), ROI -2% | 225/262 (86%), ROI -2% |
+| 🔒 Bankers | 23/24 (96%), ROI +1% | 55/60 (92%), ROI -4% | 55/60 (92%), ROI -4% |
+| BTTS & Over 2.5 | 39/65 (60%) | 123/223 (55%) | 123/223 (55%) |
+| Over 2.5 Goals | 46/63 (73%), ROI +4% | 148/222 (67%), ROI -4% | 148/222 (67%), ROI -4% |
+| Both Teams To Score | 43/68 (63%) | 145/233 (62%) | 145/233 (62%) |
+| Double Chance | 64/73 (88%), ROI -2% | 226/263 (86%), ROI -2% | 226/263 (86%), ROI -2% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
