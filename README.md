@@ -1,57 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-23 20:26 UTC · kick-off times in UTC_
+_Generated 2026-10-24 00:00 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Thursday 22 October 2026
-
-5 matches analysed across 1 leagues.
-
-**Results:** ✅ 17 won · ❌ 3 lost
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 03:10 | Mexico · Liga MX | Santos Laguna vs UNAM Pumas | BTTS & Over 2.5 | 47% ☆ | 2.14 | - | ❌ 2-0 |
-| 03:00 | Mexico · Liga MX | Pachuca vs Cruz Azul | BTTS & Over 2.5 | 44% ☆ | 2.26 | - | ✅ 1-2 |
-| 01:00 | Mexico · Liga MX | Puebla vs Monterrey | BTTS & Over 2.5 | 43% ☆ | 2.32 | - | ✅ 1-4 |
-| 01:00 | Mexico · Liga MX | Toluca vs Club Tijuana | BTTS & Over 2.5 | 43% ☆ | 2.33 | - | ✅ 2-2 |
-| 01:00 | Mexico · Liga MX | Atlas vs Club America | BTTS & Over 2.5 | 43% ☆ | 2.33 | - | ✅ 2-5 |
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 01:00 | Mexico · Liga MX | Toluca vs Club Tijuana | Over 2.5 | 59% ☆ | 1.68 | - | ✅ 2-2 |
-| 03:10 | Mexico · Liga MX | Santos Laguna vs UNAM Pumas | Over 2.5 | 55% ☆ | 1.81 | - | ❌ 2-0 |
-| 01:00 | Mexico · Liga MX | Puebla vs Monterrey | Over 2.5 | 53% ☆ | 1.90 | - | ✅ 1-4 |
-| 03:00 | Mexico · Liga MX | Pachuca vs Cruz Azul | Over 2.5 | 53% ☆ | 1.90 | - | ✅ 1-2 |
-| 01:00 | Mexico · Liga MX | Atlas vs Club America | Over 2.5 | 52% ☆ | 1.94 | - | ✅ 2-5 |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 03:10 | Mexico · Liga MX | Santos Laguna vs UNAM Pumas | BTTS Yes | 59% ☆ | 1.69 | - | ❌ 2-0 |
-| 03:00 | Mexico · Liga MX | Pachuca vs Cruz Azul | BTTS Yes | 57% ☆ | 1.75 | - | ✅ 1-2 |
-| 01:00 | Mexico · Liga MX | Atlas vs Club America | BTTS Yes | 56% ☆ | 1.80 | - | ✅ 2-5 |
-| 01:00 | Mexico · Liga MX | Puebla vs Monterrey | BTTS Yes | 56% ☆ | 1.80 | - | ✅ 1-4 |
-| 01:00 | Mexico · Liga MX | Toluca vs Club Tijuana | BTTS Yes | 53% ☆ | 1.90 | - | ✅ 2-2 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 01:00 | Mexico · Liga MX | Toluca vs Club Tijuana | 1X | 87% ★★ | 1.15 | 1.07 | ✅ 2-2 |
-| 01:00 | Mexico · Liga MX | Puebla vs Monterrey | X2 | 75% ☆ | 1.33 | 1.22 | ✅ 1-4 |
-| 03:10 | Mexico · Liga MX | Santos Laguna vs UNAM Pumas | 12 | 73% ☆ | 1.36 | 1.23 | ✅ 2-0 |
-| 01:00 | Mexico · Liga MX | Atlas vs Club America | 12 | 73% ☆ | 1.37 | 1.24 | ✅ 2-5 |
-| 03:00 | Mexico · Liga MX | Pachuca vs Cruz Azul | 12 | 73% ☆ | 1.38 | 1.24 | ✅ 1-2 |
-
 
 ## Friday 23 October 2026
 
@@ -326,15 +279,100 @@ _No match was likely enough to pick._
 | 16:30 | Sweden · Allsvenskan | Mjallby vs Hammarby | X2 | 83% ★ | 1.20 | 1.10 |  |
 | 17:30 | Greece · Super League | Aris vs Atromitos | 1X | 82% ★ | 1.21 | 1.12 |  |
 
+
+## Monday 26 October 2026
+
+21 matches analysed across 13 leagues.
+
+### 🔒 Bankers: the day's safest tips
+
+| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
+|---|---|---|---|---|---|---|
+| 01:30 | Barracas Central vs Estudiantes Rio Cuarto | Double Chance | 1X | 88% | 1.14 |  |
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:30 | Turkey · Süper Lig | Galatasaray vs Fenerbahce | BTTS & Over 2.5 | 56% ★★ | 1.79 | - |  |
+| 19:30 | France · Ligue 1 | Paris SG vs Lyon | BTTS & Over 2.5 | 53% ★ | 1.87 | - |  |
+| 16:00 | Turkey · Süper Lig | Rizespor vs Trabzonspor | BTTS & Over 2.5 | 51% ★ | 1.95 | - |  |
+| 16:00 | Turkey · Süper Lig | Besiktas vs Buyuksehyr | BTTS & Over 2.5 | 51% ★ | 1.96 | - |  |
+| 04:10 | Mexico · Liga MX | Club Tijuana vs Santos Laguna | BTTS & Over 2.5 | 47% ☆ | 2.14 | - |  |
+| 19:00 | Denmark · Superliga | FC Copenhagen vs Odense | BTTS & Over 2.5 | 47% ☆ | 2.15 | - |  |
+| 02:00 | USA · MLS | Los Angeles FC vs Los Angeles Galaxy | BTTS & Over 2.5 | 46% ☆ | 2.15 | - |  |
+| 20:00 | England · League Two | Walsall vs Salford | BTTS & Over 2.5 | 45% ☆ | 2.23 | - |  |
+| 19:45 | France · Ligue 2 | Montpellier vs Red Star | BTTS & Over 2.5 | 42% ☆ | 2.40 | - |  |
+| 23:30 | Brazil · Serie A | Coritiba vs Gremio | BTTS & Over 2.5 | 42% ☆ | 2.41 | - |  |
+| 00:00 | Mexico · Liga MX | Atlas vs Puebla | BTTS & Over 2.5 | 41% ☆ | 2.43 | - |  |
+| 02:00 | Mexico · Liga MX | Queretaro vs Cruz Azul | BTTS & Over 2.5 | 41% ☆ | 2.44 | - |  |
+| 02:05 | Mexico · Liga MX | Club America vs Pachuca | BTTS & Over 2.5 | 40% ☆ | 2.47 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 19:30 | France · Ligue 1 | Paris SG vs Lyon | Over 2.5 | 69% ★★ | 1.45 | 1.37 |  |
+| 16:00 | Turkey · Süper Lig | Besiktas vs Buyuksehyr | Over 2.5 | 67% ★★ | 1.48 | 1.37 |  |
+| 18:30 | Turkey · Süper Lig | Galatasaray vs Fenerbahce | Over 2.5 | 65% ★ | 1.54 | 1.47 |  |
+| 19:00 | Denmark · Superliga | FC Copenhagen vs Odense | Over 2.5 | 63% ★ | 1.59 | - |  |
+| 16:00 | Turkey · Süper Lig | Rizespor vs Trabzonspor | Over 2.5 | 61% ☆ | 1.64 | 1.53 |  |
+| 02:00 | USA · MLS | Los Angeles FC vs Los Angeles Galaxy | Over 2.5 | 60% ☆ | 1.66 | - |  |
+| 04:10 | Mexico · Liga MX | Club Tijuana vs Santos Laguna | Over 2.5 | 56% ☆ | 1.77 | - |  |
+| 20:00 | England · League Two | Walsall vs Salford | Over 2.5 | 53% ☆ | 1.87 | 1.70 |  |
+| 02:05 | Mexico · Liga MX | Club America vs Pachuca | Over 2.5 | 53% ☆ | 1.88 | - |  |
+| 00:00 | Mexico · Liga MX | Atlas vs Puebla | Over 2.5 | 52% ☆ | 1.91 | - |  |
+| 18:45 | Portugal · Primeira Liga | Santa Clara vs Benfica | Over 2.5 | 51% ☆ | 1.97 | 1.80 |  |
+| 23:30 | Brazil · Serie A | Coritiba vs Gremio | Over 2.5 | 50% ☆ | 2.00 | - |  |
+| 02:00 | Mexico · Liga MX | Queretaro vs Cruz Azul | Over 2.5 | 50% ☆ | 2.00 | - |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:30 | Turkey · Süper Lig | Galatasaray vs Fenerbahce | BTTS Yes | 66% ★★ | 1.50 | - |  |
+| 16:00 | Turkey · Süper Lig | Rizespor vs Trabzonspor | BTTS Yes | 63% ★ | 1.59 | - |  |
+| 19:30 | France · Ligue 1 | Paris SG vs Lyon | BTTS Yes | 61% ★ | 1.63 | - |  |
+| 16:00 | Turkey · Süper Lig | Besiktas vs Buyuksehyr | BTTS Yes | 59% ☆ | 1.68 | - |  |
+| 04:10 | Mexico · Liga MX | Club Tijuana vs Santos Laguna | BTTS Yes | 58% ☆ | 1.71 | - |  |
+| 20:00 | England · League Two | Walsall vs Salford | BTTS Yes | 57% ☆ | 1.77 | - |  |
+| 02:00 | USA · MLS | Los Angeles FC vs Los Angeles Galaxy | BTTS Yes | 56% ☆ | 1.77 | - |  |
+| 19:00 | Denmark · Superliga | FC Copenhagen vs Odense | BTTS Yes | 56% ☆ | 1.79 | - |  |
+| 19:45 | France · Ligue 2 | Montpellier vs Red Star | BTTS Yes | 54% ☆ | 1.84 | - |  |
+| 23:30 | Brazil · Serie A | Coritiba vs Gremio | BTTS Yes | 54% ☆ | 1.85 | - |  |
+| 02:00 | Mexico · Liga MX | Queretaro vs Cruz Azul | BTTS Yes | 54% ☆ | 1.86 | - |  |
+| 00:00 | Mexico · Liga MX | Atlas vs Puebla | BTTS Yes | 53% ☆ | 1.89 | - |  |
+| 02:05 | Mexico · Liga MX | Club America vs Pachuca | BTTS Yes | 52% ☆ | 1.94 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 01:30 | Argentina · Liga Profesional | Barracas Central vs Estudiantes Rio Cuarto | 1X | 88% 🔒 | 1.14 | 1.07 |  |
+| 18:45 | Portugal · Primeira Liga | Santa Clara vs Benfica | X2 | 88% ★★ | 1.14 | 1.05 |  |
+| 19:00 | Denmark · Superliga | FC Copenhagen vs Odense | 1X | 87% ★★ | 1.15 | 1.08 |  |
+| 16:00 | Turkey · Süper Lig | Besiktas vs Buyuksehyr | 1X | 87% ★★ | 1.16 | 1.07 |  |
+| 19:30 | France · Ligue 1 | Paris SG vs Lyon | 1X | 85% ★ | 1.18 | 1.11 |  |
+| 19:00 | Romania · Superliga | Sepsi Sf. Gheorghe vs Univ. Craiova | X2 | 84% ★ | 1.19 | 1.08 |  |
+| 02:05 | Mexico · Liga MX | Club America vs Pachuca | 1X | 83% ★ | 1.20 | 1.13 |  |
+| 02:00 | USA · MLS | Los Angeles FC vs Los Angeles Galaxy | 1X | 83% ★ | 1.21 | 1.13 |  |
+| 00:00 | Mexico · Liga MX | Atlas vs Puebla | 1X | 80% ☆ | 1.25 | 1.16 |  |
+| 20:00 | Spain · La Liga | Sevilla vs Osasuna | 1X | 76% ☆ | 1.32 | 1.22 |  |
+| 18:30 | Turkey · Süper Lig | Galatasaray vs Fenerbahce | 12 | 76% ☆ | 1.32 | 1.22 |  |
+| 19:30 | Spain · Segunda División | Andorra vs Burgos | 1X | 75% ☆ | 1.33 | 1.21 |  |
+| 16:00 | Turkey · Süper Lig | Rizespor vs Trabzonspor | 12 | 75% ☆ | 1.33 | 1.22 |  |
+| 20:00 | England · League Two | Walsall vs Salford | 12 | 75% ☆ | 1.33 | 1.25 |  |
+| 04:10 | Mexico · Liga MX | Club Tijuana vs Santos Laguna | 12 | 75% ☆ | 1.34 | 1.23 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 23/24 (96%), ROI +1% | 56/61 (92%), ROI -4% | 56/61 (92%), ROI -4% |
-| BTTS & Over 2.5 | 40/64 (62%) | 131/237 (55%) | 131/237 (55%) |
-| Over 2.5 Goals | 46/62 (74%), ROI +5% | 157/236 (67%), ROI -4% | 157/236 (67%), ROI -4% |
-| Both Teams To Score | 45/67 (67%) | 155/247 (63%) | 155/247 (63%) |
-| Double Chance | 66/76 (87%), ROI -2% | 239/281 (85%), ROI -3% | 239/281 (85%), ROI -3% |
+| 🔒 Bankers | 10/10 (100%), ROI +3% | 56/61 (92%), ROI -4% | 56/61 (92%), ROI -4% |
+| BTTS & Over 2.5 | 27/44 (61%) | 131/237 (55%) | 131/237 (55%) |
+| Over 2.5 Goals | 31/42 (74%), ROI +14% | 157/236 (67%), ROI -4% | 157/236 (67%), ROI -4% |
+| Both Teams To Score | 30/47 (64%) | 155/247 (63%) | 155/247 (63%) |
+| Double Chance | 48/56 (86%), ROI -1% | 239/281 (85%), ROI -3% | 239/281 (85%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
