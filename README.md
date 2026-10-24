@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-24 00:00 UTC · kick-off times in UTC_
+_Generated 2026-10-24 09:35 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -10,11 +10,13 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 3 matches analysed across 2 leagues.
 
+**Results:** ✅ 1 won · ❌ 1 lost · 1 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
-| 23:00 | Cruzeiro vs Remo | Double Chance | 1X | 89% | 1.12 |  |
+| 23:00 | Cruzeiro vs Remo | Double Chance | 1X | 89% | 1.12 | ✅ 1-0 |
 
 ### 🔥 BTTS & Over 2.5
 
@@ -24,7 +26,7 @@ _No match was likely enough to pick._
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 23:00 | Brazil · Serie A | Cruzeiro vs Remo | Over 2.5 | 53% ☆ | 1.89 | - |  |
+| 23:00 | Brazil · Serie A | Cruzeiro vs Remo | Over 2.5 | 53% ☆ | 1.89 | - | ❌ 1-0 |
 
 ### 🎯 Both Teams To Score
 
@@ -34,7 +36,7 @@ _No match was likely enough to pick._
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 23:00 | Brazil · Serie A | Cruzeiro vs Remo | 1X | 89% 🔒 | 1.12 | 1.06 |  |
+| 23:00 | Brazil · Serie A | Cruzeiro vs Remo | 1X | 89% 🔒 | 1.12 | 1.06 | ✅ 1-0 |
 | 21:00 | Argentina · Liga Profesional | Gimnasia L.P. vs Sarmiento Junin | 1X | 83% ★ | 1.20 | 1.13 |  |
 
 
@@ -368,11 +370,11 @@ _No match was likely enough to pick._
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 10/10 (100%), ROI +3% | 56/61 (92%), ROI -4% | 56/61 (92%), ROI -4% |
+| 🔒 Bankers | 11/11 (100%), ROI +4% | 57/62 (92%), ROI -4% | 57/62 (92%), ROI -4% |
 | BTTS & Over 2.5 | 27/44 (61%) | 131/237 (55%) | 131/237 (55%) |
-| Over 2.5 Goals | 31/42 (74%), ROI +14% | 157/236 (67%), ROI -4% | 157/236 (67%), ROI -4% |
+| Over 2.5 Goals | 31/43 (72%), ROI +14% | 157/237 (66%), ROI -4% | 157/237 (66%), ROI -4% |
 | Both Teams To Score | 30/47 (64%) | 155/247 (63%) | 155/247 (63%) |
-| Double Chance | 48/56 (86%), ROI -1% | 239/281 (85%), ROI -3% | 239/281 (85%), ROI -3% |
+| Double Chance | 49/57 (86%), ROI -1% | 240/282 (85%), ROI -3% | 240/282 (85%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

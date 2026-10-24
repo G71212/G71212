@@ -1,7 +1,7 @@
 date,kickoff,league,league_name,home,away,exp_home_goals,exp_away_goals,p_home,p_draw,p_away,p_over25,p_btts,p_btts_over25,p_1x,p_x2,p_12,market_home,market_draw,market_away,market_over25,odds_home,odds_draw,odds_away,odds_over25,odds_under25,picks,flags,result
 2026-10-23,2026-10-23 21:00,ARG,Argentina · Liga Profesional,Gimnasia L.P.,Sarmiento Junin,1.52,0.73,0.551,0.2808,0.1682,0.3914,0.4164,0.2885,0.8318,0.449,0.7192,0.5813,0.2497,0.169,,1.65,3.6,5.16,,,1X,,
 2026-10-23,2026-10-23 21:30,ARG,Argentina · Liga Profesional,Gimnasia Mendoza,Platense,1.05,0.91,0.37,0.3362,0.2938,0.3131,0.4014,0.2542,0.7062,0.63,0.6638,0.3794,0.312,0.3086,,2.46,2.95,2.98,,,,Gimnasia Mendoza new to league,
-2026-10-23,2026-10-23 23:00,BRA,Brazil · Serie A,Cruzeiro,Remo,2.11,0.69,0.6999,0.1938,0.1063,0.5299,0.4408,0.349,0.8937,0.3001,0.8062,0.7202,0.1716,0.1082,,1.35,5.01,7.64,,,Over 2.5 (extra); 1X (banker),Remo new to league,
+2026-10-23,2026-10-23 23:00,BRA,Brazil · Serie A,Cruzeiro,Remo,2.11,0.69,0.6999,0.1938,0.1063,0.5299,0.4408,0.349,0.8937,0.3001,0.8062,0.7202,0.1716,0.1082,,1.35,5.01,7.64,,,Over 2.5 (extra); 1X (banker),Remo new to league,1-0
 2026-10-24,2026-10-24 00:15,ARG,Argentina · Liga Profesional,Tigre,Atl. Tucuman,1.4,0.66,0.5393,0.2969,0.1638,0.34,0.3747,0.2462,0.8362,0.4607,0.7031,0.5666,0.2701,0.1634,,1.69,3.35,5.33,,,,,
 2026-10-24,2026-10-24 01:00,MEX,Mexico · Liga MX,Necaxa,Juarez,1.95,1.18,0.5446,0.2338,0.2216,0.6062,0.6025,0.4947,0.7784,0.4554,0.7662,0.5462,0.239,0.2148,,1.74,3.71,4.09,,,,,
 2026-10-24,2026-10-24 03:00,MEX,Mexico · Liga MX,Atlante,Atl. San Luis,1.54,1.27,0.4278,0.2667,0.3055,0.5325,0.5731,0.4469,0.6945,0.5722,0.7333,0.4367,0.2621,0.3012,,2.14,3.42,3.01,,,,Atlante new to league,
