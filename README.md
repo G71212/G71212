@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-25 19:37 UTC · kick-off times in UTC_
+_Generated 2026-10-25 23:32 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -136,18 +136,18 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 94 matches analysed across 27 leagues.
 
-**Results:** ✅ 20 won · ❌ 11 lost · 49 pending
+**Results:** ✅ 24 won · ❌ 15 lost · 41 pending
 
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
 | 14:00 | Olympiakos vs Kalamata | Double Chance | 1X | 97% | 1.03 |  |
-| 20:30 | Sp Lisbon vs Academico Viseu | Double Chance | 1X | 92% | 1.08 |  |
+| 20:30 | Sp Lisbon vs Academico Viseu | Double Chance | 1X | 92% | 1.08 | ❌ 1-2 |
 | 08:00 | FC Tokyo vs Mito | Double Chance | 1X | 91% | 1.10 |  |
 | 18:15 | St. Gilloise vs Cercle Brugge | Double Chance | 1X | 90% | 1.12 |  |
 | 16:00 | Volos NFC vs Panathinaikos | Double Chance | X2 | 89% | 1.12 |  |
-| 20:00 | Barcelona vs Real Madrid | Over 2.5 Goals | Over 2.5 | 82% | 1.22 |  |
+| 20:00 | Barcelona vs Real Madrid | Over 2.5 Goals | Over 2.5 | 82% | 1.22 | ✅ 1-2 |
 | 16:30 | Freiburg vs Bayern Munich | Over 2.5 Goals | Over 2.5 | 79% | 1.27 | ✅ 1-3 |
 | 13:30 | PSV Eindhoven vs Feyenoord | Over 2.5 Goals | Over 2.5 | 76% | 1.32 | ❌ 1-1 |
 
@@ -155,14 +155,14 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 20:00 | Spain · La Liga | Barcelona vs Real Madrid | BTTS & Over 2.5 | 71% ★★★ | 1.41 | - |  |
+| 20:00 | Spain · La Liga | Barcelona vs Real Madrid | BTTS & Over 2.5 | 71% ★★★ | 1.41 | - | ✅ 1-2 |
 | 13:30 | Netherlands · Eredivisie | PSV Eindhoven vs Feyenoord | BTTS & Over 2.5 | 66% ★★★ | 1.51 | - | ❌ 1-1 |
 | 16:30 | Germany · Bundesliga | Freiburg vs Bayern Munich | BTTS & Over 2.5 | 63% ★★★ | 1.59 | - | ✅ 1-3 |
 | 14:30 | Germany · Bundesliga | Hoffenheim vs Leverkusen | BTTS & Over 2.5 | 61% ★★★ | 1.63 | - | ❌ 3-0 |
 | 13:30 | Netherlands · Eredivisie | Nijmegen vs Groningen | BTTS & Over 2.5 | 58% ★★ | 1.72 | - | ✅ 2-2 |
 | 14:00 | Italy · Serie A | Atalanta vs Frosinone | BTTS & Over 2.5 | 57% ★★ | 1.76 | - | ✅ 4-4 |
 | 15:45 | Netherlands · Eredivisie | Sparta Rotterdam vs Ajax | BTTS & Over 2.5 | 57% ★★ | 1.77 | - | ✅ 1-2 |
-| 19:00 | Netherlands · Eredivisie | AZ Alkmaar vs Twente | BTTS & Over 2.5 | 56% ★★ | 1.77 | - |  |
+| 19:00 | Netherlands · Eredivisie | AZ Alkmaar vs Twente | BTTS & Over 2.5 | 56% ★★ | 1.77 | - | ❌ 0-2 |
 | 16:15 | France · Ligue 1 | Rennes vs Strasbourg | BTTS & Over 2.5 | 56% ★★ | 1.77 | - | ❌ 3-0 |
 | 17:00 | Norway · Eliteserien | Sarpsborg 08 vs Aalesund | BTTS & Over 2.5 | 56% ★★ | 1.79 | - |  |
 | 12:30 | Germany · 2. Bundesliga | Braunschweig vs Hannover | BTTS & Over 2.5 | 56% ★★ | 1.80 | - |  |
@@ -180,7 +180,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 20:00 | Spain · La Liga | Barcelona vs Real Madrid | Over 2.5 | 82% 🔒 | 1.22 | 1.16 |  |
+| 20:00 | Spain · La Liga | Barcelona vs Real Madrid | Over 2.5 | 82% 🔒 | 1.22 | 1.16 | ✅ 1-2 |
 | 16:30 | Germany · Bundesliga | Freiburg vs Bayern Munich | Over 2.5 | 79% 🔒 | 1.27 | 1.22 | ✅ 1-3 |
 | 13:30 | Netherlands · Eredivisie | PSV Eindhoven vs Feyenoord | Over 2.5 | 76% 🔒 | 1.32 | 1.28 | ❌ 1-1 |
 | 15:00 | Belgium · Pro League | Club Brugge vs St Truiden | Over 2.5 | 72% ★★★ | 1.39 | 1.32 |  |
@@ -190,10 +190,10 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 11:30 | Italy · Serie A | Inter vs Fiorentina | Over 2.5 | 67% ★★ | 1.48 | 1.40 | ✅ 2-1 |
 | 13:30 | Netherlands · Eredivisie | Nijmegen vs Groningen | Over 2.5 | 67% ★★ | 1.49 | 1.41 | ✅ 2-2 |
 | 16:15 | France · Ligue 1 | Rennes vs Strasbourg | Over 2.5 | 67% ★★ | 1.49 | 1.41 | ✅ 3-0 |
-| 20:30 | Portugal · Primeira Liga | Sp Lisbon vs Academico Viseu | Over 2.5 | 67% ★ | 1.50 | 1.44 |  |
+| 20:30 | Portugal · Primeira Liga | Sp Lisbon vs Academico Viseu | Over 2.5 | 67% ★ | 1.50 | 1.44 | ✅ 1-2 |
 | 17:00 | Norway · Eliteserien | Sarpsborg 08 vs Aalesund | Over 2.5 | 66% ★ | 1.51 | - |  |
 | 00:30 | USA · MLS | FC Dallas vs San Jose Earthquakes | Over 2.5 | 66% ★ | 1.52 | - |  |
-| 19:00 | Netherlands · Eredivisie | AZ Alkmaar vs Twente | Over 2.5 | 66% ★ | 1.53 | 1.43 |  |
+| 19:00 | Netherlands · Eredivisie | AZ Alkmaar vs Twente | Over 2.5 | 66% ★ | 1.53 | 1.43 | ❌ 0-2 |
 | 14:30 | Norway · Eliteserien | Viking vs Tromso | Over 2.5 | 65% ★ | 1.53 | - |  |
 | 18:15 | Belgium · Pro League | St. Gilloise vs Cercle Brugge | Over 2.5 | 65% ★ | 1.54 | 1.43 |  |
 | 12:30 | Germany · 2. Bundesliga | Braunschweig vs Hannover | Over 2.5 | 65% ★ | 1.55 | 1.43 |  |
@@ -205,12 +205,12 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 20:00 | Spain · La Liga | Barcelona vs Real Madrid | BTTS Yes | 77% ★★★ | 1.30 | - |  |
+| 20:00 | Spain · La Liga | Barcelona vs Real Madrid | BTTS Yes | 77% ★★★ | 1.30 | - | ✅ 1-2 |
 | 13:30 | Netherlands · Eredivisie | PSV Eindhoven vs Feyenoord | BTTS Yes | 74% ★★★ | 1.35 | - | ✅ 1-1 |
 | 14:30 | Germany · Bundesliga | Hoffenheim vs Leverkusen | BTTS Yes | 71% ★★★ | 1.42 | - | ❌ 3-0 |
 | 16:30 | Germany · Bundesliga | Freiburg vs Bayern Munich | BTTS Yes | 69% ★★ | 1.45 | - | ✅ 1-3 |
 | 13:30 | Netherlands · Eredivisie | Nijmegen vs Groningen | BTTS Yes | 68% ★★ | 1.46 | - | ✅ 2-2 |
-| 19:00 | Netherlands · Eredivisie | AZ Alkmaar vs Twente | BTTS Yes | 67% ★★ | 1.49 | - |  |
+| 19:00 | Netherlands · Eredivisie | AZ Alkmaar vs Twente | BTTS Yes | 67% ★★ | 1.49 | - | ❌ 0-2 |
 | 12:30 | Germany · 2. Bundesliga | Braunschweig vs Hannover | BTTS Yes | 66% ★★ | 1.52 | - |  |
 | 14:00 | Italy · Serie A | Atalanta vs Frosinone | BTTS Yes | 66% ★★ | 1.52 | - | ✅ 4-4 |
 | 16:15 | France · Ligue 1 | Rennes vs Strasbourg | BTTS Yes | 66% ★★ | 1.52 | - | ❌ 3-0 |
@@ -231,7 +231,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 14:00 | Greece · Super League | Olympiakos vs Kalamata | 1X | 97% 🔒 | 1.03 | 0.96 |  |
-| 20:30 | Portugal · Primeira Liga | Sp Lisbon vs Academico Viseu | 1X | 92% 🔒 | 1.08 | 1.02 |  |
+| 20:30 | Portugal · Primeira Liga | Sp Lisbon vs Academico Viseu | 1X | 92% 🔒 | 1.08 | 1.02 | ❌ 1-2 |
 | 08:00 | Japan · J1 League | FC Tokyo vs Mito | 1X | 91% 🔒 | 1.10 | 1.02 |  |
 | 18:15 | Belgium · Pro League | St. Gilloise vs Cercle Brugge | 1X | 90% 🔒 | 1.12 | 1.04 |  |
 | 16:00 | Greece · Super League | Volos NFC vs Panathinaikos | X2 | 89% 🔒 | 1.12 | 1.04 |  |
@@ -373,11 +373,11 @@ _No match was likely enough to pick._
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 6/7 (86%), ROI -4% | 61/67 (91%), ROI -4% | 61/67 (91%), ROI -4% |
-| BTTS & Over 2.5 | 20/37 (54%) | 137/250 (55%) | 137/250 (55%) |
-| Over 2.5 Goals | 23/35 (66%), ROI -4% | 166/249 (67%), ROI -3% | 166/249 (67%), ROI -3% |
-| Both Teams To Score | 25/41 (61%) | 162/261 (62%) | 162/261 (62%) |
-| Double Chance | 39/46 (85%), ROI -1% | 249/291 (86%), ROI -3% | 249/291 (86%), ROI -3% |
+| 🔒 Bankers | 7/9 (78%), ROI -13% | 62/69 (90%), ROI -5% | 62/69 (90%), ROI -5% |
+| BTTS & Over 2.5 | 21/39 (54%) | 138/252 (55%) | 138/252 (55%) |
+| Over 2.5 Goals | 25/38 (66%), ROI -5% | 168/252 (67%), ROI -4% | 168/252 (67%), ROI -4% |
+| Both Teams To Score | 26/43 (60%) | 163/263 (62%) | 163/263 (62%) |
+| Double Chance | 39/47 (83%), ROI -3% | 249/292 (85%), ROI -3% | 249/292 (85%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
