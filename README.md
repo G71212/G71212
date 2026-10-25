@@ -1,44 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-24 23:42 UTC · kick-off times in UTC_
+_Generated 2026-10-25 09:51 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Friday 23 October 2026
-
-3 matches analysed across 2 leagues.
-
-**Results:** ✅ 1 won · ❌ 1 lost · 1 pending
-
-### 🔒 Bankers: the day's safest tips
-
-| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
-|---|---|---|---|---|---|---|
-| 23:00 | Cruzeiro vs Remo | Double Chance | 1X | 89% | 1.12 | ✅ 1-0 |
-
-### 🔥 BTTS & Over 2.5
-
-_No match was likely enough to pick._
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 23:00 | Brazil · Serie A | Cruzeiro vs Remo | Over 2.5 | 53% ☆ | 1.89 | - | ❌ 1-0 |
-
-### 🎯 Both Teams To Score
-
-_No match was likely enough to pick._
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 23:00 | Brazil · Serie A | Cruzeiro vs Remo | 1X | 89% 🔒 | 1.12 | 1.06 | ✅ 1-0 |
-| 21:00 | Argentina · Liga Profesional | Gimnasia L.P. vs Sarmiento Junin | 1X | 83% ★ | 1.20 | 1.13 |  |
-
 
 ## Saturday 24 October 2026
 
@@ -366,15 +332,48 @@ _No match was likely enough to pick._
 | 20:00 | England · League Two | Walsall vs Salford | 12 | 75% ☆ | 1.33 | 1.25 |  |
 | 04:10 | Mexico · Liga MX | Club Tijuana vs Santos Laguna | 12 | 75% ☆ | 1.34 | 1.23 |  |
 
+
+## Tuesday 27 October 2026
+
+3 matches analysed across 2 leagues.
+
+### 🔒 Bankers: the day's safest tips
+
+| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
+|---|---|---|---|---|---|---|
+| 00:00 | Flamengo RJ vs Atletico-MG | Double Chance | 1X | 91% | 1.10 |  |
+
+### 🔥 BTTS & Over 2.5
+
+_No match was likely enough to pick._
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:00 | Brazil · Serie A | Flamengo RJ vs Atletico-MG | Over 2.5 | 51% ☆ | 1.95 | - |  |
+
+### 🎯 Both Teams To Score
+
+_No match was likely enough to pick._
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:00 | Brazil · Serie A | Flamengo RJ vs Atletico-MG | 1X | 91% 🔒 | 1.10 | 1.04 |  |
+| 01:15 | Argentina · Liga Profesional | Instituto vs Dep. Riestra | 1X | 79% ☆ | 1.26 | 1.18 |  |
+| 23:00 | Argentina · Liga Profesional | Argentinos Jrs vs Ind. Rivadavia | 1X | 75% ☆ | 1.33 | 1.25 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 11/11 (100%), ROI +4% | 57/62 (92%), ROI -4% | 57/62 (92%), ROI -4% |
-| BTTS & Over 2.5 | 27/44 (61%) | 131/237 (55%) | 131/237 (55%) |
-| Over 2.5 Goals | 31/43 (72%), ROI +14% | 157/237 (66%), ROI -4% | 157/237 (66%), ROI -4% |
-| Both Teams To Score | 30/47 (64%) | 155/247 (63%) | 155/247 (63%) |
-| Double Chance | 49/57 (86%), ROI -1% | 240/282 (85%), ROI -3% | 240/282 (85%), ROI -3% |
+| 🔒 Bankers | 2/2 (100%), ROI +6% | 57/62 (92%), ROI -4% | 57/62 (92%), ROI -4% |
+| BTTS & Over 2.5 | 14/24 (58%) | 131/237 (55%) | 131/237 (55%) |
+| Over 2.5 Goals | 14/23 (61%), ROI -20% | 157/237 (66%), ROI -4% | 157/237 (66%), ROI -4% |
+| Both Teams To Score | 18/27 (67%) | 155/247 (63%) | 155/247 (63%) |
+| Double Chance | 30/37 (81%), ROI -3% | 240/282 (85%), ROI -3% | 240/282 (85%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

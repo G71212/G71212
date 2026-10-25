@@ -1,0 +1,276 @@
+{
+ "date": "2026-10-27",
+ "created_at": "2026-10-25T09:51:27+00:00",
+ "updated_at": "2026-10-25T09:51:27+00:00",
+ "fixtures": [
+  {
+   "id": "BRA|2026-10-27|Flamengo RJ|Atletico-MG",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-27",
+   "kickoff": "2026-10-27T00:00:00+00:00",
+   "home": "Flamengo RJ",
+   "away": "Atletico-MG",
+   "expected_goals": [
+    2.12,
+    0.61
+   ],
+   "model_expected_goals": [
+    1.91,
+    0.83
+   ],
+   "rho": -0.0368,
+   "probabilities": {
+    "home": 0.7235,
+    "draw": 0.1867,
+    "away": 0.0898,
+    "over25": 0.5132,
+    "under25": 0.4868,
+    "btts": 0.4029,
+    "btts_over25": 0.3158,
+    "dc_1x": 0.9102,
+    "dc_x2": 0.2765,
+    "dc_12": 0.8133
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1472
+    ],
+    [
+     "1-0",
+     0.1356
+    ],
+    [
+     "3-0",
+     0.1042
+    ]
+   ],
+   "market": {
+    "home": 0.7471,
+    "draw": 0.1633,
+    "away": 0.0896,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.3,
+    "draw": 5.11,
+    "away": 8.77,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    116,
+    116
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-25T09:51:27+00:00"
+  },
+  {
+   "id": "ARG|2026-10-27|Instituto|Dep. Riestra",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-27",
+   "kickoff": "2026-10-27T01:15:00+00:00",
+   "home": "Instituto",
+   "away": "Dep. Riestra",
+   "expected_goals": [
+    1.16,
+    0.69
+   ],
+   "model_expected_goals": [
+    1.09,
+    0.76
+   ],
+   "rho": -0.0935,
+   "probabilities": {
+    "home": 0.4575,
+    "draw": 0.3349,
+    "away": 0.2076,
+    "over25": 0.2812,
+    "under25": 0.7188,
+    "btts": 0.3528,
+    "btts_over25": 0.2152,
+    "dc_1x": 0.7924,
+    "dc_x2": 0.5425,
+    "dc_12": 0.6651
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.171
+    ],
+    [
+     "0-0",
+     0.1699
+    ],
+    [
+     "1-1",
+     0.1376
+    ]
+   ],
+   "market": {
+    "home": 0.4766,
+    "draw": 0.3093,
+    "away": 0.2141,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.98,
+    "draw": 2.95,
+    "away": 4.14,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    104
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-25T09:51:27+00:00"
+  },
+  {
+   "id": "ARG|2026-10-27|Argentinos Jrs|Ind. Rivadavia",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-10-27",
+   "kickoff": "2026-10-27T23:00:00+00:00",
+   "home": "Argentinos Jrs",
+   "away": "Ind. Rivadavia",
+   "expected_goals": [
+    1.36,
+    0.94
+   ],
+   "model_expected_goals": [
+    1.41,
+    0.88
+   ],
+   "rho": -0.0935,
+   "probabilities": {
+    "home": 0.4521,
+    "draw": 0.3002,
+    "away": 0.2478,
+    "over25": 0.4026,
+    "under25": 0.5974,
+    "btts": 0.4641,
+    "btts_over25": 0.3238,
+    "dc_1x": 0.7522,
+    "dc_x2": 0.5479,
+    "dc_12": 0.6998
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1403
+    ],
+    [
+     "1-0",
+     0.1246
+    ],
+    [
+     "0-0",
+     0.1128
+    ]
+   ],
+   "market": {
+    "home": 0.4519,
+    "draw": 0.2911,
+    "away": 0.257,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.08,
+    "draw": 3.12,
+    "away": 3.5,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    115,
+    104
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-25T09:51:27+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-10-27|Flamengo RJ|Atletico-MG",
+    "league": "BRA",
+    "kickoff": "2026-10-27T00:00:00+00:00",
+    "home": "Flamengo RJ",
+    "away": "Atletico-MG",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5132,
+    "fair_odds": 1.95,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-25T09:51:27+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-27|Flamengo RJ|Atletico-MG",
+    "league": "BRA",
+    "kickoff": "2026-10-27T00:00:00+00:00",
+    "home": "Flamengo RJ",
+    "away": "Atletico-MG",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9102,
+    "fair_odds": 1.1,
+    "market_odds": 1.04,
+    "edge": -0.0567,
+    "published_at": "2026-10-25T09:51:27+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-27|Instituto|Dep. Riestra",
+    "league": "ARG",
+    "kickoff": "2026-10-27T01:15:00+00:00",
+    "home": "Instituto",
+    "away": "Dep. Riestra",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7924,
+    "fair_odds": 1.26,
+    "market_odds": 1.18,
+    "edge": -0.0612,
+    "published_at": "2026-10-25T09:51:27+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-10-27|Argentinos Jrs|Ind. Rivadavia",
+    "league": "ARG",
+    "kickoff": "2026-10-27T23:00:00+00:00",
+    "home": "Argentinos Jrs",
+    "away": "Ind. Rivadavia",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7522,
+    "fair_odds": 1.33,
+    "market_odds": 1.25,
+    "edge": -0.0612,
+    "published_at": "2026-10-25T09:51:27+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}
