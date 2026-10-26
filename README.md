@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-26 11:10 UTC · kick-off times in UTC_
+_Generated 2026-10-26 21:38 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -130,6 +130,8 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 21 matches analysed across 13 leagues.
 
+**Results:** ✅ 3 won · ❌ 3 lost · 48 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
@@ -141,7 +143,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 18:30 | Turkey · Süper Lig | Galatasaray vs Fenerbahce | BTTS & Over 2.5 | 56% ★★ | 1.79 | - |  |
-| 19:30 | France · Ligue 1 | Paris SG vs Lyon | BTTS & Over 2.5 | 53% ★ | 1.87 | - |  |
+| 19:30 | France · Ligue 1 | Paris SG vs Lyon | BTTS & Over 2.5 | 53% ★ | 1.87 | - | ❌ 2-0 |
 | 16:00 | Turkey · Süper Lig | Rizespor vs Trabzonspor | BTTS & Over 2.5 | 51% ★ | 1.95 | - |  |
 | 16:00 | Turkey · Süper Lig | Besiktas vs Buyuksehyr | BTTS & Over 2.5 | 51% ★ | 1.96 | - |  |
 | 04:10 | Mexico · Liga MX | Club Tijuana vs Santos Laguna | BTTS & Over 2.5 | 47% ☆ | 2.14 | - |  |
@@ -158,7 +160,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 19:30 | France · Ligue 1 | Paris SG vs Lyon | Over 2.5 | 69% ★★ | 1.45 | 1.37 |  |
+| 19:30 | France · Ligue 1 | Paris SG vs Lyon | Over 2.5 | 69% ★★ | 1.45 | 1.37 | ❌ 2-0 |
 | 16:00 | Turkey · Süper Lig | Besiktas vs Buyuksehyr | Over 2.5 | 67% ★★ | 1.48 | 1.37 |  |
 | 18:30 | Turkey · Süper Lig | Galatasaray vs Fenerbahce | Over 2.5 | 65% ★ | 1.54 | 1.47 |  |
 | 19:00 | Denmark · Superliga | FC Copenhagen vs Odense | Over 2.5 | 63% ★ | 1.59 | - |  |
@@ -168,7 +170,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 20:00 | England · League Two | Walsall vs Salford | Over 2.5 | 53% ☆ | 1.87 | 1.70 |  |
 | 02:05 | Mexico · Liga MX | Club America vs Pachuca | Over 2.5 | 53% ☆ | 1.88 | - |  |
 | 00:00 | Mexico · Liga MX | Atlas vs Puebla | Over 2.5 | 52% ☆ | 1.91 | - |  |
-| 18:45 | Portugal · Primeira Liga | Santa Clara vs Benfica | Over 2.5 | 51% ☆ | 1.97 | 1.80 |  |
+| 18:45 | Portugal · Primeira Liga | Santa Clara vs Benfica | Over 2.5 | 51% ☆ | 1.97 | 1.80 | ✅ 1-2 |
 | 23:30 | Brazil · Serie A | Coritiba vs Gremio | Over 2.5 | 50% ☆ | 2.00 | - |  |
 | 02:00 | Mexico · Liga MX | Queretaro vs Cruz Azul | Over 2.5 | 50% ☆ | 2.00 | - |  |
 
@@ -178,7 +180,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 |---|---|---|---|---|---|---|---|
 | 18:30 | Turkey · Süper Lig | Galatasaray vs Fenerbahce | BTTS Yes | 66% ★★ | 1.50 | - |  |
 | 16:00 | Turkey · Süper Lig | Rizespor vs Trabzonspor | BTTS Yes | 63% ★ | 1.59 | - |  |
-| 19:30 | France · Ligue 1 | Paris SG vs Lyon | BTTS Yes | 61% ★ | 1.63 | - |  |
+| 19:30 | France · Ligue 1 | Paris SG vs Lyon | BTTS Yes | 61% ★ | 1.63 | - | ❌ 2-0 |
 | 16:00 | Turkey · Süper Lig | Besiktas vs Buyuksehyr | BTTS Yes | 59% ☆ | 1.68 | - |  |
 | 04:10 | Mexico · Liga MX | Club Tijuana vs Santos Laguna | BTTS Yes | 58% ☆ | 1.71 | - |  |
 | 20:00 | England · League Two | Walsall vs Salford | BTTS Yes | 57% ☆ | 1.77 | - |  |
@@ -195,10 +197,10 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 01:30 | Argentina · Liga Profesional | Barracas Central vs Estudiantes Rio Cuarto | 1X | 88% 🔒 | 1.14 | 1.07 |  |
-| 18:45 | Portugal · Primeira Liga | Santa Clara vs Benfica | X2 | 88% ★★ | 1.14 | 1.05 |  |
+| 18:45 | Portugal · Primeira Liga | Santa Clara vs Benfica | X2 | 88% ★★ | 1.14 | 1.05 | ✅ 1-2 |
 | 19:00 | Denmark · Superliga | FC Copenhagen vs Odense | 1X | 87% ★★ | 1.15 | 1.08 |  |
 | 16:00 | Turkey · Süper Lig | Besiktas vs Buyuksehyr | 1X | 87% ★★ | 1.16 | 1.07 |  |
-| 19:30 | France · Ligue 1 | Paris SG vs Lyon | 1X | 85% ★ | 1.18 | 1.11 |  |
+| 19:30 | France · Ligue 1 | Paris SG vs Lyon | 1X | 85% ★ | 1.18 | 1.11 | ✅ 2-0 |
 | 19:00 | Romania · Superliga | Sepsi Sf. Gheorghe vs Univ. Craiova | X2 | 84% ★ | 1.19 | 1.08 |  |
 | 02:05 | Mexico · Liga MX | Club America vs Pachuca | 1X | 83% ★ | 1.20 | 1.13 |  |
 | 02:00 | USA · MLS | Los Angeles FC vs Los Angeles Galaxy | 1X | 83% ★ | 1.21 | 1.13 |  |
@@ -253,10 +255,10 @@ _No upcoming matches in the published fixtures for this day._
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 7/9 (78%), ROI -13% | 62/68 (91%), ROI -4% | 62/69 (90%), ROI -5% |
-| BTTS & Over 2.5 | 16/31 (52%) | 129/238 (54%) | 138/252 (55%) |
-| Over 2.5 Goals | 20/31 (65%), ROI -7% | 158/238 (66%), ROI -5% | 168/252 (67%), ROI -4% |
-| Both Teams To Score | 19/32 (59%) | 153/249 (61%) | 163/263 (62%) |
-| Double Chance | 26/32 (81%), ROI -6% | 237/277 (86%), ROI -3% | 249/292 (85%), ROI -3% |
+| BTTS & Over 2.5 | 16/32 (50%) | 129/239 (54%) | 138/253 (55%) |
+| Over 2.5 Goals | 21/33 (64%), ROI -8% | 159/240 (66%), ROI -5% | 169/254 (67%), ROI -4% |
+| Both Teams To Score | 19/33 (58%) | 153/250 (61%) | 163/264 (62%) |
+| Double Chance | 28/34 (82%), ROI -6% | 239/279 (86%), ROI -3% | 251/294 (85%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

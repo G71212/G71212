@@ -1,7 +1,7 @@
 {
  "date": "2026-10-26",
  "created_at": "2026-10-24T00:00:12+00:00",
- "updated_at": "2026-10-26T11:10:51+00:00",
+ "updated_at": "2026-10-26T21:38:39+00:00",
  "fixtures": [
   {
    "id": "MEX|2026-10-26|Atlas|Puebla",
@@ -706,8 +706,12 @@
     102
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-24T00:00:12+00:00"
+   "result": [
+    1,
+    2
+   ],
+   "predicted_at": "2026-10-24T00:00:12+00:00",
+   "provisional": true
   },
   {
    "id": "DNK|2026-10-26|FC Copenhagen|Odense",
@@ -898,8 +902,12 @@
     100
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-24T00:00:12+00:00"
+   "result": [
+    2,
+    0
+   ],
+   "predicted_at": "2026-10-24T00:00:12+00:00",
+   "provisional": true
   },
   {
    "id": "SP2|2026-10-26|Andorra|Burgos",
@@ -1383,8 +1391,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -1589,8 +1601,12 @@
     "market_odds": 1.37,
     "edge": -0.056,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -1759,8 +1775,12 @@
     "market_odds": 1.8,
     "edge": -0.0873,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -1846,8 +1866,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -2052,8 +2076,12 @@
     "market_odds": 1.05,
     "edge": -0.0786,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -2103,8 +2131,12 @@
     "market_odds": 1.11,
     "edge": -0.0615,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
