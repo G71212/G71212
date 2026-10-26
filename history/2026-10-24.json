@@ -10564,8 +10564,12 @@
    "flags": [
     "Chapecoense-SC new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-10-23T20:26:57+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-10-23T20:26:57+00:00",
+   "provisional": true
   },
   {
    "id": "MEX|2026-10-25|Club Leon|Toluca",
