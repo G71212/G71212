@@ -64,7 +64,10 @@
     106
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    2,
+    0
+   ],
    "predicted_at": "2026-10-23T20:26:57+00:00"
   },
   {
@@ -130,7 +133,10 @@
    "flags": [
     "Gimnasia Mendoza new to league"
    ],
-   "result": null,
+   "result": [
+    1,
+    2
+   ],
    "predicted_at": "2026-10-23T20:26:57+00:00"
   },
   {
@@ -266,8 +272,11 @@
     "market_odds": 1.13,
     "edge": -0.0589,
     "published_at": "2026-10-23T20:26:57+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     0
+    ]
    }
   ]
  },
