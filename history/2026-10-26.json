@@ -1376,8 +1376,12 @@
     116
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-24T00:00:12+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-10-24T00:00:12+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -1567,8 +1571,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -1842,8 +1850,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -2049,8 +2061,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts",

@@ -1,7 +1,7 @@
 {
  "date": "2026-10-27",
  "created_at": "2026-10-25T09:51:27+00:00",
- "updated_at": "2026-10-27T00:48:48+00:00",
+ "updated_at": "2026-10-27T10:38:56+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-10-27|Flamengo RJ|Atletico-MG",
@@ -64,8 +64,12 @@
     116
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-25T09:51:27+00:00"
+   "result": [
+    3,
+    2
+   ],
+   "predicted_at": "2026-10-25T09:51:27+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-10-27|Instituto|Dep. Riestra",
@@ -213,8 +217,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-25T09:51:27+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     2
+    ],
+    "provisional": true
    }
   ],
   "btts": [],
@@ -233,8 +241,12 @@
     "market_odds": 1.04,
     "edge": -0.0567,
     "published_at": "2026-10-25T09:51:27+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",

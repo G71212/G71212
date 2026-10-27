@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-27 00:48 UTC · kick-off times in UTC_
+_Generated 2026-10-27 10:38 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -10,7 +10,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 21 matches analysed across 13 leagues.
 
-**Results:** ✅ 19 won · ❌ 7 lost · 28 pending
+**Results:** ✅ 19 won · ❌ 10 lost · 25 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -31,7 +31,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 02:00 | USA · MLS | Los Angeles FC vs Los Angeles Galaxy | BTTS & Over 2.5 | 46% ☆ | 2.15 | - |  |
 | 20:00 | England · League Two | Walsall vs Salford | BTTS & Over 2.5 | 45% ☆ | 2.23 | - | ✅ 2-4 |
 | 19:45 | France · Ligue 2 | Montpellier vs Red Star | BTTS & Over 2.5 | 42% ☆ | 2.40 | - | ✅ 2-1 |
-| 23:30 | Brazil · Serie A | Coritiba vs Gremio | BTTS & Over 2.5 | 42% ☆ | 2.41 | - |  |
+| 23:30 | Brazil · Serie A | Coritiba vs Gremio | BTTS & Over 2.5 | 42% ☆ | 2.41 | - | ❌ 0-1 |
 | 00:00 | Mexico · Liga MX | Atlas vs Puebla | BTTS & Over 2.5 | 41% ☆ | 2.43 | - |  |
 | 02:00 | Mexico · Liga MX | Queretaro vs Cruz Azul | BTTS & Over 2.5 | 41% ☆ | 2.44 | - |  |
 | 02:05 | Mexico · Liga MX | Club America vs Pachuca | BTTS & Over 2.5 | 40% ☆ | 2.47 | - |  |
@@ -51,7 +51,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 02:05 | Mexico · Liga MX | Club America vs Pachuca | Over 2.5 | 53% ☆ | 1.88 | - |  |
 | 00:00 | Mexico · Liga MX | Atlas vs Puebla | Over 2.5 | 52% ☆ | 1.91 | - |  |
 | 18:45 | Portugal · Primeira Liga | Santa Clara vs Benfica | Over 2.5 | 51% ☆ | 1.97 | 1.80 | ✅ 1-2 |
-| 23:30 | Brazil · Serie A | Coritiba vs Gremio | Over 2.5 | 50% ☆ | 2.00 | - |  |
+| 23:30 | Brazil · Serie A | Coritiba vs Gremio | Over 2.5 | 50% ☆ | 2.00 | - | ❌ 0-1 |
 | 02:00 | Mexico · Liga MX | Queretaro vs Cruz Azul | Over 2.5 | 50% ☆ | 2.00 | - |  |
 
 ### 🎯 Both Teams To Score
@@ -67,7 +67,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 02:00 | USA · MLS | Los Angeles FC vs Los Angeles Galaxy | BTTS Yes | 56% ☆ | 1.77 | - |  |
 | 19:00 | Denmark · Superliga | FC Copenhagen vs Odense | BTTS Yes | 56% ☆ | 1.79 | - |  |
 | 19:45 | France · Ligue 2 | Montpellier vs Red Star | BTTS Yes | 54% ☆ | 1.84 | - | ✅ 2-1 |
-| 23:30 | Brazil · Serie A | Coritiba vs Gremio | BTTS Yes | 54% ☆ | 1.85 | - |  |
+| 23:30 | Brazil · Serie A | Coritiba vs Gremio | BTTS Yes | 54% ☆ | 1.85 | - | ❌ 0-1 |
 | 02:00 | Mexico · Liga MX | Queretaro vs Cruz Azul | BTTS Yes | 54% ☆ | 1.86 | - |  |
 | 00:00 | Mexico · Liga MX | Atlas vs Puebla | BTTS Yes | 53% ☆ | 1.89 | - |  |
 | 02:05 | Mexico · Liga MX | Club America vs Pachuca | BTTS Yes | 52% ☆ | 1.94 | - |  |
@@ -97,11 +97,13 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 3 matches analysed across 2 leagues.
 
+**Results:** ✅ 2 won · ❌ 0 lost · 2 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
-| 00:00 | Flamengo RJ vs Atletico-MG | Double Chance | 1X | 91% | 1.10 |  |
+| 00:00 | Flamengo RJ vs Atletico-MG | Double Chance | 1X | 91% | 1.10 | ✅ 3-2 |
 
 ### 🔥 BTTS & Over 2.5
 
@@ -111,7 +113,7 @@ _No match was likely enough to pick._
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 00:00 | Brazil · Serie A | Flamengo RJ vs Atletico-MG | Over 2.5 | 51% ☆ | 1.95 | - |  |
+| 00:00 | Brazil · Serie A | Flamengo RJ vs Atletico-MG | Over 2.5 | 51% ☆ | 1.95 | - | ✅ 3-2 |
 
 ### 🎯 Both Teams To Score
 
@@ -121,7 +123,7 @@ _No match was likely enough to pick._
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 00:00 | Brazil · Serie A | Flamengo RJ vs Atletico-MG | 1X | 91% 🔒 | 1.10 | 1.04 |  |
+| 00:00 | Brazil · Serie A | Flamengo RJ vs Atletico-MG | 1X | 91% 🔒 | 1.10 | 1.04 | ✅ 3-2 |
 | 01:15 | Argentina · Liga Profesional | Instituto vs Dep. Riestra | 1X | 79% ☆ | 1.26 | 1.18 |  |
 | 23:00 | Argentina · Liga Profesional | Argentinos Jrs vs Ind. Rivadavia | 1X | 75% ☆ | 1.33 | 1.25 |  |
 
@@ -139,11 +141,11 @@ _No upcoming matches in the published fixtures for this day._
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 15/18 (83%), ROI -11% | 69/76 (91%), ROI -5% | 70/78 (90%), ROI -6% |
-| BTTS & Over 2.5 | 25/48 (52%) | 131/242 (54%) | 147/269 (55%) |
-| Over 2.5 Goals | 32/47 (68%), ROI +1% | 161/239 (67%), ROI -3% | 180/268 (67%), ROI -2% |
-| Both Teams To Score | 28/47 (60%) | 154/250 (62%) | 172/278 (62%) |
-| Double Chance | 48/55 (87%), ROI -3% | 246/286 (86%), ROI -3% | 272/316 (86%), ROI -3% |
+| 🔒 Bankers | 16/19 (84%), ROI -11% | 70/77 (91%), ROI -5% | 71/79 (90%), ROI -6% |
+| BTTS & Over 2.5 | 25/49 (51%) | 131/243 (54%) | 147/270 (54%) |
+| Over 2.5 Goals | 33/49 (67%), ROI +1% | 162/241 (67%), ROI -3% | 181/270 (67%), ROI -2% |
+| Both Teams To Score | 28/48 (58%) | 154/251 (61%) | 172/279 (62%) |
+| Double Chance | 49/56 (88%), ROI -3% | 247/287 (86%), ROI -3% | 273/317 (86%), ROI -2% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
