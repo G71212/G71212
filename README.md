@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-28 11:23 UTC · kick-off times in UTC_
+_Generated 2026-10-28 21:39 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -45,13 +45,15 @@ _No match was likely enough to pick._
 
 30 matches analysed across 8 leagues.
 
+**Results:** ✅ 1 won · ❌ 4 lost · 55 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
 | 22:30 | Bragantino vs Chapecoense-SC | Double Chance | 1X | 92% | 1.09 |  |
 | 19:45 | Celtic vs Dundee United | Double Chance | 1X | 91% | 1.10 |  |
-| 17:30 | Venezia vs Inter | Double Chance | X2 | 88% | 1.14 |  |
+| 17:30 | Venezia vs Inter | Double Chance | X2 | 88% | 1.14 | ✅ 0-2 |
 | 23:30 | Inter Miami vs FC Cincinnati | Over 2.5 Goals | Over 2.5 | 79% | 1.27 |  |
 
 ### 🔥 BTTS & Over 2.5
@@ -59,7 +61,7 @@ _No match was likely enough to pick._
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 23:30 | USA · MLS | Inter Miami vs FC Cincinnati | BTTS & Over 2.5 | 65% ★★★ | 1.54 | - |  |
-| 17:30 | Italy · Serie A | Venezia vs Inter | BTTS & Over 2.5 | 52% ★ | 1.92 | - |  |
+| 17:30 | Italy · Serie A | Venezia vs Inter | BTTS & Over 2.5 | 52% ★ | 1.92 | - | ❌ 0-2 |
 | 19:45 | England · National League | Carlisle vs Harrogate | BTTS & Over 2.5 | 51% ★ | 1.94 | - |  |
 | 18:00 | Sweden · Allsvenskan | Brommapojkarna vs Hacken | BTTS & Over 2.5 | 51% ★ | 1.95 | - |  |
 | 19:45 | Scotland · Premiership | Dundee vs Kilmarnock | BTTS & Over 2.5 | 51% ★ | 1.98 | - |  |
@@ -80,7 +82,7 @@ _No match was likely enough to pick._
 |---|---|---|---|---|---|---|---|
 | 23:30 | USA · MLS | Inter Miami vs FC Cincinnati | Over 2.5 | 79% 🔒 | 1.27 | - |  |
 | 19:45 | Scotland · Premiership | Celtic vs Dundee United | Over 2.5 | 71% ★★ | 1.41 | 1.33 |  |
-| 17:30 | Italy · Serie A | Venezia vs Inter | Over 2.5 | 71% ★★ | 1.41 | 1.34 |  |
+| 17:30 | Italy · Serie A | Venezia vs Inter | Over 2.5 | 71% ★★ | 1.41 | 1.34 | ❌ 0-2 |
 | 19:45 | England · National League | Forest Green vs Eastleigh | Over 2.5 | 63% ★ | 1.60 | 1.49 |  |
 | 18:00 | Sweden · Allsvenskan | Brommapojkarna vs Hacken | Over 2.5 | 62% ★ | 1.61 | - |  |
 | 19:45 | England · National League | Carlisle vs Harrogate | Over 2.5 | 61% ☆ | 1.64 | 1.55 |  |
@@ -105,7 +107,7 @@ _No match was likely enough to pick._
 | 20:00 | Scotland · Premiership | Hearts vs Rangers | BTTS Yes | 61% ★ | 1.65 | - |  |
 | 23:30 | USA · MLS | Toronto FC vs DC United | BTTS Yes | 59% ☆ | 1.68 | - |  |
 | 18:00 | Italy · Serie B | Pisa vs Palermo | BTTS Yes | 59% ☆ | 1.69 | - |  |
-| 17:30 | Italy · Serie A | Venezia vs Inter | BTTS Yes | 59% ☆ | 1.70 | - |  |
+| 17:30 | Italy · Serie A | Venezia vs Inter | BTTS Yes | 59% ☆ | 1.70 | - | ❌ 0-2 |
 | 19:45 | Scotland · Premiership | St Mirren vs Hibernian | BTTS Yes | 58% ☆ | 1.72 | - |  |
 | 19:45 | England · National League | Forest Green vs Eastleigh | BTTS Yes | 58% ☆ | 1.72 | - |  |
 | 23:30 | USA · MLS | New England Revolution vs New York Red Bulls | BTTS Yes | 58% ☆ | 1.72 | - |  |
@@ -120,11 +122,11 @@ _No match was likely enough to pick._
 |---|---|---|---|---|---|---|---|
 | 22:30 | Brazil · Serie A | Bragantino vs Chapecoense-SC | 1X | 92% 🔒 | 1.09 | 1.03 |  |
 | 19:45 | Scotland · Premiership | Celtic vs Dundee United | 1X | 91% 🔒 | 1.10 | 1.04 |  |
-| 17:30 | Italy · Serie A | Venezia vs Inter | X2 | 88% 🔒 | 1.14 | 1.07 |  |
+| 17:30 | Italy · Serie A | Venezia vs Inter | X2 | 88% 🔒 | 1.14 | 1.07 | ✅ 0-2 |
 | 23:30 | USA · MLS | Charlotte vs CF Montreal | 1X | 85% ★ | 1.18 | 1.12 |  |
 | 23:30 | USA · MLS | Inter Miami vs FC Cincinnati | 1X | 83% ★ | 1.20 | 1.12 |  |
 | 19:45 | England · National League | Forest Green vs Eastleigh | 1X | 82% ★ | 1.22 | 1.12 |  |
-| 17:30 | Italy · Serie A | Milan vs Bologna | 1X | 81% ★ | 1.23 | 1.15 |  |
+| 17:30 | Italy · Serie A | Milan vs Bologna | 1X | 81% ★ | 1.23 | 1.15 | ❌ 2-4 |
 | 19:45 | Italy · Serie A | Genoa vs Juventus | X2 | 81% ★ | 1.23 | 1.15 |  |
 | 18:00 | Sweden · Allsvenskan | Halmstad vs Malmo FF | X2 | 80% ★ | 1.25 | 1.16 |  |
 | 23:30 | USA · MLS | New York City vs Atlanta Utd | 1X | 79% ☆ | 1.27 | 1.20 |  |
@@ -249,11 +251,11 @@ _No match was likely enough to pick._
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 20/25 (80%), ROI -12% | 75/84 (89%), ROI -5% | 76/86 (88%), ROI -6% |
-| BTTS & Over 2.5 | 34/57 (60%) | 143/259 (55%) | 161/289 (56%) |
-| Over 2.5 Goals | 44/59 (75%), ROI +5% | 176/259 (68%), ROI -3% | 197/290 (68%), ROI -2% |
-| Both Teams To Score | 37/57 (65%) | 168/268 (63%) | 188/299 (63%) |
-| Double Chance | 59/63 (94%), ROI +2% | 264/306 (86%), ROI -3% | 293/339 (86%), ROI -2% |
+| 🔒 Bankers | 21/26 (81%), ROI -12% | 76/85 (89%), ROI -5% | 77/87 (89%), ROI -6% |
+| BTTS & Over 2.5 | 34/58 (59%) | 143/260 (55%) | 161/290 (56%) |
+| Over 2.5 Goals | 44/60 (73%), ROI +1% | 176/260 (68%), ROI -4% | 197/291 (68%), ROI -3% |
+| Both Teams To Score | 37/58 (64%) | 168/269 (62%) | 188/300 (63%) |
+| Double Chance | 60/65 (92%), ROI +1% | 265/308 (86%), ROI -3% | 294/341 (86%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
