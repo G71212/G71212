@@ -1,0 +1,195 @@
+{
+ "date": "2026-10-30",
+ "created_at": "2026-10-28T00:44:14+00:00",
+ "updated_at": "2026-10-28T00:44:14+00:00",
+ "fixtures": [
+  {
+   "id": "BRA|2026-10-30|Gremio|Athletico-PR",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-30",
+   "kickoff": "2026-10-30T00:30:00+00:00",
+   "home": "Gremio",
+   "away": "Athletico-PR",
+   "expected_goals": [
+    1.29,
+    1.25
+   ],
+   "model_expected_goals": [
+    1.36,
+    1.18
+   ],
+   "rho": -0.0386,
+   "probabilities": {
+    "home": 0.3711,
+    "draw": 0.2769,
+    "away": 0.352,
+    "over25": 0.4681,
+    "under25": 0.5319,
+    "btts": 0.5233,
+    "btts_over25": 0.3914,
+    "dc_1x": 0.648,
+    "dc_x2": 0.6289,
+    "dc_12": 0.7231
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1319
+    ],
+    [
+     "1-0",
+     0.0964
+    ],
+    [
+     "0-1",
+     0.0933
+    ]
+   ],
+   "market": {
+    "home": 0.3656,
+    "draw": 0.2763,
+    "away": 0.3581,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.55,
+    "draw": 3.31,
+    "away": 2.6,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    116,
+    78
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-28T00:44:14+00:00"
+  },
+  {
+   "id": "BRA|2026-10-30|Corinthians|Mirassol",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-10-30",
+   "kickoff": "2026-10-30T23:00:00+00:00",
+   "home": "Corinthians",
+   "away": "Mirassol",
+   "expected_goals": [
+    1.59,
+    0.88
+   ],
+   "model_expected_goals": [
+    1.37,
+    1.11
+   ],
+   "rho": -0.0386,
+   "probabilities": {
+    "home": 0.5362,
+    "draw": 0.2607,
+    "away": 0.203,
+    "over25": 0.4473,
+    "under25": 0.5527,
+    "btts": 0.4694,
+    "btts_over25": 0.3464,
+    "dc_1x": 0.797,
+    "dc_x2": 0.4638,
+    "dc_12": 0.7393
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1304
+    ],
+    [
+     "1-1",
+     0.123
+    ],
+    [
+     "2-0",
+     0.1071
+    ]
+   ],
+   "market": {
+    "home": 0.5587,
+    "draw": 0.2499,
+    "away": 0.1914,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.71,
+    "draw": 3.59,
+    "away": 4.59,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    116,
+    70
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-10-28T00:44:14+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [],
+  "over25": [],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-10-30|Gremio|Athletico-PR",
+    "league": "BRA",
+    "kickoff": "2026-10-30T00:30:00+00:00",
+    "home": "Gremio",
+    "away": "Athletico-PR",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5233,
+    "fair_odds": 1.91,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-10-28T00:44:14+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-30|Corinthians|Mirassol",
+    "league": "BRA",
+    "kickoff": "2026-10-30T23:00:00+00:00",
+    "home": "Corinthians",
+    "away": "Mirassol",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.797,
+    "fair_odds": 1.25,
+    "market_odds": 1.16,
+    "edge": -0.0769,
+    "published_at": "2026-10-28T00:44:14+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-10-30|Gremio|Athletico-PR",
+    "league": "BRA",
+    "kickoff": "2026-10-30T00:30:00+00:00",
+    "home": "Gremio",
+    "away": "Athletico-PR",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7231,
+    "fair_odds": 1.38,
+    "market_odds": 1.29,
+    "edge": -0.0691,
+    "published_at": "2026-10-28T00:44:14+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}
