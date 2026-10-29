@@ -1,57 +1,22 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-28 21:39 UTC · kick-off times in UTC_
+_Generated 2026-10-29 01:13 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
 
-## Tuesday 27 October 2026
-
-3 matches analysed across 2 leagues.
-
-**Results:** ✅ 3 won · ❌ 0 lost · 1 pending
-
-### 🔒 Bankers: the day's safest tips
-
-| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
-|---|---|---|---|---|---|---|
-| 00:00 | Flamengo RJ vs Atletico-MG | Double Chance | 1X | 91% | 1.10 | ✅ 3-2 |
-
-### 🔥 BTTS & Over 2.5
-
-_No match was likely enough to pick._
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:00 | Brazil · Serie A | Flamengo RJ vs Atletico-MG | Over 2.5 | 51% ☆ | 1.95 | - | ✅ 3-2 |
-
-### 🎯 Both Teams To Score
-
-_No match was likely enough to pick._
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:00 | Brazil · Serie A | Flamengo RJ vs Atletico-MG | 1X | 91% 🔒 | 1.10 | 1.04 | ✅ 3-2 |
-| 01:15 | Argentina · Liga Profesional | Instituto vs Dep. Riestra | 1X | 79% ☆ | 1.26 | 1.18 | ✅ 1-0 |
-| 23:00 | Argentina · Liga Profesional | Argentinos Jrs vs Ind. Rivadavia | 1X | 75% ☆ | 1.33 | 1.25 |  |
-
-
 ## Wednesday 28 October 2026
 
 30 matches analysed across 8 leagues.
 
-**Results:** ✅ 1 won · ❌ 4 lost · 55 pending
+**Results:** ✅ 5 won · ❌ 5 lost · 50 pending
 
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
-| 22:30 | Bragantino vs Chapecoense-SC | Double Chance | 1X | 92% | 1.09 |  |
+| 22:30 | Bragantino vs Chapecoense-SC | Double Chance | 1X | 92% | 1.09 | ✅ 3-0 |
 | 19:45 | Celtic vs Dundee United | Double Chance | 1X | 91% | 1.10 |  |
 | 17:30 | Venezia vs Inter | Double Chance | X2 | 88% | 1.14 | ✅ 0-2 |
 | 23:30 | Inter Miami vs FC Cincinnati | Over 2.5 Goals | Over 2.5 | 79% | 1.27 |  |
@@ -93,7 +58,7 @@ _No match was likely enough to pick._
 | 19:45 | Scotland · Premiership | St Mirren vs Hibernian | Over 2.5 | 56% ☆ | 1.78 | 1.63 |  |
 | 19:45 | England · National League | Sutton vs Aldershot | Over 2.5 | 56% ☆ | 1.80 | 1.68 |  |
 | 23:30 | USA · MLS | New England Revolution vs New York Red Bulls | Over 2.5 | 56% ☆ | 1.80 | - |  |
-| 19:45 | Italy · Serie A | Monza vs Napoli | Over 2.5 | 55% ☆ | 1.81 | 1.69 |  |
+| 19:45 | Italy · Serie A | Monza vs Napoli | Over 2.5 | 55% ☆ | 1.81 | 1.69 | ✅ 1-4 |
 | 18:00 | Italy · Serie B | Pisa vs Palermo | Over 2.5 | 55% ☆ | 1.81 | 1.69 |  |
 
 ### 🎯 Both Teams To Score
@@ -120,19 +85,19 @@ _No match was likely enough to pick._
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 22:30 | Brazil · Serie A | Bragantino vs Chapecoense-SC | 1X | 92% 🔒 | 1.09 | 1.03 |  |
+| 22:30 | Brazil · Serie A | Bragantino vs Chapecoense-SC | 1X | 92% 🔒 | 1.09 | 1.03 | ✅ 3-0 |
 | 19:45 | Scotland · Premiership | Celtic vs Dundee United | 1X | 91% 🔒 | 1.10 | 1.04 |  |
 | 17:30 | Italy · Serie A | Venezia vs Inter | X2 | 88% 🔒 | 1.14 | 1.07 | ✅ 0-2 |
 | 23:30 | USA · MLS | Charlotte vs CF Montreal | 1X | 85% ★ | 1.18 | 1.12 |  |
 | 23:30 | USA · MLS | Inter Miami vs FC Cincinnati | 1X | 83% ★ | 1.20 | 1.12 |  |
 | 19:45 | England · National League | Forest Green vs Eastleigh | 1X | 82% ★ | 1.22 | 1.12 |  |
 | 17:30 | Italy · Serie A | Milan vs Bologna | 1X | 81% ★ | 1.23 | 1.15 | ❌ 2-4 |
-| 19:45 | Italy · Serie A | Genoa vs Juventus | X2 | 81% ★ | 1.23 | 1.15 |  |
+| 19:45 | Italy · Serie A | Genoa vs Juventus | X2 | 81% ★ | 1.23 | 1.15 | ❌ 2-0 |
 | 18:00 | Sweden · Allsvenskan | Halmstad vs Malmo FF | X2 | 80% ★ | 1.25 | 1.16 |  |
 | 23:30 | USA · MLS | New York City vs Atlanta Utd | 1X | 79% ☆ | 1.27 | 1.20 |  |
 | 18:00 | Sweden · Allsvenskan | Brommapojkarna vs Hacken | 12 | 78% ☆ | 1.28 | 1.21 |  |
-| 19:45 | Italy · Serie A | Monza vs Napoli | X2 | 78% ☆ | 1.28 | 1.20 |  |
-| 22:30 | Brazil · Serie A | Fluminense vs Internacional | 1X | 78% ☆ | 1.29 | 1.21 |  |
+| 19:45 | Italy · Serie A | Monza vs Napoli | X2 | 78% ☆ | 1.28 | 1.20 | ✅ 1-4 |
+| 22:30 | Brazil · Serie A | Fluminense vs Internacional | 1X | 78% ☆ | 1.29 | 1.21 | ✅ 2-1 |
 | 19:45 | Scotland · Premiership | Dundee vs Kilmarnock | 12 | 77% ☆ | 1.29 | 1.24 |  |
 | 19:45 | England · National League | Carlisle vs Harrogate | 12 | 77% ☆ | 1.30 | 1.21 |  |
 
@@ -247,15 +212,40 @@ _No match was likely enough to pick._
 | 23:00 | Brazil · Serie A | Corinthians vs Mirassol | 1X | 80% ☆ | 1.25 | 1.16 |  |
 | 00:30 | Brazil · Serie A | Gremio vs Athletico-PR | 12 | 72% ☆ | 1.38 | 1.29 |  |
 
+
+## Saturday 31 October 2026
+
+1 matches analysed across 1 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+_No match was likely enough to pick._
+
+### ⚽ Over 2.5 Goals
+
+_No match was likely enough to pick._
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 19:00 | Brazil · Serie A | Coritiba vs Vitoria | BTTS Yes | 52% ☆ | 1.93 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 19:00 | Brazil · Serie A | Coritiba vs Vitoria | 12 | 72% ☆ | 1.38 | 1.28 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 21/26 (81%), ROI -12% | 76/85 (89%), ROI -5% | 77/87 (89%), ROI -6% |
-| BTTS & Over 2.5 | 34/58 (59%) | 143/260 (55%) | 161/290 (56%) |
-| Over 2.5 Goals | 44/60 (73%), ROI +1% | 176/260 (68%), ROI -4% | 197/291 (68%), ROI -3% |
-| Both Teams To Score | 37/58 (64%) | 168/269 (62%) | 188/300 (63%) |
-| Double Chance | 60/65 (92%), ROI +1% | 265/308 (86%), ROI -3% | 294/341 (86%), ROI -3% |
+| 🔒 Bankers | 22/27 (81%), ROI -11% | 77/86 (90%), ROI -5% | 78/88 (89%), ROI -6% |
+| BTTS & Over 2.5 | 30/53 (57%) | 140/250 (56%) | 161/290 (56%) |
+| Over 2.5 Goals | 41/56 (73%), ROI +3% | 173/251 (69%), ROI -1% | 198/292 (68%), ROI -2% |
+| Both Teams To Score | 33/53 (62%) | 162/259 (63%) | 188/300 (63%) |
+| Double Chance | 58/64 (91%), ROI -2% | 261/302 (86%), ROI -3% | 297/345 (86%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
