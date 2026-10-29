@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-29 11:33 UTC · kick-off times in UTC_
+_Generated 2026-10-29 21:48 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -106,7 +106,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 21 matches analysed across 6 leagues.
 
-**Results:** ✅ 1 won · ❌ 0 lost · 59 pending
+**Results:** ✅ 5 won · ❌ 0 lost · 55 pending
 
 ### 🔥 BTTS & Over 2.5
 
@@ -116,7 +116,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 00:30 | USA · MLS | St. Louis City vs Portland Timbers | BTTS & Over 2.5 | 54% ★ | 1.84 | - |  |
 | 00:30 | USA · MLS | FC Dallas vs Columbus Crew | BTTS & Over 2.5 | 54% ★ | 1.87 | - |  |
 | 00:30 | USA · MLS | Minnesota United vs Sporting Kansas City | BTTS & Over 2.5 | 53% ★ | 1.88 | - |  |
-| 17:30 | Italy · Serie A | Frosinone vs Lecce | BTTS & Over 2.5 | 52% ★ | 1.91 | - |  |
+| 17:30 | Italy · Serie A | Frosinone vs Lecce | BTTS & Over 2.5 | 52% ★ | 1.91 | - | ✅ 5-1 |
 | 02:30 | USA · MLS | San Jose Earthquakes vs Colorado Rapids | BTTS & Over 2.5 | 50% ★ | 1.99 | - |  |
 | 19:45 | Italy · Serie A | Fiorentina vs Atalanta | BTTS & Over 2.5 | 50% ☆ | 2.02 | - |  |
 | 02:30 | USA · MLS | Vancouver Whitecaps vs San Diego FC | BTTS & Over 2.5 | 49% ☆ | 2.04 | - |  |
@@ -136,7 +136,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 00:30 | USA · MLS | Minnesota United vs Sporting Kansas City | Over 2.5 | 69% ★★ | 1.44 | - |  |
 | 00:30 | USA · MLS | St. Louis City vs Portland Timbers | Over 2.5 | 65% ★ | 1.53 | - |  |
 | 02:30 | USA · MLS | Vancouver Whitecaps vs San Diego FC | Over 2.5 | 64% ★ | 1.55 | - |  |
-| 17:30 | Italy · Serie A | Frosinone vs Lecce | Over 2.5 | 64% ★ | 1.56 | 1.44 |  |
+| 17:30 | Italy · Serie A | Frosinone vs Lecce | Over 2.5 | 64% ★ | 1.56 | 1.44 | ✅ 5-1 |
 | 00:30 | USA · MLS | FC Dallas vs Columbus Crew | Over 2.5 | 63% ★ | 1.58 | - |  |
 | 17:30 | Sweden · Allsvenskan | Hammarby vs Sirius | Over 2.5 | 62% ☆ | 1.62 | - |  |
 | 02:30 | USA · MLS | San Jose Earthquakes vs Colorado Rapids | Over 2.5 | 59% ☆ | 1.68 | - |  |
@@ -155,7 +155,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 00:30 | USA · MLS | Chicago Fire vs Orlando City | BTTS Yes | 68% ★★ | 1.47 | - |  |
 | 00:30 | USA · MLS | St. Louis City vs Portland Timbers | BTTS Yes | 64% ★ | 1.56 | - |  |
 | 00:30 | USA · MLS | FC Dallas vs Columbus Crew | BTTS Yes | 64% ★ | 1.56 | - |  |
-| 17:30 | Italy · Serie A | Frosinone vs Lecce | BTTS Yes | 62% ★ | 1.62 | - |  |
+| 17:30 | Italy · Serie A | Frosinone vs Lecce | BTTS Yes | 62% ★ | 1.62 | - | ✅ 5-1 |
 | 02:30 | USA · MLS | San Jose Earthquakes vs Colorado Rapids | BTTS Yes | 62% ★ | 1.62 | - |  |
 | 00:30 | USA · MLS | Minnesota United vs Sporting Kansas City | BTTS Yes | 61% ★ | 1.64 | - |  |
 | 19:45 | Italy · Serie A | Fiorentina vs Atalanta | BTTS Yes | 61% ★ | 1.65 | - |  |
@@ -178,7 +178,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 02:30 | USA · MLS | Vancouver Whitecaps vs San Diego FC | 1X | 85% ★★ | 1.17 | 1.10 |  |
 | 17:30 | Sweden · Allsvenskan | Hammarby vs Sirius | 1X | 83% ★ | 1.21 | 1.11 |  |
 | 00:30 | USA · MLS | Chicago Fire vs Orlando City | 12 | 80% ★ | 1.25 | 1.16 |  |
-| 17:30 | Italy · Serie A | Frosinone vs Lecce | 12 | 79% ☆ | 1.27 | 1.21 |  |
+| 17:30 | Italy · Serie A | Frosinone vs Lecce | 12 | 79% ☆ | 1.27 | 1.21 | ✅ 5-1 |
 | 02:30 | USA · MLS | Seattle Sounders vs Houston Dynamo | 1X | 78% ☆ | 1.28 | 1.20 |  |
 | 00:30 | USA · MLS | St. Louis City vs Portland Timbers | 12 | 78% ☆ | 1.28 | 1.19 |  |
 | 00:30 | USA · MLS | FC Dallas vs Columbus Crew | 12 | 76% ☆ | 1.31 | 1.22 |  |
@@ -244,10 +244,10 @@ _No match was likely enough to pick._
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 23/28 (82%), ROI -11% | 78/87 (90%), ROI -5% | 79/89 (89%), ROI -6% |
-| BTTS & Over 2.5 | 34/61 (56%) | 144/258 (56%) | 165/298 (55%) |
-| Over 2.5 Goals | 46/64 (72%), ROI +2% | 178/259 (69%), ROI -1% | 203/300 (68%), ROI -3% |
-| Both Teams To Score | 40/63 (63%) | 169/269 (63%) | 195/310 (63%) |
-| Double Chance | 62/68 (91%), ROI -1% | 265/306 (87%), ROI -3% | 301/349 (86%), ROI -3% |
+| BTTS & Over 2.5 | 35/62 (56%) | 145/259 (56%) | 166/299 (56%) |
+| Over 2.5 Goals | 47/65 (72%), ROI +3% | 179/260 (69%), ROI -1% | 204/301 (68%), ROI -2% |
+| Both Teams To Score | 41/64 (64%) | 170/270 (63%) | 196/311 (63%) |
+| Double Chance | 63/69 (91%), ROI -0% | 266/307 (87%), ROI -3% | 302/350 (86%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
