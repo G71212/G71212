@@ -1883,8 +1883,12 @@
     86
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-30T11:26:19+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-10-30T11:26:19+00:00",
+   "provisional": true
   },
   {
    "id": "F1|2026-10-30|Lille|Lens",
@@ -1947,8 +1951,12 @@
     100
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-30T11:26:19+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-30T11:26:19+00:00",
+   "provisional": true
   },
   {
    "id": "P1|2026-10-30|Casa Pia|Sp Lisbon",
@@ -2011,8 +2019,12 @@
     102
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-30T11:26:19+00:00"
+   "result": [
+    0,
+    2
+   ],
+   "predicted_at": "2026-10-30T11:26:19+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-10-30|Estudiantes Rio Cuarto|Gimnasia L.P.",
@@ -2373,8 +2385,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-30T11:26:19+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -2604,8 +2620,12 @@
     "market_odds": 1.47,
     "edge": -0.0577,
     "published_at": "2026-10-30T11:26:19+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -2621,8 +2641,12 @@
     "market_odds": 1.58,
     "edge": -0.0544,
     "published_at": "2026-10-30T11:26:19+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -3013,8 +3037,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-30T11:26:19+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -3069,8 +3097,12 @@
     "market_odds": 1.04,
     "edge": -0.0641,
     "published_at": "2026-10-30T11:26:19+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -3107,8 +3139,12 @@
     "market_odds": 1.1,
     "edge": -0.0513,
     "published_at": "2026-10-30T11:26:19+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
