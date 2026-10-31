@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-10-31 01:02 UTC · kick-off times in UTC_
+_Generated 2026-10-31 10:57 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -10,7 +10,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 34 matches analysed across 20 leagues.
 
-**Results:** ✅ 11 won · ❌ 8 lost · 43 pending
+**Results:** ✅ 12 won · ❌ 8 lost · 42 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -95,7 +95,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 17:00 | Turkey · Süper Lig | Konyaspor vs Galatasaray | X2 | 82% ★ | 1.22 | 1.13 |  |
 | 18:00 | Norway · Eliteserien | Bodo/Glimt vs Viking | 12 | 80% ★ | 1.25 | 1.15 |  |
 | 19:30 | Scotland · Championship | Stenhousemuir vs Livingston | X2 | 80% ☆ | 1.25 | 1.15 |  |
-| 23:00 | Brazil · Serie A | Corinthians vs Mirassol | 1X | 80% ☆ | 1.25 | 1.16 |  |
+| 23:00 | Brazil · Serie A | Corinthians vs Mirassol | 1X | 80% ☆ | 1.25 | 1.16 | ✅ 2-0 |
 | 22:00 | Argentina · Liga Profesional | Estudiantes Rio Cuarto vs Gimnasia L.P. | X2 | 80% ☆ | 1.26 | 1.19 |  |
 | 19:45 | England · National League | Fylde vs Hornchurch | 12 | 79% ☆ | 1.26 | 1.18 |  |
 | 19:30 | Germany · Bundesliga | Elversberg vs Mainz | 12 | 76% ☆ | 1.31 | 1.25 | ✅ 4-0 |
@@ -447,7 +447,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | BTTS & Over 2.5 | 38/66 (58%) | 160/281 (57%) | 181/323 (56%) |
 | Over 2.5 Goals | 49/68 (72%), ROI +3% | 195/282 (69%), ROI +0% | 220/325 (68%), ROI -2% |
 | Both Teams To Score | 43/67 (64%) | 185/291 (64%) | 212/334 (63%) |
-| Double Chance | 60/72 (83%), ROI -6% | 283/330 (86%), ROI -4% | 320/375 (85%), ROI -3% |
+| Double Chance | 61/73 (84%), ROI -6% | 284/331 (86%), ROI -4% | 321/376 (85%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
