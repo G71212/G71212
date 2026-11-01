@@ -1819,8 +1819,12 @@
     58
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-30T11:26:19+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-10-30T11:26:19+00:00",
+   "provisional": true
   },
   {
    "id": "SP1|2026-10-30|Villarreal|Espanol",
