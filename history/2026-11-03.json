@@ -1,0 +1,259 @@
+{
+ "date": "2026-11-03",
+ "created_at": "2026-11-01T00:25:58+00:00",
+ "updated_at": "2026-11-01T00:25:58+00:00",
+ "fixtures": [
+  {
+   "id": "ARG|2026-11-03|Atl. Tucuman|Argentinos Jrs",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-11-03",
+   "kickoff": "2026-11-03T00:15:00+00:00",
+   "home": "Atl. Tucuman",
+   "away": "Argentinos Jrs",
+   "expected_goals": [
+    0.96,
+    1.06
+   ],
+   "model_expected_goals": [
+    0.94,
+    1.09
+   ],
+   "rho": -0.0792,
+   "probabilities": {
+    "home": 0.3099,
+    "draw": 0.3273,
+    "away": 0.3628,
+    "over25": 0.3292,
+    "under25": 0.6708,
+    "btts": 0.4144,
+    "btts_over25": 0.2687,
+    "dc_1x": 0.6372,
+    "dc_x2": 0.6901,
+    "dc_12": 0.6727
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1457
+    ],
+    [
+     "0-0",
+     0.1431
+    ],
+    [
+     "0-1",
+     0.1299
+    ]
+   ],
+   "market": {
+    "home": 0.3207,
+    "draw": 0.3102,
+    "away": 0.369,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.87,
+    "draw": 2.96,
+    "away": 2.52,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    106,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-01T00:25:58+00:00"
+  },
+  {
+   "id": "ARG|2026-11-03|Ind. Rivadavia|Banfield",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-11-03",
+   "kickoff": "2026-11-03T00:15:00+00:00",
+   "home": "Ind. Rivadavia",
+   "away": "Banfield",
+   "expected_goals": [
+    1.73,
+    0.72
+   ],
+   "model_expected_goals": [
+    1.49,
+    0.98
+   ],
+   "rho": -0.0792,
+   "probabilities": {
+    "home": 0.608,
+    "draw": 0.2488,
+    "away": 0.1432,
+    "over25": 0.4452,
+    "under25": 0.5548,
+    "btts": 0.4322,
+    "btts_over25": 0.3163,
+    "dc_1x": 0.8568,
+    "dc_x2": 0.392,
+    "dc_12": 0.7512
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1401
+    ],
+    [
+     "2-0",
+     0.1289
+    ],
+    [
+     "1-1",
+     0.1159
+    ]
+   ],
+   "market": {
+    "home": 0.6406,
+    "draw": 0.2181,
+    "away": 0.1413,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.5,
+    "draw": 4.0,
+    "away": 5.94,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    105,
+    107
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-01T00:25:58+00:00"
+  },
+  {
+   "id": "SWE|2026-11-03|Sirius|Halmstad",
+   "league": "SWE",
+   "league_name": "Sweden · Allsvenskan",
+   "date": "2026-11-03",
+   "kickoff": "2026-11-03T18:00:00+00:00",
+   "home": "Sirius",
+   "away": "Halmstad",
+   "expected_goals": [
+    2.4,
+    0.72
+   ],
+   "model_expected_goals": [
+    2.12,
+    1.0
+   ],
+   "rho": -0.0066,
+   "probabilities": {
+    "home": 0.7463,
+    "draw": 0.1615,
+    "away": 0.0922,
+    "over25": 0.6023,
+    "under25": 0.3977,
+    "btts": 0.4661,
+    "btts_over25": 0.3893,
+    "dc_1x": 0.9078,
+    "dc_x2": 0.2537,
+    "dc_12": 0.8385
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1275
+    ],
+    [
+     "1-0",
+     0.1058
+    ],
+    [
+     "3-0",
+     0.1019
+    ]
+   ],
+   "market": {
+    "home": 0.7699,
+    "draw": 0.1415,
+    "away": 0.0886,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.26,
+    "draw": 5.63,
+    "away": 8.52,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-01T00:25:58+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "SWE|2026-11-03|Sirius|Halmstad",
+    "league": "SWE",
+    "kickoff": "2026-11-03T18:00:00+00:00",
+    "home": "Sirius",
+    "away": "Halmstad",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6023,
+    "fair_odds": 1.66,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-01T00:25:58+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "SWE|2026-11-03|Sirius|Halmstad",
+    "league": "SWE",
+    "kickoff": "2026-11-03T18:00:00+00:00",
+    "home": "Sirius",
+    "away": "Halmstad",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9078,
+    "fair_odds": 1.1,
+    "market_odds": 1.03,
+    "edge": -0.0654,
+    "published_at": "2026-11-01T00:25:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-11-03|Ind. Rivadavia|Banfield",
+    "league": "ARG",
+    "kickoff": "2026-11-03T00:15:00+00:00",
+    "home": "Ind. Rivadavia",
+    "away": "Banfield",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8568,
+    "fair_odds": 1.17,
+    "market_odds": 1.09,
+    "edge": -0.0653,
+    "published_at": "2026-11-01T00:25:58+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}
