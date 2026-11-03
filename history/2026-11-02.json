@@ -2085,8 +2085,12 @@
     78
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-10-31T01:02:27+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-10-31T01:02:27+00:00",
+   "provisional": true
   }
  ],
  "picks": {

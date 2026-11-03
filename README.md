@@ -1,129 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-02 23:52 UTC · kick-off times in UTC_
+_Generated 2026-11-03 03:03 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Sunday 01 November 2026
-
-91 matches analysed across 26 leagues.
-
-**Results:** ✅ 27 won · ❌ 19 lost · 31 pending
-
-### 🔒 Bankers: the day's safest tips
-
-| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
-|---|---|---|---|---|---|---|
-| 13:30 | Salzburg vs A. Lustenau | Double Chance | 1X | 94% | 1.06 |  |
-| 17:00 | PAOK vs Asteras Tripolis | Double Chance | 1X | 92% | 1.09 | ✅ 2-1 |
-| 13:00 | Djurgarden vs Degerfors | Double Chance | 1X | 91% | 1.10 |  |
-| 10:30 | Amedspor vs Eyupspor | Double Chance | 1X | 91% | 1.10 | ✅ 5-1 |
-| 15:15 | Santander vs Real Madrid | Double Chance | X2 | 91% | 1.10 | ✅ 0-3 |
-| 13:00 | Young Boys vs Zurich | Double Chance | 1X | 90% | 1.11 |  |
-| 11:30 | Como vs Venezia | Double Chance | 1X | 89% | 1.12 | ✅ 1-0 |
-| 15:30 | Univ. Craiova vs FC Botosani | Double Chance | 1X | 89% | 1.12 |  |
-| 13:00 | Trabzonspor vs Gaziantep | Double Chance | 1X | 89% | 1.13 | ✅ 2-0 |
-| 15:15 | Santander vs Real Madrid | Over 2.5 Goals | Over 2.5 | 79% | 1.26 | ✅ 0-3 |
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 13:30 | Norway · Eliteserien | Brann vs Molde | BTTS & Over 2.5 | 58% ★★ | 1.73 | - |  |
-| 15:15 | Spain · La Liga | Santander vs Real Madrid | BTTS & Over 2.5 | 58% ★★ | 1.73 | - | ❌ 0-3 |
-| 14:00 | Italy · Serie A | Frosinone vs Torino | BTTS & Over 2.5 | 58% ★★ | 1.73 | - | ❌ 2-0 |
-| 15:45 | Netherlands · Eredivisie | Groningen vs Sparta Rotterdam | BTTS & Over 2.5 | 55% ★★ | 1.81 | - | ✅ 2-3 |
-| 16:30 | Germany · Bundesliga | Ein Frankfurt vs Hamburg | BTTS & Over 2.5 | 55% ★ | 1.83 | - | ✅ 3-1 |
-| 15:30 | Switzerland · Super League | Lausanne vs Thun | BTTS & Over 2.5 | 55% ★ | 1.83 | - |  |
-| 13:30 | Netherlands · Eredivisie | Telstar vs Utrecht | BTTS & Over 2.5 | 54% ★ | 1.85 | - | ✅ 4-2 |
-| 18:15 | Norway · Eliteserien | Valerenga vs Tromso | BTTS & Over 2.5 | 54% ★ | 1.87 | - |  |
-| 12:30 | Germany · 2. Bundesliga | Hannover vs Dresden | BTTS & Over 2.5 | 53% ★ | 1.88 | - | ✅ 2-1 |
-| 12:30 | Germany · 2. Bundesliga | Greuther Furth vs Holstein Kiel | BTTS & Over 2.5 | 52% ★ | 1.91 | - | ❌ 1-0 |
-| 19:45 | France · Ligue 1 | Marseille vs Toulouse | BTTS & Over 2.5 | 52% ★ | 1.91 | - | ❌ 2-0 |
-| 13:30 | Netherlands · Eredivisie | Excelsior vs Twente | BTTS & Over 2.5 | 52% ★ | 1.93 | - | ❌ 0-9 |
-| 01:30 | USA · MLS | Colorado Rapids vs Chicago Fire | BTTS & Over 2.5 | 51% ★ | 1.95 | - |  |
-| 15:00 | Denmark · Superliga | Nordsjaelland vs Midtjylland | BTTS & Over 2.5 | 51% ★ | 1.95 | - |  |
-| 11:15 | Netherlands · Eredivisie | Zwolle vs Den Haag | BTTS & Over 2.5 | 51% ★ | 1.95 | - | ❌ 1-0 |
-| 12:30 | Belgium · Pro League | Cercle Brugge vs Antwerp | BTTS & Over 2.5 | 51% ★ | 1.97 | - | ✅ 2-1 |
-| 13:00 | Scotland · Premiership | Falkirk vs Celtic | BTTS & Over 2.5 | 51% ★ | 1.98 | - | ❌ 2-0 |
-| 04:00 | Japan · J1 League | Yokohama F. Marinos vs Kawasaki Frontale | BTTS & Over 2.5 | 50% ★ | 1.98 | - |  |
-| 13:00 | Switzerland · Super League | Young Boys vs Zurich | BTTS & Over 2.5 | 50% ★ | 1.98 | - |  |
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 15:15 | Spain · La Liga | Santander vs Real Madrid | Over 2.5 | 79% 🔒 | 1.26 | 1.19 | ✅ 0-3 |
-| 13:00 | Switzerland · Super League | Young Boys vs Zurich | Over 2.5 | 71% ★★ | 1.40 | - |  |
-| 16:30 | Germany · Bundesliga | Ein Frankfurt vs Hamburg | Over 2.5 | 67% ★★ | 1.48 | 1.40 | ✅ 3-1 |
-| 11:30 | Italy · Serie A | Como vs Venezia | Over 2.5 | 67% ★★ | 1.49 | 1.37 | ❌ 1-0 |
-| 14:00 | Italy · Serie A | Frosinone vs Torino | Over 2.5 | 67% ★★ | 1.49 | 1.40 | ❌ 2-0 |
-| 13:00 | Turkey · Süper Lig | Trabzonspor vs Gaziantep | Over 2.5 | 67% ★★ | 1.49 | 1.40 | ❌ 2-0 |
-| 13:30 | Norway · Eliteserien | Brann vs Molde | Over 2.5 | 67% ★ | 1.49 | - |  |
-| 15:45 | Netherlands · Eredivisie | Groningen vs Sparta Rotterdam | Over 2.5 | 66% ★ | 1.51 | 1.42 | ✅ 2-3 |
-| 13:00 | Scotland · Premiership | Falkirk vs Celtic | Over 2.5 | 66% ★ | 1.52 | 1.42 | ❌ 2-0 |
-| 13:30 | Netherlands · Eredivisie | Excelsior vs Twente | Over 2.5 | 64% ★ | 1.55 | 1.45 | ✅ 0-9 |
-| 13:30 | Austria · Bundesliga | Salzburg vs A. Lustenau | Over 2.5 | 64% ★ | 1.56 | - |  |
-| 15:30 | Switzerland · Super League | Lausanne vs Thun | Over 2.5 | 63% ★ | 1.58 | - |  |
-| 13:30 | Netherlands · Eredivisie | Telstar vs Utrecht | Over 2.5 | 63% ★ | 1.59 | 1.50 | ✅ 4-2 |
-| 19:45 | France · Ligue 1 | Marseille vs Toulouse | Over 2.5 | 62% ★ | 1.60 | 1.52 | ❌ 2-0 |
-| 18:15 | Norway · Eliteserien | Valerenga vs Tromso | Over 2.5 | 62% ★ | 1.60 | - |  |
-| 12:30 | Germany · 2. Bundesliga | Hannover vs Dresden | Over 2.5 | 62% ★ | 1.60 | 1.50 | ✅ 2-1 |
-| 15:30 | Sweden · Allsvenskan | Elfsborg vs Orgryte | Over 2.5 | 62% ★ | 1.61 | - |  |
-| 13:00 | Denmark · Superliga | Viborg vs Horsens | Over 2.5 | 62% ★ | 1.61 | - |  |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 13:30 | Norway · Eliteserien | Brann vs Molde | BTTS Yes | 67% ★★ | 1.48 | - |  |
-| 14:00 | Italy · Serie A | Frosinone vs Torino | BTTS Yes | 67% ★★ | 1.49 | - | ❌ 2-0 |
-| 13:30 | Netherlands · Eredivisie | Telstar vs Utrecht | BTTS Yes | 65% ★★ | 1.53 | - | ✅ 4-2 |
-| 15:45 | Netherlands · Eredivisie | Groningen vs Sparta Rotterdam | BTTS Yes | 65% ★★ | 1.53 | - | ✅ 2-3 |
-| 15:30 | Switzerland · Super League | Lausanne vs Thun | BTTS Yes | 65% ★ | 1.54 | - |  |
-| 18:15 | Norway · Eliteserien | Valerenga vs Tromso | BTTS Yes | 64% ★ | 1.56 | - |  |
-| 16:30 | Germany · Bundesliga | Ein Frankfurt vs Hamburg | BTTS Yes | 64% ★ | 1.57 | - | ✅ 3-1 |
-| 12:30 | Germany · 2. Bundesliga | Hannover vs Dresden | BTTS Yes | 64% ★ | 1.57 | - | ✅ 2-1 |
-| 12:30 | Germany · 2. Bundesliga | Greuther Furth vs Holstein Kiel | BTTS Yes | 63% ★ | 1.58 | - | ❌ 1-0 |
-| 15:00 | Denmark · Superliga | Nordsjaelland vs Midtjylland | BTTS Yes | 63% ★ | 1.58 | - |  |
-| 15:15 | Spain · La Liga | Santander vs Real Madrid | BTTS Yes | 63% ★ | 1.59 | - | ❌ 0-3 |
-| 11:15 | Netherlands · Eredivisie | Zwolle vs Den Haag | BTTS Yes | 63% ★ | 1.59 | - | ❌ 1-0 |
-| 19:45 | France · Ligue 1 | Marseille vs Toulouse | BTTS Yes | 63% ★ | 1.59 | - | ❌ 2-0 |
-| 01:30 | USA · MLS | Colorado Rapids vs Chicago Fire | BTTS Yes | 63% ★ | 1.60 | - |  |
-| 12:30 | Belgium · Pro League | Cercle Brugge vs Antwerp | BTTS Yes | 62% ★ | 1.62 | - | ✅ 2-1 |
-| 13:30 | Netherlands · Eredivisie | Excelsior vs Twente | BTTS Yes | 62% ★ | 1.62 | - | ❌ 0-9 |
-| 14:30 | Germany · Bundesliga | Union Berlin vs FC Koln | BTTS Yes | 62% ★ | 1.63 | - | ✅ 1-1 |
-| 04:00 | Japan · J1 League | Yokohama F. Marinos vs Kawasaki Frontale | BTTS Yes | 61% ★ | 1.63 | - |  |
-| 16:00 | Norway · Eliteserien | Start vs Lillestrom | BTTS Yes | 61% ★ | 1.65 | - |  |
-| 12:30 | Germany · 2. Bundesliga | St Pauli vs Nurnberg | BTTS Yes | 61% ★ | 1.65 | - | ✅ 1-3 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 13:30 | Austria · Bundesliga | Salzburg vs A. Lustenau | 1X | 94% 🔒 | 1.06 | 1.00 |  |
-| 17:00 | Greece · Super League | PAOK vs Asteras Tripolis | 1X | 92% 🔒 | 1.09 | 1.02 | ✅ 2-1 |
-| 13:00 | Sweden · Allsvenskan | Djurgarden vs Degerfors | 1X | 91% 🔒 | 1.10 | 1.03 |  |
-| 10:30 | Turkey · Süper Lig | Amedspor vs Eyupspor | 1X | 91% 🔒 | 1.10 | 1.02 | ✅ 5-1 |
-| 15:15 | Spain · La Liga | Santander vs Real Madrid | X2 | 91% 🔒 | 1.10 | 1.04 | ✅ 0-3 |
-| 13:00 | Switzerland · Super League | Young Boys vs Zurich | 1X | 90% 🔒 | 1.11 | 1.04 |  |
-| 11:30 | Italy · Serie A | Como vs Venezia | 1X | 89% 🔒 | 1.12 | 1.05 | ✅ 1-0 |
-| 15:30 | Romania · Superliga | Univ. Craiova vs FC Botosani | 1X | 89% 🔒 | 1.12 | 1.05 |  |
-| 13:00 | Turkey · Süper Lig | Trabzonspor vs Gaziantep | 1X | 89% 🔒 | 1.13 | 1.05 | ✅ 2-0 |
-| 15:30 | Sweden · Allsvenskan | Elfsborg vs Orgryte | 1X | 88% ★★ | 1.14 | 1.06 |  |
-| 16:15 | France · Ligue 1 | Lyon vs Angers | 1X | 87% ★★ | 1.15 | 1.08 | ✅ 2-0 |
-| 01:07 | Mexico · Liga MX | Guadalajara Chivas vs Atlante | 1X | 87% ★★ | 1.15 | 1.09 |  |
-| 14:00 | Italy · Serie A | Lazio vs Cagliari | 1X | 86% ★★ | 1.16 | 1.08 | ✅ 2-1 |
-| 23:45 | Argentina · Liga Profesional | Lanus vs Gimnasia Mendoza | 1X | 86% ★★ | 1.16 | 1.10 |  |
-| 21:30 | USA · MLS | Nashville SC vs New York Red Bulls | 1X | 85% ★★ | 1.17 | 1.11 |  |
-| 18:15 | Belgium · Pro League | Charleroi vs RAAL La Louviere | 1X | 85% ★ | 1.18 | 1.09 | ✅ 5-2 |
-| 13:00 | Scotland · Premiership | Falkirk vs Celtic | X2 | 84% ★ | 1.19 | 1.10 | ❌ 2-0 |
-| 16:00 | Norway · Eliteserien | Sarpsborg 08 vs Kristiansund | 1X | 83% ★ | 1.20 | 1.11 |  |
-| 13:00 | Denmark · Superliga | Viborg vs Horsens | 1X | 83% ★ | 1.20 | 1.11 |  |
-| 16:15 | Italy · Serie B | Verona vs Carrarese | 1X | 83% ★ | 1.20 | 1.12 | ✅ 3-0 |
-
 
 ## Monday 02 November 2026
 
@@ -254,15 +135,20 @@ _No match was likely enough to pick._
 
 _No upcoming matches in the published fixtures for this day._
 
+
+## Thursday 05 November 2026
+
+_No upcoming matches in the published fixtures for this day._
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 26/29 (90%), ROI -6% | 97/109 (89%), ROI -6% | 101/114 (89%), ROI -6% |
-| BTTS & Over 2.5 | 37/70 (53%) | 169/301 (56%) | 198/359 (55%) |
-| Over 2.5 Goals | 45/73 (62%), ROI -14% | 205/303 (68%), ROI -4% | 241/362 (67%), ROI -5% |
-| Both Teams To Score | 43/72 (60%) | 194/311 (62%) | 231/371 (62%) |
-| Double Chance | 58/72 (81%), ROI -11% | 298/345 (86%), ROI -3% | 349/409 (85%), ROI -4% |
+| 🔒 Bankers | 25/28 (89%), ROI -6% | 96/108 (89%), ROI -6% | 101/114 (89%), ROI -6% |
+| BTTS & Over 2.5 | 37/70 (53%) | 168/298 (56%) | 198/359 (55%) |
+| Over 2.5 Goals | 44/72 (61%), ROI -14% | 204/300 (68%), ROI -3% | 241/362 (67%), ROI -5% |
+| Both Teams To Score | 43/72 (60%) | 190/306 (62%) | 231/371 (62%) |
+| Double Chance | 55/69 (80%), ROI -12% | 293/338 (87%), ROI -3% | 349/409 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
