@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-03 12:50 UTC · kick-off times in UTC_
+_Generated 2026-11-03 22:18 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -103,7 +103,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 16 matches analysed across 6 leagues.
 
-**Results:** ✅ 1 won · ❌ 0 lost · 43 pending
+**Results:** ✅ 12 won · ❌ 16 lost · 16 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -116,13 +116,13 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 19:45 | England · League One | Huddersfield vs Luton | BTTS & Over 2.5 | 49% ☆ | 2.04 | - |  |
-| 20:00 | England · Championship | West Brom vs Southampton | BTTS & Over 2.5 | 47% ☆ | 2.13 | - |  |
-| 19:45 | England · Championship | Derby vs Norwich | BTTS & Over 2.5 | 47% ☆ | 2.13 | - |  |
-| 19:45 | England · Championship | QPR vs Burnley | BTTS & Over 2.5 | 46% ☆ | 2.15 | - |  |
-| 19:45 | England · Championship | Charlton vs Bolton | BTTS & Over 2.5 | 45% ☆ | 2.21 | - |  |
+| 20:00 | England · Championship | West Brom vs Southampton | BTTS & Over 2.5 | 47% ☆ | 2.13 | - | ❌ 1-1 |
+| 19:45 | England · Championship | Derby vs Norwich | BTTS & Over 2.5 | 47% ☆ | 2.13 | - | ❌ 0-4 |
+| 19:45 | England · Championship | QPR vs Burnley | BTTS & Over 2.5 | 46% ☆ | 2.15 | - | ❌ 1-1 |
+| 19:45 | England · Championship | Charlton vs Bolton | BTTS & Over 2.5 | 45% ☆ | 2.21 | - | ❌ 0-1 |
 | 19:45 | England · League One | Wigan vs Mansfield | BTTS & Over 2.5 | 45% ☆ | 2.23 | - |  |
-| 19:45 | England · Championship | Watford vs Lincoln | BTTS & Over 2.5 | 43% ☆ | 2.31 | - |  |
-| 20:00 | England · Championship | Birmingham vs Millwall | BTTS & Over 2.5 | 43% ☆ | 2.34 | - |  |
+| 19:45 | England · Championship | Watford vs Lincoln | BTTS & Over 2.5 | 43% ☆ | 2.31 | - | ❌ 1-0 |
+| 20:00 | England · Championship | Birmingham vs Millwall | BTTS & Over 2.5 | 43% ☆ | 2.34 | - | ❌ 3-0 |
 | 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | BTTS & Over 2.5 | 42% ☆ | 2.36 | - |  |
 | 18:00 | Sweden · Allsvenskan | Sirius vs Halmstad | BTTS & Over 2.5 | 40% ☆ | 2.50 | - |  |
 
@@ -132,13 +132,13 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 |---|---|---|---|---|---|---|---|
 | 18:00 | Sweden · Allsvenskan | Sirius vs Halmstad | Over 2.5 | 60% ☆ | 1.66 | - |  |
 | 19:45 | England · League One | Huddersfield vs Luton | Over 2.5 | 58% ☆ | 1.72 | 1.61 |  |
-| 19:45 | England · Championship | Derby vs Norwich | Over 2.5 | 56% ☆ | 1.79 | 1.67 |  |
-| 19:45 | England · Championship | QPR vs Burnley | Over 2.5 | 56% ☆ | 1.80 | 1.66 |  |
-| 20:00 | England · Championship | West Brom vs Southampton | Over 2.5 | 55% ☆ | 1.81 | 1.68 |  |
-| 19:45 | England · Championship | Charlton vs Bolton | Over 2.5 | 54% ☆ | 1.86 | 1.73 |  |
+| 19:45 | England · Championship | Derby vs Norwich | Over 2.5 | 56% ☆ | 1.79 | 1.67 | ✅ 0-4 |
+| 19:45 | England · Championship | QPR vs Burnley | Over 2.5 | 56% ☆ | 1.80 | 1.66 | ❌ 1-1 |
+| 20:00 | England · Championship | West Brom vs Southampton | Over 2.5 | 55% ☆ | 1.81 | 1.68 | ❌ 1-1 |
+| 19:45 | England · Championship | Charlton vs Bolton | Over 2.5 | 54% ☆ | 1.86 | 1.73 | ❌ 0-1 |
 | 19:45 | England · League One | Wigan vs Mansfield | Over 2.5 | 53% ☆ | 1.87 | 1.70 |  |
-| 20:00 | England · Championship | Birmingham vs Millwall | Over 2.5 | 52% ☆ | 1.92 | 1.77 |  |
-| 19:45 | England · Championship | Watford vs Lincoln | Over 2.5 | 52% ☆ | 1.94 | 1.81 |  |
+| 20:00 | England · Championship | Birmingham vs Millwall | Over 2.5 | 52% ☆ | 1.92 | 1.77 | ✅ 3-0 |
+| 19:45 | England · Championship | Watford vs Lincoln | Over 2.5 | 52% ☆ | 1.94 | 1.81 | ❌ 1-0 |
 | 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | Over 2.5 | 51% ☆ | 1.95 | - |  |
 
 ### 🎯 Both Teams To Score
@@ -146,15 +146,15 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 19:45 | England · League One | Huddersfield vs Luton | BTTS Yes | 60% ☆ | 1.67 | - |  |
-| 20:00 | England · Championship | West Brom vs Southampton | BTTS Yes | 59% ☆ | 1.70 | - |  |
-| 19:45 | England · Championship | Derby vs Norwich | BTTS Yes | 58% ☆ | 1.71 | - |  |
-| 19:45 | England · Championship | QPR vs Burnley | BTTS Yes | 58% ☆ | 1.72 | - |  |
-| 19:45 | England · Championship | Charlton vs Bolton | BTTS Yes | 57% ☆ | 1.75 | - |  |
+| 20:00 | England · Championship | West Brom vs Southampton | BTTS Yes | 59% ☆ | 1.70 | - | ✅ 1-1 |
+| 19:45 | England · Championship | Derby vs Norwich | BTTS Yes | 58% ☆ | 1.71 | - | ❌ 0-4 |
+| 19:45 | England · Championship | QPR vs Burnley | BTTS Yes | 58% ☆ | 1.72 | - | ✅ 1-1 |
+| 19:45 | England · Championship | Charlton vs Bolton | BTTS Yes | 57% ☆ | 1.75 | - | ❌ 0-1 |
 | 19:45 | England · League One | Wigan vs Mansfield | BTTS Yes | 57% ☆ | 1.76 | - |  |
-| 19:45 | England · Championship | Watford vs Lincoln | BTTS Yes | 56% ☆ | 1.79 | - |  |
-| 20:00 | England · Championship | Birmingham vs Millwall | BTTS Yes | 55% ☆ | 1.82 | - |  |
+| 19:45 | England · Championship | Watford vs Lincoln | BTTS Yes | 56% ☆ | 1.79 | - | ❌ 1-0 |
+| 20:00 | England · Championship | Birmingham vs Millwall | BTTS Yes | 55% ☆ | 1.82 | - | ❌ 3-0 |
 | 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | BTTS Yes | 55% ☆ | 1.83 | - |  |
-| 19:45 | England · Championship | Blackburn vs Stoke | BTTS Yes | 51% ☆ | 1.95 | - |  |
+| 19:45 | England · Championship | Blackburn vs Stoke | BTTS Yes | 51% ☆ | 1.95 | - | ✅ 1-2 |
 
 ### 🛡️ Double Chance
 
@@ -163,17 +163,17 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 18:00 | Sweden · Allsvenskan | Sirius vs Halmstad | 1X | 91% 🔒 | 1.10 | 1.03 |  |
 | 00:15 | Argentina · Liga Profesional | Ind. Rivadavia vs Banfield | 1X | 86% ★★ | 1.17 | 1.09 | ✅ 3-1 |
 | 19:45 | England · League One | Huddersfield vs Luton | 12 | 76% ☆ | 1.31 | 1.25 |  |
-| 19:45 | England · Championship | QPR vs Burnley | 12 | 75% ☆ | 1.33 | 1.27 |  |
-| 19:45 | England · Championship | Derby vs Norwich | 12 | 75% ☆ | 1.33 | 1.26 |  |
+| 19:45 | England · Championship | QPR vs Burnley | 12 | 75% ☆ | 1.33 | 1.27 | ❌ 1-1 |
+| 19:45 | England · Championship | Derby vs Norwich | 12 | 75% ☆ | 1.33 | 1.26 | ✅ 0-4 |
 | 19:45 | England · League One | Wigan vs Mansfield | 12 | 75% ☆ | 1.34 | 1.27 |  |
-| 20:00 | England · Championship | Birmingham vs Millwall | 12 | 75% ☆ | 1.34 | 1.27 |  |
-| 20:00 | England · Championship | West Brom vs Southampton | 12 | 75% ☆ | 1.34 | 1.28 |  |
-| 19:45 | England · Championship | Charlton vs Bolton | 12 | 75% ☆ | 1.34 | 1.28 |  |
+| 20:00 | England · Championship | Birmingham vs Millwall | 12 | 75% ☆ | 1.34 | 1.27 | ✅ 3-0 |
+| 20:00 | England · Championship | West Brom vs Southampton | 12 | 75% ☆ | 1.34 | 1.28 | ❌ 1-1 |
+| 19:45 | England · Championship | Charlton vs Bolton | 12 | 75% ☆ | 1.34 | 1.28 | ✅ 0-1 |
 | 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | 12 | 74% ☆ | 1.35 | 1.28 |  |
-| 19:45 | England · Championship | Watford vs Lincoln | 12 | 74% ☆ | 1.35 | 1.29 |  |
-| 19:45 | England · Championship | Blackburn vs Stoke | 12 | 72% ☆ | 1.38 | 1.31 |  |
+| 19:45 | England · Championship | Watford vs Lincoln | 12 | 74% ☆ | 1.35 | 1.29 | ✅ 1-0 |
+| 19:45 | England · Championship | Blackburn vs Stoke | 12 | 72% ☆ | 1.38 | 1.31 | ✅ 1-2 |
 | 19:45 | England · League Two | Northampton vs Oldham | 12 | 72% ☆ | 1.39 | 1.31 |  |
-| 19:45 | England · Championship | Portsmouth vs Swansea | 12 | 72% ☆ | 1.39 | 1.32 |  |
+| 19:45 | England · Championship | Portsmouth vs Swansea | 12 | 72% ☆ | 1.39 | 1.32 | ✅ 3-1 |
 
 
 ## Wednesday 04 November 2026
@@ -267,10 +267,10 @@ _No match was likely enough to pick._
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 31/35 (89%), ROI -7% | 102/115 (89%), ROI -6% | 107/121 (88%), ROI -7% |
-| BTTS & Over 2.5 | 55/99 (56%) | 186/327 (57%) | 216/388 (56%) |
-| Over 2.5 Goals | 63/98 (64%), ROI -16% | 223/326 (68%), ROI -4% | 260/388 (67%), ROI -6% |
-| Both Teams To Score | 62/102 (61%) | 209/336 (62%) | 250/401 (62%) |
-| Double Chance | 85/103 (83%), ROI -9% | 323/372 (87%), ROI -3% | 379/443 (86%), ROI -4% |
+| BTTS & Over 2.5 | 55/105 (52%) | 186/333 (56%) | 216/394 (55%) |
+| Over 2.5 Goals | 65/104 (62%), ROI -18% | 225/332 (68%), ROI -5% | 262/394 (66%), ROI -7% |
+| Both Teams To Score | 65/109 (60%) | 212/343 (62%) | 253/408 (62%) |
+| Double Chance | 91/111 (82%), ROI -8% | 329/380 (87%), ROI -3% | 385/451 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
