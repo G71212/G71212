@@ -1,13 +1,441 @@
 {
  "date": "2026-11-05",
  "created_at": "2026-11-03T03:03:47+00:00",
- "updated_at": "2026-11-03T03:03:47+00:00",
- "fixtures": [],
+ "updated_at": "2026-11-03T12:50:29+00:00",
+ "fixtures": [
+  {
+   "id": "BRA|2026-11-05|Botafogo RJ|Atletico-MG",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-05",
+   "kickoff": "2026-11-05T00:30:00+00:00",
+   "home": "Botafogo RJ",
+   "away": "Atletico-MG",
+   "expected_goals": [
+    1.54,
+    1.03
+   ],
+   "model_expected_goals": [
+    1.53,
+    1.05
+   ],
+   "rho": -0.0413,
+   "probabilities": {
+    "home": 0.4869,
+    "draw": 0.2652,
+    "away": 0.248,
+    "over25": 0.4748,
+    "under25": 0.5252,
+    "btts": 0.5106,
+    "btts_over25": 0.3843,
+    "dc_1x": 0.752,
+    "dc_x2": 0.5131,
+    "dc_12": 0.7348
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1263
+    ],
+    [
+     "1-0",
+     0.1127
+    ],
+    [
+     "2-1",
+     0.0936
+    ]
+   ],
+   "market": {
+    "home": 0.4957,
+    "draw": 0.2499,
+    "away": 0.2544,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.92,
+    "draw": 3.63,
+    "away": 3.57,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    117,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "BRA|2026-11-05|Sao Paulo|Corinthians",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-05",
+   "kickoff": "2026-11-05T00:30:00+00:00",
+   "home": "Sao Paulo",
+   "away": "Corinthians",
+   "expected_goals": [
+    1.34,
+    1.03
+   ],
+   "model_expected_goals": [
+    1.41,
+    0.96
+   ],
+   "rho": -0.0413,
+   "probabilities": {
+    "home": 0.4321,
+    "draw": 0.2857,
+    "away": 0.2822,
+    "over25": 0.4205,
+    "under25": 0.5795,
+    "btts": 0.4784,
+    "btts_over25": 0.3439,
+    "dc_1x": 0.7178,
+    "dc_x2": 0.5679,
+    "dc_12": 0.7143
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1345
+    ],
+    [
+     "1-0",
+     0.1204
+    ],
+    [
+     "0-0",
+     0.0995
+    ]
+   ],
+   "market": {
+    "home": 0.4222,
+    "draw": 0.2933,
+    "away": 0.2845,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.23,
+    "draw": 3.13,
+    "away": 3.22,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    116,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "ARG|2026-11-05|Aldosivi|River Plate",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-11-05",
+   "kickoff": "2026-11-05T18:00:00+00:00",
+   "home": "Aldosivi",
+   "away": "River Plate",
+   "expected_goals": [
+    0.57,
+    1.65
+   ],
+   "model_expected_goals": [
+    0.9,
+    1.35
+   ],
+   "rho": -0.0821,
+   "probabilities": {
+    "home": 0.1165,
+    "draw": 0.2537,
+    "away": 0.6298,
+    "over25": 0.3846,
+    "under25": 0.6154,
+    "btts": 0.361,
+    "btts_over25": 0.2505,
+    "dc_1x": 0.3702,
+    "dc_x2": 0.8835,
+    "dc_12": 0.7463
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.17
+    ],
+    [
+     "0-2",
+     0.1476
+    ],
+    [
+     "0-0",
+     0.1162
+    ]
+   ],
+   "market": {
+    "home": 0.1168,
+    "draw": 0.2112,
+    "away": 0.6719,
+    "over25": null
+   },
+   "odds": {
+    "home": 6.9,
+    "draw": 4.05,
+    "away": 1.43,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    63,
+    116
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "ARG|2026-11-05|Gimnasia L.P.|Belgrano",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-11-05",
+   "kickoff": "2026-11-05T22:15:00+00:00",
+   "home": "Gimnasia L.P.",
+   "away": "Belgrano",
+   "expected_goals": [
+    1.1,
+    1.0
+   ],
+   "model_expected_goals": [
+    1.14,
+    0.96
+   ],
+   "rho": -0.0821,
+   "probabilities": {
+    "home": 0.3669,
+    "draw": 0.321,
+    "away": 0.3121,
+    "over25": 0.3506,
+    "under25": 0.6494,
+    "btts": 0.4328,
+    "btts_over25": 0.2871,
+    "dc_1x": 0.6879,
+    "dc_x2": 0.6331,
+    "dc_12": 0.679
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1457
+    ],
+    [
+     "0-0",
+     0.1334
+    ],
+    [
+     "1-0",
+     0.124
+    ]
+   ],
+   "market": {
+    "home": 0.3851,
+    "draw": 0.2784,
+    "away": 0.3364,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.41,
+    "draw": 3.25,
+    "away": 2.73,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    112,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "BRA|2026-11-05|Palmeiras|Remo",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-05",
+   "kickoff": "2026-11-05T22:30:00+00:00",
+   "home": "Palmeiras",
+   "away": "Remo",
+   "expected_goals": [
+    2.3,
+    0.48
+   ],
+   "model_expected_goals": [
+    2.12,
+    0.66
+   ],
+   "rho": -0.0413,
+   "probabilities": {
+    "home": 0.7838,
+    "draw": 0.1577,
+    "away": 0.0585,
+    "over25": 0.5248,
+    "under25": 0.4752,
+    "btts": 0.345,
+    "btts_over25": 0.2737,
+    "dc_1x": 0.9415,
+    "dc_x2": 0.2162,
+    "dc_12": 0.8423
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1644
+    ],
+    [
+     "1-0",
+     0.1403
+    ],
+    [
+     "3-0",
+     0.1259
+    ]
+   ],
+   "market": {
+    "home": 0.8062,
+    "draw": 0.1294,
+    "away": 0.0644,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.21,
+    "draw": 6.11,
+    "away": 11.33,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    115,
+    33
+   ],
+   "flags": [
+    "Remo new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  }
+ ],
  "picks": {
   "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-11-05|Palmeiras|Remo",
+    "league": "BRA",
+    "kickoff": "2026-11-05T22:30:00+00:00",
+    "home": "Palmeiras",
+    "away": "Remo",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5248,
+    "fair_odds": 1.91,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-11-05|Botafogo RJ|Atletico-MG",
+    "league": "BRA",
+    "kickoff": "2026-11-05T00:30:00+00:00",
+    "home": "Botafogo RJ",
+    "away": "Atletico-MG",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5106,
+    "fair_odds": 1.96,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-05|Palmeiras|Remo",
+    "league": "BRA",
+    "kickoff": "2026-11-05T22:30:00+00:00",
+    "home": "Palmeiras",
+    "away": "Remo",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9415,
+    "fair_odds": 1.06,
+    "market_odds": 1.01,
+    "edge": -0.0491,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-11-05|Aldosivi|River Plate",
+    "league": "ARG",
+    "kickoff": "2026-11-05T18:00:00+00:00",
+    "home": "Aldosivi",
+    "away": "River Plate",
+    "selection": "X2",
+    "tier": "banker",
+    "probability": 0.8835,
+    "fair_odds": 1.13,
+    "market_odds": 1.06,
+    "edge": -0.0663,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-05|Botafogo RJ|Atletico-MG",
+    "league": "BRA",
+    "kickoff": "2026-11-05T00:30:00+00:00",
+    "home": "Botafogo RJ",
+    "away": "Atletico-MG",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.752,
+    "fair_odds": 1.33,
+    "market_odds": 1.26,
+    "edge": -0.0556,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-05|Sao Paulo|Corinthians",
+    "league": "BRA",
+    "kickoff": "2026-11-05T00:30:00+00:00",
+    "home": "Sao Paulo",
+    "away": "Corinthians",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7178,
+    "fair_odds": 1.39,
+    "market_odds": 1.3,
+    "edge": -0.0653,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }

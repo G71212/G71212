@@ -1,13 +1,861 @@
 {
  "date": "2026-11-04",
  "created_at": "2026-11-02T01:01:44+00:00",
- "updated_at": "2026-11-03T03:03:47+00:00",
- "fixtures": [],
+ "updated_at": "2026-11-03T12:50:29+00:00",
+ "fixtures": [
+  {
+   "id": "BRA|2026-11-04|Internacional|Coritiba",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T00:30:00+00:00",
+   "home": "Internacional",
+   "away": "Coritiba",
+   "expected_goals": [
+    1.75,
+    0.85
+   ],
+   "model_expected_goals": [
+    1.6,
+    1.01
+   ],
+   "rho": -0.0398,
+   "probabilities": {
+    "home": 0.5838,
+    "draw": 0.2416,
+    "away": 0.1746,
+    "over25": 0.4826,
+    "under25": 0.5174,
+    "btts": 0.4778,
+    "btts_over25": 0.3632,
+    "dc_1x": 0.8254,
+    "dc_x2": 0.4162,
+    "dc_12": 0.7584
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1254
+    ],
+    [
+     "1-1",
+     0.1147
+    ],
+    [
+     "2-0",
+     0.1138
+    ]
+   ],
+   "market": {
+    "home": 0.6013,
+    "draw": 0.2286,
+    "away": 0.1701,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.6,
+    "draw": 3.91,
+    "away": 5.14,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    116,
+    40
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "B1|2026-11-04|Kortrijk|KV Mechelen",
+   "league": "B1",
+   "league_name": "Belgium · Pro League",
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T19:30:00+00:00",
+   "home": "Kortrijk",
+   "away": "KV Mechelen",
+   "expected_goals": [
+    1.41,
+    1.37
+   ],
+   "model_expected_goals": [
+    1.54,
+    1.2
+   ],
+   "rho": -0.0442,
+   "probabilities": {
+    "home": 0.3762,
+    "draw": 0.2644,
+    "away": 0.3593,
+    "over25": 0.5257,
+    "under25": 0.4743,
+    "btts": 0.569,
+    "btts_over25": 0.4439,
+    "dc_1x": 0.6407,
+    "dc_x2": 0.6238,
+    "dc_12": 0.7356
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1252
+    ],
+    [
+     "2-1",
+     0.0844
+    ],
+    [
+     "1-2",
+     0.0822
+    ]
+   ],
+   "market": {
+    "home": 0.3619,
+    "draw": 0.2685,
+    "away": 0.3696,
+    "over25": 0.5284
+   },
+   "odds": {
+    "home": 2.57,
+    "draw": 3.39,
+    "away": 2.52,
+    "over25": 1.77,
+    "under25": 1.96
+   },
+   "team_matches": [
+    68,
+    0
+   ],
+   "flags": [
+    "no data for KV Mechelen"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "E1|2026-11-04|Cardiff|West Ham",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T19:45:00+00:00",
+   "home": "Cardiff",
+   "away": "West Ham",
+   "expected_goals": [
+    1.52,
+    2.01
+   ],
+   "model_expected_goals": [
+    1.33,
+    1.83
+   ],
+   "rho": -0.0248,
+   "probabilities": {
+    "home": 0.2904,
+    "draw": 0.2198,
+    "away": 0.4898,
+    "over25": 0.6848,
+    "under25": 0.3152,
+    "btts": 0.6788,
+    "btts_over25": 0.5871,
+    "dc_1x": 0.5102,
+    "dc_x2": 0.7096,
+    "dc_12": 0.7802
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0917
+    ],
+    [
+     "1-2",
+     0.09
+    ],
+    [
+     "2-2",
+     0.0684
+    ]
+   ],
+   "market": {
+    "home": 0.2855,
+    "draw": 0.2318,
+    "away": 0.4827,
+    "over25": 0.6974
+   },
+   "odds": {
+    "home": 3.24,
+    "draw": 3.94,
+    "away": 1.98,
+    "over25": 1.38,
+    "under25": 2.91
+   },
+   "team_matches": [
+    90,
+    13
+   ],
+   "flags": [
+    "West Ham relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "E1|2026-11-04|Wrexham|Middlesbrough",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T19:45:00+00:00",
+   "home": "Wrexham",
+   "away": "Middlesbrough",
+   "expected_goals": [
+    1.19,
+    1.82
+   ],
+   "model_expected_goals": [
+    1.38,
+    1.45
+   ],
+   "rho": -0.0248,
+   "probabilities": {
+    "home": 0.2453,
+    "draw": 0.2348,
+    "away": 0.5199,
+    "over25": 0.5795,
+    "under25": 0.4205,
+    "btts": 0.5857,
+    "btts_over25": 0.4764,
+    "dc_1x": 0.4801,
+    "dc_x2": 0.7547,
+    "dc_12": 0.7652
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1092
+    ],
+    [
+     "1-2",
+     0.0972
+    ],
+    [
+     "0-1",
+     0.0871
+    ]
+   ],
+   "market": {
+    "home": 0.2242,
+    "draw": 0.2347,
+    "away": 0.5411,
+    "over25": 0.5894
+   },
+   "odds": {
+    "home": 4.07,
+    "draw": 3.9,
+    "away": 1.78,
+    "over25": 1.61,
+    "under25": 2.23
+   },
+   "team_matches": [
+    59,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "E2|2026-11-04|Oxford Utd|Reading",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T19:45:00+00:00",
+   "home": "Oxford Utd",
+   "away": "Reading",
+   "expected_goals": [
+    1.41,
+    1.51
+   ],
+   "model_expected_goals": [
+    1.18,
+    1.53
+   ],
+   "rho": -0.0118,
+   "probabilities": {
+    "home": 0.3522,
+    "draw": 0.2489,
+    "away": 0.3989,
+    "over25": 0.5596,
+    "under25": 0.4404,
+    "btts": 0.5909,
+    "btts_over25": 0.4749,
+    "dc_1x": 0.6011,
+    "dc_x2": 0.6478,
+    "dc_12": 0.7511
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.116
+    ],
+    [
+     "1-2",
+     0.0868
+    ],
+    [
+     "2-1",
+     0.0808
+    ]
+   ],
+   "market": {
+    "home": 0.3586,
+    "draw": 0.2575,
+    "away": 0.3839,
+    "over25": 0.5689
+   },
+   "odds": {
+    "home": 2.6,
+    "draw": 3.54,
+    "away": 2.44,
+    "over25": 1.66,
+    "under25": 2.13
+   },
+   "team_matches": [
+    0,
+    137
+   ],
+   "flags": [
+    "no data for Oxford Utd"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "E1|2026-11-04|Bristol City|Wolves",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T20:00:00+00:00",
+   "home": "Bristol City",
+   "away": "Wolves",
+   "expected_goals": [
+    1.16,
+    1.53
+   ],
+   "model_expected_goals": [
+    1.22,
+    1.39
+   ],
+   "rho": -0.0248,
+   "probabilities": {
+    "home": 0.2855,
+    "draw": 0.2594,
+    "away": 0.4551,
+    "over25": 0.5047,
+    "under25": 0.4953,
+    "btts": 0.5415,
+    "btts_over25": 0.4181,
+    "dc_1x": 0.5449,
+    "dc_x2": 0.7145,
+    "dc_12": 0.7406
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1234
+    ],
+    [
+     "0-1",
+     0.1007
+    ],
+    [
+     "1-2",
+     0.0922
+    ]
+   ],
+   "market": {
+    "home": 0.2751,
+    "draw": 0.2642,
+    "away": 0.4608,
+    "over25": 0.5089
+   },
+   "odds": {
+    "home": 3.36,
+    "draw": 3.49,
+    "away": 2.07,
+    "over25": 1.84,
+    "under25": 1.9
+   },
+   "team_matches": [
+    136,
+    13
+   ],
+   "flags": [
+    "Wolves relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "BRA|2026-11-04|Athletico-PR|Vasco",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T22:30:00+00:00",
+   "home": "Athletico-PR",
+   "away": "Vasco",
+   "expected_goals": [
+    1.64,
+    1.2
+   ],
+   "model_expected_goals": [
+    1.79,
+    1.06
+   ],
+   "rho": -0.0398,
+   "probabilities": {
+    "home": 0.4728,
+    "draw": 0.2528,
+    "away": 0.2744,
+    "over25": 0.541,
+    "under25": 0.459,
+    "btts": 0.5684,
+    "btts_over25": 0.449,
+    "dc_1x": 0.7256,
+    "dc_x2": 0.5272,
+    "dc_12": 0.7472
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1194
+    ],
+    [
+     "2-1",
+     0.0944
+    ],
+    [
+     "1-0",
+     0.0911
+    ]
+   ],
+   "market": {
+    "home": 0.4572,
+    "draw": 0.2614,
+    "away": 0.2814,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.07,
+    "draw": 3.48,
+    "away": 3.25,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    78,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  },
+  {
+   "id": "BRA|2026-11-04|Flamengo RJ|Gremio",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-04",
+   "kickoff": "2026-11-04T22:30:00+00:00",
+   "home": "Flamengo RJ",
+   "away": "Gremio",
+   "expected_goals": [
+    2.45,
+    0.47
+   ],
+   "model_expected_goals": [
+    2.14,
+    0.79
+   ],
+   "rho": -0.0398,
+   "probabilities": {
+    "home": 0.8086,
+    "draw": 0.1411,
+    "away": 0.0503,
+    "over25": 0.5582,
+    "under25": 0.4418,
+    "btts": 0.344,
+    "btts_over25": 0.2796,
+    "dc_1x": 0.9497,
+    "dc_x2": 0.1914,
+    "dc_12": 0.8589
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1622
+    ],
+    [
+     "3-0",
+     0.1325
+    ],
+    [
+     "1-0",
+     0.1299
+    ]
+   ],
+   "market": {
+    "home": 0.8371,
+    "draw": 0.1089,
+    "away": 0.054,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.17,
+    "draw": 7.08,
+    "away": 13.16,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    117,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-03T12:50:29+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-11-04|Cardiff|West Ham",
+    "league": "E1",
+    "kickoff": "2026-11-04T19:45:00+00:00",
+    "home": "Cardiff",
+    "away": "West Ham",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5871,
+    "fair_odds": 1.7,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-11-04|Wrexham|Middlesbrough",
+    "league": "E1",
+    "kickoff": "2026-11-04T19:45:00+00:00",
+    "home": "Wrexham",
+    "away": "Middlesbrough",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4764,
+    "fair_odds": 2.1,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "BRA|2026-11-04|Athletico-PR|Vasco",
+    "league": "BRA",
+    "kickoff": "2026-11-04T22:30:00+00:00",
+    "home": "Athletico-PR",
+    "away": "Vasco",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.449,
+    "fair_odds": 2.23,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-11-04|Bristol City|Wolves",
+    "league": "E1",
+    "kickoff": "2026-11-04T20:00:00+00:00",
+    "home": "Bristol City",
+    "away": "Wolves",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4181,
+    "fair_odds": 2.39,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "E1|2026-11-04|Cardiff|West Ham",
+    "league": "E1",
+    "kickoff": "2026-11-04T19:45:00+00:00",
+    "home": "Cardiff",
+    "away": "West Ham",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6848,
+    "fair_odds": 1.46,
+    "market_odds": 1.38,
+    "edge": -0.055,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-11-04|Wrexham|Middlesbrough",
+    "league": "E1",
+    "kickoff": "2026-11-04T19:45:00+00:00",
+    "home": "Wrexham",
+    "away": "Middlesbrough",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5795,
+    "fair_odds": 1.73,
+    "market_odds": 1.61,
+    "edge": -0.067,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-11-04|Flamengo RJ|Gremio",
+    "league": "BRA",
+    "kickoff": "2026-11-04T22:30:00+00:00",
+    "home": "Flamengo RJ",
+    "away": "Gremio",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5582,
+    "fair_odds": 1.79,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-11-04|Athletico-PR|Vasco",
+    "league": "BRA",
+    "kickoff": "2026-11-04T22:30:00+00:00",
+    "home": "Athletico-PR",
+    "away": "Vasco",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.541,
+    "fair_odds": 1.85,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-11-04|Bristol City|Wolves",
+    "league": "E1",
+    "kickoff": "2026-11-04T20:00:00+00:00",
+    "home": "Bristol City",
+    "away": "Wolves",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5047,
+    "fair_odds": 1.98,
+    "market_odds": 1.84,
+    "edge": -0.0714,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "E1|2026-11-04|Cardiff|West Ham",
+    "league": "E1",
+    "kickoff": "2026-11-04T19:45:00+00:00",
+    "home": "Cardiff",
+    "away": "West Ham",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6788,
+    "fair_odds": 1.47,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-11-04|Wrexham|Middlesbrough",
+    "league": "E1",
+    "kickoff": "2026-11-04T19:45:00+00:00",
+    "home": "Wrexham",
+    "away": "Middlesbrough",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5857,
+    "fair_odds": 1.71,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-11-04|Athletico-PR|Vasco",
+    "league": "BRA",
+    "kickoff": "2026-11-04T22:30:00+00:00",
+    "home": "Athletico-PR",
+    "away": "Vasco",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5684,
+    "fair_odds": 1.76,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-11-04|Bristol City|Wolves",
+    "league": "E1",
+    "kickoff": "2026-11-04T20:00:00+00:00",
+    "home": "Bristol City",
+    "away": "Wolves",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5415,
+    "fair_odds": 1.85,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-04|Flamengo RJ|Gremio",
+    "league": "BRA",
+    "kickoff": "2026-11-04T22:30:00+00:00",
+    "home": "Flamengo RJ",
+    "away": "Gremio",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9497,
+    "fair_odds": 1.05,
+    "market_odds": 1.0,
+    "edge": -0.0464,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-04|Internacional|Coritiba",
+    "league": "BRA",
+    "kickoff": "2026-11-04T00:30:00+00:00",
+    "home": "Internacional",
+    "away": "Coritiba",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8254,
+    "fair_odds": 1.21,
+    "market_odds": 1.14,
+    "edge": -0.0629,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-11-04|Cardiff|West Ham",
+    "league": "E1",
+    "kickoff": "2026-11-04T19:45:00+00:00",
+    "home": "Cardiff",
+    "away": "West Ham",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7802,
+    "fair_odds": 1.28,
+    "market_odds": 1.23,
+    "edge": -0.0412,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-11-04|Wrexham|Middlesbrough",
+    "league": "E1",
+    "kickoff": "2026-11-04T19:45:00+00:00",
+    "home": "Wrexham",
+    "away": "Middlesbrough",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7652,
+    "fair_odds": 1.31,
+    "market_odds": 1.24,
+    "edge": -0.0524,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-04|Athletico-PR|Vasco",
+    "league": "BRA",
+    "kickoff": "2026-11-04T22:30:00+00:00",
+    "home": "Athletico-PR",
+    "away": "Vasco",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7472,
+    "fair_odds": 1.34,
+    "market_odds": 1.26,
+    "edge": -0.0551,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-11-04|Bristol City|Wolves",
+    "league": "E1",
+    "kickoff": "2026-11-04T20:00:00+00:00",
+    "home": "Bristol City",
+    "away": "Wolves",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7406,
+    "fair_odds": 1.35,
+    "market_odds": 1.28,
+    "edge": -0.0514,
+    "published_at": "2026-11-03T12:50:29+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }
