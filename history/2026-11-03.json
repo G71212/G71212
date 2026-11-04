@@ -1076,8 +1076,12 @@
    "flags": [
     "Chapecoense-SC new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-11-03T12:50:29+00:00"
+   "result": [
+    1,
+    2
+   ],
+   "predicted_at": "2026-11-03T12:50:29+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -1256,8 +1260,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -1469,8 +1477,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ],
+    "provisional": true
    }
   ],
   "btts": [
@@ -1648,8 +1660,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -1864,8 +1880,12 @@
     "market_odds": 1.28,
     "edge": -0.0527,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",

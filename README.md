@@ -1,109 +1,16 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-03 22:18 UTC · kick-off times in UTC_
+_Generated 2026-11-04 01:39 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
 
-## Monday 02 November 2026
-
-32 matches analysed across 18 leagues.
-
-**Results:** ✅ 38 won · ❌ 22 lost
-
-### 🔒 Bankers: the day's safest tips
-
-| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
-|---|---|---|---|---|---|---|
-| 20:15 | Benfica vs Alverca | Double Chance | 1X | 94% | 1.07 | ✅ 1-0 |
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:00 | USA · MLS | New England Revolution vs Inter Miami | BTTS & Over 2.5 | 61% ★★★ | 1.64 | - | ✅ 1-2 |
-| 17:30 | Italy · Serie A | Sassuolo vs Fiorentina | BTTS & Over 2.5 | 51% ★ | 1.95 | - | ✅ 2-4 |
-| 18:00 | Denmark · Superliga | Sonderjyske vs FC Copenhagen | BTTS & Over 2.5 | 49% ☆ | 2.02 | - | ❌ 0-2 |
-| 17:00 | Poland · Ekstraklasa | Radomiak Radom vs Slask Wroclaw | BTTS & Over 2.5 | 49% ☆ | 2.04 | - | ✅ 3-1 |
-| 01:10 | Mexico · Liga MX | Cruz Azul vs Club Leon | BTTS & Over 2.5 | 48% ☆ | 2.09 | - | ✅ 2-1 |
-| 20:00 | England · Premier League | Newcastle vs Everton | BTTS & Over 2.5 | 47% ☆ | 2.12 | - | ❌ 0-1 |
-| 01:30 | USA · MLS | Los Angeles FC vs Minnesota United | BTTS & Over 2.5 | 47% ☆ | 2.13 | - | ✅ 1-3 |
-| 02:45 | USA · MLS | Portland Timbers vs Houston Dynamo | BTTS & Over 2.5 | 45% ☆ | 2.22 | - | ✅ 3-1 |
-| 18:30 | Romania · Superliga | U. Cluj vs FCSB | BTTS & Over 2.5 | 45% ☆ | 2.24 | - | ❌ 1-0 |
-| 15:30 | Romania · Superliga | FC Voluntari vs Farul Constanta | BTTS & Over 2.5 | 45% ☆ | 2.24 | - | ✅ 1-2 |
-| 19:30 | Poland · Ekstraklasa | Rakow vs Pogon Szczecin | BTTS & Over 2.5 | 44% ☆ | 2.28 | - | ✅ 3-1 |
-| 19:45 | Italy · Serie A | Atalanta vs Parma | BTTS & Over 2.5 | 42% ☆ | 2.37 | - | ❌ 0-3 |
-| 18:00 | Sweden · Allsvenskan | Mjallby vs Kalmar | BTTS & Over 2.5 | 41% ☆ | 2.41 | - | ❌ 0-0 |
-| 19:45 | France · Ligue 2 | Reims vs Sochaux | BTTS & Over 2.5 | 41% ☆ | 2.42 | - | ❌ 2-0 |
-| 16:00 | Finland · Veikkausliiga | VPS vs HJK | BTTS & Over 2.5 | 40% ☆ | 2.48 | - | ❌ 0-4 |
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:00 | USA · MLS | New England Revolution vs Inter Miami | Over 2.5 | 70% ★★ | 1.43 | - | ✅ 1-2 |
-| 20:15 | Portugal · Primeira Liga | Benfica vs Alverca | Over 2.5 | 69% ★★ | 1.46 | 1.37 | ❌ 1-0 |
-| 18:00 | Denmark · Superliga | Sonderjyske vs FC Copenhagen | Over 2.5 | 65% ★ | 1.54 | - | ❌ 0-2 |
-| 17:30 | Italy · Serie A | Sassuolo vs Fiorentina | Over 2.5 | 60% ☆ | 1.66 | 1.54 | ✅ 2-4 |
-| 01:10 | Mexico · Liga MX | Cruz Azul vs Club Leon | Over 2.5 | 60% ☆ | 1.66 | - | ✅ 2-1 |
-| 01:30 | USA · MLS | Los Angeles FC vs Minnesota United | Over 2.5 | 59% ☆ | 1.71 | - | ✅ 1-3 |
-| 17:00 | Poland · Ekstraklasa | Radomiak Radom vs Slask Wroclaw | Over 2.5 | 58% ☆ | 1.72 | - | ✅ 3-1 |
-| 19:45 | Italy · Serie A | Atalanta vs Parma | Over 2.5 | 57% ☆ | 1.76 | 1.62 | ✅ 0-3 |
-| 16:00 | Finland · Veikkausliiga | VPS vs HJK | Over 2.5 | 56% ☆ | 1.79 | - | ✅ 0-4 |
-| 20:00 | England · Premier League | Newcastle vs Everton | Over 2.5 | 56% ☆ | 1.80 | 1.67 | ❌ 0-1 |
-| 02:45 | USA · MLS | Portland Timbers vs Houston Dynamo | Over 2.5 | 55% ☆ | 1.82 | - | ✅ 3-1 |
-| 15:30 | Romania · Superliga | FC Voluntari vs Farul Constanta | Over 2.5 | 53% ☆ | 1.89 | - | ✅ 1-2 |
-| 18:30 | Romania · Superliga | U. Cluj vs FCSB | Over 2.5 | 53% ☆ | 1.89 | - | ❌ 1-0 |
-| 19:45 | France · Ligue 2 | Reims vs Sochaux | Over 2.5 | 53% ☆ | 1.90 | 1.76 | ❌ 2-0 |
-| 19:30 | Poland · Ekstraklasa | Rakow vs Pogon Szczecin | Over 2.5 | 52% ☆ | 1.91 | - | ✅ 3-1 |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:00 | USA · MLS | New England Revolution vs Inter Miami | BTTS Yes | 70% ★★★ | 1.42 | - | ✅ 1-2 |
-| 17:30 | Italy · Serie A | Sassuolo vs Fiorentina | BTTS Yes | 62% ★ | 1.61 | - | ✅ 2-4 |
-| 17:00 | Poland · Ekstraklasa | Radomiak Radom vs Slask Wroclaw | BTTS Yes | 61% ★ | 1.63 | - | ✅ 3-1 |
-| 20:00 | England · Premier League | Newcastle vs Everton | BTTS Yes | 59% ☆ | 1.68 | - | ❌ 0-1 |
-| 18:00 | Denmark · Superliga | Sonderjyske vs FC Copenhagen | BTTS Yes | 59% ☆ | 1.70 | - | ❌ 0-2 |
-| 01:10 | Mexico · Liga MX | Cruz Azul vs Club Leon | BTTS Yes | 58% ☆ | 1.72 | - | ✅ 2-1 |
-| 01:30 | USA · MLS | Los Angeles FC vs Minnesota United | BTTS Yes | 58% ☆ | 1.73 | - | ✅ 1-3 |
-| 19:30 | Poland · Ekstraklasa | Rakow vs Pogon Szczecin | BTTS Yes | 57% ☆ | 1.75 | - | ✅ 3-1 |
-| 02:45 | USA · MLS | Portland Timbers vs Houston Dynamo | BTTS Yes | 57% ☆ | 1.76 | - | ✅ 3-1 |
-| 18:30 | Romania · Superliga | U. Cluj vs FCSB | BTTS Yes | 57% ☆ | 1.76 | - | ❌ 1-0 |
-| 15:30 | Romania · Superliga | FC Voluntari vs Farul Constanta | BTTS Yes | 57% ☆ | 1.77 | - | ✅ 1-2 |
-| 18:00 | Sweden · Allsvenskan | Mjallby vs Kalmar | BTTS Yes | 54% ☆ | 1.86 | - | ❌ 0-0 |
-| 19:45 | France · Ligue 1 | Lorient vs Brest | BTTS Yes | 53% ☆ | 1.89 | - | ❌ 0-2 |
-| 19:45 | France · Ligue 2 | Reims vs Sochaux | BTTS Yes | 52% ☆ | 1.91 | - | ❌ 2-0 |
-| 17:00 | Turkey · Süper Lig | Genclerbirligi vs Alanyaspor | BTTS Yes | 52% ☆ | 1.92 | - | ❌ 5-0 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 20:15 | Portugal · Primeira Liga | Benfica vs Alverca | 1X | 94% 🔒 | 1.07 | 1.00 | ✅ 1-0 |
-| 16:00 | Finland · Veikkausliiga | Inter Turku vs Gnistan | 1X | 88% ★★ | 1.14 | 1.05 | ✅ 4-3 |
-| 20:00 | Spain · Segunda División | Mallorca vs Cadiz | 1X | 86% ★★ | 1.16 | 1.07 | ✅ 2-1 |
-| 16:00 | Finland · Veikkausliiga | VPS vs HJK | X2 | 86% ★★ | 1.16 | 1.06 | ✅ 0-4 |
-| 18:00 | Denmark · Superliga | Sonderjyske vs FC Copenhagen | X2 | 86% ★★ | 1.17 | 1.08 | ✅ 0-2 |
-| 19:45 | Italy · Serie A | Atalanta vs Parma | 1X | 85% ★ | 1.18 | 1.11 | ❌ 0-3 |
-| 22:00 | Argentina · Liga Profesional | Platense vs Central Cordoba | 1X | 83% ★ | 1.20 | 1.13 | ✅ 2-0 |
-| 01:10 | Mexico · Liga MX | Cruz Azul vs Club Leon | 1X | 81% ★ | 1.24 | 1.16 | ✅ 2-1 |
-| 19:45 | France · Ligue 2 | Reims vs Sochaux | 1X | 80% ☆ | 1.26 | 1.16 | ✅ 2-0 |
-| 01:30 | USA · MLS | Los Angeles FC vs Minnesota United | 1X | 79% ☆ | 1.26 | 1.18 | ❌ 1-3 |
-| 15:15 | Spain · Segunda División | Oviedo vs Las Palmas | 1X | 79% ☆ | 1.27 | 1.16 | ❌ 2-3 |
-| 16:00 | Greece · Super League | Atromitos vs Volos NFC | 1X | 78% ☆ | 1.27 | 1.19 | ✅ 3-0 |
-| 17:30 | Spain · Segunda División | Valladolid vs Leganes | 1X | 78% ☆ | 1.29 | 1.17 | ✅ 4-3 |
-| 00:00 | USA · MLS | New England Revolution vs Inter Miami | 12 | 77% ☆ | 1.29 | 1.19 | ✅ 1-2 |
-| 18:00 | Sweden · Allsvenskan | GAIS vs AIK | 1X | 77% ☆ | 1.30 | 1.20 | ✅ 2-1 |
-
-
 ## Tuesday 03 November 2026
 
 16 matches analysed across 6 leagues.
 
-**Results:** ✅ 12 won · ❌ 16 lost · 16 pending
+**Results:** ✅ 16 won · ❌ 16 lost · 12 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -123,7 +30,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 19:45 | England · League One | Wigan vs Mansfield | BTTS & Over 2.5 | 45% ☆ | 2.23 | - |  |
 | 19:45 | England · Championship | Watford vs Lincoln | BTTS & Over 2.5 | 43% ☆ | 2.31 | - | ❌ 1-0 |
 | 20:00 | England · Championship | Birmingham vs Millwall | BTTS & Over 2.5 | 43% ☆ | 2.34 | - | ❌ 3-0 |
-| 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | BTTS & Over 2.5 | 42% ☆ | 2.36 | - |  |
+| 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | BTTS & Over 2.5 | 42% ☆ | 2.36 | - | ✅ 1-2 |
 | 18:00 | Sweden · Allsvenskan | Sirius vs Halmstad | BTTS & Over 2.5 | 40% ☆ | 2.50 | - |  |
 
 ### ⚽ Over 2.5 Goals
@@ -139,7 +46,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 19:45 | England · League One | Wigan vs Mansfield | Over 2.5 | 53% ☆ | 1.87 | 1.70 |  |
 | 20:00 | England · Championship | Birmingham vs Millwall | Over 2.5 | 52% ☆ | 1.92 | 1.77 | ✅ 3-0 |
 | 19:45 | England · Championship | Watford vs Lincoln | Over 2.5 | 52% ☆ | 1.94 | 1.81 | ❌ 1-0 |
-| 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | Over 2.5 | 51% ☆ | 1.95 | - |  |
+| 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | Over 2.5 | 51% ☆ | 1.95 | - | ✅ 1-2 |
 
 ### 🎯 Both Teams To Score
 
@@ -153,7 +60,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 19:45 | England · League One | Wigan vs Mansfield | BTTS Yes | 57% ☆ | 1.76 | - |  |
 | 19:45 | England · Championship | Watford vs Lincoln | BTTS Yes | 56% ☆ | 1.79 | - | ❌ 1-0 |
 | 20:00 | England · Championship | Birmingham vs Millwall | BTTS Yes | 55% ☆ | 1.82 | - | ❌ 3-0 |
-| 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | BTTS Yes | 55% ☆ | 1.83 | - |  |
+| 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | BTTS Yes | 55% ☆ | 1.83 | - | ✅ 1-2 |
 | 19:45 | England · Championship | Blackburn vs Stoke | BTTS Yes | 51% ☆ | 1.95 | - | ✅ 1-2 |
 
 ### 🛡️ Double Chance
@@ -169,7 +76,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 20:00 | England · Championship | Birmingham vs Millwall | 12 | 75% ☆ | 1.34 | 1.27 | ✅ 3-0 |
 | 20:00 | England · Championship | West Brom vs Southampton | 12 | 75% ☆ | 1.34 | 1.28 | ❌ 1-1 |
 | 19:45 | England · Championship | Charlton vs Bolton | 12 | 75% ☆ | 1.34 | 1.28 | ✅ 0-1 |
-| 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | 12 | 74% ☆ | 1.35 | 1.28 |  |
+| 22:30 | Brazil · Serie A | Chapecoense-SC vs Mirassol | 12 | 74% ☆ | 1.35 | 1.28 | ✅ 1-2 |
 | 19:45 | England · Championship | Watford vs Lincoln | 12 | 74% ☆ | 1.35 | 1.29 | ✅ 1-0 |
 | 19:45 | England · Championship | Blackburn vs Stoke | 12 | 72% ☆ | 1.38 | 1.31 | ✅ 1-2 |
 | 19:45 | England · League Two | Northampton vs Oldham | 12 | 72% ☆ | 1.39 | 1.31 |  |
@@ -262,15 +169,41 @@ _No match was likely enough to pick._
 | 00:30 | Brazil · Serie A | Botafogo RJ vs Atletico-MG | 1X | 75% ☆ | 1.33 | 1.26 |  |
 | 00:30 | Brazil · Serie A | Sao Paulo vs Corinthians | 1X | 72% ☆ | 1.39 | 1.30 |  |
 
+
+## Friday 06 November 2026
+
+2 matches analysed across 1 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+_No match was likely enough to pick._
+
+### ⚽ Over 2.5 Goals
+
+_No match was likely enough to pick._
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:30 | Brazil · Serie A | Cruzeiro vs Bahia | BTTS Yes | 51% ☆ | 1.97 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:30 | Brazil · Serie A | Cruzeiro vs Bahia | 1X | 80% ☆ | 1.25 | 1.18 |  |
+| 23:00 | Brazil · Serie A | Vitoria vs Fluminense | 12 | 71% ☆ | 1.41 | 1.29 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 31/35 (89%), ROI -7% | 102/115 (89%), ROI -6% | 107/121 (88%), ROI -7% |
-| BTTS & Over 2.5 | 55/105 (52%) | 186/333 (56%) | 216/394 (55%) |
-| Over 2.5 Goals | 65/104 (62%), ROI -18% | 225/332 (68%), ROI -5% | 262/394 (66%), ROI -7% |
-| Both Teams To Score | 65/109 (60%) | 212/343 (62%) | 253/408 (62%) |
-| Double Chance | 91/111 (82%), ROI -8% | 329/380 (87%), ROI -3% | 385/451 (85%), ROI -4% |
+| 🔒 Bankers | 27/31 (87%), ROI -8% | 102/115 (89%), ROI -6% | 107/121 (88%), ROI -7% |
+| BTTS & Over 2.5 | 49/91 (54%) | 186/333 (56%) | 217/395 (55%) |
+| Over 2.5 Goals | 56/90 (62%), ROI -21% | 225/332 (68%), ROI -6% | 263/395 (67%), ROI -7% |
+| Both Teams To Score | 56/95 (59%) | 212/343 (62%) | 254/409 (62%) |
+| Double Chance | 80/97 (82%), ROI -8% | 325/376 (86%), ROI -3% | 386/452 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
