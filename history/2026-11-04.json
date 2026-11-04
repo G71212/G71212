@@ -1,7 +1,7 @@
 {
  "date": "2026-11-04",
  "created_at": "2026-11-02T01:01:44+00:00",
- "updated_at": "2026-11-04T13:01:45+00:00",
+ "updated_at": "2026-11-04T22:37:51+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-11-04|Internacional|Coritiba",
@@ -200,7 +200,10 @@
    "flags": [
     "West Ham relegated"
    ],
-   "result": null,
+   "result": [
+    3,
+    3
+   ],
    "predicted_at": "2026-11-03T12:50:29+00:00"
   },
   {
@@ -264,7 +267,10 @@
     136
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    2,
+    0
+   ],
    "predicted_at": "2026-11-03T12:50:29+00:00"
   },
   {
@@ -330,7 +336,10 @@
    "flags": [
     "no data for Oxford Utd"
    ],
-   "result": null,
+   "result": [
+    2,
+    0
+   ],
    "predicted_at": "2026-11-03T12:50:29+00:00"
   },
   {
@@ -396,7 +405,10 @@
    "flags": [
     "Wolves relegated"
    ],
-   "result": null,
+   "result": [
+    1,
+    2
+   ],
    "predicted_at": "2026-11-03T12:50:29+00:00"
   },
   {
@@ -544,8 +556,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     3
+    ]
    },
    {
     "market": "btts_over25",
@@ -561,8 +576,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ]
    },
    {
     "market": "btts_over25",
@@ -595,8 +613,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ]
    }
   ],
   "over25": [
@@ -614,8 +635,11 @@
     "market_odds": 1.38,
     "edge": -0.055,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     3
+    ]
    },
    {
     "market": "over25",
@@ -631,8 +655,11 @@
     "market_odds": 1.61,
     "edge": -0.067,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ]
    },
    {
     "market": "over25",
@@ -682,8 +709,11 @@
     "market_odds": 1.84,
     "edge": -0.0714,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ]
    }
   ],
   "btts": [
@@ -701,8 +731,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     3
+    ]
    },
    {
     "market": "btts",
@@ -718,8 +751,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ]
    },
    {
     "market": "btts",
@@ -752,8 +788,11 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ]
    }
   ],
   "double_chance": [
@@ -809,8 +848,11 @@
     "market_odds": 1.23,
     "edge": -0.0412,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     3,
+     3
+    ]
    },
    {
     "market": "double_chance",
@@ -826,8 +868,11 @@
     "market_odds": 1.24,
     "edge": -0.0524,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     0
+    ]
    },
    {
     "market": "double_chance",
@@ -860,8 +905,11 @@
     "market_odds": 1.28,
     "edge": -0.0514,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     2
+    ]
    }
   ]
  },
