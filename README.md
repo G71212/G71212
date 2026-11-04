@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-04 01:39 UTC · kick-off times in UTC_
+_Generated 2026-11-04 13:01 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -87,6 +87,8 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 8 matches analysed across 4 leagues.
 
+**Results:** ✅ 1 won · ❌ 0 lost · 18 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
@@ -126,7 +128,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 22:30 | Brazil · Serie A | Flamengo RJ vs Gremio | 1X | 95% 🔒 | 1.05 | 1.00 |  |
-| 00:30 | Brazil · Serie A | Internacional vs Coritiba | 1X | 83% ★ | 1.21 | 1.14 |  |
+| 00:30 | Brazil · Serie A | Internacional vs Coritiba | 1X | 83% ★ | 1.21 | 1.14 | ✅ 1-0 |
 | 19:45 | England · Championship | Cardiff vs West Ham | 12 | 78% ☆ | 1.28 | 1.23 |  |
 | 19:45 | England · Championship | Wrexham vs Middlesbrough | 12 | 77% ☆ | 1.31 | 1.24 |  |
 | 22:30 | Brazil · Serie A | Athletico-PR vs Vasco | 12 | 75% ☆ | 1.34 | 1.26 |  |
@@ -203,7 +205,7 @@ _No match was likely enough to pick._
 | BTTS & Over 2.5 | 49/91 (54%) | 186/333 (56%) | 217/395 (55%) |
 | Over 2.5 Goals | 56/90 (62%), ROI -21% | 225/332 (68%), ROI -6% | 263/395 (67%), ROI -7% |
 | Both Teams To Score | 56/95 (59%) | 212/343 (62%) | 254/409 (62%) |
-| Double Chance | 80/97 (82%), ROI -8% | 325/376 (86%), ROI -3% | 386/452 (85%), ROI -4% |
+| Double Chance | 81/98 (83%), ROI -8% | 326/377 (86%), ROI -3% | 387/453 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
