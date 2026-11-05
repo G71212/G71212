@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-05 01:47 UTC · kick-off times in UTC_
+_Generated 2026-11-05 13:15 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -62,6 +62,8 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 5 matches analysed across 2 leagues.
 
+**Results:** ✅ 2 won · ❌ 1 lost · 3 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
@@ -83,7 +85,7 @@ _No match was likely enough to pick._
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 00:30 | Brazil · Serie A | Botafogo RJ vs Atletico-MG | BTTS Yes | 51% ☆ | 1.96 | - |  |
+| 00:30 | Brazil · Serie A | Botafogo RJ vs Atletico-MG | BTTS Yes | 51% ☆ | 1.96 | - | ❌ 1-0 |
 
 ### 🛡️ Double Chance
 
@@ -91,8 +93,8 @@ _No match was likely enough to pick._
 |---|---|---|---|---|---|---|---|
 | 22:30 | Brazil · Serie A | Palmeiras vs Remo | 1X | 94% 🔒 | 1.06 | 1.01 |  |
 | 18:00 | Argentina · Liga Profesional | Aldosivi vs River Plate | X2 | 88% 🔒 | 1.13 | 1.06 |  |
-| 00:30 | Brazil · Serie A | Botafogo RJ vs Atletico-MG | 1X | 75% ☆ | 1.33 | 1.26 |  |
-| 00:30 | Brazil · Serie A | Sao Paulo vs Corinthians | 1X | 72% ☆ | 1.39 | 1.30 |  |
+| 00:30 | Brazil · Serie A | Botafogo RJ vs Atletico-MG | 1X | 75% ☆ | 1.33 | 1.26 | ✅ 1-0 |
+| 00:30 | Brazil · Serie A | Sao Paulo vs Corinthians | 1X | 72% ☆ | 1.39 | 1.30 | ✅ 0-0 |
 
 
 ## Friday 06 November 2026
@@ -132,8 +134,8 @@ _No upcoming matches in the published fixtures for this day._
 | 🔒 Bankers | 28/32 (88%), ROI -8% | 103/116 (89%), ROI -6% | 108/122 (89%), ROI -7% |
 | BTTS & Over 2.5 | 41/82 (50%) | 189/339 (56%) | 220/401 (55%) |
 | Over 2.5 Goals | 50/82 (61%), ROI -25% | 229/339 (68%), ROI -6% | 267/402 (66%), ROI -7% |
-| Both Teams To Score | 48/86 (56%) | 216/349 (62%) | 258/415 (62%) |
-| Double Chance | 76/91 (84%), ROI -7% | 330/384 (86%), ROI -4% | 392/461 (85%), ROI -4% |
+| Both Teams To Score | 48/87 (55%) | 216/350 (62%) | 258/416 (62%) |
+| Double Chance | 78/93 (84%), ROI -6% | 332/386 (86%), ROI -3% | 394/463 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
