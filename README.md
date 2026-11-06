@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-06 12:59 UTC · kick-off times in UTC_
+_Generated 2026-11-06 22:07 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -49,7 +49,7 @@ _No match was likely enough to pick._
 
 33 matches analysed across 21 leagues.
 
-**Results:** ✅ 2 won · ❌ 0 lost · 61 pending
+**Results:** ✅ 19 won · ❌ 2 lost · 42 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -64,19 +64,19 @@ _No match was likely enough to pick._
 |---|---|---|---|---|---|---|---|
 | 17:30 | Germany · 2. Bundesliga | Braunschweig vs Cottbus | BTTS & Over 2.5 | 55% ★ | 1.82 | - |  |
 | 18:00 | Denmark · Superliga | Silkeborg vs Lyngby | BTTS & Over 2.5 | 52% ★ | 1.94 | - |  |
-| 19:00 | Netherlands · Eredivisie | Willem II vs Zwolle | BTTS & Over 2.5 | 50% ☆ | 2.01 | - |  |
+| 19:00 | Netherlands · Eredivisie | Willem II vs Zwolle | BTTS & Over 2.5 | 50% ☆ | 2.01 | - | ❌ 1-1 |
 | 17:30 | Germany · 2. Bundesliga | Dresden vs Greuther Furth | BTTS & Over 2.5 | 49% ☆ | 2.03 | - |  |
-| 19:45 | France · Ligue 1 | Toulouse vs Strasbourg | BTTS & Over 2.5 | 49% ☆ | 2.05 | - |  |
-| 19:30 | Germany · Bundesliga | Hamburg vs M'gladbach | BTTS & Over 2.5 | 49% ☆ | 2.05 | - |  |
+| 19:45 | France · Ligue 1 | Toulouse vs Strasbourg | BTTS & Over 2.5 | 49% ☆ | 2.05 | - | ✅ 3-1 |
+| 19:30 | Germany · Bundesliga | Hamburg vs M'gladbach | BTTS & Over 2.5 | 49% ☆ | 2.05 | - | ✅ 3-1 |
 | 19:00 | France · Ligue 2 | Dijon vs Red Star | BTTS & Over 2.5 | 48% ☆ | 2.07 | - |  |
 | 19:30 | Italy · Serie B | Ascoli vs Palermo | BTTS & Over 2.5 | 48% ☆ | 2.09 | - |  |
 | 19:00 | France · Ligue 2 | Dunkerque vs Guingamp | BTTS & Over 2.5 | 48% ☆ | 2.09 | - |  |
 | 19:45 | Belgium · Pro League | Standard vs Beveren | BTTS & Over 2.5 | 47% ☆ | 2.11 | - |  |
-| 20:00 | England · Championship | Derby vs Bolton | BTTS & Over 2.5 | 47% ☆ | 2.11 | - |  |
+| 20:00 | England · Championship | Derby vs Bolton | BTTS & Over 2.5 | 47% ☆ | 2.11 | - | ✅ 3-1 |
 | 19:00 | France · Ligue 2 | Montpellier vs Metz | BTTS & Over 2.5 | 46% ☆ | 2.20 | - |  |
 | 17:00 | Turkey · Süper Lig | Gaziantep vs Kasimpasa | BTTS & Over 2.5 | 44% ☆ | 2.29 | - |  |
-| 19:45 | Italy · Serie A | Venezia vs Udinese | BTTS & Over 2.5 | 44% ☆ | 2.29 | - |  |
-| 20:00 | England · Premier League | Everton vs Coventry | BTTS & Over 2.5 | 43% ☆ | 2.34 | - |  |
+| 19:45 | Italy · Serie A | Venezia vs Udinese | BTTS & Over 2.5 | 44% ☆ | 2.29 | - | ✅ 2-1 |
+| 20:00 | England · Premier League | Everton vs Coventry | BTTS & Over 2.5 | 43% ☆ | 2.34 | - | ✅ 3-1 |
 
 ### ⚽ Over 2.5 Goals
 
@@ -85,18 +85,18 @@ _No match was likely enough to pick._
 | 17:30 | Germany · 2. Bundesliga | Braunschweig vs Cottbus | Over 2.5 | 65% ★ | 1.54 | 1.45 |  |
 | 18:00 | Denmark · Superliga | Silkeborg vs Lyngby | Over 2.5 | 60% ☆ | 1.65 | - |  |
 | 17:30 | Germany · 2. Bundesliga | Dresden vs Greuther Furth | Over 2.5 | 59% ☆ | 1.70 | 1.61 |  |
-| 19:00 | Netherlands · Eredivisie | Willem II vs Zwolle | Over 2.5 | 59% ☆ | 1.70 | 1.62 |  |
-| 19:45 | France · Ligue 1 | Toulouse vs Strasbourg | Over 2.5 | 58% ☆ | 1.73 | 1.63 |  |
+| 19:00 | Netherlands · Eredivisie | Willem II vs Zwolle | Over 2.5 | 59% ☆ | 1.70 | 1.62 | ❌ 1-1 |
+| 19:45 | France · Ligue 1 | Toulouse vs Strasbourg | Over 2.5 | 58% ☆ | 1.73 | 1.63 | ✅ 3-1 |
 | 19:45 | Belgium · Pro League | Standard vs Beveren | Over 2.5 | 57% ☆ | 1.74 | 1.61 |  |
-| 19:30 | Germany · Bundesliga | Hamburg vs M'gladbach | Over 2.5 | 57% ☆ | 1.74 | 1.65 |  |
+| 19:30 | Germany · Bundesliga | Hamburg vs M'gladbach | Over 2.5 | 57% ☆ | 1.74 | 1.65 | ✅ 3-1 |
 | 19:00 | France · Ligue 2 | Dijon vs Red Star | Over 2.5 | 57% ☆ | 1.76 | 1.64 |  |
 | 19:30 | Italy · Serie B | Ascoli vs Palermo | Over 2.5 | 57% ☆ | 1.77 | 1.62 |  |
 | 19:00 | France · Ligue 2 | Dunkerque vs Guingamp | Over 2.5 | 56% ☆ | 1.78 | 1.64 |  |
-| 20:00 | England · Championship | Derby vs Bolton | Over 2.5 | 56% ☆ | 1.79 | 1.68 |  |
+| 20:00 | England · Championship | Derby vs Bolton | Over 2.5 | 56% ☆ | 1.79 | 1.68 | ✅ 3-1 |
 | 19:00 | France · Ligue 2 | Montpellier vs Metz | Over 2.5 | 55% ☆ | 1.82 | 1.66 |  |
-| 20:00 | England · Premier League | Everton vs Coventry | Over 2.5 | 54% ☆ | 1.84 | 1.69 |  |
+| 20:00 | England · Premier League | Everton vs Coventry | Over 2.5 | 54% ☆ | 1.84 | 1.69 | ✅ 3-1 |
 | 18:00 | Sweden · Allsvenskan | Hammarby vs Elfsborg | Over 2.5 | 54% ☆ | 1.87 | - |  |
-| 19:45 | Italy · Serie A | Venezia vs Udinese | Over 2.5 | 52% ☆ | 1.92 | 1.79 |  |
+| 19:45 | Italy · Serie A | Venezia vs Udinese | Over 2.5 | 52% ☆ | 1.92 | 1.79 | ✅ 2-1 |
 
 ### 🎯 Both Teams To Score
 
@@ -104,18 +104,18 @@ _No match was likely enough to pick._
 |---|---|---|---|---|---|---|---|
 | 17:30 | Germany · 2. Bundesliga | Braunschweig vs Cottbus | BTTS Yes | 65% ★ | 1.54 | - |  |
 | 18:00 | Denmark · Superliga | Silkeborg vs Lyngby | BTTS Yes | 63% ★ | 1.58 | - |  |
-| 19:00 | Netherlands · Eredivisie | Willem II vs Zwolle | BTTS Yes | 61% ★ | 1.63 | - |  |
-| 19:30 | Germany · Bundesliga | Hamburg vs M'gladbach | BTTS Yes | 61% ★ | 1.65 | - |  |
+| 19:00 | Netherlands · Eredivisie | Willem II vs Zwolle | BTTS Yes | 61% ★ | 1.63 | - | ✅ 1-1 |
+| 19:30 | Germany · Bundesliga | Hamburg vs M'gladbach | BTTS Yes | 61% ★ | 1.65 | - | ✅ 3-1 |
 | 19:30 | Italy · Serie B | Ascoli vs Palermo | BTTS Yes | 61% ★ | 1.65 | - |  |
-| 19:45 | France · Ligue 1 | Toulouse vs Strasbourg | BTTS Yes | 60% ★ | 1.66 | - |  |
+| 19:45 | France · Ligue 1 | Toulouse vs Strasbourg | BTTS Yes | 60% ★ | 1.66 | - | ✅ 3-1 |
 | 17:30 | Germany · 2. Bundesliga | Dresden vs Greuther Furth | BTTS Yes | 60% ★ | 1.66 | - |  |
 | 19:00 | France · Ligue 2 | Dijon vs Red Star | BTTS Yes | 60% ☆ | 1.68 | - |  |
 | 19:00 | France · Ligue 2 | Dunkerque vs Guingamp | BTTS Yes | 59% ☆ | 1.68 | - |  |
-| 20:00 | England · Championship | Derby vs Bolton | BTTS Yes | 59% ☆ | 1.69 | - |  |
+| 20:00 | England · Championship | Derby vs Bolton | BTTS Yes | 59% ☆ | 1.69 | - | ✅ 3-1 |
 | 19:45 | Belgium · Pro League | Standard vs Beveren | BTTS Yes | 59% ☆ | 1.70 | - |  |
 | 19:00 | France · Ligue 2 | Montpellier vs Metz | BTTS Yes | 57% ☆ | 1.76 | - |  |
 | 17:00 | Turkey · Süper Lig | Gaziantep vs Kasimpasa | BTTS Yes | 57% ☆ | 1.76 | - |  |
-| 19:45 | Italy · Serie A | Venezia vs Udinese | BTTS Yes | 56% ☆ | 1.80 | - |  |
+| 19:45 | Italy · Serie A | Venezia vs Udinese | BTTS Yes | 56% ☆ | 1.80 | - | ✅ 2-1 |
 | 17:00 | Poland · Ekstraklasa | Motor Lublin vs Wisla Plock | BTTS Yes | 54% ☆ | 1.85 | - |  |
 | 00:30 | Brazil · Serie A | Cruzeiro vs Bahia | BTTS Yes | 51% ☆ | 1.97 | - | ✅ 3-2 |
 
@@ -127,11 +127,11 @@ _No match was likely enough to pick._
 | 18:00 | Sweden · Allsvenskan | Hammarby vs Elfsborg | 1X | 88% 🔒 | 1.13 | 1.05 |  |
 | 22:15 | Argentina · Liga Profesional | Independiente vs Dep. Riestra | 1X | 85% ★ | 1.18 | 1.12 |  |
 | 19:00 | France · Ligue 2 | Nancy vs Sochaux | 1X | 82% ★ | 1.22 | 1.11 |  |
-| 20:00 | England · Premier League | Everton vs Coventry | 1X | 81% ★ | 1.24 | 1.17 |  |
+| 20:00 | England · Premier League | Everton vs Coventry | 1X | 81% ★ | 1.24 | 1.17 | ✅ 3-1 |
 | 00:30 | Brazil · Serie A | Cruzeiro vs Bahia | 1X | 80% ☆ | 1.25 | 1.18 | ✅ 3-2 |
 | 15:30 | Romania · Superliga | UTA Arad vs Petrolul | 1X | 79% ☆ | 1.26 | 1.17 |  |
 | 18:30 | Romania · Superliga | FC Arges vs Dinamo Bucuresti | X2 | 78% ☆ | 1.27 | 1.16 |  |
-| 20:00 | Spain · La Liga | Sevilla vs Alaves | 1X | 78% ☆ | 1.29 | 1.20 |  |
+| 20:00 | Spain · La Liga | Sevilla vs Alaves | 1X | 78% ☆ | 1.29 | 1.20 | ✅ 0-0 |
 | 19:30 | Poland · Ekstraklasa | Wisla vs Cracovia | 1X | 77% ☆ | 1.29 | 1.19 |  |
 | 17:30 | Germany · 2. Bundesliga | Braunschweig vs Cottbus | 12 | 77% ☆ | 1.30 | 1.22 |  |
 | 17:30 | Germany · 2. Bundesliga | Dresden vs Greuther Furth | 12 | 76% ☆ | 1.31 | 1.24 |  |
@@ -395,10 +395,10 @@ _No match was likely enough to pick._
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
 | 🔒 Bankers | 28/32 (88%), ROI -8% | 106/119 (89%), ROI -6% | 111/125 (89%), ROI -6% |
-| BTTS & Over 2.5 | 30/68 (44%) | 187/337 (55%) | 220/402 (55%) |
-| Over 2.5 Goals | 39/69 (57%), ROI -33% | 228/338 (67%), ROI -6% | 268/404 (66%), ROI -7% |
-| Both Teams To Score | 38/72 (53%) | 214/347 (62%) | 259/417 (62%) |
-| Double Chance | 68/81 (84%), ROI -6% | 330/383 (86%), ROI -4% | 398/467 (85%), ROI -4% |
+| BTTS & Over 2.5 | 35/74 (47%) | 192/343 (56%) | 225/408 (55%) |
+| Over 2.5 Goals | 44/75 (59%), ROI -24% | 233/344 (68%), ROI -5% | 273/410 (67%), ROI -6% |
+| Both Teams To Score | 43/77 (56%) | 219/352 (62%) | 264/422 (63%) |
+| Double Chance | 70/83 (84%), ROI -6% | 332/385 (86%), ROI -3% | 400/469 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
