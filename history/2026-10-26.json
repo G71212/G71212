@@ -1626,7 +1626,7 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
+    "status": "void",
     "result": null
    },
    {
@@ -1865,7 +1865,7 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
+    "status": "void",
     "result": null
    },
    {
@@ -2164,7 +2164,7 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
+    "status": "void",
     "result": null
    },
    {
@@ -2363,7 +2363,7 @@
     "market_odds": 1.16,
     "edge": -0.0751,
     "published_at": "2026-10-24T00:00:12+00:00",
-    "status": "pending",
+    "status": "void",
     "result": null
    },
    {
