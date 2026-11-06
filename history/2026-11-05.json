@@ -68,8 +68,7 @@
     1,
     0
    ],
-   "predicted_at": "2026-11-03T12:50:29+00:00",
-   "provisional": true
+   "predicted_at": "2026-11-03T12:50:29+00:00"
   },
   {
    "id": "BRA|2026-11-05|Sao Paulo|Corinthians",
@@ -136,8 +135,7 @@
     0,
     0
    ],
-   "predicted_at": "2026-11-03T12:50:29+00:00",
-   "provisional": true
+   "predicted_at": "2026-11-03T12:50:29+00:00"
   },
   {
    "id": "ARG|2026-11-05|Aldosivi|River Plate",
@@ -200,7 +198,10 @@
     116
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    0,
+    2
+   ],
    "predicted_at": "2026-11-03T12:50:29+00:00"
   },
   {
@@ -264,7 +265,10 @@
     112
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    2,
+    1
+   ],
    "predicted_at": "2026-11-03T12:50:29+00:00"
   },
   {
@@ -334,8 +338,7 @@
     6,
     1
    ],
-   "predicted_at": "2026-11-03T12:50:29+00:00",
-   "provisional": true
+   "predicted_at": "2026-11-03T12:50:29+00:00"
   }
  ],
  "picks": {
@@ -359,8 +362,7 @@
     "result": [
      6,
      1
-    ],
-    "provisional": true
+    ]
    }
   ],
   "btts": [
@@ -382,8 +384,7 @@
     "result": [
      1,
      0
-    ],
-    "provisional": true
+    ]
    }
   ],
   "double_chance": [
@@ -405,8 +406,7 @@
     "result": [
      6,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",
@@ -422,8 +422,11 @@
     "market_odds": 1.06,
     "edge": -0.0663,
     "published_at": "2026-11-03T12:50:29+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     2
+    ]
    },
    {
     "market": "double_chance",
@@ -443,8 +446,7 @@
     "result": [
      1,
      0
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",
@@ -464,8 +466,7 @@
     "result": [
      0,
      0
-    ],
-    "provisional": true
+    ]
    }
   ]
  },

@@ -1,13 +1,8513 @@
 {
  "date": "2026-11-08",
  "created_at": "2026-11-06T01:47:30+00:00",
- "updated_at": "2026-11-06T01:47:30+00:00",
- "fixtures": [],
+ "updated_at": "2026-11-06T12:59:16+00:00",
+ "fixtures": [
+  {
+   "id": "USA|2026-11-08|Austin FC|Portland Timbers",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T00:00:00+00:00",
+   "home": "Austin FC",
+   "away": "Portland Timbers",
+   "expected_goals": [
+    1.19,
+    1.9
+   ],
+   "model_expected_goals": [
+    1.61,
+    1.5
+   ],
+   "rho": -0.0471,
+   "probabilities": {
+    "home": 0.232,
+    "draw": 0.2331,
+    "away": 0.5349,
+    "over25": 0.5965,
+    "under25": 0.4035,
+    "btts": 0.5963,
+    "btts_over25": 0.4886,
+    "dc_1x": 0.4651,
+    "dc_x2": 0.768,
+    "dc_12": 0.7669
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1077
+    ],
+    [
+     "1-2",
+     0.0978
+    ],
+    [
+     "0-2",
+     0.0822
+    ]
+   ],
+   "market": {
+    "home": 0.2145,
+    "draw": 0.2118,
+    "away": 0.5737,
+    "over25": null
+   },
+   "odds": {
+    "home": 4.14,
+    "draw": 4.19,
+    "away": 1.67,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    103,
+    106
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "USA|2026-11-08|FC Dallas|Colorado Rapids",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T00:00:00+00:00",
+   "home": "FC Dallas",
+   "away": "Colorado Rapids",
+   "expected_goals": [
+    1.75,
+    1.35
+   ],
+   "model_expected_goals": [
+    1.83,
+    1.27
+   ],
+   "rho": -0.0471,
+   "probabilities": {
+    "home": 0.4663,
+    "draw": 0.2433,
+    "away": 0.2903,
+    "over25": 0.5988,
+    "under25": 0.4012,
+    "btts": 0.6167,
+    "btts_over25": 0.5053,
+    "dc_1x": 0.7097,
+    "dc_x2": 0.5337,
+    "dc_12": 0.7567
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1114
+    ],
+    [
+     "2-1",
+     0.0933
+    ],
+    [
+     "1-0",
+     0.074
+    ]
+   ],
+   "market": {
+    "home": 0.4578,
+    "draw": 0.2489,
+    "away": 0.2933,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.06,
+    "draw": 3.62,
+    "away": 3.11,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    104,
+    103
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "USA|2026-11-08|Houston Dynamo|St. Louis City",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T00:00:00+00:00",
+   "home": "Houston Dynamo",
+   "away": "St. Louis City",
+   "expected_goals": [
+    1.46,
+    1.38
+   ],
+   "model_expected_goals": [
+    1.57,
+    1.28
+   ],
+   "rho": -0.0471,
+   "probabilities": {
+    "home": 0.387,
+    "draw": 0.2612,
+    "away": 0.3518,
+    "over25": 0.5419,
+    "under25": 0.4581,
+    "btts": 0.5816,
+    "btts_over25": 0.4587,
+    "dc_1x": 0.6482,
+    "dc_x2": 0.613,
+    "dc_12": 0.7388
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.123
+    ],
+    [
+     "2-1",
+     0.0859
+    ],
+    [
+     "1-2",
+     0.0813
+    ]
+   ],
+   "market": {
+    "home": 0.3791,
+    "draw": 0.2593,
+    "away": 0.3615,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.45,
+    "draw": 3.48,
+    "away": 2.56,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    106,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "USA|2026-11-08|Minnesota United|San Jose Earthquakes",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T00:00:00+00:00",
+   "home": "Minnesota United",
+   "away": "San Jose Earthquakes",
+   "expected_goals": [
+    2.05,
+    1.28
+   ],
+   "model_expected_goals": [
+    1.93,
+    1.4
+   ],
+   "rho": -0.0471,
+   "probabilities": {
+    "home": 0.5463,
+    "draw": 0.2215,
+    "away": 0.2322,
+    "over25": 0.6475,
+    "under25": 0.3525,
+    "btts": 0.6346,
+    "btts_over25": 0.5363,
+    "dc_1x": 0.7678,
+    "dc_x2": 0.4537,
+    "dc_12": 0.7785
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0982
+    ],
+    [
+     "2-1",
+     0.0962
+    ],
+    [
+     "2-0",
+     0.0749
+    ]
+   ],
+   "market": {
+    "home": 0.558,
+    "draw": 0.2144,
+    "away": 0.2276,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.71,
+    "draw": 4.12,
+    "away": 3.9,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    108,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "USA|2026-11-08|Real Salt Lake|Los Angeles Galaxy",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T00:00:00+00:00",
+   "home": "Real Salt Lake",
+   "away": "Los Angeles Galaxy",
+   "expected_goals": [
+    1.95,
+    1.19
+   ],
+   "model_expected_goals": [
+    1.77,
+    1.37
+   ],
+   "rho": -0.0471,
+   "probabilities": {
+    "home": 0.5454,
+    "draw": 0.229,
+    "away": 0.2256,
+    "over25": 0.6071,
+    "under25": 0.3929,
+    "btts": 0.6014,
+    "btts_over25": 0.4961,
+    "dc_1x": 0.7744,
+    "dc_x2": 0.4546,
+    "dc_12": 0.771
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1053
+    ],
+    [
+     "2-1",
+     0.0979
+    ],
+    [
+     "2-0",
+     0.0823
+    ]
+   ],
+   "market": {
+    "home": 0.5654,
+    "draw": 0.2135,
+    "away": 0.2211,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.69,
+    "draw": 4.14,
+    "away": 4.01,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    105,
+    106
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "USA|2026-11-08|San Diego FC|Sporting Kansas City",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T00:00:00+00:00",
+   "home": "San Diego FC",
+   "away": "Sporting Kansas City",
+   "expected_goals": [
+    2.54,
+    1.22
+   ],
+   "model_expected_goals": [
+    2.49,
+    1.27
+   ],
+   "rho": -0.0471,
+   "probabilities": {
+    "home": 0.657,
+    "draw": 0.1815,
+    "away": 0.1615,
+    "over25": 0.7244,
+    "under25": 0.2756,
+    "btts": 0.6522,
+    "btts_over25": 0.5766,
+    "dc_1x": 0.8385,
+    "dc_x2": 0.343,
+    "dc_12": 0.8185
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0916
+    ],
+    [
+     "3-1",
+     0.0776
+    ],
+    [
+     "1-1",
+     0.0755
+    ]
+   ],
+   "market": {
+    "home": 0.6649,
+    "draw": 0.1715,
+    "away": 0.1636,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.45,
+    "draw": 4.98,
+    "away": 5.2,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    72,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "USA|2026-11-08|Seattle Sounders|Los Angeles FC",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T00:00:00+00:00",
+   "home": "Seattle Sounders",
+   "away": "Los Angeles FC",
+   "expected_goals": [
+    1.6,
+    1.11
+   ],
+   "model_expected_goals": [
+    1.4,
+    1.31
+   ],
+   "rho": -0.0471,
+   "probabilities": {
+    "home": 0.4822,
+    "draw": 0.2601,
+    "away": 0.2578,
+    "over25": 0.5077,
+    "under25": 0.4923,
+    "btts": 0.5396,
+    "btts_over25": 0.4157,
+    "dc_1x": 0.7422,
+    "dc_x2": 0.5178,
+    "dc_12": 0.7399
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1238
+    ],
+    [
+     "1-0",
+     0.1013
+    ],
+    [
+     "2-1",
+     0.0945
+    ]
+   ],
+   "market": {
+    "home": 0.5077,
+    "draw": 0.2403,
+    "away": 0.252,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.87,
+    "draw": 3.73,
+    "away": 3.57,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    110,
+    111
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "ARG|2026-11-08|Instituto|Newells Old Boys",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T01:00:00+00:00",
+   "home": "Instituto",
+   "away": "Newells Old Boys",
+   "expected_goals": [
+    1.4,
+    0.79
+   ],
+   "model_expected_goals": [
+    1.35,
+    0.85
+   ],
+   "rho": -0.0817,
+   "probabilities": {
+    "home": 0.5021,
+    "draw": 0.295,
+    "away": 0.2029,
+    "over25": 0.3747,
+    "under25": 0.6253,
+    "btts": 0.4224,
+    "btts_over25": 0.2883,
+    "dc_1x": 0.7971,
+    "dc_x2": 0.4979,
+    "dc_12": 0.705
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1461
+    ],
+    [
+     "1-1",
+     0.1341
+    ],
+    [
+     "0-0",
+     0.122
+    ]
+   ],
+   "market": {
+    "home": 0.5083,
+    "draw": 0.2912,
+    "away": 0.2005,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.87,
+    "draw": 3.13,
+    "away": 4.42,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    106
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "MEX|2026-11-08|Tigres UANL|Cruz Azul",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T01:00:00+00:00",
+   "home": "Tigres UANL",
+   "away": "Cruz Azul",
+   "expected_goals": [
+    1.28,
+    1.44
+   ],
+   "model_expected_goals": [
+    1.42,
+    1.3
+   ],
+   "rho": -0.0644,
+   "probabilities": {
+    "home": 0.328,
+    "draw": 0.2715,
+    "away": 0.4005,
+    "over25": 0.5125,
+    "under25": 0.4875,
+    "btts": 0.5598,
+    "btts_over25": 0.4307,
+    "dc_1x": 0.5995,
+    "dc_x2": 0.672,
+    "dc_12": 0.7285
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1291
+    ],
+    [
+     "1-2",
+     0.0874
+    ],
+    [
+     "0-1",
+     0.0867
+    ]
+   ],
+   "market": {
+    "home": 0.3244,
+    "draw": 0.2562,
+    "away": 0.4194,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.81,
+    "draw": 3.49,
+    "away": 2.22,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    123,
+    125
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "MEX|2026-11-08|Toluca|Monterrey",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T01:00:00+00:00",
+   "home": "Toluca",
+   "away": "Monterrey",
+   "expected_goals": [
+    2.11,
+    1.12
+   ],
+   "model_expected_goals": [
+    2.0,
+    1.24
+   ],
+   "rho": -0.0644,
+   "probabilities": {
+    "home": 0.5942,
+    "draw": 0.217,
+    "away": 0.1888,
+    "over25": 0.6278,
+    "under25": 0.3722,
+    "btts": 0.5995,
+    "btts_over25": 0.5002,
+    "dc_1x": 0.8112,
+    "dc_x2": 0.4058,
+    "dc_12": 0.783
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0993
+    ],
+    [
+     "2-1",
+     0.0986
+    ],
+    [
+     "2-0",
+     0.0877
+    ]
+   ],
+   "market": {
+    "home": 0.6083,
+    "draw": 0.2035,
+    "away": 0.1883,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.57,
+    "draw": 4.24,
+    "away": 4.55,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    119,
+    121
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "MEX|2026-11-08|UNAM Pumas|Club America",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T03:10:00+00:00",
+   "home": "UNAM Pumas",
+   "away": "Club America",
+   "expected_goals": [
+    1.29,
+    1.55
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.41
+   ],
+   "rho": -0.0644,
+   "probabilities": {
+    "home": 0.3097,
+    "draw": 0.2633,
+    "away": 0.427,
+    "over25": 0.5405,
+    "under25": 0.4595,
+    "btts": 0.5788,
+    "btts_over25": 0.4545,
+    "dc_1x": 0.573,
+    "dc_x2": 0.6903,
+    "dc_12": 0.7367
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1243
+    ],
+    [
+     "1-2",
+     0.0906
+    ],
+    [
+     "0-1",
+     0.083
+    ]
+   ],
+   "market": {
+    "home": 0.3044,
+    "draw": 0.2523,
+    "away": 0.4433,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.98,
+    "draw": 3.54,
+    "away": 2.11,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    119,
+    130
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "JPN|2026-11-08|Machida|Sanfrecce Hiroshima",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T05:00:00+00:00",
+   "home": "Machida",
+   "away": "Sanfrecce Hiroshima",
+   "expected_goals": [
+    1.2,
+    1.32
+   ],
+   "model_expected_goals": [
+    1.35,
+    1.17
+   ],
+   "rho": -0.0015,
+   "probabilities": {
+    "home": 0.3379,
+    "draw": 0.2688,
+    "away": 0.3933,
+    "over25": 0.4605,
+    "under25": 0.5395,
+    "btts": 0.5118,
+    "btts_over25": 0.384,
+    "dc_1x": 0.6067,
+    "dc_x2": 0.6621,
+    "dc_12": 0.7312
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1277
+    ],
+    [
+     "0-1",
+     0.1061
+    ],
+    [
+     "1-0",
+     0.0967
+    ]
+   ],
+   "market": {
+    "home": 0.3247,
+    "draw": 0.2702,
+    "away": 0.4051,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.82,
+    "draw": 3.34,
+    "away": 2.3,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    89,
+    92
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "JPN|2026-11-08|Vissel Kobe|Urawa Reds",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T05:00:00+00:00",
+   "home": "Vissel Kobe",
+   "away": "Urawa Reds",
+   "expected_goals": [
+    1.47,
+    1.09
+   ],
+   "model_expected_goals": [
+    1.58,
+    0.98
+   ],
+   "rho": -0.0015,
+   "probabilities": {
+    "home": 0.4575,
+    "draw": 0.2613,
+    "away": 0.2812,
+    "over25": 0.4706,
+    "under25": 0.5294,
+    "btts": 0.5109,
+    "btts_over25": 0.3867,
+    "dc_1x": 0.7188,
+    "dc_x2": 0.5425,
+    "dc_12": 0.7387
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1242
+    ],
+    [
+     "1-0",
+     0.1135
+    ],
+    [
+     "2-1",
+     0.0909
+    ]
+   ],
+   "market": {
+    "home": 0.447,
+    "draw": 0.2641,
+    "away": 0.2889,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.1,
+    "draw": 3.41,
+    "away": 3.14,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    92,
+    92
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "JPN|2026-11-08|Gamba Osaka|Cerezo Osaka",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T06:00:00+00:00",
+   "home": "Gamba Osaka",
+   "away": "Cerezo Osaka",
+   "expected_goals": [
+    1.53,
+    1.25
+   ],
+   "model_expected_goals": [
+    1.58,
+    1.19
+   ],
+   "rho": -0.0015,
+   "probabilities": {
+    "home": 0.4376,
+    "draw": 0.2516,
+    "away": 0.3108,
+    "over25": 0.525,
+    "under25": 0.475,
+    "btts": 0.5586,
+    "btts_over25": 0.4396,
+    "dc_1x": 0.6892,
+    "dc_x2": 0.5624,
+    "dc_12": 0.7484
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1189
+    ],
+    [
+     "1-0",
+     0.0949
+    ],
+    [
+     "2-1",
+     0.0907
+    ]
+   ],
+   "market": {
+    "home": 0.4293,
+    "draw": 0.2592,
+    "away": 0.3115,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.18,
+    "draw": 3.47,
+    "away": 2.93,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    92,
+    92
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "CHN|2026-11-08|Beijing Guoan|Chongqing Tonglianglong",
+   "league": "CHN",
+   "league_name": "China · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T07:30:00+00:00",
+   "home": "Beijing Guoan",
+   "away": "Chongqing Tonglianglong",
+   "expected_goals": [
+    2.31,
+    0.69
+   ],
+   "model_expected_goals": [
+    2.05,
+    0.95
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.7364,
+    "draw": 0.1729,
+    "away": 0.0906,
+    "over25": 0.5754,
+    "under25": 0.4246,
+    "btts": 0.4498,
+    "btts_over25": 0.3675,
+    "dc_1x": 0.9094,
+    "dc_x2": 0.2636,
+    "dc_12": 0.8271
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1335
+    ],
+    [
+     "1-0",
+     0.1126
+    ],
+    [
+     "3-0",
+     0.1027
+    ]
+   ],
+   "market": {
+    "home": 0.7605,
+    "draw": 0.151,
+    "away": 0.0885,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.27,
+    "draw": 5.21,
+    "away": 8.31,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    89,
+    29
+   ],
+   "flags": [
+    "Chongqing Tonglianglong new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "CHN|2026-11-08|Dalian Yingbo|Tianjin Jinmen Tiger",
+   "league": "CHN",
+   "league_name": "China · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T07:30:00+00:00",
+   "home": "Dalian Yingbo",
+   "away": "Tianjin Jinmen Tiger",
+   "expected_goals": [
+    1.92,
+    0.67
+   ],
+   "model_expected_goals": [
+    1.46,
+    1.17
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.6681,
+    "draw": 0.2143,
+    "away": 0.1175,
+    "over25": 0.4798,
+    "under25": 0.5202,
+    "btts": 0.4204,
+    "btts_over25": 0.3204,
+    "dc_1x": 0.8825,
+    "dc_x2": 0.3319,
+    "dc_12": 0.7857
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1402
+    ],
+    [
+     "2-0",
+     0.1384
+    ],
+    [
+     "1-1",
+     0.1
+    ]
+   ],
+   "market": {
+    "home": 0.7135,
+    "draw": 0.1797,
+    "away": 0.1067,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.35,
+    "draw": 4.6,
+    "away": 7.31,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    59,
+    89
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "CHN|2026-11-08|Qingdao Hainiu|Shenzhen Xinpengcheng",
+   "league": "CHN",
+   "league_name": "China · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T07:30:00+00:00",
+   "home": "Qingdao Hainiu",
+   "away": "Shenzhen Xinpengcheng",
+   "expected_goals": [
+    0.99,
+    1.93
+   ],
+   "model_expected_goals": [
+    1.59,
+    1.37
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.1855,
+    "draw": 0.226,
+    "away": 0.5885,
+    "over25": 0.5592,
+    "under25": 0.4408,
+    "btts": 0.5419,
+    "btts_over25": 0.4349,
+    "dc_1x": 0.4115,
+    "dc_x2": 0.8145,
+    "dc_12": 0.774
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.107
+    ],
+    [
+     "0-2",
+     0.1002
+    ],
+    [
+     "0-1",
+     0.0999
+    ]
+   ],
+   "market": {
+    "home": 0.1638,
+    "draw": 0.194,
+    "away": 0.6422,
+    "over25": null
+   },
+   "odds": {
+    "home": 5.1,
+    "draw": 4.38,
+    "away": 1.49,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    89,
+    89
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "CHN|2026-11-08|Shandong Taishan|Chengdu Rongcheng",
+   "league": "CHN",
+   "league_name": "China · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T07:30:00+00:00",
+   "home": "Shandong Taishan",
+   "away": "Chengdu Rongcheng",
+   "expected_goals": [
+    1.7,
+    1.54
+   ],
+   "model_expected_goals": [
+    1.76,
+    1.48
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.4149,
+    "draw": 0.2395,
+    "away": 0.3456,
+    "over25": 0.6294,
+    "under25": 0.3706,
+    "btts": 0.6467,
+    "btts_over25": 0.5405,
+    "dc_1x": 0.6544,
+    "dc_x2": 0.5851,
+    "dc_12": 0.7605
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1063
+    ],
+    [
+     "2-1",
+     0.0872
+    ],
+    [
+     "1-2",
+     0.0788
+    ]
+   ],
+   "market": {
+    "home": 0.4135,
+    "draw": 0.2338,
+    "away": 0.3527,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.24,
+    "draw": 3.77,
+    "away": 2.59,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    89,
+    89
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "CHN|2026-11-08|Shanghai Port|Liaoning Tieren",
+   "league": "CHN",
+   "league_name": "China · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T07:30:00+00:00",
+   "home": "Shanghai Port",
+   "away": "Liaoning Tieren",
+   "expected_goals": [
+    2.68,
+    0.9
+   ],
+   "model_expected_goals": [
+    2.53,
+    1.06
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.7481,
+    "draw": 0.1533,
+    "away": 0.0987,
+    "over25": 0.6947,
+    "under25": 0.3053,
+    "btts": 0.5561,
+    "btts_over25": 0.4864,
+    "dc_1x": 0.9013,
+    "dc_x2": 0.2519,
+    "dc_12": 0.8467
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.0999
+    ],
+    [
+     "2-1",
+     0.09
+    ],
+    [
+     "3-0",
+     0.0893
+    ]
+   ],
+   "market": {
+    "home": 0.7633,
+    "draw": 0.1378,
+    "away": 0.0989,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.27,
+    "draw": 5.78,
+    "away": 7.75,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    89,
+    29
+   ],
+   "flags": [
+    "Liaoning Tieren new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "CHN|2026-11-08|Shanghai Shenhua|Qingdao West Coast",
+   "league": "CHN",
+   "league_name": "China · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T07:30:00+00:00",
+   "home": "Shanghai Shenhua",
+   "away": "Qingdao West Coast",
+   "expected_goals": [
+    2.25,
+    0.94
+   ],
+   "model_expected_goals": [
+    2.1,
+    1.1
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.6653,
+    "draw": 0.1937,
+    "away": 0.141,
+    "over25": 0.6182,
+    "under25": 0.3818,
+    "btts": 0.5493,
+    "btts_over25": 0.4588,
+    "dc_1x": 0.859,
+    "dc_x2": 0.3347,
+    "dc_12": 0.8063
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.104
+    ],
+    [
+     "2-1",
+     0.098
+    ],
+    [
+     "1-1",
+     0.0905
+    ]
+   ],
+   "market": {
+    "home": 0.6854,
+    "draw": 0.1715,
+    "away": 0.1431,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.4,
+    "draw": 4.81,
+    "away": 5.65,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    89,
+    89
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "CHN|2026-11-08|Yunnan Yukun|Wuhan Three Towns",
+   "league": "CHN",
+   "league_name": "China · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T07:30:00+00:00",
+   "home": "Yunnan Yukun",
+   "away": "Wuhan Three Towns",
+   "expected_goals": [
+    2.3,
+    1.33
+   ],
+   "model_expected_goals": [
+    2.2,
+    1.43
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.5893,
+    "draw": 0.2015,
+    "away": 0.2092,
+    "over25": 0.7021,
+    "under25": 0.2979,
+    "btts": 0.6643,
+    "btts_over25": 0.58,
+    "dc_1x": 0.7908,
+    "dc_x2": 0.4107,
+    "dc_12": 0.7985
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0933
+    ],
+    [
+     "1-1",
+     0.0843
+    ],
+    [
+     "3-1",
+     0.0716
+    ]
+   ],
+   "market": {
+    "home": 0.6036,
+    "draw": 0.1856,
+    "away": 0.2107,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.58,
+    "draw": 4.6,
+    "away": 4.1,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    59,
+    89
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "CHN|2026-11-08|Zhejiang Professional|Henan Songshan Longmen",
+   "league": "CHN",
+   "league_name": "China · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T07:30:00+00:00",
+   "home": "Zhejiang Professional",
+   "away": "Henan Songshan Longmen",
+   "expected_goals": [
+    1.88,
+    1.47
+   ],
+   "model_expected_goals": [
+    1.91,
+    1.44
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.4707,
+    "draw": 0.2308,
+    "away": 0.2985,
+    "over25": 0.6512,
+    "under25": 0.3488,
+    "btts": 0.6567,
+    "btts_over25": 0.5562,
+    "dc_1x": 0.7015,
+    "dc_x2": 0.5293,
+    "dc_12": 0.7692
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1005
+    ],
+    [
+     "2-1",
+     0.0912
+    ],
+    [
+     "1-2",
+     0.0711
+    ]
+   ],
+   "market": {
+    "home": 0.478,
+    "draw": 0.2122,
+    "away": 0.3098,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.96,
+    "draw": 4.11,
+    "away": 2.91,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    89,
+    89
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "JPN|2026-11-08|Chiba|Mito",
+   "league": "JPN",
+   "league_name": "Japan · J1 League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T08:00:00+00:00",
+   "home": "Chiba",
+   "away": "Mito",
+   "expected_goals": [
+    1.6,
+    1.14
+   ],
+   "model_expected_goals": [
+    1.57,
+    1.18
+   ],
+   "rho": -0.0015,
+   "probabilities": {
+    "home": 0.4796,
+    "draw": 0.2485,
+    "away": 0.272,
+    "over25": 0.5173,
+    "under25": 0.4827,
+    "btts": 0.5441,
+    "btts_over25": 0.4263,
+    "dc_1x": 0.728,
+    "dc_x2": 0.5204,
+    "dc_12": 0.7515
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1178
+    ],
+    [
+     "1-0",
+     0.1027
+    ],
+    [
+     "2-1",
+     0.0942
+    ]
+   ],
+   "market": {
+    "home": 0.4714,
+    "draw": 0.2702,
+    "away": 0.2584,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.0,
+    "draw": 3.34,
+    "away": 3.48,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    13,
+    13
+   ],
+   "flags": [
+    "Chiba new to league",
+    "Mito new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "T1|2026-11-08|Rizespor|Erzurumspor",
+   "league": "T1",
+   "league_name": "Turkey · Süper Lig",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T10:30:00+00:00",
+   "home": "Rizespor",
+   "away": "Erzurumspor",
+   "expected_goals": [
+    1.66,
+    1.09
+   ],
+   "model_expected_goals": [
+    1.76,
+    1.02
+   ],
+   "rho": -0.0883,
+   "probabilities": {
+    "home": 0.497,
+    "draw": 0.2639,
+    "away": 0.2391,
+    "over25": 0.5191,
+    "under25": 0.4809,
+    "btts": 0.5481,
+    "btts_over25": 0.4223,
+    "dc_1x": 0.7609,
+    "dc_x2": 0.503,
+    "dc_12": 0.7361
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1258
+    ],
+    [
+     "2-1",
+     0.096
+    ],
+    [
+     "1-0",
+     0.0958
+    ]
+   ],
+   "market": {
+    "home": 0.4945,
+    "draw": 0.2558,
+    "away": 0.2496,
+    "over25": 0.518
+   },
+   "odds": {
+    "home": 1.91,
+    "draw": 3.5,
+    "away": 3.58,
+    "over25": 1.8,
+    "under25": 1.92
+   },
+   "team_matches": [
+    107,
+    10
+   ],
+   "flags": [
+    "Erzurumspor new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "DNK|2026-11-08|FC Copenhagen|Brondby",
+   "league": "DNK",
+   "league_name": "Denmark · Superliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T11:00:00+00:00",
+   "home": "FC Copenhagen",
+   "away": "Brondby",
+   "expected_goals": [
+    1.92,
+    1.14
+   ],
+   "model_expected_goals": [
+    1.83,
+    1.23
+   ],
+   "rho": -0.1045,
+   "probabilities": {
+    "home": 0.5466,
+    "draw": 0.2424,
+    "away": 0.211,
+    "over25": 0.5899,
+    "under25": 0.4101,
+    "btts": 0.5903,
+    "btts_over25": 0.4771,
+    "dc_1x": 0.789,
+    "dc_x2": 0.4534,
+    "dc_12": 0.7576
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1132
+    ],
+    [
+     "2-1",
+     0.0986
+    ],
+    [
+     "2-0",
+     0.0868
+    ]
+   ],
+   "market": {
+    "home": 0.5594,
+    "draw": 0.2306,
+    "away": 0.21,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.7,
+    "draw": 3.82,
+    "away": 4.16,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    96,
+    95
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "N1|2026-11-08|Heerenveen|Feyenoord",
+   "league": "N1",
+   "league_name": "Netherlands · Eredivisie",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T11:15:00+00:00",
+   "home": "Heerenveen",
+   "away": "Feyenoord",
+   "expected_goals": [
+    1.39,
+    2.2
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.83
+   ],
+   "rho": -0.0597,
+   "probabilities": {
+    "home": 0.2331,
+    "draw": 0.2135,
+    "away": 0.5534,
+    "over25": 0.6948,
+    "under25": 0.3052,
+    "btts": 0.6724,
+    "btts_over25": 0.5828,
+    "dc_1x": 0.4466,
+    "dc_x2": 0.7669,
+    "dc_12": 0.7865
+   },
+   "top_scores": [
+    [
+     "1-2",
+     0.0929
+    ],
+    [
+     "1-1",
+     0.0896
+    ],
+    [
+     "1-3",
+     0.068
+    ]
+   ],
+   "market": {
+    "home": 0.2212,
+    "draw": 0.2105,
+    "away": 0.5683,
+    "over25": 0.7061
+   },
+   "odds": {
+    "home": 4.06,
+    "draw": 4.25,
+    "away": 1.69,
+    "over25": 1.36,
+    "under25": 2.95
+   },
+   "team_matches": [
+    102,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "I1|2026-11-08|Napoli|Lazio",
+   "league": "I1",
+   "league_name": "Italy · Serie A",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T11:30:00+00:00",
+   "home": "Napoli",
+   "away": "Lazio",
+   "expected_goals": [
+    1.54,
+    1.29
+   ],
+   "model_expected_goals": [
+    1.38,
+    1.1
+   ],
+   "rho": -0.0048,
+   "probabilities": {
+    "home": 0.4309,
+    "draw": 0.2505,
+    "away": 0.3186,
+    "over25": 0.5361,
+    "under25": 0.4639,
+    "btts": 0.5687,
+    "btts_over25": 0.4507,
+    "dc_1x": 0.6814,
+    "dc_x2": 0.5691,
+    "dc_12": 0.7495
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.118
+    ],
+    [
+     "1-0",
+     0.0907
+    ],
+    [
+     "2-1",
+     0.0902
+    ]
+   ],
+   "market": {
+    "home": 0.4226,
+    "draw": 0.2627,
+    "away": 0.3147,
+    "over25": 0.5515
+   },
+   "odds": {
+    "home": 2.25,
+    "draw": 3.52,
+    "away": 2.97,
+    "over25": 1.71,
+    "under25": 2.06
+   },
+   "team_matches": [
+    113,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "B1|2026-11-08|Club Brugge|Anderlecht",
+   "league": "B1",
+   "league_name": "Belgium · Pro League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T12:30:00+00:00",
+   "home": "Club Brugge",
+   "away": "Anderlecht",
+   "expected_goals": [
+    2.4,
+    1.16
+   ],
+   "model_expected_goals": [
+    2.17,
+    1.13
+   ],
+   "rho": -0.0435,
+   "probabilities": {
+    "home": 0.6452,
+    "draw": 0.1896,
+    "away": 0.1652,
+    "over25": 0.6908,
+    "under25": 0.3092,
+    "btts": 0.6278,
+    "btts_over25": 0.5454,
+    "dc_1x": 0.8348,
+    "dc_x2": 0.3548,
+    "dc_12": 0.8104
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0949
+    ],
+    [
+     "1-1",
+     0.0824
+    ],
+    [
+     "2-0",
+     0.0819
+    ]
+   ],
+   "market": {
+    "home": 0.6508,
+    "draw": 0.1887,
+    "away": 0.1605,
+    "over25": 0.6998
+   },
+   "odds": {
+    "home": 1.48,
+    "draw": 4.58,
+    "away": 5.31,
+    "over25": 1.37,
+    "under25": 2.89
+   },
+   "team_matches": [
+    117,
+    117
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "D2|2026-11-08|Bochum|Karlsruhe",
+   "league": "D2",
+   "league_name": "Germany · 2. Bundesliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T12:30:00+00:00",
+   "home": "Bochum",
+   "away": "Karlsruhe",
+   "expected_goals": [
+    1.92,
+    1.26
+   ],
+   "model_expected_goals": [
+    1.72,
+    1.3
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.5227,
+    "draw": 0.2301,
+    "away": 0.2472,
+    "over25": 0.6162,
+    "under25": 0.3838,
+    "btts": 0.6159,
+    "btts_over25": 0.5114,
+    "dc_1x": 0.7528,
+    "dc_x2": 0.4773,
+    "dc_12": 0.7699
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1045
+    ],
+    [
+     "2-1",
+     0.0965
+    ],
+    [
+     "2-0",
+     0.0763
+    ]
+   ],
+   "market": {
+    "home": 0.5305,
+    "draw": 0.231,
+    "away": 0.2385,
+    "over25": 0.6229
+   },
+   "odds": {
+    "home": 1.79,
+    "draw": 3.84,
+    "away": 3.73,
+    "over25": 1.52,
+    "under25": 2.37
+   },
+   "team_matches": [
+    44,
+    100
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "D2|2026-11-08|Heidenheim|Hannover",
+   "league": "D2",
+   "league_name": "Germany · 2. Bundesliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T12:30:00+00:00",
+   "home": "Heidenheim",
+   "away": "Hannover",
+   "expected_goals": [
+    1.91,
+    1.47
+   ],
+   "model_expected_goals": [
+    1.78,
+    1.2
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.4772,
+    "draw": 0.2292,
+    "away": 0.2935,
+    "over25": 0.6556,
+    "under25": 0.3444,
+    "btts": 0.659,
+    "btts_over25": 0.5596,
+    "dc_1x": 0.7065,
+    "dc_x2": 0.5228,
+    "dc_12": 0.7708
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0994
+    ],
+    [
+     "2-1",
+     0.0914
+    ],
+    [
+     "1-2",
+     0.0702
+    ]
+   ],
+   "market": {
+    "home": 0.4656,
+    "draw": 0.239,
+    "away": 0.2954,
+    "over25": 0.6706
+   },
+   "odds": {
+    "home": 2.02,
+    "draw": 3.73,
+    "away": 3.07,
+    "over25": 1.42,
+    "under25": 2.65
+   },
+   "team_matches": [
+    10,
+    100
+   ],
+   "flags": [
+    "Heidenheim relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "D2|2026-11-08|Magdeburg|St Pauli",
+   "league": "D2",
+   "league_name": "Germany · 2. Bundesliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T12:30:00+00:00",
+   "home": "Magdeburg",
+   "away": "St Pauli",
+   "expected_goals": [
+    1.6,
+    1.44
+   ],
+   "model_expected_goals": [
+    1.62,
+    1.36
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.4113,
+    "draw": 0.2487,
+    "away": 0.3401,
+    "over25": 0.5864,
+    "under25": 0.4136,
+    "btts": 0.6138,
+    "btts_over25": 0.4994,
+    "dc_1x": 0.6599,
+    "dc_x2": 0.5887,
+    "dc_12": 0.7513
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1143
+    ],
+    [
+     "2-1",
+     0.0882
+    ],
+    [
+     "1-2",
+     0.0793
+    ]
+   ],
+   "market": {
+    "home": 0.4038,
+    "draw": 0.2557,
+    "away": 0.3405,
+    "over25": 0.5888
+   },
+   "odds": {
+    "home": 2.3,
+    "draw": 3.5,
+    "away": 2.69,
+    "over25": 1.6,
+    "under25": 2.2
+   },
+   "team_matches": [
+    100,
+    32
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "DNK|2026-11-08|Aarhus|Horsens",
+   "league": "DNK",
+   "league_name": "Denmark · Superliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:00:00+00:00",
+   "home": "Aarhus",
+   "away": "Horsens",
+   "expected_goals": [
+    2.09,
+    1.07
+   ],
+   "model_expected_goals": [
+    1.96,
+    1.2
+   ],
+   "rho": -0.1045,
+   "probabilities": {
+    "home": 0.5996,
+    "draw": 0.2249,
+    "away": 0.1755,
+    "over25": 0.6118,
+    "under25": 0.3882,
+    "btts": 0.585,
+    "btts_over25": 0.4804,
+    "dc_1x": 0.8245,
+    "dc_x2": 0.4004,
+    "dc_12": 0.7751
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1046
+    ],
+    [
+     "2-1",
+     0.0992
+    ],
+    [
+     "2-0",
+     0.0929
+    ]
+   ],
+   "market": {
+    "home": 0.6163,
+    "draw": 0.2093,
+    "away": 0.1744,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.55,
+    "draw": 4.12,
+    "away": 4.86,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    95,
+    13
+   ],
+   "flags": [
+    "Horsens new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "FIN|2026-11-08|Gnistan|VPS",
+   "league": "FIN",
+   "league_name": "Finland · Veikkausliiga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:00:00+00:00",
+   "home": "Gnistan",
+   "away": "VPS",
+   "expected_goals": [
+    1.61,
+    1.23
+   ],
+   "model_expected_goals": [
+    1.6,
+    1.24
+   ],
+   "rho": -0.0135,
+   "probabilities": {
+    "home": 0.4626,
+    "draw": 0.2486,
+    "away": 0.2888,
+    "over25": 0.54,
+    "under25": 0.46,
+    "btts": 0.5674,
+    "btts_over25": 0.4503,
+    "dc_1x": 0.7112,
+    "dc_x2": 0.5374,
+    "dc_12": 0.7514
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1172
+    ],
+    [
+     "2-1",
+     0.0933
+    ],
+    [
+     "1-0",
+     0.0927
+    ]
+   ],
+   "market": {
+    "home": 0.4677,
+    "draw": 0.2411,
+    "away": 0.2913,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.0,
+    "draw": 3.66,
+    "away": 3.08,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    92,
+    86
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "FIN|2026-11-08|HJK|AC Oulu",
+   "league": "FIN",
+   "league_name": "Finland · Veikkausliiga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:00:00+00:00",
+   "home": "HJK",
+   "away": "AC Oulu",
+   "expected_goals": [
+    2.64,
+    0.5
+   ],
+   "model_expected_goals": [
+    2.07,
+    1.13
+   ],
+   "rho": -0.0135,
+   "probabilities": {
+    "home": 0.8267,
+    "draw": 0.1244,
+    "away": 0.0489,
+    "over25": 0.6079,
+    "under25": 0.3921,
+    "btts": 0.3685,
+    "btts_over25": 0.3103,
+    "dc_1x": 0.9511,
+    "dc_x2": 0.1733,
+    "dc_12": 0.8756
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1503
+    ],
+    [
+     "3-0",
+     0.1321
+    ],
+    [
+     "1-0",
+     0.1132
+    ]
+   ],
+   "market": {
+    "home": 0.8638,
+    "draw": 0.0888,
+    "away": 0.0473,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.13,
+    "draw": 7.55,
+    "away": 12.78,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    90,
+    85
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "FIN|2026-11-08|KuPS|Inter Turku",
+   "league": "FIN",
+   "league_name": "Finland · Veikkausliiga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:00:00+00:00",
+   "home": "KuPS",
+   "away": "Inter Turku",
+   "expected_goals": [
+    0.96,
+    1.45
+   ],
+   "model_expected_goals": [
+    1.35,
+    1.08
+   ],
+   "rho": -0.0135,
+   "probabilities": {
+    "home": 0.2479,
+    "draw": 0.2688,
+    "away": 0.4833,
+    "over25": 0.4337,
+    "under25": 0.5663,
+    "btts": 0.4746,
+    "btts_over25": 0.348,
+    "dc_1x": 0.5167,
+    "dc_x2": 0.7521,
+    "dc_12": 0.7312
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.1284
+    ],
+    [
+     "1-1",
+     0.1266
+    ],
+    [
+     "0-2",
+     0.0944
+    ]
+   ],
+   "market": {
+    "home": 0.234,
+    "draw": 0.2361,
+    "away": 0.53,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.74,
+    "draw": 3.71,
+    "away": 1.78,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    90,
+    91
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SP1|2026-11-08|Elche|Betis",
+   "league": "SP1",
+   "league_name": "Spain · La Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:00:00+00:00",
+   "home": "Elche",
+   "away": "Betis",
+   "expected_goals": [
+    1.34,
+    1.66
+   ],
+   "model_expected_goals": [
+    1.49,
+    1.38
+   ],
+   "rho": -0.0181,
+   "probabilities": {
+    "home": 0.3095,
+    "draw": 0.2437,
+    "away": 0.4469,
+    "over25": 0.5774,
+    "under25": 0.4226,
+    "btts": 0.6005,
+    "btts_over25": 0.4878,
+    "dc_1x": 0.5531,
+    "dc_x2": 0.6905,
+    "dc_12": 0.7563
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1127
+    ],
+    [
+     "1-2",
+     0.0918
+    ],
+    [
+     "0-1",
+     0.0803
+    ]
+   ],
+   "market": {
+    "home": 0.2887,
+    "draw": 0.2516,
+    "away": 0.4597,
+    "over25": 0.5844
+   },
+   "odds": {
+    "home": 3.2,
+    "draw": 3.64,
+    "away": 2.07,
+    "over25": 1.62,
+    "under25": 2.2
+   },
+   "team_matches": [
+    49,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SWE|2026-11-08|Goteborg|Malmo FF",
+   "league": "SWE",
+   "league_name": "Sweden · Allsvenskan",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:00:00+00:00",
+   "home": "Goteborg",
+   "away": "Malmo FF",
+   "expected_goals": [
+    1.41,
+    1.32
+   ],
+   "model_expected_goals": [
+    1.29,
+    1.43
+   ],
+   "rho": -0.0005,
+   "probabilities": {
+    "home": 0.3926,
+    "draw": 0.2566,
+    "away": 0.3507,
+    "over25": 0.5123,
+    "under25": 0.4877,
+    "btts": 0.5529,
+    "btts_over25": 0.4313,
+    "dc_1x": 0.6493,
+    "dc_x2": 0.6074,
+    "dc_12": 0.7434
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1216
+    ],
+    [
+     "1-0",
+     0.0923
+    ],
+    [
+     "0-1",
+     0.0863
+    ]
+   ],
+   "market": {
+    "home": 0.4012,
+    "draw": 0.2584,
+    "away": 0.3403,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.32,
+    "draw": 3.48,
+    "away": 2.7,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SWE|2026-11-08|Halmstad|Djurgarden",
+   "league": "SWE",
+   "league_name": "Sweden · Allsvenskan",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:00:00+00:00",
+   "home": "Halmstad",
+   "away": "Djurgarden",
+   "expected_goals": [
+    0.68,
+    2.03
+   ],
+   "model_expected_goals": [
+    0.91,
+    1.8
+   ],
+   "rho": -0.0005,
+   "probabilities": {
+    "home": 0.1147,
+    "draw": 0.196,
+    "away": 0.6893,
+    "over25": 0.5085,
+    "under25": 0.4915,
+    "btts": 0.4293,
+    "btts_over25": 0.3372,
+    "dc_1x": 0.3107,
+    "dc_x2": 0.8853,
+    "dc_12": 0.804
+   },
+   "top_scores": [
+    [
+     "0-2",
+     0.1368
+    ],
+    [
+     "0-1",
+     0.135
+    ],
+    [
+     "1-2",
+     0.0933
+    ]
+   ],
+   "market": {
+    "home": 0.1146,
+    "draw": 0.1693,
+    "away": 0.716,
+    "over25": null
+   },
+   "odds": {
+    "home": 7.0,
+    "draw": 4.93,
+    "away": 1.35,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SWZ|2026-11-08|St. Gallen|Lugano",
+   "league": "SWZ",
+   "league_name": "Switzerland · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:00:00+00:00",
+   "home": "St. Gallen",
+   "away": "Lugano",
+   "expected_goals": [
+    1.52,
+    1.39
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.49
+   ],
+   "rho": -0.0236,
+   "probabilities": {
+    "home": 0.4031,
+    "draw": 0.252,
+    "away": 0.3449,
+    "over25": 0.5568,
+    "under25": 0.4432,
+    "btts": 0.5898,
+    "btts_over25": 0.472,
+    "dc_1x": 0.6551,
+    "dc_x2": 0.5969,
+    "dc_12": 0.748
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1177
+    ],
+    [
+     "2-1",
+     0.0875
+    ],
+    [
+     "1-0",
+     0.08
+    ]
+   ],
+   "market": {
+    "home": 0.4166,
+    "draw": 0.2397,
+    "away": 0.3437,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.23,
+    "draw": 3.7,
+    "away": 2.66,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    113,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "T1|2026-11-08|Corum|Fenerbahce",
+   "league": "T1",
+   "league_name": "Turkey · Süper Lig",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:00:00+00:00",
+   "home": "Corum",
+   "away": "Fenerbahce",
+   "expected_goals": [
+    1.17,
+    1.95
+   ],
+   "model_expected_goals": [
+    1.3,
+    1.97
+   ],
+   "rho": -0.0883,
+   "probabilities": {
+    "home": 0.2168,
+    "draw": 0.2367,
+    "away": 0.5464,
+    "over25": 0.6043,
+    "under25": 0.3957,
+    "btts": 0.6013,
+    "btts_over25": 0.4918,
+    "dc_1x": 0.4536,
+    "dc_x2": 0.7832,
+    "dc_12": 0.7633
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1094
+    ],
+    [
+     "1-2",
+     0.0982
+    ],
+    [
+     "0-2",
+     0.0838
+    ]
+   ],
+   "market": {
+    "home": 0.2154,
+    "draw": 0.2315,
+    "away": 0.5531,
+    "over25": 0.599
+   },
+   "odds": {
+    "home": 4.08,
+    "draw": 3.82,
+    "away": 1.72,
+    "over25": 1.58,
+    "under25": 2.26
+   },
+   "team_matches": [
+    10,
+    107
+   ],
+   "flags": [
+    "Corum new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "AUT|2026-11-08|Hartberg|Altach",
+   "league": "AUT",
+   "league_name": "Austria · Bundesliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:30:00+00:00",
+   "home": "Hartberg",
+   "away": "Altach",
+   "expected_goals": [
+    1.35,
+    1.21
+   ],
+   "model_expected_goals": [
+    1.53,
+    1.04
+   ],
+   "rho": -0.1163,
+   "probabilities": {
+    "home": 0.3838,
+    "draw": 0.2948,
+    "away": 0.3214,
+    "over25": 0.4721,
+    "under25": 0.5279,
+    "btts": 0.5352,
+    "btts_over25": 0.3943,
+    "dc_1x": 0.6786,
+    "dc_x2": 0.6162,
+    "dc_12": 0.7052
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1409
+    ],
+    [
+     "0-0",
+     0.0918
+    ],
+    [
+     "1-0",
+     0.0892
+    ]
+   ],
+   "market": {
+    "home": 0.3837,
+    "draw": 0.2646,
+    "away": 0.3518,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.41,
+    "draw": 3.39,
+    "away": 2.61,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    96,
+    94
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "AUT|2026-11-08|Tirol|Austria Vienna",
+   "league": "AUT",
+   "league_name": "Austria · Bundesliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:30:00+00:00",
+   "home": "Tirol",
+   "away": "Austria Vienna",
+   "expected_goals": [
+    1.38,
+    1.38
+   ],
+   "model_expected_goals": [
+    1.44,
+    1.32
+   ],
+   "rho": -0.1163,
+   "probabilities": {
+    "home": 0.359,
+    "draw": 0.2833,
+    "away": 0.3577,
+    "over25": 0.5194,
+    "under25": 0.4806,
+    "btts": 0.5729,
+    "btts_over25": 0.4382,
+    "dc_1x": 0.6423,
+    "dc_x2": 0.641,
+    "dc_12": 0.7167
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1348
+    ],
+    [
+     "2-1",
+     0.0832
+    ],
+    [
+     "1-2",
+     0.083
+    ]
+   ],
+   "market": {
+    "home": 0.3635,
+    "draw": 0.265,
+    "away": 0.3715,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.53,
+    "draw": 3.38,
+    "away": 2.48,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    94,
+    97
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "N1|2026-11-08|Twente|Ajax",
+   "league": "N1",
+   "league_name": "Netherlands · Eredivisie",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:30:00+00:00",
+   "home": "Twente",
+   "away": "Ajax",
+   "expected_goals": [
+    1.81,
+    1.59
+   ],
+   "model_expected_goals": [
+    1.72,
+    1.44
+   ],
+   "rho": -0.0597,
+   "probabilities": {
+    "home": 0.427,
+    "draw": 0.2366,
+    "away": 0.3363,
+    "over25": 0.66,
+    "under25": 0.34,
+    "btts": 0.6714,
+    "btts_over25": 0.5696,
+    "dc_1x": 0.6637,
+    "dc_x2": 0.573,
+    "dc_12": 0.7634
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1018
+    ],
+    [
+     "2-1",
+     0.0869
+    ],
+    [
+     "1-2",
+     0.0764
+    ]
+   ],
+   "market": {
+    "home": 0.4231,
+    "draw": 0.2389,
+    "away": 0.338,
+    "over25": 0.6687
+   },
+   "odds": {
+    "home": 2.23,
+    "draw": 3.8,
+    "away": 2.75,
+    "over25": 1.43,
+    "under25": 2.67
+   },
+   "team_matches": [
+    102,
+    103
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "NOR|2026-11-08|Tromso|Bodo/Glimt",
+   "league": "NOR",
+   "league_name": "Norway · Eliteserien",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:30:00+00:00",
+   "home": "Tromso",
+   "away": "Bodo/Glimt",
+   "expected_goals": [
+    0.88,
+    2.28
+   ],
+   "model_expected_goals": [
+    1.39,
+    1.81
+   ],
+   "rho": 0.0042,
+   "probabilities": {
+    "home": 0.1305,
+    "draw": 0.1803,
+    "away": 0.6893,
+    "over25": 0.6129,
+    "under25": 0.3871,
+    "btts": 0.5262,
+    "btts_over25": 0.4416,
+    "dc_1x": 0.3107,
+    "dc_x2": 0.8695,
+    "dc_12": 0.8197
+   },
+   "top_scores": [
+    [
+     "0-2",
+     0.1099
+    ],
+    [
+     "1-2",
+     0.097
+    ],
+    [
+     "0-1",
+     0.0967
+    ]
+   ],
+   "market": {
+    "home": 0.1147,
+    "draw": 0.1596,
+    "away": 0.7258,
+    "over25": null
+   },
+   "odds": {
+    "home": 6.87,
+    "draw": 5.12,
+    "away": 1.33,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "POL|2026-11-08|Jagiellonia|GKS Katowice",
+   "league": "POL",
+   "league_name": "Poland · Ekstraklasa",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T13:45:00+00:00",
+   "home": "Jagiellonia",
+   "away": "GKS Katowice",
+   "expected_goals": [
+    1.64,
+    1.35
+   ],
+   "model_expected_goals": [
+    1.72,
+    1.27
+   ],
+   "rho": -0.1049,
+   "probabilities": {
+    "home": 0.4322,
+    "draw": 0.264,
+    "away": 0.3038,
+    "over25": 0.5746,
+    "under25": 0.4254,
+    "btts": 0.6087,
+    "btts_over25": 0.4857,
+    "dc_1x": 0.6962,
+    "dc_x2": 0.5678,
+    "dc_12": 0.736
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.123
+    ],
+    [
+     "2-1",
+     0.0913
+    ],
+    [
+     "1-2",
+     0.0751
+    ]
+   ],
+   "market": {
+    "home": 0.4395,
+    "draw": 0.2376,
+    "away": 0.3229,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.12,
+    "draw": 3.72,
+    "away": 2.81,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    100,
+    81
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "E0|2026-11-08|Brighton|Brentford",
+   "league": "E0",
+   "league_name": "England · Premier League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:00:00+00:00",
+   "home": "Brighton",
+   "away": "Brentford",
+   "expected_goals": [
+    1.82,
+    1.27
+   ],
+   "model_expected_goals": [
+    1.65,
+    1.28
+   ],
+   "rho": -0.0683,
+   "probabilities": {
+    "home": 0.4959,
+    "draw": 0.2436,
+    "away": 0.2605,
+    "over25": 0.5982,
+    "under25": 0.4018,
+    "btts": 0.6111,
+    "btts_over25": 0.499,
+    "dc_1x": 0.7395,
+    "dc_x2": 0.5041,
+    "dc_12": 0.7564
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1121
+    ],
+    [
+     "2-1",
+     0.0957
+    ],
+    [
+     "1-0",
+     0.0752
+    ]
+   ],
+   "market": {
+    "home": 0.5044,
+    "draw": 0.2396,
+    "away": 0.256,
+    "over25": 0.6048
+   },
+   "odds": {
+    "home": 1.9,
+    "draw": 3.82,
+    "away": 3.59,
+    "over25": 1.57,
+    "under25": 2.3
+   },
+   "team_matches": [
+    112,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "E0|2026-11-08|Crystal Palace|Liverpool",
+   "league": "E0",
+   "league_name": "England · Premier League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:00:00+00:00",
+   "home": "Crystal Palace",
+   "away": "Liverpool",
+   "expected_goals": [
+    1.09,
+    2.05
+   ],
+   "model_expected_goals": [
+    1.29,
+    1.61
+   ],
+   "rho": -0.0683,
+   "probabilities": {
+    "home": 0.1882,
+    "draw": 0.2227,
+    "away": 0.5891,
+    "over25": 0.6067,
+    "under25": 0.3933,
+    "btts": 0.584,
+    "btts_over25": 0.4806,
+    "dc_1x": 0.4109,
+    "dc_x2": 0.8118,
+    "dc_12": 0.7773
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1034
+    ],
+    [
+     "1-2",
+     0.0992
+    ],
+    [
+     "0-2",
+     0.0912
+    ]
+   ],
+   "market": {
+    "home": 0.1725,
+    "draw": 0.2109,
+    "away": 0.6166,
+    "over25": 0.6187
+   },
+   "odds": {
+    "home": 5.15,
+    "draw": 4.27,
+    "away": 1.57,
+    "over25": 1.54,
+    "under25": 2.38
+   },
+   "team_matches": [
+    112,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "E0|2026-11-08|Ipswich|Bournemouth",
+   "league": "E0",
+   "league_name": "England · Premier League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:00:00+00:00",
+   "home": "Ipswich",
+   "away": "Bournemouth",
+   "expected_goals": [
+    1.2,
+    1.76
+   ],
+   "model_expected_goals": [
+    1.34,
+    1.67
+   ],
+   "rho": -0.0683,
+   "probabilities": {
+    "home": 0.2543,
+    "draw": 0.2499,
+    "away": 0.4958,
+    "over25": 0.5673,
+    "under25": 0.4327,
+    "btts": 0.5862,
+    "btts_over25": 0.469,
+    "dc_1x": 0.5042,
+    "dc_x2": 0.7457,
+    "dc_12": 0.7501
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1171
+    ],
+    [
+     "1-2",
+     0.0962
+    ],
+    [
+     "0-1",
+     0.0837
+    ]
+   ],
+   "market": {
+    "home": 0.2466,
+    "draw": 0.2488,
+    "away": 0.5046,
+    "over25": 0.5658
+   },
+   "odds": {
+    "home": 3.72,
+    "draw": 3.69,
+    "away": 1.9,
+    "over25": 1.67,
+    "under25": 2.12
+   },
+   "team_matches": [
+    47,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "E0|2026-11-08|Sunderland|Chelsea",
+   "league": "E0",
+   "league_name": "England · Premier League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:00:00+00:00",
+   "home": "Sunderland",
+   "away": "Chelsea",
+   "expected_goals": [
+    1.15,
+    1.63
+   ],
+   "model_expected_goals": [
+    1.34,
+    1.42
+   ],
+   "rho": -0.0683,
+   "probabilities": {
+    "home": 0.2615,
+    "draw": 0.2611,
+    "away": 0.4774,
+    "over25": 0.5275,
+    "under25": 0.4725,
+    "btts": 0.5588,
+    "btts_over25": 0.4348,
+    "dc_1x": 0.5226,
+    "dc_x2": 0.7385,
+    "dc_12": 0.7389
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.124
+    ],
+    [
+     "1-2",
+     0.0948
+    ],
+    [
+     "0-1",
+     0.0927
+    ]
+   ],
+   "market": {
+    "home": 0.2491,
+    "draw": 0.255,
+    "away": 0.4959,
+    "over25": 0.5297
+   },
+   "odds": {
+    "home": 3.68,
+    "draw": 3.6,
+    "away": 1.93,
+    "over25": 1.77,
+    "under25": 1.97
+   },
+   "team_matches": [
+    47,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "F1|2026-11-08|Rennes|Lille",
+   "league": "F1",
+   "league_name": "France · Ligue 1",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:00:00+00:00",
+   "home": "Rennes",
+   "away": "Lille",
+   "expected_goals": [
+    1.7,
+    1.38
+   ],
+   "model_expected_goals": [
+    1.51,
+    1.39
+   ],
+   "rho": -0.0364,
+   "probabilities": {
+    "home": 0.4466,
+    "draw": 0.2442,
+    "away": 0.3092,
+    "over25": 0.5937,
+    "under25": 0.4063,
+    "btts": 0.6151,
+    "btts_over25": 0.5032,
+    "dc_1x": 0.6908,
+    "dc_x2": 0.5534,
+    "dc_12": 0.7558
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1119
+    ],
+    [
+     "2-1",
+     0.0916
+    ],
+    [
+     "1-2",
+     0.0745
+    ]
+   ],
+   "market": {
+    "home": 0.4501,
+    "draw": 0.2527,
+    "away": 0.2972,
+    "over25": 0.6007
+   },
+   "odds": {
+    "home": 2.11,
+    "draw": 3.62,
+    "away": 3.11,
+    "over25": 1.58,
+    "under25": 2.28
+   },
+   "team_matches": [
+    100,
+    100
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "I1|2026-11-08|Genoa|Milan",
+   "league": "I1",
+   "league_name": "Italy · Serie A",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:00:00+00:00",
+   "home": "Genoa",
+   "away": "Milan",
+   "expected_goals": [
+    0.91,
+    1.57
+   ],
+   "model_expected_goals": [
+    1.08,
+    1.42
+   ],
+   "rho": -0.0048,
+   "probabilities": {
+    "home": 0.2192,
+    "draw": 0.255,
+    "away": 0.5257,
+    "over25": 0.4512,
+    "under25": 0.5488,
+    "btts": 0.4746,
+    "btts_over25": 0.3542,
+    "dc_1x": 0.4743,
+    "dc_x2": 0.7808,
+    "dc_12": 0.745
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.1306
+    ],
+    [
+     "1-1",
+     0.1204
+    ],
+    [
+     "0-2",
+     0.1027
+    ]
+   ],
+   "market": {
+    "home": 0.203,
+    "draw": 0.2632,
+    "away": 0.5338,
+    "over25": 0.4516
+   },
+   "odds": {
+    "home": 4.45,
+    "draw": 3.49,
+    "away": 1.8,
+    "over25": 2.05,
+    "under25": 1.72
+   },
+   "team_matches": [
+    113,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "I1|2026-11-08|Monza|Atalanta",
+   "league": "I1",
+   "league_name": "Italy · Serie A",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:00:00+00:00",
+   "home": "Monza",
+   "away": "Atalanta",
+   "expected_goals": [
+    1.36,
+    1.79
+   ],
+   "model_expected_goals": [
+    1.19,
+    1.75
+   ],
+   "rho": -0.0048,
+   "probabilities": {
+    "home": 0.2913,
+    "draw": 0.2314,
+    "away": 0.4773,
+    "over25": 0.6102,
+    "under25": 0.3898,
+    "btts": 0.62,
+    "btts_over25": 0.5153,
+    "dc_1x": 0.5227,
+    "dc_x2": 0.7087,
+    "dc_12": 0.7686
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1047
+    ],
+    [
+     "1-2",
+     0.0934
+    ],
+    [
+     "0-1",
+     0.0762
+    ]
+   ],
+   "market": {
+    "home": 0.289,
+    "draw": 0.2466,
+    "away": 0.4644,
+    "over25": 0.6187
+   },
+   "odds": {
+    "home": 3.22,
+    "draw": 3.74,
+    "away": 2.06,
+    "over25": 1.54,
+    "under25": 2.38
+   },
+   "team_matches": [
+    75,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "I2|2026-11-08|Virtus Entella|Modena",
+   "league": "I2",
+   "league_name": "Italy · Serie B",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:00:00+00:00",
+   "home": "Virtus Entella",
+   "away": "Modena",
+   "expected_goals": [
+    1.16,
+    1.28
+   ],
+   "model_expected_goals": [
+    1.13,
+    1.12
+   ],
+   "rho": -0.1144,
+   "probabilities": {
+    "home": 0.3186,
+    "draw": 0.3031,
+    "away": 0.3783,
+    "over25": 0.44,
+    "under25": 0.56,
+    "btts": 0.5098,
+    "btts_over25": 0.3655,
+    "dc_1x": 0.6217,
+    "dc_x2": 0.6814,
+    "dc_12": 0.6969
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1443
+    ],
+    [
+     "0-0",
+     0.1022
+    ],
+    [
+     "0-1",
+     0.0971
+    ]
+   ],
+   "market": {
+    "home": 0.3205,
+    "draw": 0.2873,
+    "away": 0.3922,
+    "over25": 0.449
+   },
+   "odds": {
+    "home": 2.84,
+    "draw": 3.14,
+    "away": 2.36,
+    "over25": 2.04,
+    "under25": 1.7
+   },
+   "team_matches": [
+    48,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "ROU|2026-11-08|Sepsi Sf. Gheorghe|FC Voluntari",
+   "league": "ROU",
+   "league_name": "Romania · Superliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:00:00+00:00",
+   "home": "Sepsi Sf. Gheorghe",
+   "away": "FC Voluntari",
+   "expected_goals": [
+    1.56,
+    1.12
+   ],
+   "model_expected_goals": [
+    1.64,
+    1.04
+   ],
+   "rho": -0.01,
+   "probabilities": {
+    "home": 0.4737,
+    "draw": 0.2544,
+    "away": 0.272,
+    "over25": 0.5018,
+    "under25": 0.4982,
+    "btts": 0.5336,
+    "btts_over25": 0.4127,
+    "dc_1x": 0.728,
+    "dc_x2": 0.5263,
+    "dc_12": 0.7456
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.121
+    ],
+    [
+     "1-0",
+     0.1057
+    ],
+    [
+     "2-1",
+     0.0934
+    ]
+   ],
+   "market": {
+    "home": 0.4594,
+    "draw": 0.2694,
+    "away": 0.2712,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.03,
+    "draw": 3.3,
+    "away": 3.28,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    78,
+    40
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "D1|2026-11-08|FC Koln|Leverkusen",
+   "league": "D1",
+   "league_name": "Germany · Bundesliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T14:30:00+00:00",
+   "home": "FC Koln",
+   "away": "Leverkusen",
+   "expected_goals": [
+    1.41,
+    2.1
+   ],
+   "model_expected_goals": [
+    1.45,
+    1.8
+   ],
+   "rho": -0.0705,
+   "probabilities": {
+    "home": 0.249,
+    "draw": 0.2222,
+    "away": 0.5288,
+    "over25": 0.6815,
+    "under25": 0.3185,
+    "btts": 0.6697,
+    "btts_over25": 0.5751,
+    "dc_1x": 0.4712,
+    "dc_x2": 0.751,
+    "dc_12": 0.7778
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0946
+    ],
+    [
+     "1-2",
+     0.093
+    ],
+    [
+     "0-2",
+     0.066
+    ]
+   ],
+   "market": {
+    "home": 0.236,
+    "draw": 0.2247,
+    "away": 0.5392,
+    "over25": 0.6911
+   },
+   "odds": {
+    "home": 3.85,
+    "draw": 4.03,
+    "away": 1.78,
+    "over25": 1.39,
+    "under25": 2.85
+   },
+   "team_matches": [
+    66,
+    100
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "B1|2026-11-08|Gent|Kortrijk",
+   "league": "B1",
+   "league_name": "Belgium · Pro League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:00:00+00:00",
+   "home": "Gent",
+   "away": "Kortrijk",
+   "expected_goals": [
+    2.06,
+    0.83
+   ],
+   "model_expected_goals": [
+    1.79,
+    1.01
+   ],
+   "rho": -0.0435,
+   "probabilities": {
+    "home": 0.6549,
+    "draw": 0.2084,
+    "away": 0.1367,
+    "over25": 0.5499,
+    "under25": 0.4501,
+    "btts": 0.4947,
+    "btts_over25": 0.3953,
+    "dc_1x": 0.8633,
+    "dc_x2": 0.3451,
+    "dc_12": 0.7916
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1183
+    ],
+    [
+     "1-0",
+     0.111
+    ],
+    [
+     "1-1",
+     0.0993
+    ]
+   ],
+   "market": {
+    "home": 0.6743,
+    "draw": 0.197,
+    "away": 0.1287,
+    "over25": 0.5553
+   },
+   "odds": {
+    "home": 1.43,
+    "draw": 4.37,
+    "away": 6.43,
+    "over25": 1.69,
+    "under25": 2.06
+   },
+   "team_matches": [
+    118,
+    69
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "DNK|2026-11-08|Randers FC|Nordsjaelland",
+   "league": "DNK",
+   "league_name": "Denmark · Superliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:00:00+00:00",
+   "home": "Randers FC",
+   "away": "Nordsjaelland",
+   "expected_goals": [
+    1.04,
+    1.77
+   ],
+   "model_expected_goals": [
+    1.36,
+    1.47
+   ],
+   "rho": -0.1045,
+   "probabilities": {
+    "home": 0.2104,
+    "draw": 0.2566,
+    "away": 0.533,
+    "over25": 0.5348,
+    "under25": 0.4652,
+    "btts": 0.5497,
+    "btts_over25": 0.4275,
+    "dc_1x": 0.467,
+    "dc_x2": 0.7896,
+    "dc_12": 0.7434
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1222
+    ],
+    [
+     "1-2",
+     0.0981
+    ],
+    [
+     "0-1",
+     0.0944
+    ]
+   ],
+   "market": {
+    "home": 0.2099,
+    "draw": 0.2127,
+    "away": 0.5773,
+    "over25": null
+   },
+   "odds": {
+    "home": 4.15,
+    "draw": 4.1,
+    "away": 1.65,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    96,
+    95
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "G1|2026-11-08|AEK|Levadeiakos",
+   "league": "G1",
+   "league_name": "Greece · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:00:00+00:00",
+   "home": "AEK",
+   "away": "Levadeiakos",
+   "expected_goals": [
+    2.46,
+    0.52
+   ],
+   "model_expected_goals": [
+    1.94,
+    0.91
+   ],
+   "rho": -0.1298,
+   "probabilities": {
+    "home": 0.791,
+    "draw": 0.1574,
+    "away": 0.0516,
+    "over25": 0.572,
+    "under25": 0.428,
+    "btts": 0.3809,
+    "btts_over25": 0.307,
+    "dc_1x": 0.9484,
+    "dc_x2": 0.209,
+    "dc_12": 0.8426
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1533
+    ],
+    [
+     "3-0",
+     0.1255
+    ],
+    [
+     "1-0",
+     0.1164
+    ]
+   ],
+   "market": {
+    "home": 0.8245,
+    "draw": 0.1262,
+    "away": 0.0493,
+    "over25": 0.5846
+   },
+   "odds": {
+    "home": 1.18,
+    "draw": 5.9,
+    "away": 13.2,
+    "over25": 1.61,
+    "under25": 2.18
+   },
+   "team_matches": [
+    98,
+    76
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "G1|2026-11-08|Asteras Tripolis|Kalamata",
+   "league": "G1",
+   "league_name": "Greece · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:00:00+00:00",
+   "home": "Asteras Tripolis",
+   "away": "Kalamata",
+   "expected_goals": [
+    1.51,
+    1.04
+   ],
+   "model_expected_goals": [
+    1.56,
+    1.13
+   ],
+   "rho": -0.1298,
+   "probabilities": {
+    "home": 0.4631,
+    "draw": 0.2904,
+    "away": 0.2465,
+    "over25": 0.4684,
+    "under25": 0.5316,
+    "btts": 0.5197,
+    "btts_over25": 0.381,
+    "dc_1x": 0.7535,
+    "dc_x2": 0.5369,
+    "dc_12": 0.7096
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1387
+    ],
+    [
+     "1-0",
+     0.1018
+    ],
+    [
+     "0-0",
+     0.0942
+    ]
+   ],
+   "market": {
+    "home": 0.4751,
+    "draw": 0.2697,
+    "away": 0.2552,
+    "over25": 0.4625
+   },
+   "odds": {
+    "home": 1.97,
+    "draw": 3.3,
+    "away": 3.47,
+    "over25": 1.99,
+    "under25": 1.74
+   },
+   "team_matches": [
+    100,
+    9
+   ],
+   "flags": [
+    "Kalamata new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SC0|2026-11-08|Hearts|Falkirk",
+   "league": "SC0",
+   "league_name": "Scotland · Premiership",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:00:00+00:00",
+   "home": "Hearts",
+   "away": "Falkirk",
+   "expected_goals": [
+    2.12,
+    1.05
+   ],
+   "model_expected_goals": [
+    1.84,
+    1.0
+   ],
+   "rho": 0.0178,
+   "probabilities": {
+    "home": 0.6212,
+    "draw": 0.1989,
+    "away": 0.1799,
+    "over25": 0.6131,
+    "under25": 0.3869,
+    "btts": 0.5694,
+    "btts_over25": 0.4775,
+    "dc_1x": 0.8201,
+    "dc_x2": 0.3788,
+    "dc_12": 0.8011
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0991
+    ],
+    [
+     "2-0",
+     0.0947
+    ],
+    [
+     "1-1",
+     0.0918
+    ]
+   ],
+   "market": {
+    "home": 0.6255,
+    "draw": 0.2034,
+    "away": 0.171,
+    "over25": 0.6261
+   },
+   "odds": {
+    "home": 1.54,
+    "draw": 4.33,
+    "away": 5.08,
+    "over25": 1.52,
+    "under25": 2.41
+   },
+   "team_matches": [
+    114,
+    50
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SP1|2026-11-08|Sociedad|Vallecano",
+   "league": "SP1",
+   "league_name": "Spain · La Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:15:00+00:00",
+   "home": "Sociedad",
+   "away": "Vallecano",
+   "expected_goals": [
+    1.96,
+    1.12
+   ],
+   "model_expected_goals": [
+    1.54,
+    1.11
+   ],
+   "rho": -0.0181,
+   "probabilities": {
+    "home": 0.5656,
+    "draw": 0.2216,
+    "away": 0.2128,
+    "over25": 0.595,
+    "under25": 0.405,
+    "btts": 0.5817,
+    "btts_over25": 0.4789,
+    "dc_1x": 0.7872,
+    "dc_x2": 0.4344,
+    "dc_12": 0.7784
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1028
+    ],
+    [
+     "2-1",
+     0.0988
+    ],
+    [
+     "1-0",
+     0.088
+    ]
+   ],
+   "market": {
+    "home": 0.5804,
+    "draw": 0.2205,
+    "away": 0.199,
+    "over25": 0.6138
+   },
+   "odds": {
+    "home": 1.66,
+    "draw": 4.09,
+    "away": 4.5,
+    "over25": 1.55,
+    "under25": 2.35
+   },
+   "team_matches": [
+    113,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SP2|2026-11-08|Girona|Almeria",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:15:00+00:00",
+   "home": "Girona",
+   "away": "Almeria",
+   "expected_goals": [
+    1.65,
+    1.2
+   ],
+   "model_expected_goals": [
+    1.76,
+    1.24
+   ],
+   "rho": -0.0082,
+   "probabilities": {
+    "home": 0.4777,
+    "draw": 0.2447,
+    "away": 0.2776,
+    "over25": 0.5445,
+    "under25": 0.4555,
+    "btts": 0.5673,
+    "btts_over25": 0.4521,
+    "dc_1x": 0.7224,
+    "dc_x2": 0.5223,
+    "dc_12": 0.7553
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1152
+    ],
+    [
+     "2-1",
+     0.0945
+    ],
+    [
+     "1-0",
+     0.0939
+    ]
+   ],
+   "market": {
+    "home": 0.4677,
+    "draw": 0.2606,
+    "away": 0.2717,
+    "over25": 0.5388
+   },
+   "odds": {
+    "home": 2.01,
+    "draw": 3.44,
+    "away": 3.31,
+    "over25": 1.74,
+    "under25": 2.0
+   },
+   "team_matches": [
+    12,
+    96
+   ],
+   "flags": [
+    "Girona relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "G1|2026-11-08|Iraklis|Panathinaikos",
+   "league": "G1",
+   "league_name": "Greece · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:30:00+00:00",
+   "home": "Iraklis",
+   "away": "Panathinaikos",
+   "expected_goals": [
+    0.74,
+    2.12
+   ],
+   "model_expected_goals": [
+    0.98,
+    1.54
+   ],
+   "rho": -0.1298,
+   "probabilities": {
+    "home": 0.1058,
+    "draw": 0.2126,
+    "away": 0.6815,
+    "over25": 0.5428,
+    "under25": 0.4572,
+    "btts": 0.4697,
+    "btts_over25": 0.3681,
+    "dc_1x": 0.3185,
+    "dc_x2": 0.8942,
+    "dc_12": 0.7874
+   },
+   "top_scores": [
+    [
+     "0-2",
+     0.1293
+    ],
+    [
+     "0-1",
+     0.1105
+    ],
+    [
+     "1-1",
+     0.1016
+    ]
+   ],
+   "market": {
+    "home": 0.1008,
+    "draw": 0.1756,
+    "away": 0.7235,
+    "over25": 0.5626
+   },
+   "odds": {
+    "home": 7.55,
+    "draw": 4.63,
+    "away": 1.33,
+    "over25": 1.67,
+    "under25": 2.09
+   },
+   "team_matches": [
+    9,
+    99
+   ],
+   "flags": [
+    "Iraklis new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "P1|2026-11-08|Estoril|Maritimo",
+   "league": "P1",
+   "league_name": "Portugal · Primeira Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:30:00+00:00",
+   "home": "Estoril",
+   "away": "Maritimo",
+   "expected_goals": [
+    1.59,
+    1.14
+   ],
+   "model_expected_goals": [
+    1.78,
+    1.13
+   ],
+   "rho": 0.0576,
+   "probabilities": {
+    "home": 0.485,
+    "draw": 0.2355,
+    "away": 0.2795,
+    "over25": 0.5132,
+    "under25": 0.4868,
+    "btts": 0.5341,
+    "btts_over25": 0.4227,
+    "dc_1x": 0.7205,
+    "dc_x2": 0.515,
+    "dc_12": 0.7645
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1114
+    ],
+    [
+     "1-0",
+     0.1107
+    ],
+    [
+     "2-1",
+     0.094
+    ]
+   ],
+   "market": {
+    "home": 0.4634,
+    "draw": 0.2653,
+    "away": 0.2713,
+    "over25": 0.506
+   },
+   "odds": {
+    "home": 2.04,
+    "draw": 3.42,
+    "away": 3.35,
+    "over25": 1.84,
+    "under25": 1.88
+   },
+   "team_matches": [
+    102,
+    10
+   ],
+   "flags": [
+    "Maritimo new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "P1|2026-11-08|Santa Clara|Gil Vicente",
+   "league": "P1",
+   "league_name": "Portugal · Primeira Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:30:00+00:00",
+   "home": "Santa Clara",
+   "away": "Gil Vicente",
+   "expected_goals": [
+    1.21,
+    0.92
+   ],
+   "model_expected_goals": [
+    1.17,
+    0.95
+   ],
+   "rho": 0.0576,
+   "probabilities": {
+    "home": 0.4362,
+    "draw": 0.277,
+    "away": 0.2867,
+    "over25": 0.3599,
+    "under25": 0.6401,
+    "btts": 0.4155,
+    "btts_over25": 0.2909,
+    "dc_1x": 0.7133,
+    "dc_x2": 0.5638,
+    "dc_12": 0.723
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1512
+    ],
+    [
+     "1-1",
+     0.1246
+    ],
+    [
+     "0-1",
+     0.1164
+    ]
+   ],
+   "market": {
+    "home": 0.4279,
+    "draw": 0.301,
+    "away": 0.2712,
+    "over25": 0.3608
+   },
+   "odds": {
+    "home": 2.2,
+    "draw": 3.05,
+    "away": 3.36,
+    "over25": 2.48,
+    "under25": 1.49
+   },
+   "team_matches": [
+    78,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SWE|2026-11-08|AIK|Hacken",
+   "league": "SWE",
+   "league_name": "Sweden · Allsvenskan",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:30:00+00:00",
+   "home": "AIK",
+   "away": "Hacken",
+   "expected_goals": [
+    1.2,
+    1.83
+   ],
+   "model_expected_goals": [
+    1.54,
+    1.5
+   ],
+   "rho": -0.0005,
+   "probabilities": {
+    "home": 0.251,
+    "draw": 0.2294,
+    "away": 0.5197,
+    "over25": 0.5835,
+    "under25": 0.4165,
+    "btts": 0.5873,
+    "btts_over25": 0.481,
+    "dc_1x": 0.4803,
+    "dc_x2": 0.749,
+    "dc_12": 0.7706
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1063
+    ],
+    [
+     "1-2",
+     0.097
+    ],
+    [
+     "0-1",
+     0.0882
+    ]
+   ],
+   "market": {
+    "home": 0.2295,
+    "draw": 0.225,
+    "away": 0.5455,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.84,
+    "draw": 3.91,
+    "away": 1.74,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SWE|2026-11-08|Brommapojkarna|Mjallby",
+   "league": "SWE",
+   "league_name": "Sweden · Allsvenskan",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:30:00+00:00",
+   "home": "Brommapojkarna",
+   "away": "Mjallby",
+   "expected_goals": [
+    1.44,
+    1.35
+   ],
+   "model_expected_goals": [
+    1.39,
+    1.4
+   ],
+   "rho": -0.0005,
+   "probabilities": {
+    "home": 0.3931,
+    "draw": 0.2534,
+    "away": 0.3535,
+    "over25": 0.5271,
+    "under25": 0.4729,
+    "btts": 0.5645,
+    "btts_over25": 0.4449,
+    "dc_1x": 0.6465,
+    "dc_x2": 0.6069,
+    "dc_12": 0.7466
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1196
+    ],
+    [
+     "1-0",
+     0.0886
+    ],
+    [
+     "2-1",
+     0.0859
+    ]
+   ],
+   "market": {
+    "home": 0.3918,
+    "draw": 0.2639,
+    "away": 0.3442,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.37,
+    "draw": 3.41,
+    "away": 2.67,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SWE|2026-11-08|Kalmar|Sirius",
+   "league": "SWE",
+   "league_name": "Sweden · Allsvenskan",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:30:00+00:00",
+   "home": "Kalmar",
+   "away": "Sirius",
+   "expected_goals": [
+    1.36,
+    1.63
+   ],
+   "model_expected_goals": [
+    1.26,
+    1.74
+   ],
+   "rho": -0.0005,
+   "probabilities": {
+    "home": 0.3204,
+    "draw": 0.2408,
+    "away": 0.4388,
+    "over25": 0.5766,
+    "under25": 0.4234,
+    "btts": 0.5994,
+    "btts_over25": 0.4882,
+    "dc_1x": 0.5612,
+    "dc_x2": 0.6796,
+    "dc_12": 0.7592
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1112
+    ],
+    [
+     "1-2",
+     0.0908
+    ],
+    [
+     "0-1",
+     0.0814
+    ]
+   ],
+   "market": {
+    "home": 0.3184,
+    "draw": 0.2608,
+    "away": 0.4208,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.87,
+    "draw": 3.45,
+    "away": 2.22,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    58,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SWZ|2026-11-08|Servette|Zurich",
+   "league": "SWZ",
+   "league_name": "Switzerland · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:30:00+00:00",
+   "home": "Servette",
+   "away": "Zurich",
+   "expected_goals": [
+    1.96,
+    1.31
+   ],
+   "model_expected_goals": [
+    1.96,
+    1.32
+   ],
+   "rho": -0.0236,
+   "probabilities": {
+    "home": 0.5249,
+    "draw": 0.2235,
+    "away": 0.2516,
+    "over25": 0.6352,
+    "under25": 0.3648,
+    "btts": 0.6298,
+    "btts_over25": 0.5301,
+    "dc_1x": 0.7484,
+    "dc_x2": 0.4751,
+    "dc_12": 0.7765
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0997
+    ],
+    [
+     "2-1",
+     0.0957
+    ],
+    [
+     "2-0",
+     0.0731
+    ]
+   ],
+   "market": {
+    "home": 0.5195,
+    "draw": 0.2356,
+    "away": 0.2449,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.82,
+    "draw": 3.75,
+    "away": 3.62,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    113,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SWZ|2026-11-08|Thun|Basel",
+   "league": "SWZ",
+   "league_name": "Switzerland · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:30:00+00:00",
+   "home": "Thun",
+   "away": "Basel",
+   "expected_goals": [
+    1.96,
+    1.63
+   ],
+   "model_expected_goals": [
+    1.94,
+    1.64
+   ],
+   "rho": -0.0236,
+   "probabilities": {
+    "home": 0.4572,
+    "draw": 0.221,
+    "away": 0.3218,
+    "over25": 0.6951,
+    "under25": 0.3049,
+    "btts": 0.6925,
+    "btts_over25": 0.6021,
+    "dc_1x": 0.6782,
+    "dc_x2": 0.5428,
+    "dc_12": 0.779
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0903
+    ],
+    [
+     "2-1",
+     0.0865
+    ],
+    [
+     "1-2",
+     0.0717
+    ]
+   ],
+   "market": {
+    "home": 0.4524,
+    "draw": 0.2333,
+    "away": 0.3144,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.07,
+    "draw": 3.8,
+    "away": 2.89,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    52,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "T1|2026-11-08|Alanyaspor|Trabzonspor",
+   "league": "T1",
+   "league_name": "Turkey · Süper Lig",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:30:00+00:00",
+   "home": "Alanyaspor",
+   "away": "Trabzonspor",
+   "expected_goals": [
+    1.05,
+    1.86
+   ],
+   "model_expected_goals": [
+    1.31,
+    1.44
+   ],
+   "rho": -0.0883,
+   "probabilities": {
+    "home": 0.2025,
+    "draw": 0.2448,
+    "away": 0.5528,
+    "over25": 0.5555,
+    "under25": 0.4445,
+    "btts": 0.558,
+    "btts_over25": 0.442,
+    "dc_1x": 0.4472,
+    "dc_x2": 0.7975,
+    "dc_12": 0.7552
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.116
+    ],
+    [
+     "1-2",
+     0.0989
+    ],
+    [
+     "0-2",
+     0.0942
+    ]
+   ],
+   "market": {
+    "home": 0.1866,
+    "draw": 0.2278,
+    "away": 0.5856,
+    "over25": 0.5657
+   },
+   "odds": {
+    "home": 4.63,
+    "draw": 3.86,
+    "away": 1.63,
+    "over25": 1.66,
+    "under25": 2.1
+   },
+   "team_matches": [
+    107,
+    107
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "N1|2026-11-08|AZ Alkmaar|Groningen",
+   "league": "N1",
+   "league_name": "Netherlands · Eredivisie",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:45:00+00:00",
+   "home": "AZ Alkmaar",
+   "away": "Groningen",
+   "expected_goals": [
+    2.31,
+    1.2
+   ],
+   "model_expected_goals": [
+    1.86,
+    1.28
+   ],
+   "rho": -0.0597,
+   "probabilities": {
+    "home": 0.6164,
+    "draw": 0.2015,
+    "away": 0.182,
+    "over25": 0.6804,
+    "under25": 0.3196,
+    "btts": 0.6342,
+    "btts_over25": 0.5462,
+    "dc_1x": 0.818,
+    "dc_x2": 0.3836,
+    "dc_12": 0.7985
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0958
+    ],
+    [
+     "1-1",
+     0.088
+    ],
+    [
+     "2-0",
+     0.0798
+    ]
+   ],
+   "market": {
+    "home": 0.6356,
+    "draw": 0.1954,
+    "away": 0.169,
+    "over25": 0.694
+   },
+   "odds": {
+    "home": 1.52,
+    "draw": 4.52,
+    "away": 5.17,
+    "over25": 1.38,
+    "under25": 2.84
+   },
+   "team_matches": [
+    103,
+    79
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "N1|2026-11-08|Cambuur|PSV Eindhoven",
+   "league": "N1",
+   "league_name": "Netherlands · Eredivisie",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T15:45:00+00:00",
+   "home": "Cambuur",
+   "away": "PSV Eindhoven",
+   "expected_goals": [
+    1.25,
+    2.84
+   ],
+   "model_expected_goals": [
+    1.4,
+    2.71
+   ],
+   "rho": -0.0597,
+   "probabilities": {
+    "home": 0.1377,
+    "draw": 0.1621,
+    "away": 0.7003,
+    "over25": 0.7738,
+    "under25": 0.2262,
+    "btts": 0.674,
+    "btts_over25": 0.6109,
+    "dc_1x": 0.2997,
+    "dc_x2": 0.8623,
+    "dc_12": 0.8379
+   },
+   "top_scores": [
+    [
+     "1-2",
+     0.0845
+    ],
+    [
+     "1-3",
+     0.08
+    ],
+    [
+     "0-2",
+     0.0679
+    ]
+   ],
+   "market": {
+    "home": 0.135,
+    "draw": 0.1528,
+    "away": 0.7121,
+    "over25": 0.7734
+   },
+   "odds": {
+    "home": 6.13,
+    "draw": 5.48,
+    "away": 1.36,
+    "over25": 1.25,
+    "under25": 3.63
+   },
+   "team_matches": [
+    11,
+    102
+   ],
+   "flags": [
+    "Cambuur new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "AUT|2026-11-08|Sturm Graz|Salzburg",
+   "league": "AUT",
+   "league_name": "Austria · Bundesliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:00:00+00:00",
+   "home": "Sturm Graz",
+   "away": "Salzburg",
+   "expected_goals": [
+    1.34,
+    1.57
+   ],
+   "model_expected_goals": [
+    1.53,
+    1.38
+   ],
+   "rho": -0.1163,
+   "probabilities": {
+    "home": 0.3113,
+    "draw": 0.272,
+    "away": 0.4167,
+    "over25": 0.5563,
+    "under25": 0.4437,
+    "btts": 0.5977,
+    "btts_over25": 0.4698,
+    "dc_1x": 0.5833,
+    "dc_x2": 0.6887,
+    "dc_12": 0.728
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1279
+    ],
+    [
+     "1-2",
+     0.0901
+    ],
+    [
+     "2-1",
+     0.0766
+    ]
+   ],
+   "market": {
+    "home": 0.3166,
+    "draw": 0.2311,
+    "away": 0.4522,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.87,
+    "draw": 3.83,
+    "away": 2.07,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    94,
+    94
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "NOR|2026-11-08|HamKam|Sarpsborg 08",
+   "league": "NOR",
+   "league_name": "Norway · Eliteserien",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:00:00+00:00",
+   "home": "HamKam",
+   "away": "Sarpsborg 08",
+   "expected_goals": [
+    1.42,
+    1.64
+   ],
+   "model_expected_goals": [
+    1.67,
+    1.4
+   ],
+   "rho": 0.0042,
+   "probabilities": {
+    "home": 0.3331,
+    "draw": 0.2379,
+    "away": 0.429,
+    "over25": 0.5898,
+    "under25": 0.4102,
+    "btts": 0.6105,
+    "btts_over25": 0.5017,
+    "dc_1x": 0.571,
+    "dc_x2": 0.6669,
+    "dc_12": 0.7621
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1088
+    ],
+    [
+     "1-2",
+     0.0896
+    ],
+    [
+     "2-1",
+     0.0775
+    ]
+   ],
+   "market": {
+    "home": 0.3119,
+    "draw": 0.2429,
+    "away": 0.4452,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.91,
+    "draw": 3.66,
+    "away": 2.1,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "NOR|2026-11-08|Lillestrom|Aalesund",
+   "league": "NOR",
+   "league_name": "Norway · Eliteserien",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:00:00+00:00",
+   "home": "Lillestrom",
+   "away": "Aalesund",
+   "expected_goals": [
+    2.06,
+    1.37
+   ],
+   "model_expected_goals": [
+    2.02,
+    1.41
+   ],
+   "rho": 0.0042,
+   "probabilities": {
+    "home": 0.5348,
+    "draw": 0.2119,
+    "away": 0.2533,
+    "over25": 0.6649,
+    "under25": 0.3351,
+    "btts": 0.6495,
+    "btts_over25": 0.5583,
+    "dc_1x": 0.7467,
+    "dc_x2": 0.4652,
+    "dc_12": 0.7881
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0942
+    ],
+    [
+     "1-1",
+     0.0912
+    ],
+    [
+     "2-0",
+     0.0689
+    ]
+   ],
+   "market": {
+    "home": 0.5376,
+    "draw": 0.2119,
+    "away": 0.2504,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.76,
+    "draw": 4.11,
+    "away": 3.53,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    58,
+    28
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "NOR|2026-11-08|Sandefjord|Molde",
+   "league": "NOR",
+   "league_name": "Norway · Eliteserien",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:00:00+00:00",
+   "home": "Sandefjord",
+   "away": "Molde",
+   "expected_goals": [
+    1.23,
+    1.86
+   ],
+   "model_expected_goals": [
+    1.57,
+    1.53
+   ],
+   "rho": 0.0042,
+   "probabilities": {
+    "home": 0.2531,
+    "draw": 0.226,
+    "away": 0.5209,
+    "over25": 0.5962,
+    "under25": 0.4038,
+    "btts": 0.5969,
+    "btts_over25": 0.4931,
+    "dc_1x": 0.4791,
+    "dc_x2": 0.7469,
+    "dc_12": 0.774
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1038
+    ],
+    [
+     "1-2",
+     0.0968
+    ],
+    [
+     "0-1",
+     0.0851
+    ]
+   ],
+   "market": {
+    "home": 0.2373,
+    "draw": 0.2105,
+    "away": 0.5522,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.72,
+    "draw": 4.15,
+    "away": 1.72,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "NOR|2026-11-08|Viking|KFUM Oslo",
+   "league": "NOR",
+   "league_name": "Norway · Eliteserien",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:00:00+00:00",
+   "home": "Viking",
+   "away": "KFUM Oslo",
+   "expected_goals": [
+    2.64,
+    0.71
+   ],
+   "model_expected_goals": [
+    2.33,
+    1.03
+   ],
+   "rho": 0.0042,
+   "probabilities": {
+    "home": 0.7855,
+    "draw": 0.1382,
+    "away": 0.0763,
+    "over25": 0.6494,
+    "under25": 0.3506,
+    "btts": 0.4699,
+    "btts_over25": 0.4044,
+    "dc_1x": 0.9237,
+    "dc_x2": 0.2145,
+    "dc_12": 0.8618
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1228
+    ],
+    [
+     "3-0",
+     0.108
+    ],
+    [
+     "1-0",
+     0.0934
+    ]
+   ],
+   "market": {
+    "home": 0.81,
+    "draw": 0.1159,
+    "away": 0.0741,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.2,
+    "draw": 6.45,
+    "away": 9.5,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    85
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SC0|2026-11-08|Celtic|Kilmarnock",
+   "league": "SC0",
+   "league_name": "Scotland · Premiership",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:00:00+00:00",
+   "home": "Celtic",
+   "away": "Kilmarnock",
+   "expected_goals": [
+    3.21,
+    0.8
+   ],
+   "model_expected_goals": [
+    2.69,
+    0.92
+   ],
+   "rho": 0.0178,
+   "probabilities": {
+    "home": 0.8364,
+    "draw": 0.1032,
+    "away": 0.0604,
+    "over25": 0.7638,
+    "under25": 0.2362,
+    "btts": 0.5291,
+    "btts_over25": 0.4834,
+    "dc_1x": 0.9396,
+    "dc_x2": 0.1636,
+    "dc_12": 0.8968
+   },
+   "top_scores": [
+    [
+     "3-0",
+     0.0996
+    ],
+    [
+     "2-0",
+     0.0931
+    ],
+    [
+     "3-1",
+     0.08
+    ]
+   ],
+   "market": {
+    "home": 0.8507,
+    "draw": 0.0944,
+    "away": 0.0549,
+    "over25": 0.7757
+   },
+   "odds": {
+    "home": 1.15,
+    "draw": 7.69,
+    "away": 12.28,
+    "over25": 1.25,
+    "under25": 3.72
+   },
+   "team_matches": [
+    114,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "F1|2026-11-08|Angers|Nice",
+   "league": "F1",
+   "league_name": "France · Ligue 1",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:15:00+00:00",
+   "home": "Angers",
+   "away": "Nice",
+   "expected_goals": [
+    1.24,
+    1.62
+   ],
+   "model_expected_goals": [
+    1.29,
+    1.29
+   ],
+   "rho": -0.0364,
+   "probabilities": {
+    "home": 0.2871,
+    "draw": 0.2531,
+    "away": 0.4598,
+    "over25": 0.544,
+    "under25": 0.456,
+    "btts": 0.5733,
+    "btts_over25": 0.4541,
+    "dc_1x": 0.5402,
+    "dc_x2": 0.7129,
+    "dc_12": 0.7469
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1192
+    ],
+    [
+     "1-2",
+     0.0933
+    ],
+    [
+     "0-1",
+     0.089
+    ]
+   ],
+   "market": {
+    "home": 0.2713,
+    "draw": 0.2528,
+    "away": 0.4759,
+    "over25": 0.5575
+   },
+   "odds": {
+    "home": 3.38,
+    "draw": 3.61,
+    "away": 2.0,
+    "over25": 1.69,
+    "under25": 2.08
+   },
+   "team_matches": [
+    77,
+    100
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "F1|2026-11-08|Brest|Lyon",
+   "league": "F1",
+   "league_name": "France · Ligue 1",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:15:00+00:00",
+   "home": "Brest",
+   "away": "Lyon",
+   "expected_goals": [
+    1.33,
+    1.42
+   ],
+   "model_expected_goals": [
+    1.45,
+    1.48
+   ],
+   "rho": -0.0364,
+   "probabilities": {
+    "home": 0.3457,
+    "draw": 0.264,
+    "away": 0.3903,
+    "over25": 0.518,
+    "under25": 0.482,
+    "btts": 0.5616,
+    "btts_over25": 0.4365,
+    "dc_1x": 0.6097,
+    "dc_x2": 0.6543,
+    "dc_12": 0.736
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1252
+    ],
+    [
+     "0-1",
+     0.0868
+    ],
+    [
+     "1-2",
+     0.0859
+    ]
+   ],
+   "market": {
+    "home": 0.3409,
+    "draw": 0.2682,
+    "away": 0.3909,
+    "over25": 0.5104
+   },
+   "odds": {
+    "home": 2.74,
+    "draw": 3.43,
+    "away": 2.41,
+    "over25": 1.83,
+    "under25": 1.9
+   },
+   "team_matches": [
+    100,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "F1|2026-11-08|Le Havre|Lorient",
+   "league": "F1",
+   "league_name": "France · Ligue 1",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:15:00+00:00",
+   "home": "Le Havre",
+   "away": "Lorient",
+   "expected_goals": [
+    1.24,
+    1.32
+   ],
+   "model_expected_goals": [
+    1.32,
+    1.29
+   ],
+   "rho": -0.0364,
+   "probabilities": {
+    "home": 0.3444,
+    "draw": 0.2751,
+    "away": 0.3806,
+    "over25": 0.4724,
+    "under25": 0.5276,
+    "btts": 0.5261,
+    "btts_over25": 0.3951,
+    "dc_1x": 0.6194,
+    "dc_x2": 0.6556,
+    "dc_12": 0.7249
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.131
+    ],
+    [
+     "0-1",
+     0.0971
+    ],
+    [
+     "1-0",
+     0.0912
+    ]
+   ],
+   "market": {
+    "home": 0.3358,
+    "draw": 0.2833,
+    "away": 0.3809,
+    "over25": 0.4703
+   },
+   "odds": {
+    "home": 2.78,
+    "draw": 3.26,
+    "away": 2.47,
+    "over25": 1.97,
+    "under25": 1.77
+   },
+   "team_matches": [
+    100,
+    66
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "F1|2026-11-08|Le Mans|Monaco",
+   "league": "F1",
+   "league_name": "France · Ligue 1",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:15:00+00:00",
+   "home": "Le Mans",
+   "away": "Monaco",
+   "expected_goals": [
+    1.16,
+    1.94
+   ],
+   "model_expected_goals": [
+    1.3,
+    1.75
+   ],
+   "rho": -0.0364,
+   "probabilities": {
+    "home": 0.2223,
+    "draw": 0.2273,
+    "away": 0.5504,
+    "over25": 0.5999,
+    "under25": 0.4001,
+    "btts": 0.5929,
+    "btts_over25": 0.4879,
+    "dc_1x": 0.4496,
+    "dc_x2": 0.7777,
+    "dc_12": 0.7727
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.105
+    ],
+    [
+     "1-2",
+     0.0983
+    ],
+    [
+     "0-2",
+     0.0844
+    ]
+   ],
+   "market": {
+    "home": 0.2115,
+    "draw": 0.2263,
+    "away": 0.5621,
+    "over25": 0.6031
+   },
+   "odds": {
+    "home": 4.25,
+    "draw": 3.99,
+    "away": 1.71,
+    "over25": 1.57,
+    "under25": 2.28
+   },
+   "team_matches": [
+    9,
+    100
+   ],
+   "flags": [
+    "Le Mans new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "I2|2026-11-08|Carrarese|Sampdoria",
+   "league": "I2",
+   "league_name": "Italy · Serie B",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:15:00+00:00",
+   "home": "Carrarese",
+   "away": "Sampdoria",
+   "expected_goals": [
+    1.37,
+    1.2
+   ],
+   "model_expected_goals": [
+    1.35,
+    1.0
+   ],
+   "rho": -0.1144,
+   "probabilities": {
+    "home": 0.3929,
+    "draw": 0.293,
+    "away": 0.3141,
+    "over25": 0.4756,
+    "under25": 0.5244,
+    "btts": 0.5369,
+    "btts_over25": 0.3969,
+    "dc_1x": 0.6859,
+    "dc_x2": 0.6071,
+    "dc_12": 0.707
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.14
+    ],
+    [
+     "0-0",
+     0.0904
+    ],
+    [
+     "1-0",
+     0.09
+    ]
+   ],
+   "market": {
+    "home": 0.3887,
+    "draw": 0.2844,
+    "away": 0.3269,
+    "over25": 0.4864
+   },
+   "odds": {
+    "home": 2.38,
+    "draw": 3.17,
+    "away": 2.79,
+    "over25": 1.9,
+    "under25": 1.81
+   },
+   "team_matches": [
+    86,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "D1|2026-11-08|Freiburg|Union Berlin",
+   "league": "D1",
+   "league_name": "Germany · Bundesliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:30:00+00:00",
+   "home": "Freiburg",
+   "away": "Union Berlin",
+   "expected_goals": [
+    2.09,
+    0.96
+   ],
+   "model_expected_goals": [
+    1.77,
+    1.16
+   ],
+   "rho": -0.0705,
+   "probabilities": {
+    "home": 0.6273,
+    "draw": 0.2152,
+    "away": 0.1575,
+    "over25": 0.5894,
+    "under25": 0.4106,
+    "btts": 0.5487,
+    "btts_over25": 0.4472,
+    "dc_1x": 0.8425,
+    "dc_x2": 0.3727,
+    "dc_12": 0.7848
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1031
+    ],
+    [
+     "1-1",
+     0.1015
+    ],
+    [
+     "2-1",
+     0.0993
+    ]
+   ],
+   "market": {
+    "home": 0.6501,
+    "draw": 0.2025,
+    "away": 0.1474,
+    "over25": 0.5967
+   },
+   "odds": {
+    "home": 1.49,
+    "draw": 4.39,
+    "away": 5.89,
+    "over25": 1.59,
+    "under25": 2.26
+   },
+   "team_matches": [
+    100,
+    100
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "E0|2026-11-08|Man United|Aston Villa",
+   "league": "E0",
+   "league_name": "England · Premier League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:30:00+00:00",
+   "home": "Man United",
+   "away": "Aston Villa",
+   "expected_goals": [
+    1.73,
+    1.4
+   ],
+   "model_expected_goals": [
+    1.6,
+    1.33
+   ],
+   "rho": -0.0683,
+   "probabilities": {
+    "home": 0.446,
+    "draw": 0.2484,
+    "away": 0.3056,
+    "over25": 0.6052,
+    "under25": 0.3948,
+    "btts": 0.6271,
+    "btts_over25": 0.514,
+    "dc_1x": 0.6944,
+    "dc_x2": 0.554,
+    "dc_12": 0.7516
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1132
+    ],
+    [
+     "2-1",
+     0.0915
+    ],
+    [
+     "1-2",
+     0.0742
+    ]
+   ],
+   "market": {
+    "home": 0.4471,
+    "draw": 0.2498,
+    "away": 0.303,
+    "over25": 0.613
+   },
+   "odds": {
+    "home": 2.13,
+    "draw": 3.68,
+    "away": 3.07,
+    "over25": 1.55,
+    "under25": 2.34
+   },
+   "team_matches": [
+    112,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "G1|2026-11-08|OFI Crete|Atromitos",
+   "league": "G1",
+   "league_name": "Greece · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:30:00+00:00",
+   "home": "OFI Crete",
+   "away": "Atromitos",
+   "expected_goals": [
+    1.49,
+    1.11
+   ],
+   "model_expected_goals": [
+    1.45,
+    1.25
+   ],
+   "rho": -0.1298,
+   "probabilities": {
+    "home": 0.4454,
+    "draw": 0.29,
+    "away": 0.2646,
+    "over25": 0.4813,
+    "under25": 0.5187,
+    "btts": 0.5346,
+    "btts_over25": 0.396,
+    "dc_1x": 0.7354,
+    "dc_x2": 0.5546,
+    "dc_12": 0.71
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1387
+    ],
+    [
+     "1-0",
+     0.0951
+    ],
+    [
+     "2-1",
+     0.0917
+    ]
+   ],
+   "market": {
+    "home": 0.4626,
+    "draw": 0.2709,
+    "away": 0.2665,
+    "over25": 0.4773
+   },
+   "odds": {
+    "home": 2.02,
+    "draw": 3.29,
+    "away": 3.34,
+    "over25": 1.93,
+    "under25": 1.78
+   },
+   "team_matches": [
+    96,
+    99
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "POL|2026-11-08|Legia|Rakow",
+   "league": "POL",
+   "league_name": "Poland · Ekstraklasa",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T16:30:00+00:00",
+   "home": "Legia",
+   "away": "Rakow",
+   "expected_goals": [
+    1.64,
+    1.07
+   ],
+   "model_expected_goals": [
+    1.63,
+    1.08
+   ],
+   "rho": -0.1049,
+   "probabilities": {
+    "home": 0.4945,
+    "draw": 0.2705,
+    "away": 0.235,
+    "over25": 0.5071,
+    "under25": 0.4929,
+    "btts": 0.5403,
+    "btts_over25": 0.4111,
+    "dc_1x": 0.765,
+    "dc_x2": 0.5055,
+    "dc_12": 0.7295
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1292
+    ],
+    [
+     "1-0",
+     0.0974
+    ],
+    [
+     "2-1",
+     0.0957
+    ]
+   ],
+   "market": {
+    "home": 0.509,
+    "draw": 0.2429,
+    "away": 0.2481,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.85,
+    "draw": 3.63,
+    "away": 3.56,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    102,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "DNK|2026-11-08|Midtjylland|Sonderjyske",
+   "league": "DNK",
+   "league_name": "Denmark · Superliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T17:00:00+00:00",
+   "home": "Midtjylland",
+   "away": "Sonderjyske",
+   "expected_goals": [
+    2.58,
+    0.95
+   ],
+   "model_expected_goals": [
+    2.39,
+    1.15
+   ],
+   "rho": -0.1045,
+   "probabilities": {
+    "home": 0.7168,
+    "draw": 0.1741,
+    "away": 0.1091,
+    "over25": 0.6853,
+    "under25": 0.3147,
+    "btts": 0.5749,
+    "btts_over25": 0.4957,
+    "dc_1x": 0.8909,
+    "dc_x2": 0.2832,
+    "dc_12": 0.8259
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.0973
+    ],
+    [
+     "2-1",
+     0.0926
+    ],
+    [
+     "3-0",
+     0.0838
+    ]
+   ],
+   "market": {
+    "home": 0.7391,
+    "draw": 0.1498,
+    "away": 0.1112,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.31,
+    "draw": 5.45,
+    "away": 7.11,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    95,
+    77
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "I1|2026-11-08|Inter|Como",
+   "league": "I1",
+   "league_name": "Italy · Serie A",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T17:00:00+00:00",
+   "home": "Inter",
+   "away": "Como",
+   "expected_goals": [
+    1.97,
+    1.35
+   ],
+   "model_expected_goals": [
+    1.79,
+    1.22
+   ],
+   "rho": -0.0048,
+   "probabilities": {
+    "home": 0.5189,
+    "draw": 0.2195,
+    "away": 0.2616,
+    "over25": 0.6446,
+    "under25": 0.3554,
+    "btts": 0.6379,
+    "btts_over25": 0.5413,
+    "dc_1x": 0.7384,
+    "dc_x2": 0.4811,
+    "dc_12": 0.7805
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0966
+    ],
+    [
+     "2-1",
+     0.0947
+    ],
+    [
+     "1-0",
+     0.0708
+    ]
+   ],
+   "market": {
+    "home": 0.5159,
+    "draw": 0.2274,
+    "away": 0.2567,
+    "over25": 0.6562
+   },
+   "odds": {
+    "home": 1.86,
+    "draw": 4.01,
+    "away": 3.58,
+    "over25": 1.46,
+    "under25": 2.61
+   },
+   "team_matches": [
+    113,
+    86
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "ROU|2026-11-08|CFR Cluj|Univ. Craiova",
+   "league": "ROU",
+   "league_name": "Romania · Superliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T17:00:00+00:00",
+   "home": "CFR Cluj",
+   "away": "Univ. Craiova",
+   "expected_goals": [
+    0.91,
+    1.71
+   ],
+   "model_expected_goals": [
+    1.36,
+    1.29
+   ],
+   "rho": -0.01,
+   "probabilities": {
+    "home": 0.1985,
+    "draw": 0.2409,
+    "away": 0.5606,
+    "over25": 0.4871,
+    "under25": 0.5129,
+    "btts": 0.4914,
+    "btts_over25": 0.3769,
+    "dc_1x": 0.4394,
+    "dc_x2": 0.8015,
+    "dc_12": 0.7591
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.1231
+    ],
+    [
+     "1-1",
+     0.1145
+    ],
+    [
+     "0-2",
+     0.1061
+    ]
+   ],
+   "market": {
+    "home": 0.1775,
+    "draw": 0.2213,
+    "away": 0.6012,
+    "over25": null
+   },
+   "odds": {
+    "home": 4.73,
+    "draw": 3.88,
+    "away": 1.58,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    119,
+    120
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "B1|2026-11-08|St. Gilloise|Genk",
+   "league": "B1",
+   "league_name": "Belgium · Pro League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T17:30:00+00:00",
+   "home": "St. Gilloise",
+   "away": "Genk",
+   "expected_goals": [
+    2.01,
+    1.05
+   ],
+   "model_expected_goals": [
+    1.71,
+    0.95
+   ],
+   "rho": -0.0435,
+   "probabilities": {
+    "home": 0.5917,
+    "draw": 0.2207,
+    "away": 0.1876,
+    "over25": 0.5898,
+    "under25": 0.4102,
+    "btts": 0.567,
+    "btts_over25": 0.4637,
+    "dc_1x": 0.8124,
+    "dc_x2": 0.4083,
+    "dc_12": 0.7793
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1033
+    ],
+    [
+     "2-1",
+     0.0995
+    ],
+    [
+     "2-0",
+     0.0948
+    ]
+   ],
+   "market": {
+    "home": 0.5986,
+    "draw": 0.2172,
+    "away": 0.1842,
+    "over25": 0.6063
+   },
+   "odds": {
+    "home": 1.6,
+    "draw": 4.05,
+    "away": 4.71,
+    "over25": 1.56,
+    "under25": 2.29
+   },
+   "team_matches": [
+    117,
+    118
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SP1|2026-11-08|Celta|Levante",
+   "league": "SP1",
+   "league_name": "Spain · La Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T17:30:00+00:00",
+   "home": "Celta",
+   "away": "Levante",
+   "expected_goals": [
+    1.66,
+    1.03
+   ],
+   "model_expected_goals": [
+    1.72,
+    1.11
+   ],
+   "rho": -0.0181,
+   "probabilities": {
+    "home": 0.5189,
+    "draw": 0.2484,
+    "away": 0.2327,
+    "over25": 0.5031,
+    "under25": 0.4969,
+    "btts": 0.5222,
+    "btts_over25": 0.4039,
+    "dc_1x": 0.7673,
+    "dc_x2": 0.4811,
+    "dc_12": 0.7516
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1182
+    ],
+    [
+     "1-0",
+     0.1108
+    ],
+    [
+     "2-1",
+     0.0963
+    ]
+   ],
+   "market": {
+    "home": 0.5156,
+    "draw": 0.2579,
+    "away": 0.2265,
+    "over25": 0.497
+   },
+   "odds": {
+    "home": 1.86,
+    "draw": 3.56,
+    "away": 4.02,
+    "over25": 1.87,
+    "under25": 1.85
+   },
+   "team_matches": [
+    113,
+    49
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SP1|2026-11-08|Villarreal|Getafe",
+   "league": "SP1",
+   "league_name": "Spain · La Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T17:30:00+00:00",
+   "home": "Villarreal",
+   "away": "Getafe",
+   "expected_goals": [
+    2.02,
+    0.76
+   ],
+   "model_expected_goals": [
+    1.69,
+    0.85
+   ],
+   "rho": -0.0181,
+   "probabilities": {
+    "home": 0.6674,
+    "draw": 0.2041,
+    "away": 0.1285,
+    "over25": 0.5245,
+    "under25": 0.4755,
+    "btts": 0.4618,
+    "btts_over25": 0.3649,
+    "dc_1x": 0.8715,
+    "dc_x2": 0.3326,
+    "dc_12": 0.7959
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1271
+    ],
+    [
+     "1-0",
+     0.1242
+    ],
+    [
+     "1-1",
+     0.0969
+    ]
+   ],
+   "market": {
+    "home": 0.6827,
+    "draw": 0.1989,
+    "away": 0.1184,
+    "over25": 0.5358
+   },
+   "odds": {
+    "home": 1.42,
+    "draw": 4.41,
+    "away": 7.1,
+    "over25": 1.75,
+    "under25": 1.99
+   },
+   "team_matches": [
+    113,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SP2|2026-11-08|Las Palmas|Eldense",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T17:30:00+00:00",
+   "home": "Las Palmas",
+   "away": "Eldense",
+   "expected_goals": [
+    1.55,
+    1.2
+   ],
+   "model_expected_goals": [
+    1.54,
+    1.0
+   ],
+   "rho": -0.0082,
+   "probabilities": {
+    "home": 0.4536,
+    "draw": 0.2525,
+    "away": 0.2938,
+    "over25": 0.5202,
+    "under25": 0.4798,
+    "btts": 0.5527,
+    "btts_over25": 0.433,
+    "dc_1x": 0.7062,
+    "dc_x2": 0.5464,
+    "dc_12": 0.7475
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1197
+    ],
+    [
+     "1-0",
+     0.0977
+    ],
+    [
+     "2-1",
+     0.0922
+    ]
+   ],
+   "market": {
+    "home": 0.4382,
+    "draw": 0.2656,
+    "away": 0.2962,
+    "over25": 0.5302
+   },
+   "odds": {
+    "home": 2.13,
+    "draw": 3.37,
+    "away": 3.05,
+    "over25": 1.76,
+    "under25": 1.96
+   },
+   "team_matches": [
+    54,
+    82
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SP2|2026-11-08|Sp Gijon|Valladolid",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T17:30:00+00:00",
+   "home": "Sp Gijon",
+   "away": "Valladolid",
+   "expected_goals": [
+    1.35,
+    1.11
+   ],
+   "model_expected_goals": [
+    1.51,
+    1.06
+   ],
+   "rho": -0.0082,
+   "probabilities": {
+    "home": 0.4202,
+    "draw": 0.2724,
+    "away": 0.3074,
+    "over25": 0.4459,
+    "under25": 0.5541,
+    "btts": 0.4979,
+    "btts_over25": 0.3687,
+    "dc_1x": 0.6926,
+    "dc_x2": 0.5798,
+    "dc_12": 0.7276
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1291
+    ],
+    [
+     "1-0",
+     0.1141
+    ],
+    [
+     "0-1",
+     0.094
+    ]
+   ],
+   "market": {
+    "home": 0.404,
+    "draw": 0.2879,
+    "away": 0.3081,
+    "over25": 0.4416
+   },
+   "odds": {
+    "home": 2.3,
+    "draw": 3.14,
+    "away": 2.95,
+    "over25": 2.07,
+    "under25": 1.68
+   },
+   "team_matches": [
+    124,
+    82
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "P1|2026-11-08|Guimaraes|Porto",
+   "league": "P1",
+   "league_name": "Portugal · Primeira Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T18:00:00+00:00",
+   "home": "Guimaraes",
+   "away": "Porto",
+   "expected_goals": [
+    0.92,
+    1.78
+   ],
+   "model_expected_goals": [
+    1.0,
+    1.53
+   ],
+   "rho": 0.0576,
+   "probabilities": {
+    "home": 0.1988,
+    "draw": 0.2188,
+    "away": 0.5824,
+    "over25": 0.5066,
+    "under25": 0.4934,
+    "btts": 0.494,
+    "btts_over25": 0.3903,
+    "dc_1x": 0.4176,
+    "dc_x2": 0.8012,
+    "dc_12": 0.7812
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.1259
+    ],
+    [
+     "0-2",
+     0.1063
+    ],
+    [
+     "1-1",
+     0.1037
+    ]
+   ],
+   "market": {
+    "home": 0.1807,
+    "draw": 0.2312,
+    "away": 0.5881,
+    "over25": 0.515
+   },
+   "odds": {
+    "home": 4.83,
+    "draw": 3.85,
+    "away": 1.63,
+    "over25": 1.81,
+    "under25": 1.91
+   },
+   "team_matches": [
+    102,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "T1|2026-11-08|Besiktas|Genclerbirligi",
+   "league": "T1",
+   "league_name": "Turkey · Süper Lig",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T18:00:00+00:00",
+   "home": "Besiktas",
+   "away": "Genclerbirligi",
+   "expected_goals": [
+    2.69,
+    0.78
+   ],
+   "model_expected_goals": [
+    1.86,
+    0.94
+   ],
+   "rho": -0.0883,
+   "probabilities": {
+    "home": 0.7706,
+    "draw": 0.1514,
+    "away": 0.078,
+    "over25": 0.675,
+    "under25": 0.325,
+    "btts": 0.5126,
+    "btts_over25": 0.4416,
+    "dc_1x": 0.922,
+    "dc_x2": 0.2294,
+    "dc_12": 0.8486
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.112
+    ],
+    [
+     "3-0",
+     0.1005
+    ],
+    [
+     "2-1",
+     0.0879
+    ]
+   ],
+   "market": {
+    "home": 0.8058,
+    "draw": 0.1236,
+    "away": 0.0706,
+    "over25": 0.7033
+   },
+   "odds": {
+    "home": 1.21,
+    "draw": 6.33,
+    "away": 10.38,
+    "over25": 1.36,
+    "under25": 2.89
+   },
+   "team_matches": [
+    107,
+    44
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "B1|2026-11-08|St Truiden|Waregem",
+   "league": "B1",
+   "league_name": "Belgium · Pro League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T18:15:00+00:00",
+   "home": "St Truiden",
+   "away": "Waregem",
+   "expected_goals": [
+    1.92,
+    1.21
+   ],
+   "model_expected_goals": [
+    1.74,
+    1.28
+   ],
+   "rho": -0.0435,
+   "probabilities": {
+    "home": 0.5339,
+    "draw": 0.2308,
+    "away": 0.2353,
+    "over25": 0.6064,
+    "under25": 0.3936,
+    "btts": 0.6046,
+    "btts_over25": 0.4987,
+    "dc_1x": 0.7647,
+    "dc_x2": 0.4661,
+    "dc_12": 0.7692
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1059
+    ],
+    [
+     "2-1",
+     0.0974
+    ],
+    [
+     "2-0",
+     0.0802
+    ]
+   ],
+   "market": {
+    "home": 0.5412,
+    "draw": 0.2339,
+    "away": 0.2249,
+    "over25": 0.6113
+   },
+   "odds": {
+    "home": 1.76,
+    "draw": 3.81,
+    "away": 3.95,
+    "over25": 1.55,
+    "under25": 2.32
+   },
+   "team_matches": [
+    113,
+    46
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "NOR|2026-11-08|Fredrikstad|Brann",
+   "league": "NOR",
+   "league_name": "Norway · Eliteserien",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T18:15:00+00:00",
+   "home": "Fredrikstad",
+   "away": "Brann",
+   "expected_goals": [
+    1.43,
+    1.49
+   ],
+   "model_expected_goals": [
+    1.49,
+    1.43
+   ],
+   "rho": 0.0042,
+   "probabilities": {
+    "home": 0.3649,
+    "draw": 0.2457,
+    "away": 0.3894,
+    "over25": 0.5585,
+    "under25": 0.4415,
+    "btts": 0.5887,
+    "btts_over25": 0.4743,
+    "dc_1x": 0.6106,
+    "dc_x2": 0.6351,
+    "dc_12": 0.7543
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1145
+    ],
+    [
+     "1-2",
+     0.0855
+    ],
+    [
+     "2-1",
+     0.0823
+    ]
+   ],
+   "market": {
+    "home": 0.36,
+    "draw": 0.2464,
+    "away": 0.3936,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.55,
+    "draw": 3.61,
+    "away": 2.35,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    85,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "D1|2026-11-08|Hoffenheim|Schalke 04",
+   "league": "D1",
+   "league_name": "Germany · Bundesliga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T18:30:00+00:00",
+   "home": "Hoffenheim",
+   "away": "Schalke 04",
+   "expected_goals": [
+    2.18,
+    1.15
+   ],
+   "model_expected_goals": [
+    2.05,
+    1.13
+   ],
+   "rho": -0.0705,
+   "probabilities": {
+    "home": 0.6019,
+    "draw": 0.2127,
+    "away": 0.1854,
+    "over25": 0.6469,
+    "under25": 0.3531,
+    "btts": 0.6125,
+    "btts_over25": 0.5166,
+    "dc_1x": 0.8146,
+    "dc_x2": 0.3981,
+    "dc_12": 0.7873
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0978
+    ],
+    [
+     "1-1",
+     0.096
+    ],
+    [
+     "2-0",
+     0.085
+    ]
+   ],
+   "market": {
+    "home": 0.6077,
+    "draw": 0.2072,
+    "away": 0.1851,
+    "over25": 0.6521
+   },
+   "odds": {
+    "home": 1.59,
+    "draw": 4.33,
+    "away": 4.81,
+    "over25": 1.47,
+    "under25": 2.59
+   },
+   "team_matches": [
+    100,
+    8
+   ],
+   "flags": [
+    "Schalke 04 new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "I2|2026-11-08|Vicenza|Cremonese",
+   "league": "I2",
+   "league_name": "Italy · Serie B",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T18:30:00+00:00",
+   "home": "Vicenza",
+   "away": "Cremonese",
+   "expected_goals": [
+    1.22,
+    1.37
+   ],
+   "model_expected_goals": [
+    1.19,
+    1.4
+   ],
+   "rho": -0.1144,
+   "probabilities": {
+    "home": 0.3185,
+    "draw": 0.2921,
+    "away": 0.3894,
+    "over25": 0.4799,
+    "under25": 0.5201,
+    "btts": 0.5406,
+    "btts_over25": 0.401,
+    "dc_1x": 0.6106,
+    "dc_x2": 0.6815,
+    "dc_12": 0.7079
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1396
+    ],
+    [
+     "0-0",
+     0.0891
+    ],
+    [
+     "0-1",
+     0.0883
+    ]
+   ],
+   "market": {
+    "home": 0.3256,
+    "draw": 0.2827,
+    "away": 0.3917,
+    "over25": 0.4803
+   },
+   "odds": {
+    "home": 2.81,
+    "draw": 3.2,
+    "away": 2.37,
+    "over25": 1.92,
+    "under25": 1.79
+   },
+   "team_matches": [
+    10,
+    74
+   ],
+   "flags": [
+    "Vicenza new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "G1|2026-11-08|Olympiakos|PAOK",
+   "league": "G1",
+   "league_name": "Greece · Super League",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T19:00:00+00:00",
+   "home": "Olympiakos",
+   "away": "PAOK",
+   "expected_goals": [
+    1.87,
+    0.92
+   ],
+   "model_expected_goals": [
+    1.52,
+    1.06
+   ],
+   "rho": -0.1298,
+   "probabilities": {
+    "home": 0.5824,
+    "draw": 0.2497,
+    "away": 0.1679,
+    "over25": 0.5293,
+    "under25": 0.4707,
+    "btts": 0.5239,
+    "btts_over25": 0.4045,
+    "dc_1x": 0.8321,
+    "dc_x2": 0.4176,
+    "dc_12": 0.7503
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1194
+    ],
+    [
+     "2-0",
+     0.107
+    ],
+    [
+     "1-0",
+     0.1006
+    ]
+   ],
+   "market": {
+    "home": 0.6144,
+    "draw": 0.2196,
+    "away": 0.166,
+    "over25": 0.5406
+   },
+   "odds": {
+    "home": 1.55,
+    "draw": 3.91,
+    "away": 5.03,
+    "over25": 1.73,
+    "under25": 2.0
+   },
+   "team_matches": [
+    99,
+    99
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "N1|2026-11-08|Utrecht|Nijmegen",
+   "league": "N1",
+   "league_name": "Netherlands · Eredivisie",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T19:00:00+00:00",
+   "home": "Utrecht",
+   "away": "Nijmegen",
+   "expected_goals": [
+    1.72,
+    1.63
+   ],
+   "model_expected_goals": [
+    1.75,
+    1.56
+   ],
+   "rho": -0.0597,
+   "probabilities": {
+    "home": 0.3996,
+    "draw": 0.2397,
+    "away": 0.3607,
+    "over25": 0.651,
+    "under25": 0.349,
+    "btts": 0.6663,
+    "btts_over25": 0.5621,
+    "dc_1x": 0.6393,
+    "dc_x2": 0.6004,
+    "dc_12": 0.7603
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1041
+    ],
+    [
+     "2-1",
+     0.0846
+    ],
+    [
+     "1-2",
+     0.0801
+    ]
+   ],
+   "market": {
+    "home": 0.394,
+    "draw": 0.2432,
+    "away": 0.3628,
+    "over25": 0.6524
+   },
+   "odds": {
+    "home": 2.38,
+    "draw": 3.73,
+    "away": 2.57,
+    "over25": 1.46,
+    "under25": 2.55
+   },
+   "team_matches": [
+    102,
+    103
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "POL|2026-11-08|Lech Poznan|Zaglebie",
+   "league": "POL",
+   "league_name": "Poland · Ekstraklasa",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T19:15:00+00:00",
+   "home": "Lech Poznan",
+   "away": "Zaglebie",
+   "expected_goals": [
+    2.03,
+    0.82
+   ],
+   "model_expected_goals": [
+    1.89,
+    0.96
+   ],
+   "rho": -0.1049,
+   "probabilities": {
+    "home": 0.6448,
+    "draw": 0.2231,
+    "away": 0.1321,
+    "over25": 0.5412,
+    "under25": 0.4588,
+    "btts": 0.4955,
+    "btts_over25": 0.3889,
+    "dc_1x": 0.8679,
+    "dc_x2": 0.3552,
+    "dc_12": 0.7769
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1193
+    ],
+    [
+     "1-0",
+     0.1077
+    ],
+    [
+     "1-1",
+     0.1066
+    ]
+   ],
+   "market": {
+    "home": 0.6705,
+    "draw": 0.1895,
+    "away": 0.14,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.43,
+    "draw": 4.43,
+    "away": 5.81,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    100,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "F1|2026-11-08|Lens|Marseille",
+   "league": "F1",
+   "league_name": "France · Ligue 1",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T19:45:00+00:00",
+   "home": "Lens",
+   "away": "Marseille",
+   "expected_goals": [
+    1.82,
+    1.52
+   ],
+   "model_expected_goals": [
+    1.76,
+    1.37
+   ],
+   "rho": -0.0364,
+   "probabilities": {
+    "home": 0.4449,
+    "draw": 0.2334,
+    "away": 0.3217,
+    "over25": 0.6481,
+    "under25": 0.3519,
+    "btts": 0.6581,
+    "btts_over25": 0.5564,
+    "dc_1x": 0.6783,
+    "dc_x2": 0.5551,
+    "dc_12": 0.7666
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1017
+    ],
+    [
+     "2-1",
+     0.0891
+    ],
+    [
+     "1-2",
+     0.0747
+    ]
+   ],
+   "market": {
+    "home": 0.4371,
+    "draw": 0.241,
+    "away": 0.3219,
+    "over25": 0.6556
+   },
+   "odds": {
+    "home": 2.17,
+    "draw": 3.79,
+    "away": 2.89,
+    "over25": 1.46,
+    "under25": 2.6
+   },
+   "team_matches": [
+    100,
+    101
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "I1|2026-11-08|Fiorentina|Juventus",
+   "league": "I1",
+   "league_name": "Italy · Serie A",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T19:45:00+00:00",
+   "home": "Fiorentina",
+   "away": "Juventus",
+   "expected_goals": [
+    1.19,
+    1.59
+   ],
+   "model_expected_goals": [
+    1.12,
+    1.37
+   ],
+   "rho": -0.0048,
+   "probabilities": {
+    "home": 0.2865,
+    "draw": 0.2495,
+    "away": 0.464,
+    "over25": 0.5255,
+    "under25": 0.4745,
+    "btts": 0.5546,
+    "btts_over25": 0.4365,
+    "dc_1x": 0.536,
+    "dc_x2": 0.7135,
+    "dc_12": 0.7505
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1181
+    ],
+    [
+     "0-1",
+     0.0979
+    ],
+    [
+     "1-2",
+     0.0932
+    ]
+   ],
+   "market": {
+    "home": 0.2753,
+    "draw": 0.2612,
+    "away": 0.4634,
+    "over25": 0.5383
+   },
+   "odds": {
+    "home": 3.36,
+    "draw": 3.53,
+    "away": 2.06,
+    "over25": 1.75,
+    "under25": 2.01
+   },
+   "team_matches": [
+    113,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "SP1|2026-11-08|Ath Madrid|Barcelona",
+   "league": "SP1",
+   "league_name": "Spain · La Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T20:00:00+00:00",
+   "home": "Ath Madrid",
+   "away": "Barcelona",
+   "expected_goals": [
+    1.56,
+    2.19
+   ],
+   "model_expected_goals": [
+    1.55,
+    1.73
+   ],
+   "rho": -0.0181,
+   "probabilities": {
+    "home": 0.2731,
+    "draw": 0.2077,
+    "away": 0.5192,
+    "over25": 0.724,
+    "under25": 0.276,
+    "btts": 0.7039,
+    "btts_over25": 0.6224,
+    "dc_1x": 0.4808,
+    "dc_x2": 0.7269,
+    "dc_12": 0.7923
+   },
+   "top_scores": [
+    [
+     "1-2",
+     0.0878
+    ],
+    [
+     "1-1",
+     0.0816
+    ],
+    [
+     "2-2",
+     0.0687
+    ]
+   ],
+   "market": {
+    "home": 0.2539,
+    "draw": 0.2154,
+    "away": 0.5307,
+    "over25": 0.7394
+   },
+   "odds": {
+    "home": 3.61,
+    "draw": 4.21,
+    "away": 1.81,
+    "over25": 1.31,
+    "under25": 3.33
+   },
+   "team_matches": [
+    114,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "P1|2026-11-08|Estrela|Benfica",
+   "league": "P1",
+   "league_name": "Portugal · Primeira Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T20:30:00+00:00",
+   "home": "Estrela",
+   "away": "Benfica",
+   "expected_goals": [
+    0.79,
+    2.62
+   ],
+   "model_expected_goals": [
+    0.96,
+    2.05
+   ],
+   "rho": 0.0576,
+   "probabilities": {
+    "home": 0.0933,
+    "draw": 0.1382,
+    "away": 0.7685,
+    "over25": 0.6628,
+    "under25": 0.3372,
+    "btts": 0.5033,
+    "btts_over25": 0.4389,
+    "dc_1x": 0.2315,
+    "dc_x2": 0.9067,
+    "dc_12": 0.8618
+   },
+   "top_scores": [
+    [
+     "0-2",
+     0.1132
+    ],
+    [
+     "0-3",
+     0.0989
+    ],
+    [
+     "0-1",
+     0.0903
+    ]
+   ],
+   "market": {
+    "home": 0.0785,
+    "draw": 0.1352,
+    "away": 0.7863,
+    "over25": 0.6795
+   },
+   "odds": {
+    "home": 9.75,
+    "draw": 5.99,
+    "away": 1.24,
+    "over25": 1.41,
+    "under25": 2.75
+   },
+   "team_matches": [
+    102,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "P1|2026-11-08|Rio Ave|Sp Braga",
+   "league": "P1",
+   "league_name": "Portugal · Primeira Liga",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T20:30:00+00:00",
+   "home": "Rio Ave",
+   "away": "Sp Braga",
+   "expected_goals": [
+    0.87,
+    1.91
+   ],
+   "model_expected_goals": [
+    1.07,
+    1.64
+   ],
+   "rho": 0.0576,
+   "probabilities": {
+    "home": 0.1718,
+    "draw": 0.205,
+    "away": 0.6231,
+    "over25": 0.5261,
+    "under25": 0.4739,
+    "btts": 0.4898,
+    "btts_over25": 0.3926,
+    "dc_1x": 0.3769,
+    "dc_x2": 0.8282,
+    "dc_12": 0.795
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.1242
+    ],
+    [
+     "0-2",
+     0.1129
+    ],
+    [
+     "1-2",
+     0.0985
+    ]
+   ],
+   "market": {
+    "home": 0.1513,
+    "draw": 0.215,
+    "away": 0.6337,
+    "over25": 0.5315
+   },
+   "odds": {
+    "home": 5.66,
+    "draw": 4.1,
+    "away": 1.52,
+    "over25": 1.76,
+    "under25": 1.97
+   },
+   "team_matches": [
+    102,
+    102
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  },
+  {
+   "id": "ARG|2026-11-08|Central Cordoba|Lanus",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-11-08",
+   "kickoff": "2026-11-08T22:30:00+00:00",
+   "home": "Central Cordoba",
+   "away": "Lanus",
+   "expected_goals": [
+    0.67,
+    1.38
+   ],
+   "model_expected_goals": [
+    0.94,
+    1.12
+   ],
+   "rho": -0.0817,
+   "probabilities": {
+    "home": 0.1705,
+    "draw": 0.297,
+    "away": 0.5325,
+    "over25": 0.3378,
+    "under25": 0.6622,
+    "btts": 0.3752,
+    "btts_over25": 0.2467,
+    "dc_1x": 0.4675,
+    "dc_x2": 0.8295,
+    "dc_12": 0.703
+   },
+   "top_scores": [
+    [
+     "0-1",
+     0.168
+    ],
+    [
+     "0-0",
+     0.138
+    ],
+    [
+     "1-1",
+     0.1285
+    ]
+   ],
+   "market": {
+    "home": 0.169,
+    "draw": 0.2577,
+    "away": 0.5733,
+    "over25": null
+   },
+   "odds": {
+    "home": 5.15,
+    "draw": 3.49,
+    "away": 1.67,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    108,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-06T12:59:16+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "SP1|2026-11-08|Ath Madrid|Barcelona",
+    "league": "SP1",
+    "kickoff": "2026-11-08T20:00:00+00:00",
+    "home": "Ath Madrid",
+    "away": "Barcelona",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.6224,
+    "fair_odds": 1.61,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "N1|2026-11-08|Cambuur|PSV Eindhoven",
+    "league": "N1",
+    "kickoff": "2026-11-08T15:45:00+00:00",
+    "home": "Cambuur",
+    "away": "PSV Eindhoven",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.6109,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SWZ|2026-11-08|Thun|Basel",
+    "league": "SWZ",
+    "kickoff": "2026-11-08T15:30:00+00:00",
+    "home": "Thun",
+    "away": "Basel",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.6021,
+    "fair_odds": 1.66,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "N1|2026-11-08|Heerenveen|Feyenoord",
+    "league": "N1",
+    "kickoff": "2026-11-08T11:15:00+00:00",
+    "home": "Heerenveen",
+    "away": "Feyenoord",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5828,
+    "fair_odds": 1.72,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "CHN|2026-11-08|Yunnan Yukun|Wuhan Three Towns",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Yunnan Yukun",
+    "away": "Wuhan Three Towns",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.58,
+    "fair_odds": 1.72,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-11-08|San Diego FC|Sporting Kansas City",
+    "league": "USA",
+    "kickoff": "2026-11-08T00:00:00+00:00",
+    "home": "San Diego FC",
+    "away": "Sporting Kansas City",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5766,
+    "fair_odds": 1.73,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "D1|2026-11-08|FC Koln|Leverkusen",
+    "league": "D1",
+    "kickoff": "2026-11-08T14:30:00+00:00",
+    "home": "FC Koln",
+    "away": "Leverkusen",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5751,
+    "fair_odds": 1.74,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "N1|2026-11-08|Twente|Ajax",
+    "league": "N1",
+    "kickoff": "2026-11-08T13:30:00+00:00",
+    "home": "Twente",
+    "away": "Ajax",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5696,
+    "fair_odds": 1.76,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "N1|2026-11-08|Utrecht|Nijmegen",
+    "league": "N1",
+    "kickoff": "2026-11-08T19:00:00+00:00",
+    "home": "Utrecht",
+    "away": "Nijmegen",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5621,
+    "fair_odds": 1.78,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "D2|2026-11-08|Heidenheim|Hannover",
+    "league": "D2",
+    "kickoff": "2026-11-08T12:30:00+00:00",
+    "home": "Heidenheim",
+    "away": "Hannover",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5596,
+    "fair_odds": 1.79,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "NOR|2026-11-08|Lillestrom|Aalesund",
+    "league": "NOR",
+    "kickoff": "2026-11-08T16:00:00+00:00",
+    "home": "Lillestrom",
+    "away": "Aalesund",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5583,
+    "fair_odds": 1.79,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "F1|2026-11-08|Lens|Marseille",
+    "league": "F1",
+    "kickoff": "2026-11-08T19:45:00+00:00",
+    "home": "Lens",
+    "away": "Marseille",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5564,
+    "fair_odds": 1.8,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "CHN|2026-11-08|Zhejiang Professional|Henan Songshan Longmen",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Zhejiang Professional",
+    "away": "Henan Songshan Longmen",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5562,
+    "fair_odds": 1.8,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "N1|2026-11-08|AZ Alkmaar|Groningen",
+    "league": "N1",
+    "kickoff": "2026-11-08T15:45:00+00:00",
+    "home": "AZ Alkmaar",
+    "away": "Groningen",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5462,
+    "fair_odds": 1.83,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "B1|2026-11-08|Club Brugge|Anderlecht",
+    "league": "B1",
+    "kickoff": "2026-11-08T12:30:00+00:00",
+    "home": "Club Brugge",
+    "away": "Anderlecht",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5454,
+    "fair_odds": 1.83,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "I1|2026-11-08|Inter|Como",
+    "league": "I1",
+    "kickoff": "2026-11-08T17:00:00+00:00",
+    "home": "Inter",
+    "away": "Como",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5413,
+    "fair_odds": 1.85,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "CHN|2026-11-08|Shandong Taishan|Chengdu Rongcheng",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Shandong Taishan",
+    "away": "Chengdu Rongcheng",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5405,
+    "fair_odds": 1.85,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-11-08|Minnesota United|San Jose Earthquakes",
+    "league": "USA",
+    "kickoff": "2026-11-08T00:00:00+00:00",
+    "home": "Minnesota United",
+    "away": "San Jose Earthquakes",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5363,
+    "fair_odds": 1.86,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SWZ|2026-11-08|Servette|Zurich",
+    "league": "SWZ",
+    "kickoff": "2026-11-08T15:30:00+00:00",
+    "home": "Servette",
+    "away": "Zurich",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5301,
+    "fair_odds": 1.89,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "D1|2026-11-08|Hoffenheim|Schalke 04",
+    "league": "D1",
+    "kickoff": "2026-11-08T18:30:00+00:00",
+    "home": "Hoffenheim",
+    "away": "Schalke 04",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5166,
+    "fair_odds": 1.94,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "N1|2026-11-08|Cambuur|PSV Eindhoven",
+    "league": "N1",
+    "kickoff": "2026-11-08T15:45:00+00:00",
+    "home": "Cambuur",
+    "away": "PSV Eindhoven",
+    "selection": "Over 2.5",
+    "tier": "banker",
+    "probability": 0.7738,
+    "fair_odds": 1.29,
+    "market_odds": 1.25,
+    "edge": -0.0327,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SC0|2026-11-08|Celtic|Kilmarnock",
+    "league": "SC0",
+    "kickoff": "2026-11-08T16:00:00+00:00",
+    "home": "Celtic",
+    "away": "Kilmarnock",
+    "selection": "Over 2.5",
+    "tier": "banker",
+    "probability": 0.7638,
+    "fair_odds": 1.31,
+    "market_odds": 1.25,
+    "edge": -0.0452,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-11-08|San Diego FC|Sporting Kansas City",
+    "league": "USA",
+    "kickoff": "2026-11-08T00:00:00+00:00",
+    "home": "San Diego FC",
+    "away": "Sporting Kansas City",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.7244,
+    "fair_odds": 1.38,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SP1|2026-11-08|Ath Madrid|Barcelona",
+    "league": "SP1",
+    "kickoff": "2026-11-08T20:00:00+00:00",
+    "home": "Ath Madrid",
+    "away": "Barcelona",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.724,
+    "fair_odds": 1.38,
+    "market_odds": 1.31,
+    "edge": -0.0515,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "CHN|2026-11-08|Yunnan Yukun|Wuhan Three Towns",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Yunnan Yukun",
+    "away": "Wuhan Three Towns",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.7021,
+    "fair_odds": 1.42,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SWZ|2026-11-08|Thun|Basel",
+    "league": "SWZ",
+    "kickoff": "2026-11-08T15:30:00+00:00",
+    "home": "Thun",
+    "away": "Basel",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6951,
+    "fair_odds": 1.44,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "N1|2026-11-08|Heerenveen|Feyenoord",
+    "league": "N1",
+    "kickoff": "2026-11-08T11:15:00+00:00",
+    "home": "Heerenveen",
+    "away": "Feyenoord",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6948,
+    "fair_odds": 1.44,
+    "market_odds": 1.36,
+    "edge": -0.055,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "CHN|2026-11-08|Shanghai Port|Liaoning Tieren",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Shanghai Port",
+    "away": "Liaoning Tieren",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6947,
+    "fair_odds": 1.44,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "B1|2026-11-08|Club Brugge|Anderlecht",
+    "league": "B1",
+    "kickoff": "2026-11-08T12:30:00+00:00",
+    "home": "Club Brugge",
+    "away": "Anderlecht",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6908,
+    "fair_odds": 1.45,
+    "market_odds": 1.37,
+    "edge": -0.0536,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "DNK|2026-11-08|Midtjylland|Sonderjyske",
+    "league": "DNK",
+    "kickoff": "2026-11-08T17:00:00+00:00",
+    "home": "Midtjylland",
+    "away": "Sonderjyske",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6853,
+    "fair_odds": 1.46,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "D1|2026-11-08|FC Koln|Leverkusen",
+    "league": "D1",
+    "kickoff": "2026-11-08T14:30:00+00:00",
+    "home": "FC Koln",
+    "away": "Leverkusen",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6815,
+    "fair_odds": 1.47,
+    "market_odds": 1.39,
+    "edge": -0.0527,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "N1|2026-11-08|AZ Alkmaar|Groningen",
+    "league": "N1",
+    "kickoff": "2026-11-08T15:45:00+00:00",
+    "home": "AZ Alkmaar",
+    "away": "Groningen",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6804,
+    "fair_odds": 1.47,
+    "market_odds": 1.38,
+    "edge": -0.0611,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "T1|2026-11-08|Besiktas|Genclerbirligi",
+    "league": "T1",
+    "kickoff": "2026-11-08T18:00:00+00:00",
+    "home": "Besiktas",
+    "away": "Genclerbirligi",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.675,
+    "fair_odds": 1.48,
+    "market_odds": 1.36,
+    "edge": -0.0821,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "NOR|2026-11-08|Lillestrom|Aalesund",
+    "league": "NOR",
+    "kickoff": "2026-11-08T16:00:00+00:00",
+    "home": "Lillestrom",
+    "away": "Aalesund",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6649,
+    "fair_odds": 1.5,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "P1|2026-11-08|Estrela|Benfica",
+    "league": "P1",
+    "kickoff": "2026-11-08T20:30:00+00:00",
+    "home": "Estrela",
+    "away": "Benfica",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6628,
+    "fair_odds": 1.51,
+    "market_odds": 1.41,
+    "edge": -0.0655,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "N1|2026-11-08|Twente|Ajax",
+    "league": "N1",
+    "kickoff": "2026-11-08T13:30:00+00:00",
+    "home": "Twente",
+    "away": "Ajax",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.66,
+    "fair_odds": 1.52,
+    "market_odds": 1.43,
+    "edge": -0.0561,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "D2|2026-11-08|Heidenheim|Hannover",
+    "league": "D2",
+    "kickoff": "2026-11-08T12:30:00+00:00",
+    "home": "Heidenheim",
+    "away": "Hannover",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6556,
+    "fair_odds": 1.53,
+    "market_odds": 1.42,
+    "edge": -0.069,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "CHN|2026-11-08|Zhejiang Professional|Henan Songshan Longmen",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Zhejiang Professional",
+    "away": "Henan Songshan Longmen",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6512,
+    "fair_odds": 1.54,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "N1|2026-11-08|Utrecht|Nijmegen",
+    "league": "N1",
+    "kickoff": "2026-11-08T19:00:00+00:00",
+    "home": "Utrecht",
+    "away": "Nijmegen",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.651,
+    "fair_odds": 1.54,
+    "market_odds": 1.46,
+    "edge": -0.0496,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "NOR|2026-11-08|Viking|KFUM Oslo",
+    "league": "NOR",
+    "kickoff": "2026-11-08T16:00:00+00:00",
+    "home": "Viking",
+    "away": "KFUM Oslo",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6494,
+    "fair_odds": 1.54,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "SP1|2026-11-08|Ath Madrid|Barcelona",
+    "league": "SP1",
+    "kickoff": "2026-11-08T20:00:00+00:00",
+    "home": "Ath Madrid",
+    "away": "Barcelona",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.7039,
+    "fair_odds": 1.42,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SWZ|2026-11-08|Thun|Basel",
+    "league": "SWZ",
+    "kickoff": "2026-11-08T15:30:00+00:00",
+    "home": "Thun",
+    "away": "Basel",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6925,
+    "fair_odds": 1.44,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "N1|2026-11-08|Cambuur|PSV Eindhoven",
+    "league": "N1",
+    "kickoff": "2026-11-08T15:45:00+00:00",
+    "home": "Cambuur",
+    "away": "PSV Eindhoven",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.674,
+    "fair_odds": 1.48,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "N1|2026-11-08|Heerenveen|Feyenoord",
+    "league": "N1",
+    "kickoff": "2026-11-08T11:15:00+00:00",
+    "home": "Heerenveen",
+    "away": "Feyenoord",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6724,
+    "fair_odds": 1.49,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "N1|2026-11-08|Twente|Ajax",
+    "league": "N1",
+    "kickoff": "2026-11-08T13:30:00+00:00",
+    "home": "Twente",
+    "away": "Ajax",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6714,
+    "fair_odds": 1.49,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "D1|2026-11-08|FC Koln|Leverkusen",
+    "league": "D1",
+    "kickoff": "2026-11-08T14:30:00+00:00",
+    "home": "FC Koln",
+    "away": "Leverkusen",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6697,
+    "fair_odds": 1.49,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "N1|2026-11-08|Utrecht|Nijmegen",
+    "league": "N1",
+    "kickoff": "2026-11-08T19:00:00+00:00",
+    "home": "Utrecht",
+    "away": "Nijmegen",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6663,
+    "fair_odds": 1.5,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "CHN|2026-11-08|Yunnan Yukun|Wuhan Three Towns",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Yunnan Yukun",
+    "away": "Wuhan Three Towns",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6643,
+    "fair_odds": 1.51,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "D2|2026-11-08|Heidenheim|Hannover",
+    "league": "D2",
+    "kickoff": "2026-11-08T12:30:00+00:00",
+    "home": "Heidenheim",
+    "away": "Hannover",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.659,
+    "fair_odds": 1.52,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "F1|2026-11-08|Lens|Marseille",
+    "league": "F1",
+    "kickoff": "2026-11-08T19:45:00+00:00",
+    "home": "Lens",
+    "away": "Marseille",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6581,
+    "fair_odds": 1.52,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "CHN|2026-11-08|Zhejiang Professional|Henan Songshan Longmen",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Zhejiang Professional",
+    "away": "Henan Songshan Longmen",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6567,
+    "fair_odds": 1.52,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-11-08|San Diego FC|Sporting Kansas City",
+    "league": "USA",
+    "kickoff": "2026-11-08T00:00:00+00:00",
+    "home": "San Diego FC",
+    "away": "Sporting Kansas City",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6522,
+    "fair_odds": 1.53,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "NOR|2026-11-08|Lillestrom|Aalesund",
+    "league": "NOR",
+    "kickoff": "2026-11-08T16:00:00+00:00",
+    "home": "Lillestrom",
+    "away": "Aalesund",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6495,
+    "fair_odds": 1.54,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "CHN|2026-11-08|Shandong Taishan|Chengdu Rongcheng",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Shandong Taishan",
+    "away": "Chengdu Rongcheng",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6467,
+    "fair_odds": 1.55,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "I1|2026-11-08|Inter|Como",
+    "league": "I1",
+    "kickoff": "2026-11-08T17:00:00+00:00",
+    "home": "Inter",
+    "away": "Como",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6379,
+    "fair_odds": 1.57,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-11-08|Minnesota United|San Jose Earthquakes",
+    "league": "USA",
+    "kickoff": "2026-11-08T00:00:00+00:00",
+    "home": "Minnesota United",
+    "away": "San Jose Earthquakes",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6346,
+    "fair_odds": 1.58,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "N1|2026-11-08|AZ Alkmaar|Groningen",
+    "league": "N1",
+    "kickoff": "2026-11-08T15:45:00+00:00",
+    "home": "AZ Alkmaar",
+    "away": "Groningen",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6342,
+    "fair_odds": 1.58,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SWZ|2026-11-08|Servette|Zurich",
+    "league": "SWZ",
+    "kickoff": "2026-11-08T15:30:00+00:00",
+    "home": "Servette",
+    "away": "Zurich",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6298,
+    "fair_odds": 1.59,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "B1|2026-11-08|Club Brugge|Anderlecht",
+    "league": "B1",
+    "kickoff": "2026-11-08T12:30:00+00:00",
+    "home": "Club Brugge",
+    "away": "Anderlecht",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6278,
+    "fair_odds": 1.59,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E0|2026-11-08|Man United|Aston Villa",
+    "league": "E0",
+    "kickoff": "2026-11-08T16:30:00+00:00",
+    "home": "Man United",
+    "away": "Aston Villa",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6271,
+    "fair_odds": 1.59,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "FIN|2026-11-08|HJK|AC Oulu",
+    "league": "FIN",
+    "kickoff": "2026-11-08T13:00:00+00:00",
+    "home": "HJK",
+    "away": "AC Oulu",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9511,
+    "fair_odds": 1.05,
+    "market_odds": 0.98,
+    "edge": -0.0652,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "G1|2026-11-08|AEK|Levadeiakos",
+    "league": "G1",
+    "kickoff": "2026-11-08T15:00:00+00:00",
+    "home": "AEK",
+    "away": "Levadeiakos",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9484,
+    "fair_odds": 1.05,
+    "market_odds": 0.98,
+    "edge": -0.0674,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SC0|2026-11-08|Celtic|Kilmarnock",
+    "league": "SC0",
+    "kickoff": "2026-11-08T16:00:00+00:00",
+    "home": "Celtic",
+    "away": "Kilmarnock",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9396,
+    "fair_odds": 1.06,
+    "market_odds": 1.0,
+    "edge": -0.06,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "NOR|2026-11-08|Viking|KFUM Oslo",
+    "league": "NOR",
+    "kickoff": "2026-11-08T16:00:00+00:00",
+    "home": "Viking",
+    "away": "KFUM Oslo",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9237,
+    "fair_odds": 1.08,
+    "market_odds": 1.01,
+    "edge": -0.0655,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "T1|2026-11-08|Besiktas|Genclerbirligi",
+    "league": "T1",
+    "kickoff": "2026-11-08T18:00:00+00:00",
+    "home": "Besiktas",
+    "away": "Genclerbirligi",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.922,
+    "fair_odds": 1.08,
+    "market_odds": 1.02,
+    "edge": -0.0635,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "CHN|2026-11-08|Beijing Guoan|Chongqing Tonglianglong",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Beijing Guoan",
+    "away": "Chongqing Tonglianglong",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9094,
+    "fair_odds": 1.1,
+    "market_odds": 1.02,
+    "edge": -0.0715,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "P1|2026-11-08|Estrela|Benfica",
+    "league": "P1",
+    "kickoff": "2026-11-08T20:30:00+00:00",
+    "home": "Estrela",
+    "away": "Benfica",
+    "selection": "X2",
+    "tier": "banker",
+    "probability": 0.9067,
+    "fair_odds": 1.1,
+    "market_odds": 1.03,
+    "edge": -0.0685,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "CHN|2026-11-08|Shanghai Port|Liaoning Tieren",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Shanghai Port",
+    "away": "Liaoning Tieren",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9013,
+    "fair_odds": 1.11,
+    "market_odds": 1.04,
+    "edge": -0.0615,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "G1|2026-11-08|Iraklis|Panathinaikos",
+    "league": "G1",
+    "kickoff": "2026-11-08T15:30:00+00:00",
+    "home": "Iraklis",
+    "away": "Panathinaikos",
+    "selection": "X2",
+    "tier": "banker",
+    "probability": 0.8942,
+    "fair_odds": 1.12,
+    "market_odds": 1.03,
+    "edge": -0.0761,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "DNK|2026-11-08|Midtjylland|Sonderjyske",
+    "league": "DNK",
+    "kickoff": "2026-11-08T17:00:00+00:00",
+    "home": "Midtjylland",
+    "away": "Sonderjyske",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.8909,
+    "fair_odds": 1.12,
+    "market_odds": 1.06,
+    "edge": -0.0591,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SWE|2026-11-08|Halmstad|Djurgarden",
+    "league": "SWE",
+    "kickoff": "2026-11-08T13:00:00+00:00",
+    "home": "Halmstad",
+    "away": "Djurgarden",
+    "selection": "X2",
+    "tier": "banker",
+    "probability": 0.8853,
+    "fair_odds": 1.13,
+    "market_odds": 1.06,
+    "edge": -0.0618,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "CHN|2026-11-08|Dalian Yingbo|Tianjin Jinmen Tiger",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Dalian Yingbo",
+    "away": "Tianjin Jinmen Tiger",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.8825,
+    "fair_odds": 1.13,
+    "market_odds": 1.04,
+    "edge": -0.079,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP1|2026-11-08|Villarreal|Getafe",
+    "league": "SP1",
+    "kickoff": "2026-11-08T17:30:00+00:00",
+    "home": "Villarreal",
+    "away": "Getafe",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8715,
+    "fair_odds": 1.15,
+    "market_odds": 1.07,
+    "edge": -0.0639,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "NOR|2026-11-08|Tromso|Bodo/Glimt",
+    "league": "NOR",
+    "kickoff": "2026-11-08T13:30:00+00:00",
+    "home": "Tromso",
+    "away": "Bodo/Glimt",
+    "selection": "X2",
+    "tier": "strong",
+    "probability": 0.8695,
+    "fair_odds": 1.15,
+    "market_odds": 1.06,
+    "edge": -0.082,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "POL|2026-11-08|Lech Poznan|Zaglebie",
+    "league": "POL",
+    "kickoff": "2026-11-08T19:15:00+00:00",
+    "home": "Lech Poznan",
+    "away": "Zaglebie",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8679,
+    "fair_odds": 1.15,
+    "market_odds": 1.08,
+    "edge": -0.0618,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "B1|2026-11-08|Gent|Kortrijk",
+    "league": "B1",
+    "kickoff": "2026-11-08T15:00:00+00:00",
+    "home": "Gent",
+    "away": "Kortrijk",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8633,
+    "fair_odds": 1.16,
+    "market_odds": 1.08,
+    "edge": -0.0698,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "N1|2026-11-08|Cambuur|PSV Eindhoven",
+    "league": "N1",
+    "kickoff": "2026-11-08T15:45:00+00:00",
+    "home": "Cambuur",
+    "away": "PSV Eindhoven",
+    "selection": "X2",
+    "tier": "strong",
+    "probability": 0.8623,
+    "fair_odds": 1.16,
+    "market_odds": 1.09,
+    "edge": -0.0604,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "CHN|2026-11-08|Shanghai Shenhua|Qingdao West Coast",
+    "league": "CHN",
+    "kickoff": "2026-11-08T07:30:00+00:00",
+    "home": "Shanghai Shenhua",
+    "away": "Qingdao West Coast",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.859,
+    "fair_odds": 1.16,
+    "market_odds": 1.08,
+    "edge": -0.0685,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "D1|2026-11-08|Freiburg|Union Berlin",
+    "league": "D1",
+    "kickoff": "2026-11-08T16:30:00+00:00",
+    "home": "Freiburg",
+    "away": "Union Berlin",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8425,
+    "fair_odds": 1.19,
+    "market_odds": 1.11,
+    "edge": -0.0628,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-11-08|San Diego FC|Sporting Kansas City",
+    "league": "USA",
+    "kickoff": "2026-11-08T00:00:00+00:00",
+    "home": "San Diego FC",
+    "away": "Sporting Kansas City",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8385,
+    "fair_odds": 1.19,
+    "market_odds": 1.12,
+    "edge": -0.0584,
+    "published_at": "2026-11-06T12:59:16+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }
