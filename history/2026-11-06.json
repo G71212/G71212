@@ -1901,8 +1901,12 @@
     102
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-06T12:59:16+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-11-06T12:59:16+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-11-06|Independiente|Dep. Riestra",
@@ -2157,8 +2161,12 @@
     116
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-04T01:39:16+00:00"
+   "result": [
+    0,
+    3
+   ],
+   "predicted_at": "2026-11-04T01:39:16+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -3319,8 +3327,12 @@
     "market_odds": 1.29,
     "edge": -0.0837,
     "published_at": "2026-11-04T01:39:16+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     3
+    ],
+    "provisional": true
    }
   ]
  },

@@ -1,55 +1,16 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-06 22:07 UTC · kick-off times in UTC_
+_Generated 2026-11-07 01:11 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
 
-## Thursday 05 November 2026
-
-5 matches analysed across 2 leagues.
-
-**Results:** ✅ 5 won · ❌ 1 lost
-
-### 🔒 Bankers: the day's safest tips
-
-| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
-|---|---|---|---|---|---|---|
-| 22:30 | Palmeiras vs Remo | Double Chance | 1X | 94% | 1.06 | ✅ 6-1 |
-| 18:00 | Aldosivi vs River Plate | Double Chance | X2 | 88% | 1.13 | ✅ 0-2 |
-
-### 🔥 BTTS & Over 2.5
-
-_No match was likely enough to pick._
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 22:30 | Brazil · Serie A | Palmeiras vs Remo | Over 2.5 | 52% ☆ | 1.91 | - | ✅ 6-1 |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:30 | Brazil · Serie A | Botafogo RJ vs Atletico-MG | BTTS Yes | 51% ☆ | 1.96 | - | ❌ 1-0 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 22:30 | Brazil · Serie A | Palmeiras vs Remo | 1X | 94% 🔒 | 1.06 | 1.01 | ✅ 6-1 |
-| 18:00 | Argentina · Liga Profesional | Aldosivi vs River Plate | X2 | 88% 🔒 | 1.13 | 1.06 | ✅ 0-2 |
-| 00:30 | Brazil · Serie A | Botafogo RJ vs Atletico-MG | 1X | 75% ☆ | 1.33 | 1.26 | ✅ 1-0 |
-| 00:30 | Brazil · Serie A | Sao Paulo vs Corinthians | 1X | 72% ☆ | 1.39 | 1.30 | ✅ 0-0 |
-
-
 ## Friday 06 November 2026
 
 33 matches analysed across 21 leagues.
 
-**Results:** ✅ 19 won · ❌ 2 lost · 42 pending
+**Results:** ✅ 20 won · ❌ 2 lost · 41 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -139,7 +100,7 @@ _No match was likely enough to pick._
 | 19:45 | Belgium · Pro League | Standard vs Beveren | 12 | 76% ☆ | 1.32 | 1.25 |  |
 | 19:00 | France · Ligue 2 | Dijon vs Red Star | 12 | 75% ☆ | 1.33 | 1.26 |  |
 | 19:00 | France · Ligue 2 | Dunkerque vs Guingamp | 12 | 75% ☆ | 1.33 | 1.24 |  |
-| 23:00 | Brazil · Serie A | Vitoria vs Fluminense | 12 | 71% ☆ | 1.41 | 1.29 |  |
+| 23:00 | Brazil · Serie A | Vitoria vs Fluminense | 12 | 71% ☆ | 1.41 | 1.29 | ✅ 0-3 |
 
 
 ## Saturday 07 November 2026
@@ -390,15 +351,48 @@ _No match was likely enough to pick._
 | 16:30 | Germany · Bundesliga | Freiburg vs Union Berlin | 1X | 84% ★ | 1.19 | 1.11 |  |
 | 00:00 | USA · MLS | San Diego FC vs Sporting Kansas City | 1X | 84% ★ | 1.19 | 1.12 |  |
 
+
+## Monday 09 November 2026
+
+4 matches analysed across 3 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 02:10 | Mexico · Liga MX | Club Leon vs Guadalajara Chivas | BTTS & Over 2.5 | 42% ☆ | 2.40 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 02:10 | Mexico · Liga MX | Club Leon vs Guadalajara Chivas | Over 2.5 | 50% ☆ | 2.00 | - |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 02:10 | Mexico · Liga MX | Club Leon vs Guadalajara Chivas | BTTS Yes | 55% ☆ | 1.83 | - |  |
+| 00:00 | Mexico · Liga MX | Queretaro vs Puebla | BTTS Yes | 51% ☆ | 1.96 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 19:30 | Spain · Segunda División | Sabadell vs Sociedad B | 1X | 80% ★ | 1.25 | 1.13 |  |
+| 00:00 | Mexico · Liga MX | Queretaro vs Puebla | 1X | 78% ☆ | 1.28 | 1.20 |  |
+| 18:00 | Romania · Superliga | FC Botosani vs Otelul | 12 | 73% ☆ | 1.36 | 1.24 |  |
+| 02:10 | Mexico · Liga MX | Club Leon vs Guadalajara Chivas | 12 | 73% ☆ | 1.37 | 1.24 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 28/32 (88%), ROI -8% | 106/119 (89%), ROI -6% | 111/125 (89%), ROI -6% |
-| BTTS & Over 2.5 | 35/74 (47%) | 192/343 (56%) | 225/408 (55%) |
-| Over 2.5 Goals | 44/75 (59%), ROI -24% | 233/344 (68%), ROI -5% | 273/410 (67%), ROI -6% |
-| Both Teams To Score | 43/77 (56%) | 219/352 (62%) | 264/422 (63%) |
-| Double Chance | 70/83 (84%), ROI -6% | 332/385 (86%), ROI -3% | 400/469 (85%), ROI -4% |
+| 🔒 Bankers | 14/15 (93%), ROI -3% | 105/118 (89%), ROI -6% | 111/125 (89%), ROI -6% |
+| BTTS & Over 2.5 | 28/54 (52%) | 190/340 (56%) | 225/408 (55%) |
+| Over 2.5 Goals | 35/55 (64%), ROI -19% | 231/341 (68%), ROI -5% | 273/410 (67%), ROI -6% |
+| Both Teams To Score | 34/56 (61%) | 217/349 (62%) | 264/422 (63%) |
+| Double Chance | 52/63 (83%), ROI -6% | 327/379 (86%), ROI -3% | 401/470 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

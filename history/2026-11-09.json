@@ -1,0 +1,412 @@
+{
+ "date": "2026-11-09",
+ "created_at": "2026-11-07T01:11:51+00:00",
+ "updated_at": "2026-11-07T01:11:51+00:00",
+ "fixtures": [
+  {
+   "id": "MEX|2026-11-09|Queretaro|Puebla",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-11-09",
+   "kickoff": "2026-11-09T00:00:00+00:00",
+   "home": "Queretaro",
+   "away": "Puebla",
+   "expected_goals": [
+    1.63,
+    0.98
+   ],
+   "model_expected_goals": [
+    1.59,
+    1.02
+   ],
+   "rho": -0.0644,
+   "probabilities": {
+    "home": 0.5184,
+    "draw": 0.2621,
+    "away": 0.2196,
+    "over25": 0.4848,
+    "under25": 0.5152,
+    "btts": 0.5104,
+    "btts_over25": 0.3854,
+    "dc_1x": 0.7804,
+    "dc_x2": 0.4816,
+    "dc_12": 0.7379
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1249
+    ],
+    [
+     "1-0",
+     0.1121
+    ],
+    [
+     "2-0",
+     0.0976
+    ]
+   ],
+   "market": {
+    "home": 0.5316,
+    "draw": 0.242,
+    "away": 0.2264,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.78,
+    "draw": 3.65,
+    "away": 3.88,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    101,
+    103
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-07T01:11:51+00:00"
+  },
+  {
+   "id": "MEX|2026-11-09|Club Leon|Guadalajara Chivas",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-11-09",
+   "kickoff": "2026-11-09T02:10:00+00:00",
+   "home": "Club Leon",
+   "away": "Guadalajara Chivas",
+   "expected_goals": [
+    1.19,
+    1.48
+   ],
+   "model_expected_goals": [
+    1.27,
+    1.41
+   ],
+   "rho": -0.0644,
+   "probabilities": {
+    "home": 0.2963,
+    "draw": 0.272,
+    "away": 0.4318,
+    "over25": 0.5004,
+    "under25": 0.4996,
+    "btts": 0.5462,
+    "btts_over25": 0.4166,
+    "dc_1x": 0.5682,
+    "dc_x2": 0.7037,
+    "dc_12": 0.728
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1296
+    ],
+    [
+     "0-1",
+     0.0944
+    ],
+    [
+     "1-2",
+     0.0904
+    ]
+   ],
+   "market": {
+    "home": 0.2979,
+    "draw": 0.2563,
+    "away": 0.4457,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.04,
+    "draw": 3.49,
+    "away": 2.1,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-07T01:11:51+00:00"
+  },
+  {
+   "id": "ROU|2026-11-09|FC Botosani|Otelul",
+   "league": "ROU",
+   "league_name": "Romania · Superliga",
+   "date": "2026-11-09",
+   "kickoff": "2026-11-09T18:00:00+00:00",
+   "home": "FC Botosani",
+   "away": "Otelul",
+   "expected_goals": [
+    1.43,
+    1.06
+   ],
+   "model_expected_goals": [
+    1.44,
+    1.05
+   ],
+   "rho": -0.01,
+   "probabilities": {
+    "home": 0.4538,
+    "draw": 0.2674,
+    "away": 0.2788,
+    "over25": 0.4545,
+    "under25": 0.5455,
+    "btts": 0.4992,
+    "btts_over25": 0.3723,
+    "dc_1x": 0.7212,
+    "dc_x2": 0.5462,
+    "dc_12": 0.7326
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1269
+    ],
+    [
+     "1-0",
+     0.117
+    ],
+    [
+     "2-1",
+     0.0899
+    ]
+   ],
+   "market": {
+    "home": 0.4544,
+    "draw": 0.2641,
+    "away": 0.2815,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.05,
+    "draw": 3.36,
+    "away": 3.17,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    119,
+    117
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-07T01:11:51+00:00"
+  },
+  {
+   "id": "SP2|2026-11-09|Sabadell|Sociedad B",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-09",
+   "kickoff": "2026-11-09T19:30:00+00:00",
+   "home": "Sabadell",
+   "away": "Sociedad B",
+   "expected_goals": [
+    1.64,
+    0.87
+   ],
+   "model_expected_goals": [
+    1.39,
+    1.08
+   ],
+   "rho": -0.0082,
+   "probabilities": {
+    "home": 0.5528,
+    "draw": 0.2481,
+    "away": 0.199,
+    "over25": 0.4587,
+    "under25": 0.5413,
+    "btts": 0.47,
+    "btts_over25": 0.3529,
+    "dc_1x": 0.801,
+    "dc_x2": 0.4472,
+    "dc_12": 0.7519
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1321
+    ],
+    [
+     "1-1",
+     0.1171
+    ],
+    [
+     "2-0",
+     0.1088
+    ]
+   ],
+   "market": {
+    "home": 0.5684,
+    "draw": 0.2507,
+    "away": 0.1809,
+    "over25": 0.4625
+   },
+   "odds": {
+    "home": 1.67,
+    "draw": 3.51,
+    "away": 4.72,
+    "over25": 1.99,
+    "under25": 1.74
+   },
+   "team_matches": [
+    12,
+    54
+   ],
+   "flags": [
+    "Sabadell new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-07T01:11:51+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-11-09|Club Leon|Guadalajara Chivas",
+    "league": "MEX",
+    "kickoff": "2026-11-09T02:10:00+00:00",
+    "home": "Club Leon",
+    "away": "Guadalajara Chivas",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4166,
+    "fair_odds": 2.4,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-07T01:11:51+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "MEX|2026-11-09|Club Leon|Guadalajara Chivas",
+    "league": "MEX",
+    "kickoff": "2026-11-09T02:10:00+00:00",
+    "home": "Club Leon",
+    "away": "Guadalajara Chivas",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5004,
+    "fair_odds": 2.0,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-07T01:11:51+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-11-09|Club Leon|Guadalajara Chivas",
+    "league": "MEX",
+    "kickoff": "2026-11-09T02:10:00+00:00",
+    "home": "Club Leon",
+    "away": "Guadalajara Chivas",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5462,
+    "fair_odds": 1.83,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-07T01:11:51+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-11-09|Queretaro|Puebla",
+    "league": "MEX",
+    "kickoff": "2026-11-09T00:00:00+00:00",
+    "home": "Queretaro",
+    "away": "Puebla",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5104,
+    "fair_odds": 1.96,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-07T01:11:51+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-11-09|Sabadell|Sociedad B",
+    "league": "SP2",
+    "kickoff": "2026-11-09T19:30:00+00:00",
+    "home": "Sabadell",
+    "away": "Sociedad B",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.801,
+    "fair_odds": 1.25,
+    "market_odds": 1.13,
+    "edge": -0.0936,
+    "published_at": "2026-11-07T01:11:51+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "MEX|2026-11-09|Queretaro|Puebla",
+    "league": "MEX",
+    "kickoff": "2026-11-09T00:00:00+00:00",
+    "home": "Queretaro",
+    "away": "Puebla",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7804,
+    "fair_odds": 1.28,
+    "market_odds": 1.2,
+    "edge": -0.0662,
+    "published_at": "2026-11-07T01:11:51+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ROU|2026-11-09|FC Botosani|Otelul",
+    "league": "ROU",
+    "kickoff": "2026-11-09T18:00:00+00:00",
+    "home": "FC Botosani",
+    "away": "Otelul",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7326,
+    "fair_odds": 1.36,
+    "market_odds": 1.24,
+    "edge": -0.088,
+    "published_at": "2026-11-07T01:11:51+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "MEX|2026-11-09|Club Leon|Guadalajara Chivas",
+    "league": "MEX",
+    "kickoff": "2026-11-09T02:10:00+00:00",
+    "home": "Club Leon",
+    "away": "Guadalajara Chivas",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.728,
+    "fair_odds": 1.37,
+    "market_odds": 1.24,
+    "edge": -0.0958,
+    "published_at": "2026-11-07T01:11:51+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}
