@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-09 01:12 UTC · kick-off times in UTC_
+_Generated 2026-11-09 13:57 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -10,26 +10,26 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 111 matches analysed across 27 leagues.
 
-**Results:** ✅ 30 won · ❌ 2 lost · 48 pending
+**Results:** ✅ 40 won · ❌ 5 lost · 35 pending
 
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
 | 13:00 | HJK vs AC Oulu | Double Chance | 1X | 95% | 1.05 |  |
-| 15:00 | AEK vs Levadeiakos | Double Chance | 1X | 95% | 1.05 |  |
-| 16:00 | Celtic vs Kilmarnock | Double Chance | 1X | 94% | 1.06 |  |
+| 15:00 | AEK vs Levadeiakos | Double Chance | 1X | 95% | 1.05 | ✅ 2-1 |
+| 16:00 | Celtic vs Kilmarnock | Double Chance | 1X | 94% | 1.06 | ✅ 1-0 |
 | 16:00 | Viking vs KFUM Oslo | Double Chance | 1X | 92% | 1.08 |  |
-| 18:00 | Besiktas vs Genclerbirligi | Double Chance | 1X | 92% | 1.08 |  |
+| 18:00 | Besiktas vs Genclerbirligi | Double Chance | 1X | 92% | 1.08 | ✅ 3-0 |
 | 07:30 | Beijing Guoan vs Chongqing Tonglianglong | Double Chance | 1X | 91% | 1.10 |  |
 | 20:30 | Estrela vs Benfica | Double Chance | X2 | 91% | 1.10 | ✅ 2-3 |
 | 07:30 | Shanghai Port vs Liaoning Tieren | Double Chance | 1X | 90% | 1.11 |  |
-| 15:30 | Iraklis vs Panathinaikos | Double Chance | X2 | 89% | 1.12 |  |
+| 15:30 | Iraklis vs Panathinaikos | Double Chance | X2 | 89% | 1.12 | ✅ 1-2 |
 | 17:00 | Midtjylland vs Sonderjyske | Double Chance | 1X | 89% | 1.12 |  |
 | 13:00 | Halmstad vs Djurgarden | Double Chance | X2 | 89% | 1.13 |  |
 | 07:30 | Dalian Yingbo vs Tianjin Jinmen Tiger | Double Chance | 1X | 88% | 1.13 |  |
 | 15:45 | Cambuur vs PSV Eindhoven | Over 2.5 Goals | Over 2.5 | 77% | 1.29 | ✅ 2-5 |
-| 16:00 | Celtic vs Kilmarnock | Over 2.5 Goals | Over 2.5 | 76% | 1.31 |  |
+| 16:00 | Celtic vs Kilmarnock | Over 2.5 Goals | Over 2.5 | 76% | 1.31 | ❌ 1-0 |
 
 ### 🔥 BTTS & Over 2.5
 
@@ -44,12 +44,12 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 14:30 | Germany · Bundesliga | FC Koln vs Leverkusen | BTTS & Over 2.5 | 58% ★★ | 1.74 | - | ✅ 1-2 |
 | 13:30 | Netherlands · Eredivisie | Twente vs Ajax | BTTS & Over 2.5 | 57% ★★ | 1.76 | - | ✅ 2-2 |
 | 19:00 | Netherlands · Eredivisie | Utrecht vs Nijmegen | BTTS & Over 2.5 | 56% ★★ | 1.78 | - | ✅ 2-3 |
-| 12:30 | Germany · 2. Bundesliga | Heidenheim vs Hannover | BTTS & Over 2.5 | 56% ★★ | 1.79 | - |  |
+| 12:30 | Germany · 2. Bundesliga | Heidenheim vs Hannover | BTTS & Over 2.5 | 56% ★★ | 1.79 | - | ✅ 2-2 |
 | 16:00 | Norway · Eliteserien | Lillestrom vs Aalesund | BTTS & Over 2.5 | 56% ★★ | 1.79 | - |  |
 | 19:45 | France · Ligue 1 | Lens vs Marseille | BTTS & Over 2.5 | 56% ★★ | 1.80 | - | ✅ 1-2 |
 | 07:30 | China · Super League | Zhejiang Professional vs Henan Songshan Longmen | BTTS & Over 2.5 | 56% ★★ | 1.80 | - |  |
 | 15:45 | Netherlands · Eredivisie | AZ Alkmaar vs Groningen | BTTS & Over 2.5 | 55% ★ | 1.83 | - | ✅ 4-3 |
-| 12:30 | Belgium · Pro League | Club Brugge vs Anderlecht | BTTS & Over 2.5 | 55% ★ | 1.83 | - |  |
+| 12:30 | Belgium · Pro League | Club Brugge vs Anderlecht | BTTS & Over 2.5 | 55% ★ | 1.83 | - | ❌ 1-1 |
 | 17:00 | Italy · Serie A | Inter vs Como | BTTS & Over 2.5 | 54% ★ | 1.85 | - | ❌ 2-0 |
 | 07:30 | China · Super League | Shandong Taishan vs Chengdu Rongcheng | BTTS & Over 2.5 | 54% ★ | 1.85 | - |  |
 | 00:00 | USA · MLS | Minnesota United vs San Jose Earthquakes | BTTS & Over 2.5 | 54% ★ | 1.86 | - |  |
@@ -61,22 +61,22 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 15:45 | Netherlands · Eredivisie | Cambuur vs PSV Eindhoven | Over 2.5 | 77% 🔒 | 1.29 | 1.25 | ✅ 2-5 |
-| 16:00 | Scotland · Premiership | Celtic vs Kilmarnock | Over 2.5 | 76% 🔒 | 1.31 | 1.25 |  |
+| 16:00 | Scotland · Premiership | Celtic vs Kilmarnock | Over 2.5 | 76% 🔒 | 1.31 | 1.25 | ❌ 1-0 |
 | 00:00 | USA · MLS | San Diego FC vs Sporting Kansas City | Over 2.5 | 72% ★★★ | 1.38 | - |  |
 | 20:00 | Spain · La Liga | Ath Madrid vs Barcelona | Over 2.5 | 72% ★★★ | 1.38 | 1.31 | ✅ 1-2 |
 | 07:30 | China · Super League | Yunnan Yukun vs Wuhan Three Towns | Over 2.5 | 70% ★★ | 1.42 | - |  |
 | 15:30 | Switzerland · Super League | Thun vs Basel | Over 2.5 | 70% ★★ | 1.44 | - |  |
 | 11:15 | Netherlands · Eredivisie | Heerenveen vs Feyenoord | Over 2.5 | 69% ★★ | 1.44 | 1.36 | ✅ 5-3 |
 | 07:30 | China · Super League | Shanghai Port vs Liaoning Tieren | Over 2.5 | 69% ★★ | 1.44 | - |  |
-| 12:30 | Belgium · Pro League | Club Brugge vs Anderlecht | Over 2.5 | 69% ★★ | 1.45 | 1.37 |  |
+| 12:30 | Belgium · Pro League | Club Brugge vs Anderlecht | Over 2.5 | 69% ★★ | 1.45 | 1.37 | ❌ 1-1 |
 | 17:00 | Denmark · Superliga | Midtjylland vs Sonderjyske | Over 2.5 | 69% ★★ | 1.46 | - |  |
 | 14:30 | Germany · Bundesliga | FC Koln vs Leverkusen | Over 2.5 | 68% ★★ | 1.47 | 1.39 | ✅ 1-2 |
 | 15:45 | Netherlands · Eredivisie | AZ Alkmaar vs Groningen | Over 2.5 | 68% ★★ | 1.47 | 1.38 | ✅ 4-3 |
-| 18:00 | Turkey · Süper Lig | Besiktas vs Genclerbirligi | Over 2.5 | 68% ★★ | 1.48 | 1.36 |  |
+| 18:00 | Turkey · Süper Lig | Besiktas vs Genclerbirligi | Over 2.5 | 68% ★★ | 1.48 | 1.36 | ✅ 3-0 |
 | 16:00 | Norway · Eliteserien | Lillestrom vs Aalesund | Over 2.5 | 66% ★ | 1.50 | - |  |
 | 20:30 | Portugal · Primeira Liga | Estrela vs Benfica | Over 2.5 | 66% ★ | 1.51 | 1.41 | ✅ 2-3 |
 | 13:30 | Netherlands · Eredivisie | Twente vs Ajax | Over 2.5 | 66% ★ | 1.52 | 1.43 | ✅ 2-2 |
-| 12:30 | Germany · 2. Bundesliga | Heidenheim vs Hannover | Over 2.5 | 66% ★ | 1.53 | 1.42 |  |
+| 12:30 | Germany · 2. Bundesliga | Heidenheim vs Hannover | Over 2.5 | 66% ★ | 1.53 | 1.42 | ✅ 2-2 |
 | 07:30 | China · Super League | Zhejiang Professional vs Henan Songshan Longmen | Over 2.5 | 65% ★ | 1.54 | - |  |
 | 19:00 | Netherlands · Eredivisie | Utrecht vs Nijmegen | Over 2.5 | 65% ★ | 1.54 | 1.46 | ✅ 2-3 |
 | 16:00 | Norway · Eliteserien | Viking vs KFUM Oslo | Over 2.5 | 65% ★ | 1.54 | - |  |
@@ -93,7 +93,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 14:30 | Germany · Bundesliga | FC Koln vs Leverkusen | BTTS Yes | 67% ★★ | 1.49 | - | ✅ 1-2 |
 | 19:00 | Netherlands · Eredivisie | Utrecht vs Nijmegen | BTTS Yes | 67% ★★ | 1.50 | - | ✅ 2-3 |
 | 07:30 | China · Super League | Yunnan Yukun vs Wuhan Three Towns | BTTS Yes | 66% ★★ | 1.51 | - |  |
-| 12:30 | Germany · 2. Bundesliga | Heidenheim vs Hannover | BTTS Yes | 66% ★★ | 1.52 | - |  |
+| 12:30 | Germany · 2. Bundesliga | Heidenheim vs Hannover | BTTS Yes | 66% ★★ | 1.52 | - | ✅ 2-2 |
 | 19:45 | France · Ligue 1 | Lens vs Marseille | BTTS Yes | 66% ★★ | 1.52 | - | ✅ 1-2 |
 | 07:30 | China · Super League | Zhejiang Professional vs Henan Songshan Longmen | BTTS Yes | 66% ★★ | 1.52 | - |  |
 | 00:00 | USA · MLS | San Diego FC vs Sporting Kansas City | BTTS Yes | 65% ★★ | 1.53 | - |  |
@@ -103,7 +103,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 00:00 | USA · MLS | Minnesota United vs San Jose Earthquakes | BTTS Yes | 63% ★ | 1.58 | - |  |
 | 15:45 | Netherlands · Eredivisie | AZ Alkmaar vs Groningen | BTTS Yes | 63% ★ | 1.58 | - | ✅ 4-3 |
 | 15:30 | Switzerland · Super League | Servette vs Zurich | BTTS Yes | 63% ★ | 1.59 | - |  |
-| 12:30 | Belgium · Pro League | Club Brugge vs Anderlecht | BTTS Yes | 63% ★ | 1.59 | - |  |
+| 12:30 | Belgium · Pro League | Club Brugge vs Anderlecht | BTTS Yes | 63% ★ | 1.59 | - | ✅ 1-1 |
 | 16:30 | England · Premier League | Man United vs Aston Villa | BTTS Yes | 63% ★ | 1.59 | - | ✅ 4-4 |
 
 ### 🛡️ Double Chance
@@ -111,21 +111,21 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 13:00 | Finland · Veikkausliiga | HJK vs AC Oulu | 1X | 95% 🔒 | 1.05 | 0.98 |  |
-| 15:00 | Greece · Super League | AEK vs Levadeiakos | 1X | 95% 🔒 | 1.05 | 0.98 |  |
-| 16:00 | Scotland · Premiership | Celtic vs Kilmarnock | 1X | 94% 🔒 | 1.06 | 1.00 |  |
+| 15:00 | Greece · Super League | AEK vs Levadeiakos | 1X | 95% 🔒 | 1.05 | 0.98 | ✅ 2-1 |
+| 16:00 | Scotland · Premiership | Celtic vs Kilmarnock | 1X | 94% 🔒 | 1.06 | 1.00 | ✅ 1-0 |
 | 16:00 | Norway · Eliteserien | Viking vs KFUM Oslo | 1X | 92% 🔒 | 1.08 | 1.01 |  |
-| 18:00 | Turkey · Süper Lig | Besiktas vs Genclerbirligi | 1X | 92% 🔒 | 1.08 | 1.02 |  |
+| 18:00 | Turkey · Süper Lig | Besiktas vs Genclerbirligi | 1X | 92% 🔒 | 1.08 | 1.02 | ✅ 3-0 |
 | 07:30 | China · Super League | Beijing Guoan vs Chongqing Tonglianglong | 1X | 91% 🔒 | 1.10 | 1.02 |  |
 | 20:30 | Portugal · Primeira Liga | Estrela vs Benfica | X2 | 91% 🔒 | 1.10 | 1.03 | ✅ 2-3 |
 | 07:30 | China · Super League | Shanghai Port vs Liaoning Tieren | 1X | 90% 🔒 | 1.11 | 1.04 |  |
-| 15:30 | Greece · Super League | Iraklis vs Panathinaikos | X2 | 89% 🔒 | 1.12 | 1.03 |  |
+| 15:30 | Greece · Super League | Iraklis vs Panathinaikos | X2 | 89% 🔒 | 1.12 | 1.03 | ✅ 1-2 |
 | 17:00 | Denmark · Superliga | Midtjylland vs Sonderjyske | 1X | 89% 🔒 | 1.12 | 1.06 |  |
 | 13:00 | Sweden · Allsvenskan | Halmstad vs Djurgarden | X2 | 89% 🔒 | 1.13 | 1.06 |  |
 | 07:30 | China · Super League | Dalian Yingbo vs Tianjin Jinmen Tiger | 1X | 88% 🔒 | 1.13 | 1.04 |  |
 | 17:30 | Spain · La Liga | Villarreal vs Getafe | 1X | 87% ★★ | 1.15 | 1.07 | ✅ 2-0 |
 | 13:30 | Norway · Eliteserien | Tromso vs Bodo/Glimt | X2 | 87% ★★ | 1.15 | 1.06 |  |
 | 19:15 | Poland · Ekstraklasa | Lech Poznan vs Zaglebie | 1X | 87% ★★ | 1.15 | 1.08 |  |
-| 15:00 | Belgium · Pro League | Gent vs Kortrijk | 1X | 86% ★★ | 1.16 | 1.08 |  |
+| 15:00 | Belgium · Pro League | Gent vs Kortrijk | 1X | 86% ★★ | 1.16 | 1.08 | ✅ 1-0 |
 | 15:45 | Netherlands · Eredivisie | Cambuur vs PSV Eindhoven | X2 | 86% ★★ | 1.16 | 1.09 | ✅ 2-5 |
 | 07:30 | China · Super League | Shanghai Shenhua vs Qingdao West Coast | 1X | 86% ★★ | 1.16 | 1.08 |  |
 | 16:30 | Germany · Bundesliga | Freiburg vs Union Berlin | 1X | 84% ★ | 1.19 | 1.11 | ✅ 2-0 |
@@ -178,11 +178,11 @@ _No upcoming matches in the published fixtures for this day._
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 14/15 (93%), ROI -0% | 97/109 (89%), ROI -6% | 121/136 (89%), ROI -6% |
-| BTTS & Over 2.5 | 23/38 (61%) | 188/325 (58%) | 239/426 (56%) |
-| Over 2.5 Goals | 27/39 (69%), ROI +0% | 224/323 (69%), ROI -1% | 287/427 (67%), ROI -5% |
-| Both Teams To Score | 28/39 (72%) | 214/334 (64%) | 278/440 (63%) |
-| Double Chance | 34/39 (87%), ROI +1% | 304/355 (86%), ROI -4% | 412/481 (86%), ROI -3% |
+| 🔒 Bankers | 21/23 (91%), ROI -4% | 104/117 (89%), ROI -6% | 128/144 (89%), ROI -6% |
+| BTTS & Over 2.5 | 27/52 (52%) | 192/339 (57%) | 243/440 (55%) |
+| Over 2.5 Goals | 38/55 (69%), ROI +1% | 235/339 (69%), ROI -1% | 298/443 (67%), ROI -4% |
+| Both Teams To Score | 36/54 (67%) | 222/349 (64%) | 286/455 (63%) |
+| Double Chance | 51/57 (89%), ROI +2% | 321/373 (86%), ROI -3% | 429/499 (86%), ROI -3% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
