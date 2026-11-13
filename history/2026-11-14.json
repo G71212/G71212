@@ -1,13 +1,4145 @@
 {
  "date": "2026-11-14",
  "created_at": "2026-11-12T02:31:12+00:00",
- "updated_at": "2026-11-13T13:10:22+00:00",
- "fixtures": [],
+ "updated_at": "2026-11-13T22:37:58+00:00",
+ "fixtures": [
+  {
+   "id": "E3|2026-11-14|Exeter|Cheltenham",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T12:30:00+00:00",
+   "home": "Exeter",
+   "away": "Cheltenham",
+   "expected_goals": [
+    1.61,
+    1.0
+   ],
+   "model_expected_goals": [
+    1.69,
+    0.93
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.5142,
+    "draw": 0.2522,
+    "away": 0.2336,
+    "over25": 0.4824,
+    "under25": 0.5176,
+    "btts": 0.5059,
+    "btts_over25": 0.3859,
+    "dc_1x": 0.7664,
+    "dc_x2": 0.4858,
+    "dc_12": 0.7478
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1199
+    ],
+    [
+     "1-0",
+     0.1175
+    ],
+    [
+     "2-0",
+     0.0955
+    ]
+   ],
+   "market": {
+    "home": 0.5045,
+    "draw": 0.2594,
+    "away": 0.2361,
+    "over25": 0.482
+   },
+   "odds": {
+    "home": 1.89,
+    "draw": 3.51,
+    "away": 3.83,
+    "over25": 1.92,
+    "under25": 1.8
+   },
+   "team_matches": [
+    14,
+    106
+   ],
+   "flags": [
+    "Exeter relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SP2|2026-11-14|Valladolid|Castellon",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T13:00:00+00:00",
+   "home": "Valladolid",
+   "away": "Castellon",
+   "expected_goals": [
+    1.34,
+    1.56
+   ],
+   "model_expected_goals": [
+    1.34,
+    1.37
+   ],
+   "rho": -0.0063,
+   "probabilities": {
+    "home": 0.328,
+    "draw": 0.2476,
+    "away": 0.4245,
+    "over25": 0.5542,
+    "under25": 0.4458,
+    "btts": 0.584,
+    "btts_over25": 0.4683,
+    "dc_1x": 0.5755,
+    "dc_x2": 0.672,
+    "dc_12": 0.7524
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1157
+    ],
+    [
+     "1-2",
+     0.0896
+    ],
+    [
+     "0-1",
+     0.085
+    ]
+   ],
+   "market": {
+    "home": 0.3153,
+    "draw": 0.2584,
+    "away": 0.4263,
+    "over25": 0.5626
+   },
+   "odds": {
+    "home": 2.89,
+    "draw": 3.47,
+    "away": 2.19,
+    "over25": 1.67,
+    "under25": 2.09
+   },
+   "team_matches": [
+    82,
+    96
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E2|2026-11-14|AFC Wimbledon|Blackpool",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "AFC Wimbledon",
+   "away": "Blackpool",
+   "expected_goals": [
+    1.36,
+    1.42
+   ],
+   "model_expected_goals": [
+    1.27,
+    1.34
+   ],
+   "rho": -0.0179,
+   "probabilities": {
+    "home": 0.3585,
+    "draw": 0.2578,
+    "away": 0.3838,
+    "over25": 0.5269,
+    "under25": 0.4731,
+    "btts": 0.5668,
+    "btts_over25": 0.445,
+    "dc_1x": 0.6162,
+    "dc_x2": 0.6415,
+    "dc_12": 0.7422
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1218
+    ],
+    [
+     "0-1",
+     0.0855
+    ],
+    [
+     "1-2",
+     0.085
+    ]
+   ],
+   "market": {
+    "home": 0.3527,
+    "draw": 0.2702,
+    "away": 0.377,
+    "over25": 0.5345
+   },
+   "odds": {
+    "home": 2.65,
+    "draw": 3.4,
+    "away": 2.49,
+    "over25": 1.75,
+    "under25": 1.98
+   },
+   "team_matches": [
+    59,
+    133
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E2|2026-11-14|Milton Keynes Dons|Burton",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Milton Keynes Dons",
+   "away": "Burton",
+   "expected_goals": [
+    1.87,
+    1.07
+   ],
+   "model_expected_goals": [
+    1.45,
+    1.19
+   ],
+   "rho": -0.0179,
+   "probabilities": {
+    "home": 0.5583,
+    "draw": 0.2285,
+    "away": 0.2132,
+    "over25": 0.565,
+    "under25": 0.435,
+    "btts": 0.5593,
+    "btts_over25": 0.4518,
+    "dc_1x": 0.7868,
+    "dc_x2": 0.4417,
+    "dc_12": 0.7715
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1075
+    ],
+    [
+     "2-1",
+     0.0989
+    ],
+    [
+     "1-0",
+     0.0964
+    ]
+   ],
+   "market": {
+    "home": 0.579,
+    "draw": 0.2262,
+    "away": 0.1948,
+    "over25": 0.5803
+   },
+   "odds": {
+    "home": 1.66,
+    "draw": 3.97,
+    "away": 4.56,
+    "over25": 1.63,
+    "under25": 2.18
+   },
+   "team_matches": [
+    13,
+    135
+   ],
+   "flags": [
+    "Milton Keynes Dons new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E2|2026-11-14|Sheffield Weds|Plymouth",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Sheffield Weds",
+   "away": "Plymouth",
+   "expected_goals": [
+    1.68,
+    1.44
+   ],
+   "model_expected_goals": [
+    1.71,
+    1.23
+   ],
+   "rho": -0.0179,
+   "probabilities": {
+    "home": 0.4319,
+    "draw": 0.2393,
+    "away": 0.3288,
+    "over25": 0.6051,
+    "under25": 0.3949,
+    "btts": 0.6243,
+    "btts_over25": 0.5159,
+    "dc_1x": 0.6712,
+    "dc_x2": 0.5681,
+    "dc_12": 0.7607
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1084
+    ],
+    [
+     "2-1",
+     0.0897
+    ],
+    [
+     "1-2",
+     0.0769
+    ]
+   ],
+   "market": {
+    "home": 0.4143,
+    "draw": 0.2543,
+    "away": 0.3314,
+    "over25": 0.613
+   },
+   "odds": {
+    "home": 2.28,
+    "draw": 3.6,
+    "away": 2.81,
+    "over25": 1.55,
+    "under25": 2.34
+   },
+   "team_matches": [
+    13,
+    60
+   ],
+   "flags": [
+    "Sheffield Weds relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E2|2026-11-14|Stockport|Reading",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Stockport",
+   "away": "Reading",
+   "expected_goals": [
+    1.82,
+    1.21
+   ],
+   "model_expected_goals": [
+    1.62,
+    1.19
+   ],
+   "rho": -0.0179,
+   "probabilities": {
+    "home": 0.5147,
+    "draw": 0.2334,
+    "away": 0.2519,
+    "over25": 0.5845,
+    "under25": 0.4155,
+    "btts": 0.5909,
+    "btts_over25": 0.4827,
+    "dc_1x": 0.7481,
+    "dc_x2": 0.4853,
+    "dc_12": 0.7666
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1082
+    ],
+    [
+     "2-1",
+     0.0968
+    ],
+    [
+     "1-0",
+     0.0857
+    ]
+   ],
+   "market": {
+    "home": 0.5167,
+    "draw": 0.242,
+    "away": 0.2413,
+    "over25": 0.5939
+   },
+   "odds": {
+    "home": 1.85,
+    "draw": 3.75,
+    "away": 3.76,
+    "over25": 1.59,
+    "under25": 2.23
+   },
+   "team_matches": [
+    106,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E2|2026-11-14|Wigan|Barnsley",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Wigan",
+   "away": "Barnsley",
+   "expected_goals": [
+    1.62,
+    1.45
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.22
+   ],
+   "rho": -0.0179,
+   "probabilities": {
+    "home": 0.4157,
+    "draw": 0.2424,
+    "away": 0.3418,
+    "over25": 0.5941,
+    "under25": 0.4059,
+    "btts": 0.6173,
+    "btts_over25": 0.5066,
+    "dc_1x": 0.6582,
+    "dc_x2": 0.5843,
+    "dc_12": 0.7576
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1107
+    ],
+    [
+     "2-1",
+     0.0883
+    ],
+    [
+     "1-2",
+     0.0791
+    ]
+   ],
+   "market": {
+    "home": 0.4079,
+    "draw": 0.2536,
+    "away": 0.3384,
+    "over25": 0.6122
+   },
+   "odds": {
+    "home": 2.31,
+    "draw": 3.6,
+    "away": 2.75,
+    "over25": 1.55,
+    "under25": 2.33
+   },
+   "team_matches": [
+    135,
+    134
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E3|2026-11-14|Bristol Rvs|Chesterfield",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Bristol Rvs",
+   "away": "Chesterfield",
+   "expected_goals": [
+    1.33,
+    1.51
+   ],
+   "model_expected_goals": [
+    1.37,
+    1.41
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.3333,
+    "draw": 0.2522,
+    "away": 0.4145,
+    "over25": 0.5407,
+    "under25": 0.4593,
+    "btts": 0.5749,
+    "btts_over25": 0.4563,
+    "dc_1x": 0.5855,
+    "dc_x2": 0.6667,
+    "dc_12": 0.7478
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1186
+    ],
+    [
+     "1-2",
+     0.0886
+    ],
+    [
+     "0-1",
+     0.0867
+    ]
+   ],
+   "market": {
+    "home": 0.3213,
+    "draw": 0.2652,
+    "away": 0.4136,
+    "over25": 0.5437
+   },
+   "odds": {
+    "home": 2.87,
+    "draw": 3.43,
+    "away": 2.27,
+    "over25": 1.72,
+    "under25": 2.01
+   },
+   "team_matches": [
+    60,
+    106
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E3|2026-11-14|Colchester|Gillingham",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Colchester",
+   "away": "Gillingham",
+   "expected_goals": [
+    1.49,
+    1.09
+   ],
+   "model_expected_goals": [
+    1.42,
+    0.98
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.4624,
+    "draw": 0.2614,
+    "away": 0.2762,
+    "over25": 0.4777,
+    "under25": 0.5223,
+    "btts": 0.5166,
+    "btts_over25": 0.3922,
+    "dc_1x": 0.7238,
+    "dc_x2": 0.5376,
+    "dc_12": 0.7386
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1244
+    ],
+    [
+     "1-0",
+     0.1111
+    ],
+    [
+     "2-1",
+     0.0917
+    ]
+   ],
+   "market": {
+    "home": 0.4547,
+    "draw": 0.2722,
+    "away": 0.2731,
+    "over25": 0.4864
+   },
+   "odds": {
+    "home": 2.08,
+    "draw": 3.35,
+    "away": 3.34,
+    "over25": 1.9,
+    "under25": 1.81
+   },
+   "team_matches": [
+    134,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E3|2026-11-14|Crewe|Newport County",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Crewe",
+   "away": "Newport County",
+   "expected_goals": [
+    1.5,
+    1.1
+   ],
+   "model_expected_goals": [
+    1.53,
+    1.02
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.4644,
+    "draw": 0.2602,
+    "away": 0.2754,
+    "over25": 0.4821,
+    "under25": 0.5179,
+    "btts": 0.5198,
+    "btts_over25": 0.396,
+    "dc_1x": 0.7246,
+    "dc_x2": 0.5356,
+    "dc_12": 0.7398
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1238
+    ],
+    [
+     "1-0",
+     0.1101
+    ],
+    [
+     "2-1",
+     0.0921
+    ]
+   ],
+   "market": {
+    "home": 0.4547,
+    "draw": 0.2705,
+    "away": 0.2749,
+    "over25": 0.485
+   },
+   "odds": {
+    "home": 2.08,
+    "draw": 3.37,
+    "away": 3.32,
+    "over25": 1.91,
+    "under25": 1.81
+   },
+   "team_matches": [
+    135,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E3|2026-11-14|Port Vale|Accrington",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Port Vale",
+   "away": "Accrington",
+   "expected_goals": [
+    1.49,
+    0.99
+   ],
+   "model_expected_goals": [
+    1.42,
+    0.99
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.486,
+    "draw": 0.2644,
+    "away": 0.2497,
+    "over25": 0.4492,
+    "under25": 0.5508,
+    "btts": 0.4868,
+    "btts_over25": 0.3617,
+    "dc_1x": 0.7503,
+    "dc_x2": 0.514,
+    "dc_12": 0.7356
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1251
+    ],
+    [
+     "1-0",
+     0.1239
+    ],
+    [
+     "2-0",
+     0.0931
+    ]
+   ],
+   "market": {
+    "home": 0.4849,
+    "draw": 0.2716,
+    "away": 0.2434,
+    "over25": 0.4521
+   },
+   "odds": {
+    "home": 1.96,
+    "draw": 3.36,
+    "away": 3.72,
+    "over25": 2.03,
+    "under25": 1.71
+   },
+   "team_matches": [
+    58,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E3|2026-11-14|Rochdale|York",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Rochdale",
+   "away": "York",
+   "expected_goals": [
+    1.17,
+    1.87
+   ],
+   "model_expected_goals": [
+    1.29,
+    1.5
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.2357,
+    "draw": 0.2282,
+    "away": 0.536,
+    "over25": 0.5854,
+    "under25": 0.4146,
+    "btts": 0.5843,
+    "btts_over25": 0.4784,
+    "dc_1x": 0.464,
+    "dc_x2": 0.7643,
+    "dc_12": 0.7718
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1059
+    ],
+    [
+     "1-2",
+     0.0979
+    ],
+    [
+     "0-1",
+     0.0883
+    ]
+   ],
+   "market": {
+    "home": 0.2168,
+    "draw": 0.23,
+    "away": 0.5533,
+    "over25": 0.5971
+   },
+   "odds": {
+    "home": 4.12,
+    "draw": 3.9,
+    "away": 1.73,
+    "over25": 1.58,
+    "under25": 2.24
+   },
+   "team_matches": [
+    14,
+    14
+   ],
+   "flags": [
+    "Rochdale new to league",
+    "York new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E3|2026-11-14|Salford|Northampton",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Salford",
+   "away": "Northampton",
+   "expected_goals": [
+    1.73,
+    0.86
+   ],
+   "model_expected_goals": [
+    1.25,
+    1.03
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.5767,
+    "draw": 0.2389,
+    "away": 0.1844,
+    "over25": 0.4786,
+    "under25": 0.5214,
+    "btts": 0.4764,
+    "btts_over25": 0.3632,
+    "dc_1x": 0.8156,
+    "dc_x2": 0.4233,
+    "dc_12": 0.7611
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1284
+    ],
+    [
+     "1-1",
+     0.1132
+    ],
+    [
+     "2-0",
+     0.1119
+    ]
+   ],
+   "market": {
+    "home": 0.6042,
+    "draw": 0.2318,
+    "away": 0.164,
+    "over25": 0.497
+   },
+   "odds": {
+    "home": 1.59,
+    "draw": 3.84,
+    "away": 5.28,
+    "over25": 1.86,
+    "under25": 1.84
+   },
+   "team_matches": [
+    135,
+    13
+   ],
+   "flags": [
+    "Northampton relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E3|2026-11-14|Shrewsbury|Oldham",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Shrewsbury",
+   "away": "Oldham",
+   "expected_goals": [
+    1.3,
+    1.29
+   ],
+   "model_expected_goals": [
+    1.15,
+    1.24
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.3704,
+    "draw": 0.2675,
+    "away": 0.3621,
+    "over25": 0.4787,
+    "under25": 0.5213,
+    "btts": 0.5284,
+    "btts_over25": 0.4011,
+    "dc_1x": 0.6379,
+    "dc_x2": 0.6296,
+    "dc_12": 0.7325
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1273
+    ],
+    [
+     "1-0",
+     0.0964
+    ],
+    [
+     "0-1",
+     0.0951
+    ]
+   ],
+   "market": {
+    "home": 0.3701,
+    "draw": 0.2778,
+    "away": 0.352,
+    "over25": 0.488
+   },
+   "odds": {
+    "home": 2.52,
+    "draw": 3.29,
+    "away": 2.64,
+    "over25": 1.9,
+    "under25": 1.82
+   },
+   "team_matches": [
+    60,
+    60
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E3|2026-11-14|Swindon|Grimsby",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Swindon",
+   "away": "Grimsby",
+   "expected_goals": [
+    1.36,
+    1.71
+   ],
+   "model_expected_goals": [
+    1.49,
+    1.4
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.3055,
+    "draw": 0.2385,
+    "away": 0.4561,
+    "over25": 0.5925,
+    "under25": 0.4075,
+    "btts": 0.6104,
+    "btts_over25": 0.5012,
+    "dc_1x": 0.5439,
+    "dc_x2": 0.6945,
+    "dc_12": 0.7615
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1092
+    ],
+    [
+     "1-2",
+     0.0923
+    ],
+    [
+     "0-1",
+     0.078
+    ]
+   ],
+   "market": {
+    "home": 0.2841,
+    "draw": 0.2467,
+    "away": 0.4692,
+    "over25": 0.6013
+   },
+   "odds": {
+    "home": 3.22,
+    "draw": 3.67,
+    "away": 2.02,
+    "over25": 1.57,
+    "under25": 2.26
+   },
+   "team_matches": [
+    135,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Carlisle|Boston Utd",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Carlisle",
+   "away": "Boston Utd",
+   "expected_goals": [
+    2.41,
+    1.12
+   ],
+   "model_expected_goals": [
+    2.0,
+    1.11
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.6594,
+    "draw": 0.1789,
+    "away": 0.1617,
+    "over25": 0.6841,
+    "under25": 0.3159,
+    "btts": 0.6117,
+    "btts_over25": 0.5335,
+    "dc_1x": 0.8383,
+    "dc_x2": 0.3406,
+    "dc_12": 0.8211
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0954
+    ],
+    [
+     "2-0",
+     0.0853
+    ],
+    [
+     "1-1",
+     0.0782
+    ]
+   ],
+   "market": {
+    "home": 0.669,
+    "draw": 0.1817,
+    "away": 0.1493,
+    "over25": 0.6988
+   },
+   "odds": {
+    "home": 1.43,
+    "draw": 4.56,
+    "away": 5.43,
+    "over25": 1.37,
+    "under25": 2.87
+   },
+   "team_matches": [
+    62,
+    108
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Eastleigh|Fylde",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Eastleigh",
+   "away": "Fylde",
+   "expected_goals": [
+    1.46,
+    1.91
+   ],
+   "model_expected_goals": [
+    1.54,
+    1.46
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.2964,
+    "draw": 0.2193,
+    "away": 0.4843,
+    "over25": 0.6553,
+    "under25": 0.3447,
+    "btts": 0.6534,
+    "btts_over25": 0.5589,
+    "dc_1x": 0.5157,
+    "dc_x2": 0.7036,
+    "dc_12": 0.7807
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0945
+    ],
+    [
+     "1-2",
+     0.0916
+    ],
+    [
+     "2-1",
+     0.0699
+    ]
+   ],
+   "market": {
+    "home": 0.2701,
+    "draw": 0.2311,
+    "away": 0.4988,
+    "over25": 0.6706
+   },
+   "odds": {
+    "home": 3.28,
+    "draw": 3.78,
+    "away": 1.88,
+    "over25": 1.42,
+    "under25": 2.65
+   },
+   "team_matches": [
+    135,
+    89
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Gateshead|Barrow",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Gateshead",
+   "away": "Barrow",
+   "expected_goals": [
+    0.98,
+    2.03
+   ],
+   "model_expected_goals": [
+    1.2,
+    1.81
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.1755,
+    "draw": 0.2061,
+    "away": 0.6184,
+    "over25": 0.5771,
+    "under25": 0.4229,
+    "btts": 0.5395,
+    "btts_over25": 0.4425,
+    "dc_1x": 0.3816,
+    "dc_x2": 0.8245,
+    "dc_12": 0.7939
+   },
+   "top_scores": [
+    [
+     "0-2",
+     0.1021
+    ],
+    [
+     "0-1",
+     0.102
+    ],
+    [
+     "1-2",
+     0.0995
+    ]
+   ],
+   "market": {
+    "home": 0.1599,
+    "draw": 0.209,
+    "away": 0.6311,
+    "over25": 0.5783
+   },
+   "odds": {
+    "home": 5.16,
+    "draw": 4.06,
+    "away": 1.51,
+    "over25": 1.63,
+    "under25": 2.16
+   },
+   "team_matches": [
+    135,
+    15
+   ],
+   "flags": [
+    "Barrow relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Harrogate|Altrincham",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Harrogate",
+   "away": "Altrincham",
+   "expected_goals": [
+    1.95,
+    1.22
+   ],
+   "model_expected_goals": [
+    1.94,
+    1.15
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.5451,
+    "draw": 0.2171,
+    "away": 0.2379,
+    "over25": 0.6141,
+    "under25": 0.3859,
+    "btts": 0.6034,
+    "btts_over25": 0.5048,
+    "dc_1x": 0.7621,
+    "dc_x2": 0.4549,
+    "dc_12": 0.7829
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0986
+    ],
+    [
+     "2-1",
+     0.0974
+    ],
+    [
+     "1-0",
+     0.0831
+    ]
+   ],
+   "market": {
+    "home": 0.5349,
+    "draw": 0.2322,
+    "away": 0.2329,
+    "over25": 0.6171
+   },
+   "odds": {
+    "home": 1.76,
+    "draw": 3.74,
+    "away": 3.73,
+    "over25": 1.53,
+    "under25": 2.33
+   },
+   "team_matches": [
+    16,
+    136
+   ],
+   "flags": [
+    "Harrogate relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Hartlepool|Wealdstone",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Hartlepool",
+   "away": "Wealdstone",
+   "expected_goals": [
+    1.68,
+    1.32
+   ],
+   "model_expected_goals": [
+    1.58,
+    1.3
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.4614,
+    "draw": 0.236,
+    "away": 0.3026,
+    "over25": 0.5766,
+    "under25": 0.4234,
+    "btts": 0.5946,
+    "btts_over25": 0.4856,
+    "dc_1x": 0.6974,
+    "dc_x2": 0.5386,
+    "dc_12": 0.764
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.109
+    ],
+    [
+     "2-1",
+     0.0928
+    ],
+    [
+     "1-0",
+     0.0852
+    ]
+   ],
+   "market": {
+    "home": 0.4582,
+    "draw": 0.2482,
+    "away": 0.2936,
+    "over25": 0.5814
+   },
+   "odds": {
+    "home": 2.03,
+    "draw": 3.54,
+    "away": 3.04,
+    "over25": 1.62,
+    "under25": 2.17
+   },
+   "team_matches": [
+    135,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Hornchurch|Tamworth",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Hornchurch",
+   "away": "Tamworth",
+   "expected_goals": [
+    1.57,
+    1.42
+   ],
+   "model_expected_goals": [
+    1.45,
+    1.5
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.4121,
+    "draw": 0.2398,
+    "away": 0.3481,
+    "over25": 0.5753,
+    "under25": 0.4247,
+    "btts": 0.5998,
+    "btts_over25": 0.4892,
+    "dc_1x": 0.6519,
+    "dc_x2": 0.5879,
+    "dc_12": 0.7602
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1106
+    ],
+    [
+     "2-1",
+     0.0879
+    ],
+    [
+     "1-0",
+     0.0801
+    ]
+   ],
+   "market": {
+    "home": 0.4125,
+    "draw": 0.2543,
+    "away": 0.3333,
+    "over25": 0.5772
+   },
+   "odds": {
+    "home": 2.24,
+    "draw": 3.48,
+    "away": 2.72,
+    "over25": 1.63,
+    "under25": 2.15
+   },
+   "team_matches": [
+    16,
+    107
+   ],
+   "flags": [
+    "Hornchurch new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Kidderminster|Halifax",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Kidderminster",
+   "away": "Halifax",
+   "expected_goals": [
+    1.38,
+    1.35
+   ],
+   "model_expected_goals": [
+    1.27,
+    1.15
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.3805,
+    "draw": 0.2538,
+    "away": 0.3657,
+    "over25": 0.512,
+    "under25": 0.488,
+    "btts": 0.5515,
+    "btts_over25": 0.4313,
+    "dc_1x": 0.6343,
+    "dc_x2": 0.6195,
+    "dc_12": 0.7462
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1202
+    ],
+    [
+     "1-0",
+     0.092
+    ],
+    [
+     "0-1",
+     0.0899
+    ]
+   ],
+   "market": {
+    "home": 0.3677,
+    "draw": 0.2709,
+    "away": 0.3614,
+    "over25": 0.5258
+   },
+   "odds": {
+    "home": 2.49,
+    "draw": 3.29,
+    "away": 2.53,
+    "over25": 1.77,
+    "under25": 1.94
+   },
+   "team_matches": [
+    43,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Scunthorpe|Worthing",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Scunthorpe",
+   "away": "Worthing",
+   "expected_goals": [
+    1.86,
+    1.57
+   ],
+   "model_expected_goals": [
+    1.85,
+    1.44
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.4484,
+    "draw": 0.2208,
+    "away": 0.3308,
+    "over25": 0.6656,
+    "under25": 0.3344,
+    "btts": 0.6673,
+    "btts_over25": 0.5738,
+    "dc_1x": 0.6692,
+    "dc_x2": 0.5516,
+    "dc_12": 0.7792
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0935
+    ],
+    [
+     "2-1",
+     0.0879
+    ],
+    [
+     "1-2",
+     0.0744
+    ]
+   ],
+   "market": {
+    "home": 0.4356,
+    "draw": 0.2367,
+    "away": 0.3277,
+    "over25": 0.6706
+   },
+   "odds": {
+    "home": 2.13,
+    "draw": 3.71,
+    "away": 2.76,
+    "over25": 1.42,
+    "under25": 2.65
+   },
+   "team_matches": [
+    61,
+    16
+   ],
+   "flags": [
+    "Worthing new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Southend|Aldershot",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Southend",
+   "away": "Aldershot",
+   "expected_goals": [
+    2.5,
+    1.06
+   ],
+   "model_expected_goals": [
+    2.08,
+    1.13
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.6896,
+    "draw": 0.1689,
+    "away": 0.1416,
+    "over25": 0.6899,
+    "under25": 0.3101,
+    "btts": 0.5979,
+    "btts_over25": 0.5236,
+    "dc_1x": 0.8584,
+    "dc_x2": 0.3104,
+    "dc_12": 0.8311
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0942
+    ],
+    [
+     "2-0",
+     0.0892
+    ],
+    [
+     "3-1",
+     0.0786
+    ]
+   ],
+   "market": {
+    "home": 0.701,
+    "draw": 0.1719,
+    "away": 0.1271,
+    "over25": 0.7023
+   },
+   "odds": {
+    "home": 1.37,
+    "draw": 4.76,
+    "away": 6.22,
+    "over25": 1.36,
+    "under25": 2.87
+   },
+   "team_matches": [
+    135,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Sutton|Solihull",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Sutton",
+   "away": "Solihull",
+   "expected_goals": [
+    1.73,
+    1.23
+   ],
+   "model_expected_goals": [
+    1.65,
+    1.32
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.4914,
+    "draw": 0.2338,
+    "away": 0.2747,
+    "over25": 0.5688,
+    "under25": 0.4312,
+    "btts": 0.582,
+    "btts_over25": 0.4732,
+    "dc_1x": 0.7253,
+    "dc_x2": 0.5086,
+    "dc_12": 0.7662
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1088
+    ],
+    [
+     "2-1",
+     0.0953
+    ],
+    [
+     "1-0",
+     0.0906
+    ]
+   ],
+   "market": {
+    "home": 0.49,
+    "draw": 0.2489,
+    "away": 0.2611,
+    "over25": 0.5688
+   },
+   "odds": {
+    "home": 1.91,
+    "draw": 3.53,
+    "away": 3.38,
+    "over25": 1.65,
+    "under25": 2.11
+   },
+   "team_matches": [
+    108,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "EC|2026-11-14|Yeovil|Boreham Wood",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Yeovil",
+   "away": "Boreham Wood",
+   "expected_goals": [
+    1.2,
+    2.07
+   ],
+   "model_expected_goals": [
+    1.39,
+    1.73
+   ],
+   "rho": 0.0125,
+   "probabilities": {
+    "home": 0.2157,
+    "draw": 0.2072,
+    "away": 0.5771,
+    "over25": 0.6347,
+    "under25": 0.3653,
+    "btts": 0.6088,
+    "btts_over25": 0.5157,
+    "dc_1x": 0.4229,
+    "dc_x2": 0.7843,
+    "dc_12": 0.7928
+   },
+   "top_scores": [
+    [
+     "1-2",
+     0.0978
+    ],
+    [
+     "1-1",
+     0.0931
+    ],
+    [
+     "0-2",
+     0.0817
+    ]
+   ],
+   "market": {
+    "home": 0.1965,
+    "draw": 0.21,
+    "away": 0.5935,
+    "over25": 0.6419
+   },
+   "odds": {
+    "home": 4.33,
+    "draw": 4.08,
+    "away": 1.6,
+    "over25": 1.48,
+    "under25": 2.48
+   },
+   "team_matches": [
+    108,
+    89
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC1|2026-11-14|Ayr|Raith Rvs",
+   "league": "SC1",
+   "league_name": "Scotland · Championship",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Ayr",
+   "away": "Raith Rvs",
+   "expected_goals": [
+    1.02,
+    1.34
+   ],
+   "model_expected_goals": [
+    1.22,
+    1.22
+   ],
+   "rho": -0.1369,
+   "probabilities": {
+    "home": 0.2676,
+    "draw": 0.3107,
+    "away": 0.4216,
+    "over25": 0.4183,
+    "under25": 0.5817,
+    "btts": 0.4886,
+    "btts_over25": 0.3417,
+    "dc_1x": 0.5784,
+    "dc_x2": 0.7324,
+    "dc_12": 0.6893
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1469
+    ],
+    [
+     "0-0",
+     0.1127
+    ],
+    [
+     "0-1",
+     0.1091
+    ]
+   ],
+   "market": {
+    "home": 0.2675,
+    "draw": 0.2854,
+    "away": 0.4472,
+    "over25": 0.4154
+   },
+   "odds": {
+    "home": 3.32,
+    "draw": 3.13,
+    "away": 2.08,
+    "over25": 2.18,
+    "under25": 1.61
+   },
+   "team_matches": [
+    108,
+    110
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC1|2026-11-14|Livingston|Morton",
+   "league": "SC1",
+   "league_name": "Scotland · Championship",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Livingston",
+   "away": "Morton",
+   "expected_goals": [
+    2.4,
+    0.73
+   ],
+   "model_expected_goals": [
+    1.72,
+    0.89
+   ],
+   "rho": -0.1369,
+   "probabilities": {
+    "home": 0.7339,
+    "draw": 0.182,
+    "away": 0.0842,
+    "over25": 0.6059,
+    "under25": 0.3941,
+    "btts": 0.4821,
+    "btts_over25": 0.3951,
+    "dc_1x": 0.9158,
+    "dc_x2": 0.2661,
+    "dc_12": 0.818
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1257
+    ],
+    [
+     "3-0",
+     0.1007
+    ],
+    [
+     "1-0",
+     0.0942
+    ]
+   ],
+   "market": {
+    "home": 0.7724,
+    "draw": 0.1461,
+    "away": 0.0815,
+    "over25": 0.6313
+   },
+   "odds": {
+    "home": 1.25,
+    "draw": 5.27,
+    "away": 8.72,
+    "over25": 1.5,
+    "under25": 2.41
+   },
+   "team_matches": [
+    50,
+    109
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC1|2026-11-14|Partick|Inverness C",
+   "league": "SC1",
+   "league_name": "Scotland · Championship",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Partick",
+   "away": "Inverness C",
+   "expected_goals": [
+    1.67,
+    1.06
+   ],
+   "model_expected_goals": [
+    1.43,
+    0.94
+   ],
+   "rho": -0.1369,
+   "probabilities": {
+    "home": 0.4999,
+    "draw": 0.275,
+    "away": 0.2252,
+    "over25": 0.5127,
+    "under25": 0.4873,
+    "btts": 0.5456,
+    "btts_over25": 0.4142,
+    "dc_1x": 0.7748,
+    "dc_x2": 0.5001,
+    "dc_12": 0.725
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1314
+    ],
+    [
+     "2-1",
+     0.0963
+    ],
+    [
+     "1-0",
+     0.0933
+    ]
+   ],
+   "market": {
+    "home": 0.5158,
+    "draw": 0.2503,
+    "away": 0.234,
+    "over25": 0.5288
+   },
+   "odds": {
+    "home": 1.82,
+    "draw": 3.5,
+    "away": 3.72,
+    "over25": 1.76,
+    "under25": 1.95
+   },
+   "team_matches": [
+    109,
+    39
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC1|2026-11-14|Stenhousemuir|Queens Park",
+   "league": "SC1",
+   "league_name": "Scotland · Championship",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Stenhousemuir",
+   "away": "Queens Park",
+   "expected_goals": [
+    1.56,
+    0.94
+   ],
+   "model_expected_goals": [
+    1.34,
+    0.98
+   ],
+   "rho": -0.1369,
+   "probabilities": {
+    "home": 0.5001,
+    "draw": 0.2877,
+    "away": 0.2121,
+    "over25": 0.4562,
+    "under25": 0.5438,
+    "btts": 0.4983,
+    "btts_over25": 0.3613,
+    "dc_1x": 0.7879,
+    "dc_x2": 0.4999,
+    "dc_12": 0.7123
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.137
+    ],
+    [
+     "1-0",
+     0.1113
+    ],
+    [
+     "2-0",
+     0.0995
+    ]
+   ],
+   "market": {
+    "home": 0.5248,
+    "draw": 0.2579,
+    "away": 0.2172,
+    "over25": 0.465
+   },
+   "odds": {
+    "home": 1.79,
+    "draw": 3.4,
+    "away": 3.97,
+    "over25": 1.97,
+    "under25": 1.74
+   },
+   "team_matches": [
+    14,
+    109
+   ],
+   "flags": [
+    "Stenhousemuir new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC2|2026-11-14|Airdrie Utd|Queen of Sth",
+   "league": "SC2",
+   "league_name": "Scotland · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Airdrie Utd",
+   "away": "Queen of Sth",
+   "expected_goals": [
+    1.96,
+    1.09
+   ],
+   "model_expected_goals": [
+    1.68,
+    1.21
+   ],
+   "rho": -0.0874,
+   "probabilities": {
+    "home": 0.5663,
+    "draw": 0.2351,
+    "away": 0.1987,
+    "over25": 0.5884,
+    "under25": 0.4116,
+    "btts": 0.5799,
+    "btts_over25": 0.4698,
+    "dc_1x": 0.8013,
+    "dc_x2": 0.4337,
+    "dc_12": 0.7649
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.11
+    ],
+    [
+     "2-1",
+     0.0991
+    ],
+    [
+     "2-0",
+     0.0907
+    ]
+   ],
+   "market": {
+    "home": 0.5873,
+    "draw": 0.2204,
+    "away": 0.1924,
+    "over25": 0.5962
+   },
+   "odds": {
+    "home": 1.61,
+    "draw": 3.87,
+    "away": 4.37,
+    "over25": 1.58,
+    "under25": 2.23
+   },
+   "team_matches": [
+    14,
+    109
+   ],
+   "flags": [
+    "Airdrie Utd relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC2|2026-11-14|Cove Rangers|Montrose",
+   "league": "SC2",
+   "league_name": "Scotland · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Cove Rangers",
+   "away": "Montrose",
+   "expected_goals": [
+    1.48,
+    1.27
+   ],
+   "model_expected_goals": [
+    1.64,
+    1.24
+   ],
+   "rho": -0.0874,
+   "probabilities": {
+    "home": 0.4109,
+    "draw": 0.2745,
+    "away": 0.3146,
+    "over25": 0.5199,
+    "under25": 0.4801,
+    "btts": 0.567,
+    "btts_over25": 0.4365,
+    "dc_1x": 0.6854,
+    "dc_x2": 0.5891,
+    "dc_12": 0.7255
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1305
+    ],
+    [
+     "2-1",
+     0.089
+    ],
+    [
+     "1-0",
+     0.0838
+    ]
+   ],
+   "market": {
+    "home": 0.4063,
+    "draw": 0.2692,
+    "away": 0.3245,
+    "over25": 0.5152
+   },
+   "odds": {
+    "home": 2.26,
+    "draw": 3.28,
+    "away": 2.77,
+    "over25": 1.8,
+    "under25": 1.9
+   },
+   "team_matches": [
+    108,
+    109
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC2|2026-11-14|East Fife|Peterhead",
+   "league": "SC2",
+   "league_name": "Scotland · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "East Fife",
+   "away": "Peterhead",
+   "expected_goals": [
+    1.37,
+    1.32
+   ],
+   "model_expected_goals": [
+    1.41,
+    1.24
+   ],
+   "rho": -0.0874,
+   "probabilities": {
+    "home": 0.3719,
+    "draw": 0.2804,
+    "away": 0.3477,
+    "over25": 0.5027,
+    "under25": 0.4973,
+    "btts": 0.5564,
+    "btts_over25": 0.4227,
+    "dc_1x": 0.6523,
+    "dc_x2": 0.6281,
+    "dc_12": 0.7196
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1337
+    ],
+    [
+     "2-1",
+     0.0841
+    ],
+    [
+     "1-0",
+     0.0826
+    ]
+   ],
+   "market": {
+    "home": 0.3699,
+    "draw": 0.2747,
+    "away": 0.3555,
+    "over25": 0.5046
+   },
+   "odds": {
+    "home": 2.46,
+    "draw": 3.22,
+    "away": 2.55,
+    "over25": 1.83,
+    "under25": 1.86
+   },
+   "team_matches": [
+    50,
+    50
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC2|2026-11-14|East Kilbride|Alloa",
+   "league": "SC2",
+   "league_name": "Scotland · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "East Kilbride",
+   "away": "Alloa",
+   "expected_goals": [
+    2.0,
+    1.16
+   ],
+   "model_expected_goals": [
+    1.39,
+    1.37
+   ],
+   "rho": -0.0874,
+   "probabilities": {
+    "home": 0.5594,
+    "draw": 0.2324,
+    "away": 0.2082,
+    "over25": 0.6109,
+    "under25": 0.3891,
+    "btts": 0.6017,
+    "btts_over25": 0.4945,
+    "dc_1x": 0.7918,
+    "dc_x2": 0.4406,
+    "dc_12": 0.7676
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1072
+    ],
+    [
+     "2-1",
+     0.0984
+    ],
+    [
+     "2-0",
+     0.085
+    ]
+   ],
+   "market": {
+    "home": 0.599,
+    "draw": 0.2122,
+    "away": 0.1887,
+    "over25": 0.6313
+   },
+   "odds": {
+    "home": 1.58,
+    "draw": 3.99,
+    "away": 4.43,
+    "over25": 1.5,
+    "under25": 2.41
+   },
+   "team_matches": [
+    13,
+    109
+   ],
+   "flags": [
+    "East Kilbride new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC3|2026-11-14|Dumbarton|Annan Athletic",
+   "league": "SC3",
+   "league_name": "Scotland · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Dumbarton",
+   "away": "Annan Athletic",
+   "expected_goals": [
+    1.8,
+    1.23
+   ],
+   "model_expected_goals": [
+    1.63,
+    1.24
+   ],
+   "rho": -0.0728,
+   "probabilities": {
+    "home": 0.4988,
+    "draw": 0.2472,
+    "away": 0.2539,
+    "over25": 0.5823,
+    "under25": 0.4177,
+    "btts": 0.5978,
+    "btts_over25": 0.4828,
+    "dc_1x": 0.7461,
+    "dc_x2": 0.5012,
+    "dc_12": 0.7528
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.115
+    ],
+    [
+     "2-1",
+     0.0962
+    ],
+    [
+     "1-0",
+     0.0794
+    ]
+   ],
+   "market": {
+    "home": 0.5087,
+    "draw": 0.2403,
+    "away": 0.251,
+    "over25": 0.5888
+   },
+   "odds": {
+    "home": 1.84,
+    "draw": 3.62,
+    "away": 3.48,
+    "over25": 1.6,
+    "under25": 2.2
+   },
+   "team_matches": [
+    73,
+    49
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC3|2026-11-14|Edinburgh City|Clyde",
+   "league": "SC3",
+   "league_name": "Scotland · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Edinburgh City",
+   "away": "Clyde",
+   "expected_goals": [
+    1.3,
+    1.67
+   ],
+   "model_expected_goals": [
+    1.54,
+    1.63
+   ],
+   "rho": -0.0728,
+   "probabilities": {
+    "home": 0.2899,
+    "draw": 0.2563,
+    "away": 0.4538,
+    "over25": 0.5686,
+    "under25": 0.4314,
+    "btts": 0.5974,
+    "btts_over25": 0.4777,
+    "dc_1x": 0.5462,
+    "dc_x2": 0.7101,
+    "dc_12": 0.7437
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1197
+    ],
+    [
+     "1-2",
+     0.0931
+    ],
+    [
+     "0-1",
+     0.078
+    ]
+   ],
+   "market": {
+    "home": 0.2823,
+    "draw": 0.2504,
+    "away": 0.4674,
+    "over25": 0.5615
+   },
+   "odds": {
+    "home": 3.14,
+    "draw": 3.5,
+    "away": 1.99,
+    "over25": 1.67,
+    "under25": 2.08
+   },
+   "team_matches": [
+    85,
+    109
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC3|2026-11-14|Forfar|Spartans",
+   "league": "SC3",
+   "league_name": "Scotland · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Forfar",
+   "away": "Spartans",
+   "expected_goals": [
+    1.18,
+    1.62
+   ],
+   "model_expected_goals": [
+    1.35,
+    1.37
+   ],
+   "rho": -0.0728,
+   "probabilities": {
+    "home": 0.2702,
+    "draw": 0.263,
+    "away": 0.4668,
+    "over25": 0.5302,
+    "under25": 0.4698,
+    "btts": 0.564,
+    "btts_over25": 0.4392,
+    "dc_1x": 0.5332,
+    "dc_x2": 0.7298,
+    "dc_12": 0.737
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1248
+    ],
+    [
+     "1-2",
+     0.0941
+    ],
+    [
+     "0-1",
+     0.0901
+    ]
+   ],
+   "market": {
+    "home": 0.2572,
+    "draw": 0.2572,
+    "away": 0.4857,
+    "over25": 0.535
+   },
+   "odds": {
+    "home": 3.41,
+    "draw": 3.41,
+    "away": 1.92,
+    "over25": 1.74,
+    "under25": 1.97
+   },
+   "team_matches": [
+    110,
+    109
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC3|2026-11-14|Kelty Hearts|Stranraer",
+   "league": "SC3",
+   "league_name": "Scotland · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Kelty Hearts",
+   "away": "Stranraer",
+   "expected_goals": [
+    1.44,
+    1.55
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.22
+   ],
+   "rho": -0.0728,
+   "probabilities": {
+    "home": 0.3453,
+    "draw": 0.2597,
+    "away": 0.395,
+    "over25": 0.573,
+    "under25": 0.427,
+    "btts": 0.608,
+    "btts_over25": 0.4873,
+    "dc_1x": 0.605,
+    "dc_x2": 0.6547,
+    "dc_12": 0.7403
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1207
+    ],
+    [
+     "1-2",
+     0.0871
+    ],
+    [
+     "2-1",
+     0.0807
+    ]
+   ],
+   "market": {
+    "home": 0.3345,
+    "draw": 0.2539,
+    "away": 0.4116,
+    "over25": 0.5878
+   },
+   "odds": {
+    "home": 2.69,
+    "draw": 3.45,
+    "away": 2.23,
+    "over25": 1.6,
+    "under25": 2.19
+   },
+   "team_matches": [
+    13,
+    109
+   ],
+   "flags": [
+    "Kelty Hearts relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC3|2026-11-14|Stirling|Elgin",
+   "league": "SC3",
+   "league_name": "Scotland · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:00:00+00:00",
+   "home": "Stirling",
+   "away": "Elgin",
+   "expected_goals": [
+    1.38,
+    1.74
+   ],
+   "model_expected_goals": [
+    1.54,
+    1.56
+   ],
+   "rho": -0.0728,
+   "probabilities": {
+    "home": 0.2985,
+    "draw": 0.2491,
+    "away": 0.4524,
+    "over25": 0.6032,
+    "under25": 0.3968,
+    "btts": 0.6249,
+    "btts_over25": 0.5112,
+    "dc_1x": 0.5476,
+    "dc_x2": 0.7015,
+    "dc_12": 0.7509
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1137
+    ],
+    [
+     "1-2",
+     0.0922
+    ],
+    [
+     "2-1",
+     0.0732
+    ]
+   ],
+   "market": {
+    "home": 0.2868,
+    "draw": 0.2473,
+    "away": 0.4658,
+    "over25": 0.6046
+   },
+   "odds": {
+    "home": 3.08,
+    "draw": 3.52,
+    "away": 1.99,
+    "over25": 1.56,
+    "under25": 2.27
+   },
+   "team_matches": [
+    85,
+    110
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SP2|2026-11-14|Sociedad B|Sp Gijon",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T15:15:00+00:00",
+   "home": "Sociedad B",
+   "away": "Sp Gijon",
+   "expected_goals": [
+    1.35,
+    1.22
+   ],
+   "model_expected_goals": [
+    1.37,
+    1.23
+   ],
+   "rho": -0.0063,
+   "probabilities": {
+    "home": 0.3964,
+    "draw": 0.2663,
+    "away": 0.3373,
+    "over25": 0.4754,
+    "under25": 0.5246,
+    "btts": 0.524,
+    "btts_over25": 0.3973,
+    "dc_1x": 0.6627,
+    "dc_x2": 0.6036,
+    "dc_12": 0.7337
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1267
+    ],
+    [
+     "1-0",
+     0.102
+    ],
+    [
+     "0-1",
+     0.0924
+    ]
+   ],
+   "market": {
+    "home": 0.3854,
+    "draw": 0.2876,
+    "away": 0.3271,
+    "over25": 0.4742
+   },
+   "odds": {
+    "home": 2.4,
+    "draw": 3.14,
+    "away": 2.79,
+    "over25": 1.94,
+    "under25": 1.77
+   },
+   "team_matches": [
+    55,
+    124
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "E3|2026-11-14|Fleetwood Town|Tranmere",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T17:30:00+00:00",
+   "home": "Fleetwood Town",
+   "away": "Tranmere",
+   "expected_goals": [
+    1.63,
+    1.12
+   ],
+   "model_expected_goals": [
+    1.56,
+    1.08
+   ],
+   "rho": -0.0116,
+   "probabilities": {
+    "home": 0.4917,
+    "draw": 0.2485,
+    "away": 0.2597,
+    "over25": 0.519,
+    "under25": 0.481,
+    "btts": 0.5432,
+    "btts_over25": 0.4253,
+    "dc_1x": 0.7403,
+    "dc_x2": 0.5083,
+    "dc_12": 0.7515
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.118
+    ],
+    [
+     "1-0",
+     0.1028
+    ],
+    [
+     "2-1",
+     0.0952
+    ]
+   ],
+   "market": {
+    "home": 0.4875,
+    "draw": 0.259,
+    "away": 0.2535,
+    "over25": 0.5241
+   },
+   "odds": {
+    "home": 1.95,
+    "draw": 3.51,
+    "away": 3.58,
+    "over25": 1.78,
+    "under25": 1.94
+   },
+   "team_matches": [
+    106,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SC2|2026-11-14|Hamilton|Ross County",
+   "league": "SC2",
+   "league_name": "Scotland · League One",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T17:30:00+00:00",
+   "home": "Hamilton",
+   "away": "Ross County",
+   "expected_goals": [
+    1.14,
+    1.86
+   ],
+   "model_expected_goals": [
+    1.25,
+    1.91
+   ],
+   "rho": -0.0874,
+   "probabilities": {
+    "home": 0.2225,
+    "draw": 0.2447,
+    "away": 0.5328,
+    "over25": 0.5776,
+    "under25": 0.4224,
+    "btts": 0.5842,
+    "btts_over25": 0.4695,
+    "dc_1x": 0.4672,
+    "dc_x2": 0.7775,
+    "dc_12": 0.7553
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1147
+    ],
+    [
+     "1-2",
+     0.0982
+    ],
+    [
+     "0-2",
+     0.086
+    ]
+   ],
+   "market": {
+    "home": 0.224,
+    "draw": 0.2364,
+    "away": 0.5396,
+    "over25": 0.572
+   },
+   "odds": {
+    "home": 3.83,
+    "draw": 3.65,
+    "away": 1.74,
+    "over25": 1.64,
+    "under25": 2.12
+   },
+   "team_matches": [
+    73,
+    14
+   ],
+   "flags": [
+    "Ross County relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SP2|2026-11-14|Almeria|Andorra",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T17:30:00+00:00",
+   "home": "Almeria",
+   "away": "Andorra",
+   "expected_goals": [
+    2.06,
+    1.1
+   ],
+   "model_expected_goals": [
+    1.9,
+    1.2
+   ],
+   "rho": -0.0063,
+   "probabilities": {
+    "home": 0.5942,
+    "draw": 0.2099,
+    "away": 0.1959,
+    "over25": 0.6125,
+    "under25": 0.3875,
+    "btts": 0.5834,
+    "btts_over25": 0.4868,
+    "dc_1x": 0.8041,
+    "dc_x2": 0.4058,
+    "dc_12": 0.7901
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.099
+    ],
+    [
+     "1-1",
+     0.0966
+    ],
+    [
+     "2-0",
+     0.0898
+    ]
+   ],
+   "market": {
+    "home": 0.6003,
+    "draw": 0.2151,
+    "away": 0.1847,
+    "over25": 0.6155
+   },
+   "odds": {
+    "home": 1.59,
+    "draw": 4.04,
+    "away": 4.64,
+    "over25": 1.54,
+    "under25": 2.34
+   },
+   "team_matches": [
+    97,
+    81
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SP2|2026-11-14|Mallorca|Cordoba",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T17:30:00+00:00",
+   "home": "Mallorca",
+   "away": "Cordoba",
+   "expected_goals": [
+    1.86,
+    1.24
+   ],
+   "model_expected_goals": [
+    1.83,
+    1.0
+   ],
+   "rho": -0.0063,
+   "probabilities": {
+    "home": 0.5176,
+    "draw": 0.228,
+    "away": 0.2544,
+    "over25": 0.5995,
+    "under25": 0.4005,
+    "btts": 0.6014,
+    "btts_over25": 0.4969,
+    "dc_1x": 0.7456,
+    "dc_x2": 0.4824,
+    "dc_12": 0.772
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1045
+    ],
+    [
+     "2-1",
+     0.0966
+    ],
+    [
+     "1-0",
+     0.0829
+    ]
+   ],
+   "market": {
+    "home": 0.5014,
+    "draw": 0.2405,
+    "away": 0.2581,
+    "over25": 0.6113
+   },
+   "odds": {
+    "home": 1.88,
+    "draw": 3.68,
+    "away": 3.45,
+    "over25": 1.55,
+    "under25": 2.32
+   },
+   "team_matches": [
+    12,
+    97
+   ],
+   "flags": [
+    "Mallorca relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "SP2|2026-11-14|Oviedo|Girona",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T20:00:00+00:00",
+   "home": "Oviedo",
+   "away": "Girona",
+   "expected_goals": [
+    1.35,
+    1.2
+   ],
+   "model_expected_goals": [
+    1.31,
+    1.21
+   ],
+   "rho": -0.0063,
+   "probabilities": {
+    "home": 0.4015,
+    "draw": 0.2677,
+    "away": 0.3308,
+    "over25": 0.4684,
+    "under25": 0.5316,
+    "btts": 0.518,
+    "btts_over25": 0.3907,
+    "dc_1x": 0.6692,
+    "dc_x2": 0.5985,
+    "dc_12": 0.7323
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1273
+    ],
+    [
+     "1-0",
+     0.1047
+    ],
+    [
+     "0-1",
+     0.093
+    ]
+   ],
+   "market": {
+    "home": 0.3969,
+    "draw": 0.2815,
+    "away": 0.3216,
+    "over25": 0.4698
+   },
+   "odds": {
+    "home": 2.34,
+    "draw": 3.21,
+    "away": 2.84,
+    "over25": 1.96,
+    "under25": 1.76
+   },
+   "team_matches": [
+    82,
+    13
+   ],
+   "flags": [
+    "Girona relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "BRA|2026-11-14|Mirassol|Atletico-MG",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T21:30:00+00:00",
+   "home": "Mirassol",
+   "away": "Atletico-MG",
+   "expected_goals": [
+    1.49,
+    0.99
+   ],
+   "model_expected_goals": [
+    1.46,
+    1.02
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.4836,
+    "draw": 0.2706,
+    "away": 0.2458,
+    "over25": 0.4502,
+    "under25": 0.5498,
+    "btts": 0.4907,
+    "btts_over25": 0.3624,
+    "dc_1x": 0.7542,
+    "dc_x2": 0.5164,
+    "dc_12": 0.7294
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1283
+    ],
+    [
+     "1-0",
+     0.1204
+    ],
+    [
+     "2-0",
+     0.0932
+    ]
+   ],
+   "market": {
+    "home": 0.4902,
+    "draw": 0.2622,
+    "away": 0.2476,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.94,
+    "draw": 3.47,
+    "away": 3.66,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    72,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "MEX|2026-11-14|Queretaro|Monterrey",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T23:00:00+00:00",
+   "home": "Queretaro",
+   "away": "Monterrey",
+   "expected_goals": [
+    1.19,
+    1.6
+   ],
+   "model_expected_goals": [
+    1.38,
+    1.42
+   ],
+   "rho": -0.0539,
+   "probabilities": {
+    "home": 0.2777,
+    "draw": 0.2595,
+    "away": 0.4628,
+    "over25": 0.53,
+    "under25": 0.47,
+    "btts": 0.5631,
+    "btts_over25": 0.4401,
+    "dc_1x": 0.5372,
+    "dc_x2": 0.7223,
+    "dc_12": 0.7405
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.123
+    ],
+    [
+     "1-2",
+     0.0936
+    ],
+    [
+     "0-1",
+     0.0915
+    ]
+   ],
+   "market": {
+    "home": 0.2693,
+    "draw": 0.2481,
+    "away": 0.4827,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.33,
+    "draw": 3.59,
+    "away": 1.95,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    101,
+    120
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  },
+  {
+   "id": "BRA|2026-11-14|Chapecoense-SC|Vasco",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-14",
+   "kickoff": "2026-11-14T23:30:00+00:00",
+   "home": "Chapecoense-SC",
+   "away": "Vasco",
+   "expected_goals": [
+    0.85,
+    2.04
+   ],
+   "model_expected_goals": [
+    1.37,
+    1.55
+   ],
+   "rho": -0.0385,
+   "probabilities": {
+    "home": 0.1421,
+    "draw": 0.2095,
+    "away": 0.6484,
+    "over25": 0.5517,
+    "under25": 0.4483,
+    "btts": 0.5006,
+    "btts_over25": 0.4008,
+    "dc_1x": 0.3516,
+    "dc_x2": 0.8579,
+    "dc_12": 0.7905
+   },
+   "top_scores": [
+    [
+     "0-2",
+     0.1161
+    ],
+    [
+     "0-1",
+     0.1099
+    ],
+    [
+     "1-1",
+     0.0998
+    ]
+   ],
+   "market": {
+    "home": 0.1251,
+    "draw": 0.1837,
+    "away": 0.6911,
+    "over25": null
+   },
+   "odds": {
+    "home": 6.64,
+    "draw": 4.68,
+    "away": 1.4,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    33,
+    114
+   ],
+   "flags": [
+    "Chapecoense-SC new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-13T22:37:58+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-14|Scunthorpe|Worthing",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Scunthorpe",
+    "away": "Worthing",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5738,
+    "fair_odds": 1.74,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-14|Eastleigh|Fylde",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Eastleigh",
+    "away": "Fylde",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5589,
+    "fair_odds": 1.79,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-14|Carlisle|Boston Utd",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Carlisle",
+    "away": "Boston Utd",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5335,
+    "fair_odds": 1.87,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-14|Southend|Aldershot",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Southend",
+    "away": "Aldershot",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5236,
+    "fair_odds": 1.91,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E2|2026-11-14|Sheffield Weds|Plymouth",
+    "league": "E2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Sheffield Weds",
+    "away": "Plymouth",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5159,
+    "fair_odds": 1.94,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-14|Yeovil|Boreham Wood",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Yeovil",
+    "away": "Boreham Wood",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5157,
+    "fair_odds": 1.94,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SC3|2026-11-14|Stirling|Elgin",
+    "league": "SC3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Stirling",
+    "away": "Elgin",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5112,
+    "fair_odds": 1.96,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E2|2026-11-14|Wigan|Barnsley",
+    "league": "E2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Wigan",
+    "away": "Barnsley",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5066,
+    "fair_odds": 1.97,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-14|Harrogate|Altrincham",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Harrogate",
+    "away": "Altrincham",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5048,
+    "fair_odds": 1.98,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E3|2026-11-14|Swindon|Grimsby",
+    "league": "E3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Swindon",
+    "away": "Grimsby",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5012,
+    "fair_odds": 2.0,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SP2|2026-11-14|Mallorca|Cordoba",
+    "league": "SP2",
+    "kickoff": "2026-11-14T17:30:00+00:00",
+    "home": "Mallorca",
+    "away": "Cordoba",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4969,
+    "fair_odds": 2.01,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SC2|2026-11-14|East Kilbride|Alloa",
+    "league": "SC2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "East Kilbride",
+    "away": "Alloa",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4945,
+    "fair_odds": 2.02,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-14|Hornchurch|Tamworth",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Hornchurch",
+    "away": "Tamworth",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4892,
+    "fair_odds": 2.04,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SC3|2026-11-14|Kelty Hearts|Stranraer",
+    "league": "SC3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Kelty Hearts",
+    "away": "Stranraer",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4873,
+    "fair_odds": 2.05,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SP2|2026-11-14|Almeria|Andorra",
+    "league": "SP2",
+    "kickoff": "2026-11-14T17:30:00+00:00",
+    "home": "Almeria",
+    "away": "Andorra",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4868,
+    "fair_odds": 2.05,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-14|Southend|Aldershot",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Southend",
+    "away": "Aldershot",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6899,
+    "fair_odds": 1.45,
+    "market_odds": 1.36,
+    "edge": -0.0617,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-14|Carlisle|Boston Utd",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Carlisle",
+    "away": "Boston Utd",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6841,
+    "fair_odds": 1.46,
+    "market_odds": 1.37,
+    "edge": -0.0628,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-14|Scunthorpe|Worthing",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Scunthorpe",
+    "away": "Worthing",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6656,
+    "fair_odds": 1.5,
+    "market_odds": 1.42,
+    "edge": -0.0548,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-14|Eastleigh|Fylde",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Eastleigh",
+    "away": "Fylde",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6553,
+    "fair_odds": 1.53,
+    "market_odds": 1.42,
+    "edge": -0.0695,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-14|Yeovil|Boreham Wood",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Yeovil",
+    "away": "Boreham Wood",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6347,
+    "fair_odds": 1.58,
+    "market_odds": 1.48,
+    "edge": -0.0607,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-14|Harrogate|Altrincham",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Harrogate",
+    "away": "Altrincham",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6141,
+    "fair_odds": 1.63,
+    "market_odds": 1.53,
+    "edge": -0.0604,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SP2|2026-11-14|Almeria|Andorra",
+    "league": "SP2",
+    "kickoff": "2026-11-14T17:30:00+00:00",
+    "home": "Almeria",
+    "away": "Andorra",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6125,
+    "fair_odds": 1.63,
+    "market_odds": 1.54,
+    "edge": -0.0567,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SC2|2026-11-14|East Kilbride|Alloa",
+    "league": "SC2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "East Kilbride",
+    "away": "Alloa",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6109,
+    "fair_odds": 1.64,
+    "market_odds": 1.5,
+    "edge": -0.0836,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SC1|2026-11-14|Livingston|Morton",
+    "league": "SC1",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Livingston",
+    "away": "Morton",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6059,
+    "fair_odds": 1.65,
+    "market_odds": 1.5,
+    "edge": -0.0911,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E2|2026-11-14|Sheffield Weds|Plymouth",
+    "league": "E2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Sheffield Weds",
+    "away": "Plymouth",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6051,
+    "fair_odds": 1.65,
+    "market_odds": 1.55,
+    "edge": -0.0621,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SC3|2026-11-14|Stirling|Elgin",
+    "league": "SC3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Stirling",
+    "away": "Elgin",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6032,
+    "fair_odds": 1.66,
+    "market_odds": 1.56,
+    "edge": -0.059,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SP2|2026-11-14|Mallorca|Cordoba",
+    "league": "SP2",
+    "kickoff": "2026-11-14T17:30:00+00:00",
+    "home": "Mallorca",
+    "away": "Cordoba",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5995,
+    "fair_odds": 1.67,
+    "market_odds": 1.55,
+    "edge": -0.0708,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E2|2026-11-14|Wigan|Barnsley",
+    "league": "E2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Wigan",
+    "away": "Barnsley",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5941,
+    "fair_odds": 1.68,
+    "market_odds": 1.55,
+    "edge": -0.0791,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E3|2026-11-14|Swindon|Grimsby",
+    "league": "E3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Swindon",
+    "away": "Grimsby",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5925,
+    "fair_odds": 1.69,
+    "market_odds": 1.57,
+    "edge": -0.0697,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SC2|2026-11-14|Airdrie Utd|Queen of Sth",
+    "league": "SC2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Airdrie Utd",
+    "away": "Queen of Sth",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5884,
+    "fair_odds": 1.7,
+    "market_odds": 1.58,
+    "edge": -0.0703,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-14|Scunthorpe|Worthing",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Scunthorpe",
+    "away": "Worthing",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6673,
+    "fair_odds": 1.5,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-14|Eastleigh|Fylde",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Eastleigh",
+    "away": "Fylde",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6534,
+    "fair_odds": 1.53,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SC3|2026-11-14|Stirling|Elgin",
+    "league": "SC3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Stirling",
+    "away": "Elgin",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6249,
+    "fair_odds": 1.6,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E2|2026-11-14|Sheffield Weds|Plymouth",
+    "league": "E2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Sheffield Weds",
+    "away": "Plymouth",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6243,
+    "fair_odds": 1.6,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E2|2026-11-14|Wigan|Barnsley",
+    "league": "E2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Wigan",
+    "away": "Barnsley",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6173,
+    "fair_odds": 1.62,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-14|Carlisle|Boston Utd",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Carlisle",
+    "away": "Boston Utd",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6117,
+    "fair_odds": 1.63,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E3|2026-11-14|Swindon|Grimsby",
+    "league": "E3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Swindon",
+    "away": "Grimsby",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6104,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-14|Yeovil|Boreham Wood",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Yeovil",
+    "away": "Boreham Wood",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6088,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SC3|2026-11-14|Kelty Hearts|Stranraer",
+    "league": "SC3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Kelty Hearts",
+    "away": "Stranraer",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.608,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-14|Harrogate|Altrincham",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Harrogate",
+    "away": "Altrincham",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6034,
+    "fair_odds": 1.66,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SC2|2026-11-14|East Kilbride|Alloa",
+    "league": "SC2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "East Kilbride",
+    "away": "Alloa",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6017,
+    "fair_odds": 1.66,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-11-14|Mallorca|Cordoba",
+    "league": "SP2",
+    "kickoff": "2026-11-14T17:30:00+00:00",
+    "home": "Mallorca",
+    "away": "Cordoba",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6014,
+    "fair_odds": 1.66,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-14|Hornchurch|Tamworth",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Hornchurch",
+    "away": "Tamworth",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5998,
+    "fair_odds": 1.67,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-14|Southend|Aldershot",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Southend",
+    "away": "Aldershot",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5979,
+    "fair_odds": 1.67,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SC3|2026-11-14|Dumbarton|Annan Athletic",
+    "league": "SC3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Dumbarton",
+    "away": "Annan Athletic",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5978,
+    "fair_odds": 1.67,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "SC1|2026-11-14|Livingston|Morton",
+    "league": "SC1",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Livingston",
+    "away": "Morton",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9158,
+    "fair_odds": 1.09,
+    "market_odds": 1.01,
+    "edge": -0.0747,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-14|Southend|Aldershot",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Southend",
+    "away": "Aldershot",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8584,
+    "fair_odds": 1.16,
+    "market_odds": 1.06,
+    "edge": -0.0868,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-14|Chapecoense-SC|Vasco",
+    "league": "BRA",
+    "kickoff": "2026-11-14T23:30:00+00:00",
+    "home": "Chapecoense-SC",
+    "away": "Vasco",
+    "selection": "X2",
+    "tier": "strong",
+    "probability": 0.8579,
+    "fair_odds": 1.17,
+    "market_odds": 1.08,
+    "edge": -0.0755,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-14|Carlisle|Boston Utd",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Carlisle",
+    "away": "Boston Utd",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8383,
+    "fair_odds": 1.19,
+    "market_odds": 1.09,
+    "edge": -0.0874,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-14|Gateshead|Barrow",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Gateshead",
+    "away": "Barrow",
+    "selection": "X2",
+    "tier": "strong",
+    "probability": 0.8245,
+    "fair_odds": 1.21,
+    "market_odds": 1.1,
+    "edge": -0.0925,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E3|2026-11-14|Salford|Northampton",
+    "league": "E3",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Salford",
+    "away": "Northampton",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8156,
+    "fair_odds": 1.23,
+    "market_odds": 1.12,
+    "edge": -0.083,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-11-14|Almeria|Andorra",
+    "league": "SP2",
+    "kickoff": "2026-11-14T17:30:00+00:00",
+    "home": "Almeria",
+    "away": "Andorra",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8041,
+    "fair_odds": 1.24,
+    "market_odds": 1.14,
+    "edge": -0.0825,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SC2|2026-11-14|Airdrie Utd|Queen of Sth",
+    "league": "SC2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Airdrie Utd",
+    "away": "Queen of Sth",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8013,
+    "fair_odds": 1.25,
+    "market_odds": 1.14,
+    "edge": -0.0889,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-14|Yeovil|Boreham Wood",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Yeovil",
+    "away": "Boreham Wood",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7928,
+    "fair_odds": 1.26,
+    "market_odds": 1.17,
+    "edge": -0.0738,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SC2|2026-11-14|East Kilbride|Alloa",
+    "league": "SC2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "East Kilbride",
+    "away": "Alloa",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7918,
+    "fair_odds": 1.26,
+    "market_odds": 1.13,
+    "edge": -0.1038,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SC1|2026-11-14|Stenhousemuir|Queens Park",
+    "league": "SC1",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Stenhousemuir",
+    "away": "Queens Park",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7879,
+    "fair_odds": 1.27,
+    "market_odds": 1.17,
+    "edge": -0.0761,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E2|2026-11-14|Milton Keynes Dons|Burton",
+    "league": "E2",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Milton Keynes Dons",
+    "away": "Burton",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7868,
+    "fair_odds": 1.27,
+    "market_odds": 1.17,
+    "edge": -0.079,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-14|Harrogate|Altrincham",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Harrogate",
+    "away": "Altrincham",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7829,
+    "fair_odds": 1.28,
+    "market_odds": 1.2,
+    "edge": -0.0638,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-14|Eastleigh|Fylde",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Eastleigh",
+    "away": "Fylde",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7807,
+    "fair_odds": 1.28,
+    "market_odds": 1.2,
+    "edge": -0.067,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-14|Scunthorpe|Worthing",
+    "league": "EC",
+    "kickoff": "2026-11-14T15:00:00+00:00",
+    "home": "Scunthorpe",
+    "away": "Worthing",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7792,
+    "fair_odds": 1.28,
+    "market_odds": 1.2,
+    "edge": -0.0633,
+    "published_at": "2026-11-13T22:37:58+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }
