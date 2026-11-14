@@ -1,15 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-13 22:37 UTC · kick-off times in UTC_
+_Generated 2026-11-14 01:46 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Friday 13 November 2026
-
-_No upcoming matches in the published fixtures for this day._
-
 
 ## Saturday 14 November 2026
 
@@ -136,15 +131,44 @@ _No upcoming matches in the published fixtures for this day._
 | 13:00 | Spain · Segunda División | Tenerife vs Ceuta | 1X | 76% ☆ | 1.31 | 1.20 |  |
 | 17:30 | Spain · Segunda División | Eldense vs Sabadell | 12 | 71% ☆ | 1.40 | 1.31 |  |
 
+
+## Monday 16 November 2026
+
+1 matches analysed across 1 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 19:30 | Spain · Segunda División | Albacete vs Celta B | BTTS & Over 2.5 | 47% ☆ | 2.13 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 19:30 | Spain · Segunda División | Albacete vs Celta B | Over 2.5 | 60% ☆ | 1.68 | 1.56 |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 19:30 | Spain · Segunda División | Albacete vs Celta B | BTTS Yes | 57% ☆ | 1.76 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 19:30 | Spain · Segunda División | Albacete vs Celta B | 1X | 81% ★ | 1.24 | 1.13 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 26/29 (90%), ROI -6% | 108/121 (89%), ROI -6% | 139/156 (89%), ROI -6% |
-| BTTS & Over 2.5 | 26/40 (65%) | 171/307 (56%) | 252/457 (55%) |
-| Over 2.5 Goals | 33/41 (80%), ROI +10% | 214/310 (69%), ROI -3% | 311/460 (68%), ROI -4% |
-| Both Teams To Score | 29/41 (71%) | 199/316 (63%) | 296/473 (63%) |
-| Double Chance | 38/44 (86%), ROI -10% | 292/347 (84%), ROI -6% | 449/527 (85%), ROI -4% |
+| 🔒 Bankers | 12/14 (86%), ROI -11% | 107/120 (89%), ROI -6% | 139/156 (89%), ROI -6% |
+| BTTS & Over 2.5 | 15/21 (71%) | 168/299 (56%) | 252/457 (55%) |
+| Over 2.5 Goals | 17/21 (81%), ROI +15% | 209/301 (69%), ROI -3% | 311/460 (68%), ROI -4% |
+| Both Teams To Score | 17/22 (77%) | 194/308 (63%) | 296/473 (63%) |
+| Double Chance | 19/24 (79%), ROI -17% | 287/337 (85%), ROI -5% | 449/527 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

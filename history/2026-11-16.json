@@ -1,0 +1,152 @@
+{
+ "date": "2026-11-16",
+ "created_at": "2026-11-14T01:46:21+00:00",
+ "updated_at": "2026-11-14T01:46:21+00:00",
+ "fixtures": [
+  {
+   "id": "SP2|2026-11-16|Albacete|Celta B",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-16",
+   "kickoff": "2026-11-16T19:30:00+00:00",
+   "home": "Albacete",
+   "away": "Celta B",
+   "expected_goals": [
+    2.03,
+    1.06
+   ],
+   "model_expected_goals": [
+    1.8,
+    1.06
+   ],
+   "rho": -0.0063,
+   "probabilities": {
+    "home": 0.5977,
+    "draw": 0.2116,
+    "away": 0.1906,
+    "over25": 0.5966,
+    "under25": 0.4034,
+    "btts": 0.568,
+    "btts_over25": 0.4695,
+    "dc_1x": 0.8094,
+    "dc_x2": 0.4023,
+    "dc_12": 0.7884
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0994
+    ],
+    [
+     "1-1",
+     0.0985
+    ],
+    [
+     "2-0",
+     0.0939
+    ]
+   ],
+   "market": {
+    "home": 0.6027,
+    "draw": 0.2161,
+    "away": 0.1812,
+    "over25": 0.6063
+   },
+   "odds": {
+    "home": 1.58,
+    "draw": 3.99,
+    "away": 4.68,
+    "over25": 1.56,
+    "under25": 2.29
+   },
+   "team_matches": [
+    124,
+    13
+   ],
+   "flags": [
+    "Celta B new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-14T01:46:21+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "SP2|2026-11-16|Albacete|Celta B",
+    "league": "SP2",
+    "kickoff": "2026-11-16T19:30:00+00:00",
+    "home": "Albacete",
+    "away": "Celta B",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4695,
+    "fair_odds": 2.13,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-14T01:46:21+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "SP2|2026-11-16|Albacete|Celta B",
+    "league": "SP2",
+    "kickoff": "2026-11-16T19:30:00+00:00",
+    "home": "Albacete",
+    "away": "Celta B",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5966,
+    "fair_odds": 1.68,
+    "market_odds": 1.56,
+    "edge": -0.0693,
+    "published_at": "2026-11-14T01:46:21+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-11-16|Albacete|Celta B",
+    "league": "SP2",
+    "kickoff": "2026-11-16T19:30:00+00:00",
+    "home": "Albacete",
+    "away": "Celta B",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.568,
+    "fair_odds": 1.76,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-14T01:46:21+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-11-16|Albacete|Celta B",
+    "league": "SP2",
+    "kickoff": "2026-11-16T19:30:00+00:00",
+    "home": "Albacete",
+    "away": "Celta B",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8094,
+    "fair_odds": 1.24,
+    "market_odds": 1.13,
+    "edge": -0.084,
+    "published_at": "2026-11-14T01:46:21+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}
