@@ -2977,8 +2977,12 @@
     114
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-13T22:37:58+00:00"
+   "result": [
+    0,
+    0
+   ],
+   "predicted_at": "2026-11-13T22:37:58+00:00",
+   "provisional": true
   },
   {
    "id": "MEX|2026-11-14|Queretaro|Monterrey",
