@@ -3111,8 +3111,12 @@
    "flags": [
     "Chapecoense-SC new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-11-13T22:37:58+00:00"
+   "result": [
+    0,
+    2
+   ],
+   "predicted_at": "2026-11-13T22:37:58+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -3936,8 +3940,12 @@
     "market_odds": 1.08,
     "edge": -0.0755,
     "published_at": "2026-11-13T22:37:58+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",

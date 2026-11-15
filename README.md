@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-15 01:18 UTC · kick-off times in UTC_
+_Generated 2026-11-15 12:47 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -9,6 +9,8 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 ## Saturday 14 November 2026
 
 48 matches analysed across 9 leagues.
+
+**Results:** ✅ 1 won · ❌ 0 lost · 59 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -82,7 +84,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 |---|---|---|---|---|---|---|---|
 | 15:00 | Scotland · Championship | Livingston vs Morton | 1X | 92% 🔒 | 1.09 | 1.01 |  |
 | 15:00 | England · National League | Southend vs Aldershot | 1X | 86% ★★ | 1.16 | 1.06 |  |
-| 23:30 | Brazil · Serie A | Chapecoense-SC vs Vasco | X2 | 86% ★★ | 1.17 | 1.08 |  |
+| 23:30 | Brazil · Serie A | Chapecoense-SC vs Vasco | X2 | 86% ★★ | 1.17 | 1.08 | ✅ 0-2 |
 | 15:00 | England · National League | Carlisle vs Boston Utd | 1X | 84% ★ | 1.19 | 1.09 |  |
 | 15:00 | England · National League | Gateshead vs Barrow | X2 | 82% ★ | 1.21 | 1.10 |  |
 | 15:00 | England · League Two | Salford vs Northampton | 1X | 82% ★ | 1.23 | 1.12 |  |
@@ -173,7 +175,7 @@ _No upcoming matches in the published fixtures for this day._
 | BTTS & Over 2.5 | 0/1 (0%) | 161/284 (57%) | 252/457 (55%) |
 | Over 2.5 Goals | 0/1 (0%) | 200/286 (70%), ROI -3% | 311/460 (68%), ROI -4% |
 | Both Teams To Score | 1/2 (50%) | 186/293 (63%) | 296/473 (63%) |
-| Double Chance | 1/4 (25%), ROI -72% | 276/322 (86%), ROI -5% | 449/527 (85%), ROI -4% |
+| Double Chance | 2/5 (40%), ROI -56% | 277/323 (86%), ROI -5% | 450/528 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
