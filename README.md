@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-16 01:22 UTC · kick-off times in UTC_
+_Generated 2026-11-16 13:42 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -10,35 +10,37 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 4 matches analysed across 1 leagues.
 
+**Results:** ✅ 5 won · ❌ 5 lost
+
 ### 🔥 BTTS & Over 2.5
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 15:15 | Spain · Segunda División | Granada vs Las Palmas | BTTS & Over 2.5 | 41% ☆ | 2.43 | - |  |
-| 17:30 | Spain · Segunda División | Eibar vs Cadiz | BTTS & Over 2.5 | 40% ☆ | 2.47 | - |  |
+| 15:15 | Spain · Segunda División | Granada vs Las Palmas | BTTS & Over 2.5 | 41% ☆ | 2.43 | - | ❌ 1-0 |
+| 17:30 | Spain · Segunda División | Eibar vs Cadiz | BTTS & Over 2.5 | 40% ☆ | 2.47 | - | ❌ 1-1 |
 
 ### ⚽ Over 2.5 Goals
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 17:30 | Spain · Segunda División | Eibar vs Cadiz | Over 2.5 | 53% ☆ | 1.90 | 1.72 |  |
-| 15:15 | Spain · Segunda División | Granada vs Las Palmas | Over 2.5 | 51% ☆ | 1.95 | 1.78 |  |
+| 17:30 | Spain · Segunda División | Eibar vs Cadiz | Over 2.5 | 53% ☆ | 1.90 | 1.72 | ❌ 1-1 |
+| 15:15 | Spain · Segunda División | Granada vs Las Palmas | Over 2.5 | 51% ☆ | 1.95 | 1.78 | ❌ 1-0 |
 
 ### 🎯 Both Teams To Score
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 15:15 | Spain · Segunda División | Granada vs Las Palmas | BTTS Yes | 53% ☆ | 1.90 | - |  |
-| 17:30 | Spain · Segunda División | Eibar vs Cadiz | BTTS Yes | 51% ☆ | 1.95 | - |  |
+| 15:15 | Spain · Segunda División | Granada vs Las Palmas | BTTS Yes | 53% ☆ | 1.90 | - | ❌ 1-0 |
+| 17:30 | Spain · Segunda División | Eibar vs Cadiz | BTTS Yes | 51% ☆ | 1.95 | - | ✅ 1-1 |
 
 ### 🛡️ Double Chance
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 17:30 | Spain · Segunda División | Eibar vs Cadiz | 1X | 81% ★ | 1.23 | 1.13 |  |
-| 15:15 | Spain · Segunda División | Granada vs Las Palmas | 1X | 77% ☆ | 1.30 | 1.17 |  |
-| 13:00 | Spain · Segunda División | Tenerife vs Ceuta | 1X | 76% ☆ | 1.31 | 1.20 |  |
-| 17:30 | Spain · Segunda División | Eldense vs Sabadell | 12 | 71% ☆ | 1.40 | 1.31 |  |
+| 17:30 | Spain · Segunda División | Eibar vs Cadiz | 1X | 81% ★ | 1.23 | 1.13 | ✅ 1-1 |
+| 15:15 | Spain · Segunda División | Granada vs Las Palmas | 1X | 77% ☆ | 1.30 | 1.17 | ✅ 1-0 |
+| 13:00 | Spain · Segunda División | Tenerife vs Ceuta | 1X | 76% ☆ | 1.31 | 1.20 | ✅ 2-0 |
+| 17:30 | Spain · Segunda División | Eldense vs Sabadell | 12 | 71% ☆ | 1.40 | 1.31 | ✅ 2-0 |
 
 
 ## Monday 16 November 2026
@@ -83,11 +85,11 @@ _No upcoming matches in the published fixtures for this day._
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | - | 93/105 (89%), ROI -7% | 139/156 (89%), ROI -6% |
-| BTTS & Over 2.5 | - | 148/264 (56%) | 252/457 (55%) |
-| Over 2.5 Goals | - | 185/266 (70%), ROI -3% | 311/460 (68%), ROI -4% |
-| Both Teams To Score | - | 171/273 (63%) | 296/473 (63%) |
-| Double Chance | 1/1 (100%), ROI +8% | 259/303 (85%), ROI -5% | 450/528 (85%), ROI -4% |
+| 🔒 Bankers | 1/1 (100%), ROI +1% | 94/106 (89%), ROI -7% | 140/157 (89%), ROI -6% |
+| BTTS & Over 2.5 | 10/17 (59%) | 158/281 (56%) | 262/474 (55%) |
+| Over 2.5 Goals | 11/17 (65%), ROI -2% | 196/283 (69%), ROI -3% | 322/477 (68%), ROI -4% |
+| Both Teams To Score | 11/17 (65%) | 182/290 (63%) | 307/490 (63%) |
+| Double Chance | 17/19 (89%), ROI +2% | 275/321 (86%), ROI -5% | 466/546 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
