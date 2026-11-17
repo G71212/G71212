@@ -1,13 +1,464 @@
 {
  "date": "2026-11-18",
  "created_at": "2026-11-16T01:22:55+00:00",
- "updated_at": "2026-11-17T04:10:37+00:00",
- "fixtures": [],
+ "updated_at": "2026-11-17T14:31:09+00:00",
+ "fixtures": [
+  {
+   "id": "BRA|2026-11-18|Coritiba|Santos",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-18",
+   "kickoff": "2026-11-18T22:30:00+00:00",
+   "home": "Coritiba",
+   "away": "Santos",
+   "expected_goals": [
+    1.19,
+    1.49
+   ],
+   "model_expected_goals": [
+    1.44,
+    1.24
+   ],
+   "rho": -0.0444,
+   "probabilities": {
+    "home": 0.2974,
+    "draw": 0.2671,
+    "away": 0.4355,
+    "over25": 0.4999,
+    "under25": 0.5001,
+    "btts": 0.5432,
+    "btts_over25": 0.416,
+    "dc_1x": 0.5645,
+    "dc_x2": 0.7026,
+    "dc_12": 0.7329
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1272
+    ],
+    [
+     "0-1",
+     0.0971
+    ],
+    [
+     "1-2",
+     0.0905
+    ]
+   ],
+   "market": {
+    "home": 0.2819,
+    "draw": 0.258,
+    "away": 0.4601,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.25,
+    "draw": 3.53,
+    "away": 2.06,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    38,
+    76
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-17T14:31:09+00:00"
+  },
+  {
+   "id": "BRA|2026-11-18|Remo|Chapecoense-SC",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-18",
+   "kickoff": "2026-11-18T23:00:00+00:00",
+   "home": "Remo",
+   "away": "Chapecoense-SC",
+   "expected_goals": [
+    1.9,
+    0.93
+   ],
+   "model_expected_goals": [
+    1.79,
+    1.04
+   ],
+   "rho": -0.0444,
+   "probabilities": {
+    "home": 0.5956,
+    "draw": 0.229,
+    "away": 0.1754,
+    "over25": 0.5373,
+    "under25": 0.4627,
+    "btts": 0.5196,
+    "btts_over25": 0.4106,
+    "dc_1x": 0.8246,
+    "dc_x2": 0.4044,
+    "dc_12": 0.771
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1091
+    ],
+    [
+     "1-0",
+     0.1075
+    ],
+    [
+     "2-0",
+     0.1064
+    ]
+   ],
+   "market": {
+    "home": 0.6101,
+    "draw": 0.2144,
+    "away": 0.1754,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.58,
+    "draw": 4.16,
+    "away": 5.01,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    34,
+    34
+   ],
+   "flags": [
+    "Remo new to league",
+    "Chapecoense-SC new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-17T14:31:09+00:00"
+  },
+  {
+   "id": "BRA|2026-11-18|Cruzeiro|Palmeiras",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-18",
+   "kickoff": "2026-11-18T23:30:00+00:00",
+   "home": "Cruzeiro",
+   "away": "Palmeiras",
+   "expected_goals": [
+    1.2,
+    1.29
+   ],
+   "model_expected_goals": [
+    1.24,
+    1.25
+   ],
+   "rho": -0.0444,
+   "probabilities": {
+    "home": 0.3371,
+    "draw": 0.2819,
+    "away": 0.381,
+    "over25": 0.4529,
+    "under25": 0.5471,
+    "btts": 0.5115,
+    "btts_over25": 0.3774,
+    "dc_1x": 0.619,
+    "dc_x2": 0.6629,
+    "dc_12": 0.7181
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1341
+    ],
+    [
+     "0-1",
+     0.1015
+    ],
+    [
+     "1-0",
+     0.0939
+    ]
+   ],
+   "market": {
+    "home": 0.3406,
+    "draw": 0.2683,
+    "away": 0.3911,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.73,
+    "draw": 3.41,
+    "away": 2.4,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    115,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-17T14:31:09+00:00"
+  },
+  {
+   "id": "BRA|2026-11-18|Flamengo RJ|Athletico-PR",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-18",
+   "kickoff": "2026-11-18T23:30:00+00:00",
+   "home": "Flamengo RJ",
+   "away": "Athletico-PR",
+   "expected_goals": [
+    2.38,
+    0.6
+   ],
+   "model_expected_goals": [
+    2.11,
+    0.89
+   ],
+   "rho": -0.0444,
+   "probabilities": {
+    "home": 0.7674,
+    "draw": 0.1603,
+    "away": 0.0723,
+    "over25": 0.5725,
+    "under25": 0.4275,
+    "btts": 0.4131,
+    "btts_over25": 0.3373,
+    "dc_1x": 0.9277,
+    "dc_x2": 0.2326,
+    "dc_12": 0.8397
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1437
+    ],
+    [
+     "1-0",
+     0.1176
+    ],
+    [
+     "3-0",
+     0.114
+    ]
+   ],
+   "market": {
+    "home": 0.7938,
+    "draw": 0.1331,
+    "away": 0.0731,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.23,
+    "draw": 6.1,
+    "away": 10.44,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    115,
+    76
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-17T14:31:09+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
-  "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "BRA|2026-11-18|Coritiba|Santos",
+    "league": "BRA",
+    "kickoff": "2026-11-18T22:30:00+00:00",
+    "home": "Coritiba",
+    "away": "Santos",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.416,
+    "fair_odds": 2.4,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "BRA|2026-11-18|Remo|Chapecoense-SC",
+    "league": "BRA",
+    "kickoff": "2026-11-18T23:00:00+00:00",
+    "home": "Remo",
+    "away": "Chapecoense-SC",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4106,
+    "fair_odds": 2.44,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-11-18|Flamengo RJ|Athletico-PR",
+    "league": "BRA",
+    "kickoff": "2026-11-18T23:30:00+00:00",
+    "home": "Flamengo RJ",
+    "away": "Athletico-PR",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5725,
+    "fair_odds": 1.75,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "BRA|2026-11-18|Remo|Chapecoense-SC",
+    "league": "BRA",
+    "kickoff": "2026-11-18T23:00:00+00:00",
+    "home": "Remo",
+    "away": "Chapecoense-SC",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5373,
+    "fair_odds": 1.86,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-11-18|Coritiba|Santos",
+    "league": "BRA",
+    "kickoff": "2026-11-18T22:30:00+00:00",
+    "home": "Coritiba",
+    "away": "Santos",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5432,
+    "fair_odds": 1.84,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-11-18|Remo|Chapecoense-SC",
+    "league": "BRA",
+    "kickoff": "2026-11-18T23:00:00+00:00",
+    "home": "Remo",
+    "away": "Chapecoense-SC",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5196,
+    "fair_odds": 1.92,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-11-18|Cruzeiro|Palmeiras",
+    "league": "BRA",
+    "kickoff": "2026-11-18T23:30:00+00:00",
+    "home": "Cruzeiro",
+    "away": "Palmeiras",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5115,
+    "fair_odds": 1.95,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-18|Flamengo RJ|Athletico-PR",
+    "league": "BRA",
+    "kickoff": "2026-11-18T23:30:00+00:00",
+    "home": "Flamengo RJ",
+    "away": "Athletico-PR",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9277,
+    "fair_odds": 1.08,
+    "market_odds": 1.02,
+    "edge": -0.0504,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-18|Remo|Chapecoense-SC",
+    "league": "BRA",
+    "kickoff": "2026-11-18T23:00:00+00:00",
+    "home": "Remo",
+    "away": "Chapecoense-SC",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8246,
+    "fair_odds": 1.21,
+    "market_odds": 1.15,
+    "edge": -0.0557,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-18|Coritiba|Santos",
+    "league": "BRA",
+    "kickoff": "2026-11-18T22:30:00+00:00",
+    "home": "Coritiba",
+    "away": "Santos",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7329,
+    "fair_odds": 1.36,
+    "market_odds": 1.26,
+    "edge": -0.0759,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-18|Cruzeiro|Palmeiras",
+    "league": "BRA",
+    "kickoff": "2026-11-18T23:30:00+00:00",
+    "home": "Cruzeiro",
+    "away": "Palmeiras",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7181,
+    "fair_odds": 1.39,
+    "market_odds": 1.28,
+    "edge": -0.0829,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }

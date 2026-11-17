@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-17 04:10 UTC · kick-off times in UTC_
+_Generated 2026-11-17 14:31 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -44,12 +44,74 @@ _No upcoming matches in the published fixtures for this day._
 
 ## Wednesday 18 November 2026
 
-_No upcoming matches in the published fixtures for this day._
+4 matches analysed across 1 leagues.
+
+### 🔒 Bankers: the day's safest tips
+
+| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
+|---|---|---|---|---|---|---|
+| 23:30 | Flamengo RJ vs Athletico-PR | Double Chance | 1X | 93% | 1.08 |  |
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 22:30 | Brazil · Serie A | Coritiba vs Santos | BTTS & Over 2.5 | 42% ☆ | 2.40 | - |  |
+| 23:00 | Brazil · Serie A | Remo vs Chapecoense-SC | BTTS & Over 2.5 | 41% ☆ | 2.44 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 23:30 | Brazil · Serie A | Flamengo RJ vs Athletico-PR | Over 2.5 | 57% ☆ | 1.75 | - |  |
+| 23:00 | Brazil · Serie A | Remo vs Chapecoense-SC | Over 2.5 | 54% ☆ | 1.86 | - |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 22:30 | Brazil · Serie A | Coritiba vs Santos | BTTS Yes | 54% ☆ | 1.84 | - |  |
+| 23:00 | Brazil · Serie A | Remo vs Chapecoense-SC | BTTS Yes | 52% ☆ | 1.92 | - |  |
+| 23:30 | Brazil · Serie A | Cruzeiro vs Palmeiras | BTTS Yes | 51% ☆ | 1.95 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 23:30 | Brazil · Serie A | Flamengo RJ vs Athletico-PR | 1X | 93% 🔒 | 1.08 | 1.02 |  |
+| 23:00 | Brazil · Serie A | Remo vs Chapecoense-SC | 1X | 82% ★ | 1.21 | 1.15 |  |
+| 22:30 | Brazil · Serie A | Coritiba vs Santos | 12 | 73% ☆ | 1.36 | 1.26 |  |
+| 23:30 | Brazil · Serie A | Cruzeiro vs Palmeiras | 12 | 72% ☆ | 1.39 | 1.28 |  |
 
 
 ## Thursday 19 November 2026
 
-_No upcoming matches in the published fixtures for this day._
+4 matches analysed across 1 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:30 | Brazil · Serie A | Gremio vs Bahia | BTTS & Over 2.5 | 40% ☆ | 2.49 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+_No match was likely enough to pick._
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:30 | Brazil · Serie A | Gremio vs Bahia | BTTS Yes | 53% ☆ | 1.88 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 22:30 | Brazil · Serie A | Vasco vs Internacional | 1X | 81% ★ | 1.23 | 1.15 |  |
+| 00:30 | Brazil · Serie A | Corinthians vs Botafogo RJ | 1X | 77% ☆ | 1.29 | 1.20 |  |
+| 00:30 | Brazil · Serie A | Gremio vs Bahia | 12 | 73% ☆ | 1.38 | 1.27 |  |
+| 22:30 | Brazil · Serie A | Vitoria vs Bragantino | 12 | 71% ☆ | 1.41 | 1.28 |  |
 
 ## 📊 Track record
 

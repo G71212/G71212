@@ -1,13 +1,375 @@
 {
  "date": "2026-11-19",
  "created_at": "2026-11-17T00:48:15+00:00",
- "updated_at": "2026-11-17T04:10:37+00:00",
- "fixtures": [],
+ "updated_at": "2026-11-17T14:31:09+00:00",
+ "fixtures": [
+  {
+   "id": "BRA|2026-11-19|Corinthians|Botafogo RJ",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-19",
+   "kickoff": "2026-11-19T00:30:00+00:00",
+   "home": "Corinthians",
+   "away": "Botafogo RJ",
+   "expected_goals": [
+    1.54,
+    0.94
+   ],
+   "model_expected_goals": [
+    1.38,
+    1.1
+   ],
+   "rho": -0.0444,
+   "probabilities": {
+    "home": 0.507,
+    "draw": 0.2678,
+    "away": 0.2252,
+    "over25": 0.4494,
+    "under25": 0.5506,
+    "btts": 0.4829,
+    "btts_over25": 0.3561,
+    "dc_1x": 0.7748,
+    "dc_x2": 0.493,
+    "dc_12": 0.7322
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1268
+    ],
+    [
+     "1-0",
+     0.124
+    ],
+    [
+     "2-0",
+     0.0994
+    ]
+   ],
+   "market": {
+    "home": 0.5276,
+    "draw": 0.2522,
+    "away": 0.2203,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.81,
+    "draw": 3.59,
+    "away": 4.07,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    114,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-17T14:31:09+00:00"
+  },
+  {
+   "id": "BRA|2026-11-19|Gremio|Bahia",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-19",
+   "kickoff": "2026-11-19T00:30:00+00:00",
+   "home": "Gremio",
+   "away": "Bahia",
+   "expected_goals": [
+    1.42,
+    1.18
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.17
+   ],
+   "rho": -0.0444,
+   "probabilities": {
+    "home": 0.4188,
+    "draw": 0.2727,
+    "away": 0.3085,
+    "over25": 0.4818,
+    "under25": 0.5182,
+    "btts": 0.5311,
+    "btts_over25": 0.4011,
+    "dc_1x": 0.6915,
+    "dc_x2": 0.5812,
+    "dc_12": 0.7273
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.13
+    ],
+    [
+     "1-0",
+     0.0997
+    ],
+    [
+     "2-1",
+     0.0883
+    ]
+   ],
+   "market": {
+    "home": 0.4233,
+    "draw": 0.2619,
+    "away": 0.3148,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.23,
+    "draw": 3.49,
+    "away": 2.94,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    114,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-17T14:31:09+00:00"
+  },
+  {
+   "id": "BRA|2026-11-19|Vasco|Internacional",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-19",
+   "kickoff": "2026-11-19T22:30:00+00:00",
+   "home": "Vasco",
+   "away": "Internacional",
+   "expected_goals": [
+    1.75,
+    0.91
+   ],
+   "model_expected_goals": [
+    1.54,
+    1.13
+   ],
+   "rho": -0.0444,
+   "probabilities": {
+    "home": 0.5673,
+    "draw": 0.2441,
+    "away": 0.1886,
+    "over25": 0.4969,
+    "under25": 0.5031,
+    "btts": 0.4988,
+    "btts_over25": 0.3825,
+    "dc_1x": 0.8114,
+    "dc_x2": 0.4327,
+    "dc_12": 0.7559
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1174
+    ],
+    [
+     "1-1",
+     0.1163
+    ],
+    [
+     "2-0",
+     0.1071
+    ]
+   ],
+   "market": {
+    "home": 0.5898,
+    "draw": 0.2298,
+    "away": 0.1804,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.63,
+    "draw": 3.9,
+    "away": 4.88,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    115,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-17T14:31:09+00:00"
+  },
+  {
+   "id": "BRA|2026-11-19|Vitoria|Bragantino",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-19",
+   "kickoff": "2026-11-19T22:30:00+00:00",
+   "home": "Vitoria",
+   "away": "Bragantino",
+   "expected_goals": [
+    1.2,
+    1.2
+   ],
+   "model_expected_goals": [
+    1.29,
+    1.11
+   ],
+   "rho": -0.0444,
+   "probabilities": {
+    "home": 0.3558,
+    "draw": 0.2884,
+    "away": 0.3558,
+    "over25": 0.4297,
+    "under25": 0.5703,
+    "btts": 0.4936,
+    "btts_over25": 0.3572,
+    "dc_1x": 0.6442,
+    "dc_x2": 0.6442,
+    "dc_12": 0.7116
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1365
+    ],
+    [
+     "1-0",
+     0.1032
+    ],
+    [
+     "0-1",
+     0.1032
+    ]
+   ],
+   "market": {
+    "home": 0.3565,
+    "draw": 0.2717,
+    "away": 0.3718,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.61,
+    "draw": 3.36,
+    "away": 2.51,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    110,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-17T14:31:09+00:00"
+  }
+ ],
  "picks": {
-  "btts_over25": [],
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "BRA|2026-11-19|Gremio|Bahia",
+    "league": "BRA",
+    "kickoff": "2026-11-19T00:30:00+00:00",
+    "home": "Gremio",
+    "away": "Bahia",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4011,
+    "fair_odds": 2.49,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
   "over25": [],
-  "btts": [],
-  "double_chance": []
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-11-19|Gremio|Bahia",
+    "league": "BRA",
+    "kickoff": "2026-11-19T00:30:00+00:00",
+    "home": "Gremio",
+    "away": "Bahia",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5311,
+    "fair_odds": 1.88,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-19|Vasco|Internacional",
+    "league": "BRA",
+    "kickoff": "2026-11-19T22:30:00+00:00",
+    "home": "Vasco",
+    "away": "Internacional",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8114,
+    "fair_odds": 1.23,
+    "market_odds": 1.15,
+    "edge": -0.0672,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-19|Corinthians|Botafogo RJ",
+    "league": "BRA",
+    "kickoff": "2026-11-19T00:30:00+00:00",
+    "home": "Corinthians",
+    "away": "Botafogo RJ",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7748,
+    "fair_odds": 1.29,
+    "market_odds": 1.2,
+    "edge": -0.0677,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-19|Gremio|Bahia",
+    "league": "BRA",
+    "kickoff": "2026-11-19T00:30:00+00:00",
+    "home": "Gremio",
+    "away": "Bahia",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7273,
+    "fair_odds": 1.38,
+    "market_odds": 1.27,
+    "edge": -0.0777,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-19|Vitoria|Bragantino",
+    "league": "BRA",
+    "kickoff": "2026-11-19T22:30:00+00:00",
+    "home": "Vitoria",
+    "away": "Bragantino",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7116,
+    "fair_odds": 1.41,
+    "market_odds": 1.28,
+    "edge": -0.0895,
+    "published_at": "2026-11-17T14:31:09+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
  },
  "notified": []
 }
