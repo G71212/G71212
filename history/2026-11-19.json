@@ -1,7 +1,7 @@
 {
  "date": "2026-11-19",
  "created_at": "2026-11-17T00:48:15+00:00",
- "updated_at": "2026-11-18T23:23:45+00:00",
+ "updated_at": "2026-11-19T02:48:33+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-11-19|Corinthians|Botafogo RJ",
@@ -64,8 +64,12 @@
     115
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-17T14:31:09+00:00"
+   "result": [
+    4,
+    0
+   ],
+   "predicted_at": "2026-11-17T14:31:09+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-11-19|Gremio|Bahia",
@@ -128,8 +132,12 @@
     114
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-17T14:31:09+00:00"
+   "result": [
+    0,
+    0
+   ],
+   "predicted_at": "2026-11-17T14:31:09+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-11-19|Vasco|Internacional",
@@ -276,8 +284,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     0
+    ],
+    "provisional": true
    }
   ],
   "over25": [],
@@ -296,8 +308,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     0
+    ],
+    "provisional": true
    }
   ],
   "double_chance": [
@@ -332,8 +348,12 @@
     "market_odds": 1.2,
     "edge": -0.0677,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     4,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -349,8 +369,12 @@
     "market_odds": 1.27,
     "edge": -0.0777,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",

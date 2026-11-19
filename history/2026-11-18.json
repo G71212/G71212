@@ -64,8 +64,12 @@
     76
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-17T14:31:09+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-11-17T14:31:09+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-11-18|Remo|Chapecoense-SC",
@@ -131,8 +135,12 @@
     "Remo new to league",
     "Chapecoense-SC new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-11-17T14:31:09+00:00"
+   "result": [
+    2,
+    0
+   ],
+   "predicted_at": "2026-11-17T14:31:09+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-11-18|Cruzeiro|Palmeiras",
@@ -195,8 +203,12 @@
     114
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-17T14:31:09+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-11-17T14:31:09+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-11-18|Flamengo RJ|Athletico-PR",
@@ -259,8 +271,12 @@
     76
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-17T14:31:09+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-11-17T14:31:09+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -279,8 +295,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -296,8 +316,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ],
+    "provisional": true
    }
   ],
   "over25": [
@@ -315,8 +339,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -332,8 +360,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ],
+    "provisional": true
    }
   ],
   "btts": [
@@ -351,8 +383,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -368,8 +404,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     2,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -385,8 +425,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    }
   ],
   "double_chance": [
@@ -404,8 +448,12 @@
     "market_odds": 1.02,
     "edge": -0.0504,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -421,8 +469,12 @@
     "market_odds": 1.15,
     "edge": -0.0557,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -438,8 +490,12 @@
     "market_odds": 1.26,
     "edge": -0.0759,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -455,8 +511,12 @@
     "market_odds": 1.28,
     "edge": -0.0829,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    }
   ]
  },
