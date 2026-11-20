@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-20 14:05 UTC · kick-off times in UTC_
+_Generated 2026-11-20 23:05 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -42,14 +42,14 @@ _No match was likely enough to pick._
 
 24 matches analysed across 17 leagues.
 
-**Results:** ✅ 1 won · ❌ 0 lost · 55 pending
+**Results:** ✅ 5 won · ❌ 4 lost · 47 pending
 
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
-| 19:30 | Bayern Munich vs FC Koln | Double Chance | 1X | 97% | 1.03 |  |
-| 19:30 | Bayern Munich vs FC Koln | Over 2.5 Goals | Over 2.5 | 85% | 1.17 |  |
+| 19:30 | Bayern Munich vs FC Koln | Double Chance | 1X | 97% | 1.03 | ✅ 1-1 |
+| 19:30 | Bayern Munich vs FC Koln | Over 2.5 Goals | Over 2.5 | 85% | 1.17 | ❌ 1-1 |
 
 ### 🔥 BTTS & Over 2.5
 
@@ -60,7 +60,7 @@ _No match was likely enough to pick._
 | 20:00 | England · League One | Barnsley vs Sheffield Weds | BTTS & Over 2.5 | 55% ★ | 1.82 | - |  |
 | 17:30 | Germany · 2. Bundesliga | Darmstadt vs Heidenheim | BTTS & Over 2.5 | 54% ★ | 1.87 | - |  |
 | 19:45 | Belgium · Pro League | Cercle Brugge vs Westerlo | BTTS & Over 2.5 | 51% ★ | 1.95 | - |  |
-| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | BTTS & Over 2.5 | 50% ☆ | 2.00 | - |  |
+| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | BTTS & Over 2.5 | 50% ☆ | 2.00 | - | ❌ 1-1 |
 | 19:00 | France · Ligue 2 | Guingamp vs Rodez | BTTS & Over 2.5 | 50% ☆ | 2.02 | - |  |
 | 17:30 | Germany · 2. Bundesliga | Bielefeld vs Magdeburg | BTTS & Over 2.5 | 47% ☆ | 2.11 | - |  |
 | 18:00 | Denmark · Superliga | Aarhus vs Lyngby | BTTS & Over 2.5 | 47% ☆ | 2.15 | - |  |
@@ -68,13 +68,13 @@ _No match was likely enough to pick._
 | 19:30 | Poland · Ekstraklasa | Pogon Szczecin vs Slask Wroclaw | BTTS & Over 2.5 | 44% ☆ | 2.28 | - |  |
 | 19:30 | Italy · Serie B | Verona vs Cesena | BTTS & Over 2.5 | 43% ☆ | 2.33 | - |  |
 | 19:30 | Spain · Segunda División | Andorra vs Leganes | BTTS & Over 2.5 | 42% ☆ | 2.38 | - |  |
-| 19:45 | France · Ligue 1 | Troyes vs Le Havre | BTTS & Over 2.5 | 42% ☆ | 2.40 | - |  |
+| 19:45 | France · Ligue 1 | Troyes vs Le Havre | BTTS & Over 2.5 | 42% ☆ | 2.40 | - | ✅ 3-1 |
 
 ### ⚽ Over 2.5 Goals
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | Over 2.5 | 85% 🔒 | 1.17 | 1.13 |  |
+| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | Over 2.5 | 85% 🔒 | 1.17 | 1.13 | ❌ 1-1 |
 | 19:45 | England · National League | Southend vs Boreham Wood | Over 2.5 | 71% ★★ | 1.41 | 1.33 |  |
 | 18:00 | Norway · Eliteserien | Molde vs Bodo/Glimt | Over 2.5 | 70% ★★ | 1.43 | - |  |
 | 20:00 | England · League One | Barnsley vs Sheffield Weds | Over 2.5 | 64% ★ | 1.56 | 1.46 |  |
@@ -86,7 +86,7 @@ _No match was likely enough to pick._
 | 19:00 | France · Ligue 2 | Nancy vs Dijon | Over 2.5 | 55% ☆ | 1.81 | 1.68 |  |
 | 19:30 | Italy · Serie B | Verona vs Cesena | Over 2.5 | 55% ☆ | 1.83 | 1.70 |  |
 | 19:30 | Poland · Ekstraklasa | Pogon Szczecin vs Slask Wroclaw | Over 2.5 | 55% ☆ | 1.83 | - |  |
-| 20:00 | Spain · La Liga | Ath Bilbao vs Espanol | Over 2.5 | 54% ☆ | 1.85 | 1.68 |  |
+| 20:00 | Spain · La Liga | Ath Bilbao vs Espanol | Over 2.5 | 54% ☆ | 1.85 | 1.68 | ❌ 0-1 |
 | 15:30 | Romania · Superliga | FC Botosani vs FC Voluntari | Over 2.5 | 53% ☆ | 1.90 | - |  |
 
 ### 🎯 Both Teams To Score
@@ -104,17 +104,17 @@ _No match was likely enough to pick._
 | 19:30 | Poland · Ekstraklasa | Pogon Szczecin vs Slask Wroclaw | BTTS Yes | 56% ☆ | 1.79 | - |  |
 | 19:00 | France · Ligue 2 | Nancy vs Dijon | BTTS Yes | 56% ☆ | 1.79 | - |  |
 | 19:30 | Italy · Serie B | Verona vs Cesena | BTTS Yes | 55% ☆ | 1.83 | - |  |
-| 19:45 | France · Ligue 1 | Troyes vs Le Havre | BTTS Yes | 54% ☆ | 1.85 | - |  |
+| 19:45 | France · Ligue 1 | Troyes vs Le Havre | BTTS Yes | 54% ☆ | 1.85 | - | ✅ 3-1 |
 | 18:30 | Romania · Superliga | Farul Constanta vs U. Cluj | BTTS Yes | 54% ☆ | 1.87 | - |  |
 | 19:30 | Spain · Segunda División | Andorra vs Leganes | BTTS Yes | 53% ☆ | 1.87 | - |  |
-| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | BTTS Yes | 53% ☆ | 1.90 | - |  |
+| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | BTTS Yes | 53% ☆ | 1.90 | - | ✅ 1-1 |
 
 ### 🛡️ Double Chance
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | 1X | 97% 🔒 | 1.03 | 0.99 |  |
-| 20:00 | Spain · La Liga | Ath Bilbao vs Espanol | 1X | 85% ★ | 1.18 | 1.11 |  |
+| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | 1X | 97% 🔒 | 1.03 | 0.99 | ✅ 1-1 |
+| 20:00 | Spain · La Liga | Ath Bilbao vs Espanol | 1X | 85% ★ | 1.18 | 1.11 | ❌ 0-1 |
 | 19:30 | Scotland · Championship | Inverness C vs Ayr | 1X | 82% ★ | 1.21 | 1.12 |  |
 | 19:30 | Italy · Serie B | Verona vs Cesena | 1X | 81% ★ | 1.23 | 1.15 |  |
 | 15:30 | Romania · Superliga | FC Botosani vs FC Voluntari | 1X | 80% ☆ | 1.25 | 1.21 |  |
@@ -380,11 +380,11 @@ _No match was likely enough to pick._
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 2/2 (100%), ROI +2% | 85/97 (88%), ROI -7% | 141/158 (89%), ROI -6% |
-| BTTS & Over 2.5 | 10/21 (48%) | 135/246 (55%) | 262/478 (55%) |
-| Over 2.5 Goals | 12/20 (60%), ROI -8% | 170/249 (68%), ROI -5% | 323/480 (67%), ROI -5% |
-| Both Teams To Score | 12/22 (55%) | 157/253 (62%) | 308/495 (62%) |
-| Double Chance | 26/29 (90%), ROI +4% | 241/280 (86%), ROI -4% | 475/556 (85%), ROI -4% |
+| 🔒 Bankers | 3/4 (75%), ROI -24% | 86/99 (87%), ROI -8% | 142/160 (89%), ROI -7% |
+| BTTS & Over 2.5 | 11/23 (48%) | 136/248 (55%) | 263/480 (55%) |
+| Over 2.5 Goals | 12/22 (55%), ROI -17% | 170/251 (68%), ROI -7% | 323/482 (67%), ROI -5% |
+| Both Teams To Score | 14/24 (58%) | 159/255 (62%) | 310/497 (62%) |
+| Double Chance | 27/31 (87%), ROI +1% | 242/282 (86%), ROI -5% | 476/558 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

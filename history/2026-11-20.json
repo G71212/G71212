@@ -1,7 +1,7 @@
 {
  "date": "2026-11-20",
  "created_at": "2026-11-18T03:07:57+00:00",
- "updated_at": "2026-11-20T14:05:11+00:00",
+ "updated_at": "2026-11-20T23:05:10+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-11-20|Sao Paulo|Fluminense",
@@ -903,8 +903,12 @@
     66
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-20T14:05:11+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-11-20T14:05:11+00:00",
+   "provisional": true
   },
   {
    "id": "I2|2026-11-20|Verona|Cesena",
@@ -1355,8 +1359,12 @@
    "flags": [
     "Troyes new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-11-20T14:05:11+00:00"
+   "result": [
+    3,
+    1
+   ],
+   "predicted_at": "2026-11-20T14:05:11+00:00",
+   "provisional": true
   },
   {
    "id": "E2|2026-11-20|Barnsley|Sheffield Weds",
@@ -1485,8 +1493,12 @@
     88
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-20T14:05:11+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-11-20T14:05:11+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-11-20|Velez Sarsfield|Belgrano",
@@ -1654,8 +1666,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-20T14:05:11+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -1790,8 +1806,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-20T14:05:11+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ],
+    "provisional": true
    }
   ],
   "over25": [
@@ -1809,8 +1829,12 @@
     "market_odds": 1.13,
     "edge": -0.0341,
     "published_at": "2026-11-20T14:05:11+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -2013,8 +2037,12 @@
     "market_odds": 1.68,
     "edge": -0.09,
     "published_at": "2026-11-20T14:05:11+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -2236,8 +2264,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-20T14:05:11+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -2287,8 +2319,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-20T14:05:11+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    }
   ],
   "double_chance": [
@@ -2306,8 +2342,12 @@
     "market_odds": 0.99,
     "edge": -0.0424,
     "published_at": "2026-11-20T14:05:11+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -2323,8 +2363,12 @@
     "market_odds": 1.11,
     "edge": -0.0622,
     "published_at": "2026-11-20T14:05:11+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
