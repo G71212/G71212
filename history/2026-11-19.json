@@ -68,8 +68,7 @@
     4,
     0
    ],
-   "predicted_at": "2026-11-17T14:31:09+00:00",
-   "provisional": true
+   "predicted_at": "2026-11-17T14:31:09+00:00"
   },
   {
    "id": "BRA|2026-11-19|Gremio|Bahia",
@@ -136,8 +135,7 @@
     0,
     0
    ],
-   "predicted_at": "2026-11-17T14:31:09+00:00",
-   "provisional": true
+   "predicted_at": "2026-11-17T14:31:09+00:00"
   },
   {
    "id": "BRA|2026-11-19|Vasco|Internacional",
@@ -204,8 +202,7 @@
     2,
     1
    ],
-   "predicted_at": "2026-11-17T14:31:09+00:00",
-   "provisional": true
+   "predicted_at": "2026-11-17T14:31:09+00:00"
   },
   {
    "id": "BRA|2026-11-19|Vitoria|Bragantino",
@@ -272,8 +269,7 @@
     2,
     1
    ],
-   "predicted_at": "2026-11-17T14:31:09+00:00",
-   "provisional": true
+   "predicted_at": "2026-11-17T14:31:09+00:00"
   }
  ],
  "picks": {
@@ -296,8 +292,7 @@
     "result": [
      0,
      0
-    ],
-    "provisional": true
+    ]
    }
   ],
   "over25": [],
@@ -320,8 +315,7 @@
     "result": [
      0,
      0
-    ],
-    "provisional": true
+    ]
    }
   ],
   "double_chance": [
@@ -343,8 +337,7 @@
     "result": [
      2,
      1
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",
@@ -364,8 +357,7 @@
     "result": [
      4,
      0
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",
@@ -385,8 +377,7 @@
     "result": [
      0,
      0
-    ],
-    "provisional": true
+    ]
    },
    {
     "market": "double_chance",
@@ -406,8 +397,7 @@
     "result": [
      2,
      1
-    ],
-    "provisional": true
+    ]
    }
   ]
  },
