@@ -200,8 +200,12 @@
     114
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-17T14:31:09+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-11-17T14:31:09+00:00",
+   "provisional": true
   },
   {
    "id": "BRA|2026-11-19|Vitoria|Bragantino",
@@ -264,8 +268,12 @@
     115
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-17T14:31:09+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-11-17T14:31:09+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -331,8 +339,12 @@
     "market_odds": 1.15,
     "edge": -0.0672,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -390,8 +402,12 @@
     "market_odds": 1.28,
     "edge": -0.0895,
     "published_at": "2026-11-17T14:31:09+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    }
   ]
  },
