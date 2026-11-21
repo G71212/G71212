@@ -1,0 +1,2111 @@
+{
+ "date": "2026-11-23",
+ "created_at": "2026-11-21T02:50:13+00:00",
+ "updated_at": "2026-11-21T02:50:13+00:00",
+ "fixtures": [
+  {
+   "id": "ARG|2026-11-23|Instituto|Huracan",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T01:00:00+00:00",
+   "home": "Instituto",
+   "away": "Huracan",
+   "expected_goals": [
+    1.21,
+    0.79
+   ],
+   "model_expected_goals": [
+    1.12,
+    0.88
+   ],
+   "rho": -0.0841,
+   "probabilities": {
+    "home": 0.4482,
+    "draw": 0.3211,
+    "away": 0.2307,
+    "over25": 0.3227,
+    "under25": 0.6773,
+    "btts": 0.3937,
+    "btts_over25": 0.2534,
+    "dc_1x": 0.7693,
+    "dc_x2": 0.5518,
+    "dc_12": 0.6789
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.153
+    ],
+    [
+     "0-0",
+     0.1465
+    ],
+    [
+     "1-1",
+     0.1403
+    ]
+   ],
+   "market": {
+    "home": 0.4642,
+    "draw": 0.3049,
+    "away": 0.2309,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.12,
+    "draw": 3.2,
+    "away": 4.2,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    107,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "MEX|2026-11-23|Queretaro|Necaxa",
+   "league": "MEX",
+   "league_name": "Mexico · Liga MX",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T01:10:00+00:00",
+   "home": "Queretaro",
+   "away": "Necaxa",
+   "expected_goals": [
+    1.55,
+    1.12
+   ],
+   "model_expected_goals": [
+    1.48,
+    1.19
+   ],
+   "rho": -0.049,
+   "probabilities": {
+    "home": 0.4652,
+    "draw": 0.2647,
+    "away": 0.2701,
+    "over25": 0.4997,
+    "under25": 0.5003,
+    "btts": 0.5375,
+    "btts_over25": 0.4114,
+    "dc_1x": 0.7299,
+    "dc_x2": 0.5348,
+    "dc_12": 0.7353
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1261
+    ],
+    [
+     "1-0",
+     0.1011
+    ],
+    [
+     "2-1",
+     0.0931
+    ]
+   ],
+   "market": {
+    "home": 0.4854,
+    "draw": 0.2356,
+    "away": 0.2791,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.0,
+    "draw": 4.0,
+    "away": 3.4,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    102,
+    105
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "USA|2026-11-23|Vancouver Whitecaps|Real Salt Lake",
+   "league": "USA",
+   "league_name": "USA · MLS",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T01:30:00+00:00",
+   "home": "Vancouver Whitecaps",
+   "away": "Real Salt Lake",
+   "expected_goals": [
+    2.18,
+    0.91
+   ],
+   "model_expected_goals": [
+    2.02,
+    1.08
+   ],
+   "rho": -0.0328,
+   "probabilities": {
+    "home": 0.6591,
+    "draw": 0.198,
+    "away": 0.1429,
+    "over25": 0.5976,
+    "under25": 0.4024,
+    "btts": 0.5346,
+    "btts_over25": 0.4413,
+    "dc_1x": 0.8571,
+    "dc_x2": 0.3409,
+    "dc_12": 0.802
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1076
+    ],
+    [
+     "2-1",
+     0.0984
+    ],
+    [
+     "1-0",
+     0.0958
+    ]
+   ],
+   "market": {
+    "home": 0.6749,
+    "draw": 0.1864,
+    "away": 0.1387,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.44,
+    "draw": 4.75,
+    "away": 6.25,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    111,
+    105
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "G1|2026-11-23|Asteras Tripolis|Aris",
+   "league": "G1",
+   "league_name": "Greece · Super League",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T15:00:00+00:00",
+   "home": "Asteras Tripolis",
+   "away": "Aris",
+   "expected_goals": [
+    1.09,
+    1.36
+   ],
+   "model_expected_goals": [
+    1.17,
+    1.2
+   ],
+   "rho": -0.1492,
+   "probabilities": {
+    "home": 0.2817,
+    "draw": 0.3082,
+    "away": 0.4101,
+    "over25": 0.4443,
+    "under25": 0.5557,
+    "btts": 0.5133,
+    "btts_over25": 0.3664,
+    "dc_1x": 0.5899,
+    "dc_x2": 0.7183,
+    "dc_12": 0.6918
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1469
+    ],
+    [
+     "0-0",
+     0.1051
+    ],
+    [
+     "0-1",
+     0.0979
+    ]
+   ],
+   "market": {
+    "home": 0.2796,
+    "draw": 0.2926,
+    "away": 0.4279,
+    "over25": 0.449
+   },
+   "odds": {
+    "home": 3.2,
+    "draw": 3.07,
+    "away": 2.17,
+    "over25": 2.04,
+    "under25": 1.7
+   },
+   "team_matches": [
+    100,
+    99
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "T1|2026-11-23|Buyuksehyr|Corum",
+   "league": "T1",
+   "league_name": "Turkey · Süper Lig",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T17:00:00+00:00",
+   "home": "Buyuksehyr",
+   "away": "Corum",
+   "expected_goals": [
+    1.91,
+    1.24
+   ],
+   "model_expected_goals": [
+    2.07,
+    1.08
+   ],
+   "rho": -0.0837,
+   "probabilities": {
+    "home": 0.5231,
+    "draw": 0.2394,
+    "away": 0.2375,
+    "over25": 0.6104,
+    "under25": 0.3896,
+    "btts": 0.6141,
+    "btts_over25": 0.5044,
+    "dc_1x": 0.7625,
+    "dc_x2": 0.4769,
+    "dc_12": 0.7606
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1098
+    ],
+    [
+     "2-1",
+     0.097
+    ],
+    [
+     "2-0",
+     0.0783
+    ]
+   ],
+   "market": {
+    "home": 0.511,
+    "draw": 0.2405,
+    "away": 0.2486,
+    "over25": 0.6113
+   },
+   "odds": {
+    "home": 1.85,
+    "draw": 3.69,
+    "away": 3.58,
+    "over25": 1.55,
+    "under25": 2.32
+   },
+   "team_matches": [
+    107,
+    11
+   ],
+   "flags": [
+    "Corum new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "DNK|2026-11-23|Brondby|Midtjylland",
+   "league": "DNK",
+   "league_name": "Denmark · Superliga",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T18:00:00+00:00",
+   "home": "Brondby",
+   "away": "Midtjylland",
+   "expected_goals": [
+    1.52,
+    1.55
+   ],
+   "model_expected_goals": [
+    1.48,
+    1.58
+   ],
+   "rho": -0.084,
+   "probabilities": {
+    "home": 0.3642,
+    "draw": 0.2586,
+    "away": 0.3772,
+    "over25": 0.5904,
+    "under25": 0.4096,
+    "btts": 0.6232,
+    "btts_over25": 0.5043,
+    "dc_1x": 0.6228,
+    "dc_x2": 0.6358,
+    "dc_12": 0.7414
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1189
+    ],
+    [
+     "1-2",
+     0.0848
+    ],
+    [
+     "2-1",
+     0.0831
+    ]
+   ],
+   "market": {
+    "home": 0.3755,
+    "draw": 0.2415,
+    "away": 0.383,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.6,
+    "draw": 4.0,
+    "away": 2.55,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    95,
+    95
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "POL|2026-11-23|Wieczysta Krakow|Motor Lublin",
+   "league": "POL",
+   "league_name": "Poland · Ekstraklasa",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T18:00:00+00:00",
+   "home": "Wieczysta Krakow",
+   "away": "Motor Lublin",
+   "expected_goals": [
+    1.61,
+    1.52
+   ],
+   "model_expected_goals": [
+    1.57,
+    1.56
+   ],
+   "rho": -0.1019,
+   "probabilities": {
+    "home": 0.3916,
+    "draw": 0.2588,
+    "away": 0.3495,
+    "over25": 0.6048,
+    "under25": 0.3952,
+    "btts": 0.6356,
+    "btts_over25": 0.5176,
+    "dc_1x": 0.6505,
+    "dc_x2": 0.6084,
+    "dc_12": 0.7412
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.118
+    ],
+    [
+     "2-1",
+     0.0863
+    ],
+    [
+     "1-2",
+     0.0811
+    ]
+   ],
+   "market": {
+    "home": 0.4032,
+    "draw": 0.2419,
+    "away": 0.3549,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.35,
+    "draw": 3.8,
+    "away": 2.65,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    14,
+    82
+   ],
+   "flags": [
+    "Wieczysta Krakow new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "ROU|2026-11-23|Sepsi Sf. Gheorghe|FC Rapid Bucuresti",
+   "league": "ROU",
+   "league_name": "Romania · Superliga",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T18:00:00+00:00",
+   "home": "Sepsi Sf. Gheorghe",
+   "away": "FC Rapid Bucuresti",
+   "expected_goals": [
+    0.99,
+    1.39
+   ],
+   "model_expected_goals": [
+    1.2,
+    1.18
+   ],
+   "rho": -0.0167,
+   "probabilities": {
+    "home": 0.2636,
+    "draw": 0.275,
+    "away": 0.4615,
+    "over25": 0.425,
+    "under25": 0.575,
+    "btts": 0.4733,
+    "btts_over25": 0.344,
+    "dc_1x": 0.5385,
+    "dc_x2": 0.7364,
+    "dc_12": 0.725
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1293
+    ],
+    [
+     "0-1",
+     0.127
+    ],
+    [
+     "0-0",
+     0.0947
+    ]
+   ],
+   "market": {
+    "home": 0.2493,
+    "draw": 0.268,
+    "away": 0.4827,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.75,
+    "draw": 3.5,
+    "away": 2.0,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    78,
+    119
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "SWE|2026-11-23|Hammarby|Goteborg",
+   "league": "SWE",
+   "league_name": "Sweden · Allsvenskan",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T18:00:00+00:00",
+   "home": "Hammarby",
+   "away": "Goteborg",
+   "expected_goals": [
+    2.27,
+    0.55
+   ],
+   "model_expected_goals": [
+    1.91,
+    0.94
+   ],
+   "rho": -0.0209,
+   "probabilities": {
+    "home": 0.763,
+    "draw": 0.164,
+    "away": 0.073,
+    "over25": 0.5371,
+    "under25": 0.4629,
+    "btts": 0.3835,
+    "btts_over25": 0.3074,
+    "dc_1x": 0.927,
+    "dc_x2": 0.237,
+    "dc_12": 0.836
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1528
+    ],
+    [
+     "1-0",
+     0.1329
+    ],
+    [
+     "3-0",
+     0.1157
+    ]
+   ],
+   "market": {
+    "home": 0.7975,
+    "draw": 0.1292,
+    "away": 0.0733,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.24,
+    "draw": 7.0,
+    "away": 12.0,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    88,
+    88
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "SWE|2026-11-23|Orgryte|Kalmar",
+   "league": "SWE",
+   "league_name": "Sweden · Allsvenskan",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T18:00:00+00:00",
+   "home": "Orgryte",
+   "away": "Kalmar",
+   "expected_goals": [
+    1.22,
+    1.55
+   ],
+   "model_expected_goals": [
+    1.37,
+    1.4
+   ],
+   "rho": -0.0209,
+   "probabilities": {
+    "home": 0.2971,
+    "draw": 0.2557,
+    "away": 0.4473,
+    "over25": 0.5221,
+    "under25": 0.4779,
+    "btts": 0.5566,
+    "btts_over25": 0.4355,
+    "dc_1x": 0.5527,
+    "dc_x2": 0.7029,
+    "dc_12": 0.7443
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1211
+    ],
+    [
+     "0-1",
+     0.095
+    ],
+    [
+     "1-2",
+     0.0918
+    ]
+   ],
+   "market": {
+    "home": 0.2838,
+    "draw": 0.2589,
+    "away": 0.4572,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.3,
+    "draw": 3.6,
+    "away": 2.1,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    28,
+    58
+   ],
+   "flags": [
+    "Orgryte new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "SP2|2026-11-23|Ceuta|Almeria",
+   "league": "SP2",
+   "league_name": "Spain · Segunda División",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T19:30:00+00:00",
+   "home": "Ceuta",
+   "away": "Almeria",
+   "expected_goals": [
+    1.27,
+    1.76
+   ],
+   "model_expected_goals": [
+    1.38,
+    1.68
+   ],
+   "rho": 0.0033,
+   "probabilities": {
+    "home": 0.2776,
+    "draw": 0.2333,
+    "away": 0.489,
+    "over25": 0.5834,
+    "under25": 0.4166,
+    "btts": 0.5951,
+    "btts_over25": 0.4874,
+    "dc_1x": 0.511,
+    "dc_x2": 0.7224,
+    "dc_12": 0.7667
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1077
+    ],
+    [
+     "1-2",
+     0.095
+    ],
+    [
+     "0-1",
+     0.0854
+    ]
+   ],
+   "market": {
+    "home": 0.2652,
+    "draw": 0.2445,
+    "away": 0.4903,
+    "over25": 0.5824
+   },
+   "odds": {
+    "home": 3.37,
+    "draw": 3.63,
+    "away": 1.92,
+    "over25": 1.62,
+    "under25": 2.18
+   },
+   "team_matches": [
+    56,
+    98
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "F2|2026-11-23|Nantes|Grenoble",
+   "league": "F2",
+   "league_name": "France · Ligue 2",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T19:45:00+00:00",
+   "home": "Nantes",
+   "away": "Grenoble",
+   "expected_goals": [
+    1.92,
+    0.77
+   ],
+   "model_expected_goals": [
+    1.51,
+    0.92
+   ],
+   "rho": 0.0039,
+   "probabilities": {
+    "home": 0.6456,
+    "draw": 0.2113,
+    "away": 0.1431,
+    "over25": 0.5037,
+    "under25": 0.4963,
+    "btts": 0.4578,
+    "btts_over25": 0.3578,
+    "dc_1x": 0.8569,
+    "dc_x2": 0.3544,
+    "dc_12": 0.7887
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1308
+    ],
+    [
+     "2-0",
+     0.1251
+    ],
+    [
+     "1-1",
+     0.1
+    ]
+   ],
+   "market": {
+    "home": 0.6653,
+    "draw": 0.2083,
+    "away": 0.1265,
+    "over25": 0.5183
+   },
+   "odds": {
+    "home": 1.44,
+    "draw": 4.07,
+    "away": 6.36,
+    "over25": 1.79,
+    "under25": 1.91
+   },
+   "team_matches": [
+    12,
+    104
+   ],
+   "flags": [
+    "Nantes relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "F2|2026-11-23|Sochaux|Dunkerque",
+   "league": "F2",
+   "league_name": "France · Ligue 2",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T19:45:00+00:00",
+   "home": "Sochaux",
+   "away": "Dunkerque",
+   "expected_goals": [
+    1.41,
+    1.29
+   ],
+   "model_expected_goals": [
+    1.14,
+    1.42
+   ],
+   "rho": 0.0039,
+   "probabilities": {
+    "home": 0.4005,
+    "draw": 0.2565,
+    "away": 0.343,
+    "over25": 0.5071,
+    "under25": 0.4929,
+    "btts": 0.5478,
+    "btts_over25": 0.4261,
+    "dc_1x": 0.657,
+    "dc_x2": 0.5995,
+    "dc_12": 0.7435
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1217
+    ],
+    [
+     "1-0",
+     0.0952
+    ],
+    [
+     "0-1",
+     0.0868
+    ]
+   ],
+   "market": {
+    "home": 0.4076,
+    "draw": 0.2771,
+    "away": 0.3153,
+    "over25": 0.5152
+   },
+   "odds": {
+    "home": 2.27,
+    "draw": 3.23,
+    "away": 2.87,
+    "over25": 1.8,
+    "under25": 1.9
+   },
+   "team_matches": [
+    12,
+    104
+   ],
+   "flags": [
+    "Sochaux new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "I1|2026-11-23|Monza|Fiorentina",
+   "league": "I1",
+   "league_name": "Italy · Serie A",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T19:45:00+00:00",
+   "home": "Monza",
+   "away": "Fiorentina",
+   "expected_goals": [
+    1.28,
+    1.8
+   ],
+   "model_expected_goals": [
+    1.28,
+    1.54
+   ],
+   "rho": -0.0016,
+   "probabilities": {
+    "home": 0.2737,
+    "draw": 0.2316,
+    "away": 0.4948,
+    "over25": 0.594,
+    "under25": 0.406,
+    "btts": 0.6028,
+    "btts_over25": 0.4966,
+    "dc_1x": 0.5052,
+    "dc_x2": 0.7263,
+    "dc_12": 0.7684
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1062
+    ],
+    [
+     "1-2",
+     0.0952
+    ],
+    [
+     "0-1",
+     0.0825
+    ]
+   ],
+   "market": {
+    "home": 0.2587,
+    "draw": 0.242,
+    "away": 0.4993,
+    "over25": 0.6048
+   },
+   "odds": {
+    "home": 3.56,
+    "draw": 3.79,
+    "away": 1.92,
+    "over25": 1.57,
+    "under25": 2.3
+   },
+   "team_matches": [
+    75,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "ARG|2026-11-23|Gimnasia L.P.|Newells Old Boys",
+   "league": "ARG",
+   "league_name": "Argentina · Liga Profesional",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T20:00:00+00:00",
+   "home": "Gimnasia L.P.",
+   "away": "Newells Old Boys",
+   "expected_goals": [
+    1.3,
+    0.9
+   ],
+   "model_expected_goals": [
+    1.31,
+    0.88
+   ],
+   "rho": -0.0841,
+   "probabilities": {
+    "home": 0.4475,
+    "draw": 0.306,
+    "away": 0.2465,
+    "over25": 0.3753,
+    "under25": 0.6247,
+    "btts": 0.4407,
+    "btts_over25": 0.3002,
+    "dc_1x": 0.7535,
+    "dc_x2": 0.5525,
+    "dc_12": 0.694
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1406
+    ],
+    [
+     "1-0",
+     0.1339
+    ],
+    [
+     "0-0",
+     0.1225
+    ]
+   ],
+   "market": {
+    "home": 0.4519,
+    "draw": 0.2943,
+    "away": 0.2537,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.15,
+    "draw": 3.25,
+    "away": 3.75,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    112,
+    106
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "E0|2026-11-23|Brentford|Everton",
+   "league": "E0",
+   "league_name": "England · Premier League",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T20:00:00+00:00",
+   "home": "Brentford",
+   "away": "Everton",
+   "expected_goals": [
+    1.61,
+    1.24
+   ],
+   "model_expected_goals": [
+    1.49,
+    1.15
+   ],
+   "rho": -0.0577,
+   "probabilities": {
+    "home": 0.4524,
+    "draw": 0.2592,
+    "away": 0.2885,
+    "over25": 0.5412,
+    "under25": 0.4588,
+    "btts": 0.5745,
+    "btts_over25": 0.4521,
+    "dc_1x": 0.7115,
+    "dc_x2": 0.5476,
+    "dc_12": 0.7408
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1224
+    ],
+    [
+     "2-1",
+     0.0929
+    ],
+    [
+     "1-0",
+     0.0867
+    ]
+   ],
+   "market": {
+    "home": 0.4506,
+    "draw": 0.2639,
+    "away": 0.2855,
+    "over25": 0.5503
+   },
+   "odds": {
+    "home": 2.12,
+    "draw": 3.51,
+    "away": 3.26,
+    "over25": 1.71,
+    "under25": 2.05
+   },
+   "team_matches": [
+    112,
+    112
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "SP1|2026-11-23|Levante|Elche",
+   "league": "SP1",
+   "league_name": "Spain · La Liga",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T20:00:00+00:00",
+   "home": "Levante",
+   "away": "Elche",
+   "expected_goals": [
+    1.64,
+    1.31
+   ],
+   "model_expected_goals": [
+    1.61,
+    1.26
+   ],
+   "rho": -0.0339,
+   "probabilities": {
+    "home": 0.4481,
+    "draw": 0.2493,
+    "away": 0.3025,
+    "over25": 0.5655,
+    "under25": 0.4345,
+    "btts": 0.5924,
+    "btts_over25": 0.4761,
+    "dc_1x": 0.6975,
+    "dc_x2": 0.5519,
+    "dc_12": 0.7507
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1163
+    ],
+    [
+     "2-1",
+     0.0922
+    ],
+    [
+     "1-0",
+     0.082
+    ]
+   ],
+   "market": {
+    "home": 0.4421,
+    "draw": 0.2597,
+    "away": 0.2982,
+    "over25": 0.5689
+   },
+   "odds": {
+    "home": 2.15,
+    "draw": 3.54,
+    "away": 3.11,
+    "over25": 1.66,
+    "under25": 2.13
+   },
+   "team_matches": [
+    50,
+    50
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "BRA|2026-11-23|Internacional|Vitoria",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T22:30:00+00:00",
+   "home": "Internacional",
+   "away": "Vitoria",
+   "expected_goals": [
+    1.67,
+    0.77
+   ],
+   "model_expected_goals": [
+    1.53,
+    0.92
+   ],
+   "rho": -0.0416,
+   "probabilities": {
+    "home": 0.5838,
+    "draw": 0.2499,
+    "away": 0.1663,
+    "over25": 0.4423,
+    "under25": 0.5577,
+    "btts": 0.4422,
+    "btts_over25": 0.3254,
+    "dc_1x": 0.8337,
+    "dc_x2": 0.4162,
+    "dc_12": 0.7501
+   },
+   "top_scores": [
+    [
+     "1-0",
+     0.1402
+    ],
+    [
+     "2-0",
+     0.1212
+    ],
+    [
+     "1-1",
+     0.1167
+    ]
+   ],
+   "market": {
+    "home": 0.6065,
+    "draw": 0.2259,
+    "away": 0.1676,
+    "over25": null
+   },
+   "odds": {
+    "home": 1.62,
+    "draw": 4.2,
+    "away": 5.6,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    115,
+    111
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  },
+  {
+   "id": "BRA|2026-11-23|Botafogo RJ|Sao Paulo",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-23",
+   "kickoff": "2026-11-23T23:00:00+00:00",
+   "home": "Botafogo RJ",
+   "away": "Sao Paulo",
+   "expected_goals": [
+    1.36,
+    1.11
+   ],
+   "model_expected_goals": [
+    1.48,
+    0.99
+   ],
+   "rho": -0.0416,
+   "probabilities": {
+    "home": 0.4194,
+    "draw": 0.2803,
+    "away": 0.3004,
+    "over25": 0.4473,
+    "under25": 0.5527,
+    "btts": 0.5028,
+    "btts_over25": 0.3697,
+    "dc_1x": 0.6996,
+    "dc_x2": 0.5806,
+    "dc_12": 0.7197
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1331
+    ],
+    [
+     "1-0",
+     0.11
+    ],
+    [
+     "0-0",
+     0.0903
+    ]
+   ],
+   "market": {
+    "home": 0.4097,
+    "draw": 0.2789,
+    "away": 0.3115,
+    "over25": null
+   },
+   "odds": {
+    "home": 2.4,
+    "draw": 3.5,
+    "away": 3.14,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    115,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-21T02:50:13+00:00"
+  }
+ ],
+ "picks": {
+  "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "POL|2026-11-23|Wieczysta Krakow|Motor Lublin",
+    "league": "POL",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Wieczysta Krakow",
+    "away": "Motor Lublin",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5176,
+    "fair_odds": 1.93,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "T1|2026-11-23|Buyuksehyr|Corum",
+    "league": "T1",
+    "kickoff": "2026-11-23T17:00:00+00:00",
+    "home": "Buyuksehyr",
+    "away": "Corum",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5044,
+    "fair_odds": 1.98,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "DNK|2026-11-23|Brondby|Midtjylland",
+    "league": "DNK",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Brondby",
+    "away": "Midtjylland",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5043,
+    "fair_odds": 1.98,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "I1|2026-11-23|Monza|Fiorentina",
+    "league": "I1",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Monza",
+    "away": "Fiorentina",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4966,
+    "fair_odds": 2.01,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SP2|2026-11-23|Ceuta|Almeria",
+    "league": "SP2",
+    "kickoff": "2026-11-23T19:30:00+00:00",
+    "home": "Ceuta",
+    "away": "Almeria",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4874,
+    "fair_odds": 2.05,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SP1|2026-11-23|Levante|Elche",
+    "league": "SP1",
+    "kickoff": "2026-11-23T20:00:00+00:00",
+    "home": "Levante",
+    "away": "Elche",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4761,
+    "fair_odds": 2.1,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E0|2026-11-23|Brentford|Everton",
+    "league": "E0",
+    "kickoff": "2026-11-23T20:00:00+00:00",
+    "home": "Brentford",
+    "away": "Everton",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4521,
+    "fair_odds": 2.21,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "USA|2026-11-23|Vancouver Whitecaps|Real Salt Lake",
+    "league": "USA",
+    "kickoff": "2026-11-23T01:30:00+00:00",
+    "home": "Vancouver Whitecaps",
+    "away": "Real Salt Lake",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4413,
+    "fair_odds": 2.27,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "SWE|2026-11-23|Orgryte|Kalmar",
+    "league": "SWE",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Orgryte",
+    "away": "Kalmar",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4355,
+    "fair_odds": 2.3,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "F2|2026-11-23|Sochaux|Dunkerque",
+    "league": "F2",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Sochaux",
+    "away": "Dunkerque",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4261,
+    "fair_odds": 2.35,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "MEX|2026-11-23|Queretaro|Necaxa",
+    "league": "MEX",
+    "kickoff": "2026-11-23T01:10:00+00:00",
+    "home": "Queretaro",
+    "away": "Necaxa",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4114,
+    "fair_odds": 2.43,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "over25": [
+   {
+    "market": "over25",
+    "match_id": "T1|2026-11-23|Buyuksehyr|Corum",
+    "league": "T1",
+    "kickoff": "2026-11-23T17:00:00+00:00",
+    "home": "Buyuksehyr",
+    "away": "Corum",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6104,
+    "fair_odds": 1.64,
+    "market_odds": 1.55,
+    "edge": -0.0539,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "POL|2026-11-23|Wieczysta Krakow|Motor Lublin",
+    "league": "POL",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Wieczysta Krakow",
+    "away": "Motor Lublin",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6048,
+    "fair_odds": 1.65,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "USA|2026-11-23|Vancouver Whitecaps|Real Salt Lake",
+    "league": "USA",
+    "kickoff": "2026-11-23T01:30:00+00:00",
+    "home": "Vancouver Whitecaps",
+    "away": "Real Salt Lake",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5976,
+    "fair_odds": 1.67,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "I1|2026-11-23|Monza|Fiorentina",
+    "league": "I1",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Monza",
+    "away": "Fiorentina",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.594,
+    "fair_odds": 1.68,
+    "market_odds": 1.57,
+    "edge": -0.0674,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "DNK|2026-11-23|Brondby|Midtjylland",
+    "league": "DNK",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Brondby",
+    "away": "Midtjylland",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5904,
+    "fair_odds": 1.69,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SP2|2026-11-23|Ceuta|Almeria",
+    "league": "SP2",
+    "kickoff": "2026-11-23T19:30:00+00:00",
+    "home": "Ceuta",
+    "away": "Almeria",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5834,
+    "fair_odds": 1.71,
+    "market_odds": 1.62,
+    "edge": -0.0549,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SP1|2026-11-23|Levante|Elche",
+    "league": "SP1",
+    "kickoff": "2026-11-23T20:00:00+00:00",
+    "home": "Levante",
+    "away": "Elche",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5655,
+    "fair_odds": 1.77,
+    "market_odds": 1.66,
+    "edge": -0.0612,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E0|2026-11-23|Brentford|Everton",
+    "league": "E0",
+    "kickoff": "2026-11-23T20:00:00+00:00",
+    "home": "Brentford",
+    "away": "Everton",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5412,
+    "fair_odds": 1.85,
+    "market_odds": 1.71,
+    "edge": -0.0746,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SWE|2026-11-23|Hammarby|Goteborg",
+    "league": "SWE",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Hammarby",
+    "away": "Goteborg",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5371,
+    "fair_odds": 1.86,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SWE|2026-11-23|Orgryte|Kalmar",
+    "league": "SWE",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Orgryte",
+    "away": "Kalmar",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5221,
+    "fair_odds": 1.92,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "F2|2026-11-23|Sochaux|Dunkerque",
+    "league": "F2",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Sochaux",
+    "away": "Dunkerque",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5071,
+    "fair_odds": 1.97,
+    "market_odds": 1.8,
+    "edge": -0.0872,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "F2|2026-11-23|Nantes|Grenoble",
+    "league": "F2",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Nantes",
+    "away": "Grenoble",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5037,
+    "fair_odds": 1.99,
+    "market_odds": 1.79,
+    "edge": -0.0983,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "btts": [
+   {
+    "market": "btts",
+    "match_id": "POL|2026-11-23|Wieczysta Krakow|Motor Lublin",
+    "league": "POL",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Wieczysta Krakow",
+    "away": "Motor Lublin",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6356,
+    "fair_odds": 1.57,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "DNK|2026-11-23|Brondby|Midtjylland",
+    "league": "DNK",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Brondby",
+    "away": "Midtjylland",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6232,
+    "fair_odds": 1.6,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "T1|2026-11-23|Buyuksehyr|Corum",
+    "league": "T1",
+    "kickoff": "2026-11-23T17:00:00+00:00",
+    "home": "Buyuksehyr",
+    "away": "Corum",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6141,
+    "fair_odds": 1.63,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "I1|2026-11-23|Monza|Fiorentina",
+    "league": "I1",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Monza",
+    "away": "Fiorentina",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6028,
+    "fair_odds": 1.66,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP2|2026-11-23|Ceuta|Almeria",
+    "league": "SP2",
+    "kickoff": "2026-11-23T19:30:00+00:00",
+    "home": "Ceuta",
+    "away": "Almeria",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5951,
+    "fair_odds": 1.68,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SP1|2026-11-23|Levante|Elche",
+    "league": "SP1",
+    "kickoff": "2026-11-23T20:00:00+00:00",
+    "home": "Levante",
+    "away": "Elche",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5924,
+    "fair_odds": 1.69,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E0|2026-11-23|Brentford|Everton",
+    "league": "E0",
+    "kickoff": "2026-11-23T20:00:00+00:00",
+    "home": "Brentford",
+    "away": "Everton",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5745,
+    "fair_odds": 1.74,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "SWE|2026-11-23|Orgryte|Kalmar",
+    "league": "SWE",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Orgryte",
+    "away": "Kalmar",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5566,
+    "fair_odds": 1.8,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "F2|2026-11-23|Sochaux|Dunkerque",
+    "league": "F2",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Sochaux",
+    "away": "Dunkerque",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5478,
+    "fair_odds": 1.83,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "MEX|2026-11-23|Queretaro|Necaxa",
+    "league": "MEX",
+    "kickoff": "2026-11-23T01:10:00+00:00",
+    "home": "Queretaro",
+    "away": "Necaxa",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5375,
+    "fair_odds": 1.86,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "USA|2026-11-23|Vancouver Whitecaps|Real Salt Lake",
+    "league": "USA",
+    "kickoff": "2026-11-23T01:30:00+00:00",
+    "home": "Vancouver Whitecaps",
+    "away": "Real Salt Lake",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5346,
+    "fair_odds": 1.87,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "G1|2026-11-23|Asteras Tripolis|Aris",
+    "league": "G1",
+    "kickoff": "2026-11-23T15:00:00+00:00",
+    "home": "Asteras Tripolis",
+    "away": "Aris",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5133,
+    "fair_odds": 1.95,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "BRA|2026-11-23|Botafogo RJ|Sao Paulo",
+    "league": "BRA",
+    "kickoff": "2026-11-23T23:00:00+00:00",
+    "home": "Botafogo RJ",
+    "away": "Sao Paulo",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5028,
+    "fair_odds": 1.99,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ],
+  "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "SWE|2026-11-23|Hammarby|Goteborg",
+    "league": "SWE",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Hammarby",
+    "away": "Goteborg",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.927,
+    "fair_odds": 1.08,
+    "market_odds": 1.05,
+    "edge": -0.0235,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "USA|2026-11-23|Vancouver Whitecaps|Real Salt Lake",
+    "league": "USA",
+    "kickoff": "2026-11-23T01:30:00+00:00",
+    "home": "Vancouver Whitecaps",
+    "away": "Real Salt Lake",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8571,
+    "fair_odds": 1.17,
+    "market_odds": 1.11,
+    "edge": -0.0529,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "F2|2026-11-23|Nantes|Grenoble",
+    "league": "F2",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Nantes",
+    "away": "Grenoble",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8569,
+    "fair_odds": 1.17,
+    "market_odds": 1.06,
+    "edge": -0.0886,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "BRA|2026-11-23|Internacional|Vitoria",
+    "league": "BRA",
+    "kickoff": "2026-11-23T22:30:00+00:00",
+    "home": "Internacional",
+    "away": "Vitoria",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8337,
+    "fair_odds": 1.2,
+    "market_odds": 1.17,
+    "edge": -0.0253,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-11-23|Instituto|Huracan",
+    "league": "ARG",
+    "kickoff": "2026-11-23T01:00:00+00:00",
+    "home": "Instituto",
+    "away": "Huracan",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7693,
+    "fair_odds": 1.3,
+    "market_odds": 1.28,
+    "edge": -0.019,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "I1|2026-11-23|Monza|Fiorentina",
+    "league": "I1",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Monza",
+    "away": "Fiorentina",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7684,
+    "fair_odds": 1.3,
+    "market_odds": 1.25,
+    "edge": -0.0415,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP2|2026-11-23|Ceuta|Almeria",
+    "league": "SP2",
+    "kickoff": "2026-11-23T19:30:00+00:00",
+    "home": "Ceuta",
+    "away": "Almeria",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7667,
+    "fair_odds": 1.3,
+    "market_odds": 1.22,
+    "edge": -0.0623,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "T1|2026-11-23|Buyuksehyr|Corum",
+    "league": "T1",
+    "kickoff": "2026-11-23T17:00:00+00:00",
+    "home": "Buyuksehyr",
+    "away": "Corum",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7625,
+    "fair_odds": 1.31,
+    "market_odds": 1.23,
+    "edge": -0.0604,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "ARG|2026-11-23|Gimnasia L.P.|Newells Old Boys",
+    "league": "ARG",
+    "kickoff": "2026-11-23T20:00:00+00:00",
+    "home": "Gimnasia L.P.",
+    "away": "Newells Old Boys",
+    "selection": "1X",
+    "tier": "extra",
+    "probability": 0.7535,
+    "fair_odds": 1.33,
+    "market_odds": 1.29,
+    "edge": -0.025,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SP1|2026-11-23|Levante|Elche",
+    "league": "SP1",
+    "kickoff": "2026-11-23T20:00:00+00:00",
+    "home": "Levante",
+    "away": "Elche",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7507,
+    "fair_odds": 1.33,
+    "market_odds": 1.27,
+    "edge": -0.0458,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SWE|2026-11-23|Orgryte|Kalmar",
+    "league": "SWE",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Orgryte",
+    "away": "Kalmar",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7443,
+    "fair_odds": 1.34,
+    "market_odds": 1.28,
+    "edge": -0.0448,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "F2|2026-11-23|Sochaux|Dunkerque",
+    "league": "F2",
+    "kickoff": "2026-11-23T19:45:00+00:00",
+    "home": "Sochaux",
+    "away": "Dunkerque",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7435,
+    "fair_odds": 1.34,
+    "market_odds": 1.27,
+    "edge": -0.0576,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "DNK|2026-11-23|Brondby|Midtjylland",
+    "league": "DNK",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Brondby",
+    "away": "Midtjylland",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7414,
+    "fair_odds": 1.35,
+    "market_odds": 1.29,
+    "edge": -0.0456,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "POL|2026-11-23|Wieczysta Krakow|Motor Lublin",
+    "league": "POL",
+    "kickoff": "2026-11-23T18:00:00+00:00",
+    "home": "Wieczysta Krakow",
+    "away": "Motor Lublin",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7412,
+    "fair_odds": 1.35,
+    "market_odds": 1.25,
+    "edge": -0.0769,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E0|2026-11-23|Brentford|Everton",
+    "league": "E0",
+    "kickoff": "2026-11-23T20:00:00+00:00",
+    "home": "Brentford",
+    "away": "Everton",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7408,
+    "fair_odds": 1.35,
+    "market_odds": 1.28,
+    "edge": -0.0483,
+    "published_at": "2026-11-21T02:50:13+00:00",
+    "status": "pending",
+    "result": null
+   }
+  ]
+ },
+ "notified": []
+}

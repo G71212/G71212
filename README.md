@@ -1,42 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-20 23:05 UTC · kick-off times in UTC_
+_Generated 2026-11-21 02:50 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Thursday 19 November 2026
-
-4 matches analysed across 1 leagues.
-
-**Results:** ✅ 3 won · ❌ 3 lost
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:30 | Brazil · Serie A | Gremio vs Bahia | BTTS & Over 2.5 | 40% ☆ | 2.49 | - | ❌ 0-0 |
-
-### ⚽ Over 2.5 Goals
-
-_No match was likely enough to pick._
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 00:30 | Brazil · Serie A | Gremio vs Bahia | BTTS Yes | 53% ☆ | 1.88 | - | ❌ 0-0 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 22:30 | Brazil · Serie A | Vasco vs Internacional | 1X | 81% ★ | 1.23 | 1.15 | ✅ 2-1 |
-| 00:30 | Brazil · Serie A | Corinthians vs Botafogo RJ | 1X | 77% ☆ | 1.29 | 1.20 | ✅ 4-0 |
-| 00:30 | Brazil · Serie A | Gremio vs Bahia | 12 | 73% ☆ | 1.38 | 1.27 | ❌ 0-0 |
-| 22:30 | Brazil · Serie A | Vitoria vs Bragantino | 12 | 71% ☆ | 1.41 | 1.28 | ✅ 2-1 |
-
 
 ## Friday 20 November 2026
 
@@ -376,15 +344,97 @@ _No match was likely enough to pick._
 | 20:00 | Spain · La Liga | Getafe vs Ath Madrid | X2 | 83% ★ | 1.20 | 1.11 |  |
 | 21:30 | Brazil · Serie A | Fluminense vs Mirassol | 1X | 83% ★ | 1.21 | 1.16 |  |
 
+
+## Monday 23 November 2026
+
+19 matches analysed across 15 leagues.
+
+### 🔒 Bankers: the day's safest tips
+
+| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
+|---|---|---|---|---|---|---|
+| 18:00 | Hammarby vs Goteborg | Double Chance | 1X | 93% | 1.08 |  |
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:00 | Poland · Ekstraklasa | Wieczysta Krakow vs Motor Lublin | BTTS & Over 2.5 | 52% ★ | 1.93 | - |  |
+| 17:00 | Turkey · Süper Lig | Buyuksehyr vs Corum | BTTS & Over 2.5 | 50% ★ | 1.98 | - |  |
+| 18:00 | Denmark · Superliga | Brondby vs Midtjylland | BTTS & Over 2.5 | 50% ★ | 1.98 | - |  |
+| 19:45 | Italy · Serie A | Monza vs Fiorentina | BTTS & Over 2.5 | 50% ☆ | 2.01 | - |  |
+| 19:30 | Spain · Segunda División | Ceuta vs Almeria | BTTS & Over 2.5 | 49% ☆ | 2.05 | - |  |
+| 20:00 | Spain · La Liga | Levante vs Elche | BTTS & Over 2.5 | 48% ☆ | 2.10 | - |  |
+| 20:00 | England · Premier League | Brentford vs Everton | BTTS & Over 2.5 | 45% ☆ | 2.21 | - |  |
+| 01:30 | USA · MLS | Vancouver Whitecaps vs Real Salt Lake | BTTS & Over 2.5 | 44% ☆ | 2.27 | - |  |
+| 18:00 | Sweden · Allsvenskan | Orgryte vs Kalmar | BTTS & Over 2.5 | 44% ☆ | 2.30 | - |  |
+| 19:45 | France · Ligue 2 | Sochaux vs Dunkerque | BTTS & Over 2.5 | 43% ☆ | 2.35 | - |  |
+| 01:10 | Mexico · Liga MX | Queretaro vs Necaxa | BTTS & Over 2.5 | 41% ☆ | 2.43 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 17:00 | Turkey · Süper Lig | Buyuksehyr vs Corum | Over 2.5 | 61% ☆ | 1.64 | 1.55 |  |
+| 18:00 | Poland · Ekstraklasa | Wieczysta Krakow vs Motor Lublin | Over 2.5 | 60% ☆ | 1.65 | - |  |
+| 01:30 | USA · MLS | Vancouver Whitecaps vs Real Salt Lake | Over 2.5 | 60% ☆ | 1.67 | - |  |
+| 19:45 | Italy · Serie A | Monza vs Fiorentina | Over 2.5 | 59% ☆ | 1.68 | 1.57 |  |
+| 18:00 | Denmark · Superliga | Brondby vs Midtjylland | Over 2.5 | 59% ☆ | 1.69 | - |  |
+| 19:30 | Spain · Segunda División | Ceuta vs Almeria | Over 2.5 | 58% ☆ | 1.71 | 1.62 |  |
+| 20:00 | Spain · La Liga | Levante vs Elche | Over 2.5 | 57% ☆ | 1.77 | 1.66 |  |
+| 20:00 | England · Premier League | Brentford vs Everton | Over 2.5 | 54% ☆ | 1.85 | 1.71 |  |
+| 18:00 | Sweden · Allsvenskan | Hammarby vs Goteborg | Over 2.5 | 54% ☆ | 1.86 | - |  |
+| 18:00 | Sweden · Allsvenskan | Orgryte vs Kalmar | Over 2.5 | 52% ☆ | 1.92 | - |  |
+| 19:45 | France · Ligue 2 | Sochaux vs Dunkerque | Over 2.5 | 51% ☆ | 1.97 | 1.80 |  |
+| 19:45 | France · Ligue 2 | Nantes vs Grenoble | Over 2.5 | 50% ☆ | 1.99 | 1.79 |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:00 | Poland · Ekstraklasa | Wieczysta Krakow vs Motor Lublin | BTTS Yes | 64% ★ | 1.57 | - |  |
+| 18:00 | Denmark · Superliga | Brondby vs Midtjylland | BTTS Yes | 62% ★ | 1.60 | - |  |
+| 17:00 | Turkey · Süper Lig | Buyuksehyr vs Corum | BTTS Yes | 61% ★ | 1.63 | - |  |
+| 19:45 | Italy · Serie A | Monza vs Fiorentina | BTTS Yes | 60% ★ | 1.66 | - |  |
+| 19:30 | Spain · Segunda División | Ceuta vs Almeria | BTTS Yes | 60% ☆ | 1.68 | - |  |
+| 20:00 | Spain · La Liga | Levante vs Elche | BTTS Yes | 59% ☆ | 1.69 | - |  |
+| 20:00 | England · Premier League | Brentford vs Everton | BTTS Yes | 57% ☆ | 1.74 | - |  |
+| 18:00 | Sweden · Allsvenskan | Orgryte vs Kalmar | BTTS Yes | 56% ☆ | 1.80 | - |  |
+| 19:45 | France · Ligue 2 | Sochaux vs Dunkerque | BTTS Yes | 55% ☆ | 1.83 | - |  |
+| 01:10 | Mexico · Liga MX | Queretaro vs Necaxa | BTTS Yes | 54% ☆ | 1.86 | - |  |
+| 01:30 | USA · MLS | Vancouver Whitecaps vs Real Salt Lake | BTTS Yes | 53% ☆ | 1.87 | - |  |
+| 15:00 | Greece · Super League | Asteras Tripolis vs Aris | BTTS Yes | 51% ☆ | 1.95 | - |  |
+| 23:00 | Brazil · Serie A | Botafogo RJ vs Sao Paulo | BTTS Yes | 50% ☆ | 1.99 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:00 | Sweden · Allsvenskan | Hammarby vs Goteborg | 1X | 93% 🔒 | 1.08 | 1.05 |  |
+| 01:30 | USA · MLS | Vancouver Whitecaps vs Real Salt Lake | 1X | 86% ★★ | 1.17 | 1.11 |  |
+| 19:45 | France · Ligue 2 | Nantes vs Grenoble | 1X | 86% ★★ | 1.17 | 1.06 |  |
+| 22:30 | Brazil · Serie A | Internacional vs Vitoria | 1X | 83% ★ | 1.20 | 1.17 |  |
+| 01:00 | Argentina · Liga Profesional | Instituto vs Huracan | 1X | 77% ☆ | 1.30 | 1.28 |  |
+| 19:45 | Italy · Serie A | Monza vs Fiorentina | 12 | 77% ☆ | 1.30 | 1.25 |  |
+| 19:30 | Spain · Segunda División | Ceuta vs Almeria | 12 | 77% ☆ | 1.30 | 1.22 |  |
+| 17:00 | Turkey · Süper Lig | Buyuksehyr vs Corum | 1X | 76% ☆ | 1.31 | 1.23 |  |
+| 20:00 | Argentina · Liga Profesional | Gimnasia L.P. vs Newells Old Boys | 1X | 75% ☆ | 1.33 | 1.29 |  |
+| 20:00 | Spain · La Liga | Levante vs Elche | 12 | 75% ☆ | 1.33 | 1.27 |  |
+| 18:00 | Sweden · Allsvenskan | Orgryte vs Kalmar | 12 | 74% ☆ | 1.34 | 1.28 |  |
+| 19:45 | France · Ligue 2 | Sochaux vs Dunkerque | 12 | 74% ☆ | 1.34 | 1.27 |  |
+| 18:00 | Denmark · Superliga | Brondby vs Midtjylland | 12 | 74% ☆ | 1.35 | 1.29 |  |
+| 18:00 | Poland · Ekstraklasa | Wieczysta Krakow vs Motor Lublin | 12 | 74% ☆ | 1.35 | 1.25 |  |
+| 20:00 | England · Premier League | Brentford vs Everton | 12 | 74% ☆ | 1.35 | 1.28 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 3/4 (75%), ROI -24% | 86/99 (87%), ROI -8% | 142/160 (89%), ROI -7% |
-| BTTS & Over 2.5 | 11/23 (48%) | 136/248 (55%) | 263/480 (55%) |
-| Over 2.5 Goals | 12/22 (55%), ROI -17% | 170/251 (68%), ROI -7% | 323/482 (67%), ROI -5% |
-| Both Teams To Score | 14/24 (58%) | 159/255 (62%) | 310/497 (62%) |
-| Double Chance | 27/31 (87%), ROI +1% | 242/282 (86%), ROI -5% | 476/558 (85%), ROI -4% |
+| 🔒 Bankers | 2/3 (67%), ROI -33% | 86/99 (87%), ROI -8% | 142/160 (89%), ROI -7% |
+| BTTS & Over 2.5 | 1/8 (12%) | 132/243 (54%) | 263/480 (55%) |
+| Over 2.5 Goals | 1/7 (14%), ROI -100% | 166/246 (67%), ROI -7% | 323/482 (67%), ROI -5% |
+| Both Teams To Score | 4/9 (44%) | 155/250 (62%) | 310/497 (62%) |
+| Double Chance | 14/16 (88%), ROI +4% | 237/277 (86%), ROI -5% | 476/558 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
