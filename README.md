@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-22 13:24 UTC · kick-off times in UTC_
+_Generated 2026-11-22 22:28 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -138,7 +138,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 77 matches analysed across 24 leagues.
 
-**Results:** ✅ 3 won · ❌ 0 lost · 77 pending
+**Results:** ✅ 30 won · ❌ 8 lost · 42 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -148,61 +148,61 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 17:00 | Olympiakos vs Iraklis | Double Chance | 1X | 96% | 1.05 |  |
 | 16:00 | Trabzonspor vs Eyupspor | Double Chance | 1X | 95% | 1.06 |  |
 | 15:30 | Panathinaikos vs OFI Crete | Double Chance | 1X | 94% | 1.07 |  |
-| 13:30 | Ajax vs Den Haag | Double Chance | 1X | 93% | 1.07 |  |
-| 13:00 | Barcelona vs Villarreal | Double Chance | 1X | 91% | 1.09 |  |
+| 13:30 | Ajax vs Den Haag | Double Chance | 1X | 93% | 1.07 | ✅ 3-0 |
+| 13:00 | Barcelona vs Villarreal | Double Chance | 1X | 91% | 1.09 | ✅ 3-2 |
 | 19:00 | Rosario Central vs Gimnasia Mendoza | Double Chance | 1X | 90% | 1.11 |  |
 | 17:30 | PAOK vs Kifisia | Double Chance | 1X | 89% | 1.12 |  |
-| 14:00 | Paris FC vs Angers | Double Chance | 1X | 89% | 1.12 |  |
-| 11:30 | Juventus vs Venezia | Double Chance | 1X | 88% | 1.13 |  |
-| 13:00 | Barcelona vs Villarreal | Over 2.5 Goals | Over 2.5 | 82% | 1.22 |  |
+| 14:00 | Paris FC vs Angers | Double Chance | 1X | 89% | 1.12 | ✅ 4-0 |
+| 11:30 | Juventus vs Venezia | Double Chance | 1X | 88% | 1.13 | ✅ 4-0 |
+| 13:00 | Barcelona vs Villarreal | Over 2.5 Goals | Over 2.5 | 82% | 1.22 | ✅ 3-2 |
 | 11:15 | Twente vs Willem II | Over 2.5 Goals | Over 2.5 | 79% | 1.27 | ✅ 2-1 |
-| 13:30 | Ajax vs Den Haag | Over 2.5 Goals | Over 2.5 | 75% | 1.33 |  |
+| 13:30 | Ajax vs Den Haag | Over 2.5 Goals | Over 2.5 | 75% | 1.33 | ✅ 3-0 |
 
 ### 🔥 BTTS & Over 2.5
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 15:15 | Spain · La Liga | Santander vs Sociedad | BTTS & Over 2.5 | 62% ★★★ | 1.62 | - |  |
-| 13:00 | Spain · La Liga | Barcelona vs Villarreal | BTTS & Over 2.5 | 60% ★★★ | 1.66 | - |  |
-| 14:30 | Germany · Bundesliga | Augsburg vs Mainz | BTTS & Over 2.5 | 58% ★★ | 1.72 | - |  |
+| 15:15 | Spain · La Liga | Santander vs Sociedad | BTTS & Over 2.5 | 62% ★★★ | 1.62 | - | ✅ 3-2 |
+| 13:00 | Spain · La Liga | Barcelona vs Villarreal | BTTS & Over 2.5 | 60% ★★★ | 1.66 | - | ✅ 3-2 |
+| 14:30 | Germany · Bundesliga | Augsburg vs Mainz | BTTS & Over 2.5 | 58% ★★ | 1.72 | - | ✅ 3-1 |
 | 16:00 | Norway · Eliteserien | Aalesund vs Rosenborg | BTTS & Over 2.5 | 58% ★★ | 1.73 | - |  |
 | 15:30 | Switzerland · Super League | Basel vs Luzern | BTTS & Over 2.5 | 57% ★★ | 1.74 | - |  |
-| 17:00 | Italy · Serie A | Milan vs Frosinone | BTTS & Over 2.5 | 57% ★★ | 1.77 | - |  |
+| 17:00 | Italy · Serie A | Milan vs Frosinone | BTTS & Over 2.5 | 57% ★★ | 1.77 | - | ✅ 5-1 |
 | 12:30 | Germany · 2. Bundesliga | Cottbus vs Hertha | BTTS & Over 2.5 | 56% ★★ | 1.79 | - |  |
-| 13:30 | Netherlands · Eredivisie | Sparta Rotterdam vs AZ Alkmaar | BTTS & Over 2.5 | 55% ★★ | 1.81 | - |  |
-| 19:45 | Italy · Serie A | Atalanta vs Inter | BTTS & Over 2.5 | 55% ★★ | 1.81 | - |  |
+| 13:30 | Netherlands · Eredivisie | Sparta Rotterdam vs AZ Alkmaar | BTTS & Over 2.5 | 55% ★★ | 1.81 | - | ✅ 1-5 |
+| 19:45 | Italy · Serie A | Atalanta vs Inter | BTTS & Over 2.5 | 55% ★★ | 1.81 | - | ✅ 4-4 |
 | 15:30 | Switzerland · Super League | Lausanne vs Vaduz | BTTS & Over 2.5 | 54% ★ | 1.84 | - |  |
-| 16:30 | England · Premier League | Liverpool vs Man United | BTTS & Over 2.5 | 54% ★ | 1.86 | - |  |
+| 16:30 | England · Premier League | Liverpool vs Man United | BTTS & Over 2.5 | 54% ★ | 1.86 | - | ❌ 4-0 |
 | 23:30 | USA · MLS | Chicago Fire vs Charlotte | BTTS & Over 2.5 | 53% ★ | 1.89 | - |  |
-| 15:45 | Netherlands · Eredivisie | Go Ahead Eagles vs For Sittard | BTTS & Over 2.5 | 53% ★ | 1.90 | - |  |
+| 15:45 | Netherlands · Eredivisie | Go Ahead Eagles vs For Sittard | BTTS & Over 2.5 | 53% ★ | 1.90 | - | ❌ 0-1 |
 | 13:00 | Denmark · Superliga | Horsens vs Silkeborg | BTTS & Over 2.5 | 52% ★ | 1.91 | - |  |
 | 17:00 | Denmark · Superliga | Nordsjaelland vs FC Copenhagen | BTTS & Over 2.5 | 52% ★ | 1.93 | - |  |
 | 13:00 | Sweden · Allsvenskan | Sirius vs Djurgarden | BTTS & Over 2.5 | 52% ★ | 1.94 | - |  |
 | 15:00 | Denmark · Superliga | Sonderjyske vs Odense | BTTS & Over 2.5 | 52% ★ | 1.94 | - |  |
 | 12:30 | Germany · 2. Bundesliga | Karlsruhe vs Osnabruck | BTTS & Over 2.5 | 51% ★ | 1.95 | - |  |
 | 13:00 | Switzerland · Super League | Zurich vs St. Gallen | BTTS & Over 2.5 | 50% ★ | 1.98 | - |  |
-| 16:30 | Germany · Bundesliga | Werder Bremen vs Hamburg | BTTS & Over 2.5 | 50% ★ | 1.98 | - |  |
+| 16:30 | Germany · Bundesliga | Werder Bremen vs Hamburg | BTTS & Over 2.5 | 50% ★ | 1.98 | - | ❌ 4-0 |
 
 ### ⚽ Over 2.5 Goals
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 13:00 | Spain · La Liga | Barcelona vs Villarreal | Over 2.5 | 82% 🔒 | 1.22 | 1.17 |  |
+| 13:00 | Spain · La Liga | Barcelona vs Villarreal | Over 2.5 | 82% 🔒 | 1.22 | 1.17 | ✅ 3-2 |
 | 11:15 | Netherlands · Eredivisie | Twente vs Willem II | Over 2.5 | 79% 🔒 | 1.27 | 1.20 | ✅ 2-1 |
-| 13:30 | Netherlands · Eredivisie | Ajax vs Den Haag | Over 2.5 | 75% 🔒 | 1.33 | 1.26 |  |
+| 13:30 | Netherlands · Eredivisie | Ajax vs Den Haag | Over 2.5 | 75% 🔒 | 1.33 | 1.26 | ✅ 3-0 |
 | 16:00 | Turkey · Süper Lig | Trabzonspor vs Eyupspor | Over 2.5 | 72% ★★ | 1.40 | 1.30 |  |
-| 15:15 | Spain · La Liga | Santander vs Sociedad | Over 2.5 | 71% ★★ | 1.41 | 1.32 |  |
-| 17:00 | Italy · Serie A | Milan vs Frosinone | Over 2.5 | 70% ★★ | 1.43 | 1.34 |  |
+| 15:15 | Spain · La Liga | Santander vs Sociedad | Over 2.5 | 71% ★★ | 1.41 | 1.32 | ✅ 3-2 |
+| 17:00 | Italy · Serie A | Milan vs Frosinone | Over 2.5 | 70% ★★ | 1.43 | 1.34 | ✅ 5-1 |
 | 16:00 | Norway · Eliteserien | Aalesund vs Rosenborg | Over 2.5 | 69% ★★ | 1.44 | - |  |
 | 12:30 | Germany · 2. Bundesliga | Cottbus vs Hertha | Over 2.5 | 68% ★★ | 1.47 | 1.37 |  |
-| 19:45 | Italy · Serie A | Atalanta vs Inter | Over 2.5 | 68% ★★ | 1.48 | 1.39 |  |
-| 14:30 | Germany · Bundesliga | Augsburg vs Mainz | Over 2.5 | 67% ★★ | 1.49 | 1.40 |  |
+| 19:45 | Italy · Serie A | Atalanta vs Inter | Over 2.5 | 68% ★★ | 1.48 | 1.39 | ✅ 4-4 |
+| 14:30 | Germany · Bundesliga | Augsburg vs Mainz | Over 2.5 | 67% ★★ | 1.49 | 1.40 | ✅ 3-1 |
 | 15:30 | Switzerland · Super League | Basel vs Luzern | Over 2.5 | 67% ★ | 1.50 | - |  |
-| 13:30 | Netherlands · Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Over 2.5 | 66% ★ | 1.51 | 1.42 |  |
-| 16:30 | England · Premier League | Liverpool vs Man United | Over 2.5 | 65% ★ | 1.54 | 1.46 |  |
-| 15:45 | Netherlands · Eredivisie | Go Ahead Eagles vs For Sittard | Over 2.5 | 65% ★ | 1.54 | 1.46 |  |
+| 13:30 | Netherlands · Eredivisie | Sparta Rotterdam vs AZ Alkmaar | Over 2.5 | 66% ★ | 1.51 | 1.42 | ✅ 1-5 |
+| 16:30 | England · Premier League | Liverpool vs Man United | Over 2.5 | 65% ★ | 1.54 | 1.46 | ✅ 4-0 |
+| 15:45 | Netherlands · Eredivisie | Go Ahead Eagles vs For Sittard | Over 2.5 | 65% ★ | 1.54 | 1.46 | ❌ 0-1 |
 | 23:30 | USA · MLS | Chicago Fire vs Charlotte | Over 2.5 | 65% ★ | 1.55 | - |  |
-| 19:45 | France · Ligue 1 | Marseille vs Le Mans | Over 2.5 | 64% ★ | 1.56 | 1.49 |  |
+| 19:45 | France · Ligue 1 | Marseille vs Le Mans | Over 2.5 | 64% ★ | 1.56 | 1.49 | ✅ 2-3 |
 | 15:30 | Greece · Super League | Panathinaikos vs OFI Crete | Over 2.5 | 64% ★ | 1.56 | 1.44 |  |
 | 15:30 | Switzerland · Super League | Lausanne vs Vaduz | Over 2.5 | 64% ★ | 1.57 | - |  |
 | 21:00 | USA · MLS | Nashville SC vs FC Cincinnati | Over 2.5 | 63% ★ | 1.59 | - |  |
@@ -212,24 +212,24 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 15:15 | Spain · La Liga | Santander vs Sociedad | BTTS Yes | 70% ★★★ | 1.42 | - |  |
-| 14:30 | Germany · Bundesliga | Augsburg vs Mainz | BTTS Yes | 68% ★★ | 1.47 | - |  |
+| 15:15 | Spain · La Liga | Santander vs Sociedad | BTTS Yes | 70% ★★★ | 1.42 | - | ✅ 3-2 |
+| 14:30 | Germany · Bundesliga | Augsburg vs Mainz | BTTS Yes | 68% ★★ | 1.47 | - | ✅ 3-1 |
 | 15:30 | Switzerland · Super League | Basel vs Luzern | BTTS Yes | 67% ★★ | 1.48 | - |  |
 | 16:00 | Norway · Eliteserien | Aalesund vs Rosenborg | BTTS Yes | 66% ★★ | 1.51 | - |  |
-| 13:30 | Netherlands · Eredivisie | Sparta Rotterdam vs AZ Alkmaar | BTTS Yes | 65% ★★ | 1.54 | - |  |
+| 13:30 | Netherlands · Eredivisie | Sparta Rotterdam vs AZ Alkmaar | BTTS Yes | 65% ★★ | 1.54 | - | ✅ 1-5 |
 | 12:30 | Germany · 2. Bundesliga | Cottbus vs Hertha | BTTS Yes | 65% ★ | 1.54 | - |  |
 | 15:30 | Switzerland · Super League | Lausanne vs Vaduz | BTTS Yes | 65% ★ | 1.55 | - |  |
-| 13:00 | Spain · La Liga | Barcelona vs Villarreal | BTTS Yes | 65% ★ | 1.55 | - |  |
-| 17:00 | Italy · Serie A | Milan vs Frosinone | BTTS Yes | 65% ★ | 1.55 | - |  |
+| 13:00 | Spain · La Liga | Barcelona vs Villarreal | BTTS Yes | 65% ★ | 1.55 | - | ✅ 3-2 |
+| 17:00 | Italy · Serie A | Milan vs Frosinone | BTTS Yes | 65% ★ | 1.55 | - | ✅ 5-1 |
 | 13:00 | Denmark · Superliga | Horsens vs Silkeborg | BTTS Yes | 64% ★ | 1.57 | - |  |
-| 19:45 | Italy · Serie A | Atalanta vs Inter | BTTS Yes | 64% ★ | 1.57 | - |  |
-| 16:30 | England · Premier League | Liverpool vs Man United | BTTS Yes | 64% ★ | 1.57 | - |  |
+| 19:45 | Italy · Serie A | Atalanta vs Inter | BTTS Yes | 64% ★ | 1.57 | - | ✅ 4-4 |
+| 16:30 | England · Premier League | Liverpool vs Man United | BTTS Yes | 64% ★ | 1.57 | - | ❌ 4-0 |
 | 17:00 | Denmark · Superliga | Nordsjaelland vs FC Copenhagen | BTTS Yes | 63% ★ | 1.58 | - |  |
 | 15:00 | Denmark · Superliga | Sonderjyske vs Odense | BTTS Yes | 63% ★ | 1.58 | - |  |
 | 13:00 | Sweden · Allsvenskan | Sirius vs Djurgarden | BTTS Yes | 63% ★ | 1.60 | - |  |
 | 23:30 | USA · MLS | Chicago Fire vs Charlotte | BTTS Yes | 62% ★ | 1.60 | - |  |
 | 12:30 | Germany · 2. Bundesliga | Karlsruhe vs Osnabruck | BTTS Yes | 62% ★ | 1.60 | - |  |
-| 15:45 | Netherlands · Eredivisie | Go Ahead Eagles vs For Sittard | BTTS Yes | 62% ★ | 1.61 | - |  |
+| 15:45 | Netherlands · Eredivisie | Go Ahead Eagles vs For Sittard | BTTS Yes | 62% ★ | 1.61 | - | ❌ 0-1 |
 | 13:45 | Poland · Ekstraklasa | GKS Katowice vs Lech Poznan | BTTS Yes | 62% ★ | 1.61 | - |  |
 | 01:00 | Mexico · Liga MX | UNAM Pumas vs Monterrey | BTTS Yes | 61% ★ | 1.63 | - |  |
 
@@ -241,21 +241,21 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 17:00 | Greece · Super League | Olympiakos vs Iraklis | 1X | 96% 🔒 | 1.05 | 0.98 |  |
 | 16:00 | Turkey · Süper Lig | Trabzonspor vs Eyupspor | 1X | 95% 🔒 | 1.06 | 0.99 |  |
 | 15:30 | Greece · Super League | Panathinaikos vs OFI Crete | 1X | 94% 🔒 | 1.07 | 1.00 |  |
-| 13:30 | Netherlands · Eredivisie | Ajax vs Den Haag | 1X | 93% 🔒 | 1.07 | 1.02 |  |
-| 13:00 | Spain · La Liga | Barcelona vs Villarreal | 1X | 91% 🔒 | 1.09 | 1.03 |  |
+| 13:30 | Netherlands · Eredivisie | Ajax vs Den Haag | 1X | 93% 🔒 | 1.07 | 1.02 | ✅ 3-0 |
+| 13:00 | Spain · La Liga | Barcelona vs Villarreal | 1X | 91% 🔒 | 1.09 | 1.03 | ✅ 3-2 |
 | 19:00 | Argentina · Liga Profesional | Rosario Central vs Gimnasia Mendoza | 1X | 90% 🔒 | 1.11 | 1.08 |  |
 | 17:30 | Greece · Super League | PAOK vs Kifisia | 1X | 89% 🔒 | 1.12 | 1.04 |  |
-| 14:00 | France · Ligue 1 | Paris FC vs Angers | 1X | 89% 🔒 | 1.12 | 1.05 |  |
-| 11:30 | Italy · Serie A | Juventus vs Venezia | 1X | 88% 🔒 | 1.13 | 1.06 |  |
+| 14:00 | France · Ligue 1 | Paris FC vs Angers | 1X | 89% 🔒 | 1.12 | 1.05 | ✅ 4-0 |
+| 11:30 | Italy · Serie A | Juventus vs Venezia | 1X | 88% 🔒 | 1.13 | 1.06 | ✅ 4-0 |
 | 15:00 | Belgium · Pro League | Kortrijk vs St. Gilloise | X2 | 87% ★★ | 1.14 | 1.06 |  |
-| 19:00 | Brazil · Serie A | Athletico-PR vs Remo | 1X | 86% ★★ | 1.16 | 1.14 |  |
-| 19:45 | France · Ligue 1 | Marseille vs Le Mans | 1X | 85% ★★ | 1.17 | 1.11 |  |
+| 19:00 | Brazil · Serie A | Athletico-PR vs Remo | 1X | 86% ★★ | 1.16 | 1.14 | ✅ 4-2 |
+| 19:45 | France · Ligue 1 | Marseille vs Le Mans | 1X | 85% ★★ | 1.17 | 1.11 | ❌ 2-3 |
 | 22:00 | Argentina · Liga Profesional | River Plate vs Lanus | 1X | 85% ★★ | 1.17 | 1.15 |  |
 | 00:00 | Brazil · Serie A | Chapecoense-SC vs Cruzeiro | X2 | 85% ★★ | 1.18 | 1.14 | ✅ 1-2 |
 | 17:30 | Belgium · Pro League | Anderlecht vs Oud-Heverlee Leuven | 1X | 85% ★ | 1.18 | 1.09 |  |
-| 14:00 | England · Premier League | Hull vs Brighton | X2 | 84% ★ | 1.19 | 1.11 |  |
+| 14:00 | England · Premier League | Hull vs Brighton | X2 | 84% ★ | 1.19 | 1.11 | ❌ 2-0 |
 | 21:00 | USA · MLS | Nashville SC vs FC Cincinnati | 1X | 84% ★ | 1.20 | 1.14 |  |
-| 20:00 | Spain · La Liga | Getafe vs Ath Madrid | X2 | 83% ★ | 1.20 | 1.11 |  |
+| 20:00 | Spain · La Liga | Getafe vs Ath Madrid | X2 | 83% ★ | 1.20 | 1.11 | ✅ 0-3 |
 | 21:30 | Brazil · Serie A | Fluminense vs Mirassol | 1X | 83% ★ | 1.21 | 1.16 |  |
 
 
@@ -374,11 +374,11 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 11/13 (85%), ROI -10% | 94/108 (87%), ROI -8% | 151/170 (89%), ROI -6% |
-| BTTS & Over 2.5 | 7/14 (50%) | 138/251 (55%) | 269/488 (55%) |
-| Over 2.5 Goals | 10/16 (62%), ROI -14% | 175/256 (68%), ROI -6% | 332/493 (67%), ROI -5% |
-| Both Teams To Score | 7/14 (50%) | 159/257 (62%) | 314/504 (62%) |
-| Double Chance | 21/24 (88%), ROI -3% | 246/287 (86%), ROI -5% | 487/570 (85%), ROI -4% |
+| 🔒 Bankers | 17/19 (89%), ROI -4% | 100/114 (88%), ROI -7% | 157/176 (89%), ROI -6% |
+| BTTS & Over 2.5 | 13/23 (57%) | 144/260 (55%) | 275/497 (55%) |
+| Over 2.5 Goals | 19/26 (73%), ROI +1% | 184/266 (69%), ROI -4% | 341/503 (68%), ROI -4% |
+| Both Teams To Score | 13/22 (59%) | 165/265 (62%) | 320/512 (62%) |
+| Double Chance | 27/32 (84%), ROI -7% | 252/295 (85%), ROI -5% | 493/578 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
