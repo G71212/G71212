@@ -1,100 +1,10 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-21 22:11 UTC · kick-off times in UTC_
+_Generated 2026-11-22 01:34 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
-
-## Friday 20 November 2026
-
-24 matches analysed across 17 leagues.
-
-**Results:** ✅ 5 won · ❌ 4 lost · 47 pending
-
-### 🔒 Bankers: the day's safest tips
-
-| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
-|---|---|---|---|---|---|---|
-| 19:30 | Bayern Munich vs FC Koln | Double Chance | 1X | 97% | 1.03 | ✅ 1-1 |
-| 19:30 | Bayern Munich vs FC Koln | Over 2.5 Goals | Over 2.5 | 85% | 1.17 | ❌ 1-1 |
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 19:45 | England · National League | Southend vs Boreham Wood | BTTS & Over 2.5 | 62% ★★★ | 1.62 | - |  |
-| 18:00 | Norway · Eliteserien | Molde vs Bodo/Glimt | BTTS & Over 2.5 | 60% ★★ | 1.68 | - |  |
-| 20:00 | England · League One | Barnsley vs Sheffield Weds | BTTS & Over 2.5 | 55% ★ | 1.82 | - |  |
-| 17:30 | Germany · 2. Bundesliga | Darmstadt vs Heidenheim | BTTS & Over 2.5 | 54% ★ | 1.87 | - |  |
-| 19:45 | Belgium · Pro League | Cercle Brugge vs Westerlo | BTTS & Over 2.5 | 51% ★ | 1.95 | - |  |
-| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | BTTS & Over 2.5 | 50% ☆ | 2.00 | - | ❌ 1-1 |
-| 19:00 | France · Ligue 2 | Guingamp vs Rodez | BTTS & Over 2.5 | 50% ☆ | 2.02 | - |  |
-| 17:30 | Germany · 2. Bundesliga | Bielefeld vs Magdeburg | BTTS & Over 2.5 | 47% ☆ | 2.11 | - |  |
-| 18:00 | Denmark · Superliga | Aarhus vs Lyngby | BTTS & Over 2.5 | 47% ☆ | 2.15 | - |  |
-| 19:00 | France · Ligue 2 | Nancy vs Dijon | BTTS & Over 2.5 | 45% ☆ | 2.23 | - |  |
-| 19:30 | Poland · Ekstraklasa | Pogon Szczecin vs Slask Wroclaw | BTTS & Over 2.5 | 44% ☆ | 2.28 | - |  |
-| 19:30 | Italy · Serie B | Verona vs Cesena | BTTS & Over 2.5 | 43% ☆ | 2.33 | - |  |
-| 19:30 | Spain · Segunda División | Andorra vs Leganes | BTTS & Over 2.5 | 42% ☆ | 2.38 | - |  |
-| 19:45 | France · Ligue 1 | Troyes vs Le Havre | BTTS & Over 2.5 | 42% ☆ | 2.40 | - | ✅ 3-1 |
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | Over 2.5 | 85% 🔒 | 1.17 | 1.13 | ❌ 1-1 |
-| 19:45 | England · National League | Southend vs Boreham Wood | Over 2.5 | 71% ★★ | 1.41 | 1.33 |  |
-| 18:00 | Norway · Eliteserien | Molde vs Bodo/Glimt | Over 2.5 | 70% ★★ | 1.43 | - |  |
-| 20:00 | England · League One | Barnsley vs Sheffield Weds | Over 2.5 | 64% ★ | 1.56 | 1.46 |  |
-| 17:30 | Germany · 2. Bundesliga | Darmstadt vs Heidenheim | Over 2.5 | 63% ★ | 1.59 | 1.49 |  |
-| 19:45 | Belgium · Pro League | Cercle Brugge vs Westerlo | Over 2.5 | 61% ☆ | 1.64 | 1.57 |  |
-| 19:00 | France · Ligue 2 | Guingamp vs Rodez | Over 2.5 | 59% ☆ | 1.70 | 1.58 |  |
-| 18:00 | Denmark · Superliga | Aarhus vs Lyngby | Over 2.5 | 58% ☆ | 1.73 | - |  |
-| 17:30 | Germany · 2. Bundesliga | Bielefeld vs Magdeburg | Over 2.5 | 56% ☆ | 1.78 | 1.69 |  |
-| 19:00 | France · Ligue 2 | Nancy vs Dijon | Over 2.5 | 55% ☆ | 1.81 | 1.68 |  |
-| 19:30 | Italy · Serie B | Verona vs Cesena | Over 2.5 | 55% ☆ | 1.83 | 1.70 |  |
-| 19:30 | Poland · Ekstraklasa | Pogon Szczecin vs Slask Wroclaw | Over 2.5 | 55% ☆ | 1.83 | - |  |
-| 20:00 | Spain · La Liga | Ath Bilbao vs Espanol | Over 2.5 | 54% ☆ | 1.85 | 1.68 | ❌ 0-1 |
-| 15:30 | Romania · Superliga | FC Botosani vs FC Voluntari | Over 2.5 | 53% ☆ | 1.90 | - |  |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 19:45 | England · National League | Southend vs Boreham Wood | BTTS Yes | 70% ★★★ | 1.42 | - |  |
-| 18:00 | Norway · Eliteserien | Molde vs Bodo/Glimt | BTTS Yes | 68% ★★ | 1.47 | - |  |
-| 20:00 | England · League One | Barnsley vs Sheffield Weds | BTTS Yes | 65% ★★ | 1.54 | - |  |
-| 17:30 | Germany · 2. Bundesliga | Darmstadt vs Heidenheim | BTTS Yes | 64% ★ | 1.56 | - |  |
-| 19:45 | Belgium · Pro League | Cercle Brugge vs Westerlo | BTTS Yes | 62% ★ | 1.61 | - |  |
-| 19:00 | France · Ligue 2 | Guingamp vs Rodez | BTTS Yes | 60% ★ | 1.66 | - |  |
-| 17:30 | Germany · 2. Bundesliga | Bielefeld vs Magdeburg | BTTS Yes | 59% ☆ | 1.69 | - |  |
-| 18:00 | Denmark · Superliga | Aarhus vs Lyngby | BTTS Yes | 58% ☆ | 1.73 | - |  |
-| 19:30 | Poland · Ekstraklasa | Pogon Szczecin vs Slask Wroclaw | BTTS Yes | 56% ☆ | 1.79 | - |  |
-| 19:00 | France · Ligue 2 | Nancy vs Dijon | BTTS Yes | 56% ☆ | 1.79 | - |  |
-| 19:30 | Italy · Serie B | Verona vs Cesena | BTTS Yes | 55% ☆ | 1.83 | - |  |
-| 19:45 | France · Ligue 1 | Troyes vs Le Havre | BTTS Yes | 54% ☆ | 1.85 | - | ✅ 3-1 |
-| 18:30 | Romania · Superliga | Farul Constanta vs U. Cluj | BTTS Yes | 54% ☆ | 1.87 | - |  |
-| 19:30 | Spain · Segunda División | Andorra vs Leganes | BTTS Yes | 53% ☆ | 1.87 | - |  |
-| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | BTTS Yes | 53% ☆ | 1.90 | - | ✅ 1-1 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 19:30 | Germany · Bundesliga | Bayern Munich vs FC Koln | 1X | 97% 🔒 | 1.03 | 0.99 | ✅ 1-1 |
-| 20:00 | Spain · La Liga | Ath Bilbao vs Espanol | 1X | 85% ★ | 1.18 | 1.11 | ❌ 0-1 |
-| 19:30 | Scotland · Championship | Inverness C vs Ayr | 1X | 82% ★ | 1.21 | 1.12 |  |
-| 19:30 | Italy · Serie B | Verona vs Cesena | 1X | 81% ★ | 1.23 | 1.15 |  |
-| 15:30 | Romania · Superliga | FC Botosani vs FC Voluntari | 1X | 80% ☆ | 1.25 | 1.21 |  |
-| 18:00 | Norway · Eliteserien | Molde vs Bodo/Glimt | 12 | 79% ☆ | 1.26 | 1.22 |  |
-| 18:00 | Denmark · Superliga | Aarhus vs Lyngby | 1X | 79% ☆ | 1.27 | 1.24 |  |
-| 19:45 | England · National League | Southend vs Boreham Wood | 12 | 79% ☆ | 1.27 | 1.19 |  |
-| 19:30 | Poland · Ekstraklasa | Pogon Szczecin vs Slask Wroclaw | 1X | 78% ☆ | 1.27 | 1.24 |  |
-| 20:00 | England · League One | Barnsley vs Sheffield Weds | 12 | 77% ☆ | 1.30 | 1.23 |  |
-| 19:00 | France · Ligue 2 | Nancy vs Dijon | 12 | 77% ☆ | 1.30 | 1.22 |  |
-| 19:00 | France · Ligue 2 | Guingamp vs Rodez | 12 | 76% ☆ | 1.31 | 1.24 |  |
-| 00:30 | Brazil · Serie A | Sao Paulo vs Fluminense | 12 | 71% ☆ | 1.41 | 1.31 | ✅ 0-1 |
-
 
 ## Saturday 21 November 2026
 
@@ -428,15 +338,45 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 18:00 | Poland · Ekstraklasa | Wieczysta Krakow vs Motor Lublin | 12 | 74% ☆ | 1.35 | 1.25 |  |
 | 20:00 | England · Premier League | Brentford vs Everton | 12 | 74% ☆ | 1.35 | 1.28 |  |
 
+
+## Tuesday 24 November 2026
+
+2 matches analysed across 2 leagues.
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 01:00 | USA · MLS | St. Louis City vs Los Angeles FC | BTTS & Over 2.5 | 49% ☆ | 2.05 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 01:00 | USA · MLS | St. Louis City vs Los Angeles FC | Over 2.5 | 58% ☆ | 1.74 | - |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 01:00 | USA · MLS | St. Louis City vs Los Angeles FC | BTTS Yes | 60% ★ | 1.65 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 00:00 | Brazil · Serie A | Santos vs Gremio | 1X | 82% ★ | 1.22 | 1.19 |  |
+| 01:00 | USA · MLS | St. Louis City vs Los Angeles FC | 12 | 75% ☆ | 1.33 | 1.30 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 9/11 (82%), ROI -13% | 93/107 (87%), ROI -8% | 149/168 (89%), ROI -7% |
-| BTTS & Over 2.5 | 7/16 (44%) | 138/251 (55%) | 269/488 (55%) |
-| Over 2.5 Goals | 9/17 (53%), ROI -28% | 174/256 (68%), ROI -6% | 331/492 (67%), ROI -5% |
-| Both Teams To Score | 8/16 (50%) | 159/257 (62%) | 314/504 (62%) |
-| Double Chance | 23/26 (88%), ROI +0% | 246/287 (86%), ROI -5% | 485/568 (85%), ROI -4% |
+| 🔒 Bankers | 9/11 (82%), ROI -13% | 92/106 (87%), ROI -8% | 149/168 (89%), ROI -7% |
+| BTTS & Over 2.5 | 7/14 (50%) | 138/251 (55%) | 269/488 (55%) |
+| Over 2.5 Goals | 9/15 (60%), ROI -17% | 174/255 (68%), ROI -6% | 331/492 (67%), ROI -5% |
+| Both Teams To Score | 7/14 (50%) | 159/257 (62%) | 314/504 (62%) |
+| Double Chance | 19/22 (86%), ROI -4% | 244/285 (86%), ROI -5% | 485/568 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

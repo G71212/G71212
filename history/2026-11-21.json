@@ -10166,8 +10166,12 @@
     39
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-20T14:05:11+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-11-20T14:05:11+00:00",
+   "provisional": true
   },
   {
    "id": "USA|2026-11-21|FC Dallas|Portland Timbers",
