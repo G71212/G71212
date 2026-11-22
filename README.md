@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-22 01:34 UTC · kick-off times in UTC_
+_Generated 2026-11-22 13:24 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -138,11 +138,13 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 77 matches analysed across 24 leagues.
 
+**Results:** ✅ 3 won · ❌ 0 lost · 77 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
-| 11:15 | Twente vs Willem II | Double Chance | 1X | 97% | 1.03 |  |
+| 11:15 | Twente vs Willem II | Double Chance | 1X | 97% | 1.03 | ✅ 2-1 |
 | 17:00 | Olympiakos vs Iraklis | Double Chance | 1X | 96% | 1.05 |  |
 | 16:00 | Trabzonspor vs Eyupspor | Double Chance | 1X | 95% | 1.06 |  |
 | 15:30 | Panathinaikos vs OFI Crete | Double Chance | 1X | 94% | 1.07 |  |
@@ -153,7 +155,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 14:00 | Paris FC vs Angers | Double Chance | 1X | 89% | 1.12 |  |
 | 11:30 | Juventus vs Venezia | Double Chance | 1X | 88% | 1.13 |  |
 | 13:00 | Barcelona vs Villarreal | Over 2.5 Goals | Over 2.5 | 82% | 1.22 |  |
-| 11:15 | Twente vs Willem II | Over 2.5 Goals | Over 2.5 | 79% | 1.27 |  |
+| 11:15 | Twente vs Willem II | Over 2.5 Goals | Over 2.5 | 79% | 1.27 | ✅ 2-1 |
 | 13:30 | Ajax vs Den Haag | Over 2.5 Goals | Over 2.5 | 75% | 1.33 |  |
 
 ### 🔥 BTTS & Over 2.5
@@ -186,7 +188,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 13:00 | Spain · La Liga | Barcelona vs Villarreal | Over 2.5 | 82% 🔒 | 1.22 | 1.17 |  |
-| 11:15 | Netherlands · Eredivisie | Twente vs Willem II | Over 2.5 | 79% 🔒 | 1.27 | 1.20 |  |
+| 11:15 | Netherlands · Eredivisie | Twente vs Willem II | Over 2.5 | 79% 🔒 | 1.27 | 1.20 | ✅ 2-1 |
 | 13:30 | Netherlands · Eredivisie | Ajax vs Den Haag | Over 2.5 | 75% 🔒 | 1.33 | 1.26 |  |
 | 16:00 | Turkey · Süper Lig | Trabzonspor vs Eyupspor | Over 2.5 | 72% ★★ | 1.40 | 1.30 |  |
 | 15:15 | Spain · La Liga | Santander vs Sociedad | Over 2.5 | 71% ★★ | 1.41 | 1.32 |  |
@@ -235,7 +237,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 11:15 | Netherlands · Eredivisie | Twente vs Willem II | 1X | 97% 🔒 | 1.03 | 0.98 |  |
+| 11:15 | Netherlands · Eredivisie | Twente vs Willem II | 1X | 97% 🔒 | 1.03 | 0.98 | ✅ 2-1 |
 | 17:00 | Greece · Super League | Olympiakos vs Iraklis | 1X | 96% 🔒 | 1.05 | 0.98 |  |
 | 16:00 | Turkey · Süper Lig | Trabzonspor vs Eyupspor | 1X | 95% 🔒 | 1.06 | 0.99 |  |
 | 15:30 | Greece · Super League | Panathinaikos vs OFI Crete | 1X | 94% 🔒 | 1.07 | 1.00 |  |
@@ -249,7 +251,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 19:00 | Brazil · Serie A | Athletico-PR vs Remo | 1X | 86% ★★ | 1.16 | 1.14 |  |
 | 19:45 | France · Ligue 1 | Marseille vs Le Mans | 1X | 85% ★★ | 1.17 | 1.11 |  |
 | 22:00 | Argentina · Liga Profesional | River Plate vs Lanus | 1X | 85% ★★ | 1.17 | 1.15 |  |
-| 00:00 | Brazil · Serie A | Chapecoense-SC vs Cruzeiro | X2 | 85% ★★ | 1.18 | 1.14 |  |
+| 00:00 | Brazil · Serie A | Chapecoense-SC vs Cruzeiro | X2 | 85% ★★ | 1.18 | 1.14 | ✅ 1-2 |
 | 17:30 | Belgium · Pro League | Anderlecht vs Oud-Heverlee Leuven | 1X | 85% ★ | 1.18 | 1.09 |  |
 | 14:00 | England · Premier League | Hull vs Brighton | X2 | 84% ★ | 1.19 | 1.11 |  |
 | 21:00 | USA · MLS | Nashville SC vs FC Cincinnati | 1X | 84% ★ | 1.20 | 1.14 |  |
@@ -372,11 +374,11 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 9/11 (82%), ROI -13% | 92/106 (87%), ROI -8% | 149/168 (89%), ROI -7% |
+| 🔒 Bankers | 11/13 (85%), ROI -10% | 94/108 (87%), ROI -8% | 151/170 (89%), ROI -6% |
 | BTTS & Over 2.5 | 7/14 (50%) | 138/251 (55%) | 269/488 (55%) |
-| Over 2.5 Goals | 9/15 (60%), ROI -17% | 174/255 (68%), ROI -6% | 331/492 (67%), ROI -5% |
+| Over 2.5 Goals | 10/16 (62%), ROI -14% | 175/256 (68%), ROI -6% | 332/493 (67%), ROI -5% |
 | Both Teams To Score | 7/14 (50%) | 159/257 (62%) | 314/504 (62%) |
-| Double Chance | 19/22 (86%), ROI -4% | 244/285 (86%), ROI -5% | 485/568 (85%), ROI -4% |
+| Double Chance | 21/24 (88%), ROI -3% | 246/287 (86%), ROI -5% | 487/570 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
