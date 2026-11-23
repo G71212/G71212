@@ -4800,8 +4800,12 @@
     73
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-20T14:05:11+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-11-20T14:05:11+00:00",
+   "provisional": true
   },
   {
    "id": "ARG|2026-11-22|River Plate|Lanus",
@@ -4928,8 +4932,12 @@
     115
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-20T14:05:11+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-11-20T14:05:11+00:00",
+   "provisional": true
   },
   {
    "id": "MEX|2026-11-22|Guadalajara Chivas|Cruz Azul",
@@ -6577,8 +6585,12 @@
     "market_odds": 1.16,
     "edge": -0.0438,
     "published_at": "2026-11-20T14:05:11+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     0
+    ],
+    "provisional": true
    }
   ]
  },
