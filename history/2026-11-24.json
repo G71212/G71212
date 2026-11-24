@@ -1,7 +1,7 @@
 {
  "date": "2026-11-24",
  "created_at": "2026-11-22T01:34:01+00:00",
- "updated_at": "2026-11-23T16:03:42+00:00",
+ "updated_at": "2026-11-24T03:19:58+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-11-24|Santos|Gremio",
@@ -64,8 +64,12 @@
     115
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-22T01:34:01+00:00"
+   "result": [
+    0,
+    2
+   ],
+   "predicted_at": "2026-11-22T01:34:01+00:00",
+   "provisional": true
   },
   {
    "id": "USA|2026-11-24|St. Louis City|Los Angeles FC",
@@ -205,8 +209,12 @@
     "market_odds": 1.19,
     "edge": -0.028,
     "published_at": "2026-11-22T01:34:01+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     2
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
