@@ -1,7 +1,7 @@
 {
  "date": "2026-11-24",
  "created_at": "2026-11-22T01:34:01+00:00",
- "updated_at": "2026-11-24T05:30:42+00:00",
+ "updated_at": "2026-11-24T15:56:21+00:00",
  "fixtures": [
   {
    "id": "BRA|2026-11-24|Santos|Gremio",
@@ -68,8 +68,7 @@
     0,
     2
    ],
-   "predicted_at": "2026-11-22T01:34:01+00:00",
-   "provisional": true
+   "predicted_at": "2026-11-22T01:34:01+00:00"
   },
   {
    "id": "USA|2026-11-24|St. Louis City|Los Angeles FC",
@@ -132,12 +131,2295 @@
     112
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    3,
+    2
+   ],
    "predicted_at": "2026-11-22T01:34:01+00:00"
+  },
+  {
+   "id": "I2|2026-11-24|Juve Stabia|Catanzaro",
+   "league": "I2",
+   "league_name": "Italy · Serie B",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T18:00:00+00:00",
+   "home": "Juve Stabia",
+   "away": "Catanzaro",
+   "expected_goals": [
+    1.69,
+    1.18
+   ],
+   "model_expected_goals": [
+    1.45,
+    1.17
+   ],
+   "rho": -0.1022,
+   "probabilities": {
+    "home": 0.4824,
+    "draw": 0.263,
+    "away": 0.2546,
+    "over25": 0.5483,
+    "under25": 0.4517,
+    "btts": 0.5772,
+    "btts_over25": 0.4528,
+    "dc_1x": 0.7454,
+    "dc_x2": 0.5176,
+    "dc_12": 0.737
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1244
+    ],
+    [
+     "2-1",
+     0.0956
+    ],
+    [
+     "1-0",
+     0.084
+    ]
+   ],
+   "market": {
+    "home": 0.4923,
+    "draw": 0.2613,
+    "away": 0.2464,
+    "over25": 0.5595
+   },
+   "odds": {
+    "home": 1.92,
+    "draw": 3.44,
+    "away": 3.63,
+    "over25": 1.68,
+    "under25": 2.08
+   },
+   "team_matches": [
+    88,
+    113
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "I2|2026-11-24|Benevento|Empoli",
+   "league": "I2",
+   "league_name": "Italy · Serie B",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:00:00+00:00",
+   "home": "Benevento",
+   "away": "Empoli",
+   "expected_goals": [
+    1.93,
+    0.92
+   ],
+   "model_expected_goals": [
+    1.44,
+    1.12
+   ],
+   "rho": -0.1022,
+   "probabilities": {
+    "home": 0.5987,
+    "draw": 0.2376,
+    "away": 0.1638,
+    "over25": 0.5418,
+    "under25": 0.4582,
+    "btts": 0.5247,
+    "btts_over25": 0.4113,
+    "dc_1x": 0.8362,
+    "dc_x2": 0.4013,
+    "dc_12": 0.7624
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1134
+    ],
+    [
+     "2-0",
+     0.1076
+    ],
+    [
+     "1-0",
+     0.1012
+    ]
+   ],
+   "market": {
+    "home": 0.6352,
+    "draw": 0.212,
+    "away": 0.1527,
+    "over25": 0.5584
+   },
+   "odds": {
+    "home": 1.51,
+    "draw": 4.09,
+    "away": 5.51,
+    "over25": 1.68,
+    "under25": 2.07
+   },
+   "team_matches": [
+    12,
+    50
+   ],
+   "flags": [
+    "Benevento new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "I2|2026-11-24|Cesena|Ascoli",
+   "league": "I2",
+   "league_name": "Italy · Serie B",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:00:00+00:00",
+   "home": "Cesena",
+   "away": "Ascoli",
+   "expected_goals": [
+    1.33,
+    1.31
+   ],
+   "model_expected_goals": [
+    1.25,
+    1.19
+   ],
+   "rho": -0.1022,
+   "probabilities": {
+    "home": 0.3603,
+    "draw": 0.2868,
+    "away": 0.3529,
+    "over25": 0.4923,
+    "under25": 0.5077,
+    "btts": 0.5503,
+    "btts_over25": 0.4134,
+    "dc_1x": 0.6471,
+    "dc_x2": 0.6397,
+    "dc_12": 0.7132
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1369
+    ],
+    [
+     "0-0",
+     0.0839
+    ],
+    [
+     "2-1",
+     0.0826
+    ]
+   ],
+   "market": {
+    "home": 0.3602,
+    "draw": 0.2827,
+    "away": 0.3572,
+    "over25": 0.5015
+   },
+   "odds": {
+    "home": 2.56,
+    "draw": 3.2,
+    "away": 2.58,
+    "over25": 1.85,
+    "under25": 1.86
+   },
+   "team_matches": [
+    88,
+    37
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "I2|2026-11-24|Palermo|Sudtirol",
+   "league": "I2",
+   "league_name": "Italy · Serie B",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:00:00+00:00",
+   "home": "Palermo",
+   "away": "Sudtirol",
+   "expected_goals": [
+    2.09,
+    0.9
+   ],
+   "model_expected_goals": [
+    1.76,
+    0.97
+   ],
+   "rho": -0.1022,
+   "probabilities": {
+    "home": 0.6375,
+    "draw": 0.2196,
+    "away": 0.1429,
+    "over25": 0.5741,
+    "under25": 0.4259,
+    "btts": 0.5299,
+    "btts_over25": 0.4255,
+    "dc_1x": 0.8571,
+    "dc_x2": 0.3625,
+    "dc_12": 0.7804
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1097
+    ],
+    [
+     "1-1",
+     0.1045
+    ],
+    [
+     "2-1",
+     0.0989
+    ]
+   ],
+   "market": {
+    "home": 0.6589,
+    "draw": 0.2003,
+    "away": 0.1408,
+    "over25": 0.5856
+   },
+   "odds": {
+    "home": 1.46,
+    "draw": 4.3,
+    "away": 5.92,
+    "over25": 1.61,
+    "under25": 2.19
+   },
+   "team_matches": [
+    113,
+    114
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "I2|2026-11-24|Vicenza|Carrarese",
+   "league": "I2",
+   "league_name": "Italy · Serie B",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:00:00+00:00",
+   "home": "Vicenza",
+   "away": "Carrarese",
+   "expected_goals": [
+    1.16,
+    1.39
+   ],
+   "model_expected_goals": [
+    1.29,
+    1.31
+   ],
+   "rho": -0.1022,
+   "probabilities": {
+    "home": 0.301,
+    "draw": 0.29,
+    "away": 0.409,
+    "over25": 0.4711,
+    "under25": 0.5289,
+    "btts": 0.5301,
+    "btts_over25": 0.3916,
+    "dc_1x": 0.591,
+    "dc_x2": 0.699,
+    "dc_12": 0.71
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1385
+    ],
+    [
+     "0-1",
+     0.0951
+    ],
+    [
+     "0-0",
+     0.0903
+    ]
+   ],
+   "market": {
+    "home": 0.2893,
+    "draw": 0.2965,
+    "away": 0.4142,
+    "over25": 0.4698
+   },
+   "odds": {
+    "home": 3.13,
+    "draw": 3.06,
+    "away": 2.25,
+    "over25": 1.96,
+    "under25": 1.76
+   },
+   "team_matches": [
+    12,
+    88
+   ],
+   "flags": [
+    "Vicenza new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "I2|2026-11-24|Virtus Entella|Verona",
+   "league": "I2",
+   "league_name": "Italy · Serie B",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:00:00+00:00",
+   "home": "Virtus Entella",
+   "away": "Verona",
+   "expected_goals": [
+    1.06,
+    1.35
+   ],
+   "model_expected_goals": [
+    1.09,
+    1.29
+   ],
+   "rho": -0.1022,
+   "probabilities": {
+    "home": 0.2803,
+    "draw": 0.2982,
+    "away": 0.4216,
+    "over25": 0.4341,
+    "under25": 0.5659,
+    "btts": 0.4981,
+    "btts_over25": 0.3566,
+    "dc_1x": 0.5784,
+    "dc_x2": 0.7197,
+    "dc_12": 0.7018
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1415
+    ],
+    [
+     "0-1",
+     0.1079
+    ],
+    [
+     "0-0",
+     0.1025
+    ]
+   ],
+   "market": {
+    "home": 0.2794,
+    "draw": 0.2922,
+    "away": 0.4285,
+    "over25": 0.4354
+   },
+   "odds": {
+    "home": 3.23,
+    "draw": 3.1,
+    "away": 2.18,
+    "over25": 2.09,
+    "under25": 1.66
+   },
+   "team_matches": [
+    50,
+    12
+   ],
+   "flags": [
+    "Verona relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E1|2026-11-24|Bristol City|Wrexham",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Bristol City",
+   "away": "Wrexham",
+   "expected_goals": [
+    1.29,
+    1.15
+   ],
+   "model_expected_goals": [
+    1.41,
+    1.23
+   ],
+   "rho": -0.0185,
+   "probabilities": {
+    "home": 0.3965,
+    "draw": 0.2779,
+    "away": 0.3256,
+    "over25": 0.4401,
+    "under25": 0.5599,
+    "btts": 0.497,
+    "btts_over25": 0.3653,
+    "dc_1x": 0.6744,
+    "dc_x2": 0.6035,
+    "dc_12": 0.7221
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1317
+    ],
+    [
+     "1-0",
+     0.1105
+    ],
+    [
+     "0-1",
+     0.0977
+    ]
+   ],
+   "market": {
+    "home": 0.3909,
+    "draw": 0.2866,
+    "away": 0.3225,
+    "over25": 0.4311
+   },
+   "odds": {
+    "home": 2.42,
+    "draw": 3.24,
+    "away": 2.9,
+    "over25": 2.13,
+    "under25": 1.66
+   },
+   "team_matches": [
+    138,
+    62
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E1|2026-11-24|Cardiff|Preston",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Cardiff",
+   "away": "Preston",
+   "expected_goals": [
+    2.28,
+    1.12
+   ],
+   "model_expected_goals": [
+    1.66,
+    1.23
+   ],
+   "rho": -0.0185,
+   "probabilities": {
+    "home": 0.6327,
+    "draw": 0.1945,
+    "away": 0.1728,
+    "over25": 0.6593,
+    "under25": 0.3407,
+    "btts": 0.6055,
+    "btts_over25": 0.5185,
+    "dc_1x": 0.8272,
+    "dc_x2": 0.3673,
+    "dc_12": 0.8055
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0972
+    ],
+    [
+     "2-0",
+     0.087
+    ],
+    [
+     "1-1",
+     0.0869
+    ]
+   ],
+   "market": {
+    "home": 0.6599,
+    "draw": 0.1861,
+    "away": 0.154,
+    "over25": 0.6806
+   },
+   "odds": {
+    "home": 1.47,
+    "draw": 4.75,
+    "away": 5.66,
+    "over25": 1.41,
+    "under25": 2.77
+   },
+   "team_matches": [
+    92,
+    138
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E1|2026-11-24|Charlton|Lincoln",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Charlton",
+   "away": "Lincoln",
+   "expected_goals": [
+    1.25,
+    1.21
+   ],
+   "model_expected_goals": [
+    1.4,
+    1.02
+   ],
+   "rho": -0.0185,
+   "probabilities": {
+    "home": 0.3709,
+    "draw": 0.2768,
+    "away": 0.3523,
+    "over25": 0.4481,
+    "under25": 0.5519,
+    "btts": 0.5049,
+    "btts_over25": 0.3735,
+    "dc_1x": 0.6477,
+    "dc_x2": 0.6291,
+    "dc_12": 0.7232
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1314
+    ],
+    [
+     "1-0",
+     0.1038
+    ],
+    [
+     "0-1",
+     0.1005
+    ]
+   ],
+   "market": {
+    "home": 0.3495,
+    "draw": 0.2897,
+    "away": 0.3609,
+    "over25": 0.4516
+   },
+   "odds": {
+    "home": 2.69,
+    "draw": 3.21,
+    "away": 2.61,
+    "over25": 2.05,
+    "under25": 1.72
+   },
+   "team_matches": [
+    62,
+    16
+   ],
+   "flags": [
+    "Lincoln new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E1|2026-11-24|Middlesbrough|Swansea",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Middlesbrough",
+   "away": "Swansea",
+   "expected_goals": [
+    2.23,
+    0.99
+   ],
+   "model_expected_goals": [
+    1.71,
+    1.05
+   ],
+   "rho": -0.0185,
+   "probabilities": {
+    "home": 0.6528,
+    "draw": 0.1941,
+    "away": 0.1532,
+    "over25": 0.6226,
+    "under25": 0.3774,
+    "btts": 0.5609,
+    "btts_over25": 0.4709,
+    "dc_1x": 0.8468,
+    "dc_x2": 0.3472,
+    "dc_12": 0.8059
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.0998
+    ],
+    [
+     "2-1",
+     0.0984
+    ],
+    [
+     "1-1",
+     0.09
+    ]
+   ],
+   "market": {
+    "home": 0.6738,
+    "draw": 0.1863,
+    "away": 0.1399,
+    "over25": 0.642
+   },
+   "odds": {
+    "home": 1.44,
+    "draw": 4.72,
+    "away": 6.15,
+    "over25": 1.49,
+    "under25": 2.52
+   },
+   "team_matches": [
+    138,
+    138
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E1|2026-11-24|Norwich|QPR",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Norwich",
+   "away": "QPR",
+   "expected_goals": [
+    1.76,
+    1.24
+   ],
+   "model_expected_goals": [
+    1.71,
+    1.2
+   ],
+   "rho": -0.0185,
+   "probabilities": {
+    "home": 0.4939,
+    "draw": 0.238,
+    "away": 0.2681,
+    "over25": 0.5783,
+    "under25": 0.4217,
+    "btts": 0.5916,
+    "btts_over25": 0.4812,
+    "dc_1x": 0.7319,
+    "dc_x2": 0.5061,
+    "dc_12": 0.762
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1104
+    ],
+    [
+     "2-1",
+     0.0956
+    ],
+    [
+     "1-0",
+     0.0852
+    ]
+   ],
+   "market": {
+    "home": 0.4884,
+    "draw": 0.2497,
+    "away": 0.2618,
+    "over25": 0.5822
+   },
+   "odds": {
+    "home": 1.96,
+    "draw": 3.68,
+    "away": 3.52,
+    "over25": 1.63,
+    "under25": 2.2
+   },
+   "team_matches": [
+    138,
+    138
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E1|2026-11-24|Portsmouth|West Ham",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Portsmouth",
+   "away": "West Ham",
+   "expected_goals": [
+    1.11,
+    1.72
+   ],
+   "model_expected_goals": [
+    1.27,
+    1.67
+   ],
+   "rho": -0.0185,
+   "probabilities": {
+    "home": 0.2416,
+    "draw": 0.2421,
+    "away": 0.5162,
+    "over25": 0.5379,
+    "under25": 0.4621,
+    "btts": 0.552,
+    "btts_over25": 0.4375,
+    "dc_1x": 0.4838,
+    "dc_x2": 0.7584,
+    "dc_12": 0.7579
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1146
+    ],
+    [
+     "0-1",
+     0.0996
+    ],
+    [
+     "1-2",
+     0.097
+    ]
+   ],
+   "market": {
+    "home": 0.2302,
+    "draw": 0.2482,
+    "away": 0.5216,
+    "over25": 0.534
+   },
+   "odds": {
+    "home": 3.96,
+    "draw": 3.69,
+    "away": 1.84,
+    "over25": 1.76,
+    "under25": 1.99
+   },
+   "team_matches": [
+    108,
+    16
+   ],
+   "flags": [
+    "West Ham relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E1|2026-11-24|Sheffield United|Southampton",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Sheffield United",
+   "away": "Southampton",
+   "expected_goals": [
+    1.48,
+    1.48
+   ],
+   "model_expected_goals": [
+    1.45,
+    1.44
+   ],
+   "rho": -0.0185,
+   "probabilities": {
+    "home": 0.3769,
+    "draw": 0.249,
+    "away": 0.3741,
+    "over25": 0.5681,
+    "under25": 0.4319,
+    "btts": 0.5989,
+    "btts_over25": 0.4834,
+    "dc_1x": 0.6259,
+    "dc_x2": 0.6231,
+    "dc_12": 0.751
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1155
+    ],
+    [
+     "2-1",
+     0.0842
+    ],
+    [
+     "1-2",
+     0.0838
+    ]
+   ],
+   "market": {
+    "home": 0.3701,
+    "draw": 0.2628,
+    "away": 0.3671,
+    "over25": 0.571
+   },
+   "odds": {
+    "home": 2.55,
+    "draw": 3.52,
+    "away": 2.57,
+    "over25": 1.66,
+    "under25": 2.15
+   },
+   "team_matches": [
+    108,
+    92
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E2|2026-11-24|Blackpool|Leicester",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Blackpool",
+   "away": "Leicester",
+   "expected_goals": [
+    1.26,
+    2.0
+   ],
+   "model_expected_goals": [
+    1.3,
+    1.47
+   ],
+   "rho": -0.0064,
+   "probabilities": {
+    "home": 0.239,
+    "draw": 0.2176,
+    "away": 0.5434,
+    "over25": 0.6327,
+    "under25": 0.3673,
+    "btts": 0.6207,
+    "btts_over25": 0.5233,
+    "dc_1x": 0.4566,
+    "dc_x2": 0.761,
+    "dc_12": 0.7824
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0974
+    ],
+    [
+     "1-2",
+     0.0967
+    ],
+    [
+     "0-2",
+     0.0765
+    ]
+   ],
+   "market": {
+    "home": 0.2166,
+    "draw": 0.2211,
+    "away": 0.5623,
+    "over25": 0.6537
+   },
+   "odds": {
+    "home": 4.16,
+    "draw": 4.08,
+    "away": 1.71,
+    "over25": 1.46,
+    "under25": 2.57
+   },
+   "team_matches": [
+    134,
+    14
+   ],
+   "flags": [
+    "Leicester relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E2|2026-11-24|Bradford|Barnsley",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Bradford",
+   "away": "Barnsley",
+   "expected_goals": [
+    2.11,
+    1.13
+   ],
+   "model_expected_goals": [
+    1.55,
+    1.08
+   ],
+   "rho": -0.0064,
+   "probabilities": {
+    "home": 0.5991,
+    "draw": 0.2061,
+    "away": 0.1947,
+    "over25": 0.6287,
+    "under25": 0.3713,
+    "btts": 0.5951,
+    "btts_over25": 0.5013,
+    "dc_1x": 0.8053,
+    "dc_x2": 0.4009,
+    "dc_12": 0.7939
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0985
+    ],
+    [
+     "1-1",
+     0.0938
+    ],
+    [
+     "2-0",
+     0.0874
+    ]
+   ],
+   "market": {
+    "home": 0.6184,
+    "draw": 0.2026,
+    "away": 0.1791,
+    "over25": 0.6543
+   },
+   "odds": {
+    "home": 1.56,
+    "draw": 4.38,
+    "away": 4.91,
+    "over25": 1.46,
+    "under25": 2.58
+   },
+   "team_matches": [
+    60,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E2|2026-11-24|Bromley|Wycombe",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Bromley",
+   "away": "Wycombe",
+   "expected_goals": [
+    1.14,
+    1.84
+   ],
+   "model_expected_goals": [
+    1.14,
+    1.72
+   ],
+   "rho": -0.0064,
+   "probabilities": {
+    "home": 0.2337,
+    "draw": 0.2294,
+    "away": 0.5368,
+    "over25": 0.5722,
+    "under25": 0.4278,
+    "btts": 0.5727,
+    "btts_over25": 0.4655,
+    "dc_1x": 0.4632,
+    "dc_x2": 0.7663,
+    "dc_12": 0.7706
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1072
+    ],
+    [
+     "1-2",
+     0.098
+    ],
+    [
+     "0-1",
+     0.0928
+    ]
+   ],
+   "market": {
+    "home": 0.2259,
+    "draw": 0.2368,
+    "away": 0.5374,
+    "over25": 0.5772
+   },
+   "odds": {
+    "home": 3.98,
+    "draw": 3.81,
+    "away": 1.78,
+    "over25": 1.64,
+    "under25": 2.17
+   },
+   "team_matches": [
+    14,
+    136
+   ],
+   "flags": [
+    "Bromley new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E2|2026-11-24|Stevenage|Sheffield Weds",
+   "league": "E2",
+   "league_name": "England · League One",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Stevenage",
+   "away": "Sheffield Weds",
+   "expected_goals": [
+    1.32,
+    1.36
+   ],
+   "model_expected_goals": [
+    1.11,
+    1.21
+   ],
+   "rho": -0.0064,
+   "probabilities": {
+    "home": 0.3588,
+    "draw": 0.2606,
+    "away": 0.3806,
+    "over25": 0.5021,
+    "under25": 0.4979,
+    "btts": 0.546,
+    "btts_over25": 0.4222,
+    "dc_1x": 0.6194,
+    "dc_x2": 0.6412,
+    "dc_12": 0.7394
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1238
+    ],
+    [
+     "0-1",
+     0.0926
+    ],
+    [
+     "1-0",
+     0.0893
+    ]
+   ],
+   "market": {
+    "home": 0.3564,
+    "draw": 0.2704,
+    "away": 0.3732,
+    "over25": 0.5194
+   },
+   "odds": {
+    "home": 2.62,
+    "draw": 3.39,
+    "away": 2.51,
+    "over25": 1.8,
+    "under25": 1.93
+   },
+   "team_matches": [
+    133,
+    15
+   ],
+   "flags": [
+    "Sheffield Weds relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E3|2026-11-24|Crawley Town|Barnet",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Crawley Town",
+   "away": "Barnet",
+   "expected_goals": [
+    1.27,
+    1.85
+   ],
+   "model_expected_goals": [
+    1.24,
+    1.52
+   ],
+   "rho": -0.0194,
+   "probabilities": {
+    "home": 0.2603,
+    "draw": 0.231,
+    "away": 0.5087,
+    "over25": 0.6045,
+    "under25": 0.3955,
+    "btts": 0.6091,
+    "btts_over25": 0.5036,
+    "dc_1x": 0.4913,
+    "dc_x2": 0.7397,
+    "dc_12": 0.769
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1055
+    ],
+    [
+     "1-2",
+     0.096
+    ],
+    [
+     "0-1",
+     0.0794
+    ]
+   ],
+   "market": {
+    "home": 0.2464,
+    "draw": 0.2366,
+    "away": 0.517,
+    "over25": 0.6196
+   },
+   "odds": {
+    "home": 3.65,
+    "draw": 3.79,
+    "away": 1.84,
+    "over25": 1.53,
+    "under25": 2.36
+   },
+   "team_matches": [
+    88,
+    60
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E3|2026-11-24|Port Vale|Northampton",
+   "league": "E3",
+   "league_name": "England · League Two",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Port Vale",
+   "away": "Northampton",
+   "expected_goals": [
+    1.37,
+    1.0
+   ],
+   "model_expected_goals": [
+    1.22,
+    1.03
+   ],
+   "rho": -0.0194,
+   "probabilities": {
+    "home": 0.451,
+    "draw": 0.2779,
+    "away": 0.2711,
+    "over25": 0.4212,
+    "under25": 0.5788,
+    "btts": 0.4729,
+    "btts_over25": 0.3423,
+    "dc_1x": 0.7289,
+    "dc_x2": 0.549,
+    "dc_12": 0.7221
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1306
+    ],
+    [
+     "1-0",
+     0.126
+    ],
+    [
+     "0-0",
+     0.0964
+    ]
+   ],
+   "market": {
+    "home": 0.4565,
+    "draw": 0.2826,
+    "away": 0.2608,
+    "over25": 0.427
+   },
+   "odds": {
+    "home": 2.07,
+    "draw": 3.23,
+    "away": 3.48,
+    "over25": 2.13,
+    "under25": 1.64
+   },
+   "team_matches": [
+    60,
+    15
+   ],
+   "flags": [
+    "Northampton relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "EC|2026-11-24|Altrincham|Wealdstone",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Altrincham",
+   "away": "Wealdstone",
+   "expected_goals": [
+    1.87,
+    1.3
+   ],
+   "model_expected_goals": [
+    1.67,
+    1.3
+   ],
+   "rho": 0.006,
+   "probabilities": {
+    "home": 0.51,
+    "draw": 0.2242,
+    "away": 0.2658,
+    "over25": 0.6143,
+    "under25": 0.3857,
+    "btts": 0.6147,
+    "btts_over25": 0.5134,
+    "dc_1x": 0.7342,
+    "dc_x2": 0.49,
+    "dc_12": 0.7758
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1013
+    ],
+    [
+     "2-1",
+     0.0955
+    ],
+    [
+     "1-0",
+     0.0792
+    ]
+   ],
+   "market": {
+    "home": 0.5107,
+    "draw": 0.2372,
+    "away": 0.2522,
+    "over25": 0.6221
+   },
+   "odds": {
+    "home": 1.84,
+    "draw": 3.69,
+    "away": 3.49,
+    "over25": 1.52,
+    "under25": 2.36
+   },
+   "team_matches": [
+    136,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "EC|2026-11-24|Boston Utd|Barrow",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Boston Utd",
+   "away": "Barrow",
+   "expected_goals": [
+    1.41,
+    1.65
+   ],
+   "model_expected_goals": [
+    1.26,
+    1.57
+   ],
+   "rho": 0.006,
+   "probabilities": {
+    "home": 0.3306,
+    "draw": 0.2371,
+    "away": 0.4323,
+    "over25": 0.5906,
+    "under25": 0.4094,
+    "btts": 0.6106,
+    "btts_over25": 0.5022,
+    "dc_1x": 0.5677,
+    "dc_x2": 0.6694,
+    "dc_12": 0.7629
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1084
+    ],
+    [
+     "1-2",
+     0.0898
+    ],
+    [
+     "0-1",
+     0.0778
+    ]
+   ],
+   "market": {
+    "home": 0.324,
+    "draw": 0.2574,
+    "away": 0.4185,
+    "over25": 0.6004
+   },
+   "odds": {
+    "home": 2.79,
+    "draw": 3.44,
+    "away": 2.21,
+    "over25": 1.57,
+    "under25": 2.25
+   },
+   "team_matches": [
+    110,
+    17
+   ],
+   "flags": [
+    "Barrow relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "EC|2026-11-24|Carlisle|Tamworth",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Carlisle",
+   "away": "Tamworth",
+   "expected_goals": [
+    2.47,
+    1.09
+   ],
+   "model_expected_goals": [
+    2.16,
+    1.15
+   ],
+   "rho": 0.006,
+   "probabilities": {
+    "home": 0.6748,
+    "draw": 0.1743,
+    "away": 0.1509,
+    "over25": 0.6901,
+    "under25": 0.3099,
+    "btts": 0.6081,
+    "btts_over25": 0.5318,
+    "dc_1x": 0.8491,
+    "dc_x2": 0.3252,
+    "dc_12": 0.8257
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0946
+    ],
+    [
+     "2-0",
+     0.0865
+    ],
+    [
+     "3-1",
+     0.0778
+    ]
+   ],
+   "market": {
+    "home": 0.6844,
+    "draw": 0.174,
+    "away": 0.1415,
+    "over25": 0.6988
+   },
+   "odds": {
+    "home": 1.4,
+    "draw": 4.72,
+    "away": 5.67,
+    "over25": 1.37,
+    "under25": 2.87
+   },
+   "team_matches": [
+    64,
+    109
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "EC|2026-11-24|Eastleigh|Yeovil",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Eastleigh",
+   "away": "Yeovil",
+   "expected_goals": [
+    1.43,
+    1.67
+   ],
+   "model_expected_goals": [
+    1.43,
+    1.38
+   ],
+   "rho": 0.006,
+   "probabilities": {
+    "home": 0.3307,
+    "draw": 0.2355,
+    "away": 0.4338,
+    "over25": 0.5983,
+    "under25": 0.4017,
+    "btts": 0.6165,
+    "btts_over25": 0.5094,
+    "dc_1x": 0.5662,
+    "dc_x2": 0.6693,
+    "dc_12": 0.7645
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.107
+    ],
+    [
+     "1-2",
+     0.0898
+    ],
+    [
+     "2-1",
+     0.077
+    ]
+   ],
+   "market": {
+    "home": 0.3133,
+    "draw": 0.2471,
+    "away": 0.4396,
+    "over25": 0.6105
+   },
+   "odds": {
+    "home": 2.87,
+    "draw": 3.56,
+    "away": 2.11,
+    "over25": 1.55,
+    "under25": 2.31
+   },
+   "team_matches": [
+    135,
+    110
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "EC|2026-11-24|Forest Green|Southend",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Forest Green",
+   "away": "Southend",
+   "expected_goals": [
+    1.84,
+    1.67
+   ],
+   "model_expected_goals": [
+    1.56,
+    1.42
+   ],
+   "rho": 0.006,
+   "probabilities": {
+    "home": 0.4262,
+    "draw": 0.2205,
+    "away": 0.3533,
+    "over25": 0.6811,
+    "under25": 0.3189,
+    "btts": 0.6822,
+    "btts_over25": 0.5909,
+    "dc_1x": 0.6467,
+    "dc_x2": 0.5738,
+    "dc_12": 0.7795
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0913
+    ],
+    [
+     "2-1",
+     0.0847
+    ],
+    [
+     "1-2",
+     0.0765
+    ]
+   ],
+   "market": {
+    "home": 0.4197,
+    "draw": 0.2354,
+    "away": 0.3448,
+    "over25": 0.6993
+   },
+   "odds": {
+    "home": 2.2,
+    "draw": 3.72,
+    "away": 2.63,
+    "over25": 1.37,
+    "under25": 2.88
+   },
+   "team_matches": [
+    107,
+    136
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "EC|2026-11-24|Fylde|Halifax",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Fylde",
+   "away": "Halifax",
+   "expected_goals": [
+    1.98,
+    1.5
+   ],
+   "model_expected_goals": [
+    1.5,
+    1.42
+   ],
+   "rho": 0.006,
+   "probabilities": {
+    "home": 0.4913,
+    "draw": 0.216,
+    "away": 0.2926,
+    "over25": 0.6756,
+    "under25": 0.3244,
+    "btts": 0.6689,
+    "btts_over25": 0.578,
+    "dc_1x": 0.7074,
+    "dc_x2": 0.5087,
+    "dc_12": 0.784
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.0909
+    ],
+    [
+     "2-1",
+     0.0907
+    ],
+    [
+     "1-2",
+     0.0684
+    ]
+   ],
+   "market": {
+    "home": 0.5017,
+    "draw": 0.2264,
+    "away": 0.2719,
+    "over25": 0.6963
+   },
+   "odds": {
+    "home": 1.87,
+    "draw": 3.85,
+    "away": 3.26,
+    "over25": 1.37,
+    "under25": 2.82
+   },
+   "team_matches": [
+    89,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "EC|2026-11-24|Hornchurch|Sutton",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Hornchurch",
+   "away": "Sutton",
+   "expected_goals": [
+    1.33,
+    1.25
+   ],
+   "model_expected_goals": [
+    1.33,
+    1.35
+   ],
+   "rho": 0.006,
+   "probabilities": {
+    "home": 0.3869,
+    "draw": 0.2632,
+    "away": 0.3499,
+    "over25": 0.4771,
+    "under25": 0.5229,
+    "btts": 0.5245,
+    "btts_over25": 0.3993,
+    "dc_1x": 0.6501,
+    "dc_x2": 0.6131,
+    "dc_12": 0.7368
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1252
+    ],
+    [
+     "1-0",
+     0.1014
+    ],
+    [
+     "0-1",
+     0.0954
+    ]
+   ],
+   "market": {
+    "home": 0.3809,
+    "draw": 0.2829,
+    "away": 0.3362,
+    "over25": 0.4729
+   },
+   "odds": {
+    "home": 2.41,
+    "draw": 3.16,
+    "away": 2.7,
+    "over25": 1.95,
+    "under25": 1.77
+   },
+   "team_matches": [
+    18,
+    110
+   ],
+   "flags": [
+    "Hornchurch new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "EC|2026-11-24|Scunthorpe|Gateshead",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Scunthorpe",
+   "away": "Gateshead",
+   "expected_goals": [
+    2.34,
+    1.06
+   ],
+   "model_expected_goals": [
+    1.95,
+    1.18
+   ],
+   "rho": 0.006,
+   "probabilities": {
+    "home": 0.6587,
+    "draw": 0.1832,
+    "away": 0.1581,
+    "over25": 0.6609,
+    "under25": 0.3391,
+    "btts": 0.5911,
+    "btts_over25": 0.5089,
+    "dc_1x": 0.8419,
+    "dc_x2": 0.3413,
+    "dc_12": 0.8168
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0968
+    ],
+    [
+     "2-0",
+     0.0911
+    ],
+    [
+     "1-1",
+     0.0823
+    ]
+   ],
+   "market": {
+    "home": 0.6743,
+    "draw": 0.1817,
+    "away": 0.144,
+    "over25": 0.6718
+   },
+   "odds": {
+    "home": 1.42,
+    "draw": 4.56,
+    "away": 5.61,
+    "over25": 1.42,
+    "under25": 2.67
+   },
+   "team_matches": [
+    63,
+    135
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "EC|2026-11-24|Woking|Worthing",
+   "league": "EC",
+   "league_name": "England · National League",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Woking",
+   "away": "Worthing",
+   "expected_goals": [
+    1.72,
+    1.49
+   ],
+   "model_expected_goals": [
+    1.69,
+    1.27
+   ],
+   "rho": 0.006,
+   "probabilities": {
+    "home": 0.4325,
+    "draw": 0.2311,
+    "away": 0.3364,
+    "over25": 0.6222,
+    "under25": 0.3778,
+    "btts": 0.6354,
+    "btts_over25": 0.5326,
+    "dc_1x": 0.6636,
+    "dc_x2": 0.5675,
+    "dc_12": 0.7689
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1028
+    ],
+    [
+     "2-1",
+     0.0888
+    ],
+    [
+     "1-2",
+     0.0772
+    ]
+   ],
+   "market": {
+    "home": 0.4147,
+    "draw": 0.2505,
+    "away": 0.3348,
+    "over25": 0.6321
+   },
+   "odds": {
+    "home": 2.23,
+    "draw": 3.53,
+    "away": 2.71,
+    "over25": 1.5,
+    "under25": 2.42
+   },
+   "team_matches": [
+    134,
+    18
+   ],
+   "flags": [
+    "Worthing new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "SC0|2026-11-24|Hibernian|Dundee",
+   "league": "SC0",
+   "league_name": "Scotland · Premiership",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T19:45:00+00:00",
+   "home": "Hibernian",
+   "away": "Dundee",
+   "expected_goals": [
+    1.97,
+    1.04
+   ],
+   "model_expected_goals": [
+    1.88,
+    1.11
+   ],
+   "rho": 0.0159,
+   "probabilities": {
+    "home": 0.5923,
+    "draw": 0.2119,
+    "away": 0.1958,
+    "over25": 0.5798,
+    "under25": 0.4202,
+    "btts": 0.555,
+    "btts_over25": 0.4558,
+    "dc_1x": 0.8042,
+    "dc_x2": 0.4077,
+    "dc_12": 0.7881
+   },
+   "top_scores": [
+    [
+     "2-1",
+     0.0995
+    ],
+    [
+     "1-1",
+     0.0992
+    ],
+    [
+     "1-0",
+     0.0986
+    ]
+   ],
+   "market": {
+    "home": 0.5936,
+    "draw": 0.2204,
+    "away": 0.186,
+    "over25": 0.5813
+   },
+   "odds": {
+    "home": 1.62,
+    "draw": 4.05,
+    "away": 4.74,
+    "over25": 1.63,
+    "under25": 2.19
+   },
+   "team_matches": [
+    114,
+    115
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "E1|2026-11-24|Wolves|Derby",
+   "league": "E1",
+   "league_name": "England · Championship",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T20:00:00+00:00",
+   "home": "Wolves",
+   "away": "Derby",
+   "expected_goals": [
+    2.27,
+    0.69
+   ],
+   "model_expected_goals": [
+    1.92,
+    0.94
+   ],
+   "rho": -0.0185,
+   "probabilities": {
+    "home": 0.7302,
+    "draw": 0.1737,
+    "away": 0.096,
+    "over25": 0.5696,
+    "under25": 0.4304,
+    "btts": 0.4504,
+    "btts_over25": 0.3677,
+    "dc_1x": 0.904,
+    "dc_x2": 0.2698,
+    "dc_12": 0.8263
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1329
+    ],
+    [
+     "1-0",
+     0.1154
+    ],
+    [
+     "3-0",
+     0.1008
+    ]
+   ],
+   "market": {
+    "home": 0.7512,
+    "draw": 0.1626,
+    "away": 0.0862,
+    "over25": 0.5772
+   },
+   "odds": {
+    "home": 1.3,
+    "draw": 5.29,
+    "away": 9.47,
+    "over25": 1.64,
+    "under25": 2.17
+   },
+   "team_matches": [
+    16,
+    108
+   ],
+   "flags": [
+    "Wolves relegated"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "SC0|2026-11-24|Rangers|Aberdeen",
+   "league": "SC0",
+   "league_name": "Scotland · Premiership",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T20:00:00+00:00",
+   "home": "Rangers",
+   "away": "Aberdeen",
+   "expected_goals": [
+    2.69,
+    0.76
+   ],
+   "model_expected_goals": [
+    2.15,
+    0.94
+   ],
+   "rho": 0.0159,
+   "probabilities": {
+    "home": 0.7812,
+    "draw": 0.1368,
+    "away": 0.0821,
+    "over25": 0.6694,
+    "under25": 0.3306,
+    "btts": 0.4958,
+    "btts_over25": 0.4317,
+    "dc_1x": 0.9179,
+    "dc_x2": 0.2188,
+    "dc_12": 0.8632
+   },
+   "top_scores": [
+    [
+     "2-0",
+     0.1148
+    ],
+    [
+     "3-0",
+     0.1028
+    ],
+    [
+     "2-1",
+     0.0874
+    ]
+   ],
+   "market": {
+    "home": 0.8005,
+    "draw": 0.128,
+    "away": 0.0715,
+    "over25": 0.6843
+   },
+   "odds": {
+    "home": 1.22,
+    "draw": 6.28,
+    "away": 10.56,
+    "over25": 1.4,
+    "under25": 2.78
+   },
+   "team_matches": [
+    115,
+    116
+   ],
+   "flags": [],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
+  },
+  {
+   "id": "BRA|2026-11-24|Chapecoense-SC|Palmeiras",
+   "league": "BRA",
+   "league_name": "Brazil · Serie A",
+   "date": "2026-11-24",
+   "kickoff": "2026-11-24T21:00:00+00:00",
+   "home": "Chapecoense-SC",
+   "away": "Palmeiras",
+   "expected_goals": [
+    1.14,
+    1.63
+   ],
+   "model_expected_goals": [
+    0.88,
+    1.9
+   ],
+   "rho": -0.0353,
+   "probabilities": {
+    "home": 0.2624,
+    "draw": 0.2541,
+    "away": 0.4835,
+    "over25": 0.5228,
+    "under25": 0.4772,
+    "btts": 0.5506,
+    "btts_over25": 0.43,
+    "dc_1x": 0.5165,
+    "dc_x2": 0.7376,
+    "dc_12": 0.7459
+   },
+   "top_scores": [
+    [
+     "1-1",
+     0.1206
+    ],
+    [
+     "0-1",
+     0.0982
+    ],
+    [
+     "1-2",
+     0.0949
+    ]
+   ],
+   "market": {
+    "home": 0.2795,
+    "draw": 0.264,
+    "away": 0.4566,
+    "over25": null
+   },
+   "odds": {
+    "home": 3.29,
+    "draw": 3.47,
+    "away": 2.08,
+    "over25": null,
+    "under25": null
+   },
+   "team_matches": [
+    36,
+    116
+   ],
+   "flags": [
+    "Chapecoense-SC new to league"
+   ],
+   "result": null,
+   "predicted_at": "2026-11-24T15:56:21+00:00"
   }
  ],
  "picks": {
   "btts_over25": [
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-24|Forest Green|Southend",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Forest Green",
+    "away": "Southend",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5909,
+    "fair_odds": 1.69,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-24|Fylde|Halifax",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Fylde",
+    "away": "Halifax",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.578,
+    "fair_odds": 1.73,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-24|Woking|Worthing",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Woking",
+    "away": "Worthing",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5326,
+    "fair_odds": 1.88,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-24|Carlisle|Tamworth",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Carlisle",
+    "away": "Tamworth",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5318,
+    "fair_odds": 1.88,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E2|2026-11-24|Blackpool|Leicester",
+    "league": "E2",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Blackpool",
+    "away": "Leicester",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5233,
+    "fair_odds": 1.91,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-11-24|Cardiff|Preston",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Cardiff",
+    "away": "Preston",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5185,
+    "fair_odds": 1.93,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-24|Altrincham|Wealdstone",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Altrincham",
+    "away": "Wealdstone",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5134,
+    "fair_odds": 1.95,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-24|Eastleigh|Yeovil",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Eastleigh",
+    "away": "Yeovil",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5094,
+    "fair_odds": 1.96,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-24|Scunthorpe|Gateshead",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Scunthorpe",
+    "away": "Gateshead",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5089,
+    "fair_odds": 1.97,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E3|2026-11-24|Crawley Town|Barnet",
+    "league": "E3",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Crawley Town",
+    "away": "Barnet",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5036,
+    "fair_odds": 1.99,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "EC|2026-11-24|Boston Utd|Barrow",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Boston Utd",
+    "away": "Barrow",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5022,
+    "fair_odds": 1.99,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E2|2026-11-24|Bradford|Barnsley",
+    "league": "E2",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Bradford",
+    "away": "Barnsley",
+    "selection": "BTTS & Over 2.5",
+    "tier": "strong",
+    "probability": 0.5013,
+    "fair_odds": 1.99,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
    {
     "market": "btts_over25",
     "match_id": "USA|2026-11-24|St. Louis City|Los Angeles FC",
@@ -152,11 +2434,320 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-22T01:34:01+00:00",
+    "status": "won",
+    "result": [
+     3,
+     2
+    ]
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-11-24|Sheffield United|Southampton",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Sheffield United",
+    "away": "Southampton",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4834,
+    "fair_odds": 2.07,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-11-24|Norwich|QPR",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Norwich",
+    "away": "QPR",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4812,
+    "fair_odds": 2.08,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts_over25",
+    "match_id": "E1|2026-11-24|Middlesbrough|Swansea",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Middlesbrough",
+    "away": "Swansea",
+    "selection": "BTTS & Over 2.5",
+    "tier": "extra",
+    "probability": 0.4709,
+    "fair_odds": 2.12,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
     "status": "pending",
     "result": null
    }
   ],
   "over25": [
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-24|Carlisle|Tamworth",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Carlisle",
+    "away": "Tamworth",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6901,
+    "fair_odds": 1.45,
+    "market_odds": 1.37,
+    "edge": -0.0545,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-24|Forest Green|Southend",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Forest Green",
+    "away": "Southend",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6811,
+    "fair_odds": 1.47,
+    "market_odds": 1.37,
+    "edge": -0.067,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-24|Fylde|Halifax",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Fylde",
+    "away": "Halifax",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6756,
+    "fair_odds": 1.48,
+    "market_odds": 1.37,
+    "edge": -0.0744,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SC0|2026-11-24|Rangers|Aberdeen",
+    "league": "SC0",
+    "kickoff": "2026-11-24T20:00:00+00:00",
+    "home": "Rangers",
+    "away": "Aberdeen",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6694,
+    "fair_odds": 1.49,
+    "market_odds": 1.4,
+    "edge": -0.0628,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-24|Scunthorpe|Gateshead",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Scunthorpe",
+    "away": "Gateshead",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6609,
+    "fair_odds": 1.51,
+    "market_odds": 1.42,
+    "edge": -0.0615,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-11-24|Cardiff|Preston",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Cardiff",
+    "away": "Preston",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6593,
+    "fair_odds": 1.52,
+    "market_odds": 1.41,
+    "edge": -0.0704,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E2|2026-11-24|Blackpool|Leicester",
+    "league": "E2",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Blackpool",
+    "away": "Leicester",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6327,
+    "fair_odds": 1.58,
+    "market_odds": 1.46,
+    "edge": -0.0763,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E2|2026-11-24|Bradford|Barnsley",
+    "league": "E2",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Bradford",
+    "away": "Barnsley",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6287,
+    "fair_odds": 1.59,
+    "market_odds": 1.46,
+    "edge": -0.0821,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E1|2026-11-24|Middlesbrough|Swansea",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Middlesbrough",
+    "away": "Swansea",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6226,
+    "fair_odds": 1.61,
+    "market_odds": 1.49,
+    "edge": -0.0724,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-24|Woking|Worthing",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Woking",
+    "away": "Worthing",
+    "selection": "Over 2.5",
+    "tier": "strong",
+    "probability": 0.6222,
+    "fair_odds": 1.61,
+    "market_odds": 1.5,
+    "edge": -0.0668,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-24|Altrincham|Wealdstone",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Altrincham",
+    "away": "Wealdstone",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6143,
+    "fair_odds": 1.63,
+    "market_odds": 1.52,
+    "edge": -0.0663,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "E3|2026-11-24|Crawley Town|Barnet",
+    "league": "E3",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Crawley Town",
+    "away": "Barnet",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.6045,
+    "fair_odds": 1.65,
+    "market_odds": 1.53,
+    "edge": -0.0751,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-24|Eastleigh|Yeovil",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Eastleigh",
+    "away": "Yeovil",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5983,
+    "fair_odds": 1.67,
+    "market_odds": 1.55,
+    "edge": -0.0726,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "EC|2026-11-24|Boston Utd|Barrow",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Boston Utd",
+    "away": "Barrow",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5906,
+    "fair_odds": 1.69,
+    "market_odds": 1.57,
+    "edge": -0.0728,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "over25",
+    "match_id": "SC0|2026-11-24|Hibernian|Dundee",
+    "league": "SC0",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Hibernian",
+    "away": "Dundee",
+    "selection": "Over 2.5",
+    "tier": "extra",
+    "probability": 0.5798,
+    "fair_odds": 1.72,
+    "market_odds": 1.63,
+    "edge": -0.0549,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
    {
     "market": "over25",
     "match_id": "USA|2026-11-24|St. Louis City|Los Angeles FC",
@@ -171,11 +2762,184 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-22T01:34:01+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     2
+    ]
    }
   ],
   "btts": [
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-24|Forest Green|Southend",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Forest Green",
+    "away": "Southend",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6822,
+    "fair_odds": 1.47,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-24|Fylde|Halifax",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Fylde",
+    "away": "Halifax",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6689,
+    "fair_odds": 1.5,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-24|Woking|Worthing",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Woking",
+    "away": "Worthing",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6354,
+    "fair_odds": 1.57,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E2|2026-11-24|Blackpool|Leicester",
+    "league": "E2",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Blackpool",
+    "away": "Leicester",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6207,
+    "fair_odds": 1.61,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-24|Eastleigh|Yeovil",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Eastleigh",
+    "away": "Yeovil",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6165,
+    "fair_odds": 1.62,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-24|Altrincham|Wealdstone",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Altrincham",
+    "away": "Wealdstone",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6147,
+    "fair_odds": 1.63,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-24|Boston Utd|Barrow",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Boston Utd",
+    "away": "Barrow",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6106,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E3|2026-11-24|Crawley Town|Barnet",
+    "league": "E3",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Crawley Town",
+    "away": "Barnet",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6091,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-24|Carlisle|Tamworth",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Carlisle",
+    "away": "Tamworth",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6081,
+    "fair_odds": 1.64,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-11-24|Cardiff|Preston",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Cardiff",
+    "away": "Preston",
+    "selection": "BTTS Yes",
+    "tier": "strong",
+    "probability": 0.6055,
+    "fair_odds": 1.65,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
    {
     "market": "btts",
     "match_id": "USA|2026-11-24|St. Louis City|Los Angeles FC",
@@ -190,11 +2954,235 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-22T01:34:01+00:00",
+    "status": "won",
+    "result": [
+     3,
+     2
+    ]
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-11-24|Sheffield United|Southampton",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Sheffield United",
+    "away": "Southampton",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5989,
+    "fair_odds": 1.67,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E2|2026-11-24|Bradford|Barnsley",
+    "league": "E2",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Bradford",
+    "away": "Barnsley",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5951,
+    "fair_odds": 1.68,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "E1|2026-11-24|Norwich|QPR",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Norwich",
+    "away": "QPR",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5916,
+    "fair_odds": 1.69,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "EC|2026-11-24|Scunthorpe|Gateshead",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Scunthorpe",
+    "away": "Gateshead",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5911,
+    "fair_odds": 1.69,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "btts",
+    "match_id": "I2|2026-11-24|Juve Stabia|Catanzaro",
+    "league": "I2",
+    "kickoff": "2026-11-24T18:00:00+00:00",
+    "home": "Juve Stabia",
+    "away": "Catanzaro",
+    "selection": "BTTS Yes",
+    "tier": "extra",
+    "probability": 0.5772,
+    "fair_odds": 1.73,
+    "market_odds": null,
+    "edge": null,
+    "published_at": "2026-11-24T15:56:21+00:00",
     "status": "pending",
     "result": null
    }
   ],
   "double_chance": [
+   {
+    "market": "double_chance",
+    "match_id": "SC0|2026-11-24|Rangers|Aberdeen",
+    "league": "SC0",
+    "kickoff": "2026-11-24T20:00:00+00:00",
+    "home": "Rangers",
+    "away": "Aberdeen",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.9179,
+    "fair_odds": 1.09,
+    "market_odds": 1.02,
+    "edge": -0.0623,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-11-24|Wolves|Derby",
+    "league": "E1",
+    "kickoff": "2026-11-24T20:00:00+00:00",
+    "home": "Wolves",
+    "away": "Derby",
+    "selection": "1X",
+    "tier": "banker",
+    "probability": 0.904,
+    "fair_odds": 1.11,
+    "market_odds": 1.04,
+    "edge": -0.0567,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "I2|2026-11-24|Palermo|Sudtirol",
+    "league": "I2",
+    "kickoff": "2026-11-24T19:00:00+00:00",
+    "home": "Palermo",
+    "away": "Sudtirol",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8571,
+    "fair_odds": 1.17,
+    "market_odds": 1.09,
+    "edge": -0.0658,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-24|Carlisle|Tamworth",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Carlisle",
+    "away": "Tamworth",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8491,
+    "fair_odds": 1.18,
+    "market_odds": 1.08,
+    "edge": -0.0832,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-11-24|Middlesbrough|Swansea",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Middlesbrough",
+    "away": "Swansea",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8468,
+    "fair_odds": 1.18,
+    "market_odds": 1.1,
+    "edge": -0.0656,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-24|Scunthorpe|Gateshead",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Scunthorpe",
+    "away": "Gateshead",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8419,
+    "fair_odds": 1.19,
+    "market_odds": 1.08,
+    "edge": -0.0884,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "I2|2026-11-24|Benevento|Empoli",
+    "league": "I2",
+    "kickoff": "2026-11-24T19:00:00+00:00",
+    "home": "Benevento",
+    "away": "Empoli",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8362,
+    "fair_odds": 1.2,
+    "market_odds": 1.1,
+    "edge": -0.0778,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E1|2026-11-24|Cardiff|Preston",
+    "league": "E1",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Cardiff",
+    "away": "Preston",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8272,
+    "fair_odds": 1.21,
+    "market_odds": 1.12,
+    "edge": -0.0714,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
    {
     "market": "double_chance",
     "match_id": "BRA|2026-11-24|Santos|Gremio",
@@ -213,8 +3201,126 @@
     "result": [
      0,
      2
-    ],
-    "provisional": true
+    ]
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E2|2026-11-24|Bradford|Barnsley",
+    "league": "E2",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Bradford",
+    "away": "Barnsley",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8053,
+    "fair_odds": 1.24,
+    "market_odds": 1.15,
+    "edge": -0.0737,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "SC0|2026-11-24|Hibernian|Dundee",
+    "league": "SC0",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Hibernian",
+    "away": "Dundee",
+    "selection": "1X",
+    "tier": "strong",
+    "probability": 0.8042,
+    "fair_odds": 1.24,
+    "market_odds": 1.16,
+    "edge": -0.0694,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-24|Fylde|Halifax",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Fylde",
+    "away": "Halifax",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.784,
+    "fair_odds": 1.28,
+    "market_odds": 1.19,
+    "edge": -0.0684,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E2|2026-11-24|Blackpool|Leicester",
+    "league": "E2",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Blackpool",
+    "away": "Leicester",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7824,
+    "fair_odds": 1.28,
+    "market_odds": 1.21,
+    "edge": -0.0518,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-24|Forest Green|Southend",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Forest Green",
+    "away": "Southend",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7795,
+    "fair_odds": 1.28,
+    "market_odds": 1.2,
+    "edge": -0.0662,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "EC|2026-11-24|Altrincham|Wealdstone",
+    "league": "EC",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Altrincham",
+    "away": "Wealdstone",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7758,
+    "fair_odds": 1.29,
+    "market_odds": 1.2,
+    "edge": -0.0653,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
+   },
+   {
+    "market": "double_chance",
+    "match_id": "E2|2026-11-24|Bromley|Wycombe",
+    "league": "E2",
+    "kickoff": "2026-11-24T19:45:00+00:00",
+    "home": "Bromley",
+    "away": "Wycombe",
+    "selection": "12",
+    "tier": "extra",
+    "probability": 0.7706,
+    "fair_odds": 1.3,
+    "market_odds": 1.23,
+    "edge": -0.0523,
+    "published_at": "2026-11-24T15:56:21+00:00",
+    "status": "pending",
+    "result": null
    },
    {
     "market": "double_chance",
@@ -230,8 +3336,11 @@
     "market_odds": 1.3,
     "edge": -0.0273,
     "published_at": "2026-11-22T01:34:01+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     2
+    ]
    }
   ]
  },
