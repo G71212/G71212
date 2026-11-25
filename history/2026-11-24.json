@@ -588,8 +588,12 @@
     62
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-11-24|Cardiff|Preston",
@@ -652,8 +656,12 @@
     138
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    0,
+    4
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-11-24|Charlton|Lincoln",
@@ -718,8 +726,12 @@
    "flags": [
     "Lincoln new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    4,
+    0
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-11-24|Middlesbrough|Swansea",
@@ -782,8 +794,12 @@
     138
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    2,
+    1
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-11-24|Norwich|QPR",
@@ -846,8 +862,12 @@
     138
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-11-24|Portsmouth|West Ham",
@@ -912,8 +932,12 @@
    "flags": [
     "West Ham relegated"
    ],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    1,
+    0
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   },
   {
    "id": "E1|2026-11-24|Sheffield United|Southampton",
@@ -976,8 +1000,12 @@
     92
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   },
   {
    "id": "E2|2026-11-24|Blackpool|Leicester",
@@ -2080,8 +2108,12 @@
    "flags": [
     "Wolves relegated"
    ],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    3,
+    0
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   },
   {
    "id": "SC0|2026-11-24|Rangers|Aberdeen",
@@ -2210,8 +2242,12 @@
    "flags": [
     "Chapecoense-SC new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    3,
+    0
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -2315,8 +2351,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     4
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -2454,8 +2494,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -2471,8 +2515,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts_over25",
@@ -2488,8 +2536,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    }
   ],
   "over25": [
@@ -2592,8 +2644,12 @@
     "market_odds": 1.41,
     "edge": -0.0704,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     0,
+     4
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -2643,8 +2699,12 @@
     "market_odds": 1.49,
     "edge": -0.0724,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "over25",
@@ -2937,8 +2997,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     4
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -2974,8 +3038,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -3008,8 +3076,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     1,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "btts",
@@ -3078,8 +3150,12 @@
     "market_odds": 1.04,
     "edge": -0.0567,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     0
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -3129,8 +3205,12 @@
     "market_odds": 1.1,
     "edge": -0.0656,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     2,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
@@ -3180,8 +3260,12 @@
     "market_odds": 1.12,
     "edge": -0.0714,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     4
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",

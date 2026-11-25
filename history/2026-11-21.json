@@ -267,7 +267,10 @@
     92
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    2,
+    1
+   ],
    "predicted_at": "2026-11-20T14:05:11+00:00"
   },
   {
@@ -333,7 +336,10 @@
    "flags": [
     "V-Varen Nagasaki new to league"
    ],
-   "result": null,
+   "result": [
+    0,
+    0
+   ],
    "predicted_at": "2026-11-20T14:05:11+00:00"
   },
   {
@@ -397,7 +403,10 @@
     92
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    2,
+    2
+   ],
    "predicted_at": "2026-11-20T14:05:11+00:00"
   },
   {
@@ -461,7 +470,10 @@
     92
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    0,
+    0
+   ],
    "predicted_at": "2026-11-20T14:05:11+00:00"
   },
   {
@@ -525,7 +537,10 @@
     92
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    0,
+    3
+   ],
    "predicted_at": "2026-11-20T14:05:11+00:00"
   },
   {
@@ -589,7 +604,10 @@
     92
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    1,
+    0
+   ],
    "predicted_at": "2026-11-20T14:05:11+00:00"
   },
   {
@@ -653,7 +671,10 @@
     52
    ],
    "flags": [],
-   "result": null,
+   "result": [
+    0,
+    1
+   ],
    "predicted_at": "2026-11-20T14:05:11+00:00"
   },
   {
