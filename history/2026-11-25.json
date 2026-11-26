@@ -1308,8 +1308,12 @@
     114
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    1,
+    1
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   }
  ],
  "picks": {
