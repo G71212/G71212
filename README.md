@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-26 03:45 UTC · kick-off times in UTC_
+_Generated 2026-11-26 15:23 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -10,78 +10,78 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 20 matches analysed across 6 leagues.
 
-**Results:** ✅ 8 won · ❌ 6 lost · 38 pending
+**Results:** ✅ 21 won · ❌ 14 lost · 17 pending
 
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
-| 19:00 | Boreham Wood vs Aldershot | Double Chance | 1X | 93% | 1.08 |  |
-| 19:00 | Boreham Wood vs Aldershot | Over 2.5 Goals | Over 2.5 | 75% | 1.33 |  |
+| 19:00 | Boreham Wood vs Aldershot | Double Chance | 1X | 93% | 1.08 | ✅ 4-1 |
+| 19:00 | Boreham Wood vs Aldershot | Over 2.5 Goals | Over 2.5 | 75% | 1.33 | ✅ 4-1 |
 
 ### 🔥 BTTS & Over 2.5
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 19:00 | England · National League | Boreham Wood vs Aldershot | BTTS & Over 2.5 | 50% ★ | 1.99 | - |  |
+| 19:00 | England · National League | Boreham Wood vs Aldershot | BTTS & Over 2.5 | 50% ★ | 1.99 | - | ✅ 4-1 |
 | 10:00 | Japan · J1 League | V-Varen Nagasaki vs Kawasaki Frontale | BTTS & Over 2.5 | 49% ☆ | 2.04 | - |  |
-| 19:45 | England · National League | Hartlepool vs Solihull | BTTS & Over 2.5 | 49% ☆ | 2.05 | - |  |
+| 19:45 | England · National League | Hartlepool vs Solihull | BTTS & Over 2.5 | 49% ☆ | 2.05 | - | ❌ 2-0 |
 | 03:00 | USA · MLS | San Jose Earthquakes vs Houston Dynamo | BTTS & Over 2.5 | 46% ☆ | 2.17 | - |  |
 | 19:45 | England · Championship | Burnley vs Birmingham | BTTS & Over 2.5 | 46% ☆ | 2.17 | - | ❌ 0-2 |
 | 19:45 | England · Championship | Bolton vs West Brom | BTTS & Over 2.5 | 46% ☆ | 2.18 | - | ✅ 1-3 |
 | 10:30 | Japan · J1 League | Urawa Reds vs Cerezo Osaka | BTTS & Over 2.5 | 45% ☆ | 2.21 | - |  |
-| 19:00 | Italy · Serie B | Pisa vs Modena | BTTS & Over 2.5 | 44% ☆ | 2.26 | - |  |
-| 19:45 | England · National League | Harrogate vs Kidderminster | BTTS & Over 2.5 | 43% ☆ | 2.34 | - |  |
+| 19:00 | Italy · Serie B | Pisa vs Modena | BTTS & Over 2.5 | 44% ☆ | 2.26 | - | ❌ 1-1 |
+| 19:45 | England · National League | Harrogate vs Kidderminster | BTTS & Over 2.5 | 43% ☆ | 2.34 | - | ✅ 3-1 |
 | 19:45 | England · Championship | Watford vs Blackburn | BTTS & Over 2.5 | 42% ☆ | 2.38 | - | ❌ 0-1 |
-| 19:00 | Italy · Serie B | Mantova vs Arezzo | BTTS & Over 2.5 | 41% ☆ | 2.45 | - |  |
+| 19:00 | Italy · Serie B | Mantova vs Arezzo | BTTS & Over 2.5 | 41% ☆ | 2.45 | - | ❌ 3-0 |
 
 ### ⚽ Over 2.5 Goals
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 19:00 | England · National League | Boreham Wood vs Aldershot | Over 2.5 | 75% 🔒 | 1.33 | 1.26 |  |
+| 19:00 | England · National League | Boreham Wood vs Aldershot | Over 2.5 | 75% 🔒 | 1.33 | 1.26 | ✅ 4-1 |
 | 10:00 | Japan · J1 League | V-Varen Nagasaki vs Kawasaki Frontale | Over 2.5 | 59% ☆ | 1.70 | - |  |
-| 19:45 | England · National League | Hartlepool vs Solihull | Over 2.5 | 58% ☆ | 1.73 | 1.61 |  |
-| 19:45 | England · National League | Harrogate vs Kidderminster | Over 2.5 | 55% ☆ | 1.80 | 1.68 |  |
+| 19:45 | England · National League | Hartlepool vs Solihull | Over 2.5 | 58% ☆ | 1.73 | 1.61 | ❌ 2-0 |
+| 19:45 | England · National League | Harrogate vs Kidderminster | Over 2.5 | 55% ☆ | 1.80 | 1.68 | ✅ 3-1 |
 | 10:30 | Japan · J1 League | Urawa Reds vs Cerezo Osaka | Over 2.5 | 55% ☆ | 1.81 | - |  |
 | 19:45 | England · Championship | Bolton vs West Brom | Over 2.5 | 55% ☆ | 1.81 | 1.68 | ✅ 1-3 |
 | 03:00 | USA · MLS | San Jose Earthquakes vs Houston Dynamo | Over 2.5 | 55% ☆ | 1.82 | - |  |
 | 19:45 | England · Championship | Burnley vs Birmingham | Over 2.5 | 54% ☆ | 1.84 | 1.70 | ❌ 0-2 |
-| 19:00 | Italy · Serie B | Mantova vs Arezzo | Over 2.5 | 53% ☆ | 1.90 | 1.76 |  |
-| 19:00 | Italy · Serie B | Pisa vs Modena | Over 2.5 | 53% ☆ | 1.90 | 1.75 |  |
+| 19:00 | Italy · Serie B | Mantova vs Arezzo | Over 2.5 | 53% ☆ | 1.90 | 1.76 | ✅ 3-0 |
+| 19:00 | Italy · Serie B | Pisa vs Modena | Over 2.5 | 53% ☆ | 1.90 | 1.75 | ❌ 1-1 |
 | 19:45 | England · Championship | Watford vs Blackburn | Over 2.5 | 50% ☆ | 2.00 | 1.82 | ❌ 0-1 |
 
 ### 🎯 Both Teams To Score
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 19:45 | England · National League | Hartlepool vs Solihull | BTTS Yes | 60% ☆ | 1.67 | - |  |
+| 19:45 | England · National League | Hartlepool vs Solihull | BTTS Yes | 60% ☆ | 1.67 | - | ❌ 2-0 |
 | 10:00 | Japan · J1 League | V-Varen Nagasaki vs Kawasaki Frontale | BTTS Yes | 60% ☆ | 1.68 | - |  |
 | 19:45 | England · Championship | Burnley vs Birmingham | BTTS Yes | 58% ☆ | 1.72 | - | ❌ 0-2 |
 | 03:00 | USA · MLS | San Jose Earthquakes vs Houston Dynamo | BTTS Yes | 58% ☆ | 1.73 | - |  |
 | 19:45 | England · Championship | Bolton vs West Brom | BTTS Yes | 57% ☆ | 1.74 | - | ✅ 1-3 |
-| 19:00 | Italy · Serie B | Pisa vs Modena | BTTS Yes | 57% ☆ | 1.75 | - |  |
+| 19:00 | Italy · Serie B | Pisa vs Modena | BTTS Yes | 57% ☆ | 1.75 | - | ✅ 1-1 |
 | 10:30 | Japan · J1 League | Urawa Reds vs Cerezo Osaka | BTTS Yes | 56% ☆ | 1.77 | - |  |
-| 19:00 | England · National League | Boreham Wood vs Aldershot | BTTS Yes | 55% ☆ | 1.81 | - |  |
+| 19:00 | England · National League | Boreham Wood vs Aldershot | BTTS Yes | 55% ☆ | 1.81 | - | ✅ 4-1 |
 | 19:45 | England · Championship | Watford vs Blackburn | BTTS Yes | 55% ☆ | 1.83 | - | ❌ 0-1 |
-| 19:45 | England · National League | Harrogate vs Kidderminster | BTTS Yes | 53% ☆ | 1.89 | - |  |
-| 19:00 | Italy · Serie B | Mantova vs Arezzo | BTTS Yes | 53% ☆ | 1.89 | - |  |
+| 19:45 | England · National League | Harrogate vs Kidderminster | BTTS Yes | 53% ☆ | 1.89 | - | ✅ 3-1 |
+| 19:00 | Italy · Serie B | Mantova vs Arezzo | BTTS Yes | 53% ☆ | 1.89 | - | ❌ 3-0 |
 | 20:00 | England · Championship | Stoke vs Millwall | BTTS Yes | 52% ☆ | 1.92 | - | ✅ 2-1 |
 | 10:00 | Japan · J1 League | FC Tokyo vs Sanfrecce Hiroshima | BTTS Yes | 52% ☆ | 1.93 | - |  |
 | 10:00 | Japan · J1 League | Chiba vs Nagoya Grampus | BTTS Yes | 51% ☆ | 1.97 | - |  |
-| 19:00 | Italy · Serie B | Padova vs Sampdoria | BTTS Yes | 51% ☆ | 1.97 | - |  |
+| 19:00 | Italy · Serie B | Padova vs Sampdoria | BTTS Yes | 51% ☆ | 1.97 | - | ✅ 1-2 |
 
 ### 🛡️ Double Chance
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 19:00 | England · National League | Boreham Wood vs Aldershot | 1X | 93% 🔒 | 1.08 | 1.00 |  |
-| 19:00 | Italy · Serie B | Mantova vs Arezzo | 1X | 82% ★ | 1.23 | 1.14 |  |
-| 19:45 | England · National League | Harrogate vs Kidderminster | 1X | 82% ★ | 1.23 | 1.12 |  |
+| 19:00 | England · National League | Boreham Wood vs Aldershot | 1X | 93% 🔒 | 1.08 | 1.00 | ✅ 4-1 |
+| 19:00 | Italy · Serie B | Mantova vs Arezzo | 1X | 82% ★ | 1.23 | 1.14 | ✅ 3-0 |
+| 19:45 | England · National League | Harrogate vs Kidderminster | 1X | 82% ★ | 1.23 | 1.12 | ✅ 3-1 |
 | 10:00 | Japan · J1 League | V-Varen Nagasaki vs Kawasaki Frontale | 12 | 77% ☆ | 1.30 | 1.21 |  |
-| 18:00 | Italy · Serie B | Cremonese vs Avellino | 1X | 77% ☆ | 1.30 | 1.21 |  |
+| 18:00 | Italy · Serie B | Cremonese vs Avellino | 1X | 77% ☆ | 1.30 | 1.21 | ❌ 0-1 |
 | 10:30 | Japan · J1 League | Urawa Reds vs Cerezo Osaka | 12 | 76% ☆ | 1.31 | 1.21 |  |
-| 19:45 | England · National League | Hartlepool vs Solihull | 12 | 76% ☆ | 1.31 | 1.22 |  |
+| 19:45 | England · National League | Hartlepool vs Solihull | 12 | 76% ☆ | 1.31 | 1.22 | ✅ 2-0 |
 | 19:45 | England · Championship | Bolton vs West Brom | 12 | 75% ☆ | 1.32 | 1.26 | ✅ 1-3 |
 | 03:00 | USA · MLS | San Jose Earthquakes vs Houston Dynamo | 12 | 75% ☆ | 1.34 | 1.25 |  |
 | 19:45 | England · Championship | Burnley vs Birmingham | 12 | 75% ☆ | 1.34 | 1.27 | ✅ 0-2 |
@@ -176,11 +176,11 @@ _No upcoming matches in the published fixtures for this day._
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 29/32 (91%), ROI -5% | 94/104 (90%), ROI -5% | 170/190 (89%), ROI -6% |
-| BTTS & Over 2.5 | 44/73 (60%) | 145/262 (55%) | 306/551 (56%) |
-| Over 2.5 Goals | 53/72 (74%), ROI +3% | 179/262 (68%), ROI -5% | 376/552 (68%), ROI -3% |
-| Both Teams To Score | 46/75 (61%) | 166/271 (61%) | 354/570 (62%) |
-| Double Chance | 63/76 (83%), ROI -6% | 243/291 (84%), ROI -6% | 537/631 (85%), ROI -4% |
+| 🔒 Bankers | 32/35 (91%), ROI -3% | 97/107 (91%), ROI -5% | 173/193 (90%), ROI -6% |
+| BTTS & Over 2.5 | 50/89 (56%) | 151/278 (54%) | 312/567 (55%) |
+| Over 2.5 Goals | 64/90 (71%), ROI +0% | 190/280 (68%), ROI -5% | 387/570 (68%), ROI -4% |
+| Both Teams To Score | 56/93 (60%) | 176/289 (61%) | 364/588 (62%) |
+| Double Chance | 75/93 (81%), ROI -9% | 255/308 (83%), ROI -7% | 549/648 (85%), ROI -5% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
