@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-27 01:00 UTC · kick-off times in UTC_
+_Generated 2026-11-27 03:46 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -10,11 +10,13 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 5 matches analysed across 4 leagues.
 
+**Results:** ✅ 1 won · ❌ 0 lost · 13 pending
+
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
-| 23:00 | Sao Paulo vs Remo | Double Chance | 1X | 89% | 1.12 |  |
+| 23:00 | Sao Paulo vs Remo | Double Chance | 1X | 89% | 1.12 | ✅ 3-1 |
 
 ### 🔥 BTTS & Over 2.5
 
@@ -44,7 +46,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 23:00 | Brazil · Serie A | Sao Paulo vs Remo | 1X | 89% 🔒 | 1.12 | 1.05 |  |
+| 23:00 | Brazil · Serie A | Sao Paulo vs Remo | 1X | 89% 🔒 | 1.12 | 1.05 | ✅ 3-1 |
 | 01:00 | Mexico · Liga MX | Toluca vs Atlas | 1X | 86% ★★ | 1.16 | 1.08 |  |
 | 00:00 | Argentina · Liga Profesional | Boca Juniors vs Ind. Rivadavia | 1X | 84% ★ | 1.18 | 1.11 |  |
 | 20:00 | England · League One | Doncaster vs Huddersfield | 12 | 78% ☆ | 1.29 | 1.21 |  |
@@ -95,11 +97,11 @@ _No upcoming matches in the published fixtures for this day._
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 31/33 (94%), ROI -0% | 93/103 (90%), ROI -5% | 173/193 (90%), ROI -6% |
+| 🔒 Bankers | 32/34 (94%), ROI -0% | 94/104 (90%), ROI -5% | 174/194 (90%), ROI -6% |
 | BTTS & Over 2.5 | 40/75 (53%) | 144/263 (55%) | 312/567 (55%) |
 | Over 2.5 Goals | 55/76 (72%), ROI +4% | 180/265 (68%), ROI -5% | 387/570 (68%), ROI -4% |
 | Both Teams To Score | 44/78 (56%) | 166/274 (61%) | 364/588 (62%) |
-| Double Chance | 65/80 (81%), ROI -9% | 243/293 (83%), ROI -7% | 549/648 (85%), ROI -5% |
+| Double Chance | 66/81 (81%), ROI -9% | 244/294 (83%), ROI -7% | 550/649 (85%), ROI -5% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 

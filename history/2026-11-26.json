@@ -322,8 +322,12 @@
    "flags": [
     "Remo new to league"
    ],
-   "result": null,
-   "predicted_at": "2026-11-24T15:56:21+00:00"
+   "result": [
+    3,
+    1
+   ],
+   "predicted_at": "2026-11-24T15:56:21+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -501,8 +505,12 @@
     "market_odds": 1.05,
     "edge": -0.0609,
     "published_at": "2026-11-24T15:56:21+00:00",
-    "status": "pending",
-    "result": null
+    "status": "won",
+    "result": [
+     3,
+     1
+    ],
+    "provisional": true
    },
    {
     "market": "double_chance",
