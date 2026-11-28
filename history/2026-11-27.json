@@ -1582,8 +1582,12 @@
     116
    ],
    "flags": [],
-   "result": null,
-   "predicted_at": "2026-11-27T15:10:18+00:00"
+   "result": [
+    0,
+    1
+   ],
+   "predicted_at": "2026-11-27T15:10:18+00:00",
+   "provisional": true
   }
  ],
  "picks": {
@@ -2455,8 +2459,12 @@
     "market_odds": null,
     "edge": null,
     "published_at": "2026-11-27T15:10:18+00:00",
-    "status": "pending",
-    "result": null
+    "status": "lost",
+    "result": [
+     0,
+     1
+    ],
+    "provisional": true
    }
   ],
   "double_chance": [

@@ -1,6 +1,6 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-28 00:32 UTC · kick-off times in UTC_
+_Generated 2026-11-28 03:30 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
@@ -10,7 +10,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 24 matches analysed across 19 leagues.
 
-**Results:** ✅ 20 won · ❌ 10 lost · 33 pending
+**Results:** ✅ 20 won · ❌ 11 lost · 32 pending
 
 ### 🔒 Bankers: the day's safest tips
 
@@ -77,7 +77,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 19:00 | Netherlands · Eredivisie | Groningen vs Willem II | BTTS Yes | 54% ☆ | 1.84 | - | ✅ 1-1 |
 | 01:00 | Mexico · Liga MX | Pachuca vs Guadalajara Chivas | BTTS Yes | 53% ☆ | 1.89 | - | ✅ 2-1 |
 | 18:30 | Austria · Bundesliga | Grazer AK vs Altach | BTTS Yes | 52% ☆ | 1.93 | - |  |
-| 23:00 | Brazil · Serie A | Fluminense vs Cruzeiro | BTTS Yes | 51% ☆ | 1.98 | - |  |
+| 23:00 | Brazil · Serie A | Fluminense vs Cruzeiro | BTTS Yes | 51% ☆ | 1.98 | - | ❌ 0-1 |
 
 ### 🛡️ Double Chance
 
@@ -423,7 +423,7 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 🔒 Bankers | 20/20 (100%), ROI +7% | 95/105 (90%), ROI -5% | 175/195 (90%), ROI -6% |
 | BTTS & Over 2.5 | 33/67 (49%) | 139/260 (53%) | 318/579 (55%) |
 | Over 2.5 Goals | 45/68 (66%), ROI -1% | 177/262 (68%), ROI -6% | 394/582 (68%), ROI -4% |
-| Both Teams To Score | 44/74 (59%) | 164/274 (60%) | 374/603 (62%) |
+| Both Teams To Score | 44/75 (59%) | 164/275 (60%) | 374/604 (62%) |
 | Double Chance | 64/79 (81%), ROI -6% | 248/296 (84%), ROI -6% | 564/666 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
