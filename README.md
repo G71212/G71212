@@ -1,107 +1,60 @@
 # ⚽ GOLDING'S PREDICTION
 
-_Generated 2026-11-27 15:10 UTC · kick-off times in UTC_
+_Generated 2026-11-28 00:32 UTC · kick-off times in UTC_
 
 **[Open the live dashboard](https://g71212.github.io/G71212/)**
 
 _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below the usual confidence bar_
 
-## Thursday 26 November 2026
-
-5 matches analysed across 4 leagues.
-
-**Results:** ✅ 3 won · ❌ 7 lost · 4 pending
-
-### 🔒 Bankers: the day's safest tips
-
-| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
-|---|---|---|---|---|---|---|
-| 23:00 | Sao Paulo vs Remo | Double Chance | 1X | 89% | 1.12 | ✅ 3-1 |
-
-### 🔥 BTTS & Over 2.5
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 20:00 | England · League One | Doncaster vs Huddersfield | BTTS & Over 2.5 | 49% ☆ | 2.03 | - |  |
-| 03:10 | Mexico · Liga MX | Monterrey vs Club America | BTTS & Over 2.5 | 49% ☆ | 2.05 | - | ❌ 0-0 |
-| 01:00 | Mexico · Liga MX | Toluca vs Atlas | BTTS & Over 2.5 | 48% ☆ | 2.09 | - | ❌ 2-0 |
-
-### ⚽ Over 2.5 Goals
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 01:00 | Mexico · Liga MX | Toluca vs Atlas | Over 2.5 | 64% ★ | 1.55 | - | ❌ 2-0 |
-| 20:00 | England · League One | Doncaster vs Huddersfield | Over 2.5 | 60% ☆ | 1.66 | 1.54 |  |
-| 03:10 | Mexico · Liga MX | Monterrey vs Club America | Over 2.5 | 58% ☆ | 1.74 | - | ❌ 0-0 |
-
-### 🎯 Both Teams To Score
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 03:10 | Mexico · Liga MX | Monterrey vs Club America | BTTS Yes | 61% ★ | 1.65 | - | ❌ 0-0 |
-| 20:00 | England · League One | Doncaster vs Huddersfield | BTTS Yes | 60% ☆ | 1.68 | - |  |
-| 01:00 | Mexico · Liga MX | Toluca vs Atlas | BTTS Yes | 57% ☆ | 1.77 | - | ❌ 2-0 |
-
-### 🛡️ Double Chance
-
-| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
-|---|---|---|---|---|---|---|---|
-| 23:00 | Brazil · Serie A | Sao Paulo vs Remo | 1X | 89% 🔒 | 1.12 | 1.05 | ✅ 3-1 |
-| 01:00 | Mexico · Liga MX | Toluca vs Atlas | 1X | 86% ★★ | 1.16 | 1.08 | ✅ 2-0 |
-| 00:00 | Argentina · Liga Profesional | Boca Juniors vs Ind. Rivadavia | 1X | 84% ★ | 1.18 | 1.11 | ✅ 2-0 |
-| 20:00 | England · League One | Doncaster vs Huddersfield | 12 | 78% ☆ | 1.29 | 1.21 |  |
-| 03:10 | Mexico · Liga MX | Monterrey vs Club America | 12 | 75% ☆ | 1.34 | 1.27 | ❌ 0-0 |
-
-
 ## Friday 27 November 2026
 
 24 matches analysed across 19 leagues.
 
-**Results:** ✅ 4 won · ❌ 2 lost · 57 pending
+**Results:** ✅ 20 won · ❌ 10 lost · 33 pending
 
 ### 🔒 Bankers: the day's safest tips
 
 | Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
 |---|---|---|---|---|---|---|
-| 19:00 | Groningen vs Willem II | Double Chance | 1X | 90% | 1.12 |  |
+| 19:00 | Groningen vs Willem II | Double Chance | 1X | 90% | 1.12 | ✅ 1-1 |
 
 ### 🔥 BTTS & Over 2.5
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 17:30 | Germany · 2. Bundesliga | Heidenheim vs Nurnberg | BTTS & Over 2.5 | 58% ★★ | 1.72 | - |  |
-| 20:00 | Spain · La Liga | Levante vs Santander | BTTS & Over 2.5 | 58% ★★ | 1.72 | - |  |
+| 20:00 | Spain · La Liga | Levante vs Santander | BTTS & Over 2.5 | 58% ★★ | 1.72 | - | ✅ 1-3 |
 | 19:45 | England · National League | Scunthorpe vs Wealdstone | BTTS & Over 2.5 | 56% ★★ | 1.79 | - |  |
-| 20:00 | England · Championship | Southampton vs Middlesbrough | BTTS & Over 2.5 | 52% ★ | 1.94 | - |  |
-| 19:30 | Germany · Bundesliga | Werder Bremen vs M'gladbach | BTTS & Over 2.5 | 50% ★ | 1.99 | - |  |
+| 20:00 | England · Championship | Southampton vs Middlesbrough | BTTS & Over 2.5 | 52% ★ | 1.94 | - | ❌ 2-0 |
+| 19:30 | Germany · Bundesliga | Werder Bremen vs M'gladbach | BTTS & Over 2.5 | 50% ★ | 1.99 | - | ✅ 3-3 |
 | 17:00 | Turkey · Süper Lig | Rizespor vs Kasimpasa | BTTS & Over 2.5 | 47% ☆ | 2.12 | - |  |
 | 03:10 | Mexico · Liga MX | Club Leon vs Cruz Azul | BTTS & Over 2.5 | 47% ☆ | 2.13 | - | ❌ 0-4 |
-| 19:00 | Netherlands · Eredivisie | Groningen vs Willem II | BTTS & Over 2.5 | 47% ☆ | 2.13 | - |  |
+| 19:00 | Netherlands · Eredivisie | Groningen vs Willem II | BTTS & Over 2.5 | 47% ☆ | 2.13 | - | ❌ 1-1 |
 | 19:45 | Belgium · Pro League | Oud-Heverlee Leuven vs Kortrijk | BTTS & Over 2.5 | 47% ☆ | 2.14 | - |  |
 | 18:00 | Denmark · Superliga | Sonderjyske vs Brondby | BTTS & Over 2.5 | 47% ☆ | 2.14 | - |  |
 | 17:30 | Germany · 2. Bundesliga | Bochum vs Darmstadt | BTTS & Over 2.5 | 46% ☆ | 2.19 | - |  |
 | 17:00 | Poland · Ekstraklasa | Rakow vs Piast Gliwice | BTTS & Over 2.5 | 43% ☆ | 2.31 | - |  |
-| 20:00 | England · Premier League | Nott'm Forest vs Chelsea | BTTS & Over 2.5 | 43% ☆ | 2.35 | - |  |
-| 19:45 | France · Ligue 1 | Brest vs Paris FC | BTTS & Over 2.5 | 42% ☆ | 2.36 | - |  |
+| 20:00 | England · Premier League | Nott'm Forest vs Chelsea | BTTS & Over 2.5 | 43% ☆ | 2.35 | - | ✅ 3-2 |
+| 19:45 | France · Ligue 1 | Brest vs Paris FC | BTTS & Over 2.5 | 42% ☆ | 2.36 | - | ❌ 1-0 |
 
 ### ⚽ Over 2.5 Goals
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 20:00 | Spain · La Liga | Levante vs Santander | Over 2.5 | 68% ★★ | 1.47 | 1.39 |  |
+| 20:00 | Spain · La Liga | Levante vs Santander | Over 2.5 | 68% ★★ | 1.47 | 1.39 | ✅ 1-3 |
 | 17:30 | Germany · 2. Bundesliga | Heidenheim vs Nurnberg | Over 2.5 | 68% ★★ | 1.48 | 1.39 |  |
-| 19:00 | Netherlands · Eredivisie | Groningen vs Willem II | Over 2.5 | 67% ★ | 1.50 | 1.42 |  |
+| 19:00 | Netherlands · Eredivisie | Groningen vs Willem II | Over 2.5 | 67% ★ | 1.50 | 1.42 | ❌ 1-1 |
 | 19:45 | England · National League | Scunthorpe vs Wealdstone | Over 2.5 | 65% ★ | 1.54 | 1.45 |  |
-| 19:30 | Germany · Bundesliga | Werder Bremen vs M'gladbach | Over 2.5 | 62% ★ | 1.61 | 1.52 |  |
-| 20:00 | England · Championship | Southampton vs Middlesbrough | Over 2.5 | 60% ☆ | 1.66 | 1.55 |  |
+| 19:30 | Germany · Bundesliga | Werder Bremen vs M'gladbach | Over 2.5 | 62% ★ | 1.61 | 1.52 | ✅ 3-3 |
+| 20:00 | England · Championship | Southampton vs Middlesbrough | Over 2.5 | 60% ☆ | 1.66 | 1.55 | ❌ 2-0 |
 | 18:00 | Denmark · Superliga | Sonderjyske vs Brondby | Over 2.5 | 58% ☆ | 1.72 | - |  |
 | 17:30 | Germany · 2. Bundesliga | Bochum vs Darmstadt | Over 2.5 | 57% ☆ | 1.76 | 1.63 |  |
 | 17:00 | Turkey · Süper Lig | Rizespor vs Kasimpasa | Over 2.5 | 57% ☆ | 1.76 | 1.64 |  |
 | 19:45 | Belgium · Pro League | Oud-Heverlee Leuven vs Kortrijk | Over 2.5 | 56% ☆ | 1.78 | 1.63 |  |
 | 03:10 | Mexico · Liga MX | Club Leon vs Cruz Azul | Over 2.5 | 56% ☆ | 1.79 | - | ✅ 0-4 |
 | 17:00 | Poland · Ekstraklasa | Rakow vs Piast Gliwice | Over 2.5 | 53% ☆ | 1.87 | - |  |
-| 19:45 | France · Ligue 1 | Brest vs Paris FC | Over 2.5 | 51% ☆ | 1.97 | 1.86 |  |
-| 20:00 | England · Premier League | Nott'm Forest vs Chelsea | Over 2.5 | 51% ☆ | 1.97 | 1.86 |  |
+| 19:45 | France · Ligue 1 | Brest vs Paris FC | Over 2.5 | 51% ☆ | 1.97 | 1.86 | ❌ 1-0 |
+| 20:00 | England · Premier League | Nott'm Forest vs Chelsea | Over 2.5 | 51% ☆ | 1.97 | 1.86 | ✅ 3-2 |
 | 15:30 | Romania · Superliga | U. Cluj vs Sepsi Sf. Gheorghe | Over 2.5 | 50% ☆ | 1.99 | - |  |
 
 ### 🎯 Both Teams To Score
@@ -109,19 +62,19 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
 | 17:30 | Germany · 2. Bundesliga | Heidenheim vs Nurnberg | BTTS Yes | 68% ★★ | 1.47 | - |  |
-| 20:00 | Spain · La Liga | Levante vs Santander | BTTS Yes | 67% ★★ | 1.48 | - |  |
+| 20:00 | Spain · La Liga | Levante vs Santander | BTTS Yes | 67% ★★ | 1.48 | - | ✅ 1-3 |
 | 19:45 | England · National League | Scunthorpe vs Wealdstone | BTTS Yes | 66% ★★ | 1.52 | - |  |
-| 20:00 | England · Championship | Southampton vs Middlesbrough | BTTS Yes | 62% ★ | 1.60 | - |  |
-| 19:30 | Germany · Bundesliga | Werder Bremen vs M'gladbach | BTTS Yes | 60% ★ | 1.65 | - |  |
+| 20:00 | England · Championship | Southampton vs Middlesbrough | BTTS Yes | 62% ★ | 1.60 | - | ❌ 2-0 |
+| 19:30 | Germany · Bundesliga | Werder Bremen vs M'gladbach | BTTS Yes | 60% ★ | 1.65 | - | ✅ 3-3 |
 | 17:00 | Turkey · Süper Lig | Rizespor vs Kasimpasa | BTTS Yes | 59% ☆ | 1.70 | - |  |
 | 03:10 | Mexico · Liga MX | Club Leon vs Cruz Azul | BTTS Yes | 59% ☆ | 1.70 | - | ❌ 0-4 |
 | 18:00 | Denmark · Superliga | Sonderjyske vs Brondby | BTTS Yes | 58% ☆ | 1.72 | - |  |
 | 19:45 | Belgium · Pro League | Oud-Heverlee Leuven vs Kortrijk | BTTS Yes | 58% ☆ | 1.72 | - |  |
 | 17:30 | Germany · 2. Bundesliga | Bochum vs Darmstadt | BTTS Yes | 57% ☆ | 1.76 | - |  |
 | 17:00 | Poland · Ekstraklasa | Rakow vs Piast Gliwice | BTTS Yes | 56% ☆ | 1.79 | - |  |
-| 20:00 | England · Premier League | Nott'm Forest vs Chelsea | BTTS Yes | 56% ☆ | 1.80 | - |  |
-| 19:45 | France · Ligue 1 | Brest vs Paris FC | BTTS Yes | 55% ☆ | 1.83 | - |  |
-| 19:00 | Netherlands · Eredivisie | Groningen vs Willem II | BTTS Yes | 54% ☆ | 1.84 | - |  |
+| 20:00 | England · Premier League | Nott'm Forest vs Chelsea | BTTS Yes | 56% ☆ | 1.80 | - | ✅ 3-2 |
+| 19:45 | France · Ligue 1 | Brest vs Paris FC | BTTS Yes | 55% ☆ | 1.83 | - | ❌ 1-0 |
+| 19:00 | Netherlands · Eredivisie | Groningen vs Willem II | BTTS Yes | 54% ☆ | 1.84 | - | ✅ 1-1 |
 | 01:00 | Mexico · Liga MX | Pachuca vs Guadalajara Chivas | BTTS Yes | 53% ☆ | 1.89 | - | ✅ 2-1 |
 | 18:30 | Austria · Bundesliga | Grazer AK vs Altach | BTTS Yes | 52% ☆ | 1.93 | - |  |
 | 23:00 | Brazil · Serie A | Fluminense vs Cruzeiro | BTTS Yes | 51% ☆ | 1.98 | - |  |
@@ -130,22 +83,22 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 
 | Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
 |---|---|---|---|---|---|---|---|
-| 19:00 | Netherlands · Eredivisie | Groningen vs Willem II | 1X | 90% 🔒 | 1.12 | 1.04 |  |
+| 19:00 | Netherlands · Eredivisie | Groningen vs Willem II | 1X | 90% 🔒 | 1.12 | 1.04 | ✅ 1-1 |
 | 19:30 | Poland · Ekstraklasa | Gornik Zabrze vs Wisla Plock | 1X | 87% ★★ | 1.14 | 1.07 |  |
 | 15:30 | Romania · Superliga | U. Cluj vs Sepsi Sf. Gheorghe | 1X | 84% ★ | 1.19 | 1.10 |  |
 | 18:00 | Denmark · Superliga | Sonderjyske vs Brondby | X2 | 79% ☆ | 1.26 | 1.16 |  |
-| 19:30 | Germany · Bundesliga | Werder Bremen vs M'gladbach | 1X | 79% ☆ | 1.27 | 1.19 |  |
+| 19:30 | Germany · Bundesliga | Werder Bremen vs M'gladbach | 1X | 79% ☆ | 1.27 | 1.19 | ✅ 3-3 |
 | 17:30 | Germany · 2. Bundesliga | Bochum vs Darmstadt | 1X | 79% ☆ | 1.27 | 1.17 |  |
-| 20:00 | Spain · La Liga | Levante vs Santander | 12 | 78% ☆ | 1.28 | 1.24 |  |
+| 20:00 | Spain · La Liga | Levante vs Santander | 12 | 78% ☆ | 1.28 | 1.24 | ✅ 1-3 |
 | 19:45 | England · National League | Scunthorpe vs Wealdstone | 12 | 77% ☆ | 1.29 | 1.20 |  |
 | 17:30 | Germany · 2. Bundesliga | Heidenheim vs Nurnberg | 12 | 77% ☆ | 1.30 | 1.22 |  |
 | 17:00 | Poland · Ekstraklasa | Rakow vs Piast Gliwice | 1X | 77% ☆ | 1.30 | 1.22 |  |
 | 19:45 | Belgium · Pro League | Oud-Heverlee Leuven vs Kortrijk | 12 | 76% ☆ | 1.31 | 1.25 |  |
-| 20:00 | England · Championship | Southampton vs Middlesbrough | 12 | 76% ☆ | 1.32 | 1.26 |  |
+| 20:00 | England · Championship | Southampton vs Middlesbrough | 12 | 76% ☆ | 1.32 | 1.26 | ✅ 2-0 |
 | 17:00 | Turkey · Süper Lig | Rizespor vs Kasimpasa | 12 | 75% ☆ | 1.33 | 1.24 |  |
 | 03:10 | Mexico · Liga MX | Club Leon vs Cruz Azul | 12 | 75% ☆ | 1.34 | 1.24 | ✅ 0-4 |
-| 20:15 | Portugal · Primeira Liga | Maritimo vs Nacional | 12 | 74% ☆ | 1.35 | 1.32 |  |
-| 19:45 | France · Ligue 1 | Brest vs Paris FC | 12 | 74% ☆ | 1.35 | 1.30 |  |
+| 20:15 | Portugal · Primeira Liga | Maritimo vs Nacional | 12 | 74% ☆ | 1.35 | 1.32 | ✅ 1-2 |
+| 19:45 | France · Ligue 1 | Brest vs Paris FC | 12 | 74% ☆ | 1.35 | 1.30 | ✅ 1-0 |
 | 01:00 | Mexico · Liga MX | Pachuca vs Guadalajara Chivas | 12 | 72% ☆ | 1.38 | 1.26 | ✅ 2-1 |
 
 
@@ -389,15 +342,89 @@ _🔒 banker (safest tip) · ★ to ★★★ confidence · ☆ extra pick below
 | 16:30 | Poland · Ekstraklasa | Legia vs Wieczysta Krakow | 1X | 82% ★ | 1.22 | 1.15 |  |
 | 14:00 | Sweden · Allsvenskan | Malmo FF vs Brommapojkarna | 1X | 82% ★ | 1.22 | 1.14 |  |
 
+
+## Monday 30 November 2026
+
+15 matches analysed across 11 leagues.
+
+### 🔒 Bankers: the day's safest tips
+
+| Kick-off | Match | Market | Tip | Probability | Fair odds | Result |
+|---|---|---|---|---|---|---|
+| 20:15 | Benfica vs Famalicao | Double Chance | 1X | 93% | 1.07 |  |
+
+### 🔥 BTTS & Over 2.5
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:00 | Turkey · Süper Lig | Besiktas vs Galatasaray | BTTS & Over 2.5 | 55% ★ | 1.83 | - |  |
+| 16:00 | Turkey · Süper Lig | Goztep vs Trabzonspor | BTTS & Over 2.5 | 50% ★ | 1.99 | - |  |
+| 03:00 | Mexico · Liga MX | Cruz Azul vs Club Leon | BTTS & Over 2.5 | 50% ☆ | 2.01 | - |  |
+| 18:00 | Denmark · Superliga | Odense vs Nordsjaelland | BTTS & Over 2.5 | 50% ☆ | 2.02 | - |  |
+| 17:30 | Italy · Serie A | Lecce vs Atalanta | BTTS & Over 2.5 | 47% ☆ | 2.12 | - |  |
+| 18:00 | Norway · Eliteserien | Lillestrom vs HamKam | BTTS & Over 2.5 | 45% ☆ | 2.20 | - |  |
+| 19:30 | Italy · Serie B | Catanzaro vs Avellino | BTTS & Over 2.5 | 45% ☆ | 2.22 | - |  |
+| 19:30 | Spain · Segunda División | Oviedo vs Celta B | BTTS & Over 2.5 | 43% ☆ | 2.34 | - |  |
+
+### ⚽ Over 2.5 Goals
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 20:15 | Portugal · Primeira Liga | Benfica vs Famalicao | Over 2.5 | 65% ★ | 1.54 | 1.41 |  |
+| 18:00 | Turkey · Süper Lig | Besiktas vs Galatasaray | Over 2.5 | 64% ★ | 1.56 | 1.46 |  |
+| 03:00 | Mexico · Liga MX | Cruz Azul vs Club Leon | Over 2.5 | 60% ☆ | 1.65 | - |  |
+| 18:00 | Denmark · Superliga | Odense vs Nordsjaelland | Over 2.5 | 59% ☆ | 1.68 | - |  |
+| 16:00 | Turkey · Süper Lig | Goztep vs Trabzonspor | Over 2.5 | 59% ☆ | 1.69 | 1.57 |  |
+| 17:30 | Italy · Serie A | Lecce vs Atalanta | Over 2.5 | 58% ☆ | 1.74 | 1.60 |  |
+| 19:30 | Spain · Segunda División | Oviedo vs Celta B | Over 2.5 | 57% ☆ | 1.75 | 1.62 |  |
+| 18:00 | Norway · Eliteserien | Lillestrom vs HamKam | Over 2.5 | 57% ☆ | 1.75 | - |  |
+| 19:30 | Italy · Serie B | Catanzaro vs Avellino | Over 2.5 | 53% ☆ | 1.88 | 1.75 |  |
+| 19:45 | Italy · Serie A | Cagliari vs Milan | Over 2.5 | 51% ☆ | 1.96 | 1.82 |  |
+
+### 🎯 Both Teams To Score
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 18:00 | Turkey · Süper Lig | Besiktas vs Galatasaray | BTTS Yes | 65% ★★ | 1.53 | - |  |
+| 16:00 | Turkey · Süper Lig | Goztep vs Trabzonspor | BTTS Yes | 62% ★ | 1.62 | - |  |
+| 18:00 | Denmark · Superliga | Odense vs Nordsjaelland | BTTS Yes | 61% ★ | 1.63 | - |  |
+| 03:00 | Mexico · Liga MX | Cruz Azul vs Club Leon | BTTS Yes | 60% ★ | 1.65 | - |  |
+| 19:30 | Italy · Serie B | Catanzaro vs Avellino | BTTS Yes | 58% ☆ | 1.73 | - |  |
+| 17:30 | Italy · Serie A | Lecce vs Atalanta | BTTS Yes | 58% ☆ | 1.73 | - |  |
+| 18:00 | Norway · Eliteserien | Lillestrom vs HamKam | BTTS Yes | 56% ☆ | 1.79 | - |  |
+| 19:30 | Spain · Segunda División | Oviedo vs Celta B | BTTS Yes | 52% ☆ | 1.91 | - |  |
+| 18:00 | Poland · Ekstraklasa | Korona Kielce vs Cracovia | BTTS Yes | 51% ☆ | 1.95 | - |  |
+| 19:45 | Italy · Serie A | Cagliari vs Milan | BTTS Yes | 51% ☆ | 1.96 | - |  |
+
+### 🛡️ Double Chance
+
+| Kick-off | League | Match | Tip | Probability | Fair odds | Market odds | Result |
+|---|---|---|---|---|---|---|---|
+| 20:15 | Portugal · Primeira Liga | Benfica vs Famalicao | 1X | 93% 🔒 | 1.07 | 1.00 |  |
+| 20:15 | Portugal · Primeira Liga | Casa Pia vs Sp Braga | X2 | 85% ★★ | 1.17 | 1.07 |  |
+| 19:30 | Spain · Segunda División | Oviedo vs Celta B | 1X | 84% ★ | 1.18 | 1.09 |  |
+| 01:07 | Mexico · Liga MX | Guadalajara Chivas vs Pachuca | 1X | 80% ★ | 1.24 | 1.15 |  |
+| 18:00 | Romania · Superliga | Univ. Craiova vs Dinamo Bucuresti | 1X | 80% ★ | 1.25 | 1.14 |  |
+| 19:45 | Italy · Serie A | Cagliari vs Milan | X2 | 79% ☆ | 1.26 | 1.17 |  |
+| 18:00 | Norway · Eliteserien | Lillestrom vs HamKam | 1X | 79% ☆ | 1.26 | 1.16 |  |
+| 17:30 | Italy · Serie A | Lecce vs Atalanta | 12 | 77% ☆ | 1.30 | 1.24 |  |
+| 03:00 | Mexico · Liga MX | Cruz Azul vs Club Leon | 12 | 77% ☆ | 1.30 | 1.21 |  |
+| 18:00 | Turkey · Süper Lig | Besiktas vs Galatasaray | 12 | 76% ☆ | 1.32 | 1.22 |  |
+| 20:00 | Spain · La Liga | Espanol vs Getafe | 1X | 75% ☆ | 1.33 | 1.24 |  |
+| 18:00 | Denmark · Superliga | Odense vs Nordsjaelland | 12 | 75% ☆ | 1.33 | 1.20 |  |
+| 16:00 | Turkey · Süper Lig | Goztep vs Trabzonspor | 12 | 75% ☆ | 1.33 | 1.22 |  |
+| 18:00 | Poland · Ekstraklasa | Korona Kielce vs Cracovia | 1X | 73% ☆ | 1.36 | 1.27 |  |
+| 19:30 | Italy · Serie B | Catanzaro vs Avellino | 12 | 73% ☆ | 1.38 | 1.28 |  |
+
 ## 📊 Track record
 
 | Market | Last 7 days | Last 30 days | All time |
 |---|---|---|---|
-| 🔒 Bankers | 32/34 (94%), ROI -0% | 94/104 (90%), ROI -5% | 174/194 (90%), ROI -6% |
-| BTTS & Over 2.5 | 43/81 (53%) | 147/269 (55%) | 315/573 (55%) |
-| Over 2.5 Goals | 59/82 (72%), ROI +4% | 184/271 (68%), ROI -5% | 391/576 (68%), ROI -4% |
-| Both Teams To Score | 50/87 (57%) | 172/283 (61%) | 370/597 (62%) |
-| Double Chance | 74/92 (80%), ROI -9% | 252/305 (83%), ROI -7% | 558/660 (85%), ROI -5% |
+| 🔒 Bankers | 20/20 (100%), ROI +7% | 95/105 (90%), ROI -5% | 175/195 (90%), ROI -6% |
+| BTTS & Over 2.5 | 33/67 (49%) | 139/260 (53%) | 318/579 (55%) |
+| Over 2.5 Goals | 45/68 (66%), ROI -1% | 177/262 (68%), ROI -6% | 394/582 (68%), ROI -4% |
+| Both Teams To Score | 44/74 (59%) | 164/274 (60%) | 374/603 (62%) |
+| Double Chance | 64/79 (81%), ROI -6% | 248/296 (84%), ROI -6% | 564/666 (85%), ROI -4% |
 
 > Predictions are model probabilities, not certainties. Bet only what you can afford to lose. 18+ | Gamble responsibly.
 
